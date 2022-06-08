@@ -1,0 +1,835 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PBT_INFO">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PHIEU_BAO_TRI">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_LAP" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGUOI_LAP" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="41" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_HT_BT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_BT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="40" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DIA_DIEM" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_BD_KH" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGAY_KT_KH" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="BO_PHAN" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_NGHIEM_THU" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TT_SAU_BT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="200" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGUOI_NGHIEM_THU" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="41" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CHI_PHI_PHU_TUNG" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="CHI_PHI_VAT_TU" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="CHI_PHI_NHAN_CONG" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="CHI_PHI_DV" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="CHI_PHI_KHAC" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="TEN_TINH_TRANG" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_CONG_VIEC">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MO_TA_CV" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_BP" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_GIO_KH" type="xs:double" minOccurs="0" />
+                <xs:element name="NGAY_HOAN_THANH" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NOI_NGOAI">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_CONG_NHAN">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="HO_TEN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="41" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="BAN_TO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="103" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TU_NGAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DEN_NGAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CHINH_PHU">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_DICH_VU">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NOI_DUNG_SERVICE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_RUT_GON" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_LUONG" type="xs:int" minOccurs="0" />
+                <xs:element name="DON_GIA" type="xs:double" minOccurs="0" />
+                <xs:element name="TY_GIA" type="xs:double" minOccurs="0" />
+                <xs:element name="TY_GIA_USD" type="xs:double" minOccurs="0" />
+                <xs:element name="THANH_TIEN" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="THANH_TIEN_USD" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_VAT_TU">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SL_KH" type="xs:double" minOccurs="0" />
+                <xs:element name="SO_LUONG_THUC_XUAT" type="xs:double" minOccurs="0" />
+                <xs:element name="DVT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TT" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_PHU_TUNG">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PTTT" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+                <xs:element name="SL_KH" type="xs:double" minOccurs="0" />
+                <xs:element name="SL_TT" msdata:ReadOnly="true" type="xs:int" />
+                <xs:element name="TEN_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="GHI_CHU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="512" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DVT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TT" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="BT_NUMBER_RECORD">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NR_CONG_VIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_CONG_NHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_DICH_VU" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_PHU_TUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_VAT_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_TT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_PHIEU_BAO_TRI_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="MAU_SO" type="xs:string" minOccurs="0" />
+                <xs:element name="PHIEU_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_LAP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_LAP" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TINH_TRANG" type="xs:string" minOccurs="0" />
+                <xs:element name="MO_TA" type="xs:string" minOccurs="0" />
+                <xs:element name="HINH_THUC_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="DIA_DIEM" type="xs:string" minOccurs="0" />
+                <xs:element name="Column13" type="xs:string" minOccurs="0" />
+                <xs:element name="KE_HOACH" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_BD" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_KT" type="xs:string" minOccurs="0" />
+                <xs:element name="BO_PHAN_CP" type="xs:string" minOccurs="0" />
+                <xs:element name="PHE_DUYET1" type="xs:string" minOccurs="0" />
+                <xs:element name="PHE_DUYET2" type="xs:string" minOccurs="0" />
+                <xs:element name="PHE_DUYET3" type="xs:string" minOccurs="0" />
+                <xs:element name="PHE_DUYET4" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_CONG_VIEC_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DANH_SACH_CV" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_CONG_VIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_SPHUT_KH" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_NGAY_HT" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_LOAI_CV" type="xs:string" minOccurs="0" />
+                <xs:element name="TONG_PHUT_KH_CV" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_NHAN_VIEN_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NV_DS_NV" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_HO_TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_TO_PB" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_TU_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_DEN_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_LOAI_VN" type="xs:string" minOccurs="0" />
+                <xs:element name="Column7" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_DICH_VU_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DV_DS_DV" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_ND" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_CTY" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_SL" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_DG" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_TG" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_TT" type="xs:string" minOccurs="0" />
+                <xs:element name="Column8" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_PHU_TUNG_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PT_DS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_MS_PTTT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_TEN_PTTT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_SL_KH" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_SL_TT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_GHI_CHU" type="xs:string" minOccurs="0" />
+                <xs:element name="Column10" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_VAT_TU_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VT_DS_VT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_MS_VT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_TEN_VT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_SL_KH" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_SL_TT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_GHI_CHU" type="xs:string" minOccurs="0" />
+                <xs:element name="Column8" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_CHI_PHI_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TONG_CHI_PHI" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_NOI_DUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_TIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_TONG" type="xs:string" minOccurs="0" />
+                <xs:element name="KQ_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="KQ_NGAY_NT" type="xs:string" minOccurs="0" />
+                <xs:element name="KQ_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_NT" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_PHU_TUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_VAT_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_NHAN_CONG" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_DICH_VU" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_KHAC" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PBT_INFO>
+    <MS_MAY>PHAY-CNC-01</MS_MAY>
+    <TEN_MAY>Máy phay CNC-01</TEN_MAY>
+    <MS_PHIEU_BAO_TRI>WO-200909007</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>14/09/2009 14:05</NGAY_LAP>
+    <NGUOI_LAP>PHẠM VĂN TRÁNG</NGUOI_LAP>
+    <TEN_HT_BT>Bảo trì định kỳ</TEN_HT_BT>
+    <TEN_LOAI_BT>TT 1 năm</TEN_LOAI_BT>
+    <DIA_DIEM>Xưởng CK khuôn mẫu</DIA_DIEM>
+    <NGAY_BD_KH>2009-09-14T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2009-09-14T00:00:00+07:00</NGAY_KT_KH>
+    <BO_PHAN>Khối kỹ thuật</BO_PHAN>
+    <CHI_PHI_PHU_TUNG>0</CHI_PHI_PHU_TUNG>
+    <CHI_PHI_VAT_TU>0</CHI_PHI_VAT_TU>
+    <CHI_PHI_NHAN_CONG>0</CHI_PHI_NHAN_CONG>
+    <CHI_PHI_DV>0</CHI_PHI_DV>
+    <CHI_PHI_KHAC>0</CHI_PHI_KHAC>
+    <TEN_TINH_TRANG>Đang soạn </TEN_TINH_TRANG>
+  </PBT_INFO>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Bơm mỡ cho các ổ bi đỡ trục bánh xích</MO_TA_CV>
+    <TEN_BP>03.03/Bộ truyền xích</TEN_BP>
+    <SO_GIO_KH>15</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Châm nhớt bộ bôi trơn khí nén</MO_TA_CV>
+    <TEN_BP>06/Hệ thống khí nén</TEN_BP>
+    <SO_GIO_KH>15</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Châm thêm nhớt cho bộ bôi trơn tự động</MO_TA_CV>
+    <TEN_BP>07/Hệ thống bôi trơn</TEN_BP>
+    <SO_GIO_KH>15</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Châm thêm nước hệ thống tưới nguội</MO_TA_CV>
+    <TEN_BP>09/Hệ thống bơm dung dịch trơn nguội</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra bề mặt visme</MO_TA_CV>
+    <TEN_BP>01.03/Trục visme-Đai ốc bi</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra bề mặt visme</MO_TA_CV>
+    <TEN_BP>02.03/Trục visme-Đai ốc bi</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra bề mặt visme</MO_TA_CV>
+    <TEN_BP>03.04/Trục visme-Đai ốc bi</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra các bộ phân phối dầu bôi trơn</MO_TA_CV>
+    <TEN_BP>07/Hệ thống bôi trơn</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra các xy lanh khí nén</MO_TA_CV>
+    <TEN_BP>06/Hệ thống khí nén</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra đai truyền động</MO_TA_CV>
+    <TEN_BP>03.02/Bộ truyền đai</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra đai truyền động</MO_TA_CV>
+    <TEN_BP>04.02/ Bộ truyền đai</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra hệ thống ống dẫn dầu làm mát trục chính</MO_TA_CV>
+    <TEN_BP>08/Hệ thống làm mát trục chính</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra motor + bơm + đường ống hệ thống tưới nguội</MO_TA_CV>
+    <TEN_BP>09/Hệ thống bơm dung dịch trơn nguội</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra ổ bi</MO_TA_CV>
+    <TEN_BP>01.03/Trục visme-Đai ốc bi</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra ổ bi</MO_TA_CV>
+    <TEN_BP>02.03/Trục visme-Đai ốc bi</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra ổ bi</MO_TA_CV>
+    <TEN_BP>03.04/Trục visme-Đai ốc bi</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra ổ bi</MO_TA_CV>
+    <TEN_BP>04.03/ Trục trung gian</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra ổ bi</MO_TA_CV>
+    <TEN_BP>04.04/ Trục chính kẹp dao</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra ống dẫn dầu bôi trơn</MO_TA_CV>
+    <TEN_BP>07/Hệ thống bôi trơn</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra ống dẫn khí nén và các co nối</MO_TA_CV>
+    <TEN_BP>06/Hệ thống khí nén</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra PSM</MO_TA_CV>
+    <TEN_BP>10.01/Tủ điện điều khiển</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra PSU</MO_TA_CV>
+    <TEN_BP>10.01/Tủ điện điều khiển</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra SPM</MO_TA_CV>
+    <TEN_BP>10.01/Tủ điện điều khiển</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra SVM</MO_TA_CV>
+    <TEN_BP>10.01/Tủ điện điều khiển</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra thay pin cho APC(Absolute Pulse Coder)</MO_TA_CV>
+    <TEN_BP>10.01/Tủ điện điều khiển</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra thay pin cho memory backup</MO_TA_CV>
+    <TEN_BP>10.01/Tủ điện điều khiển</TEN_BP>
+    <SO_GIO_KH>30</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra xích cân bằng chuyển động trục Z</MO_TA_CV>
+    <TEN_BP>03.03/Bộ truyền xích</TEN_BP>
+    <SO_GIO_KH>30</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Thay dầu làm mát trục chính</MO_TA_CV>
+    <TEN_BP>08/Hệ thống làm mát trục chính</TEN_BP>
+    <SO_GIO_KH>240</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Thay dung dịch tưới nguội</MO_TA_CV>
+    <TEN_BP>09/Hệ thống bơm dung dịch trơn nguội</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh - bôi mỡ xích cân bằng chuyển động theo phương Z</MO_TA_CV>
+    <TEN_BP>03.03/Bộ truyền xích</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh cooler</MO_TA_CV>
+    <TEN_BP>08/Hệ thống làm mát trục chính</TEN_BP>
+    <SO_GIO_KH>120</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh motor servo</MO_TA_CV>
+    <TEN_BP>01.01/Motor servo trục X</TEN_BP>
+    <SO_GIO_KH>15</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh motor servo</MO_TA_CV>
+    <TEN_BP>02.01/Motor servo trục Y</TEN_BP>
+    <SO_GIO_KH>15</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh motor servo</MO_TA_CV>
+    <TEN_BP>03.01/Motor servo trục Z</TEN_BP>
+    <SO_GIO_KH>15</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh motor trục chính</MO_TA_CV>
+    <TEN_BP>04.01/ Motor trục chính</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh quạt gió giải nhiệt PSM(Power Supply Module)</MO_TA_CV>
+    <TEN_BP>10.01/Tủ điện điều khiển</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh quạt gió giải nhiệt SPM(Spindle Amplifier Module)</MO_TA_CV>
+    <TEN_BP>10.01/Tủ điện điều khiển</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh quạt gió giải nhiệt SVM(Servo Amplifier Module)</MO_TA_CV>
+    <TEN_BP>10.01/Tủ điện điều khiển</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh quạt gió và lọc khí tủ điện</MO_TA_CV>
+    <TEN_BP>10.01/Tủ điện điều khiển</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh súc rửa bên trong bộ bôi trơn, lưới lọc và thay nhớt</MO_TA_CV>
+    <TEN_BP>07/Hệ thống bôi trơn</TEN_BP>
+    <SO_GIO_KH>120</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh thùng chứa nước tưới nguội</MO_TA_CV>
+    <TEN_BP>09/Hệ thống bơm dung dịch trơn nguội</TEN_BP>
+    <SO_GIO_KH>240</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh,bảo trì bộ lọc khí</MO_TA_CV>
+    <TEN_BP>06/Hệ thống khí nén</TEN_BP>
+    <SO_GIO_KH>60</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_PHU_TUNG>
+    <MS_PT>PIN0002</MS_PT>
+    <SL_KH>1</SL_KH>
+    <SL_TT>0</SL_TT>
+    <TEN_PT>Pin -driver - CNC</TEN_PT>
+    <DVT>bộ</DVT>
+    <TT>1</TT>
+  </PBT_PHU_TUNG>
+  <PBT_PHU_TUNG>
+    <MS_PT>PIN0001</MS_PT>
+    <SL_KH>1</SL_KH>
+    <SL_TT>0</SL_TT>
+    <TEN_PT>Pin - memory backup - CNC</TEN_PT>
+    <DVT>bộ</DVT>
+    <TT>1</TT>
+  </PBT_PHU_TUNG>
+  <BT_NUMBER_RECORD>
+    <NR_CONG_VIEC>42</NR_CONG_VIEC>
+    <NR_CONG_NHAN>0</NR_CONG_NHAN>
+    <NR_DICH_VU>0</NR_DICH_VU>
+    <NR_PHU_TUNG>2</NR_PHU_TUNG>
+    <NR_VAT_TU>0</NR_VAT_TU>
+    <NR_TT>1</NR_TT>
+  </BT_NUMBER_RECORD>
+  <TIEU_DE_PHIEU_BAO_TRI_BT>
+    <TIEU_DE>THÔNG TIN PHIẾU BẢO TRÌ</TIEU_DE>
+    <MAU_SO>Mẫu số :</MAU_SO>
+    <PHIEU_BAO_TRI>Phiếu bảo trì:</PHIEU_BAO_TRI>
+    <NGUOI_LAP>Người lập:</NGUOI_LAP>
+    <NGAY_LAP>Ngày lập:</NGAY_LAP>
+    <MS_MAY>MS thiết bị:</MS_MAY>
+    <TEN_MAY>Tên thiết bị:</TEN_MAY>
+    <TINH_TRANG>Tình trạng PBT:</TINH_TRANG>
+    <MO_TA>MÔ TẢ</MO_TA>
+    <HINH_THUC_BT>Hình thức bảo trì:</HINH_THUC_BT>
+    <LOAI_BT>Loại bảo trì:</LOAI_BT>
+    <DIA_DIEM>Địa điểm:</DIA_DIEM>
+    <KE_HOACH>KẾ HOẠCH</KE_HOACH>
+    <NGAY_BD>Ngày bắt đầu:</NGAY_BD>
+    <NGAY_KT>Ngày kết thúc:</NGAY_KT>
+    <BO_PHAN_CP>Bộ phận chịu phí</BO_PHAN_CP>
+    <PHE_DUYET1>Duyệt</PHE_DUYET1>
+    <PHE_DUYET2>Kiềm tra</PHE_DUYET2>
+    <PHE_DUYET3>Người lập</PHE_DUYET3>
+    <PHE_DUYET4>?PHE_DUYET4?</PHE_DUYET4>
+  </TIEU_DE_PHIEU_BAO_TRI_BT>
+  <TIEU_DE_CONG_VIEC_BT>
+    <DANH_SACH_CV>Danh sách công việc (Y: Công việc chính; N: Công việc phụ; TN: Công việc thuê ngoài)</DANH_SACH_CV>
+    <CV_CONG_VIEC>Công việc</CV_CONG_VIEC>
+    <CV_BO_PHAN>Bộ phận</CV_BO_PHAN>
+    <CV_SPHUT_KH>Số phút KH</CV_SPHUT_KH>
+    <CV_NGAY_HT>Ngày hoàn thành</CV_NGAY_HT>
+    <CV_LOAI_CV>Chính/Phụ/TN</CV_LOAI_CV>
+    <TONG_PHUT_KH_CV>?TONG_PHUT_KH_CV?</TONG_PHUT_KH_CV>
+    <STT>STT</STT>
+  </TIEU_DE_CONG_VIEC_BT>
+  <TIEU_DE_NHAN_VIEN_BT>
+    <NV_DS_NV>Danh sách nhân viên (Y: Nhân viên công ty; N: Nhân viên thuê ngoài)</NV_DS_NV>
+    <NV_HO_TEN>Họ tên</NV_HO_TEN>
+    <NV_TO_PB>Ban - Tổ</NV_TO_PB>
+    <NV_TU_NGAY>Từ ngày</NV_TU_NGAY>
+    <NV_DEN_NGAY>Đến ngày</NV_DEN_NGAY>
+    <NV_LOAI_VN>Cty / Thuê ngoài</NV_LOAI_VN>
+  </TIEU_DE_NHAN_VIEN_BT>
+  <TIEU_DE_DICH_VU_BT>
+    <DV_DS_DV>Danh sách dịch vụ</DV_DS_DV>
+    <DV_ND>Nội dung</DV_ND>
+    <DV_CTY>Nhà cung cấp</DV_CTY>
+    <DV_SL>Số lượng</DV_SL>
+    <DV_DG>Đơn giá</DV_DG>
+    <DV_TG>Tỷ giá</DV_TG>
+    <DV_TT>Thành tiền</DV_TT>
+  </TIEU_DE_DICH_VU_BT>
+  <TIEU_DE_PHU_TUNG_BT>
+    <PT_DS_PT>Danh sách phụ tùng</PT_DS_PT>
+    <PT_MS_PT>MS phụ tùng</PT_MS_PT>
+    <PT_MS_PTTT>MS PT sử dụng</PT_MS_PTTT>
+    <PT_TEN_PT>Tên phụ tùng</PT_TEN_PT>
+    <PT_TEN_PTTT>Tên PT sử dụng</PT_TEN_PTTT>
+    <PT_SL_KH>Số lượng KH</PT_SL_KH>
+    <PT_SL_TT>Số lượng TT</PT_SL_TT>
+    <PT_DVT>Đơn vị tính</PT_DVT>
+    <PT_GHI_CHU>Ghi chú</PT_GHI_CHU>
+  </TIEU_DE_PHU_TUNG_BT>
+  <TIEU_DE_VAT_TU_BT>
+    <VT_DS_VT>Danh sách vật tư</VT_DS_VT>
+    <VT_MS_VT>MS Vật tư</VT_MS_VT>
+    <VT_TEN_VT>Tên vật tư</VT_TEN_VT>
+    <VT_SL_KH>Số lượng KH</VT_SL_KH>
+    <VT_SL_TT>Số lượng TT</VT_SL_TT>
+    <VT_DVT>Đơn vị tính</VT_DVT>
+    <VT_GHI_CHU>?VT_GHI_CHU?</VT_GHI_CHU>
+  </TIEU_DE_VAT_TU_BT>
+  <TIEU_DE_CHI_PHI_BT>
+    <TONG_CHI_PHI>TỔNG CHI PHÍ</TONG_CHI_PHI>
+    <STT>STT</STT>
+    <CP_NOI_DUNG>Nội dung</CP_NOI_DUNG>
+    <CP_TIEN>Chi phí</CP_TIEN>
+    <CP_TONG>Tổng chi phí</CP_TONG>
+    <KQ_BAO_TRI>KẾT QUẢ BẢO TRÌ</KQ_BAO_TRI>
+    <KQ_NGAY_NT>Ngày nghiệm thu</KQ_NGAY_NT>
+    <KQ_BT>Kết quả bảo trì</KQ_BT>
+    <NGUOI_NT>Người nghiệm thu</NGUOI_NT>
+    <CP_PHU_TUNG>Chi phí phụ tùng</CP_PHU_TUNG>
+    <CP_VAT_TU>Chi phí vật tư</CP_VAT_TU>
+    <CP_NHAN_CONG>Chi phí nhân công</CP_NHAN_CONG>
+    <CP_DICH_VU>Chi phí dịch vụ</CP_DICH_VU>
+    <CP_KHAC>Chi phí khác</CP_KHAC>
+  </TIEU_DE_CHI_PHI_BT>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty TNHH Phần mềm Nam Việt
+27/49B, Hậu Giang, F4, Q. Tân Bình, TP.HCM
+Telephone: 84-8-38110770  Fax: 84-8-8117787</THONG_TIN_CTY>
+    <LOGO />
+    <LE_TRAI_LOGO>150</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>16</LE_TREN_LOGO>
+    <WIDTH>1300</WIDTH>
+    <HEIGHT>500</HEIGHT>
+    <NGAY_IN>?PRINT_DATE?24/09/2009</NGAY_IN>
+    <PAGE>?PAGE?</PAGE>
+    <OFPAGE>?OF?</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

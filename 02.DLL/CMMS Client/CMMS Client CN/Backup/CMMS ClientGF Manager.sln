@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMMS Client GF", "CMMS Client\CMMS Client GF.csproj", "{7AFF6C6F-95C6-45E2-8FDC-93467F3F0F0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMMSClientGFLib", "CMMSClientLib\CMMSClientGFLib.csproj", "{FC565C55-9DA2-4F92-9A52-E40848B9CD25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AFF6C6F-95C6-45E2-8FDC-93467F3F0F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFF6C6F-95C6-45E2-8FDC-93467F3F0F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFF6C6F-95C6-45E2-8FDC-93467F3F0F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFF6C6F-95C6-45E2-8FDC-93467F3F0F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC565C55-9DA2-4F92-9A52-E40848B9CD25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC565C55-9DA2-4F92-9A52-E40848B9CD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC565C55-9DA2-4F92-9A52-E40848B9CD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC565C55-9DA2-4F92-9A52-E40848B9CD25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

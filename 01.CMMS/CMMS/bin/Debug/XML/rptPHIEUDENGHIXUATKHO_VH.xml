@@ -1,0 +1,173 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DNXK_INFO">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_DH_XUAT_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_TO" type="xs:string" minOccurs="0" />
+                <xs:element name="LY_DO_XUAT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DNXK_DETAIL">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_1" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_LUONG_CTU" type="xs:double" minOccurs="0" />
+                <xs:element name="SO_LUONG_THUC_XUAT" type="xs:double" minOccurs="0" />
+                <xs:element name="GHI_CHU" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_DNXK">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PHIEU_DE_NGHI_XUAT_KHO" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_SO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_HIEU_LUC" type="xs:string" minOccurs="0" />
+                <xs:element name="LAN_SOAT_XET" type="xs:string" minOccurs="0" />
+                <xs:element name="BO_PHAN_CONG_TAC" type="xs:string" minOccurs="0" />
+                <xs:element name="LY_DO_XUAT_KHO" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_HANG_HOA" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_HANG_HOA" type="xs:string" minOccurs="0" />
+                <xs:element name="DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_LUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="XIN_LINH" type="xs:string" minOccurs="0" />
+                <xs:element name="THUC_LINH" type="xs:string" minOccurs="0" />
+                <xs:element name="GHI_CHU" type="xs:string" minOccurs="0" />
+                <xs:element name="BAN_GIAM_DOC_TRUONG_DON_VI" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_DE_NGHI" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_DE_NGHI" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_DNX" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP1" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP2" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP3" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP4" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP5" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TTC_CAO" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_RONG" type="xs:int" minOccurs="0" />
+                <xs:element name="USER_LOG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_HT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DNXK_INFO>
+    <MS_DH_XUAT_PT>PX-2102-0031</MS_DH_XUAT_PT>
+    <TEN_TO>Xưởng sản xuất</TEN_TO>
+    <LY_DO_XUAT />
+  </DNXK_INFO>
+  <DNXK_DETAIL>
+    <TEN_PT>Hóa chất khử trùng (Medipag 20MT)</TEN_PT>
+    <MS_PT>HXSX-018</MS_PT>
+    <TEN_1>Chai</TEN_1>
+    <SO_LUONG_CTU>2</SO_LUONG_CTU>
+    <SO_LUONG_THUC_XUAT>2</SO_LUONG_THUC_XUAT>
+    <GHI_CHU />
+  </DNXK_DETAIL>
+  <TIEU_DE_DNXK>
+    <PHIEU_DE_NGHI_XUAT_KHO>PHIẾU ĐỀ NGHỊ XUẤT KHO</PHIEU_DE_NGHI_XUAT_KHO>
+    <MA_SO>Mã số: </MA_SO>
+    <NGAY_HIEU_LUC>Ngày hiệu lực:</NGAY_HIEU_LUC>
+    <LAN_SOAT_XET>Lần soát xét: 04</LAN_SOAT_XET>
+    <BO_PHAN_CONG_TAC>Bộ phận công tác:</BO_PHAN_CONG_TAC>
+    <LY_DO_XUAT_KHO>Lý do xuất kho:</LY_DO_XUAT_KHO>
+    <STT>STT</STT>
+    <TEN_HANG_HOA>Tên hàng hóa</TEN_HANG_HOA>
+    <MA_HANG_HOA>Mã hàng</MA_HANG_HOA>
+    <DVT>ĐVT</DVT>
+    <SO_LUONG>Số lượng</SO_LUONG>
+    <XIN_LINH>Xin lĩnh</XIN_LINH>
+    <THUC_LINH>Thực lĩnh</THUC_LINH>
+    <GHI_CHU>Ghi chú</GHI_CHU>
+    <BAN_GIAM_DOC_TRUONG_DON_VI>Ban Giám Đốc / Trưởng đơn vị</BAN_GIAM_DOC_TRUONG_DON_VI>
+    <NGAY>Ngày</NGAY>
+    <NGUOI_DE_NGHI>Người đề nghị</NGUOI_DE_NGHI>
+    <NGAY_DE_NGHI>Ngày</NGAY_DE_NGHI>
+    <SO_DNX>SỐ:</SO_DNX>
+    <TMP1>Đề xuất dịch vụ</TMP1>
+    <TMP2>Đề xuất dịch vụ</TMP2>
+    <TMP3>Tổng tất cả</TMP3>
+    <TMP4>Thời gian cấp vật tư</TMP4>
+    <TMP5>Số:...../.....GDN</TMP5>
+  </TIEU_DE_DNXK>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty TNHH MTV Vĩnh Hoàn Collagen
+Số 1647, Quốc Lộ 30, Phường 11, Thành Phố Cao Lãnh, Tỉnh Đồng Tháp, Việt Nam
+Telephone: (84.67) 3567888  Fax: (84.67) 3890876</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>400</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>200</LE_TREN_LOGO>
+    <WIDTH>2100</WIDTH>
+    <HEIGHT>800</HEIGHT>
+    <NGAY_IN>Ngày in24/02/2021</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+    <TTC_CAO>700</TTC_CAO>
+    <TTC_RONG>7000</TTC_RONG>
+    <USER_LOG>User : admin</USER_LOG>
+    <NGAY_HT>Ngày HT : 24/02/2021</NGAY_HT>
+  </rptTitlereport>
+</NewDataSet>

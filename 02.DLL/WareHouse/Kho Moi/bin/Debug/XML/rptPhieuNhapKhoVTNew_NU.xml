@@ -1,0 +1,821 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rptPhieuNhapKhoNew">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_DH_NHAP_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="14" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_PHIEU_XN" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="GIO" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MS_KHO" type="xs:int" minOccurs="0" />
+                <xs:element name="MS_DANG_NHAP" type="xs:int" minOccurs="0" />
+                <xs:element name="NGUOI_NHAP" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_CHUNG_TU" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SO_CHUNG_TU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DIEM" type="xs:int" minOccurs="0" />
+                <xs:element name="DANH_GIA" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="GHI_CHU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOCK" type="xs:boolean" minOccurs="0" />
+                <xs:element name="STT" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+                <xs:element name="DA_HET" type="xs:boolean" minOccurs="0" />
+                <xs:element name="THU_KHO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_DDH" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_DE_XUAT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGUOI_GIAO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="BSXE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DIEM1" type="xs:int" minOccurs="0" />
+                <xs:element name="DIEM2" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="14" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT_NCC" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="QUY_CACH">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DVT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_LUONG_CTU" type="xs:double" minOccurs="0" />
+                <xs:element name="SL_THUC_NHAP" type="xs:double" minOccurs="0" />
+                <xs:element name="DON_GIA" type="xs:double" minOccurs="0" />
+                <xs:element name="NGOAI_TE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_NGOAI_TE">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TY_GIA" type="xs:double" minOccurs="0" />
+                <xs:element name="TY_GIA_USD" type="xs:double" minOccurs="0" />
+                <xs:element name="MS_VT_NCC" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="BAO_HANH_DEN_NGAY" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SL_DA_SD" type="xs:double" minOccurs="0" />
+                <xs:element name="XUAT_XU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="GHI_CHU_CT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="THANH_TIEN" type="xs:double" minOccurs="0" />
+                <xs:element name="TEN_KHO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_DANG_NHAP" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_NGUOI_NHAP" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGUOI_LAP" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTieuDePhieuNhapKhoNew">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SO_ISO" type="xs:string" minOccurs="0" />
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="LIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NO" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_PHIEU_NHAP" type="xs:string" minOccurs="0" />
+                <xs:element name="CO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_NHAP" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG_NHAP" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_DH_NHAP_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_CHUNG_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_CHUNG_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_NHAP_KHO" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_KHO" type="xs:string" minOccurs="0" />
+                <xs:element name="GHI_CHU_DH_NHAP_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="PRAR_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="QUY_CACH" type="xs:string" minOccurs="0" />
+                <xs:element name="DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_LUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="SL_CTU" type="xs:string" minOccurs="0" />
+                <xs:element name="SL_THUC_NHAP" type="xs:string" minOccurs="0" />
+                <xs:element name="Tax" type="xs:string" minOccurs="0" />
+                <xs:element name="DON_GIA" type="xs:string" minOccurs="0" />
+                <xs:element name="NGOAI_TE" type="xs:string" minOccurs="0" />
+                <xs:element name="TY_GIA" type="xs:string" minOccurs="0" />
+                <xs:element name="THANH_TIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="THANH_TIEN_VND" type="xs:string" minOccurs="0" />
+                <xs:element name="GHI_CHU_CT" type="xs:string" minOccurs="0" />
+                <xs:element name="TONG_TIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_THANG_NAM" type="xs:string" minOccurs="0" />
+                <xs:element name="TRUONG_DON_VI" type="xs:string" minOccurs="0" />
+                <xs:element name="TRUONG_DV_KY" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_LAP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_LAP_KY" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_GIAO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_GIAO_KY" type="xs:string" minOccurs="0" />
+                <xs:element name="THU_KHO" type="xs:string" minOccurs="0" />
+                <xs:element name="THU_KHO_KY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_THU_KHO" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT_NCC" type="xs:string" minOccurs="0" />
+                <xs:element name="NHA_CUNG_CAP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_LE_TT" type="xs:int" minOccurs="0" />
+                <xs:element name="SO_LE_SL" type="xs:int" minOccurs="0" />
+                <xs:element name="SO_LE_DG" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_CAO" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_RONG" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0BCDONG</MS_PT>
+    <TEN_PT>Bàn chải đồng 6 hàng</TEN_PT>
+    <MS_PT_NCC>B-C-DONG</MS_PT_NCC>
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Cái</DVT>
+    <SO_LUONG_CTU>20</SO_LUONG_CTU>
+    <SL_THUC_NHAP>20</SL_THUC_NHAP>
+    <DON_GIA>21000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>420000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0BUTK02</MS_PT>
+    <TEN_PT>Bút dạ kính xanh PM04</TEN_PT>
+    <MS_PT_NCC>BUT-K02</MS_PT_NCC>
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Cái</DVT>
+    <SO_LUONG_CTU>10</SO_LUONG_CTU>
+    <SL_THUC_NHAP>10</SL_THUC_NHAP>
+    <DON_GIA>6200</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>62000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0BUTLONG02</MS_PT>
+    <TEN_PT>Bút Lông dầu TL PM09 xanh </TEN_PT>
+    <MS_PT_NCC>BUTLONG02</MS_PT_NCC>
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Cái</DVT>
+    <SO_LUONG_CTU>20</SO_LUONG_CTU>
+    <SL_THUC_NHAP>20</SL_THUC_NHAP>
+    <DON_GIA>6200</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>124000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0BXC</MS_PT>
+    <TEN_PT>Bình xịt cồn </TEN_PT>
+    <MS_PT_NCC>B-XC</MS_PT_NCC>
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Cái</DVT>
+    <SO_LUONG_CTU>5</SO_LUONG_CTU>
+    <SL_THUC_NHAP>5</SL_THUC_NHAP>
+    <DON_GIA>25000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>125000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0GANG-TS-PHU-SD</MS_PT>
+    <TEN_PT>Găng tay len sợi phủ sơn đỏ</TEN_PT>
+    <MS_PT_NCC>GANG-TS-PHU-SD</MS_PT_NCC>
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Đôi</DVT>
+    <SO_LUONG_CTU>30</SO_LUONG_CTU>
+    <SL_THUC_NHAP>30</SL_THUC_NHAP>
+    <DON_GIA>3600</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>108000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0GIAYA4</MS_PT>
+    <TEN_PT>Giấy in khổ A4.90x70 BB Clever Up</TEN_PT>
+    <MS_PT_NCC>GIAYA4</MS_PT_NCC>
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Ram</DVT>
+    <SO_LUONG_CTU>10</SO_LUONG_CTU>
+    <SL_THUC_NHAP>10</SL_THUC_NHAP>
+    <DON_GIA>51000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>510000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0KEO809</MS_PT>
+    <TEN_PT>Kéo 809</TEN_PT>
+    <MS_PT_NCC>KEO809</MS_PT_NCC>
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Cái</DVT>
+    <SO_LUONG_CTU>6</SO_LUONG_CTU>
+    <SL_THUC_NHAP>6</SL_THUC_NHAP>
+    <DON_GIA>11000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>66000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0MCO</MS_PT>
+    <TEN_PT>Miếng cước cọ xoong</TEN_PT>
+    <MS_PT_NCC>MCO</MS_PT_NCC>
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Cái</DVT>
+    <SO_LUONG_CTU>27</SO_LUONG_CTU>
+    <SL_THUC_NHAP>27</SL_THUC_NHAP>
+    <DON_GIA>3000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>81000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0NINON90x120</MS_PT>
+    <TEN_PT>Túi nilon trong  90x120</TEN_PT>
+    <MS_PT_NCC>NINON90x120</MS_PT_NCC>
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Kg</DVT>
+    <SO_LUONG_CTU>15</SO_LUONG_CTU>
+    <SL_THUC_NHAP>15</SL_THUC_NHAP>
+    <DON_GIA>45000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>675000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0NINON-D90X120</MS_PT>
+    <TEN_PT>Túi ninon KT 90X120 cm màu đen</TEN_PT>
+    <MS_PT_NCC>NINON-D90X120</MS_PT_NCC>
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Kg</DVT>
+    <SO_LUONG_CTU>45</SO_LUONG_CTU>
+    <SL_THUC_NHAP>45</SL_THUC_NHAP>
+    <DON_GIA>28000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>1260000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0THUNG01</MS_PT>
+    <TEN_PT>Thùng nhựa 80 lít có nắp </TEN_PT>
+    <MS_PT_NCC>THUNG-01</MS_PT_NCC>
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Cái</DVT>
+    <SO_LUONG_CTU>2</SO_LUONG_CTU>
+    <SL_THUC_NHAP>2</SL_THUC_NHAP>
+    <DON_GIA>125000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>250000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0TUINILON70*90</MS_PT>
+    <TEN_PT>Túi nilon kích thước 70*90cm</TEN_PT>
+    <MS_PT_NCC />
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Kg</DVT>
+    <SO_LUONG_CTU>15</SO_LUONG_CTU>
+    <SL_THUC_NHAP>15</SL_THUC_NHAP>
+    <DON_GIA>28000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>420000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0XOA02</MS_PT>
+    <TEN_PT>bút xóa TL (Nước)</TEN_PT>
+    <MS_PT_NCC>XOA02</MS_PT_NCC>
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Cái</DVT>
+    <SO_LUONG_CTU>2</SO_LUONG_CTU>
+    <SL_THUC_NHAP>2</SL_THUC_NHAP>
+    <DON_GIA>14500</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>29000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptPhieuNhapKhoNew>
+    <MS_DH_NHAP_PT>PN-2010-0068</MS_DH_NHAP_PT>
+    <SO_PHIEU_XN>PN-2010-0022</SO_PHIEU_XN>
+    <GIO>2020-10-13T10:43:03+07:00</GIO>
+    <NGAY>2020-10-08T00:00:00+07:00</NGAY>
+    <MS_KHO>8</MS_KHO>
+    <MS_DANG_NHAP>1</MS_DANG_NHAP>
+    <NGUOI_NHAP>28</NGUOI_NHAP>
+    <NGAY_CHUNG_TU>2020-10-13T00:00:00+07:00</NGAY_CHUNG_TU>
+    <SO_CHUNG_TU>10200022</SO_CHUNG_TU>
+    <GHI_CHU>Nhập VPP tháng 09 của P. SẢN XUẤT NM2</GHI_CHU>
+    <LOCK>false</LOCK>
+    <STT>8061</STT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_DDH />
+    <MS_PT>V0XP-VIDAN</MS_PT>
+    <TEN_PT>Bột giặt vi dân Robot 2,5 kg</TEN_PT>
+    <MS_PT_NCC>XP-VIDAN</MS_PT_NCC>
+    <QUY_CACH>HY</QUY_CACH>
+    <DVT>Túi</DVT>
+    <SO_LUONG_CTU>8</SO_LUONG_CTU>
+    <SL_THUC_NHAP>8</SL_THUC_NHAP>
+    <DON_GIA>55000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TEN_NGOAI_TE>VND</TEN_NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>5.72E-05</TY_GIA_USD>
+    <THANH_TIEN>440000</THANH_TIEN>
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <TEN_DANG_NHAP>Nhập mua mới</TEN_DANG_NHAP>
+    <TEN_NGUOI_NHAP>CTy cổ phần TM&amp;DV Ngọc Hà chi nhánh Hưng Yên</TEN_NGUOI_NHAP>
+  </rptPhieuNhapKhoNew>
+  <rptTieuDePhieuNhapKhoNew>
+    <SO_ISO>Mẫu số: 01-VT</SO_ISO>
+    <TIEU_DE>NHẬP KHO VẬT TƯ, PHỤ TÙNG</TIEU_DE>
+    <LIEN>Liên:……………….</LIEN>
+    <NO>Nợ</NO>
+    <SO_PHIEU_NHAP>Số phiếu nhập:</SO_PHIEU_NHAP>
+    <CO>Có</CO>
+    <NGUOI_NHAP>Người nhập:</NGUOI_NHAP>
+    <DANG_NHAP>Dạng nhập:</DANG_NHAP>
+    <MS_DH_NHAP_PT>Đơn hàng nhập</MS_DH_NHAP_PT>
+    <SO_CHUNG_TU>Số chứng từ:</SO_CHUNG_TU>
+    <NGAY_CHUNG_TU>Ngày chứng từ</NGAY_CHUNG_TU>
+    <NGAY_NHAP_KHO>Ngày nhập:</NGAY_NHAP_KHO>
+    <TEN_KHO>Kho:</TEN_KHO>
+    <GHI_CHU_DH_NHAP_PT>Ghi chú:</GHI_CHU_DH_NHAP_PT>
+    <STT>STT</STT>
+    <MS_PT>Mã VT PT</MS_PT>
+    <PRAR_NO>Ghi chú</PRAR_NO>
+    <TEN_PT>Tên VTPT</TEN_PT>
+    <QUY_CACH>Vị trí</QUY_CACH>
+    <DVT>ĐVT</DVT>
+    <SO_LUONG>Số lượng</SO_LUONG>
+    <SL_CTU>CT</SL_CTU>
+    <SL_THUC_NHAP>TN</SL_THUC_NHAP>
+    <Tax>Thuế</Tax>
+    <DON_GIA>Đơn giá</DON_GIA>
+    <NGOAI_TE>Tiền tệ</NGOAI_TE>
+    <TY_GIA>Tỷ giá</TY_GIA>
+    <THANH_TIEN>Thành tiền (USD)</THANH_TIEN>
+    <THANH_TIEN_VND>Thành tiền (VNĐ)</THANH_TIEN_VND>
+    <GHI_CHU_CT>Ghi chú</GHI_CHU_CT>
+    <TONG_TIEN>Tổng tiền</TONG_TIEN>
+    <NGAY_THANG_NAM>Ngày.......tháng.....năm......</NGAY_THANG_NAM>
+    <TRUONG_DON_VI>Bộ phận yêu cầu</TRUONG_DON_VI>
+    <TRUONG_DV_KY>(Ký tên)</TRUONG_DV_KY>
+    <NGUOI_LAP>Người lập</NGUOI_LAP>
+    <NGUOI_LAP_KY>(Ký tên)</NGUOI_LAP_KY>
+    <NGUOI_GIAO>Người giao</NGUOI_GIAO>
+    <NGUOI_GIAO_KY>(Ký tên)</NGUOI_GIAO_KY>
+    <THU_KHO>Thủ kho</THU_KHO>
+    <THU_KHO_KY>(Ký tên)</THU_KHO_KY>
+    <TEN_THU_KHO />
+    <MS_PT_NCC>Part No</MS_PT_NCC>
+    <NHA_CUNG_CAP>Nhà cung cấp</NHA_CUNG_CAP>
+  </rptTieuDePhieuNhapKhoNew>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty Nutifood
+Lô E3-E4, KCN Mỹ Phước, Bến Cát, Bình Dương
+Telephone: 08-38-267-999  Fax: 09-39-435-949</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1000</WIDTH>
+    <HEIGHT>500</HEIGHT>
+    <NGAY_IN>Ngày in : 21/10/2020</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+    <SO_LE_TT>2</SO_LE_TT>
+    <SO_LE_SL>0</SO_LE_SL>
+    <SO_LE_DG>2</SO_LE_DG>
+    <TTC_CAO>700</TTC_CAO>
+    <TTC_RONG>7000</TTC_RONG>
+  </rptTitlereport>
+</NewDataSet>

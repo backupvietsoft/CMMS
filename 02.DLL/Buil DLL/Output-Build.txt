@@ -1,0 +1,40 @@
+﻿1>------ Rebuild All started: Project: Commons, Configuration: Debug Any CPU ------
+2>------ Rebuild All started: Project: MReportKH, Configuration: Debug Any CPU ------
+3>------ Rebuild All started: Project: MReportVB, Configuration: Debug Any CPU ------
+4>------ Rebuild All started: Project: Report1, Configuration: Debug Any CPU ------
+2>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "office" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+2>  MReportKH -> D:\01.Code\02.DLL\MReportKH\MReportKH\bin\Debug\MReportKH.dll
+5>------ Rebuild All started: Project: ReportMail, Configuration: Debug Any CPU ------
+5>  ReportMail -> D:\01.Code\02.DLL\ReportMail\ReportMail\bin\Debug\ReportMail.dll
+6>------ Rebuild All started: Project: VietShape, Configuration: Debug Any CPU ------
+3>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "Microsoft.Office.Interop.Excel" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+3>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "office" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+3>  MReportVB -> D:\01.Code\02.DLL\MReportVB\MReportVB\bin\Debug\MReportVB.dll
+7>------ Rebuild All started: Project: Vietsoft.Reminder, Configuration: Debug Any CPU ------
+4>  Report1 -> D:\01.Code\02.DLL\Report1\Report1\bin\Debug\Report1.dll
+8>------ Rebuild All started: Project: ImportExcels, Configuration: x86 Any CPU ------
+1>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "Microsoft.Office.Interop.Excel" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+1>  Commons -> D:\01.Code\02.DLL\Commons\Commons\bin\Debug\Commons.dll
+9>------ Rebuild All started: Project: ReportHuda, Configuration: Debug Any CPU ------
+7>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "CrystalDecisions.CrystalReports.Engine" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+7>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "CrystalDecisions.Shared" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+7>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "CrystalDecisions.Windows.Forms" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+7>  Vietsoft.Reminder -> D:\01.Code\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\bin\Debug\Vietsoft.Reminder.dll
+10>------ Rebuild All started: Project: WareHouse, Configuration: Debug Any CPU ------
+6>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "Microsoft.Office.Interop.Excel" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+6>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "Microsoft.Office.Interop.Word" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+6>  VietShape -> D:\01.Code\02.DLL\VietShape\bin\Debug\VietShape.dll
+11>------ Rebuild All started: Project: MVControl, Configuration: Debug Any CPU ------
+8>  ImportExcels -> D:\01.Code\02.DLL\ImportExcels\ImportExcels\bin\Debug\ImportExcels.dll
+12>------ Rebuild All started: Project: ReportMain, Configuration: Debug Any CPU ------
+9>  ReportHuda -> D:\01.Code\02.DLL\ReportHuda\ReportHuda\bin\Debug\ReportHuda.dll
+10>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "CrystalDecisions.CrystalReports.Engine" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+10>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "CrystalDecisions.Shared" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+10>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "CrystalDecisions.Windows.Forms" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+10>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "Microsoft.Office.Interop.Excel" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+10>  WareHouse -> D:\01.Code\02.DLL\WareHouse\Kho Moi\bin\Debug\WareHouse.dll
+11>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "CMMS, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+11>  MVControl -> D:\01.Code\02.DLL\MVControl\MVControl\bin\Debug\MVControl.dll
+12>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3277: Found conflicts between different versions of "Microsoft.Office.Interop.Excel" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+12>  ReportMain -> D:\01.Code\02.DLL\ReportMain\ReportMain\bin\Debug\ReportMain.dll
+========== Rebuild All: 12 succeeded, 0 failed, 0 skipped ==========

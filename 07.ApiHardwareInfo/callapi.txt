@@ -1,0 +1,14 @@
+
+//call hàm "GetProcessID" trên trình duyệt để lấy id ổ cứng hiện tại
+
+//mã hóa đưa vào webconfig với VietSoft + tên ổ cứng
+
+//hàm gọi từ phần mềm check	 
+   public static bool Kiemtrathongtinserver()
+        {
+            System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+            WebClient client = new WebClient();
+            client.Encoding = Encoding.UTF8;
+            string response = client.DownloadString("http://27.74.240.29/apiServer/api/Management/GetCheckProcessID");
+            return Convert.ToBoolean(response);
+        }

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Vietsoft">
+</Property><Property Name="Solution File" Value="D:\Hien\Source\Code\Vietsoft\Vietsoft.sln">
+</Property><Property Name="User Options File" Value="D:\Hien\Source\Code\Vietsoft\Vietsoft.suo">
+</Property><Property Name="Date" Value="Wednesday, October 13, 2010">
+</Property><Property Name="Time" Value="13:52">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Vietsoft.sln" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Vietsoft.suo" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft.suo">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Vietsoft.csproj" Description="Project file successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Vietsoft.csproj">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Class\DataInfo.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Class\DataInfo.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Class\Infomation.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Class\Infomation.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Class\SqlInfo.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Class\SqlInfo.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Component\DataGridViewEditor.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Component\DataGridViewEditor.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Component\DataGridViewColumnEditor.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Component\DataGridViewColumnEditor.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Component\MaskedEditor.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Component\MaskedEditor.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Control\DataGridViewFilter.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Control\DataGridViewFilter.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Control\DataGridViewFilter.designer.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Control\DataGridViewFilter.designer.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Component\MenuEditor.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Component\MenuEditor.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Component\ToolBarEditor.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Component\ToolBarEditor.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Class\Program.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Class\Program.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Form\FormBase.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Form\FormBase.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Form\FormBase.Designer.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Form\FormBase.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Form\MdiMaint.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Form\MdiMaint.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Form\MdiMaint.Designer.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Form\MdiMaint.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Form\MnSystem.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Form\MnSystem.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Form\MnSystem.Designer.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Form\MnSystem.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Form\Login.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Form\Login.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Form\Login.Designer.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Form\Login.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Properties\Settings.Designer.cs" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Properties\Settings.settings" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Resources\Update.bmp" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Resources\Update.bmp">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Resources\Cancel.bmp" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Resources\Cancel.bmp">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Resources\Clear.gif" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Resources\Clear.gif">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Resources\Delete.png" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Resources\Delete.png">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Resources\Filter.bmp" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Resources\Filter.bmp">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Resources\Filter1.png" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Resources\Filter1.png">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Resources\Print.png" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Resources\Print.png">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Resources\Refresh.bmp" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Resources\Refresh.bmp">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Resources\Save.bmp" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Resources\Save.bmp">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Resources\Eco_VICT.JPG" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Resources\Eco_VICT.JPG">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Control\DataGridViewFilter.resx" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Control\DataGridViewFilter.resx">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Form\FormBase.resx" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Form\FormBase.resx">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Form\Login.resx" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Form\Login.resx">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Form\MdiMaint.resx" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Form\MdiMaint.resx">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Form\MnSystem.resx" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Form\MnSystem.resx">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Properties\Resources.resx" Description="File successfully backed up as D:\Hien\Source\Code\Vietsoft\Backup\Vietsoft\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Vietsoft" Source="Vietsoft\Vietsoft.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="Vietsoft" Source="Vietsoft\Vietsoft.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="Vietsoft.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Vietsoft.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,24 @@
+﻿01/01/0001:12:00 AM ucMailBaoTriDinhKyThangCS-13 : True
+ M4-17: Error. 
+01/01/0001:12:00 AM ucMailBaoTriDinhKyThangCS-13 : True
+ M4-17: Error. 
+01/01/0001:12:00 AM ucMailBaoTriDinhKyThangCS-13 : True
+ M4-17: Error. 
+15/03/2021:11:52 AM ucMailBTDKCThucHien-5.pdf: suscess sent to bamboo2711@gmail.com. CC bamboo2711@gmail.com. BCC bamboo2711@gmail.com. 
+30/03/2021:9:06 AM Safety_HetHanThucHienAudit: Suscess sent to vinh.tran@bariaserece.com. 
+30/03/2021:9:06 AM Safety_HetHanThucHienAudit: Suscess sent to mai.pham@bariaserece.com. 
+01/01/0001:12:00 AM Safety_TruocHanThucHien1Ngay: Suscess sent to dien.truong@bariaserece.com;dat.le@bariaserece.com. 
+01/01/0001:12:00 AM Safety_TruocHanThucHien1Ngay: Suscess sent to dien.truong@bariaserece.com. 
+01/01/0001:12:00 AM Safety_TruocHanThucHien1Ngay: Suscess sent to Quang.le@bariaserece.com;dat.le@bariaserece.com;mashinhat@gmail.com. 
+30/03/2021:9:34 AM Safety_HetHanThucHienAudit: Suscess sent to vinh.tran@bariaserece.com. 
+30/03/2021:9:34 AM Safety_HetHanThucHienAudit: . 
+13/04/2021:10:09 AM ucMailPGSTTDHKT-7.pdf: suscess sent to bamboo2711@gmail.com. 
+13/04/2021:10:12 AM ucMailPGSTTDHKT-7.pdf: suscess sent to bamboo2711@gmail.com. 
+13/04/2021:10:18 AM ucMailPGSTTDHKT-7.pdf: suscess sent to bamboo2711@gmail.com. 
+13/04/2021:10:19 AM ucMailPGSTTDHKT-7.pdf: suscess sent to bamboo2711@gmail.com. 
+13/04/2021:10:20 AM ucMailPGSTTDHKT-7.pdf: suscess sent to bamboo2711@gmail.com. 
+13/04/2021:10:21 AM ucMailPGSTTDHKT-7.pdf: suscess sent to bamboo2711@gmail.com. 
+13/04/2021:10:22 AM ucMailPGSTTDHKT-7.pdf: suscess sent to bamboo2711@gmail.com. 
+13/04/2021:10:23 AM ucMailPGSTTDHKT-7.pdf: suscess sent to bamboo2711@gmail.com. 
+13/04/2021:10:24 AM ucMailPGSTTDHKT-7.pdf: suscess sent to bamboo2711@gmail.com. 
+13/04/2021:10:25 AM ucMailPGSTTDHKT-7.pdf: suscess sent to bamboo2711@gmail.com. 

@@ -1,0 +1,717 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rptPHIEU_XUAT_KHO_VAT_TU">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SO_PHIEU_XN" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_CONG_TY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_CHUNG_TU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DANG_XUAT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="GHI_CHU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_KHO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DIA_CHI" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_LUONG_CTU" type="xs:double" minOccurs="0" />
+                <xs:element name="QUY_CACH" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DVT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="VI_TRI" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SL_VT" type="xs:double" minOccurs="0" />
+                <xs:element name="DON_GIA" type="xs:double" minOccurs="0" />
+                <xs:element name="NGOAI_TE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="THANH_TIEN" type="xs:double" minOccurs="0" />
+                <xs:element name="THANH_TIEN_USD" type="xs:double" minOccurs="0" />
+                <xs:element name="MS_DH_NHAP_PT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LY_DO_XUAT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="THU_KHO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PHIEU_BAO_TRI" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="GHI_CHU_CT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_PT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_BP_CHIU_PHI" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGUOI_LAP" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CAN_CU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="THU_KHO_KY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT_NCC" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTIEU_DE_NHAP_KHO_VAT_TU">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TypeLanguage" type="xs:int" minOccurs="0" />
+                <xs:element name="TieuDe" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NgayIn" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="120" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TrangIn" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="120" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SoPhieuXuatNhap" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="150" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="sNo" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="110" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="sCo" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="110" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NoiGiao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="120" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SoChungTu" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="130" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DangNhap" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="130" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NgayNhap" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="GhiChu" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="120" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Kho" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="120" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SoLuongChungTu" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="150" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="STT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="15" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MaPhuTung" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="130" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TenPT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="150" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="QuyCach" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DonViTinh" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="15" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ViTrikho" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="150" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SoLuongVatTu" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="150" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DonGia" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="130" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NgoaiTe" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="120" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ThanhTien" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="120" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Tong" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="130" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MAU_SO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="160" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LIEN" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="160" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PHIEUBT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="160" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="GHI_CHU_CT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="160" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="160" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SOLUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="160" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ThoiGian" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="160" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PhuTrachBoPhanSD" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="170" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PhuTrachCungTieu" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="160" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NguoiGiao" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="130" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ThuKho" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="130" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="KyTen" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="130" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ThanhTienUSD" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="130" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MaDHNhap" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="120" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TenThuKho" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PartNum" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TTC_CAO" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_RONG" type="xs:int" minOccurs="0" />
+                <xs:element name="USER_LOG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_HT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rptPHIEU_XUAT_KHO_VAT_TU>
+    <SO_PHIEU_XN>PX-2010-0017</SO_PHIEU_XN>
+    <TEN_CONG_TY>Chu Tuấn Anh</TEN_CONG_TY>
+    <SO_CHUNG_TU>10200017</SO_CHUNG_TU>
+    <DANG_XUAT>Xuất cho bảo trì</DANG_XUAT>
+    <NGAY>2020-10-02T13:44:06+07:00</NGAY>
+    <GHI_CHU />
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <DIA_CHI>Hưng Yên</DIA_CHI>
+    <SO_LUONG_CTU>20</SO_LUONG_CTU>
+    <QUY_CACH />
+    <DVT>Lít</DVT>
+    <VI_TRI>HY</VI_TRI>
+    <SL_VT>20</SL_VT>
+    <DON_GIA>700000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <THANH_TIEN>14000000</THANH_TIEN>
+    <THANH_TIEN_USD>800.80000000000007</THANH_TIEN_USD>
+    <MS_DH_NHAP_PT>PN-2009-0124</MS_DH_NHAP_PT>
+    <LY_DO_XUAT>Bảo dưỡng 2000h máy nén khí GA90 nm2</LY_DO_XUAT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_PHIEU_BAO_TRI>WO-202010000034</MS_PHIEU_BAO_TRI>
+    <TEN_PT>Oil Roto foodgate, NSX: atlas copco </TEN_PT>
+    <MS_PT>T61630054200</MS_PT>
+    <TEN_BP_CHIU_PHI>Bộ phận Động lực HY - Bảo trì, bảo dưỡng</TEN_BP_CHIU_PHI>
+    <NGUOI_LAP>Vũ Duy Long</NGUOI_LAP>
+    <CAN_CU>Phiếu đề nghị xuất vật tư</CAN_CU>
+    <THU_KHO_KY>Vũ Duy Long</THU_KHO_KY>
+    <MS_PT_NCC>1630054200</MS_PT_NCC>
+    <MS_PT_CTY>T61630054200</MS_PT_CTY>
+  </rptPHIEU_XUAT_KHO_VAT_TU>
+  <rptPHIEU_XUAT_KHO_VAT_TU>
+    <SO_PHIEU_XN>PX-2010-0017</SO_PHIEU_XN>
+    <TEN_CONG_TY>Chu Tuấn Anh</TEN_CONG_TY>
+    <SO_CHUNG_TU>10200017</SO_CHUNG_TU>
+    <DANG_XUAT>Xuất cho bảo trì</DANG_XUAT>
+    <NGAY>2020-10-02T13:44:06+07:00</NGAY>
+    <GHI_CHU />
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <DIA_CHI>Hưng Yên</DIA_CHI>
+    <SO_LUONG_CTU>1</SO_LUONG_CTU>
+    <QUY_CACH />
+    <DVT>Cái</DVT>
+    <VI_TRI>HY</VI_TRI>
+    <SL_VT>1</SL_VT>
+    <DON_GIA>6367096.65</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <THANH_TIEN>6367096.65</THANH_TIEN>
+    <THANH_TIEN_USD>364.19792838</THANH_TIEN_USD>
+    <MS_DH_NHAP_PT>PN-2009-0124</MS_DH_NHAP_PT>
+    <LY_DO_XUAT>Bảo dưỡng 2000h máy nén khí GA90 nm2</LY_DO_XUAT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_PHIEU_BAO_TRI>WO-202010000034</MS_PHIEU_BAO_TRI>
+    <TEN_PT>Lõi lọc khí nén máy nén khí GA 90( Mã: 1613950300 Hãng Atlascopco) </TEN_PT>
+    <MS_PT>T6LO-1613950300</MS_PT>
+    <TEN_BP_CHIU_PHI>Bộ phận Động lực HY - Bảo trì, bảo dưỡng</TEN_BP_CHIU_PHI>
+    <NGUOI_LAP>Vũ Duy Long</NGUOI_LAP>
+    <CAN_CU>Phiếu đề nghị xuất vật tư</CAN_CU>
+    <THU_KHO_KY>Vũ Duy Long</THU_KHO_KY>
+    <MS_PT_NCC>LO-1613950300</MS_PT_NCC>
+    <MS_PT_CTY>T6LO-1613950300</MS_PT_CTY>
+  </rptPHIEU_XUAT_KHO_VAT_TU>
+  <rptPHIEU_XUAT_KHO_VAT_TU>
+    <SO_PHIEU_XN>PX-2010-0017</SO_PHIEU_XN>
+    <TEN_CONG_TY>Chu Tuấn Anh</TEN_CONG_TY>
+    <SO_CHUNG_TU>10200017</SO_CHUNG_TU>
+    <DANG_XUAT>Xuất cho bảo trì</DANG_XUAT>
+    <NGAY>2020-10-02T13:44:06+07:00</NGAY>
+    <GHI_CHU />
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <DIA_CHI>Hưng Yên</DIA_CHI>
+    <SO_LUONG_CTU>1</SO_LUONG_CTU>
+    <QUY_CACH />
+    <DVT>PC</DVT>
+    <VI_TRI>HY</VI_TRI>
+    <SL_VT>1</SL_VT>
+    <DON_GIA>13350000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <THANH_TIEN>13350000</THANH_TIEN>
+    <THANH_TIEN_USD>763.62</THANH_TIEN_USD>
+    <MS_DH_NHAP_PT>PN-1808-0095</MS_DH_NHAP_PT>
+    <LY_DO_XUAT>Bảo dưỡng 2000h máy nén khí GA90 nm2</LY_DO_XUAT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_PHIEU_BAO_TRI>WO-202010000034</MS_PHIEU_BAO_TRI>
+    <TEN_PT>Phin lọc tách dầu khí nén( Hãng: Atlas Copco- Belgium - GA 75) </TEN_PT>
+    <MS_PT>T6LO-2901920040</MS_PT>
+    <TEN_BP_CHIU_PHI>Bộ phận Động lực HY - Bảo trì, bảo dưỡng</TEN_BP_CHIU_PHI>
+    <NGUOI_LAP>Vũ Duy Long</NGUOI_LAP>
+    <CAN_CU>Phiếu đề nghị xuất vật tư</CAN_CU>
+    <THU_KHO_KY>Vũ Duy Long</THU_KHO_KY>
+    <MS_PT_NCC>T6LO-2901920040</MS_PT_NCC>
+    <MS_PT_CTY>LO-2901920040</MS_PT_CTY>
+  </rptPHIEU_XUAT_KHO_VAT_TU>
+  <rptPHIEU_XUAT_KHO_VAT_TU>
+    <SO_PHIEU_XN>PX-2010-0017</SO_PHIEU_XN>
+    <TEN_CONG_TY>Chu Tuấn Anh</TEN_CONG_TY>
+    <SO_CHUNG_TU>10200017</SO_CHUNG_TU>
+    <DANG_XUAT>Xuất cho bảo trì</DANG_XUAT>
+    <NGAY>2020-10-02T13:44:06+07:00</NGAY>
+    <GHI_CHU />
+    <TEN_KHO>Kho Hưng Yên</TEN_KHO>
+    <DIA_CHI>Hưng Yên</DIA_CHI>
+    <SO_LUONG_CTU>2</SO_LUONG_CTU>
+    <QUY_CACH />
+    <DVT>Cái</DVT>
+    <VI_TRI>HY</VI_TRI>
+    <SL_VT>2</SL_VT>
+    <DON_GIA>3244150</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <THANH_TIEN>6488300</THANH_TIEN>
+    <THANH_TIEN_USD>371.13076</THANH_TIEN_USD>
+    <MS_DH_NHAP_PT>PN-2009-0124</MS_DH_NHAP_PT>
+    <LY_DO_XUAT>Bảo dưỡng 2000h máy nén khí GA90 nm2</LY_DO_XUAT>
+    <THU_KHO>longvd</THU_KHO>
+    <MS_PHIEU_BAO_TRI>WO-202010000034</MS_PHIEU_BAO_TRI>
+    <TEN_PT>Lọc dầu bôi trơn máy nén khí GA 90( Mã : 2903752501) </TEN_PT>
+    <MS_PT>T6LO-2903752501</MS_PT>
+    <TEN_BP_CHIU_PHI>Bộ phận Động lực HY - Bảo trì, bảo dưỡng</TEN_BP_CHIU_PHI>
+    <NGUOI_LAP>Vũ Duy Long</NGUOI_LAP>
+    <CAN_CU>Phiếu đề nghị xuất vật tư</CAN_CU>
+    <THU_KHO_KY>Vũ Duy Long</THU_KHO_KY>
+    <MS_PT_NCC>LO-2903752501</MS_PT_NCC>
+    <MS_PT_CTY>T6LO-2903752501</MS_PT_CTY>
+  </rptPHIEU_XUAT_KHO_VAT_TU>
+  <rptTIEU_DE_NHAP_KHO_VAT_TU>
+    <TypeLanguage>0</TypeLanguage>
+    <TieuDe>PHIẾU ĐỀ NGHỊ KIÊM XUẤT KHO</TieuDe>
+    <NgayIn>Ngày in:</NgayIn>
+    <TrangIn>Trang</TrangIn>
+    <SoPhieuXuatNhap>Mã phiếu xuất</SoPhieuXuatNhap>
+    <sNo>Nợ</sNo>
+    <sCo>Có</sCo>
+    <NoiGiao>Người nhận</NoiGiao>
+    <SoChungTu>Số chứng từ</SoChungTu>
+    <DangNhap>Dạng xuất</DangNhap>
+    <NgayNhap>Ngày xuất</NgayNhap>
+    <GhiChu>Lý do xuất</GhiChu>
+    <Kho>Kho xuất</Kho>
+    <SoLuongChungTu>SL chứng từ</SoLuongChungTu>
+    <STT>STT</STT>
+    <MaPhuTung>MS VT PT</MaPhuTung>
+    <TenPT>Tên VTPT</TenPT>
+    <QuyCach>Quy cách</QuyCach>
+    <DonViTinh>ĐVT</DonViTinh>
+    <ViTrikho>Vị trí kho</ViTrikho>
+    <SoLuongVatTu>SL thực tế</SoLuongVatTu>
+    <DonGia>Đơn giá</DonGia>
+    <NgoaiTe>(Ký và ghi rõ họ tên)</NgoaiTe>
+    <ThanhTien>Thành tiền (VNĐ)</ThanhTien>
+    <Tong>Tổng tiền</Tong>
+    <MAU_SO>Mẫu số:……….</MAU_SO>
+    <LIEN>Liên:……….</LIEN>
+    <PHIEUBT>Bộ phận chịu phí</PHIEUBT>
+    <GHI_CHU_CT>Ghi chú</GHI_CHU_CT>
+    <MS_PT>Mã VT PT</MS_PT>
+    <SOLUONG>Số lượng</SOLUONG>
+    <ThoiGian>Ngày.......tháng.....năm......</ThoiGian>
+    <PhuTrachBoPhanSD>Bộ phận sử dụng</PhuTrachBoPhanSD>
+    <PhuTrachCungTieu>Phụ trách cung tiêu</PhuTrachCungTieu>
+    <NguoiGiao>Người lập phiếu</NguoiGiao>
+    <ThuKho>Thủ kho</ThuKho>
+    <KyTen>(Ký tên)</KyTen>
+    <ThanhTienUSD>Thành tiền (USD)</ThanhTienUSD>
+    <MaDHNhap>Đơn hàng nhập</MaDHNhap>
+    <TenThuKho>Thủ kho</TenThuKho>
+    <PartNum>Part No</PartNum>
+  </rptTIEU_DE_NHAP_KHO_VAT_TU>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty Nutifood
+Lô E3-E4, KCN Mỹ Phước, Bến Cát, Bình Dương
+Telephone: 08-38-267-999  Fax: 09-39-435-949</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1000</WIDTH>
+    <HEIGHT>500</HEIGHT>
+    <NGAY_IN>Ngày in :23/10/2020</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+    <TTC_CAO>700</TTC_CAO>
+    <TTC_RONG>7000</TTC_RONG>
+    <USER_LOG>User log : ADMIN</USER_LOG>
+    <NGAY_HT>Ngày HT : 23/10/2020</NGAY_HT>
+  </rptTitlereport>
+</NewDataSet>

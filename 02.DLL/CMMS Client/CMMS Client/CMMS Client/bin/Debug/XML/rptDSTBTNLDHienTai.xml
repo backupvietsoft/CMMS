@@ -1,0 +1,1336 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rptTHONG_TIN_CHUNG_TMP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="150" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="DIA_CHI_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DIEN_THOAI" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="15" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Fax" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="15" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="ngay_in" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTieuDeDSBPChiuPhi">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="commons.Modules.TypeLanguage" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayIn" type="xs:string" minOccurs="0" />
+                <xs:element name="TrangIn" type="xs:string" minOccurs="0" />
+                <xs:element name="TieuDe" type="xs:string" minOccurs="0" />
+                <xs:element name="NoiLapDat" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="ThietBi" type="xs:string" minOccurs="0" />
+                <xs:element name="SoThe" type="xs:string" minOccurs="0" />
+                <xs:element name="NhomThietBi" type="xs:string" minOccurs="0" />
+                <xs:element name="HienTrang" type="xs:string" minOccurs="0" />
+                <xs:element name="NuocSX" type="xs:string" minOccurs="0" />
+                <xs:element name="TyLe" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayLD" type="xs:string" minOccurs="0" />
+                <xs:element name="MoTa" type="xs:string" minOccurs="0" />
+                <xs:element name="CongSuat" type="xs:string" minOccurs="0" />
+                <xs:element name="NangSuat" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptDSTBTNLDHienTai_TMP" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_N_XUONG_FINAL">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_CHA" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_MAY_FINAL" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_TINH" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_QUAN" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="19" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_DUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_N_XUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_NHOM_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_THE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_NHOM_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_HIEN_TRANG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NUOC_SX" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TY_LE_CON_LAI" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_NHAP" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Ten_N_XUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MO_TA" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rptTHONG_TIN_CHUNG_TMP>
+    <THONG_TIN_CTY>Nhà Máy Nước Thủ Đức</THONG_TIN_CTY>
+    <LOGO>/9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBg8PDxQUEhQQFRQUGBkYERgSFhgWGBwSGBwXGxscEx0ZHycqGhovGRUVJi8gIycpLCwwGB8xNTAqNSYrLCn/2wBDAQkKCg4MDhkPDxowJBwlMi8uMTIyLDU1LjApMjUsLCw1MDU1NTE1NDUsLS0pLDQsLjU0KiwsNCksLC8sLCwsKSz/wAARCABDAH8DASIAAhEBAxEB/8QAGwABAAMBAQEBAAAAAAAAAAAAAAEFBgcEAwL/xAAxEAABAwMDAgQFBAIDAAAAAAABAAIDBBEhBRIxBkETIlFxB2GBodEUFjJUkbEVJVL/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQIDBAX/xAApEQACAgEDAQcFAQAAAAAAAAAAAgEDERIhgeEiMXGhscHwE0FhotEE/9oADAMBAAIRAxEAPwDuKIiAIiIAiIgCIiAIiIAiIgCIiAIiIAvxNJtaTYmwJsPkv2vhW03ixlm57d3dhs4exUwRPdsUI6qn/qyff8J+6p/6sn3/AAvB1FpsNJFudW1UZcbMLnueL8/xaPRUmmPjnmZGzUp3uccNDJASBk2J4wDleiqVMuqF25PLaL1nE2T+pqv3TUf1ZPv+F69T12WF4a2F77tBJbewJ7cKIOmGscHePVnab2dLcG3rjhY7W9ap31EjhqMkYvbYxklhtweMcgrNFrsbsrtyaMtyLOX34NP+6Z/6sn3/AArDS9cMx2uikjd23A7T9fVeXTNCaadu6Wd7nNv4m97TnIO2+ORhZDVWtpZTFLqUzXCxsWPODxkHKQtVmVWMTyI+tXhmfMcHSKycsjc4DcWgkAdyOyooepp3OANNIASBc3xc+y+lDqUc+nuc2cuDY3tfKGlpDmtN3W5uBlYuh1CEyxganK7ztxskybjBuq01RMNDRvHiaXs8ysq2I49zpddVmKNz9pdtFwG8n2VLS9Szue1rqaQAkAnOL9+FTdW9RUz5BG2tMJjJEgYx7ru92+mVTUepwiRn/aSnzNwWSWORg3V6qI0ZaN/CStztL9lsRx7nStRrDFE54aXkcNbySqVvU9QSAKWS5wL3Az9FU9X6/TulEYrXQGO+8MY83cfUt+XZenoum8RxmbVyzsF2gODmt3YufNzhUWtUr1PHqTZLvZhGxHBsGnClQFK4zuCFFBQGV6xfXOextPFRSNAJcaktvuPG0E4x3+a+PSVPXeOTUQ6exgadppg3dvJFhcHAtdY7qzVdMnrZXTU+pOe07C6M2aduPKLcLZfDegpW075aeKojErrEVBu47LgEeg8zl2tGiru8uvsY6ctk1NbI5sby3aXBp2hxsC7tc9hdc/pqfVnSNDqbSAC4biAxx23G4gXybXV98Q9Rp4qPZOyokZK4N20/8sebnsMLmtHqOlQyNkjptWa9hu0h3Btb09CU/wA6TpmceXWCXXMncbgDsAP9LD9RP1F9Q4wQaa+MWDHTljnnGb3OM9llqvqilqvI+PW3h2Nu/B9wArrQvhzQ1A3vp62EAjaJ5Rd3u0ZA90WuKu0/p1DRLbGt6egqRSEVEdM2Q7vLCAI9p4vbm/dZBjdYBBFNo4I4tsvf/K6N+naGbALNttAH/m1rD6LhjnaMDb9LquMfy9FFE6paceXUh02g3GmUmqSzt8Wn0sMLgZXMax7tve2efdfnU4NTbPIIqbSvDDj4ZeGB23tuzyrb4f6HSxU/jwRTx+MMiodd+0E29h3WL6y/4xtfOJqbUXSFwLnRO8hu0WLflZXRtVkxHd4dSv0tvn8LhsWsvdmm0gknJs0n35yug0dMI2BoDG4yGNDW7u9gFhfhzoNA8mqghqoywljP1Dr8jJaPra66CsL2zOmPt8/JetNIREXOahERARZLKUQEWSylEBFkspRAFFlKIAospRARZSiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiID//2Q==</LOGO>
+    <DIA_CHI_CTY>Số 2, Lê Văn Chí, P. Linh Trung, Q. Thủ Đức, TP HCM</DIA_CHI_CTY>
+    <DIEN_THOAI>84-8-3896694</DIEN_THOAI>
+    <Fax>84-8-38963893</Fax>
+    <WIDTH>2000</WIDTH>
+    <HEIGHT>800</HEIGHT>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <ngay_in>05/12/2011</ngay_in>
+  </rptTHONG_TIN_CHUNG_TMP>
+  <rptTieuDeDSBPChiuPhi>
+    <commons.Modules.TypeLanguage>0</commons.Modules.TypeLanguage>
+    <NgayIn>Ngày in</NgayIn>
+    <TrangIn>Trang in</TrangIn>
+    <TieuDe>DANH SÁCH THIẾT BỊ THEO NƠI LẮP ĐẶT</TieuDe>
+    <NoiLapDat>Địa điểm</NoiLapDat>
+    <STT>STT</STT>
+    <ThietBi>Thiết bị</ThietBi>
+    <SoThe>Số thẻ</SoThe>
+    <NhomThietBi>Nhóm thiết bị</NhomThietBi>
+    <HienTrang>Hiện trạng sử dụng</HienTrang>
+    <NuocSX>Nước sản xuất</NuocSX>
+    <TyLe>% khi mua</TyLe>
+    <NgayLD>Ngày lắp đặt</NgayLD>
+    <MoTa>Vị trí lắp đặt HT</MoTa>
+    <CongSuat>Công suất</CongSuat>
+    <NangSuat>Năng suất</NangSuat>
+  </rptTieuDeDSBPChiuPhi>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-AC-R152</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>DHKK-02</MS_NHOM_MAY>
+    <MS_MAY>TD-AC-R152</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MÁY LẠNH TRUNG TÂM</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Thailand</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2000-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>Q : 240000BTU/h ; P : 400PSI ; 380V </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-AC-R153</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>DHKK-01</MS_NHOM_MAY>
+    <MS_MAY>TD-AC-R153</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MÁY LẠNH</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Japan</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2005-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>N : 1,24¸1KW ; 220/240V</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-AC-R154</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>DHKK-01</MS_NHOM_MAY>
+    <MS_MAY>TD-AC-R154</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MÁY LẠNH</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Japan</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1997-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>N : 1,24¸1KW ; 220/240V</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-AC-R155</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>DHKK-01</MS_NHOM_MAY>
+    <MS_MAY>TD-AC-R155</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MÁY LẠNH</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Japan</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1997-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>N : 1,24¸1KW ; 220/240V</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-AC-R156</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>DHKK-01</MS_NHOM_MAY>
+    <MS_MAY>TD-AC-R156</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MÁY LẠNH</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Japan</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2005-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>Q:18000BTU/h 220/200V</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-AIR-R130</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>NTH-01</MS_NHOM_MAY>
+    <MS_MAY>TD-AIR-R130</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MÁY NÉN KHÍ</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX />
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2005-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>15T - 62,5FM</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-AIR-R131</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>NTH-01</MS_NHOM_MAY>
+    <MS_MAY>TD-AIR-R131</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MÁY NÉN KHÍ</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2005-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>15T - 62,5FM</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-CFM-R136</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>HC-01</MS_NHOM_MAY>
+    <MS_MAY>TD-CFM-R136</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MÁY CUNG CẤP CLOR</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>70C5531 - 40kG/h-đầu phun: 0,953Ib/ngày - Ap lực nén lớn nhất : 150PSI tãi 38C</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-EF-R137</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>QUAT-01</MS_NHOM_MAY>
+    <MS_MAY>TD-EF-R137</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>QUẠT HÚT</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Đức</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>11000m3/h- 11750m3/h- 25Pa-30Pa</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-EF-R138</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>QUAT-01</MS_NHOM_MAY>
+    <MS_MAY>TD-EF-R138</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>QUẠT HÚT</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX />
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>11000m3/h- 11750m3/h- 25Pa-30Pa</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-EF-R139</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>QUAT-01</MS_NHOM_MAY>
+    <MS_MAY>TD-EF-R139</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>QUẠT HÚT</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX />
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>11000m3/h- 11750m3/h- 25Pa-30Pa</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-EF-R140</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>QUAT-01</MS_NHOM_MAY>
+    <MS_MAY>TD-EF-R140</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>QUẠT HÚT</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX />
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>11000m3/h- 11750m3/h- 25Pa-30Pa</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-EF-R141</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>QUAT-01</MS_NHOM_MAY>
+    <MS_MAY>TD-EF-R141</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>QUẠT HÚT</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX />
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>11000m3/h- 11750m3/h- 25Pa-30Pa</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-EF-R145</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>QUAT-01</MS_NHOM_MAY>
+    <MS_MAY>TD-EF-R145</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>QUẠT HÚT</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX />
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>11000m3/h- 11750m3/h- 25Pa-30Pa</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-HPT-R132</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>AL-01</MS_NHOM_MAY>
+    <MS_MAY>TD-HPT-R132</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BÌNH THỦY ÁP</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1998-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>V : 4240 lít - P : 100 PSI-D1066 x 2464- </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-HPT-R133</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>AL-01</MS_NHOM_MAY>
+    <MS_MAY>TD-HPT-R133</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BÌNH THỦY ÁP</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Việt Nam</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1966-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>V : 1700 lít - P : 100 PSI- D1066 x 2464</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-IZP-SRV-A114B</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>VAN-02</MS_NHOM_MAY>
+    <MS_MAY>TD-IZP-SRV-A114B</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>VAN CHỐNG VA</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1994-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA> DN 600mm - 10bar(150PSI)-Cánh bướm</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-MCC-R124</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>TD-01</MS_NHOM_MAY>
+    <MS_MAY>TD-MCC-R124</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>TỦ BUSTIE 4160</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX />
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1966-12-12T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA />
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-MCC-R125</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>TD-02</MS_NHOM_MAY>
+    <MS_MAY>TD-MCC-R125</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>TỦ BUSTIE 440</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX />
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1966-12-12T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA />
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-MH-R128</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>NH-01</MS_NHOM_MAY>
+    <MS_MAY>TD-MH-R128</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CẨU 15 TẤN</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1966-12-12T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>Móc nâng : 17,5m - 14,1m-Đ/cơ nâng: 6,7m/phút- 13kW(17HP)- 440V 03pha- 50Hz- 1450v/phút -F-IP55-</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-MH-R129</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>NH-02</MS_NHOM_MAY>
+    <MS_MAY>TD-MH-R129</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CẨU CLOR</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1998-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>Móc nâng : 1B2-02 tấn-4m-Đ/cơ nâng: 6,7m/phút- 2,2kW(3HP)- 440V 03pha- 50Hz- 1400v/phút -02-F-IP55- </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-RWP-R101</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BOM-02</MS_NHOM_MAY>
+    <MS_MAY>TD-RWP-R101</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BƠM LY TÂM TRỤC ĐỨNG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Japan</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA> SPV 750 - 6804m3/h - 46,3m </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-RWP-R102</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BOM-02</MS_NHOM_MAY>
+    <MS_MAY>TD-RWP-R102</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BƠM LY TÂM TRỤC ĐỨNG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Japan</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA> SPV 750 - 6804m3/h - 46,3m </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-RWP-R103</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BOM-02</MS_NHOM_MAY>
+    <MS_MAY>TD-RWP-R103</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BƠM LY TÂM TRỤC ĐỨNG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Japan</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA> SPV 750 - 6804m3/h - 46,3m </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-RWP-R104</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BOM-02</MS_NHOM_MAY>
+    <MS_MAY>TD-RWP-R104</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BƠM LY TÂM TRỤC ĐỨNG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Japan</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA> SPV 750 - 6804m3/h - 46,3m </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-RWP-R105</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BOM-02</MS_NHOM_MAY>
+    <MS_MAY>TD-RWP-R105</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BƠM LY TÂM TRỤC ĐỨNG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Japan</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA> SPV 750 - 6804m3/h - 46,3m </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-RWP-R106</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BOM-02</MS_NHOM_MAY>
+    <MS_MAY>TD-RWP-R106</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BƠM LY TÂM TRỤC ĐỨNG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Japan</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA> SPV 750 - 6804m3/h - 46,3m </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SBP-R110</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BOM-03</MS_NHOM_MAY>
+    <MS_MAY>TD-SBP-R110</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BƠM LY TÂM TRỤC NGANG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1966-12-12T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>68m3/h-24,4m- </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SBP-R111</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BOM-03</MS_NHOM_MAY>
+    <MS_MAY>TD-SBP-R111</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BƠM LY TÂM TRỤC NGANG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1966-12-12T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>68m3/h-24,4m- </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SC-R134</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>DL-01</MS_NHOM_MAY>
+    <MS_MAY>TD-SC-R134</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CÂN TRỌNG LƯỢNG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>DR80-4000LBS (02 Tấn)- 0,2% tải định mức</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SC-R135</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>DL-01</MS_NHOM_MAY>
+    <MS_MAY>TD-SC-R135</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CÂN TRỌNG LƯỢNG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>DR80-4000LBS (02 Tấn)- 0,2% tải định mức</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SF-R146</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>QUAT-02</MS_NHOM_MAY>
+    <MS_MAY>TD-SF-R146</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>QUẠT THỔI</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Việt Nam</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>1HP - 380/220V - 03pha - 50Hz - 1,7/2,7A - 1440v/phút - F - IP55</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SF-R147</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>QUAT-02</MS_NHOM_MAY>
+    <MS_MAY>TD-SF-R147</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>QUẠT THỔI</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Việt Nam</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>1HP - 380/220V - 03pha - 50Hz - 1,7/2,7A - 1440v/phút - F - IP55</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SF-R148</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>QUAT-02</MS_NHOM_MAY>
+    <MS_MAY>TD-SF-R148</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>QUẠT THỔI</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Việt Nam</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>1HP - 380/220V - 03pha - 50Hz - 1,7/2,7A - 1440v/phút - F - IP55</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SF-R149</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>QUAT-02</MS_NHOM_MAY>
+    <MS_MAY>TD-SF-R149</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>QUẠT THỔI</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Việt Nam</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>1HP - 380/220V - 03pha - 50Hz - 1,7/2,7A - 1440v/phút - F - IP55</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SF-R150</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>QUAT-02</MS_NHOM_MAY>
+    <MS_MAY>TD-SF-R150</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>QUẠT THỔI</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Việt Nam</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>1HP - 380/220V - 03pha - 50Hz - 1,7/2,7A - 1440v/phút - F - IP55</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SF-R151</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>QUAT-02</MS_NHOM_MAY>
+    <MS_MAY>TD-SF-R151</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>QUẠT THỔI</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Việt Nam</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>1HP - 380/220V - 03pha - 50Hz - 1,7/2,7A - 1440v/phút - F - IP55</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SNM-R112</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>MSC-01</MS_NHOM_MAY>
+    <MS_MAY>TD-SNM-R112</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MÁY SÀN CẶN</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>DN100- 10bar(150PSI)-0,6mm</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SNM-R113</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>MSC-01</MS_NHOM_MAY>
+    <MS_MAY>TD-SNM-R113</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MÁY SÀN CẶN</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>DN100- 10bar(150PSI)-0,6mm</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SRV-R126</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>VAN-02</MS_NHOM_MAY>
+    <MS_MAY>TD-SRV-R126</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>VAN CHỐNG VA</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1994-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA> DN 600mm - 10bar(150PSI)-Cánh bướm</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SRV-R127</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>VAN-02</MS_NHOM_MAY>
+    <MS_MAY>TD-SRV-R127</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>VAN CHỐNG VA</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA> DN 600mm - 10bar(150PSI)-Cánh bướm-70PSI/43,8m</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-STP-R157</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BOM-03</MS_NHOM_MAY>
+    <MS_MAY>TD-STP-R157</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BƠM LY TÂM TRỤC NGANG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1966-12-12T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA />
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SWP-R107</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BOM-03</MS_NHOM_MAY>
+    <MS_MAY>TD-SWP-R107</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BƠM LY TÂM TRỤC NGANG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Japan</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2003-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>MMK-65/9- 25m3/h-90m- trục ngang-</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SWP-R108</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BOM-03</MS_NHOM_MAY>
+    <MS_MAY>TD-SWP-R108</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BƠM LY TÂM TRỤC NGANG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Japan</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2003-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>MMK-65/9- 25m3/h-90m- trục ngang-</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-SWP-R109</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BOM-03</MS_NHOM_MAY>
+    <MS_MAY>TD-SWP-R109</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BƠM LY TÂM TRỤC NGANG</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>Japan</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2006-06-05T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>MMK-65/9- 25m3/h-90m- trục ngang-</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-TF-R117</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BT-01</MS_NHOM_MAY>
+    <MS_MAY>TD-TF-R117</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BIẾN THẾ TỰ NGẪU</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1997-09-27T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>5000/6250KVA - 15000V - 4160V-03 pha- 50Hz</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-TF-R118</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BT-01</MS_NHOM_MAY>
+    <MS_MAY>TD-TF-R118</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BIẾN THẾ TỰ NGẪU</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1997-09-27T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>5000/6250KVA - 15000V - 4160V-03 pha- 50Hz</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-TF-R119</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BT-01</MS_NHOM_MAY>
+    <MS_MAY>TD-TF-R119</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BIẾN THẾ TỰ NGẪU</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1997-09-27T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>5000/6250KVA - 15000V - 4160V-03 pha- 50Hz</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-TF-R120</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BT-01</MS_NHOM_MAY>
+    <MS_MAY>TD-TF-R120</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BIẾN THẾ TỰ NGẪU</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>75KVA - 480V-208Y/120V-03 pha- 50Hz</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-TF-R121</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BT-01</MS_NHOM_MAY>
+    <MS_MAY>TD-TF-R121</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BIẾN THẾ TỰ NGẪU</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>75KVA - 480V-208Y/120V-03 pha- 50Hz</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-TF-R122</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BT-01</MS_NHOM_MAY>
+    <MS_MAY>TD-TF-R122</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BIẾN THẾ TỰ NGẪU</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>150KVA ; 4160V/440V/254V(Y)-03 pha- 50Hz* Bank 2(giống Bank 1)</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-TF-R123</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>BT-01</MS_NHOM_MAY>
+    <MS_MAY>TD-TF-R123</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BIẾN THẾ TỰ NGẪU</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2002-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>150KVA ; 4160V/440V/254V(Y)-03 pha- 50Hz* Bank 2(giống Bank 1)</MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-TSC-R158</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>DK-02</MS_NHOM_MAY>
+    <MS_MAY>TD-TSC-R158</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CẦU DAO</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX />
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>2000-01-01T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA />
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-TSM-R114</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>LR-01</MS_NHOM_MAY>
+    <MS_MAY>TD-TSM-R114</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MÁY LƯỢC RÁC</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1966-12-12T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>Lưới và hộp giảm tốc : ETB-55- 292-4,87/12v/phút- 5mm- </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-TSM-R115</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>LR-01</MS_NHOM_MAY>
+    <MS_MAY>TD-TSM-R115</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MÁY LƯỢC RÁC</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1966-12-12T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>Lưới và hộp giảm tốc : ETB-55- 292-4,87/12v/phút- 5mm- </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptDSTBTNLDHienTai_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA />
+    <MS_MAY_FINAL>TD-TSM-R116</MS_MAY_FINAL>
+    <MS_TINH>VN-02</MS_TINH>
+    <MS_QUAN>DN-02</MS_QUAN>
+    <MS_DUONG>D0002</MS_DUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <MS_NHOM_MAY>LR-01</MS_NHOM_MAY>
+    <MS_MAY>TD-TSM-R116</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MÁY LƯỢC RÁC</TEN_NHOM_MAY>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NUOC_SX>USA</NUOC_SX>
+    <TY_LE_CON_LAI>100</TY_LE_CON_LAI>
+    <NGAY_NHAP>1966-12-12T00:00:00+07:00</NGAY_NHAP>
+    <Ten_N_XUONG>Hóa An</Ten_N_XUONG>
+    <MO_TA>Lưới và hộp giảm tốc : ETB-55- 292-4,87/12v/phút- 5mm- </MO_TA>
+  </rptDSTBTNLDHienTai_TMP>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Nhà Máy Nước Thủ Đức
+Số 2, Lê Văn Chí, P. Linh Trung, Q. Thủ Đức, TP HCM
+Telephone: 84-8-3896694  Fax: 84-8-38963893</THONG_TIN_CTY>
+    <LOGO>/9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBg8PDxQUEhQQFRQUGBkYERgSFhgWGBwSGBwXGxscEx0ZHycqGhovGRUVJi8gIycpLCwwGB8xNTAqNSYrLCn/2wBDAQkKCg4MDhkPDxowJBwlMi8uMTIyLDU1LjApMjUsLCw1MDU1NTE1NDUsLS0pLDQsLjU0KiwsNCksLC8sLCwsKSz/wAARCABDAH8DASIAAhEBAxEB/8QAGwABAAMBAQEBAAAAAAAAAAAAAAEFBgcEAwL/xAAxEAABAwMDAgQFBAIDAAAAAAABAAIDBBEhBRIxBkETIlFxB2GBodEUFjJUkbEVJVL/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQIDBAX/xAApEQACAgEDAQcFAQAAAAAAAAAAAgEDERIhgeEiMXGhscHwE0FhotEE/9oADAMBAAIRAxEAPwDuKIiAIiIAiIgCIiAIiIAiIgCIiAIiIAvxNJtaTYmwJsPkv2vhW03ixlm57d3dhs4exUwRPdsUI6qn/qyff8J+6p/6sn3/AAvB1FpsNJFudW1UZcbMLnueL8/xaPRUmmPjnmZGzUp3uccNDJASBk2J4wDleiqVMuqF25PLaL1nE2T+pqv3TUf1ZPv+F69T12WF4a2F77tBJbewJ7cKIOmGscHePVnab2dLcG3rjhY7W9ap31EjhqMkYvbYxklhtweMcgrNFrsbsrtyaMtyLOX34NP+6Z/6sn3/AArDS9cMx2uikjd23A7T9fVeXTNCaadu6Wd7nNv4m97TnIO2+ORhZDVWtpZTFLqUzXCxsWPODxkHKQtVmVWMTyI+tXhmfMcHSKycsjc4DcWgkAdyOyooepp3OANNIASBc3xc+y+lDqUc+nuc2cuDY3tfKGlpDmtN3W5uBlYuh1CEyxganK7ztxskybjBuq01RMNDRvHiaXs8ysq2I49zpddVmKNz9pdtFwG8n2VLS9Szue1rqaQAkAnOL9+FTdW9RUz5BG2tMJjJEgYx7ru92+mVTUepwiRn/aSnzNwWSWORg3V6qI0ZaN/CStztL9lsRx7nStRrDFE54aXkcNbySqVvU9QSAKWS5wL3Az9FU9X6/TulEYrXQGO+8MY83cfUt+XZenoum8RxmbVyzsF2gODmt3YufNzhUWtUr1PHqTZLvZhGxHBsGnClQFK4zuCFFBQGV6xfXOextPFRSNAJcaktvuPG0E4x3+a+PSVPXeOTUQ6exgadppg3dvJFhcHAtdY7qzVdMnrZXTU+pOe07C6M2aduPKLcLZfDegpW075aeKojErrEVBu47LgEeg8zl2tGiru8uvsY6ctk1NbI5sby3aXBp2hxsC7tc9hdc/pqfVnSNDqbSAC4biAxx23G4gXybXV98Q9Rp4qPZOyokZK4N20/8sebnsMLmtHqOlQyNkjptWa9hu0h3Btb09CU/wA6TpmceXWCXXMncbgDsAP9LD9RP1F9Q4wQaa+MWDHTljnnGb3OM9llqvqilqvI+PW3h2Nu/B9wArrQvhzQ1A3vp62EAjaJ5Rd3u0ZA90WuKu0/p1DRLbGt6egqRSEVEdM2Q7vLCAI9p4vbm/dZBjdYBBFNo4I4tsvf/K6N+naGbALNttAH/m1rD6LhjnaMDb9LquMfy9FFE6paceXUh02g3GmUmqSzt8Wn0sMLgZXMax7tve2efdfnU4NTbPIIqbSvDDj4ZeGB23tuzyrb4f6HSxU/jwRTx+MMiodd+0E29h3WL6y/4xtfOJqbUXSFwLnRO8hu0WLflZXRtVkxHd4dSv0tvn8LhsWsvdmm0gknJs0n35yug0dMI2BoDG4yGNDW7u9gFhfhzoNA8mqghqoywljP1Dr8jJaPra66CsL2zOmPt8/JetNIREXOahERARZLKUQEWSylEBFkspRAFFlKIAospRARZSiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiID//2Q==</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>2000</WIDTH>
+    <HEIGHT>800</HEIGHT>
+    <NGAY_IN>Ngày in:05/12/2011</NGAY_IN>
+    <PAGE>@PAGE@</PAGE>
+    <OFPAGE>@OF@</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

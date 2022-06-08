@@ -1,0 +1,4 @@
+<project outputDir="D:\00.Code\DLL" baseDir="D:\00.Code\02.DLL\Report1\Report1\bin\Debug" xmlns="http://confuser.codeplex.com">
+  <rule pattern="true" preset="maximum" inherit="false" />
+  <module path="Report1.dll" />
+</project>

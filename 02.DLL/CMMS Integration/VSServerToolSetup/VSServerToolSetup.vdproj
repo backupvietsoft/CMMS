@@ -1,0 +1,2775 @@
+﻿"DeployProject"
+{
+"VSVersion" = "3:800"
+"ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
+"IsWebType" = "8:FALSE"
+"ProjectName" = "8:VSServerToolSetup"
+"LanguageId" = "3:1033"
+"CodePage" = "3:1252"
+"UILanguageId" = "3:1033"
+"SccProjectName" = "8:"
+"SccLocalPath" = "8:"
+"SccAuxPath" = "8:"
+"SccProvider" = "8:"
+    "Hierarchy"
+    {
+        "Entry"
+        {
+        "MsmKey" = "8:_00A18AAD1E594422B6974D7C2F5DFCE1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_01CA42E24ABB4A31893BDA6BB2B6CC37"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0286412D0412458BB8C45A276A43EA9D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_03EA5BA7328D4009885FD468EE5A68FE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0446361B894448A8BDB9D3E95B49C6A0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_116BE47A9C844C4D9E33FB7448000E33"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_177E112F0FE64E0CB5BE79D32A7B5AB4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_18844338238F4C3180439EB7D68AA617"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1BA3ECFF67FE4A9795D18DE1C607706B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1F3BC75D6D554EB6B14060EF35BD65A4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_29BCC17B7EFC4BCEA7B05D6B1A2DB9FF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2D791E375C6F4798882652CC63E50769"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_36A2F33B998A4E3CBC28AA60C3666E38"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_36BAB1B5B1354718A1453D642AEDB58F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3B34F5B8E9494BF4BF8009BD0BC56390"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3C840DDAF7EF4356BA4C225DE6D7F212"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3C919F146F5EF8809EA6852D0BC8648C"
+        "OwnerKey" = "8:_4751982D96C230DB6B940A0F974C91B5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3C919F146F5EF8809EA6852D0BC8648C"
+        "OwnerKey" = "8:_7009726FC5F546A0A746C3A82A121D5B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4751982D96C230DB6B940A0F974C91B5"
+        "OwnerKey" = "8:_7009726FC5F546A0A746C3A82A121D5B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4ACD7E08F9F74B04A5B4E00812727B68"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4E2E05E057A5474E8CD3BB76C4582142"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_55DD5F85196048EA8D1ED593D81789F1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5DA21AAFEC014EE8981FBE4C04F1AFDE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5E8E7A28018B4D4195B8D76795A1DCC8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_60F94282AE5542A58A6575241B7DE5B9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_61465432F3654B0983D0217CDDE6F578"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_631D497FCB4B4BE491AA392E82CD5D1E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_638914110054405D8CB6DC576F0AF286"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6573F180D3EA4F8C9595272778AAC328"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6CE0B924649E40258F4B188A6C708A8B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6D5A2684D509438C9D12BBDADF09FD2C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6E9E4AEA76E948D89C413A63B8CED894"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6EC2B0FEBC1A4354A6AB1D1A41D67CA1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7009726FC5F546A0A746C3A82A121D5B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_712A534CFF5646629454D5A25AD280A2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7C6056ABC1964CC69419F366DE289132"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_804333759392FD00CB9E3E0EBFC67430"
+        "OwnerKey" = "8:_7009726FC5F546A0A746C3A82A121D5B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_80871DD4924741999101897275184067"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_80AD41D5DD5B4E7DB76A441896380476"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_820FD3E89CF1417E9749CE08E500979A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_870051A6E89541FAAD185A83B5AC3E14"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_88EBE42308814BE89F420F1A4208A8BC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8AE1C83BE2F543F68DD028E2456A6EDF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8BEB247EEB764FD697FC057F49929207"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8C1C64675E19412C87D55A0C7E0CE63A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_92239A2A371448F3A01758DC95BF5A78"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_947253CF14B54D028D902CF20A3B8AA8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_972E0FE734BF4F5C9E4D3D209978EF51"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9DAB7297A0BD4843BBC62000D3E9E85C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A34B4FBA53C0413EBF8DA9CAAD5A7BE7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B077A8C28DB642298C47CB6E893027F7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B3F0CFE1B6D647049846494388BB1248"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B71297A5610C4394A5DD3BAE2F475314"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BA97D4EE1FBA4B85868114182CC4949C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BDF281C61F8C4953ABDC253022863FCF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C236E1D6E0AC4D2FA8498F052E86606A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C237F97F724B4D7CB11FC8C98FB60262"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C58B501AEBC8446FB859406354051E47"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C6364B231F7E4DA58F1CBEF77E3D7BBB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C82CA0857D7E486791B3EAC842F80E34"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CC6056BBA3B8477EBD7225C941643460"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CFED6D68CD134A92A77C83B05F348F3A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D07E395C15584BA1A19FDD26BB09A3F1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D528269BE82940E09F825A57FAB926C5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D65D425280854A6498AEB47D3161263F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D85DC8409E154C62A2AD30059A61F343"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DDC89DC025704A599EC4C25BB64F2621"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E14C2F0BFDA342A39668FF3549CEE53B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E259548E16264CC8BAEC49CEE2166C69"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E56433B90B6741C4AFE2C99A2B222A69"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EAC3535751114604B9C8476C7554EC7F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EFACD024184A4B3499792D5B3EE3A10C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FC7A57C7699A467FA24CA3C65949C8F2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_7009726FC5F546A0A746C3A82A121D5B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_3B34F5B8E9494BF4BF8009BD0BC56390"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_804333759392FD00CB9E3E0EBFC67430"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_4751982D96C230DB6B940A0F974C91B5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_3C919F146F5EF8809EA6852D0BC8648C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+    }
+    "Configurations"
+    {
+        "Debug"
+        {
+        "DisplayName" = "8:Debug"
+        "IsDebugOnly" = "11:TRUE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Debug\\VSServerToolSetup.msi"
+        "PackageFilesAs" = "3:2"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "Compression" = "3:2"
+        "SignOutput" = "11:FALSE"
+        "CertificateFile" = "8:"
+        "PrivateKeyFile" = "8:"
+        "TimeStampServer" = "8:"
+        "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    {
+                    "Name" = "8:.NET Framework 3.5"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
+        }
+        "Release"
+        {
+        "DisplayName" = "8:Release"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:TRUE"
+        "OutputFilename" = "8:Release\\VSServerToolSetup.msi"
+        "PackageFilesAs" = "3:2"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "Compression" = "3:2"
+        "SignOutput" = "11:FALSE"
+        "CertificateFile" = "8:"
+        "PrivateKeyFile" = "8:"
+        "TimeStampServer" = "8:"
+        "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    {
+                    "Name" = "8:.NET Framework 3.5"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
+        }
+    }
+    "Deployable"
+    {
+        "CustomAction"
+        {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_040D5C8EE55447FEACA5F92FFB2F248E"
+            {
+            "Name" = "8:Primary output from VSServerTool (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_7009726FC5F546A0A746C3A82A121D5B"
+            "FileType" = "3:2"
+            "InstallAction" = "3:3"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_A84D18B2_1683_4338_A2B2_5A9EE7645AB4"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_8687D5C92F014254A0C01CF01731AB61"
+            {
+            "Name" = "8:Primary output from VSServerTool (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_7009726FC5F546A0A746C3A82A121D5B"
+            "FileType" = "3:2"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_FF072873_5B0F_41CC_BD1A_E5603F1AFD34"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_BDA201CDBA4241C38799FF802BBD61C0"
+            {
+            "Name" = "8:Primary output from VSServerTool (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_7009726FC5F546A0A746C3A82A121D5B"
+            "FileType" = "3:2"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_8B5906A1_3FBD_4879_B49D_987EBABDEF0D"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_E80728DFC93F4FE9B0C82F7615C98576"
+            {
+            "Name" = "8:Primary output from VSServerTool (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_7009726FC5F546A0A746C3A82A121D5B"
+            "FileType" = "3:2"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_352D605C_40D0_47B5_9318_E19C5625C0A0"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+        }
+        "DefaultFeature"
+        {
+        "Name" = "8:DefaultFeature"
+        "Title" = "8:"
+        "Description" = "8:"
+        }
+        "ExternalPersistence"
+        {
+            "LaunchCondition"
+            {
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_8A9C3C84A5A6434DB797BD382950C440"
+                {
+                "Name" = "8:.NET Framework"
+                "Message" = "8:[VSDNETMSG]"
+                "Version" = "8:3.5.21022"
+                "AllowLaterVersions" = "11:FALSE"
+                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=76617"
+                }
+            }
+        }
+        "File"
+        {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_00A18AAD1E594422B6974D7C2F5DFCE1"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\IntegrationInfo.xml"
+            "TargetName" = "8:IntegrationInfo.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_DE802C107E7640F79EC59C487F54625E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_01CA42E24ABB4A31893BDA6BB2B6CC37"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\010.INTEGRATION_NHAP_KHO_HEADER_UPDATE.sql"
+            "TargetName" = "8:010.INTEGRATION_NHAP_KHO_HEADER_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0286412D0412458BB8C45A276A43EA9D"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\014.THEM_COT_SL_ADLLOCATED_PBT_CV_PT.sql"
+            "TargetName" = "8:014.THEM_COT_SL_ADLLOCATED_PBT_CV_PT.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_03EA5BA7328D4009885FD468EE5A68FE"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\000.INSERT_MENU_PB_BPCP.sql"
+            "TargetName" = "8:000.INSERT_MENU_PB_BPCP.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0446361B894448A8BDB9D3E95B49C6A0"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\051.INTEGRATION_TO_PHONG_BAN_UPDATE.sql"
+            "TargetName" = "8:051.INTEGRATION_TO_PHONG_BAN_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_116BE47A9C844C4D9E33FB7448000E33"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\022.INTEGRATION_GetDanhSachVatTuXuatBaoTri.sql"
+            "TargetName" = "8:022.INTEGRATION_GetDanhSachVatTuXuatBaoTri.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_177E112F0FE64E0CB5BE79D32A7B5AB4"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\036.INTEGRATION_DELETE_XUAT_VT_PT_FOR_PBT.sql"
+            "TargetName" = "8:036.INTEGRATION_DELETE_XUAT_VT_PT_FOR_PBT.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_18844338238F4C3180439EB7D68AA617"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\CMMSIntegrationLib.pdb"
+            "TargetName" = "8:CMMSIntegrationLib.pdb"
+            "Tag" = "8:"
+            "Folder" = "8:_DE802C107E7640F79EC59C487F54625E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1BA3ECFF67FE4A9795D18DE1C607706B"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\000.SYN_TB_XUAT_KHO_INTEGRATION.sql"
+            "TargetName" = "8:000.SYN_TB_XUAT_KHO_INTEGRATION.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1F3BC75D6D554EB6B14060EF35BD65A4"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\029.INTEGRATION_PHIEU_NHAP_XUAT_AUTO.sql"
+            "TargetName" = "8:029.INTEGRATION_PHIEU_NHAP_XUAT_AUTO.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_29BCC17B7EFC4BCEA7B05D6B1A2DB9FF"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\034.INTEGRATION_SP_GET_PTSD_PBT_CHI_TIET.sql"
+            "TargetName" = "8:034.INTEGRATION_SP_GET_PTSD_PBT_CHI_TIET.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2D791E375C6F4798882652CC63E50769"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\049.INTEGRATION_INSERT_DNXK_FOR_SYN.sql"
+            "TargetName" = "8:049.INTEGRATION_INSERT_DNXK_FOR_SYN.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_36A2F33B998A4E3CBC28AA60C3666E38"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\032.INTEGRATION_XUAT_KHO_SYN_UPDATE.sql"
+            "TargetName" = "8:032.INTEGRATION_XUAT_KHO_SYN_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_36BAB1B5B1354718A1453D642AEDB58F"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\030.INTEGRATION_SYN_TB_ALLOCATION_VTPT_FOR_PBT_INSERT.sql"
+            "TargetName" = "8:030.INTEGRATION_SYN_TB_ALLOCATION_VTPT_FOR_PBT_INSERT.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3B34F5B8E9494BF4BF8009BD0BC56390"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:CMMSToolSetting, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_3B34F5B8E9494BF4BF8009BD0BC56390"
+                    {
+                    "Name" = "8:CMMSToolSetting.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\CMMSToolSetting.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_DE802C107E7640F79EC59C487F54625E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3C840DDAF7EF4356BA4C225DE6D7F212"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\048.INTEGRATION_GET_DATA_FOR_DNXK_SYN.sql"
+            "TargetName" = "8:048.INTEGRATION_GET_DATA_FOR_DNXK_SYN.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3C919F146F5EF8809EA6852D0BC8648C"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral"
+                "ScatterAssemblies"
+                {
+                    "_3C919F146F5EF8809EA6852D0BC8648C"
+                    {
+                    "Name" = "8:Microsoft.ApplicationBlocks.Data.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.ApplicationBlocks.Data.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_DE802C107E7640F79EC59C487F54625E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4751982D96C230DB6B940A0F974C91B5"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:CMMSIntegrationLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_4751982D96C230DB6B940A0F974C91B5"
+                    {
+                    "Name" = "8:CMMSIntegrationLib.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:CMMSIntegrationLib.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_DE802C107E7640F79EC59C487F54625E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4ACD7E08F9F74B04A5B4E00812727B68"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\052.INTEGRATION_LY_DO_XUAT_KT_UPDATE.sql"
+            "TargetName" = "8:052.INTEGRATION_LY_DO_XUAT_KT_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4E2E05E057A5474E8CD3BB76C4582142"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\050.TO_PHONG_BAN.sql"
+            "TargetName" = "8:050.TO_PHONG_BAN.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_55DD5F85196048EA8D1ED593D81789F1"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\037.INTEGRATION_CREATE_PHIEU_NHAP_XUAT_FOR_PBT_AUTO.sql"
+            "TargetName" = "8:037.INTEGRATION_CREATE_PHIEU_NHAP_XUAT_FOR_PBT_AUTO.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5DA21AAFEC014EE8981FBE4C04F1AFDE"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\035.INTEGRATION_CREATE_PHIEU_NHAP_XUAT_FOR_PBT_AUTO.sql"
+            "TargetName" = "8:035.INTEGRATION_CREATE_PHIEU_NHAP_XUAT_FOR_PBT_AUTO.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5E8E7A28018B4D4195B8D76795A1DCC8"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\027.INTEGRATION_NHAP_KHO_SYN_UPDATE_TO_CMMS.sql"
+            "TargetName" = "8:027.INTEGRATION_NHAP_KHO_SYN_UPDATE_TO_CMMS.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_60F94282AE5542A58A6575241B7DE5B9"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\CMMSToolSetting.pdb"
+            "TargetName" = "8:CMMSToolSetting.pdb"
+            "Tag" = "8:"
+            "Folder" = "8:_DE802C107E7640F79EC59C487F54625E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_61465432F3654B0983D0217CDDE6F578"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\026.INTEGRATION_NHAP_KHO_SYN_UPDATE.sql"
+            "TargetName" = "8:026.INTEGRATION_NHAP_KHO_SYN_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_631D497FCB4B4BE491AA392E82CD5D1E"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\013.INTEGRATION_XUAT_KHO_VAT_TU_UPDATE.sql"
+            "TargetName" = "8:013.INTEGRATION_XUAT_KHO_VAT_TU_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_638914110054405D8CB6DC576F0AF286"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\047.INTEGRATION_CREATE_PHIEU_NHAP_XUAT_FOR_PBT_AUTO.sql"
+            "TargetName" = "8:047.INTEGRATION_CREATE_PHIEU_NHAP_XUAT_FOR_PBT_AUTO.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6573F180D3EA4F8C9595272778AAC328"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\046.INTEGRATION_PB_PBCP_GETDATA.sql"
+            "TargetName" = "8:046.INTEGRATION_PB_PBCP_GETDATA.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6CE0B924649E40258F4B188A6C708A8B"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\025.INTEGRATION_insert_PHIEU_BAO_TRI_CONG_VIEC_PHU_TUNG_CHI_TIET_1.sql"
+            "TargetName" = "8:025.INTEGRATION_insert_PHIEU_BAO_TRI_CONG_VIEC_PHU_TUNG_CHI_TIET_1.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6D5A2684D509438C9D12BBDADF09FD2C"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\000.SYN_TB_ALLOCATION_VTPT_FOR_PBT.sql"
+            "TargetName" = "8:000.SYN_TB_ALLOCATION_VTPT_FOR_PBT.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6E9E4AEA76E948D89C413A63B8CED894"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\000.SYN_TB_NHAP_KHO_INTEGRATION.sql"
+            "TargetName" = "8:000.SYN_TB_NHAP_KHO_INTEGRATION.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6EC2B0FEBC1A4354A6AB1D1A41D67CA1"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\043.INTEGRATION_XUAT_KHO_SYN_UPDATE_TO_CMMS.sql"
+            "TargetName" = "8:043.INTEGRATION_XUAT_KHO_SYN_UPDATE_TO_CMMS.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_712A534CFF5646629454D5A25AD280A2"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\006.INTEGRATION_DON_VI_TINH_UPDATE.sql"
+            "TargetName" = "8:006.INTEGRATION_DON_VI_TINH_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7C6056ABC1964CC69419F366DE289132"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\016.THEM_COT_SYN_DATA_THONG_TIN_CHUNG.sql"
+            "TargetName" = "8:016.THEM_COT_SYN_DATA_THONG_TIN_CHUNG.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_804333759392FD00CB9E3E0EBFC67430"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ServiceInstaller, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_804333759392FD00CB9E3E0EBFC67430"
+                    {
+                    "Name" = "8:ServiceInstaller.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:ServiceInstaller.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_DE802C107E7640F79EC59C487F54625E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_80871DD4924741999101897275184067"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_INTEGRATION\\001.IT_PROC_INSERT_TB_MAY.sql"
+            "TargetName" = "8:001.IT_PROC_INSERT_TB_MAY.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_7464C671DEB042D1B61C1F8FBC2E36E9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_80AD41D5DD5B4E7DB76A441896380476"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\039.INTEGRATION_GET_DATA_TO_CHECK_ALLOCATED_VTPT_PBT.sql"
+            "TargetName" = "8:039.INTEGRATION_GET_DATA_TO_CHECK_ALLOCATED_VTPT_PBT.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_820FD3E89CF1417E9749CE08E500979A"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\041.INTEGRATION_PHIEU_BAO_TRI_CONG_VIEC_PHU_TUNG_CHI_TIET_2.sql"
+            "TargetName" = "8:041.INTEGRATION_PHIEU_BAO_TRI_CONG_VIEC_PHU_TUNG_CHI_TIET_2.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_870051A6E89541FAAD185A83B5AC3E14"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\007.INTEGRATION_IC_KHO_UPDATE.sql"
+            "TargetName" = "8:007.INTEGRATION_IC_KHO_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_88EBE42308814BE89F420F1A4208A8BC"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\001.CREATE_MS_KHO_MAP_INTEGRATION.sql"
+            "TargetName" = "8:001.CREATE_MS_KHO_MAP_INTEGRATION.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8AE1C83BE2F543F68DD028E2456A6EDF"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\000.SYN_TB_NHAP_KHO_CMMS.sql"
+            "TargetName" = "8:000.SYN_TB_NHAP_KHO_CMMS.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8BEB247EEB764FD697FC057F49929207"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\019..ALLOCATE_GET_DATE_VTPT_FOR_PBT.sql"
+            "TargetName" = "8:019..ALLOCATE_GET_DATE_VTPT_FOR_PBT.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8C1C64675E19412C87D55A0C7E0CE63A"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\Scheduler.xml"
+            "TargetName" = "8:Scheduler.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_DE802C107E7640F79EC59C487F54625E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_92239A2A371448F3A01758DC95BF5A78"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\020.INTEGRAION_update_PHIEU_BAO_TRI_CONG_VIEC_PHU_TUNG_CHI_TIET_1.sql"
+            "TargetName" = "8:020.INTEGRAION_update_PHIEU_BAO_TRI_CONG_VIEC_PHU_TUNG_CHI_TIET_1.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_947253CF14B54D028D902CF20A3B8AA8"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\040.INTEGRATION_GET_DATA_ALLOCATED_FOR_PBT.sql"
+            "TargetName" = "8:040.INTEGRATION_GET_DATA_ALLOCATED_FOR_PBT.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_972E0FE734BF4F5C9E4D3D209978EF51"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\008.INTEGRATION_IC_PHU_TUNG_UPDATE.sql"
+            "TargetName" = "8:008.INTEGRATION_IC_PHU_TUNG_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9DAB7297A0BD4843BBC62000D3E9E85C"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\002.CREATE_ROW_ID_NHAP_KHO_INTEGRATION.sql"
+            "TargetName" = "8:002.CREATE_ROW_ID_NHAP_KHO_INTEGRATION.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A34B4FBA53C0413EBF8DA9CAAD5A7BE7"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\012.INTEGRATION_XUAT_KHO_HEADER_UPDATE.sql"
+            "TargetName" = "8:012.INTEGRATION_XUAT_KHO_HEADER_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B077A8C28DB642298C47CB6E893027F7"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\CMMSInfo.xml"
+            "TargetName" = "8:CMMSInfo.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_DE802C107E7640F79EC59C487F54625E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B3F0CFE1B6D647049846494388BB1248"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\024.INTEGRATION_IC_PHU_TUNG_UPDATE.sql"
+            "TargetName" = "8:024.INTEGRATION_IC_PHU_TUNG_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B71297A5610C4394A5DD3BAE2F475314"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\031.INTEGRATION_update_PHIEU_BAO_TRI_CONG_VIEC_PHU_TUNG_CHI_TIET_3.sql"
+            "TargetName" = "8:031.INTEGRATION_update_PHIEU_BAO_TRI_CONG_VIEC_PHU_TUNG_CHI_TIET_3.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BA97D4EE1FBA4B85868114182CC4949C"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\038.INTEGRATION_SP_GET_PTSD_PBT_CHI_TIET.sql"
+            "TargetName" = "8:038.INTEGRATION_SP_GET_PTSD_PBT_CHI_TIET.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BDF281C61F8C4953ABDC253022863FCF"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\004.INTEGRATION_DANG_NHAP_UPDATE.sql"
+            "TargetName" = "8:004.INTEGRATION_DANG_NHAP_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C236E1D6E0AC4D2FA8498F052E86606A"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\003.CREATE_ROW_ID_XUAT_KHO_INTEGRATION.sql"
+            "TargetName" = "8:003.CREATE_ROW_ID_XUAT_KHO_INTEGRATION.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C237F97F724B4D7CB11FC8C98FB60262"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\042.INTEGRATION_NHAP_KHO_SYN_UPDATE_TO_CMMS.sql"
+            "TargetName" = "8:042.INTEGRATION_NHAP_KHO_SYN_UPDATE_TO_CMMS.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C58B501AEBC8446FB859406354051E47"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\044.INTEGRATION_GET_DATA_FOR_ALLOCATED_BY_PBT.sql"
+            "TargetName" = "8:044.INTEGRATION_GET_DATA_FOR_ALLOCATED_BY_PBT.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C6364B231F7E4DA58F1CBEF77E3D7BBB"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\018.ALTER_TABLE_IC_DON_HANG_XUAT_VAT_TU_CHI_TIET.sql"
+            "TargetName" = "8:018.ALTER_TABLE_IC_DON_HANG_XUAT_VAT_TU_CHI_TIET.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C82CA0857D7E486791B3EAC842F80E34"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\011.INTEGRATION_NHAP_KHO_VAT_TU_UPDATE.sql"
+            "TargetName" = "8:011.INTEGRATION_NHAP_KHO_VAT_TU_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CC6056BBA3B8477EBD7225C941643460"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\021.INTEGRATION_CHECK_SO_LUONG_ALLOCATED_PBT.sql"
+            "TargetName" = "8:021.INTEGRATION_CHECK_SO_LUONG_ALLOCATED_PBT.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CFED6D68CD134A92A77C83B05F348F3A"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_INTEGRATION\\004.INTEGRATION_DELETE_DNXK_FOR_SYN.sql"
+            "TargetName" = "8:004.INTEGRATION_DELETE_DNXK_FOR_SYN.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_7464C671DEB042D1B61C1F8FBC2E36E9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D07E395C15584BA1A19FDD26BB09A3F1"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\045.INTEGRATION_CREATE_PHIEU_NHAP_XUAT_FOR_BPCP_AUTO.sql"
+            "TargetName" = "8:045.INTEGRATION_CREATE_PHIEU_NHAP_XUAT_FOR_BPCP_AUTO.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D528269BE82940E09F825A57FAB926C5"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\015.THEM_COT_SL_ADLLOCATED_PBT_CV_PT_CT.sql"
+            "TargetName" = "8:015.THEM_COT_SL_ADLLOCATED_PBT_CV_PT_CT.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D65D425280854A6498AEB47D3161263F"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_INTEGRATION\\003.INTEGRATION_INSERT_DNXK_FOR_SYN.sql"
+            "TargetName" = "8:003.INTEGRATION_INSERT_DNXK_FOR_SYN.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_7464C671DEB042D1B61C1F8FBC2E36E9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D85DC8409E154C62A2AD30059A61F343"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\009.INTEGRATION_KHACH_HANG_UPDATE.sql"
+            "TargetName" = "8:009.INTEGRATION_KHACH_HANG_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DDC89DC025704A599EC4C25BB64F2621"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_INTEGRATION\\002.INTEGRATION_CREATE_DNXK_FOR_SYN.sql"
+            "TargetName" = "8:002.INTEGRATION_CREATE_DNXK_FOR_SYN.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_7464C671DEB042D1B61C1F8FBC2E36E9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E14C2F0BFDA342A39668FF3549CEE53B"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\017.ALTER_TABLE_IC_DON_HANG_NHAP_VAT_TU.sql"
+            "TargetName" = "8:017.ALTER_TABLE_IC_DON_HANG_NHAP_VAT_TU.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E259548E16264CC8BAEC49CEE2166C69"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\028.INTEGRATION_PHIEU_BAO_TRI_CONG_VIEC_PHU_TUNG_CHI_TIET_2.sql"
+            "TargetName" = "8:028.INTEGRATION_PHIEU_BAO_TRI_CONG_VIEC_PHU_TUNG_CHI_TIET_2.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E56433B90B6741C4AFE2C99A2B222A69"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\023.INTEGRATION_GetPTThayThe.sql"
+            "TargetName" = "8:023.INTEGRATION_GetPTThayThe.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EAC3535751114604B9C8476C7554EC7F"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\005.INTEGRATION_DANG_XUAT_UPDATE.sql"
+            "TargetName" = "8:005.INTEGRATION_DANG_XUAT_UPDATE.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EFACD024184A4B3499792D5B3EE3A10C"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\033.INTEGRATION_XUAT_KHO_SYN_UPDATE_TO_CMMS.sql"
+            "TargetName" = "8:033.INTEGRATION_XUAT_KHO_SYN_UPDATE_TO_CMMS.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FC7A57C7699A467FA24CA3C65949C8F2"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\bin\\Debug\\SQL_CMMS\\000.SYN_TB_XUAT_KHO_CMMS.sql"
+            "TargetName" = "8:000.SYN_TB_XUAT_KHO_CMMS.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_9DC94D15A93441F28A18EAB27E7B3206"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+        }
+        "FileType"
+        {
+        }
+        "Folder"
+        {
+            "{1525181F-901A-416C-8A58-119130FE478E}:_6B5E31E50C044B2D8D3D01850010BEF5"
+            {
+            "Name" = "8:#1919"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:ProgramMenuFolder"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_3B0E3C44FCEF4481AAD0F4E312452CBC"
+                    {
+                    "Name" = "8:CMMS Integration Tool"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_CA9479F6E42C40E2AADFB9DFBF1932B2"
+                        "Folders"
+                        {
+                        }
+                    }
+                }
+            }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_C4D2E7A5CF3C4588A7FEFF7CB47A8A77"
+            {
+            "Name" = "8:#1916"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:DesktopFolder"
+                "Folders"
+                {
+                }
+            }
+            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_DE802C107E7640F79EC59C487F54625E"
+            {
+            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "Name" = "8:#1925"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:TARGETDIR"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_7464C671DEB042D1B61C1F8FBC2E36E9"
+                    {
+                    "Name" = "8:SQL_INTEGRATION"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_D757BAD8E3E1420B8333691041A84FAF"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_9DC94D15A93441F28A18EAB27E7B3206"
+                    {
+                    "Name" = "8:SQL_CMMS"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_7F69A5C4C4DD43088682FA9045C1D00F"
+                        "Folders"
+                        {
+                        }
+                    }
+                }
+            }
+        }
+        "LaunchCondition"
+        {
+        }
+        "Locator"
+        {
+        }
+        "MsiBootstrapper"
+        {
+        "LangId" = "3:1033"
+        "RequiresElevation" = "11:FALSE"
+        }
+        "Product"
+        {
+        "Name" = "8:Microsoft Visual Studio"
+        "ProductName" = "8:CMMS Integration Tool"
+        "ProductCode" = "8:{5BF63838-CC9D-4713-B01D-ED80C76C11CD}"
+        "PackageCode" = "8:{811BFDA1-0226-4328-8BF0-AD1BC328E180}"
+        "UpgradeCode" = "8:{91CDED2B-EED0-40BB-B919-E7857C6244E1}"
+        "RestartWWWService" = "11:FALSE"
+        "RemovePreviousVersions" = "11:FALSE"
+        "DetectNewerInstalledVersion" = "11:TRUE"
+        "InstallAllUsers" = "11:FALSE"
+        "ProductVersion" = "8:1.0.0"
+        "Manufacturer" = "8:Vietsoft.,Ltd"
+        "ARPHELPTELEPHONE" = "8:"
+        "ARPHELPLINK" = "8:"
+        "Title" = "8:CMMS Integration Tool"
+        "Subject" = "8:"
+        "ARPCONTACT" = "8:Vietsoft"
+        "Keywords" = "8:"
+        "ARPCOMMENTS" = "8:"
+        "ARPURLINFOABOUT" = "8:"
+        "ARPPRODUCTICON" = "8:"
+        "ARPIconIndex" = "3:0"
+        "SearchPath" = "8:"
+        "UseSystemSearchPath" = "11:TRUE"
+        "TargetPlatform" = "3:0"
+        "PreBuildEvent" = "8:"
+        "PostBuildEvent" = "8:"
+        "RunPostBuildEvent" = "3:0"
+        }
+        "Registry"
+        {
+            "HKLM"
+            {
+                "Keys"
+                {
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_F36DC2946BC14E29BA34725387969C65"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_E2B43EAE88D24EE1B759F5B5EF029E7A"
+                            {
+                            "Name" = "8:[Manufacturer]"
+                            "Condition" = "8:"
+                            "AlwaysCreate" = "11:FALSE"
+                            "DeleteAtUninstall" = "11:FALSE"
+                            "Transitive" = "11:FALSE"
+                                "Keys"
+                                {
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCU"
+            {
+                "Keys"
+                {
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_5357D78C50914BF89313742532E42483"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_4EF401150CBC4F10B4004CA4A6258068"
+                            {
+                            "Name" = "8:[Manufacturer]"
+                            "Condition" = "8:"
+                            "AlwaysCreate" = "11:FALSE"
+                            "DeleteAtUninstall" = "11:FALSE"
+                            "Transitive" = "11:FALSE"
+                                "Keys"
+                                {
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCR"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKPU"
+            {
+                "Keys"
+                {
+                }
+            }
+        }
+        "Sequences"
+        {
+        }
+        "Shortcut"
+        {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_398C01F913914521BC847EC713B7EF1C"
+            {
+            "Name" = "8:CMMS Integration"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_3B34F5B8E9494BF4BF8009BD0BC56390"
+            "Folder" = "8:_3B0E3C44FCEF4481AAD0F4E312452CBC"
+            "WorkingFolder" = "8:_DE802C107E7640F79EC59C487F54625E"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4DA6C9B35DDA43EA990C11BF3D108C81"
+            {
+            "Name" = "8:CMMS Integration"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_3B34F5B8E9494BF4BF8009BD0BC56390"
+            "Folder" = "8:_C4D2E7A5CF3C4588A7FEFF7CB47A8A77"
+            "WorkingFolder" = "8:_DE802C107E7640F79EC59C487F54625E"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+        }
+        "UserInterface"
+        {
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_0FADED381077439B9D654BDE0D1C3D43"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_152CFCA778354200890259118042D899"
+            {
+            "Name" = "8:#1901"
+            "Sequence" = "3:2"
+            "Attributes" = "3:2"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_0CC7411881DD4CF98C5FDB3DFD513CFE"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Progress"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_1E35C75F63234E98A1DB8B562DFEBA37"
+            {
+            "Name" = "8:#1901"
+            "Sequence" = "3:1"
+            "Attributes" = "3:2"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_09BA9164DC4D4331A1521EB2D5D3F6D2"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Progress"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_41D445516831484FA37169BA6938E848"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:1"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_FA22507A189545229C5B527618E5FB02"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Finished"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "UpdateText"
+                            {
+                            "Name" = "8:UpdateText"
+                            "DisplayName" = "8:#1058"
+                            "Description" = "8:#1158"
+                            "Type" = "3:15"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1258"
+                            "DefaultValue" = "8:#1258"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_8B641766E222489BB0D80B2B7C5E9C9B"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_C94D2DF8C9384D10B37887D1B186B072"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:2"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_DABA3AC5F6BF45FF970301F34124B788"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Finished"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_E072F7B9EB2F46A8832C9B93D44813BD"
+            {
+            "Name" = "8:#1900"
+            "Sequence" = "3:2"
+            "Attributes" = "3:1"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_77920E997A064D95B40DFE2B31C88AB2"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_84DA8E1716DC4B08AB4FA54D0CC82221"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Confirm Installation"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C64DFC4DB41B4AE5B23FB6A19F37366C"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Welcome"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "CopyrightWarning"
+                            {
+                            "Name" = "8:CopyrightWarning"
+                            "DisplayName" = "8:#1002"
+                            "Description" = "8:#1102"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1202"
+                            "DefaultValue" = "8:#1202"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Welcome"
+                            {
+                            "Name" = "8:Welcome"
+                            "DisplayName" = "8:#1003"
+                            "Description" = "8:#1103"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1203"
+                            "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_EFE98F5688424800A20348A5FD4D3A5C"
+            {
+            "Name" = "8:#1900"
+            "Sequence" = "3:1"
+            "Attributes" = "3:1"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_4D9F0FFC416C46D881C9739B98E3FEB5"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Confirm Installation"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_CE0DBB171EDC4A21A442C57611DC1763"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "InstallAllUsersVisible"
+                            {
+                            "Name" = "8:InstallAllUsersVisible"
+                            "DisplayName" = "8:#1059"
+                            "Description" = "8:#1159"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_EFD99C8ABC5941E292993DAE7EAF5FAD"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Welcome"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "CopyrightWarning"
+                            {
+                            "Name" = "8:CopyrightWarning"
+                            "DisplayName" = "8:#1002"
+                            "Description" = "8:#1102"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1202"
+                            "DefaultValue" = "8:#1202"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Welcome"
+                            {
+                            "Name" = "8:Welcome"
+                            "DisplayName" = "8:#1003"
+                            "Description" = "8:#1103"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1203"
+                            "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        "MergeModule"
+        {
+        }
+        "ProjectOutput"
+        {
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7009726FC5F546A0A746C3A82A121D5B"
+            {
+            "SourcePath" = "8:..\\VSServerTool\\obj\\Debug\\VSServerTool.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_DE802C107E7640F79EC59C487F54625E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{23027094-61FC-41FF-AE79-70EB8B266598}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,386 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rptDE_XUAT_MUA_HANG">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SO_DE_XUAT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_TO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MS_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_LUONG" type="xs:int" minOccurs="0" />
+                <xs:element name="GHI_CHU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TON_KHO" type="xs:double" minOccurs="0" />
+                <xs:element name="NHAN_HIEU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DON_GIA" type="xs:double" minOccurs="0" />
+                <xs:element name="THANH_TIEN" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="HOA_DON" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_CAN_HANG" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="THOI_HAN_SD" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CONG_DUNG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOAI" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_HSX" type="xs:int" minOccurs="0" />
+                <xs:element name="TEN_HSX" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_KH" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_RUT_GON" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DVT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGUOI_NHAN" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTIEU_DE_DE_XUAT_MUA_HANG">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="_TIEU_DE_" type="xs:string" minOccurs="0" />
+                <xs:element name="_BO_PHAN_DE_XUAT_" type="xs:string" minOccurs="0" />
+                <xs:element name="_DANH_CHO_PHONG_MUA_" type="xs:string" minOccurs="0" />
+                <xs:element name="_PHUC_LUC1_" type="xs:string" minOccurs="0" />
+                <xs:element name="_SO_" type="xs:string" minOccurs="0" />
+                <xs:element name="_TT_MH_" type="xs:string" minOccurs="0" />
+                <xs:element name="_NGAY_GIO_DEN_" type="xs:string" minOccurs="0" />
+                <xs:element name="_NGAY_GIO_DI_" type="xs:string" minOccurs="0" />
+                <xs:element name="_STT_" type="xs:string" minOccurs="0" />
+                <xs:element name="_TEN_HANG_QUY_CACH" type="xs:string" minOccurs="0" />
+                <xs:element name="_DVT_" type="xs:string" minOccurs="0" />
+                <xs:element name="_TON_KHO_" type="xs:string" minOccurs="0" />
+                <xs:element name="_NHAN_HIEU_" type="xs:string" minOccurs="0" />
+                <xs:element name="_NUOC_SX_" type="xs:string" minOccurs="0" />
+                <xs:element name="_SO_LUONG_" type="xs:string" minOccurs="0" />
+                <xs:element name="_DON_GIA_" type="xs:string" minOccurs="0" />
+                <xs:element name="_THANH_TIEN_" type="xs:string" minOccurs="0" />
+                <xs:element name="_HOA_DON_" type="xs:string" minOccurs="0" />
+                <xs:element name="_NHA_CUNG_UNG_" type="xs:string" minOccurs="0" />
+                <xs:element name="_NGAY_CAN_HANG_" type="xs:string" minOccurs="0" />
+                <xs:element name="_THOI_HAN_SD_" type="xs:string" minOccurs="0" />
+                <xs:element name="_CONG_DUNG_" type="xs:string" minOccurs="0" />
+                <xs:element name="_LOAI_" type="xs:string" minOccurs="0" />
+                <xs:element name="_GHI_CHU_LOAI_" type="xs:string" minOccurs="0" />
+                <xs:element name="_PHE_DUYET_" type="xs:string" minOccurs="0" />
+                <xs:element name="_TRUONG_BO_PHAN_" type="xs:string" minOccurs="0" />
+                <xs:element name="_NGAY_THANG_NAM_" type="xs:string" minOccurs="0" />
+                <xs:element name="_NGUOI_DE_XUAT_" type="xs:string" minOccurs="0" />
+                <xs:element name="_TIEN_CHU_" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+                <xs:element name="_TONG_CONG_" type="xs:string" minOccurs="0" />
+                <xs:element name="_TRANG_" type="xs:string" minOccurs="0" />
+                <xs:element name="_MS_PT_" type="xs:string" minOccurs="0" />
+                <xs:element name="_mau_so_" type="xs:string" minOccurs="0" />
+                <xs:element name="_LuyKE_" type="xs:string" minOccurs="0" />
+                <xs:element name="_HanMuc_" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTIEU_DE_REPORT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="150" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DIA_CHI_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DIEN_THOAI" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="15" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Fax" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="15" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="21" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rptDE_XUAT_MUA_HANG>
+    <SO_DE_XUAT>fsdfsd</SO_DE_XUAT>
+    <TEN_TO>Ban Giám Đốc</TEN_TO>
+    <NGAY>2009-09-24T00:00:00+07:00</NGAY>
+    <MS_PT>0123233</MS_PT>
+    <TEN_PT>Ắc kềm loại máy CLF125 đời mới</TEN_PT>
+    <SO_LUONG>2</SO_LUONG>
+    <GHI_CHU>ddd</GHI_CHU>
+    <TON_KHO>0</TON_KHO>
+    <NHAN_HIEU>2sfdf</NHAN_HIEU>
+    <DON_GIA>223</DON_GIA>
+    <THANH_TIEN>446</THANH_TIEN>
+    <NGAY_CAN_HANG>2009-10-10T00:00:00+07:00</NGAY_CAN_HANG>
+    <THOI_HAN_SD>1</THOI_HAN_SD>
+    <CONG_DUNG>1dd</CONG_DUNG>
+    <LOAI>B</LOAI>
+    <MS_HSX>53</MS_HSX>
+    <TEN_HSX>Chum Power machinery corp.</TEN_HSX>
+    <MS_KH>2</MS_KH>
+    <TEN_RUT_GON>ANH CƯỜNG</TEN_RUT_GON>
+    <DVT>cái</DVT>
+    <NGUOI_NHAN>fdsfsdf</NGUOI_NHAN>
+  </rptDE_XUAT_MUA_HANG>
+  <rptDE_XUAT_MUA_HANG>
+    <SO_DE_XUAT>fsdfsd</SO_DE_XUAT>
+    <TEN_TO>Ban Giám Đốc</TEN_TO>
+    <NGAY>2009-09-24T00:00:00+07:00</NGAY>
+    <MS_PT>8645354</MS_PT>
+    <TEN_PT>Ắc kềm loại máy CLF125 đời mới</TEN_PT>
+    <SO_LUONG>3</SO_LUONG>
+    <GHI_CHU>ddd</GHI_CHU>
+    <TON_KHO>0</TON_KHO>
+    <NHAN_HIEU>dfds</NHAN_HIEU>
+    <DON_GIA>3434</DON_GIA>
+    <THANH_TIEN>10302</THANH_TIEN>
+    <NGAY_CAN_HANG>2009-10-10T00:00:00+07:00</NGAY_CAN_HANG>
+    <THOI_HAN_SD>1</THOI_HAN_SD>
+    <CONG_DUNG>dd</CONG_DUNG>
+    <LOAI>B</LOAI>
+    <MS_HSX>26</MS_HSX>
+    <TEN_HSX>Fanuc Ltd.</TEN_HSX>
+    <MS_KH>6</MS_KH>
+    <TEN_RUT_GON>CHÁNH SÂM</TEN_RUT_GON>
+    <DVT>cái</DVT>
+    <NGUOI_NHAN>fdsfsdf</NGUOI_NHAN>
+  </rptDE_XUAT_MUA_HANG>
+  <rptDE_XUAT_MUA_HANG>
+    <SO_DE_XUAT>fsdfsd</SO_DE_XUAT>
+    <TEN_TO>Ban Giám Đốc</TEN_TO>
+    <NGAY>2009-09-24T00:00:00+07:00</NGAY>
+    <MS_PT>AAAAA</MS_PT>
+    <TEN_PT>Ắt kềm loại nhỏ máy CLF250(1-3)</TEN_PT>
+    <SO_LUONG>1</SO_LUONG>
+    <GHI_CHU>ddd</GHI_CHU>
+    <TON_KHO>0</TON_KHO>
+    <NHAN_HIEU>ffdfdsf</NHAN_HIEU>
+    <DON_GIA>43434</DON_GIA>
+    <THANH_TIEN>43434</THANH_TIEN>
+    <NGAY_CAN_HANG>2009-10-10T00:00:00+07:00</NGAY_CAN_HANG>
+    <THOI_HAN_SD>1</THOI_HAN_SD>
+    <CONG_DUNG>ddd</CONG_DUNG>
+    <LOAI>M</LOAI>
+    <MS_HSX>39</MS_HSX>
+    <TEN_HSX>Mitutoyo Asia Pacific Pte. Ltd.</TEN_HSX>
+    <MS_KH>28</MS_KH>
+    <TEN_RUT_GON>HOẰNG THĂNG</TEN_RUT_GON>
+    <DVT>cái</DVT>
+    <NGUOI_NHAN>fdsfsdf</NGUOI_NHAN>
+  </rptDE_XUAT_MUA_HANG>
+  <rptTIEU_DE_DE_XUAT_MUA_HANG>
+    <_TIEU_DE_>PHIẾU ĐỀ XUẤT MUA HÀNG</_TIEU_DE_>
+    <_BO_PHAN_DE_XUAT_>Bộ phận đề xuất</_BO_PHAN_DE_XUAT_>
+    <_DANH_CHO_PHONG_MUA_>Dành cho phòng mua</_DANH_CHO_PHONG_MUA_>
+    <_PHUC_LUC1_>Phục lục 1</_PHUC_LUC1_>
+    <_SO_>Số:</_SO_>
+    <_TT_MH_>TT-MH-02/01</_TT_MH_>
+    <_NGAY_GIO_DEN_>Ngày giờ đến:</_NGAY_GIO_DEN_>
+    <_NGAY_GIO_DI_>Ngày giờ đi:</_NGAY_GIO_DI_>
+    <_STT_>Stt</_STT_>
+    <_TEN_HANG_QUY_CACH>Tên hàng, Quy cách</_TEN_HANG_QUY_CACH>
+    <_DVT_>ĐVT</_DVT_>
+    <_TON_KHO_>Tồn kho</_TON_KHO_>
+    <_NHAN_HIEU_>Nhãn hiệu</_NHAN_HIEU_>
+    <_NUOC_SX_>Hãng SX</_NUOC_SX_>
+    <_SO_LUONG_>SL Yêu cầu</_SO_LUONG_>
+    <_DON_GIA_>Đơn giá (Đồng)</_DON_GIA_>
+    <_THANH_TIEN_>Thành tiền</_THANH_TIEN_>
+    <_HOA_DON_>Hóa đơn</_HOA_DON_>
+    <_NHA_CUNG_UNG_>Nhà cung ứng</_NHA_CUNG_UNG_>
+    <_NGAY_CAN_HANG_>Ngày cần hàng</_NGAY_CAN_HANG_>
+    <_THOI_HAN_SD_>T.Hạn sử dụng</_THOI_HAN_SD_>
+    <_CONG_DUNG_>Công dụng</_CONG_DUNG_>
+    <_LOAI_>Loại</_LOAI_>
+    <_GHI_CHU_LOAI_>Ghi chú: S: Sữa chữa; B: Bảo trì; M: Lắp mới; K: Khác.</_GHI_CHU_LOAI_>
+    <_PHE_DUYET_>PHÊ DUYỆT</_PHE_DUYET_>
+    <_TRUONG_BO_PHAN_>TRƯỞNG BỘ PHẬN</_TRUONG_BO_PHAN_>
+    <_NGAY_THANG_NAM_>Ngày 24 Tháng 9 Năm 2009</_NGAY_THANG_NAM_>
+    <_NGUOI_DE_XUAT_>Người đề xuất</_NGUOI_DE_XUAT_>
+    <_TIEN_CHU_>Năm mươi bốn ngàn, một trăm tám mươi hai VND</_TIEN_CHU_>
+    <_TONG_CONG_>Tổng cộng:</_TONG_CONG_>
+    <_TRANG_>Trang in</_TRANG_>
+    <_MS_PT_>?MS_PT?</_MS_PT_>
+    <_mau_so_>?mau_so?</_mau_so_>
+    <_LuyKE_>?LuyKE?</_LuyKE_>
+    <_HanMuc_>?HanMuc?</_HanMuc_>
+  </rptTIEU_DE_DE_XUAT_MUA_HANG>
+  <rptTIEU_DE_REPORT>
+    <THONG_TIN_CTY>Công ty TNHH Phần mềm Nam Việt</THONG_TIN_CTY>
+    <DIA_CHI_CTY>27/49B, Hậu Giang, F4, Q. Tân Bình, TP.HCM</DIA_CHI_CTY>
+    <DIEN_THOAI>84-8-38110770</DIEN_THOAI>
+    <Fax>84-8-8117787</Fax>
+    <LOGO />
+    <LE_TRAI_LOGO>150</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>16</LE_TREN_LOGO>
+    <WIDTH>1300</WIDTH>
+    <HEIGHT>500</HEIGHT>
+    <NGAY_IN>Ngày in : 26/10/2009</NGAY_IN>
+  </rptTIEU_DE_REPORT>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty TNHH Phần mềm Nam Việt
+27/49B, Hậu Giang, F4, Q. Tân Bình, TP.HCM
+Telephone: 84-8-38110770  Fax: 84-8-8117787</THONG_TIN_CTY>
+    <LOGO />
+    <LE_TRAI_LOGO>150</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>16</LE_TREN_LOGO>
+    <WIDTH>1300</WIDTH>
+    <HEIGHT>500</HEIGHT>
+    <NGAY_IN>Ngày in:26/10/2009</NGAY_IN>
+    <PAGE>?PAGE?</PAGE>
+    <OFPAGE>?OF?</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Import>
+  <Row>
+    <S>.\SQL2017</S>
+    <D>CMMS_TN</D>
+    <U>sa</U>
+    <P>123</P>
+    <US>admin</US>
+    <LA>0</LA>
+  </Row>
+</Import>

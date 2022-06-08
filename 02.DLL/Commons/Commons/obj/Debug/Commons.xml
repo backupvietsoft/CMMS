@@ -1,0 +1,177 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Commons
+</name>
+</assembly>
+<members>
+<member name="T:Commons.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.Add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.attachment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.Cancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.Check">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.Delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.Edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.Excel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.IconElearning">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.IconForm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.IconLinkVideo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.Import">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.newGroupPostIconStrip">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.Print">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.Save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.Schedule">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.statistics_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.Thoat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.ThucHien">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.TroVe">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.UnCheck">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Commons.My.Resources.Resources.updates">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:Commons.VS.Classes.Catalogue.IC_DON_HANG_XUAT_Controller.Load_Don_Hang_Xuat_Vat_Tu_Chi_Tiet(System.Int32,System.String,System.String)">
+ <summary>
+ Store: QL_LOAD_LIST_DH_XUAT_VAT_TU_CHI_TIET - QL_LOAD_VI_TRI_KHO_VAT_TU
+ </summary>
+ <param name="MS_KHO">string</param>
+ <param name="MS_DH_XUAT_PT">string</param>
+ <param name="MS_PT">string</param>
+ <returns></returns>
+</member>
+<member name="M:Commons.mdShowReport.ReportPreview(System.String,System.String,System.String)">
+ <summary>
+ Thủ tục hiển thị report lên màn hình
+ </summary>
+ <param name="CrystalReportName">Tên report cần hiển thị
+ Ví dụ : Employee.rpt hoặc report\employee.rpt
+ </param>
+ <remarks></remarks>
+</member>
+<member name="M:Commons.OSystems.SplitString(System.String)">
+ <summary>
+ Tăng thêm ngày 28/06/2007.
+ Hàm này dùng để cắt bỏ những khoảng trắng dư thừa giữa hai ký tự trong một chuổi.
+ </summary>
+ <param name="str"></param>
+ <returns></returns>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:Commons.OSystems.MKiemKyTuDacBiet(System.String)">
+ <summary>
+ Kiem ký tự đặc biệt cả khoảng trống cho phép dấu "-" và "_"
+ </summary>    
+</member>
+<member name="M:Commons.OSystems.MKiemKyTuDacBiet(System.String,System.Boolean,System.Boolean)">
+ <summary>
+ Kiem ký tự đặc biệt theo điều kiện
+ </summary> 
+</member>
+<member name="T:Commons.RegexValidator">
+ <summary>
+ Created by Nghiem Quan, Lieu
+ Create date: 21/06/06
+ Description:	Class RegexValidatior Control
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

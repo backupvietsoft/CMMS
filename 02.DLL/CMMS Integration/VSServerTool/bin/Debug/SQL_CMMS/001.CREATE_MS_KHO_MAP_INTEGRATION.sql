@@ -1,0 +1,2 @@
+ALTER TABLE IC_KHO
+ADD MS_KHO_INT nvarchar(50)

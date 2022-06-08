@@ -1,0 +1,213 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="Columns" iskey="true" value="19">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">Chọn</property>
+      <property name="Fixed">Left</property>
+      <property name="Name">colCHON</property>
+      <property name="FieldName">CHON</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="VisibleIndex">1</property>
+      <property name="Visible">true</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">Mã VT PT</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="FixedWidth">true</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Fixed">Left</property>
+      <property name="Name">colMS_PT</property>
+      <property name="FieldName">MS_PT</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Caption">MSKT</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="FixedWidth">true</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colMS_PT_CTY</property>
+      <property name="FieldName">MS_PT_CTY</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Caption">Loại VTPT</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colTEN_LOAI_VT_TV</property>
+      <property name="FieldName">TEN_LOAI_VT_TV</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Caption">Part No</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colPART_NO</property>
+      <property name="FieldName">PART_NO</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="VisibleIndex">2</property>
+      <property name="Visible">true</property>
+      <property name="Width">152</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">Tên VTPT</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colTEN_PT</property>
+      <property name="FieldName">TEN_PT</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="VisibleIndex">3</property>
+      <property name="Visible">true</property>
+      <property name="Width">105</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">Quy cách</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colQUY_CACH</property>
+      <property name="FieldName">QUY_CACH</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Caption">Tên hãng sx</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colTEN_HSX</property>
+      <property name="FieldName">TEN_HSX</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="VisibleIndex">4</property>
+      <property name="Visible">true</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">ĐVT</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colDVT</property>
+      <property name="FieldName">DVT</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="VisibleIndex">6</property>
+      <property name="Visible">true</property>
+      <property name="Width">97</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">Tồn TT</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colTON_MIN</property>
+      <property name="FieldName">TON_MIN</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="VisibleIndex">7</property>
+      <property name="Visible">true</property>
+      <property name="Width">90</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">Tồn tốI đa</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colTON_MAX</property>
+      <property name="FieldName">TON_MAX</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="VisibleIndex">5</property>
+      <property name="Visible">true</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">Tồn kho</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colTON_KHO</property>
+      <property name="FieldName">TON_KHO</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="VisibleIndex">8</property>
+      <property name="Visible">true</property>
+      <property name="Width">96</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">SL đề xuất</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colSL_DE_XUAT</property>
+      <property name="FieldName">SL_DE_XUAT</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="VisibleIndex">9</property>
+      <property name="Visible">true</property>
+      <property name="Width">109</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">SL đặt hàng</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colSL_DAT_HANG</property>
+      <property name="FieldName">SL_DAT_HANG</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Caption">Ngày BT cuối</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="FixedWidth">true</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colNGAY_CUOI</property>
+      <property name="FieldName">NGAY_CUOI</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="Width">130</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">Đơn giá cuối</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colDON_GIA_CUOI</property>
+      <property name="FieldName">DON_GIA_CUOI</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Caption">Tiền tệ cuối</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colNGOAI_TE_CUOI</property>
+      <property name="FieldName">NGOAI_TE_CUOI</property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Caption">Nhà cung cấp cuối</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colNHA_CUNG_CAP_CUOI</property>
+      <property name="FieldName">NHA_CUNG_CAP_CUOI</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="ColumnEditName" />
+      <property name="Caption">Số ngày đặt mua</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="Name">colSO_NGAY_DAT_MUA_HANG</property>
+      <property name="FieldName">SO_NGAY_DAT_MUA_HANG</property>
+    </property>
+  </property>
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="ShowGroupPanel">false</property>
+    <property name="AllowHtmlDrawHeaders">true</property>
+    <property name="ColumnAutoWidth">false</property>
+  </property>
+  <property name="ActiveFilterString" />
+  <property name="GroupSummarySortInfoState" />
+</XtraSerializer>

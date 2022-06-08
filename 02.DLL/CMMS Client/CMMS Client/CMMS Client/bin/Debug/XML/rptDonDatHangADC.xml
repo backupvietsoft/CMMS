@@ -1,0 +1,785 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DON_DAT_HANG_ADC">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_DON_DAT_HANG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_DON_DAT_HANG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGUOI_LAP" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_LAP" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGUOI_SUA" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_SUA" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGUOI_DAT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_DAT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGUOI_XAC_NHAN" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_XAC_NHAN" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGUOI_LIEN_HE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_LIEN_HE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGUOI_DUYET" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_DUYET" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGUOI_KY_HD" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_KY_HD" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGUOI_GIAO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_GIAO" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DIA_CHI_GIAO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="THUE_VAT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NHA_CUNG_CAP" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="FAX_NCC" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DIEN_THOAI_NCC" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DIA_CHI_NCC" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TRANG_THAI" type="xs:int" minOccurs="0" />
+                <xs:element name="TEN_TRANG_THAI" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="GHI_CHU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="512" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_KHO" type="xs:int" minOccurs="0" />
+                <xs:element name="MS_LOAI_VT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_PT" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="386" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="QUY_CACH" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SL_DAT_HANG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DVT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SL_KHO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SL_CAN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DON_GIA" type="xs:double" minOccurs="0" />
+                <xs:element name="THANH_TIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GCHU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_ADC">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MAU_SO" type="xs:string" minOccurs="0" />
+                <xs:element name="LB_HANH" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_BH" type="xs:string" minOccurs="0" />
+                <xs:element name="TIEU_DE_DDH_ADC" type="xs:string" minOccurs="0" />
+                <xs:element name="DEPT" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="DATE" type="xs:string" minOccurs="0" />
+                <xs:element name="SUP_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="REQUESTER" type="xs:string" minOccurs="0" />
+                <xs:element name="CON_PER" type="xs:string" minOccurs="0" />
+                <xs:element name="CUS_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="DEL_LOC" type="xs:string" minOccurs="0" />
+                <xs:element name="NO" type="xs:string" minOccurs="0" />
+                <xs:element name="ITEM" type="xs:string" minOccurs="0" />
+                <xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER_QTY" type="xs:string" minOccurs="0" />
+                <xs:element name="UNITS" type="xs:string" minOccurs="0" />
+                <xs:element name="STOCK_OH" type="xs:string" minOccurs="0" />
+                <xs:element name="NEED_TO_ORDER" type="xs:string" minOccurs="0" />
+                <xs:element name="U_PRICE" type="xs:string" minOccurs="0" />
+                <xs:element name="AMOUNT" type="xs:string" minOccurs="0" />
+                <xs:element name="TONG_GD" type="xs:string" minOccurs="0" />
+                <xs:element name="GD_NMAY" type="xs:string" minOccurs="0" />
+                <xs:element name="BP_MHANG" type="xs:string" minOccurs="0" />
+                <xs:element name="PRE_BY" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP1" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP2" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP3" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP4" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP5" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_LE_TT" type="xs:int" minOccurs="0" />
+                <xs:element name="SO_LE_SL" type="xs:int" minOccurs="0" />
+                <xs:element name="SO_LE_DG" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_CAO" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_RONG" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>210050011</MS_PT>
+    <TEN_PT>Bơm thuỷ lực YUKEN PV2R2-41-F-RAA-40</TEN_PT>
+    <QUY_CACH />
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>cái</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+    <DON_GIA>1515</DON_GIA>
+    <THANH_TIEN>1515.00</THANH_TIEN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>T1490890-0000</MS_PT>
+    <TEN_PT>NUT PLA</TEN_PT>
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>cái</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+    <DON_GIA>5000000</DON_GIA>
+    <THANH_TIEN>5000000.00</THANH_TIEN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>T1490900-0000</MS_PT>
+    <TEN_PT>SEALING RING </TEN_PT>
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>cái</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>T1490940-0000</MS_PT>
+    <TEN_PT>CYLINDER  </TEN_PT>
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>cái</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>T1491022-0000</MS_PT>
+    <TEN_PT>CYLINDER BRACKET  </TEN_PT>
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>cái</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>T1491153-0000</MS_PT>
+    <TEN_PT>COMPRESSION GLAND</TEN_PT>
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>cái</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>T1491169-0000</MS_PT>
+    <TEN_PT>PIVOT AR</TEN_PT>
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>cái</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>T3870108213</MS_PT>
+    <TEN_PT> STOPPER  </TEN_PT>
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>cái</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>T3870109220</MS_PT>
+    <TEN_PT>Spring hook</TEN_PT>
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>cái</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>VE-10007</MS_PT>
+    <TEN_PT>BEARING HOUSING HFB SSNI 518 - 615 / 8402214</TEN_PT>
+    <QUY_CACH>8402214</QUY_CACH>
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>cái</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>VE-10022</MS_PT>
+    <TEN_PT>Replace Wear plate for ring knife  #594 ,#595 / 8402215</TEN_PT>
+    <QUY_CACH>8402215</QUY_CACH>
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>cái</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>VEC-0001</MS_PT>
+    <TEN_PT>Chi phí kiểm định thiết bị</TEN_PT>
+    <QUY_CACH />
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>Lần</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>WEC-0003</MS_PT>
+    <TEN_PT>Băng tải cân &amp; dò W220xL727 / W220xL727</TEN_PT>
+    <QUY_CACH>W220xL727</QUY_CACH>
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>Cái.</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>WRM-0003</MS_PT>
+    <TEN_PT>Bàn ép MĐG ( không dao thớt, nẹp) L200 &lt;TOKIWA&gt; / L200</TEN_PT>
+    <QUY_CACH>L200</QUY_CACH>
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>Cái.</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+  </DON_DAT_HANG_ADC>
+  <DON_DAT_HANG_ADC>
+    <MS_DON_DAT_HANG>DH-1410-0012</MS_DON_DAT_HANG>
+    <SO_DON_DAT_HANG>DH-1410-0012</SO_DON_DAT_HANG>
+    <NGUOI_LAP>admin</NGUOI_LAP>
+    <NGAY_LAP>2014-10-30T11:32:14+07:00</NGAY_LAP>
+    <NGUOI_SUA>adminISTRATOR</NGUOI_SUA>
+    <NGAY_SUA>2015-06-29T09:42:02+07:00</NGAY_SUA>
+    <NGUOI_DAT>ĐINH VĂN QUỐC</NGUOI_DAT>
+    <NGAY_DAT>2014-10-30T00:00:00+07:00</NGAY_DAT>
+    <NGUOI_XAC_NHAN>Phòng Cơ Diện NV</NGUOI_XAC_NHAN>
+    <NGAY_XAC_NHAN>2014-10-30T00:00:00+07:00</NGAY_XAC_NHAN>
+    <NGAY_LIEN_HE>2014-10-30T00:00:00+07:00</NGAY_LIEN_HE>
+    <NGUOI_KY_HD>NGUYỄN VĂN HIỀN</NGUOI_KY_HD>
+    <NGAY_KY_HD>2014-10-30T00:00:00+07:00</NGAY_KY_HD>
+    <NGUOI_GIAO />
+    <NGAY_GIAO>2014-10-30T00:00:00+07:00</NGAY_GIAO>
+    <DIA_CHI_GIAO />
+    <THUE_VAT>0.00</THUE_VAT>
+    <NHA_CUNG_CAP>ISHIDA CO.,LTD</NHA_CUNG_CAP>
+    <DIEN_THOAI_NCC>81-85-771-4141</DIEN_THOAI_NCC>
+    <DIA_CHI_NCC>44 Sanno-cho, Shogoin, Sakyo-ku, Kyoto, 606 - 8392 Japan</DIA_CHI_NCC>
+    <TRANG_THAI>2</TRANG_THAI>
+    <TEN_TRANG_THAI>Trình duyệt</TEN_TRANG_THAI>
+    <MS_PT>WRM-0017</MS_PT>
+    <TEN_PT>Cổ góp D56xd20xL78x4tép &lt;TOKIWA&gt; / D56xd20xL78x4tép</TEN_PT>
+    <QUY_CACH>D56xd20xL78x4tép</QUY_CACH>
+    <SL_DAT_HANG>1.00</SL_DAT_HANG>
+    <DVT>Cái.</DVT>
+    <SL_KHO>1.00</SL_KHO>
+    <SL_CAN>1.00</SL_CAN>
+  </DON_DAT_HANG_ADC>
+  <TIEU_DE_ADC>
+    <MAU_SO>Mẫu số :</MAU_SO>
+    <LB_HANH>@LB_HANH@</LB_HANH>
+    <NGAY_BH>Ngày ban hành:</NGAY_BH>
+    <TIEU_DE_DDH_ADC>@TIEU_DE_DDH_ADC@</TIEU_DE_DDH_ADC>
+    <DEPT>DEPT</DEPT>
+    <ORDER_NO>@ORDER_NO@</ORDER_NO>
+    <DATE>DATE</DATE>
+    <SUP_NAME>@SUP_NAME@</SUP_NAME>
+    <REQUESTER>@REQUESTER@</REQUESTER>
+    <CON_PER>@CON_PER@</CON_PER>
+    <CUS_NO>@CUS_NO@</CUS_NO>
+    <DEL_LOC>@DEL_LOC@</DEL_LOC>
+    <NO>NO</NO>
+    <ITEM>@ITEM@</ITEM>
+    <DESCRIPTION>@ITEM@</DESCRIPTION>
+    <ORDER_QTY>@ORDER_QTY@</ORDER_QTY>
+    <UNITS>@UNITS@</UNITS>
+    <STOCK_OH>@STOCK_OH@</STOCK_OH>
+    <NEED_TO_ORDER>@NEED_TO_ORDER@</NEED_TO_ORDER>
+    <U_PRICE>@U_PRICE@</U_PRICE>
+    <AMOUNT>AMOUNT</AMOUNT>
+    <TONG_GD>@TONG_GD@</TONG_GD>
+    <GD_NMAY>@GD_NMAY@</GD_NMAY>
+    <BP_MHANG>@BP_MHANG@</BP_MHANG>
+    <PRE_BY>@PRE_BY@</PRE_BY>
+    <TMP1>@SPECIFICATION@</TMP1>
+    <TMP2>P/M/1.8A</TMP2>
+    <TMP3>Tổng tất cả</TMP3>
+    <TMP4>Thời gian cấp vật tư</TMP4>
+    <TMP5>Số:...../.....GDN</TMP5>
+  </TIEU_DE_ADC>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty THHH Phần Mềm Nam Việt
+27/49B, Hậu Giang Tân Bình, Tp HCM
+Telephone: 0838110770  Fax: (84.8) 38112750</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>2000</WIDTH>
+    <HEIGHT>1200</HEIGHT>
+    <NGAY_IN>?PRINT_DATE? 29/06/2015</NGAY_IN>
+    <PAGE>?PAGE?</PAGE>
+    <OFPAGE>?OF?</OFPAGE>
+    <SO_LE_TT>2</SO_LE_TT>
+    <SO_LE_SL>2</SO_LE_SL>
+    <SO_LE_DG>2</SO_LE_DG>
+    <TTC_CAO>700</TTC_CAO>
+    <TTC_RONG>7000</TTC_RONG>
+  </rptTitlereport>
+</NewDataSet>

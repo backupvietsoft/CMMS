@@ -1,0 +1,121 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="MAY">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SERIAL_NUMBER" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_MUA" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <MAY>
+    <MS_MAY>014</MS_MAY>
+    <TEN_MAY>Máy ép đế giày Compo 014</TEN_MAY>
+    <SERIAL_NUMBER />
+  </MAY>
+  <MAY>
+    <MS_MAY>015</MS_MAY>
+    <TEN_MAY>Lò sấy đế giày Activator 015</TEN_MAY>
+    <SERIAL_NUMBER />
+  </MAY>
+  <MAY>
+    <MS_MAY>016</MS_MAY>
+    <TEN_MAY>Máy đóng nút mắt cáo 016</TEN_MAY>
+    <SERIAL_NUMBER />
+  </MAY>
+  <MAY>
+    <MS_MAY>017</MS_MAY>
+    <TEN_MAY>Máy ép tem nhãn 017</TEN_MAY>
+    <SERIAL_NUMBER />
+  </MAY>
+  <MAY>
+    <MS_MAY>018</MS_MAY>
+    <TEN_MAY>Máy đóng nút mắt cáo 018</TEN_MAY>
+    <SERIAL_NUMBER />
+  </MAY>
+  <MAY>
+    <MS_MAY>005</MS_MAY>
+    <TEN_MAY>Máy ép nóng lót gót CP 005</TEN_MAY>
+    <SERIAL_NUMBER />
+  </MAY>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty TNHH Remington International
+Lô C, 8C, CN, KCN Mỹ Phước 3, P. Thới Hòa, Thị Xã Bến Cát, Bình Dương, Việt Nam.
+Telephone: 02743559908  Fax: 02743559907</THONG_TIN_CTY>
+    <LOGO />
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1800</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngày in10/02/2020</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

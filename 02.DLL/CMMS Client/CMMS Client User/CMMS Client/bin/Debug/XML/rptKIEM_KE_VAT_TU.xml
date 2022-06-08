@@ -1,0 +1,455 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rptKIEM_KE_VAT_TU">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_VI_TRI" type="xs:int" minOccurs="0" />
+                <xs:element name="MS_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_DH_NHAP_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="14" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_VI_TRI">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT_NCC" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DVT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SL_TON_CTU" type="xs:double" minOccurs="0" />
+                <xs:element name="SL_TON_TT" type="xs:double" minOccurs="0" />
+                <xs:element name="GHI_CHU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTIEU_DE_KIEM_KE_VAT_TU">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="_MS_PT_" type="xs:string" minOccurs="0" />
+                <xs:element name="_TEN_PT_" type="xs:string" minOccurs="0" />
+                <xs:element name="_MS_DH_NHAP_" type="xs:string" minOccurs="0" />
+                <xs:element name="_MS_VI_TRI_" type="xs:string" minOccurs="0" />
+                <xs:element name="_PART_NO_" type="xs:string" minOccurs="0" />
+                <xs:element name="_ITEM_CODE_" type="xs:string" minOccurs="0" />
+                <xs:element name="_DVT_" type="xs:string" minOccurs="0" />
+                <xs:element name="_SL_TON_CT_" type="xs:string" minOccurs="0" />
+                <xs:element name="_SL_TON_TT_" type="xs:string" minOccurs="0" />
+                <xs:element name="_KHO_" type="xs:string" minOccurs="0" />
+                <xs:element name="_TRANG_IN_" type="xs:string" minOccurs="0" />
+                <xs:element name="_TIEU_DE_" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>ANH1</MS_PT>
+    <MS_DH_NHAP_PT>N-011/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC>602</MS_PT_NCC>
+    <TEN_PT>Phụ tùng cơ</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>1</SL_TON_CTU>
+    <SL_TON_TT>1</SL_TON_TT>
+    <GHI_CHU>fdsf</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>427</MS_VI_TRI>
+    <MS_PT>ANH1</MS_PT>
+    <MS_DH_NHAP_PT>N-011/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>dddd</TEN_VI_TRI>
+    <MS_PT_NCC>602</MS_PT_NCC>
+    <TEN_PT>Phụ tùng cơ</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>11</SL_TON_CTU>
+    <SL_TON_TT>11</SL_TON_TT>
+    <GHI_CHU>fdf</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>ANH2</MS_PT>
+    <MS_DH_NHAP_PT>N-011/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC>12</MS_PT_NCC>
+    <TEN_PT>Vật tư</TEN_PT>
+    <DVT>Mét</DVT>
+    <SL_TON_CTU>1</SL_TON_CTU>
+    <SL_TON_TT>1</SL_TON_TT>
+    <GHI_CHU>fdf</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>427</MS_VI_TRI>
+    <MS_PT>ANH2</MS_PT>
+    <MS_DH_NHAP_PT>N-011/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>dddd</TEN_VI_TRI>
+    <MS_PT_NCC>12</MS_PT_NCC>
+    <TEN_PT>Vật tư</TEN_PT>
+    <DVT>Mét</DVT>
+    <SL_TON_CTU>0</SL_TON_CTU>
+    <SL_TON_TT>0</SL_TON_TT>
+    <GHI_CHU>ghfgh</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>PAC0002</MS_PT>
+    <MS_DH_NHAP_PT>N-010/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>PAC0002</MS_PT_CTY>
+    <TEN_PT>Ắc kềm loạ lớn máy CLF125 đời mới</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>11</SL_TON_CTU>
+    <SL_TON_TT>11</SL_TON_TT>
+    <GHI_CHU>fgfdgdf</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>PBC0031</MS_PT>
+    <MS_DH_NHAP_PT>N-005/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>PBC0031</MS_PT_CTY>
+    <TEN_PT>Bộ lọc khíÍ máy SMC2000</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>6</SL_TON_CTU>
+    <SL_TON_TT>6</SL_TON_TT>
+    <GHI_CHU>fdf</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>PDC0031</MS_PT>
+    <MS_DH_NHAP_PT>N-004/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>PDC0031</MS_PT_CTY>
+    <TEN_PT>Động cơ servo trục Y-CNC9</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>5</SL_TON_CTU>
+    <SL_TON_TT>5</SL_TON_TT>
+    <GHI_CHU>gfdgdf</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>PDC0051</MS_PT>
+    <MS_DH_NHAP_PT>N-001/07/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>PDC0051</MS_PT_CTY>
+    <TEN_PT>Động cơ servo trục X,Y,Z - CNC1</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>5</SL_TON_CTU>
+    <SL_TON_TT>5</SL_TON_TT>
+    <GHI_CHU>fdf</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>PDC0051</MS_PT>
+    <MS_DH_NHAP_PT>N-007/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>PDC0051</MS_PT_CTY>
+    <TEN_PT>Động cơ servo trục X,Y,Z - CNC1</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>98</SL_TON_CTU>
+    <SL_TON_TT>98</SL_TON_TT>
+    <GHI_CHU>gfdgfd</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>PDC0051</MS_PT>
+    <MS_DH_NHAP_PT>N-009/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>PDC0051</MS_PT_CTY>
+    <TEN_PT>Động cơ servo trục X,Y,Z - CNC1</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>50</SL_TON_CTU>
+    <SL_TON_TT>50</SL_TON_TT>
+    <GHI_CHU>gfdgdf</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>PDH0019</MS_PT>
+    <MS_DH_NHAP_PT>N-001/07/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>PDH0019</MS_PT_CTY>
+    <TEN_PT>Đồng hồ áp lực hơi 0-5 kg/cm²</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>1</SL_TON_CTU>
+    <SL_TON_TT>1</SL_TON_TT>
+    <GHI_CHU>fdgdfgdf</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>PDH0019</MS_PT>
+    <MS_DH_NHAP_PT>N-009/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>PDH0019</MS_PT_CTY>
+    <TEN_PT>Đồng hồ áp lực hơi 0-5 kg/cm²</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>50</SL_TON_CTU>
+    <SL_TON_TT>50</SL_TON_TT>
+    <GHI_CHU>gfdgdfgfdg</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>PDO0008</MS_PT>
+    <MS_DH_NHAP_PT>N-001/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>PDO0008</MS_PT_CTY>
+    <TEN_PT>Dao cắt nóng máy SMC2000</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>10</SL_TON_CTU>
+    <SL_TON_TT>10</SL_TON_TT>
+    <GHI_CHU>gfgfdfdgdfgdf</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>POB0016</MS_PT>
+    <MS_DH_NHAP_PT>N-006/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>POB0016</MS_PT_CTY>
+    <TEN_PT>Ổ bi 29413E</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>9</SL_TON_CTU>
+    <SL_TON_TT>9</SL_TON_TT>
+    <GHI_CHU>gfdgdfg</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>POB0131</MS_PT>
+    <MS_DH_NHAP_PT>N-001/07/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC>3039000183</MS_PT_NCC>
+    <MS_PT_CTY>POB0131</MS_PT_CTY>
+    <TEN_PT>Ổ bi NACHI-25TAB06U</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>0</SL_TON_CTU>
+    <SL_TON_TT>0</SL_TON_TT>
+    <GHI_CHU>hgfhfg</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>POB0131</MS_PT>
+    <MS_DH_NHAP_PT>N-009/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC>3039000183</MS_PT_NCC>
+    <MS_PT_CTY>POB0131</MS_PT_CTY>
+    <TEN_PT>Ổ bi NACHI-25TAB06U</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>49</SL_TON_CTU>
+    <SL_TON_TT>49</SL_TON_TT>
+    <GHI_CHU>gdfgdfgdf</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>427</MS_VI_TRI>
+    <MS_PT>POB0134</MS_PT>
+    <MS_DH_NHAP_PT>N-001/07/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>dddd</TEN_VI_TRI>
+    <MS_PT_NCC>3031000056</MS_PT_NCC>
+    <MS_PT_CTY>POB0134</MS_PT_CTY>
+    <TEN_PT>Ổ bi SKF-6205-Z</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>9</SL_TON_CTU>
+    <SL_TON_TT>9</SL_TON_TT>
+    <GHI_CHU>gfdgdfg</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>PRB0015</MS_PT>
+    <MS_DH_NHAP_PT>N-008/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>PRB0015</MS_PT_CTY>
+    <TEN_PT>Role bán dẫn Fotek SSR-25VA</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>1231</SL_TON_CTU>
+    <SL_TON_TT>1231</SL_TON_TT>
+    <GHI_CHU>gdfgdfg</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>PTV0006</MS_PT>
+    <MS_DH_NHAP_PT>N-002/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>PTV0006</MS_PT_CTY>
+    <TEN_PT>Trục vít máy SMC2000</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>0</SL_TON_CTU>
+    <SL_TON_TT>0</SL_TON_TT>
+    <GHI_CHU>hgfhfgh</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>VBD0001</MS_PT>
+    <MS_DH_NHAP_PT>N-011/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>VBD0001</MS_PT_CTY>
+    <TEN_PT>Bóng đèn 0,6m PhiLip</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>1</SL_TON_CTU>
+    <SL_TON_TT>1</SL_TON_TT>
+    <GHI_CHU>gfdgfdgfdg</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>427</MS_VI_TRI>
+    <MS_PT>VBD0001</MS_PT>
+    <MS_DH_NHAP_PT>N-011/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>dddd</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY>VBD0001</MS_PT_CTY>
+    <TEN_PT>Bóng đèn 0,6m PhiLip</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>0</SL_TON_CTU>
+    <SL_TON_TT>0</SL_TON_TT>
+    <GHI_CHU>hgfh</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>WSAA004</MS_PT>
+    <MS_DH_NHAP_PT>N-002/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY />
+    <TEN_PT>Actuator 3408325</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>0</SL_TON_CTU>
+    <SL_TON_TT>0</SL_TON_TT>
+    <GHI_CHU>hgfhfg</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptKIEM_KE_VAT_TU>
+    <MS_VI_TRI>423</MS_VI_TRI>
+    <MS_PT>WSAA004</MS_PT>
+    <MS_DH_NHAP_PT>N-003/08/2009</MS_DH_NHAP_PT>
+    <TEN_VI_TRI>- (KT)</TEN_VI_TRI>
+    <MS_PT_NCC />
+    <MS_PT_CTY />
+    <TEN_PT>Actuator 3408325</TEN_PT>
+    <DVT>cái</DVT>
+    <SL_TON_CTU>2</SL_TON_CTU>
+    <SL_TON_TT>2</SL_TON_TT>
+    <GHI_CHU>gfdgfd</GHI_CHU>
+  </rptKIEM_KE_VAT_TU>
+  <rptTIEU_DE_KIEM_KE_VAT_TU>
+    <_MS_PT_>MS VT PT</_MS_PT_>
+    <_TEN_PT_>Tên vật tư, phụ tùng</_TEN_PT_>
+    <_MS_DH_NHAP_>Số phiếu nhập</_MS_DH_NHAP_>
+    <_MS_VI_TRI_>Vị trí</_MS_VI_TRI_>
+    <_PART_NO_>Part no</_PART_NO_>
+    <_ITEM_CODE_>Item code</_ITEM_CODE_>
+    <_DVT_>ĐVT</_DVT_>
+    <_SL_TON_CT_>SL tồn CT</_SL_TON_CT_>
+    <_SL_TON_TT_>SL tồn TT</_SL_TON_TT_>
+    <_KHO_>Kho : Kho kỹ thuật</_KHO_>
+    <_TRANG_IN_>Trang in</_TRANG_IN_>
+    <_TIEU_DE_>KIỂM KÊ KHO VẬT TƯ, PHỤ TÙNG</_TIEU_DE_>
+  </rptTIEU_DE_KIEM_KE_VAT_TU>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty TNHH Phần mềm Nam Việt
+27/49B, Hậu Giang, F4, Q. Tân Bình, TP.HCM
+Telephone: 84-8-38110770  Fax: 84-8-8117787</THONG_TIN_CTY>
+    <LOGO />
+    <LE_TRAI_LOGO>150</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>10</LE_TREN_LOGO>
+    <WIDTH>1300</WIDTH>
+    <HEIGHT>650</HEIGHT>
+    <NGAY_IN>Ngày in:17/08/2009</NGAY_IN>
+    <PAGE>?PAGE?</PAGE>
+    <OFPAGE>?OF?</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

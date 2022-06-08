@@ -1,0 +1,924 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PBT_INFO">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TEN_LOAI_BT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="40" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="HU_HONG" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MS_UU_TIEN" type="xs:int" minOccurs="0" />
+                <xs:element name="TEN_TO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PHIEU_BAO_TRI">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_PHIEU_BAO_TRI" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LY_DO_BT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_LAP" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGUOI_LAP" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="41" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_HT_BT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_BT1">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="40" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DIA_DIEM" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_BD_KH" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGAY_KT_KH" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="BO_PHAN" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_NGHIEM_THU" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TT_SAU_BT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="200" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGUOI_NGHIEM_THU" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="41" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CHI_PHI_PHU_TUNG" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="CHI_PHI_VAT_TU" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="CHI_PHI_NHAN_CONG" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="CHI_PHI_DV" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="CHI_PHI_KHAC" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="TEN_TINH_TRANG" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="STT" type="xs:int" />
+                <xs:element name="GIO_CONG" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="SERIAL_NUMBER" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="GIO_KH" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_CONG_VIEC">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TEN_BAC_THO" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MO_TA_CV" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_BP" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_GIO_KH" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="NGAY_HOAN_THANH" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NOI_NGOAI" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="THAO_TAC" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TIEU_CHUAN_KT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_GIO_TT" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_CONG_NHAN">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TEN_CHUC_VU" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_CONG_NHAN" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="9" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="HO_TEN" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="41" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="BAN_TO" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="103" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_TO" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TU_NGAY" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+                <xs:element name="DEN_NGAY" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+                <xs:element name="CHINH_PHU" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_DICH_VU">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NOI_DUNG_SERVICE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_RUT_GON" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_LUONG" type="xs:int" minOccurs="0" />
+                <xs:element name="DON_GIA" type="xs:double" minOccurs="0" />
+                <xs:element name="TY_GIA" type="xs:double" minOccurs="0" />
+                <xs:element name="TY_GIA_USD" type="xs:double" minOccurs="0" />
+                <xs:element name="THANH_TIEN" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="THANH_TIEN_USD" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_VAT_TU">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="QUY_CACH" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_PT" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SL_KH" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="SO_LUONG_THUC_XUAT" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="DVT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TT" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+                <xs:element name="MS_PT_NCC" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DON_GIA" msdata:ReadOnly="true" type="xs:int" />
+                <xs:element name="NGOAI_TE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TY_GIA" msdata:ReadOnly="true" type="xs:int" />
+                <xs:element name="MS_PT_TT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="500" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_PHU_TUNG">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="QUY_CACH" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PTTT" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+                <xs:element name="TEN_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SL_KH" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="SL_TT" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="GHI_CHU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DVT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TT" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+                <xs:element name="MS_PT_NCC" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_HSX" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DON_GIA" msdata:ReadOnly="true" type="xs:int" />
+                <xs:element name="NGOAI_TE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TI_GIA" msdata:ReadOnly="true" type="xs:int" />
+                <xs:element name="MS_PT_TT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="500" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="BT_NUMBER_RECORD">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NR_CONG_VIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_CONG_NHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_DICH_VU" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_PHU_TUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_VAT_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_TT" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_TTPH" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_TTPH">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NOI_DUNG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="500" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_GIAM_SAT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_CONG_NHAN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="9" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="HO_TEN" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="41" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_TO" type="xs:int" minOccurs="0" />
+                <xs:element name="TEN_TO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_PHIEU_BAO_TRI_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="MAU_SO" type="xs:string" minOccurs="0" />
+                <xs:element name="PHIEU_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_LAP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_LAP" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TINH_TRANG" type="xs:string" minOccurs="0" />
+                <xs:element name="MO_TA" type="xs:string" minOccurs="0" />
+                <xs:element name="HINH_THUC_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="DIA_DIEM" type="xs:string" minOccurs="0" />
+                <xs:element name="Column13" type="xs:string" minOccurs="0" />
+                <xs:element name="KE_HOACH" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_BD" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_KT" type="xs:string" minOccurs="0" />
+                <xs:element name="BO_PHAN_CP" type="xs:string" minOccurs="0" />
+                <xs:element name="PHE_DUYET1" type="xs:string" minOccurs="0" />
+                <xs:element name="PHE_DUYET2" type="xs:string" minOccurs="0" />
+                <xs:element name="PHE_DUYET3" type="xs:string" minOccurs="0" />
+                <xs:element name="PHE_DUYET4" type="xs:string" minOccurs="0" />
+                <xs:element name="LY_DO_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="GIAM_DOC_NHA_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONG_CO_DIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SERIAL_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_NL" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP1" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP2" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP3" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP4" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP5" type="xs:string" minOccurs="0" />
+                <xs:element name="USER_HT" type="xs:string" minOccurs="0" />
+                <xs:element name="DON_VI_YEU_CAU" type="xs:string" minOccurs="0" />
+                <xs:element name="MUC_DO_UU_TIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_CONG_TAC" type="xs:string" minOccurs="0" />
+                <xs:element name="DOT_XUAT" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_HANG_MUC" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_HANG_MUC" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_THUC_HIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_HOAN_THANH" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_CONG_VIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_CONG_THUC_HIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="UU_TIEN_1" type="xs:string" minOccurs="0" />
+                <xs:element name="UU_TIEN_2" type="xs:string" minOccurs="0" />
+                <xs:element name="UU_TIEN_3" type="xs:string" minOccurs="0" />
+                <xs:element name="THONG_TIN_PHAN_HOI" type="xs:string" minOccurs="0" />
+                <xs:element name="DON_VI_THUC_HIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DON_VI_GIAM_SAT" type="xs:string" minOccurs="0" />
+                <xs:element name="NHAN_XET_KET" type="xs:string" minOccurs="0" />
+                <xs:element name="DAT_YEU_CAU" type="xs:string" minOccurs="0" />
+                <xs:element name="CHUA_DAT_YEU_CAU" type="xs:string" minOccurs="0" />
+                <xs:element name="KHAC" type="xs:string" minOccurs="0" />
+                <xs:element name="GHI_CHU_KHAC" type="xs:string" minOccurs="0" />
+                <xs:element name="GIO_KH" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_CONG_VIEC_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DANH_SACH_CV" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_CONG_VIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_SPHUT_KH" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_NGAY_HT" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_LOAI_CV" type="xs:string" minOccurs="0" />
+                <xs:element name="TONG_PHUT_KH_CV" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_BAC_THO" type="xs:string" minOccurs="0" />
+                <xs:element name="TONG_CONG" type="xs:string" minOccurs="0" />
+                <xs:element name="THAO_TAC" type="xs:string" minOccurs="0" />
+                <xs:element name="TIEU_CHUAN_KT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_NHAN_VIEN_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NV_DS_NV" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_HO_TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_TO_PB" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_TU_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_DEN_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_LOAI_VN" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_CONG_NHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CHUC_VU" type="xs:string" minOccurs="0" />
+                <xs:element name="KY_XAC_NHAN" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_DICH_VU_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DV_DS_DV" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_ND" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_CTY" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_SL" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_DG" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_TG" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_TT" type="xs:string" minOccurs="0" />
+                <xs:element name="Column8" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_PHU_TUNG_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PT_DS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_MS_PTTT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_TEN_PTTT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_SL_KH" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_SL_TT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_GHI_CHU" type="xs:string" minOccurs="0" />
+                <xs:element name="QUY_CACH" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_MS_PT_NCC" type="xs:string" minOccurs="0" />
+                <xs:element name="HANG_SX" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT_TT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_VAT_TU_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VT_DS_VT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_MS_VT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_TEN_VT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_SL_KH" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_SL_TT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_GHI_CHU" type="xs:string" minOccurs="0" />
+                <xs:element name="QUY_CACH" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_DS_VT_NCC" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT_TT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_CHI_PHI_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TONG_CHI_PHI" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_NOI_DUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_TIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_TONG" type="xs:string" minOccurs="0" />
+                <xs:element name="KQ_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="KQ_NGAY_NT" type="xs:string" minOccurs="0" />
+                <xs:element name="KQ_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_NT" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_PHU_TUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_VAT_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_NHAN_CONG" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_DICH_VU" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_KHAC" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_VIEN_GIAM_SAT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NHAN_VIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DON_VI" type="xs:string" minOccurs="0" />
+                <xs:element name="XAC_NHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="DS_NV_GIAM_SAT" type="xs:string" minOccurs="0" />
+                <xs:element name="HO_TEN" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TTC_CAO" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_RONG" type="xs:int" minOccurs="0" />
+                <xs:element name="USER_LOG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_HT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PBT_INFO>
+    <TEN_LOAI_BT>Bảo trì kế hoạch</TEN_LOAI_BT>
+    <HU_HONG>false</HU_HONG>
+    <MS_UU_TIEN>1</MS_UU_TIEN>
+    <TEN_TO>PX Cơ Nhiệt Điện</TEN_TO>
+    <MS_MAY>PP1049</MS_MAY>
+    <TEN_MAY>Bơm nước ngưng nồi đường</TEN_MAY>
+    <MS_PHIEU_BAO_TRI>WO-201407000189</MS_PHIEU_BAO_TRI>
+    <SO_PHIEU_BAO_TRI>WO-201407000189</SO_PHIEU_BAO_TRI>
+    <LY_DO_BT>SCL 2014</LY_DO_BT>
+    <NGAY_LAP>23/07/2014 08:33</NGAY_LAP>
+    <NGUOI_LAP>Nguyễn Xuân Trị</NGUOI_LAP>
+    <TEN_HT_BT>Bảo trì không định kỳ</TEN_HT_BT>
+    <TEN_LOAI_BT1>Bảo trì kế hoạch</TEN_LOAI_BT1>
+    <DIA_DIEM>TN-AREA 05</DIA_DIEM>
+    <NGAY_BD_KH>2014-07-01T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-07-31T00:00:00+07:00</NGAY_KT_KH>
+    <BO_PHAN>Tây Ninh</BO_PHAN>
+    <CHI_PHI_PHU_TUNG>0</CHI_PHI_PHU_TUNG>
+    <CHI_PHI_VAT_TU>0</CHI_PHI_VAT_TU>
+    <CHI_PHI_NHAN_CONG>0</CHI_PHI_NHAN_CONG>
+    <CHI_PHI_DV>0</CHI_PHI_DV>
+    <CHI_PHI_KHAC>0</CHI_PHI_KHAC>
+    <TEN_TINH_TRANG>Đang soạn </TEN_TINH_TRANG>
+    <STT>1</STT>
+    <GIO_CONG>0.25</GIO_CONG>
+    <SERIAL_NUMBER>S05PP03</SERIAL_NUMBER>
+    <GIO_KH>3</GIO_KH>
+  </PBT_INFO>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh, kiểm tra LCS</MO_TA_CV>
+    <TEN_BP>Điện</TEN_BP>
+    <SO_GIO_KH>4</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+    <THAO_TAC />
+    <TIEU_CHUAN_KT />
+    <SO_GIO_TT>2</SO_GIO_TT>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Vệ sinh, xông sấy motor, kiểm tra vô mỡ vòng bi</MO_TA_CV>
+    <TEN_BP>Điện</TEN_BP>
+    <SO_GIO_KH>20</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+    <THAO_TAC />
+    <TIEU_CHUAN_KT />
+  </PBT_CONG_VIEC>
+  <PBT_CONG_NHAN>
+    <TEN_CHUC_VU>Tổ trưởng tổ điện 2</TEN_CHUC_VU>
+    <MS_CONG_NHAN>1200</MS_CONG_NHAN>
+    <HO_TEN>Nguyễn Hữu Hoàng</HO_TEN>
+    <BAN_TO>PX Cơ Nhiệt Điện - Điện 2</BAN_TO>
+    <TEN_TO>Điện 2</TEN_TO>
+    <CHINH_PHU>Y</CHINH_PHU>
+  </PBT_CONG_NHAN>
+  <BT_NUMBER_RECORD>
+    <NR_CONG_VIEC>2</NR_CONG_VIEC>
+    <NR_CONG_NHAN>1</NR_CONG_NHAN>
+    <NR_DICH_VU>0</NR_DICH_VU>
+    <NR_PHU_TUNG>0</NR_PHU_TUNG>
+    <NR_VAT_TU>0</NR_VAT_TU>
+    <NR_TT>1</NR_TT>
+    <NR_TTPH>0</NR_TTPH>
+  </BT_NUMBER_RECORD>
+  <PBT_GIAM_SAT>
+    <MS_CONG_NHAN>0177</MS_CONG_NHAN>
+    <HO_TEN>Hồ Trí Việt</HO_TEN>
+    <MS_TO>54</MS_TO>
+    <TEN_TO>PCƯXNK</TEN_TO>
+  </PBT_GIAM_SAT>
+  <PBT_GIAM_SAT>
+    <MS_CONG_NHAN>0280</MS_CONG_NHAN>
+    <HO_TEN>Trần Xuân Nguyên</HO_TEN>
+    <MS_TO>3</MS_TO>
+    <TEN_TO>PXĐ</TEN_TO>
+  </PBT_GIAM_SAT>
+  <TIEU_DE_PHIEU_BAO_TRI_BT>
+    <TIEU_DE>PHIẾU YÊU CẦU VÀ NGHIỆM THU CÔNG VIỆC SỬA CHỮA</TIEU_DE>
+    <MAU_SO>Mẫu số</MAU_SO>
+    <PHIEU_BAO_TRI>Phiếu bảo trì</PHIEU_BAO_TRI>
+    <NGUOI_LAP>Người yêu cầu</NGUOI_LAP>
+    <NGAY_LAP>Ngày thực hiện </NGAY_LAP>
+    <MS_MAY>Mã hạng mục</MS_MAY>
+    <TEN_MAY>Tên thiết bị</TEN_MAY>
+    <TINH_TRANG>Tình trạng</TINH_TRANG>
+    <MO_TA>Mô tả công việc </MO_TA>
+    <HINH_THUC_BT>Hình thức bảo trì</HINH_THUC_BT>
+    <LOAI_BT>Công việc</LOAI_BT>
+    <DIA_DIEM>Địa điểm :</DIA_DIEM>
+    <KE_HOACH>Kế hoạch</KE_HOACH>
+    <NGAY_BD>Ngày thực hiện</NGAY_BD>
+    <NGAY_KT>Ngày hoàn thành</NGAY_KT>
+    <BO_PHAN_CP>Bộ phận</BO_PHAN_CP>
+    <PHE_DUYET1>Duyệt</PHE_DUYET1>
+    <PHE_DUYET2>Kiềm tra</PHE_DUYET2>
+    <PHE_DUYET3>Người lập</PHE_DUYET3>
+    <PHE_DUYET4>Phê duyệt</PHE_DUYET4>
+    <LY_DO_BT>Lý do bảo trì</LY_DO_BT>
+    <GIAM_DOC_NHA_MAY>TruongBoPhan</GIAM_DOC_NHA_MAY>
+    <PHONG_CO_DIEN>Phòng kỹ thuật</PHONG_CO_DIEN>
+    <SERIAL_NUMBER>Mã HM cũ</SERIAL_NUMBER>
+    <TEN_NL>Nguyễn Xuân Trị</TEN_NL>
+    <TMP1>NghiemThuCV</TMP1>
+    <TMP2>?GioKH?</TMP2>
+    <TMP3>NoiDung</TMP3>
+    <TMP4>DVSuDung</TMP4>
+    <TMP5>Mã HM cũ</TMP5>
+    <USER_HT>User</USER_HT>
+    <DON_VI_YEU_CAU>Đơn vị yêu cầu</DON_VI_YEU_CAU>
+    <MUC_DO_UU_TIEN>Mức độ ưu tiên</MUC_DO_UU_TIEN>
+    <LOAI_CONG_TAC>Loại công tác    </LOAI_CONG_TAC>
+    <DOT_XUAT>Đột xuất</DOT_XUAT>
+    <MA_HANG_MUC>Mã hạng mụ</MA_HANG_MUC>
+    <TEN_HANG_MUC>Tên thiết bị/</TEN_HANG_MUC>
+    <NGAY_THUC_HIEN>Ngày thực hiện</NGAY_THUC_HIEN>
+    <NGAY_HOAN_THANH>Ngày hoàn thành</NGAY_HOAN_THANH>
+    <MA_CONG_VIEC>Mã công việc</MA_CONG_VIEC>
+    <SO_CONG_THUC_HIEN>Số công thực hiện</SO_CONG_THUC_HIEN>
+    <UU_TIEN_1>Ưu tiên 1</UU_TIEN_1>
+    <UU_TIEN_2>Ưu tiên 2</UU_TIEN_2>
+    <UU_TIEN_3>Ưu tiên 3</UU_TIEN_3>
+    <THONG_TIN_PHAN_HOI>Thông tin phản hồi</THONG_TIN_PHAN_HOI>
+    <DON_VI_THUC_HIEN>Đơn vị thực hiện</DON_VI_THUC_HIEN>
+    <DON_VI_GIAM_SAT>Đơn vị giám sát</DON_VI_GIAM_SAT>
+    <NHAN_XET_KET>Nhận xét kết thực hiện</NHAN_XET_KET>
+    <DAT_YEU_CAU>Đạt yêu cầu</DAT_YEU_CAU>
+    <CHUA_DAT_YEU_CAU>Chưa đạt yêu cầu</CHUA_DAT_YEU_CAU>
+    <KHAC>Khác</KHAC>
+    <GHI_CHU_KHAC>Ghi chú  ( nếu nhận xét là khác)</GHI_CHU_KHAC>
+    <GIO_KH>?GIO_KH?</GIO_KH>
+  </TIEU_DE_PHIEU_BAO_TRI_BT>
+  <TIEU_DE_CONG_VIEC_BT>
+    <DANH_SACH_CV>Danh sách công việc (Y: Công việc chính; N: Công việc phụ; TN: Công việc thuê ngoài)</DANH_SACH_CV>
+    <CV_CONG_VIEC>Công việc</CV_CONG_VIEC>
+    <CV_BO_PHAN>Bộ phận</CV_BO_PHAN>
+    <CV_SPHUT_KH>Số phút KH</CV_SPHUT_KH>
+    <CV_NGAY_HT>Ngày hoàn thành</CV_NGAY_HT>
+    <CV_LOAI_CV>Chính/Phụ/TN</CV_LOAI_CV>
+    <TONG_PHUT_KH_CV>Tổng thời gian:</TONG_PHUT_KH_CV>
+    <STT>STT</STT>
+    <TEN_BAC_THO>Bậc thợ</TEN_BAC_THO>
+    <TONG_CONG>Tổng cộng</TONG_CONG>
+    <THAO_TAC>Thao tác</THAO_TAC>
+    <TIEU_CHUAN_KT>Tiêu chuẩn kiểm tra</TIEU_CHUAN_KT>
+  </TIEU_DE_CONG_VIEC_BT>
+  <TIEU_DE_NHAN_VIEN_BT>
+    <NV_DS_NV>Danh sách nhân viên</NV_DS_NV>
+    <NV_HO_TEN>Họ tên</NV_HO_TEN>
+    <NV_TO_PB>Đơn vị</NV_TO_PB>
+    <NV_TU_NGAY>Từ ngày</NV_TU_NGAY>
+    <NV_DEN_NGAY>Đến ngày</NV_DEN_NGAY>
+    <NV_LOAI_VN>Cty / Thuê ngoài</NV_LOAI_VN>
+    <MS_CONG_NHAN>Mã nhân viên</MS_CONG_NHAN>
+    <CHUC_VU>Chức vụ</CHUC_VU>
+    <KY_XAC_NHAN>Chữ ký xác nhận</KY_XAC_NHAN>
+  </TIEU_DE_NHAN_VIEN_BT>
+  <TIEU_DE_DICH_VU_BT>
+    <DV_DS_DV>Danh sách dịch vụ</DV_DS_DV>
+    <DV_ND>Nội dung</DV_ND>
+    <DV_CTY>Nhà cung cấp</DV_CTY>
+    <DV_SL>Số lượng</DV_SL>
+    <DV_DG>Đơn giá</DV_DG>
+    <DV_TG>Tỷ giá</DV_TG>
+    <DV_TT>Thành tiền</DV_TT>
+  </TIEU_DE_DICH_VU_BT>
+  <TIEU_DE_PHU_TUNG_BT>
+    <PT_DS_PT>Danh sách phụ tùng</PT_DS_PT>
+    <PT_MS_PT>MS phụ tùng</PT_MS_PT>
+    <PT_MS_PTTT>MS PT sử dụng</PT_MS_PTTT>
+    <PT_TEN_PT>Tên phụ tùng</PT_TEN_PT>
+    <PT_TEN_PTTT>Tên PT sử dụng</PT_TEN_PTTT>
+    <PT_SL_KH>Số lượng KH</PT_SL_KH>
+    <PT_SL_TT>Số lượng TT</PT_SL_TT>
+    <PT_DVT>Đơn vị tính</PT_DVT>
+    <PT_GHI_CHU>Ghi chú</PT_GHI_CHU>
+    <QUY_CACH>Quy cách</QUY_CACH>
+    <PT_MS_PT_NCC>Part No</PT_MS_PT_NCC>
+    <HANG_SX>Hãng sản xuất</HANG_SX>
+    <MS_PT_TT>Mã PT tương đương</MS_PT_TT>
+  </TIEU_DE_PHU_TUNG_BT>
+  <TIEU_DE_VAT_TU_BT>
+    <VT_DS_VT>Danh sách vật tư</VT_DS_VT>
+    <VT_MS_VT>MS Vật tư</VT_MS_VT>
+    <VT_TEN_VT>Tên vật tư</VT_TEN_VT>
+    <VT_SL_KH>Số lượng KH</VT_SL_KH>
+    <VT_SL_TT>Số lượng TT</VT_SL_TT>
+    <VT_DVT>Đơn vị tính</VT_DVT>
+    <VT_GHI_CHU>Ghi chú</VT_GHI_CHU>
+    <QUY_CACH>Quy cách</QUY_CACH>
+    <VT_DS_VT_NCC>Part No</VT_DS_VT_NCC>
+    <MS_PT_TT>Mã PT tương đương</MS_PT_TT>
+  </TIEU_DE_VAT_TU_BT>
+  <TIEU_DE_CHI_PHI_BT>
+    <TONG_CHI_PHI>TỔNG CHI PHÍ</TONG_CHI_PHI>
+    <STT>STT</STT>
+    <CP_NOI_DUNG>Nội dung</CP_NOI_DUNG>
+    <CP_TIEN>Chi phí</CP_TIEN>
+    <CP_TONG>Tổng chi phí</CP_TONG>
+    <KQ_BAO_TRI>KẾT QUẢ BẢO TRÌ</KQ_BAO_TRI>
+    <KQ_NGAY_NT>Ngày nghiệm thu</KQ_NGAY_NT>
+    <KQ_BT>Kết quả bảo trì</KQ_BT>
+    <NGUOI_NT>Người nghiệm thu</NGUOI_NT>
+    <CP_PHU_TUNG>Chi phí phụ tùng</CP_PHU_TUNG>
+    <CP_VAT_TU>Chi phí vật tư</CP_VAT_TU>
+    <CP_NHAN_CONG>Chi phí nhân công</CP_NHAN_CONG>
+    <CP_DICH_VU>Chi phí dịch vụ</CP_DICH_VU>
+    <CP_KHAC>Chi phí khác</CP_KHAC>
+  </TIEU_DE_CHI_PHI_BT>
+  <TIEU_DE_VIEN_GIAM_SAT>
+    <NHAN_VIEN>Nhân viên thực hiện</NHAN_VIEN>
+    <DON_VI>Đơn vị</DON_VI>
+    <XAC_NHAN>Chữ ký xác nhận</XAC_NHAN>
+    <DS_NV_GIAM_SAT>Nhân viên giám sát</DS_NV_GIAM_SAT>
+    <HO_TEN>Người giám sát</HO_TEN>
+  </TIEU_DE_VIEN_GIAM_SAT>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty Cổ Phần Đường Biên Hòa
+KCN Biên Hòa 1, Biên Hòa, Đồng Nai
+Telephone: 061 3836199  Fax: 061 3836213</THONG_TIN_CTY>
+    <LOGO>Qk2GrwAAAAAAADYAAAAoAAAAhwAAAG4AAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg8Pjg//fg//fg//jg//fg8Pfg8Pjg8Pjg8Pff/+/f/+jf8PDf7+/f7+jQ4OjQ4OjQ7+jQ4OjQ4OjQ7+jQ7+jQ7+jQ7+jQ7+jQ7+jQ7+jQ7+jQ7+jQ7+jQ7+jQ7+/Q4O/Q4O/Q4O/Q4O/Q4OjQ4OjQ4OfQ7+fQ7+jQ7/Df8PDf8Pfg8PDg7/Dg4O/g4PDg8ODQ/9/P7+fP7+fP8ODP8ODP8OfP7+jQ3/Df3/Df4PDf7/Df7/fg8Pfg//fg//Dg//fg//jg//fg8Pfg8Pfg//fg//jg//fg8PDf7+/f4O/Q4OjQ4OjQ4OfP4ODP7+DP7+DP7+DP7+fP4OfP7+fP7+jP8O/Q8O/Q8PDf//ff//ff8Pff8Pff8Pff8Pff8Pff8Pff8Pff8Pff//ff//ff//ff//ff//ff//ff//ff8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg8Pjg8Pjg8Pjg//fg//fg//fg//fg8Pjg7/jg4Pff7/Df7+/f7+jf4OfQ4ODP39/P39/P39/P39/P39/P39/P39/P39/P39/P39/P39/P39/P3+DP3+DP3+DP3+DP3+DP3+DP3+DP3+DP3+DP3+fQ4OfQ4OfQ4OfQ7+fQ8Ojf8O/f//Dg//Dg//Dg7+/g7/Dg4OfQ4OfP3+jP3+fP4OfP4ODP7+fP4OfQ4OjQ4O/f8O/f8PDf8Pfg8Pfg//fg//fg//fg//jg//fg8Pfg8Pfg//fg//jg8Pfg8PDf7+/f7+jQ4OfQ4OfQ4ODP3+DP3+DP3+DP3+DP4OfP4OfP3+jP4OjQ7+/Q8O/Q//Df//Df//Df//ff8Pff8Pff8Pff8Pff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg8Pjg8Pjg8Pjg//fg//fg//fg//fg8Pfg7/ff4PDf4OjQ4OfQ39fA0NDAz8+/z8i/z8+/z8+/z8+/z8i/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z9C/wNC/z9C/z9C/z9C/z9C/z8+/z8+/0NfAz9fA0NfA0NfA39jP4N/P7+DQ7+DQ8Ojf8Ojf7+ff7+jf3+DP0ODAz9i/z9i/0Ne/0Ne/39e/39jA39/P4ODP8Ojf/+/f8PDg8Pfg8Pfg//fg//fg//jg//jg//fg//fg//fg//fg8Pfg7/Df7+/Q4N/P4NjP39fA39fA0NC/z9C/z9C/z9e/0NfA39fA0NjA3+DP4OfP8O/Q//Df//Df//ff//ff8Pff8Pff8Pff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg8Pjg8Pjg//fg//fg//fg//ff8PDf7/Df7+jQ4N/P39jA39fA0NDAz8+/z8i/z8+/z8+/z8+/z8i/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z8+/wM+/wNC/z8+/0M+/0M+/0M+/0M+/0M+/wMiwv8i/v8i/v8+/wM/Az9fA0NjP39/P7+DQ7+DQ4N/Q7+DQ39jA0Ne/z8+wz8+wz8ev0Mev0Mew38+/39fA39jP7+fQ8Ojf8PDg8Pfg8Pfg//fg//fg//fg//fg//fg//fg//fg8Pfg7/ff4PDf4OjQ39jA4NfA38+/0Miwz8ewwMewz8ewz8ew0MCw0Mew0M+/39fA4N/P8OfP/+jQ//Df8Pff8Pjf8Pjf8Pjf//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg8Pfg8Pff8PDf7+/f7+fQ4NfA4M+/4Mew37+w37iv37iv37iv37iv37iv37iv37iv37iv37iv37iv37iv37iv37iv37iv0Liv0Liv37iv37iv4Liv4Liv4Liv37iv37+w0MCwz8CwwMe/wMi/z9DAz9jP0NjP39/P4N/P4NfP79jP78+/78iw4Mew4Mev4L+v4L+v4MCw4Miw39fA39jP7+DQ7+jf8PDf8Pfg//fg//fg//ff//fg//jg//fg//Dg//Dg8Pff7/Df4O/Q4OfQ8NjP/9DA8Mi/78Cw4L+v4L+v4L+w4L+w37iv37+w0Mew0M+/39fA4N/P8ODP8OjQ8Pff7/jf7/jf8Pjf//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ8PDQ////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//jg//jg//fg//fg//fg//fg//fg//fg//jg7/Df4PDf0OfP3+jQ4N/P0L+v/8/A/7iw/7ev/7Cv/6+g/6ig/6+g/6+g/6+g/6+g/6+g/6+g/6+g/6+g/6+g/6+g/6+g/6+v/6+v/6+v/6iv/6iv/6iv/6iv/6iv/6eg8Kig77ew4L+w0L+wwL+wv8e/wNDA0N/P0NDA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//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//jg8Pjg8Pfg7/ff7/Df4O/f3+jQ0NfA79/P/8/A4Hh/zycv3wcf8AAQ8AAP8AAP8AAP8AAP/wAP/wAP/wAP/wAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP/wAP/wAP8AAP8AAP8AAP8AAP/wAP/wAP/w8Q/wAP/wAP8AAP7wcP3wAP0AgQsBgf35CP4MC/0L+/0IiPzw8f8AAQ8AAP8AAP/wcQ4AAAwAAP4F9f8L+w0Mi/0N/P0OfQ4OjQ8Ojf/+jf/+jf7+/Q7+/Q8O/f8O/f8O/f8O/f8O/f7+/f7+/Q7+jQ79/P//jv/7iwwC8wvwAA7w8f7wAQ/wAQ/wAQ8AAP3wcQvwgQ319Q8Kif37+vz8iwwM+wz9e/39/A4OfQ8O/Q8O/f//Df//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg8Pjg8Pjg//Df8O/f7+jQ4OfQ0N/A39C/78Cw4IeAwCAvzwAA7wAQ8AAP/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wcP/wcP/wcP/wcP/wcP/wcP/wcP/wcP/wcP4AAA7wAA/wcP/wcP8AAP7wAA7wAP0AgQsEBA35+f0Kiv0H+Azw8g/wAf/wAP8AAA/wcQ7wAQ0AgQ8Gdg/8C/38+/0NfA0N/P4ODP7+DQ8ODQ7+DP3+DP3+fP4OfQ4OfQ7+DP7+DP8ODP7+DP4ODP4ODP0NjA8OfQ/+Df739/wBAf3wAQ7wAQ8AAP8AAQ7wAA/wgQ3wAPwAgP31dQ8Legz7igwMevwM+w0NfA4N/P7+fQ8OjQ8O/f8Pff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA//fg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg8Pjg//fg//fg//fg8Pjg8Pjg//fg//fg//jg8Pjg8Pfg//Df8Ojf7+fQ7+DQ39C/4Mi/8KefsC8wvwAA8Agf7wAP/wcf/wAQ8AAQ7wAQ7wAQ3wcQ3wcQ0AAQ0AAQ0AcQ0AcQ0AAQ0AAQ0AAQ0AAQ0AAQ3wAQ3wcP3wcP3wcP3wcP3wcP3wcP0AcP0AcP4A8Q4AcP7wAA8AcP/wcQ/wcP/wAA3wgPwC8w/6Cv8L/A34CPwAAQ/wcf/wcQ8AAP/wAQ7wAQzwcQ4F9g8Liw0MCwz8/A0NfA39jP4NjP4NjP39jA39jA0NjA39/P39/P39jP4NjP79jP79jP4NjP39/Pz9jA0NfA8NDA/8/A/3d/wBAf0AAQ7wcQ8AAP/wcP8AAA/w8f4AAPzxAQ/5+Q77ivz7+vwMiwz9C/39jA4ODP7+fQ7+/f8Pff//ff//ff//ff//ff//ff//ff//ff//ff//Df//ff//ff//ff//ff//ff//ff//ff////AAAA//fg8Pjg7/jg7/jg7/jg7/jg8Pjg//fg//jg//jg//fg//fg//fg8Pfg8Pfg8Pfg//ff//ff7+/f7/Df7+jQ7+fQ7+fQ0Mi/4Mi/8Liw4GdvwBAf3wAP/wcQ/wcQ/wcQ/wAQ8AAQ3wAPwAcQwCAvsCgwrycvoCAvoCAvoCAvoCAwoCAwoB8woB8wrx8wrx8wrx8wrx8wsB8wsB8vrx8vryAvryAvsCAvwB8gzw8Q4AAP/wAP/wcP/wcP7wcA3wgPsAcP8Hd/76+w34eP0Agf8AAP/wcf8AAP/wAf7wAQwAcQ32Bg8LiwwL+wwMi/wMi/z8i/0M+/0M+/0M+/0NC/z9DAz9DAz9DA0M/A0M/A0M/A0M/A0M/A0M/AwMi/z9DAz8e/4Me//7ew32BgsA8f0AcQ7wAP/wcP8AAP/wcQ/w8f0AAP0DAw/4+P8Me/sK+fwMiwz9fA0NfA4ODQ4ODP8Pff/+/f//Df//Df//Df8PDf8PDf8Pff//ff//Df//Df//Df//Df//Df//ff8Pff8Pff////AAAA//fg8Pjg7/jg7/jg7/jg8Pjg//fg//fg//jg//jg//fg//fg//fg//fg8Pjg8Pjg8O/Q///v8Pff7+/f7+/f4ODQ4NjP78/A/7iw0GdvvxcgzwAP8AAQ/wcQ/wAP8AAP7wAQ0AAPzxAg71hg/5if/6+w8Kiv8Kiv/6+w/6+w/6+//6+//6+//6i//6i//6i//6i//6i//6i//6i//6i//6+w/6+w/6+w/5ef8E9Q3wgQ7wAA/wcP/wcP7wcA3wcPzwgQ/29w8K+w34CPzwgQ8AAA/wAQ8AAA/wAf7wcQwA8f32Bg77ewz7ivv7ivv7+wwL+wwL+wwL+wwMCwwMCwz8CwwMCwwMCwwL+wwL+wz7+wz7+wz7+wz7+wwL+wwMe/v8ewwL+w4MC//6iv319gvwgQ4AAP/wcP8AAA8AAP/wcQ3wAAzwAQ0Dg/75CP8Me/wL+vv8Cw0NjA39/P7+fQ7+fQ/+/f/+/f//Df//Df8PDf8Pff8Pff//ff//Df//Df//Df//Df//Df//ff8Pff8Pff////AAAA//fg//fg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//jg//jg//jg8Pjg8Pjg8PDf//jg8PDf7+/f4OfQ39DA78/A/7iw4G9wwBggwAAA7wcQ/wcQ8AAP8AAP7wcPwAAPvxcg31BQ/5+f/7iw4K+v36ig37Cv4LCw4Lew37Cw37Cw37Cw37Cw4LC/4LC/37Cw37Cw4LCw4LCw37Cw37ew37ew77Cw/8jP8Gdvzw8f3wAA/wcQ/wcP/wAA4AcPwAcQ8Ghw8Kiw34CPzwcQ8AAA/wcQ8AAA/wAP4AAPwAgQ319f8K+g0Livz7ivwLivz7ivz7ivz7+vz7+v0L+v0L+vz7+vz7iwz7iwz7iwz7iwz7iwz7iwz7iwwLivv7egv7ivv7Cgz7Cg/8C/8I+QvyAg3wcP/wcP/wAA/wAP/wgQ7wAQ3wAPzwcQ0DhA/5eQ77iwz8CwwM+/z9jA7+fQ79jP/+jf/+/f//Df//fg8Pff7/ff7/ff8Pjf8Pff8Pff//ff//Df//ff//ff8Pff8Pff////AAAA//fg//fg//fg8Pjg//fg//fg//fg//fg//fg//fg//jg//jg//jg//jg//jg8Pjg//jg7+jf7+jQ4OfQz8i/4NDA/8e/33BwwBAg0AAQ8AAQ/w8g8AAP7wAA/wAP7wcP0AgQ4Dc//3dw/5iQ8JCP34+A4JeQ8KCf4I+P34+P34+P34+Q34+Q34+Q4IiQ4IiQ34+Q34+Q34+Q34+Q34+Q34+Q34+Q4IiP729w0Dc/zwAQ4AAP/wcQ/wAQ/wAP4AgQsAgQ/4eP8LC/4IiQ0A8f/wAP/wcP8AAA/wAP7wAP0A8Q70hP/4iA4JCP35CP35eP4JeP4JeP4JeP4JeP4JiP4JiP4JCP4JCQ4JCQ4JCQ4JCQ4JCQ4JCQ4JCQ4JeQ0IiA0JeQ35+Q4JCP/5+f/5ef/2dv4AcP/wcQ/wcP/wAP/wcQ/wgQ8AcQ7wcQzwAQzzc//7Cv78i/sLegz9DA39fA79jP8OfQ8O/f8PDf8Pff8Pff7/ff7/jf7/jf7/ff7/ff8Pff8Pff8Pff8Pff8Pff8Pff////AAAA//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//jg//jg//jg//jg//fg8Pfg8PDf7+/f3+fQ0NfAz8ew8NDP/6CfsBggzwAP8AAf/wcf/wAQ7wAP8AcP/wcP/wcP7wAA4AAP4AgQ0AgPwAAAvwcPwAgPvwAAzwgQzwgQwAgQwAgQwAgQwAgQwAcfzwcfwAgQwAgQzwgQwAgQwAgQwAgQwAgQzwcQ3wcf3wAQ4AAP8AAQ/wAQ/wAP7wAPzwcPvy8w/7Cw77e/34CP0AgQ/wAP/wgP/wgP/wgQ/wcP4AAA3wgQ0BcfwAgPvwgQwAgQwAcPzwgPzwgPzwgPzwgPzwgPzwcQzwcQzwcQzwcQzwcQzwcQzwcQzwcQ0AgQzwgQwA8QwA8fwAgQwAAP3wcQ8BAg8AAQ/wcP/wcP/wAP8AAP8AAP/wAP8AAQ7wAQwAcQ8Hdw8LCvwLivwMiwwMCw39jP4ODP7+fQ8O/f8PDf8PDf8Pff7/ff7/jf7/ff7/ff8Pff8Pff8Pff8Pff8Pff8Pff////AAAA//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//jg//jg//jg//fg8Pff8PDf7+jf7+jf0NfA39fA78/A76Cf31BfvwAP7wAf/wAQ8AAP8AAP8AcP8AAP8AAA/wcP/w8Q/wAA8AAA/wAA8AcP8AgP/wcQ/wcP/wcQ/wAQ8AcQ8AcQ8AcQ8AcQ8AAQ/wAQ/wcQ/wcQ/wcQ/wAQ8AAQ8AAQ8AAQ8AAQ8AAP/wAP/wAP/wAP/wAP8AAP7wAPwAcPrz8/76+v37C/34eP0AgQ8AAA8AAA8AAA/wcP/wgP/wAP8AAP7wAP4AAA8AAQ8AAQ/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wcQ8AAP7wAP8AcQ8AAP8AAP/wcQ8AAP8AAP/wAQ/wAP/wAP/wAP/wAP/wAP/wAQ3wcQvyAg33dw78Cw0MewwMCw0NDA39jA4N/P7+fQ8O/f8PDf8PDf8Pff8Pjf7/ff7/ff8Pff8Pff8Pff8Pff8Pff8Pff////AAAA//fg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg//fg//jg//fg8Pff7/Df7+/f4Ojf39/P0Mi/78/A8Kigz0hPwA8f3wAQ8AAQ8AAQ8AAP/wcQ/wcQ8AAA8AAA/wcP/wAA/wAA/wgP/xAP/w8P8AAA8AAA/wgP/wAA/wAP8AAP8AAP8AAP8AAP/wAP/wAP/wAA/wAA/wAA/wAP8AAP8AAP8AAP/wAP/wcQ/wAQ/wAP/wAP/wAP8AAA8AcPwBAQ75iQ4MC/37i/0H+AwAcP/wAP/wAA/wAA/wAA/wAA/wAP/wAP/wAQ/wAQ/wAQ/wAQ/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP8AAP8AAP8AAP/wAP8AAA/wAP8AAA7wAA8AcP8AgP7wAA7wAA7wAP8AAQ/wAQ/wAQ/wcQ/wgQ/wcQ/wAQ8AAP4AcQwAAPwCgv74CA77ev0MCwz8i/0NC/39fA4ODP8OjQ8O/Q//Df8PDf8Pff8Pff8Pff8Pff8Pff8Pff8Pff8Pff8Pff////AAAA8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//jg8Pfg8PDf7+/f4O/f0N/P39fA78/A/7ew4F9gvwcQ0AAP8Acf7wAQ7wAP8AcQ/wcQ/wAP/wAP/wcP/wAA/wAA/wgP/wcA7wAA8AAA/wcP/wAA/wcP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP8AAA/wAA/wcP/wcP8AAA/wgP3yAg/7ivz7Cv37/A0IePzw8Q/wcQ/wcP/wcP/wAP/wAP/wcP/wAP/wAP/wAQ/wAQ/wAQ/wAQ/wAQ/wAP/wAP/wAP/wAP/wAP/wAP8AAP8AAP8AAP8AAP8AAP/wAP/wgQ/wAA/wAP/wgP8AcP7wAA7wAA7wcP8AAQ/wcQ/wAQ8AAP/wAP/wAP/wAP8AAP/wgQ4AAA8BcgvwAAsCAv/5iQ4Lewz8Cwz8iw0NC/4N/P7+fQ8OjQ/+/f//Df//ff//Df8PDf8Pff8Pff8Pff8Pff8Pff8Pff////AAAA8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg///v//Df//fg//jg8PDf7+/f4OjQ3+DPz9jA4M/A/7i/31hfzwcQ7wcf/wcf8AAQ8AgQ7wAP8AAP/wAP/wAP/wAP8AAP8AcP/wcP/wcP8AcP8AcP8AcP/wAP/wAP/wAP/wAP/wAP/wAP8AAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP8AAP8AAP8AAP8AAP/wgQ/wAP/wcP/wAP/wAA/w8Q0BAQ34B/37ew0Le/0IePzw8f8AAP/wAP/wAP8AAA8AAP/wAP/wAP/wAP/wAQ/wAQ8AAQ8AAP8AAP8AAQ8AAQ8AAQ8AcQ8AAP8AAP8AAP8AAP8AAP8AAP8AAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP8AAP8AAP8AAP8AAQ8AAP/wAQ/wcQ/wcQ/wAP/wAQ/wAP/wAQ8AAP3wAPwA8f31df/7Cv37evz7+vz8iw0NC/39/P7+jQ7+fP8OjQ///g//Df//Df//ff8Pff8PfQ7/fQ8PfQ8Pff////AAAA8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//Df//fg8Pfg7/Df7/ff7+/f0NDA0NDA/9fP/5ifzx8v0AAA/wcf/wAQ/wAP7wAP7wAP8AcQ8AcQ8AcQ7wAP7wAP4AAP4AAP4AAP4AAP4AAP4AAP7wAP7wAP7wAP7wAQ7wAQ7wAQ7wAQ7wAQ7wAQ8AAQ8AAQ7wAQ7wcQ7wAQ7wAQ7wAQ7wAQ7wAQ7wAQ7wAP8AAQ8AAP/wAP/wAP8AAA/wAP0AcPv0BA4Keg37C/0H+AzwgQ8AAP/wAP/wcP/wcQ/wgf/wgf/wcf8AAQ8AAQ8Acf8Acf7wAf7wcQ7wcQ7wcQ7wcQ7wcQ7wcQ7wcQ7wcQ7wcQ4AcQ7wcQ7wcQ7wcQ7wcQ8AcQ8AcQ8AcQ8AcQ8AcQ7wcQ7wcQ/xAg8AAQ4AAQ4AAQ4AAP4AAA8AAP/wcQ/wAP/wAQ/wAQ/wcf3wcQvxAf0GBg/7ev4Mi/wMCvz8+/39/P4ODP7+jQ//Df/+/Q/+/f//Df//ff//ff8Pff7/fQ8PfQ8Pff////AAAA//fg//fg//fg//fg//fg//fg//fg//fg//fg//jg//jg7/ff4O/Q4OfQ39jA39C/8NfA35eP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vwgQ32Bg/8e/39DA3+DP4OjQ8Pff//jg8Pjg8Pff8Pjf//jg//jg//jg8Pjg8Pjg8Pjg//jg//jg//jg8Pfg8Pfg8Pjg8Pfg8Pfg//fg//fg//ff//jf8O/Q/+/f//ff8PDf7+jQ8O/f//Dg/8e/319fvwAP3wAP/w8f/wcQ8AcQ4AAP3wAP0BAg31df75+Q37ivz8ew0NCw0NC/4NjA7+DP7+jQ7/DQ7/fQ8PfQ//Df//ff////AAAA//fg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg7+/f8Pfg39/P4M+//8/A8JCPzzA/wAAP7wAP/wAP/w8Q8AcP7wAA/wcP/w8Q/wAP/wcP7wAP7wAP/wcQ/wcf/wAQ8AAQ8AAQ8AAQ8AAP/wAP/wAP/wAP/wAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP/wAA/wAA/wAP/wAP/wAP/wAP7wAP7wAP4AAA/wcP/wAP/wcP/wAP8AAA8AgPzwgPvzg//8DA78DA34iQzwgQ/wAQ/wAP8AAA/wAQ7wAPvwcP32Bg/8e/39e/3+DP4O/Q//fg//jg//jg8Pff8Pff8Pff//fg//fg8Pjg8Pjg8Pjg8Pjg//fg//fg8Pfg8Pfg8Pfg8Pfg8Pfg//fg//fg//ff//jg//jf//ff//fg///g8Pjg7/Df//Df//fg/8e/309QwAcP3wAP7wAQ7wcQ8AAQ/wcQ0AAAsA8Q32dg77Cg0LigwLig39C/39e/4N/A7+fP8O/Q8PDQ8PDf//Df//Df////AAAA//fg//fg8Pjg7/jg7/jg7/ff7/ff7/Df4PDf4OfP39C//9DA/5iQsBggzwAQ7wAQ8AAP/wAP/wAP/wcP/wAP/wAP/wAP/wAP/wAP/wcP/wAP/wAP/wAP/wAP/wAQ/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP8AcP8AcP8AAP/wgQ/wgQ/wAA/wAP/xAf4AcPwBAQv1hQ8MCw4M/A0I+PzwgQ/wAf/wcQ/wAQ/wcQ4AAPzxAf4Ghg8Mew4ODP3+fP4OjQ8O/Q//Df//ff//jf8Pjf8Pff//fg8PDg8Pfg8Pfg8Pfg8PDg8PDg8PDg8Pfg8Pfg8Pfg8Pfg8Pfg8Pfg8Pfg8Pfg8Pff8Pff//ff//ff8Pff8Pff8Pff8Pff/+jQ//jv/8C/z0BAvwAP4AcQ8AAQ/wAQ/wAQ8AAP0AAPvxAQz2Bf77Cg0MCvwMCv39C/4NjA8ODP/+jQ/+/f//Df//Df//Df////AAAA//fg//fg8Pjg7/jg7/jg7/ff7/ff7/Df4OjQ7+fQ/9jP/7+wwDc/vwAP4AAP/wAQ/wAQ/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP8AcP8AcP7wAA/wAP/wAP/wAP8AAP4AAPzwAA0Dg//7+w/9/Q79/P4JiQwAAQ8AAP8AAP8AAP/wAQ4AAPwAgQ32dg78Cw39i/3+fP4OjP8O/Q//Df//ff8Pff8Pff8Pff8PDf8PDg8PDg8PDg8PDg8PDg8PDg8PDg8PDg8PDg8PDg8PDg8PDg8PDg8PDg8PDf8PDf8PDf8PDf8PDf8PDf8PDf8PDf8PDf4N/P/+jf/9/Q33dwrxAfwAAP7wAQ8AAP/wcQ8AAP7wcP0AcPzzcw8JCP78ew38iw0M+/39fA7+DP/+jQ/+/f/+/f8PDf//ff////AAAA//fg//fg8Pjg8Pjg//fg//ff8PDf7/Df4OjQ79jP/9DP8Hdwzwgf3wAA/wAf/wAQ/wAQ/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP8AAP7wAP8AAP8AAP8AAP8AAP8AAP8AAP/wcQ/wAP/wAP/wgf4AcQvwAAwCgv/7Cv/9/Q4Mi/4M+/75iQwAcQ8AAQ8AAP/wAP/wcf7wAQzwgQ4Gdg8MCw39e/3+DP3+fP7+jQ7+/Q7/Df4PDf4PDQ4O/Q7+/f8Ojf8Ojf8Ojf8Ojf8Ojf8Ojf8Ojf8Ojf8Ojf8Ojf8Ojf8Ojf8Ojf8Ojf8Ojf8OjQ8OjQ8OjQ8OjQ8OjQ8OjQ8OjQ8OjQ8O/f79fA/+DQ/8e/72hvwBggzwAP7wAQ8AAP/wAP/wgf4AAPvwAP0EdA4JeP8M/A38i/39fA4N/P8OfQ8O/Q8O/f8PDf//ff////AAAA8Pfg8Pjg8Pjg8Pjg//fg//Df8PDf8PDf8O/f8M+/339/sBcf4Agf8AAQ/wcf8AAQ8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf8Acf7wcf7wcf7wcf7wcf7wcf7wcf7wcf7wcf4AAP/w8g8AcfzwAAvwcQ0EdA74CA/9fP8NDA0Mew4M+/4JeQvwgf7wcf8AAQ8AAQ/wgf3wAQvwgQ32dv/8e/4NjA39jA39/P4ODP4OfQ4OfQ3+jQ3+jQ3+fQ4OfP7+fP7+fP7+fP7+fP7+fP7+fP7+fP7+DP7+DP7+DP7+DP7+DP7+DP7+DP7+DP4ODP4ODP4ODP4ODP4ODP4ODP4ODP4ODP8PDf4N/P79jA/+DQ/8jA72hvvxAfzwAP4AcQ8AcQ/w8f8AcQ0AAPvw8Qv0hP76ef4Me/39DA4N/P7+fQ8O/Q8PDf8Pff8Pff////AAAA7/jg7/jg7/jg8Pjg//fg//Df8PDf8PDf8OfQ4Livjx8fkAAAzwAP7wAQ0AAP0AAQ3wAQ3wAQ3wAf3wAQ3wAf3wAQ3wAf3wAQ3wAf3wAQ3wAf3wAQ3wAf3wAQ3wAf3wAQ3wAf3wAQ3wAf3wAQ3wAf3wAQ3wAf3wAQ3wAf3wAQ3wAf3wAQ3wAf3wAQ3wAf3wAQ0AAf0AAQ0AAf3wAQ3wAf0AAQ0AAfzwAQzwAfzwcfvwcfrxAfv0dP8Keg8MjA4NDA38/A4NfP79DA34+PoAgQwAgf0AcQ0AAQ3wcfwAAPrw8Qz2Bg77iv38+/39C/39DA4NfA4NfA4NjP39jA39jA39jA39jA39jA39jA39jA39jA39jA39jA39jA39fA39fA39fA39fA39fA39fA39fA39fA39fA39fA0NfA0NfA0NfA0NfA0NfA0NfAz9C/3+DP0NfA38i//9fP/7iw0GBgoBAQwAcQ0AAA3wAP4AAQ3wAQvwAPnw8fr09P8MC/39DA39/P4OjQ7+/Q8PDf8Pff8Pff////AAAA7/jg7/jg8Pjg8Pjg//fg//ff8PDf8PDf8ODQ4LivsFdQ0E9Q8E9Q7z9A4E9Q30hP30dP30dQ30BQ30dQ30BQ30dQ30BQ30dQ30BQ30dQ30BQ30dQ30BQ30dQ30BQ30dQ30BQ30dQ30BQ30dQ30BQ30dQ30BQ30dQ30BQ30dQ30BQ30dQ30BQ30dQ30BQ30dQ30dQ30dQ30BQ30BQ30BQ30BQ30dQ0EdQ0EdQvzhA319g/5ef/7Cw8MjAz8Cwv8ewwMew0Mi/38e/36igwFdfz0BP0EdP0EdP4EhQ30hQz1dQ0IeA37ivz8ewz8i/z8i/38i/38i/0M+/0M+/0M+/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z8+/z8i/z8i/z8i/z8+/z8+/z8+/z8i/z8i/v8ewwNC/wNC/wMew0Mew8M/A77Cvv19fz09Q0DhA4EdP70dP4DhP4EdQz09QsF9g8Me/39DA3+DP4OjQ7+/Q8PDf8Pff8Pff////AAAA//fg//fg//fg//fg//fg8Pff7/ff7/Df8PDf8NjP/8/A/8C//8e/76ef8L+w37Cg4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv4LCv77Cv77Cv8LCv8LCv77Cv77Cv77Cw77ew/8C/77+wz6+gz7iwv7ivwMe/wMCwv7+wwMew0Me/77ew76eg4K+v76+v8K+v8K+v4K+v0Liwz8e/v8ewv8Cwv8CwwMCwwMCwwMewwMCwwMCwwMCwwMCwwMCwwMCwwMCwwMCwwMCwwMCwwMCwwMCwwMCwwMCwwMCwwMCwwMCwwMCwwMCwz8Cwz8CwwMCwwMCwv8CwwMCwwMCwwMCwwMewv8CvsMCvwM+wwMCwz7+v4Me/0K+g4Lev36+g77iw77Cv76Cg8LCv/7iw8MC/38/A39fA3+DP4O/Q7+/f8PDf8PDf//ff////AAAA//fg//fg//fg//fg//fg8Pff8PDf8PDf79/P/9/P/9DA/8i/8Liv8MCw37ev37+w37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev37ev4LCv4LCv77Cv77Cv4LCv4LCv4LCv4LCv4K+v4LCv77Cv77iw0Kig4Liw4Lev37Cv37iv0Kif77Cv/7iw4Liw4LCv76+v8LCv77ev37Cv0Levz7ev0Liv37ev4Lew4Lew4Lew4Lew37ev37ev4Lev4LCw4LCw4LCw4LCw4LCw4LCw4LCw4Lew4Lew4Lew4Lew4Lew4Lew4Lew4Lew4Lev4Lev4Lev37ev37ev37ev4Lev4Lev36ig4L+wz6+gz7Cg37iv0LCg4Lev4Lev4Lev37Cv0LCv36+v77ew8Lew4Kiv77+/4M/A39fA4ODQ7+/Q8O/f//DQ8PDf//ff////AAAA//fg//fg//fg//fg//fg//fg//fg//fg/+fQ35eP74iA/4iA/4CA/4CA4G9v/4CA8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/8Hh/73h/73h/73h/8Hh/8Hh/8Hh/8Hh/73h/73h/73h/73h/73h/8Hd//3d//3d//3d//3d//3d/8Hd/73h/73h/73h/8Hh/4Hh/73h/8Hd/8Hd/8Hd/73h/73h/73h/73h/8Hd//3d//3d//3d//3d//3d/8Hd/8Hd/73d/8Hd/73d/8Hd/73d/8Hd/73d/8Hd/73d/8Hd/73d/8Hd/73d/8Hd/8Hd/8Hd/8Hhw8Hh/73hw73h/8Hhw8Hh/8Hhw8Hh/8Hhw73h/73hw73h/73hw73h/73h/8Hh//3iA4G9w/3+A73B/8HiA74CPz3+A0Keg79DA/+ff8OjQ/+/f//Df8PDQ8Pff////AAAA//fg//fg//fg//fg//fg//fg//fg//fg/+DQsGdgjxcQoBAfsAcQvwcQzxcgvwAPwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQvwgQvwgQvwgQvwgQvwgQvwgQsAgQsAgQsAgQvwgQvwgQwAgQwAgQwAgQwAgQwAgQzwcQwAcQvwgQvwgQvwgQvwgQsAgQsAgQvwgQvwgQvwgQvwgQvwgQvwgQwAcQwAcQwAcQzwcQzwcQzwcQzwcQwAcQwAcQvwcQvwcQvwcQvwcQvwcQvwcQvwcQvwcQvwcQvwcQvwcQvwcQvwcQvwcQvwgQvwgQvwgQvwgQvwgQwAgQwAgQwAgQwAgQwAgQwAgQwAgQvwgQvwgQsA8QsAgQsAgQzxcgsAAA0BcgsAAPwA8grwAQjwgQgCAg4LCv8NfP/+jf/+jQ/+/f//Df8Pff8Pff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg///v/8/Az19frxAfzwcQ7wcf4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AcQ4AcQ4AcQ4AcQ4AcQ4AcQ4AcQ4AcQ4AAQ4AAQ7wAQ7wAQ7wAQ4AAQ4AcQ4AcQ7wAQ7wAQ7wAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ7wAQ7wAQ7wAQ7wAQ7wAQ7wAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ4AAQ3wcQ4AcQ4AAQ4AAQ7wAQ7wAQ7wAQ7wAQ7wAQ7wAQ4AAQ4AcQ4AAQ4AcQ4AAQ3wcQ4Acf3wAQ3wAP7wcf0AAP0BcgoCAv4JeQ4Mi/7+DQ8O/f8Ojf//Df//ff7/ff7/ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg7/jg7/jg4OfQ///v/8jAwDAwwAAP/w8g7wAP/wcf/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP7wAP8AAP8AAP/wAP/wAQ/wAP/wAQ8AAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP8AAP8AAP8AAP8AAP8AAP7wAQ8AAQ/wAQ/wAf4AAQvwcQ/4eP/+jf79/P4O/f8PDf8O/f//Df//fg8Pff4PDQ////AAAA//fg//fg//fg//fg//fg//fg7/jg7/jg7/ff/+/f//Dg8ICAvwgQ3wAQ8AAQ/wAQ/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP7wAP7wAP8AAP8AAP/wAQ/wAP/wAQ/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP8AAP8AAP8AAP/wAP/wAP/wAQ8AAP/wAQ8AcQzwAQ0DhA/7+//9jP8O/f7/Df8PDf//Df//Df//fg//ff7/DQ////AAAA//fg//fg//fg//fg//fg//fg8Pjg8Pjg8P/v7/Df//fg/+ff/4CA0Bgg3wAQ/wAQ/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP8AAP8AAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP8AAP8AAP8AAP8AAP7wAP7wAP8AAP/wAP/wAP/wAP/wAP/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP/wAP/wAP/wAP8AAP8AAP8AAP8AAP8AAP/wAP/wAP/wAP/w8f4AAA0AcP3z9A/7iw/8/A8OjQ8Pfg7/Df8PDf//Df//Df//ff//ff8O/Q////AAAA//fg//fg//fg8Pjg//fg//fg//fg//fg4OjQ8Pjg8PDf//jv/+ff8HBwzw8f4AAQ8AAQ/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP/wAP8AcP8AcP/wAP/wAP/wAP/wAP/wAP/wAP/wcP8AcP8AcP8AcP/wcP/wcP/wAP/wcP8AcP/wcP/wAQ/wAP/wAQ/wAP/wcP/wcP/wcP/wcP/wcP/wcP/wcP/wcP/wcP/wcP/wcP/wcP/wcP/wcP/wcP/wcP/wAP/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wAQ/wcP/wcP/wcP8AcP8AcP/wcP/wAP/wcP/wAP/wcP8AcP8AcP8AcP/wcP/wAP/wAP8AAA4AAA0AgPvycg/7Cg/+DP7+fP7/jg8Pff7+/f//Df//fg8PDf8Pff//jg8PDf////AAAA//fg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg///v8Pjg8Pjg7+DP//Dg/+ff72dvwA8Q7wAP/wAP8AAP8AAP/wAP/wAP/wAP8AAP4AAP3wcP3wcP3wcP4AcP7wAP8AAP/wAP/wAP/wAP/wAP/wAP/wAP8AAP4AAP3wcP0AcQzwcQzwcQzwcQzwcQzwcQzwcPzwcPzwcQzwcQzwcQ0AcQ0AcQ3wAQ4AAQ7wAP7wAP8AAP7wAP7wAP8AAP8AAP/wAP8AAP4AAP3wAQ0AcQzwcQzwcQzwcQzwgPzwgPzwgPzwgPzwgPzwgP0AcP0AcPzwgPzwgPzwgPzwgPzwgPzwgPzwgPzwcP0AcQ0AcQ0AcQ0AcQ0AcQ0AcQ0AAQ0AcQ0AcQ0AcQ3wAQ4AAQ8AAQ/wAP/wAP/wAP/wAP/wAP8AAP7wAP4AcP3wcP0AcP3wcP4AcP7wAP8AAP8AAP8AAP8AAP/wAP/wAP/xcf0AAAzygv/7+w/+jQ7+DP7/jf4PDf8Pff8O/Q//Df//fg8PDf8Pff//jg8PDf////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//jg//jg/+DQ//Dg/9fPoC8vzwAA/w8Q7wAA7wAA/wcQ/wAP/wAQ4AAPzw8f30BP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8AAP7wAPwAAAwC8w76Cf77iw/7Cw31df0A8f4AAP8AAP/wAP8AAA/wAQ/wcQ/wAP/wAP/wAP/wcQ8AAP7wAA/w8Q/wgP8AAA/wAA/wcQ/wgf7wAP3wAPwBcf0Fdf/6iv/7Cv0GhvwAcQ4AAA4AAP8AgQ/wgQ/wAP/wAQ8A8fsAAPwEdA/7ev37+vz8iwz9C/0N/A39/P4OfQ8O/f8Pff7+jQ3+DP39/P39DA/8e/73d/zyAv4AAQ/wAQ8AAP7wAP/wAQ/wAQ/xAgvwAA0FBQ/7ew/7Cw74ePwBAf7wgf8AAQ/wAP/wAP8AAP7wAP0AcPzyAv/4eA/9DA8ODQ4O/f7/fg//Df/+/f//ff8Pff//ff//ff8Pff8Pff8Pff8Pff//ff//ff8Pff8Pff8Pff8Pff8Pff8Pff////AAAA8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg8Pjg8Pjg8Pjg8Pjg///g///g///g7/Df8P/g8P/g8O/f//fv/8/P0E9QzwgQ4AAP8AAP8AAP7wAA7wcP7wAPwAAPwE9P/6+v/7Cv/6+v309QwAcQ4AcQ/wAQ/wAP8AAA/wAP/wAP/wgQ8AAP/wcQ8AcQ/xcf3wAP4AAA/w8Q8AAP/wcQ/wAA/wAP8AAQ0AAPwBcg/3h//8fA/6+v8EBP/x8v7wAP7wAA8AAA/wAP/wAP8AcQ3w8QsA8P8H9w/8Cw0Legz8evz9C/z9jA3+DP3+fQ3+DP0NjAz9fA38+//8e/74CAzyAvzwAA8AAQ/wcf7wAP8AAQ/wcf7wAQwAAAzzhA/6ig/7ew/4iPvxcg3wAP7wAP7wAP7wAP8AAP8AcP4AgQwBAQ/4iA/9/Q//jv4ODQ8O/f///g//ff8PDQ8Pff8Pff//ff8Pff8Pff8Pff8Pff8Pff//ff//ff8Pff8Pff8Pff8Pff8Pff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg8Pjg8Pjg8Pjg8Pjg//Df//Df///g8PDf7/Df8P/g4O/f8O/f//jw/8fAwCAvwAAA/wgf8AAA/w8Q8AgP/wgQ3wAArwAAz1BQ75iQ/7i//5if0EhPwAAP4AAP/w8f/wAP/wAP/wAP/wgQ8AcQ8AAA8AgfwAAP4DAw4CgwwAAA8AcQ8AAA/wAP/wAP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8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg8Pjg7//g7/jg7+jQ//jv/+/g/5CPwBcf0AAA8AcQ8AAP7wAA/wAQ8AAP4AcQsAgQ319f/7Cv76+g4JePv29g8L+w/9fP/+jQ7+fQ//Df//fg//fg//jg8PDf//fg///v/7Cvzzg/zwcP8AgQ/wcQ/wcQ/wcQ/wcQ8AAP8AcQ8AcQ/wcQ/wcQ7wcQ8AcQ/wgf/wAQ7wgQ7w8P7wAA8AAP7wcQzwAP0Bgg7y8w4AcQ7wAP/wgf/wAP8AAP/wAP/wAP0AAPsCgv4JCP/8e/8Kegvx8g0AAQ7wAQ/wAQ/wAP/wAP/wcQ4AcPrwAPz09P/7ew//Dg/+/f7/Df8P/g8Pff//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg///v4PDf8P/g8Pjg8O/f///v/+ff/4+P0CAv3wAP/wgf/wAP8AAP8AAP8AgQ0AcPvxgf74B//7+w78Cw0L+v38+/4N/P4ODP7+DQ//Df//Df//Df//jg7/ff8Pjf7+fQ//fg/6igwCgvwAAA7wAP8AAP8AAP8AcQ4AAA/yAv3wAP/wcQ7wAA7wAP7wAP7wAQ4AAP3wAP7w8Q8AAP/wcQ8AcQ4AAP3wAP7wAP/wcQ/wAP/wAP/wAP/wAP/wcQ4AAPzxcg33hw/8e/76egwE9QzwgQ7wAQ/wAQ/wAP/wAP/wAP8AAP0AAPz0hP/7ew/+ff/+fQ8PDf7/Df4O/Q8Pfg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//jg//jg7/ff8P/g8P/g4O/f7+/f//jg//fg739/zxAf7wcQ/w8f/wAP7wAP4AAP4AcP3w8QvxAQ/5eP37CgwMCvwMewz8+/4N/P7+DQ8O/f8PDf8PDf8Pfg8Pjg8Pjg8Pjg//ff/+DQ0F9fsAAP4AcQ7wAP8AcQ3wAP7x8g/2dvzwcP7wAP7wAA7wAP4AAA8B8v4Bcg3wAA7wcP8AgQ8AgQ7wAP7wAP/wAQ/wcQ8AAA8AAA/wAP/wAP/wAQ4AgfwB8g0F9g/7Cv/6iv31dfwAgQ7wcQ/wAQ/wcQ/wAP/wAP8AAP7wcQ0CAv/7iw//fv//fg7+fQ8Pjg7/jg7/Df///v//fg//fg8Pfg8Pfg8Pfg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//jg7+jQ///v8Pjg7/ff///v8Pjg7/Df//Dg8Livvzc/vwAP7wcQ8AAP8AcQ7wcQ8AcQ4AAA4A8Qvxgf34iA4Mi/z8iwwMiw39jP4ODP4OjQ8PDf8Pfg8PDf8Pfg//jg///g8OjQ//jg/9jP4FhfwAcP4AAP3wAPwA8Q/19f/7i/wBcf4AcQ/xAg/wAQ7w8f/2Bv/1hg0AgQ3wAP7wgQ7wAA8AAQ8AAP/wAQ/wcP/wAA/wcP/wcP7wAP3wAPwA8fz1df/6+v/7Cw0F9gzxAf4AAP8AAP8AAP/wcP8AcP8AAP3wAA0Bgg4GBg/9/Q79/P7+fQ///g7/ff7/Df///g8PDf//fg8Pfg8Pfg8Pfg8Pfg8Pfg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg7/jg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg8Pjg8Pjg8Pjg8Pjg8Pfg//Dg/8C/sDAwwAAA8AcQ/wAQ8AAP8AAP8AAP8AcQzwAArxgf4JeQ4NDAsL+vz9C/0NDA39jP4OfQ7+/f8PDf//jg//jg8PDf//ff//Df//Dg/8jA31BQ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8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg8Pjg//fg//fg//fg//fg8Pjg8Pjg///g8PDf///g8Pff///v8PDf8Ojf//Dg/8jA3z9A0AAP7wAP7wcQ7wAP/wcQ/wgQ7wcQzwgQ0Fdf8K+v4MCwz8Cw38/A4NDA4NjP7+jQ7+/f7/Df///g//jg8PDf8Pfg7+/f8O/f79jP76CfsAAP4AAQ/wcfwAAP33d/8M/A39DA4Ojf7/fg7+jf/+/g/9DPoBgfsCAg/6ig/8C/8JeQoCAg0AcQ/wAP/wgQ8AAA8AAA/wcQ4AAPzxAf8H9//9DP/+/g7+fQ//fg//jg8Pff///g//ff//ff8Pff8Pff8Pfg8Pfg//fg//fg//fg8Pfg8Pfg8Pfg8Pfg//fg//Dg//Df//Df//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg8Pjg8Pjg8Pjg8Pjg//fg//fg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg/+ff739/vxcf0AAQ8Agf7wAP8AAP/wcQ/wgQ4AcPwA8Q31dQ/7Cv4Me/0L+w4NfA39fA3+DP3+/Q3+/Q7/Df8Pjg8Pjg7/Df//fg8O/f8ODQ76Cfvw8Q7wcQ8AAQvwAP4IB/4MCw39/P4O/f4PDf7+/f/+jf/+DQ78Cw8L+w/8/A/5eP0C8vzwAA4AAP/wcQ/wcQ8AAA/wcQ7wAPzwgQoBcQ/9jP/+fQ7+/f7/ff8Pfg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg8Pfg8Pfg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg8Pjg8Pjg8Pjg//fg//Df/+ff729vvwgQ3wAQ8AAQ8AAQ/wcQ/wcP8AAP4AcP0B8g0GBf76ig4Me/wL+v0NfA39/P3+jP3+/Q4PDQ7/ff8Pjg8Pjg8PDf8O/f8N/Q76CfwA8Q7wAP7wAQwAgQ75CP4Mi/39jP3+/f4O/f7+jf4N/P7+DQ4NDA4MCw4JiPwDgw0AAA/w8f7wAA/w8f8AAP/wgQ4AAAzwAAzzAw/6ig/+fQ7+/Q4PDf4Pff8Pfg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg8Pjg8Pjg8Pjg//Df///v/8/A72hvwA8f3wAP/wgg8AAA/wAP8AAA8AAP0AAAvxAf329v77+wwL+vwMiwz9C/39jA4OfP4O/Q7/Df8Pff//jg8PDf/+/f/9/Q8KCfzwgQ8AAP7wAQ0Bgg/6eg4M/A39jA4OfQ7+ff4ODQ3+DP38+//9fA/6+gzz8/vwAA4AAA/wcQ/w8Q4AAA/wAQ7wAPzwAPvycg/6CQ/+/f/+jQ8PDf7/ff7/jg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg8Pjg8Pjg8Pjg8Pff8OjQ//fv/9jQ4FdfvwAP7wgf/wAQ/wcP8AAA/wcP7wAPzwAAwC8w34+A4Mi/z8CwwMew38i/4NjP4OfQ4O/f8O/f8PDf8PDf//fg/+ff/6eg0AgQ/wAP4AAQ3ygw/7ew4NfA39fA4ODQ7+DQ4N/P39jP79DA/7+w8GhvwAAP3wAA/xAf7wAA/wcQ8AAP7wAP0AcPwCcg/5iP/+fQ8N/P//Df8Pff8Pfg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg7/jg8P/g//ff//jv/7+/zzg/zwAP/w8f/wcP/wAA/wcP/w8Q7wAPzwcPz0dA75+Q78Cw0Mew38ew38/A4N/P4OfQ7+/f7/Df7+jQ//fg/+ff/6eg0AgQ/wAP0AAQ0DA//7+/39fAz9DA3+DQ39/P39fA38+//8i/8Hhwzxgf4AAP/wcQ8AAP/wcQ8AAA/xgg0AAAvxAQ8IiA/+jQ/+jQ4OjQ8Pjf8Pjg//fg8Pjg8Pjg8Pjg8Pfg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg7/jg8P/v4PDf//fg/+/g/4iPzyAvzwAA7wAP/wcP8AAA/wAP/wcP4AAAzw8Qz0dA/6ig4Liw38e/0Mi/0M/A39/P4OjQ7/Df7+/f//Dg8N/Q8KCfwAgQ7wAPzwAQ0DdA/7+w0M/AwM+/z9jP39fA4M+/8Me/4IB/wB8gzwAA/wgQ/wAP7wAA/wgQ/wcQ3wAAvwcPz09A/9DA/+jQ7+/Q7/jf8Pjg8Pjg//fg//fg8Pjg8Pjg//fg8Pfg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg8Pjg8Pjg7/jg8Pjg8Pjg//fg8Pff7/Df7/ff//jg/+/f/9DP/4+Pvxgf3wcP8AAP8AAA8AAA/wcP8AAP4AAPzwgQ31df34+P37iwz8i/z8i/0NfA4OfQ4OjQ7+/f8O/f4ODQ8Lewzx8v4AAQzwcfzzdA/7ew0Me/v8i/z9DA0Me/8MCw4IeAvycvwAAA7wAP/wcQ/wAP/wcP8AAA/wgfzwAPwD8//7iv8NC/8O/f8PDf7/Df8Pjg8Pjg8Pjg8Pfg//fg//fg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//jg//jg8Pjg8Pfg//fg///v/+Df/4iAzxAQ4AAA8AAP/wgQ/wcP/wcP/wcQ7wAQsAAP0Fdf4K+v0Mi/z8e/z9C/39/P3+DP4OfQ7+jQ7+/f/9jP30BP3w8gzwggzzdA8LCvz8Cwv8iwz8+/37+w/7CvrxgfzwcQ7wcQ/wgf8AAP8AcP/wgQ7wAP0AAP3zg//6+v/+jf/+/f7+/Q///g8O/f//jg8Pjf8Pfg8Pfg//fg//fg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg8Pjg8Pjg//fg//fg//jg//fg//fg//fg//Df//Df/+/f/+jf31BPwAAA7wAP/wcQ7wAA/xAf7wAA7wAP4A8fwBgg74+P77+wwLivwMiw39/P0NC/4ODP4OfQ7+/f/9DA30hQzwcfvwAQzzhP8LiwwLivsL+v0Mew76ig319fwAgQ7wcQ8AAQ8AAP4AAP7wcQ8AcQ0AAAwCcv/7iw/9DA79/P7+/f7+jQ///v/+jf//fg8Pjg8Pjg//fg//fg//fg8Pjg8Pjg8Pfg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//jg//fg//fg//fg//fg8PDf8PDf/+/f/6igzzAwzwAA7wAA/w8Q3wAA/xcf8AcQ4AAP4Bcgvycv8JeQ4MCwz8Cwz8iw0NjA39/P39jP4OfQ/9fP31Bfvwcf0BAv0D9P76+v0MCw38+/36if0GdgsBAQzwAA8Acf/wAQ8AAP8Agf3wAP3wAAzxcf74eA8Mi/4NfA3+fQ8Pfg7+/f//Df//fg//fg//fg//fg//fg//fg//fg8Pjg8Pjg8Pfg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg8Pjg8Pjg8Pjg//jg//fg//fg//fg8Pff8Pff//Df/+/f/7iwwCAg3wgQ8AcP/wcP7wAA/wgf8AcQ3wAA0AAPzygw8J+Q0LCgv7+vz9e/0NDA39fA4N/P/9DP0FBfsAcf0A8g3z9P76ig37iv36ifv19fsB8gvwAA4BAf/y8//yAw/x8w/yg/4AcQzwAP309Q4K+gwL+v0NC/0NfA39/P7/Df8Pfg//fg//fg//fg//fg//fg//jg//jg8Pjg8Pjg8Pfg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg8Pfg8Pfg8Pff//jg//jv/6CfwB8g4A8f/wgf7wAP7wAP/wgQ8AAP8AAPzwAPvzAw76CQz7+vwMewz8i/39fA4N/A/8/Az1dfoAcf0AAQ8EBP/6ig8K+g8I+Pzzg/zwcQ4Agf0AAP8BAg7wAP7wAP8Agf3wAQ7y8//6ev8M/Az8+/0NfA39/P39/P4O/f8Pjg7+/f8Pfg//fg//fg//fg//jg//jg//jg//jg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg8Pjg7/jg7/jg8Pjg8Pjg//fg//fg8Pfg8Pfg8PDf/+/f//Dg/4+Pzxcf3wAA/xAf8AAA8AAA/xAf/wAP4AAPvwAP0FBQ8Liv0MCw0Mew39C/39e/8M+/z2dvkBAg7wAQ/yg/8Gdv319f8FBQ7ycv4AcQ7wAQ4AAP7wgf8AAQ8AAQ8Acf3wAQ3yAw/3B/8LCw78/A0Me/39jP4Ojf3+fQ4PDf7/fg8Pfg//fg//fg//fg//jg//jg//jf//jg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg8Pjg7/jg7/jg7/jg8Pjg//fg//fg//fg//fg7/Dg//fg/+jf//Dg4FdfwAAA4AAA/wcQ8AAP8AAA/wgQ7wAP4AgQwBAQ4Hdw/7+w38Cwz8ewz8iw78+/4I+QnzBA7wAP4AAQzxcgvwgP0AgQ4AAP/wAQ8AAP4AAA4AAP8AAQ/wgg8Agg3wAQwAAQsA8gv0hQ/7+//9DP39DA3+fQ0OfQ4PDf8Pjg8Pfg8Pfg//fg//fg//jg//fg//jf//jf//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg8Pjg8Pjg//fg//fg//fg//fg8Pjg7/jg7/jg8Pjg//jg//jg//jg//fg//jv//fv//fg/+jg/9fQ0D9A3wAQ/wcQ/wAP8AAA8AAA8AgQ7wAA4BAfwBcf8H9/36+gwL+vwMev0Miw8Lewv2hw8Agf3wAA3wcQ3wcQ7wAP8AAP/wgQ/wAQ/wgf8AAQ7wAP7wAQ3wAf0Acf0AcgzwAfvw8g/4eQ/9jf8ODQ3+DQ4O/f8PDg8PDf8Pfg8Pjg8Pjg8Pjg//fg//fg//jf//jf//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg8Pjg8Pjg8Pjg//fg//fg//fg8Pjg8Pjg8Pjg8Pjg8Pjg//jg//jg//jg//fg/+/g//jv//fv//Dv/8fA3y8w3wAP7wAP/w8Q8AAP8AAP/wgQ4AAA3wcQsA8Q75CQ37evz8iwwL+v8MjA35+g/0BQ4AAQ3wAP4AcQ7wAQ7wAP8AcQ7wAP7wAP7wAQ4BAg4Ccw0DdAzzdAzyg/wB8wrwgfnxgg35iQ/+ff4OjQ7/Df8O/f//Df8Pfg8Pjg8Pjg8Pjg//fg//fg//fg//jg//ff//ff//fg//ff//fg//ff//fg//ff//fg//ff//fg//ff//fg//ff//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//Dg//fv//jv/+/f/+/f/7ev0D8/3w8Q7wAP8AAP/wAP/wgQ8AAP8AcQ0AcPsBcf4H9/4Mewv7igz7Cg78e//09g0AAQ/z9Q/1dv7ycw/1dg/19w7wcf3wAQwAcQ/3h//9DP/9/Q/+jf/9jQ/8e/4JeQoGBff1BP79fA//jg8Ojf8OfQ//fg//fg8Pjg8Pjg8Pjg//fg//fg//fg//jg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//Dg/+/g//Dg//fg7+/f//fg//Dg/7iwrwgP3w8Q4AAA/wgQ/wAP/wcP7wAA8A8f3w8f4EhQ4J+f78i/77iwz5eP4AAf3wAQzwAQzwgfzwAQ3w8g8BcvzwAAsAAAzzg//7Cv/+jf7+/f7/ff//Df//Df//fg/+jf4Mi////v//fg//Df//fg//ff//fg//fg8Pjg8Pjg8Pjg8Pjg//fg//jg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//Dg//fg//jv7+/f8O/f//fg/+/f0F9fvxAQ3wcP8AAP/wcQ7wAA/w8Q7wAP7wAQ0A8f0Fdf/6Cf8IiPsD8/7wAQ7wcf4AAQ4AAQ4AAQ4AAQ7wgfwAAPvygv8JeP/+fQ//Df8PDf7/Df8Pff///v//Df///v/+/f///v8OfQ//Df///v//jg//fg//fg//fg//fg//fg//fg//fg//jg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//Dg//Dg8Pfg//jg8Pjg7/Df8O/f/+/f/9fA32dfwAgP4AAP8AAP/wgQ8AcP8AAP8AAQ3wAAzxgg4EhP3zc/sAcP8AcQ4AAA8AAQ8AAQ/wAQ7wAPzwAPwCAg8JCP/+DQ//Df7+/Q//fg8PDf7/ff8PDf8OjQ//fg8OjQ//jg8PDf//ff//jg8Pfg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//jv//jv8Pjg8Pfg8Pjg8P/g7/fg//jg///v/9jP31dQwAcP8AcQ/w8f8AAA/wcQ/wcQ7wAP4AcQ4A8f4AAP4AAP7wAA8AAP8AAP8AAA/wcQ4AAPzxgf/4iA/9fA//ff4OjQ7+/Q//jg//fg8Pjg8Pjg//jg//jg8PDf///v///v8Pfg8PDf8Pff//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//jv///v8Pjg8Pfg8Pjg7/ff7/jf8Pff///g/8/A30hA0AgQ4AAA/w8f/wAP/wAQ8AAP8AAP8AAP/wAP/wcQ/wcP/w8f/wAP/wgQ7wAP0A8Q/4B//+fQ/+fQ7/DQ4O/Q8Pjg//jg8PDf//jg8P/v7/Df8Pfg8Pff8Pff8Pfg8Pff8Pfg///v//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg8Ojf8Ojf//jg//jg//fg//fg8PDf8Pff7/ff//ff//jv/8e/wCAg0AcP/w8f8AAP8AAP7wAA8AAP/wcP/wAP/wAP/wgQ8AAP8AAP7wcQvwAAzz8//8Cw/9/P8O/Q8Pff//jg//jg//fg8PDf8Pfg8Pjg7/ff8P/g///g7/Df8Pjg8Pfg8Pfg///g8Pjg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg///v8Ojf8PDf//jg//fg//jg//jg//jg///v4OjQ///v/+/f8IeAsBAQ0AAA8AcQ8AcQ8AAP8AcP/wcQ8AAP/wAP8AAP8AAQ7wAQzwAPzzg//6ig/+jf8PDf8Pff8Pjg///g8PDf8PDf///v8Pjg8Pfg8Pjg7/fg7/fg7/Df///v8P/g7/Df8Pff8Pjg8Pjg//fg//fg//fg//fg//fg//jg//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg//fg8Pfg8Pff7+/Q//fg/+DQ739wwBcf0AAA8AAP8AAA8AcP/xAf7wcP7wAP8AAQ8AgfsAAAzzA//7ew/+DQ4ODP7/fg8Pjg//fg//fg//fg8Pjg7/jg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pfg8Pfg8Pfg8Pfg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff8Pff8Pff8Pff8Pff8Pff8Pff8Pff8Pff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pfg//fg//fg//fg//fg//fg//fg//fg//fg8Pfg7/Df8Pff//jv/9fP73BwwBAf7w8Q7wAA8AAP7wAP4AAP8AgQ7wAfzwAQ3z9P/6ev/9/Q8O/f7/fg7//v8Pfg//fg//fg8Pjg7/jg7/jg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pfg8Pfg8Pfg8Pfg8Pfg8Pfg8Pfg8Pff//ff//ff//ff//ff//ff//ff//ff//ff8Pff8Pff8Pff8Pff8Pff8Pff8Pff8Pff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pfg//fg//fg//fg8Pfg8Pjg8Pjg//jg//jg//jg8PDf//Dg///v/9DP8HBw0AcQ7wAP/wAQ/wgQ/wAQ/wAQ0AcfwBcv/5Cf/+fg7+Df3+jf7/fg8P/v8Pfg8Pfg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg8Pfg8Pfg8Pfg8Pfg8Pfg8Pfg8Pff8Pff//ff//ff//ff//ff//ff//ff//ff8Pff8Pff8Pff8Pff8Pff8Pff8Pff8Pff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg7/jg8Pjg//fg//fg8Pfg8Pjg7/jg7/jg//jg8PDg///v8Pfg4OfQ//Df//fg/9fPvxcf4A8Q8AAP/wAQ8AAP7wAAnwAP4Gdw/8/P/+jf7/Dg4Pfg4Ojf8PDf8Pfg8Pjg7/jg7/jg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg8Pfg8Pfg8Pfg8Pfg8Pff8Pff//ff//ff//ff//ff//ff//ff//ff8Pff8Pff8Pff8Pff8Pff8Pff8Pff8Pff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg8Pfg8Pjg7/jg7/jg8Pfg8O/f//Dg//jv//fg8PDf8PDf/+/g/6igvxcf0AAP7wAQ7wcf4AAQsFBQ/8fA/+/f4OfQ7/jg7/jg7+/f//fg8Pfg8Pjg7/jg7/jg8Pjg//fg//fg//fg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg8Pfg8Pfg8Pfg8Pff8Pff//ff//ff//ff//ff//ff//ff//ff8Pff8Pff8Pff8Pff8Pff8Pff8Pff8Pff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pfg8Pfg8Pfg8Pfg8PDf//jg//fg//Dg//jv//jg7/Df/+/f//jv/5+fsAgQwAAPzxgg4DdA/9DA//fg8O/f7/Df7/ff4OjQ8Pff///g//jg8Pjg8Pjg7/jg8Pjg//fg//fg//fg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg//fg8Pfg8Pfg8Pff8Pff//ff//ff//ff//ff//ff//ff//ff8Pff8Pff8Pff8Pff8Pff8Pff8Pff8Pff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg8Pjg8Pjg8Pfg//fg//fg//fg8PDg///v///v8O/f//Dg//fg//fg//fg/+/f/9/Q/7ewkB8goDg//9jQ8Pjf7+/Q8PDQ///g///g8Pff8Pff8Pff//jf//jg//jg8Pjg8Pjg8Pjg//fg//fg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg8Pff//ff//ff//ff//ff//ff//ff//ff//ff8Pff8Pff8Pff8Pff8Pff8Pff8Pff8Pff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg8Pjg//fg//fg//fg7/jg7/jg//fg//fg//fg//fg8PDg8Pfg8Pfg//fg//fv//fg//fg//jv8Pfg//fv/+ff/9/f/+ff/+jg3//f4P/Q///f8O/Q//ff///g8Pjf//jf//jf//jf//jg8Pjg8Pjg8Pjg//fg//fg8Pjg7/jg8Pjg8Pjg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//fg//ff//ff//ff//ff//ff//ff//ff//ff//ff8Pff8Pff8Pff8Pff8Pff8Pff8Pff8Pff//ff//ff//ff//ff//ff//ff//ff//ff//Df//Df//Df//Df//Df//Df//Df//ff////AAAA</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1500</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngay in27/08/2014</NGAY_IN>
+    <PAGE>Trang</PAGE>
+    <OFPAGE>OF</OFPAGE>
+    <TTC_CAO>700</TTC_CAO>
+    <TTC_RONG>7000</TTC_RONG>
+    <USER_LOG>User log : admin</USER_LOG>
+    <NGAY_HT>Ngày HT : 27/08/2014</NGAY_HT>
+  </rptTitlereport>
+</NewDataSet>

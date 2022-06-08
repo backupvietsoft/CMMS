@@ -1,0 +1,99 @@
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\bin\Debug\CustomerInfoReport.dll.config
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\bin\Debug\CustomerInfoReport.dll
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\bin\Debug\CustomerInfoReport.pdb
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\bin\Debug\DllCMMS.dll
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\ResolveAssemblyReference.cache
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListCustomerInfo.resources
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListStockReport.resources
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.Properties.Resources.resources
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ReportCustomerInfo.resources
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListMaintain.resources
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ReportMaintaince.resources
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UCMaintaince.resources
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UCReportInfo.resources
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UcrptXuatNhapKho.resources
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.csproj.GenerateResource.Cache
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.dll
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.pdb
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\bin\Debug\WareHouse.dll
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\bin\Debug\WareHouse.pdb
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UCWarranty.resources
+D:\Nhu Y\cmms\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListWarranty.resources
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\bin\Debug\CustomerInfoReport.dll.config
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\bin\Debug\CustomerInfoReport.dll
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\bin\Debug\CustomerInfoReport.pdb
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\ResolveAssemblyReference.cache
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListCustomerInfo.resources
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListStockReport.resources
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListWarranty.resources
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.Properties.Resources.resources
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ReportCustomerInfo.resources
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListMaintain.resources
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ReportMaintaince.resources
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UCMaintaince.resources
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UCReportInfo.resources
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UcrptXuatNhapKho.resources
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UCWarranty.resources
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.csproj.GenerateResource.Cache
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.dll
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.pdb
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\bin\Debug\Interop.Excel.dll
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\bin\Debug\Interop.Office.dll
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\bin\Debug\Vietsoft.dll
+D:\Source Code CMMS\CustomerInfoReport\CustomerInfoReport\bin\Debug\Interop.VBIDE.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\ResolveAssemblyReference.cache
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListCustomerInfo.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListStockReport.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListWarranty.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.Properties.Resources.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ReportCustomerInfo.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListMaintain.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ReportMaintaince.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UCMaintaince.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UCReportInfo.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UcrptXuatNhapKho.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UCWarranty.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.csproj.GenerateResource.Cache
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.pdb
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\bin\Debug\CustomerInfoReport.pdb
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\bin\Debug\Interop.Excel.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\bin\Debug\Interop.Office.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\bin\Debug\Vietsoft.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\bin\Debug\office.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\bin\Debug\Interop.VBIDE.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.Form1.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\bin\Debug\CustomerInfoReport.dll.config
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\bin\Debug\CustomerInfoReport.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.dll.licenses
+D:\Source Code CMMS\New Version\CODE 03-10\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\bin\Debug\CustomerInfoReport.pdb
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\bin\Debug\Interop.Excel.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\bin\Debug\Interop.Office.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\bin\Debug\Vietsoft.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\bin\Debug\office.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\bin\Debug\Interop.VBIDE.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\ResolveAssemblyReference.cache
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.Form1.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListCustomerInfo.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListStockReport.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListWarranty.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.Properties.Resources.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ReportCustomerInfo.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ListMaintain.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.ReportMaintaince.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UCMaintaince.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UCReportInfo.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UcrptXuatNhapKho.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.UCWarranty.resources
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.csproj.GenerateResource.Cache
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.pdb
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\bin\Debug\CustomerInfoReport.dll.config
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\bin\Debug\CustomerInfoReport.dll
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.dll.licenses
+D:\Source Code CMMS\New Version\CODE 03-10\CMMS17.11\CustomerInfoReport\CustomerInfoReport\obj\Debug\CustomerInfoReport.dll

@@ -1,0 +1,3645 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TINH_TRANG_THIET_BI">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STT" msdata:ReadOnly="true" type="xs:long" minOccurs="0" />
+                <xs:element name="MS_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_BO_PHAN" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="556" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_TS_GSTT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CHU_KY_DO" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1011" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_KT_CUOI" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TEN_GIA_TRI" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DAT" msdata:ReadOnly="true" type="xs:boolean" />
+                <xs:element name="NGAY_KT_KE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TEN_GT_GSTT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="STT_BP" type="xs:int" minOccurs="0" />
+                <xs:element name="CACH_THUC_HIEN" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="THOI_GIAN" type="xs:double" minOccurs="0" />
+                <xs:element name="MS_NHA_XUONG" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_HE_THONG" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+                <xs:element name="MS_LOAI_MAY" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_MAY_FIL" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_LOAI_CV" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+                <xs:element name="TNGAY" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DNGAY" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_TINH_TRANG_THIET_BI">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="TU_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DEN_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DieuKienLoc" type="xs:string" minOccurs="0" />
+                <xs:element name="BoPhan" type="xs:string" minOccurs="0" />
+                <xs:element name="ThongSoGiamSat" type="xs:string" minOccurs="0" />
+                <xs:element name="GiaTri" type="xs:string" minOccurs="0" />
+                <xs:element name="Dat" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayGSCuoi" type="xs:string" minOccurs="0" />
+                <xs:element name="ChuKy" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayGSKe" type="xs:string" minOccurs="0" />
+                <xs:element name="KetQuaKT" type="xs:string" minOccurs="0" />
+                <xs:element name="DiaDiem" type="xs:string" minOccurs="0" />
+                <xs:element name="ThietBi" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayKT" type="xs:string" minOccurs="0" />
+                <xs:element name="NguoiKT" type="xs:string" minOccurs="0" />
+                <xs:element name="MAU_SO" type="xs:string" minOccurs="0" />
+                <xs:element name="LAN_BH" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_BH" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP1" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP2" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP3" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP4" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP5" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP6" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP7" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP8" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP9" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP10" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <TINH_TRANG_THIET_BI>
+    <STT>1</STT>
+    <MS_MAY>009</MS_MAY>
+    <TEN_MAY>Máy ép đế giày Compo 009</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu ép định hình</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Thông số định lượng test</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2000-01-01T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>true</DAT>
+    <NGAY_KT_KE>2020-02-15T00:00:00+07:00</NGAY_KT_KE>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>2</STT>
+    <MS_MAY>009</MS_MAY>
+    <TEN_MAY>Máy ép đế giày Compo 009</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu ép định hình</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Thông số định lượng test</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2020-02-07T09:28:05+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>3</STT>
+    <MS_MAY>023</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 023</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các đầu nối và đường ống</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>4</STT>
+    <MS_MAY>023</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 023</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xiết chặt các van, pittong, đầu nối hơi</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>5</STT>
+    <MS_MAY>023</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 023</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu gò kẹp/ định hình</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các khớp nối, bộ chia hơi</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>6</STT>
+    <MS_MAY>023</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 023</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bảo ôn đường ống gas</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>7</STT>
+    <MS_MAY>023</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 023</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra cường độ dòng điện của block/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>8</STT>
+    <MS_MAY>023</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 023</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra hoạt động và nhiệt độ của Block lạnh ≤65°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>9</STT>
+    <MS_MAY>023</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 023</TEN_MAY>
+    <TEN_BO_PHAN>05 - Tủ điều khiển chính</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>5</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>10</STT>
+    <MS_MAY>024</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  024</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các đầu nối và đường ống</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>11</STT>
+    <MS_MAY>024</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  024</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xiết chặt các van, pittong, đầu nối hơi</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>12</STT>
+    <MS_MAY>024</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  024</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu gò kẹp/ định hình</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các khớp nối, bộ chia hơi</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>13</STT>
+    <MS_MAY>024</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  024</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bảo ôn đường ống gas</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>14</STT>
+    <MS_MAY>024</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  024</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra cường độ dòng điện của block/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>15</STT>
+    <MS_MAY>024</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  024</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra hoạt động và nhiệt độ của Block lạnh ≤65°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>16</STT>
+    <MS_MAY>024</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  024</TEN_MAY>
+    <TEN_BO_PHAN>05 - Tủ điều khiển chính</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>5</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>17</STT>
+    <MS_MAY>025</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  025</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các đầu nối và đường ống</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>18</STT>
+    <MS_MAY>025</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  025</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xiết chặt các van, pittong, đầu nối hơi</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>19</STT>
+    <MS_MAY>025</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  025</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu gò kẹp/ định hình</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các khớp nối, bộ chia hơi</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>20</STT>
+    <MS_MAY>025</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  025</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bảo ôn đường ống gas</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>21</STT>
+    <MS_MAY>025</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  025</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra cường độ dòng điện của block/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>22</STT>
+    <MS_MAY>025</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  025</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra hoạt động và nhiệt độ của Block lạnh ≤65°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>23</STT>
+    <MS_MAY>025</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  025</TEN_MAY>
+    <TEN_BO_PHAN>05 - Tủ điều khiển chính</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>5</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>24</STT>
+    <MS_MAY>026</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 026</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các đầu nối và đường ống</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>25</STT>
+    <MS_MAY>026</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 026</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xiết chặt các van, pittong, đầu nối hơi</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>26</STT>
+    <MS_MAY>026</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 026</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu gò kẹp/ định hình</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các khớp nối, bộ chia hơi</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>27</STT>
+    <MS_MAY>026</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 026</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bảo ôn đường ống gas</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>28</STT>
+    <MS_MAY>026</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 026</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra cường độ dòng điện của block/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>29</STT>
+    <MS_MAY>026</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 026</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra hoạt động và nhiệt độ của Block lạnh ≤65°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>30</STT>
+    <MS_MAY>026</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 026</TEN_MAY>
+    <TEN_BO_PHAN>05 - Tủ điều khiển chính</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>5</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>31</STT>
+    <MS_MAY>052</MS_MAY>
+    <TEN_MAY>Băng tải sấy đế giày 052</TEN_MAY>
+    <TEN_BO_PHAN>01 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nguồn điện</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>32</STT>
+    <MS_MAY>052</MS_MAY>
+    <TEN_MAY>Băng tải sấy đế giày 052</TEN_MAY>
+    <TEN_BO_PHAN>01 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>33</STT>
+    <MS_MAY>052</MS_MAY>
+    <TEN_MAY>Băng tải sấy đế giày 052</TEN_MAY>
+    <TEN_BO_PHAN>01 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra và vệ sinh các thiết bị, tủ điện bằng vòi hơi</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>34</STT>
+    <MS_MAY>052</MS_MAY>
+    <TEN_MAY>Băng tải sấy đế giày 052</TEN_MAY>
+    <TEN_BO_PHAN>01 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra và vệ sinh tấm lọc gió tủ điện</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>35</STT>
+    <MS_MAY>052</MS_MAY>
+    <TEN_MAY>Băng tải sấy đế giày 052</TEN_MAY>
+    <TEN_BO_PHAN>02 - Hệ thống băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra băng tải</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>10</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>36</STT>
+    <MS_MAY>052</MS_MAY>
+    <TEN_MAY>Băng tải sấy đế giày 052</TEN_MAY>
+    <TEN_BO_PHAN>02 - Hệ thống băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra dòng điện của động cơ băng tải/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>37</STT>
+    <MS_MAY>052</MS_MAY>
+    <TEN_MAY>Băng tải sấy đế giày 052</TEN_MAY>
+    <TEN_BO_PHAN>02 - Hệ thống băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt động cơ băng tải ≤60°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>38</STT>
+    <MS_MAY>052</MS_MAY>
+    <TEN_MAY>Băng tải sấy đế giày 052</TEN_MAY>
+    <TEN_BO_PHAN>03 - Điện trở nhiệt</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra hoạt động của các điện trở nhiệt, dòng điện/ định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>30</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>39</STT>
+    <MS_MAY>052</MS_MAY>
+    <TEN_MAY>Băng tải sấy đế giày 052</TEN_MAY>
+    <TEN_BO_PHAN>04 - Hê thống quạt</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra dòng điện của các động cơ quạt/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>4</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>40</STT>
+    <MS_MAY>052</MS_MAY>
+    <TEN_MAY>Băng tải sấy đế giày 052</TEN_MAY>
+    <TEN_BO_PHAN>04 - Hê thống quạt</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra hoạt động của các động cơ quạt tản nhiệt</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>4</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>41</STT>
+    <MS_MAY>052</MS_MAY>
+    <TEN_MAY>Băng tải sấy đế giày 052</TEN_MAY>
+    <TEN_BO_PHAN>04 - Hê thống quạt</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt động cơ quạt ≤60°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>4</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>42</STT>
+    <MS_MAY>053</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingteel EVA 053</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống thủy lực </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra mức dầu trên mắt quan sát của thùng dầu (trong giới hạn cho phép giữa mức cao và thấp (#1))</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>1</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>43</STT>
+    <MS_MAY>053</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingteel EVA 053</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống thủy lực </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu ở các mối nối đường ống</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>30</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>44</STT>
+    <MS_MAY>053</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingteel EVA 053</TEN_MAY>
+    <TEN_BO_PHAN>07 - Hệ thống hút chân không</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra âm thanh làm việc của bơm và cường độ dòng điện (#18)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>7</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>45</STT>
+    <MS_MAY>053</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingteel EVA 053</TEN_MAY>
+    <TEN_BO_PHAN>07 - Hệ thống hút chân không</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra dầu và chất lượng của bơm (#20)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>7</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>46</STT>
+    <MS_MAY>053</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingteel EVA 053</TEN_MAY>
+    <TEN_BO_PHAN>07 - Hệ thống hút chân không</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra mức dầu nằm trong khoảng giới hạn cao và thấp (#20)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>7</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>47</STT>
+    <MS_MAY>053</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingteel EVA 053</TEN_MAY>
+    <TEN_BO_PHAN>09 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra các ống dầu còn lại</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>9</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>10</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>48</STT>
+    <MS_MAY>053</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingteel EVA 053</TEN_MAY>
+    <TEN_BO_PHAN>09 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nếu cái bao che di dộng bằng nhôm bị hư hỏng</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>9</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>49</STT>
+    <MS_MAY>053</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingteel EVA 053</TEN_MAY>
+    <TEN_BO_PHAN>09 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra sự lưu thông bôi trơn khi cấp bình thường</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>9</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>50</STT>
+    <MS_MAY>053</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingteel EVA 053</TEN_MAY>
+    <TEN_BO_PHAN>09 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu trên các vị trí nối trên thùng dầu</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-14T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-14T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>9</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>51</STT>
+    <MS_MAY>062</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLEXCUT 3015S</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bộ lọc &amp; chỉnh áp hơi</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-16T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-16T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>2</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>52</STT>
+    <MS_MAY>062</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLEXCUT 3015S</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra các đường ống hơi và tình trạng xì, lão hóa đường ống</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-16T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-16T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>53</STT>
+    <MS_MAY>062</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLEXCUT 3015S</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra chất bôi trơn khí trên bộ chỉnh áp ở đường khí chính đến máy</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-16T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-16T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>54</STT>
+    <MS_MAY>062</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLEXCUT 3015S</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra lưu lương của chất bôi trơn khí khi đầu dao cắt hoạt động</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-16T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-16T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>55</STT>
+    <MS_MAY>062</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLEXCUT 3015S</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các đầu kết nối </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-16T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-16T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>56</STT>
+    <MS_MAY>062</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLEXCUT 3015S</TEN_MAY>
+    <TEN_BO_PHAN>05 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-16T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-16T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>5</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>57</STT>
+    <MS_MAY>063</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLASHCUT 30155HD</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bộ lọc &amp; chỉnh áp hơi</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-16T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-16T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>2</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>58</STT>
+    <MS_MAY>063</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLASHCUT 30155HD</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra các đường ống hơi và tình trạng xì, lão hóa đường ống</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-16T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-16T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>59</STT>
+    <MS_MAY>063</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLASHCUT 30155HD</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra chất bôi trơn khí trên bộ chỉnh áp ở đường khí chính đến máy</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-16T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-16T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>60</STT>
+    <MS_MAY>063</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLASHCUT 30155HD</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra lưu lương của chất bôi trơn khí khi đầu dao cắt hoạt động</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-16T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-16T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>61</STT>
+    <MS_MAY>063</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLASHCUT 30155HD</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các đầu kết nối </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-16T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-16T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>62</STT>
+    <MS_MAY>063</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLASHCUT 30155HD</TEN_MAY>
+    <TEN_BO_PHAN>05 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-16T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-16T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>5</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>63</STT>
+    <MS_MAY>091</MS_MAY>
+    <TEN_MAY>Bơm PCCC điện</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra áp suất nước đường ống trên đồng hồ áp suất ở mức (2~4bar)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>64</STT>
+    <MS_MAY>091</MS_MAY>
+    <TEN_MAY>Bơm PCCC điện</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bồn đầy nước </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>65</STT>
+    <MS_MAY>091</MS_MAY>
+    <TEN_MAY>Bơm PCCC điện</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra dòng điện của động cơ bơm nước/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>66</STT>
+    <MS_MAY>091</MS_MAY>
+    <TEN_MAY>Bơm PCCC điện</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của động cơ bơm nước ≤60°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>67</STT>
+    <MS_MAY>091</MS_MAY>
+    <TEN_MAY>Bơm PCCC điện</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì nước ở các đầu nối và lão hóa đường ống.</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>68</STT>
+    <MS_MAY>091</MS_MAY>
+    <TEN_MAY>Bơm PCCC điện</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì nước và lão hóa các ron phốt nước</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>69</STT>
+    <MS_MAY>091</MS_MAY>
+    <TEN_MAY>Bơm PCCC điện</TEN_MAY>
+    <TEN_BO_PHAN>02 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nguồn điện</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>70</STT>
+    <MS_MAY>091</MS_MAY>
+    <TEN_MAY>Bơm PCCC điện</TEN_MAY>
+    <TEN_BO_PHAN>02 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>71</STT>
+    <MS_MAY>094</MS_MAY>
+    <TEN_MAY>Máy Bơm PCCC dầu</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bồn chứa đầy nước </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>72</STT>
+    <MS_MAY>094</MS_MAY>
+    <TEN_MAY>Máy Bơm PCCC dầu</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra đồng hồ báo áp suất nước đường ống ở mức (2~4bar)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>73</STT>
+    <MS_MAY>094</MS_MAY>
+    <TEN_MAY>Máy Bơm PCCC dầu</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì nước ở các đầu nối và lão hóa đường ống.</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>74</STT>
+    <MS_MAY>094</MS_MAY>
+    <TEN_MAY>Máy Bơm PCCC dầu</TEN_MAY>
+    <TEN_BO_PHAN>02 - Máy nổ chạy xăng/dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra bộ xạc bình điện tự động </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>75</STT>
+    <MS_MAY>094</MS_MAY>
+    <TEN_MAY>Máy Bơm PCCC dầu</TEN_MAY>
+    <TEN_BO_PHAN>02 - Máy nổ chạy xăng/dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra mức nước và nguồn điện bình đề</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>76</STT>
+    <MS_MAY>098</MS_MAY>
+    <TEN_MAY>Máy sấy khô -KAESER 098</TEN_MAY>
+    <TEN_BO_PHAN>01 - Đường ống khí nén </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các đầu nối và đường đường ống.</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>77</STT>
+    <MS_MAY>098</MS_MAY>
+    <TEN_MAY>Máy sấy khô -KAESER 098</TEN_MAY>
+    <TEN_BO_PHAN>02 - Hệ thống lạnh tách ẩm</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra cường độ dòng điện của block/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>78</STT>
+    <MS_MAY>098</MS_MAY>
+    <TEN_MAY>Máy sấy khô -KAESER 098</TEN_MAY>
+    <TEN_BO_PHAN>02 - Hệ thống lạnh tách ẩm</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra hoạt động và nhiệt độ của Block lạnh ≤65°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>79</STT>
+    <MS_MAY>098</MS_MAY>
+    <TEN_MAY>Máy sấy khô -KAESER 098</TEN_MAY>
+    <TEN_BO_PHAN>03 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra biến áp điện/ bộ nguồn</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>80</STT>
+    <MS_MAY>098</MS_MAY>
+    <TEN_MAY>Máy sấy khô -KAESER 098</TEN_MAY>
+    <TEN_BO_PHAN>03 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra cài đặt và hiển thị của đồng hồ nhiệt lạnh</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>81</STT>
+    <MS_MAY>098</MS_MAY>
+    <TEN_MAY>Máy sấy khô -KAESER 098</TEN_MAY>
+    <TEN_BO_PHAN>03 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nguồn điện</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>82</STT>
+    <MS_MAY>098</MS_MAY>
+    <TEN_MAY>Máy sấy khô -KAESER 098</TEN_MAY>
+    <TEN_BO_PHAN>03 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>83</STT>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống cấp liệu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Đảm bảo rằng không bị xì dầu ở xylanh cấp liệu</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-11T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-11T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>1</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>84</STT>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống cấp liệu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bộ ngắt liệu hoạt động ổn định</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-11T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-11T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>85</STT>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống cấp liệu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ điều khiển của hệ thống là tốt</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-11T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-11T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>45</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>86</STT>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống cấp liệu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nước lạnh tuần hoàn phải sạch sẽ</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-11T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-11T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>87</STT>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_BO_PHAN>02 - Hệ thống ép khuôn</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Áp suất đóng khuôn thì ok</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-11T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-11T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>2</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>88</STT>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_BO_PHAN>02 - Hệ thống ép khuôn</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Đảm bảo rằng không bị xì dầu ở xylanh ép khuôn</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-11T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-11T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>1</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>89</STT>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_BO_PHAN>02 - Hệ thống ép khuôn</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra hoạt động của máy cảm biến áp suất lực ép cao</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-11T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-11T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>90</STT>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_BO_PHAN>04 - Hệ thống điều khiển chính</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Vệ sinh lọc quạt hút</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-11T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-11T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>4</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>2</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>91</STT>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_BO_PHAN>05 - Hệ thống thủy lực</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra các xì dầu ở các ron ống dầu</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-11T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-11T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>5</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>15</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>92</STT>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_BO_PHAN>05 - Hệ thống thủy lực</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra mức dầu thủy lực trên mắt quan sát thùng chứa dầu ( giữa mức cao và thấp)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-11T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-11T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>5</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>1</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>93</STT>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_BO_PHAN>06 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra các đầu kết nối có dấu hiệu xì dầu</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-11T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-11T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>6</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>10</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>94</STT>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_BO_PHAN>06 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra tất cả các ống dầu còn lại không được đề cập (bị loại trừ)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-11T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-11T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>6</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>10</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>95</STT>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_BO_PHAN>06 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra tuần hoàn bôi trơn trong trường hợp thông thường</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-11T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-11T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>6</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>96</STT>
+    <MS_MAY>102</MS_MAY>
+    <TEN_MAY>Máy sấy khô KAESER 102</TEN_MAY>
+    <TEN_BO_PHAN>01 - Đường ống khí nén </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các đầu nối và đường đường ống.</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>97</STT>
+    <MS_MAY>102</MS_MAY>
+    <TEN_MAY>Máy sấy khô KAESER 102</TEN_MAY>
+    <TEN_BO_PHAN>02 - Hệ thống lạnh tách ẩm</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra cường độ dòng điện của block/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>98</STT>
+    <MS_MAY>102</MS_MAY>
+    <TEN_MAY>Máy sấy khô KAESER 102</TEN_MAY>
+    <TEN_BO_PHAN>02 - Hệ thống lạnh tách ẩm</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra hoạt động và nhiệt độ của Block lạnh ≤65°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>99</STT>
+    <MS_MAY>102</MS_MAY>
+    <TEN_MAY>Máy sấy khô KAESER 102</TEN_MAY>
+    <TEN_BO_PHAN>03 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra biến áp điện/ bộ nguồn</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>100</STT>
+    <MS_MAY>102</MS_MAY>
+    <TEN_MAY>Máy sấy khô KAESER 102</TEN_MAY>
+    <TEN_BO_PHAN>03 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra cài đặt và hiển thị của đồng hồ nhiệt lạnh</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>101</STT>
+    <MS_MAY>102</MS_MAY>
+    <TEN_MAY>Máy sấy khô KAESER 102</TEN_MAY>
+    <TEN_BO_PHAN>03 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nguồn điện</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>102</STT>
+    <MS_MAY>102</MS_MAY>
+    <TEN_MAY>Máy sấy khô KAESER 102</TEN_MAY>
+    <TEN_BO_PHAN>03 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-18T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-18T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>103</STT>
+    <MS_MAY>116</MS_MAY>
+    <TEN_MAY>Máy bơm PCCC xăng</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bồn chứa đầy nước </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>104</STT>
+    <MS_MAY>116</MS_MAY>
+    <TEN_MAY>Máy bơm PCCC xăng</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra đồng hồ báo áp suất nước đường ống ở mức (2~4bar)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>105</STT>
+    <MS_MAY>116</MS_MAY>
+    <TEN_MAY>Máy bơm PCCC xăng</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì nước ở các đầu nối và lão hóa đường ống.</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>106</STT>
+    <MS_MAY>116</MS_MAY>
+    <TEN_MAY>Máy bơm PCCC xăng</TEN_MAY>
+    <TEN_BO_PHAN>02 - Máy nổ chạy xăng/dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra bộ xạc bình điện tự động </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>107</STT>
+    <MS_MAY>116</MS_MAY>
+    <TEN_MAY>Máy bơm PCCC xăng</TEN_MAY>
+    <TEN_BO_PHAN>02 - Máy nổ chạy xăng/dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra mức nước và nguồn điện bình đề</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>108</STT>
+    <MS_MAY>163</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi khu vực sản xuất</TEN_MAY>
+    <TEN_BO_PHAN>01 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T03:31:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt (A)</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>2</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>109</STT>
+    <MS_MAY>163</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi khu vực sản xuất</TEN_MAY>
+    <TEN_BO_PHAN>01 - Tủ điện điều khiển</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra tấm che chắn bảo Vệ an toàn trong tủ điện</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T03:31:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt (A)</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>2</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>110</STT>
+    <MS_MAY>163</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi khu vực sản xuất</TEN_MAY>
+    <TEN_BO_PHAN>02 - Hệ thống truyền động</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra dòng điện của động cơ quạt/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T03:31:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt (A)</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>111</STT>
+    <MS_MAY>163</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi khu vực sản xuất</TEN_MAY>
+    <TEN_BO_PHAN>02 - Hệ thống truyền động</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt động cơ quạt hút ≤65°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T03:31:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt (A)</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>112</STT>
+    <MS_MAY>163</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi khu vực sản xuất</TEN_MAY>
+    <TEN_BO_PHAN>02 - Hệ thống truyền động</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra, bơm mỡ cho các bạc đạn, gối đỡ</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T03:31:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt (A)</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>113</STT>
+    <MS_MAY>163</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi khu vực sản xuất</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống đường ống</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra các khớp nối đường ống</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T03:31:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt (A)</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>15</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>114</STT>
+    <MS_MAY>163</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi khu vực sản xuất</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống đường ống</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiềm tra hoạt động của các van đóng mở họng gió </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T03:31:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt (A)</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>15</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>115</STT>
+    <MS_MAY>163</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi khu vực sản xuất</TEN_MAY>
+    <TEN_BO_PHAN>05 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra dòng điện của động cơ bơm nước/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T03:31:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt (A)</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>5</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>116</STT>
+    <MS_MAY>163</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi khu vực sản xuất</TEN_MAY>
+    <TEN_BO_PHAN>05 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra mức nước trong bồn chứa và hoạt động bơm tuần hoàn</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T03:31:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt (A)</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>5</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>117</STT>
+    <MS_MAY>163</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi khu vực sản xuất</TEN_MAY>
+    <TEN_BO_PHAN>05 - Hệ thống bơm nước </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt động cơ bơm nước ≤60°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-30T03:31:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt (A)</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>5</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>118</STT>
+    <MS_MAY>232</MS_MAY>
+    <TEN_MAY>Máy cắt dập Samco TC-75 (17084)</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm thủy lực </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra dòng điện của động cơ thủy lực/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>119</STT>
+    <MS_MAY>232</MS_MAY>
+    <TEN_MAY>Máy cắt dập Samco TC-75 (17084)</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm thủy lực </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của động cơ thủy lực ≤60°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>120</STT>
+    <MS_MAY>232</MS_MAY>
+    <TEN_MAY>Máy cắt dập Samco TC-75 (17084)</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm thủy lực </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu ở các đầu nối đường ống</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>121</STT>
+    <MS_MAY>232</MS_MAY>
+    <TEN_MAY>Máy cắt dập Samco TC-75 (17084)</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu truyền động, bàn cắt dập</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu ở các khớp nối, van, bộ chia thủy lực</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>122</STT>
+    <MS_MAY>232</MS_MAY>
+    <TEN_MAY>Máy cắt dập Samco TC-75 (17084)</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu truyền động, bàn cắt dập</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu ở xylanh thủy lực và tình trạng các ron phốt dầu bị lão hóa</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>123</STT>
+    <MS_MAY>232</MS_MAY>
+    <TEN_MAY>Máy cắt dập Samco TC-75 (17084)</TEN_MAY>
+    <TEN_BO_PHAN>03 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra tình trạng lão hóa của đường ống dầu </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>124</STT>
+    <MS_MAY>232</MS_MAY>
+    <TEN_MAY>Máy cắt dập Samco TC-75 (17084)</TEN_MAY>
+    <TEN_BO_PHAN>03 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu trên các đường ống thủy lực lên xuống bàn cắt dập</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>125</STT>
+    <MS_MAY>232</MS_MAY>
+    <TEN_MAY>Máy cắt dập Samco TC-75 (17084)</TEN_MAY>
+    <TEN_BO_PHAN>03 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu trên các ống dầu còn lại</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>126</STT>
+    <MS_MAY>232</MS_MAY>
+    <TEN_MAY>Máy cắt dập Samco TC-75 (17084)</TEN_MAY>
+    <TEN_BO_PHAN>03 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xiết chặt các khớp nối bị lỏng hoặc xì dầu</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>127</STT>
+    <MS_MAY>232</MS_MAY>
+    <TEN_MAY>Máy cắt dập Samco TC-75 (17084)</TEN_MAY>
+    <TEN_BO_PHAN>04 - Tủ điều khiển chính</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>4</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>128</STT>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ (50 tấn)</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm thủy lực </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra dòng điện của động cơ thủy lực/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>129</STT>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ (50 tấn)</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm thủy lực </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của động cơ thủy lực ≤60°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>130</STT>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ (50 tấn)</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm thủy lực </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu ở các đầu nối đường ống</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>131</STT>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ (50 tấn)</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu truyền động, bàn cắt dập</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu ở các khớp nối, van, bộ chia thủy lực</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>132</STT>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ (50 tấn)</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu truyền động, bàn cắt dập</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu ở xylanh thủy lực và tình trạng các ron phốt dầu bị lão hóa</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>133</STT>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ (50 tấn)</TEN_MAY>
+    <TEN_BO_PHAN>03 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra tình trạng lão hóa của đường ống dầu </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>134</STT>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ (50 tấn)</TEN_MAY>
+    <TEN_BO_PHAN>03 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu trên các đường ống thủy lực lên xuống bàn cắt dập</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>135</STT>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ (50 tấn)</TEN_MAY>
+    <TEN_BO_PHAN>03 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu trên các ống dầu còn lại</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>136</STT>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ (50 tấn)</TEN_MAY>
+    <TEN_BO_PHAN>03 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xiết chặt các khớp nối bị lỏng hoặc xì dầu</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>137</STT>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ (50 tấn)</TEN_MAY>
+    <TEN_BO_PHAN>04 - Tủ điều khiển chính</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-19T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-19T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>4</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>138</STT>
+    <MS_MAY>235</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  235</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các đầu nối và đường ống</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>139</STT>
+    <MS_MAY>235</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  235</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống khí nén </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xiết chặt các van, pittong, đầu nối hơi</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>140</STT>
+    <MS_MAY>235</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  235</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu gò kẹp/ định hình</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì hơi ở các khớp nối, bộ chia hơi</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>141</STT>
+    <MS_MAY>235</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  235</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bảo ôn đường ống gas</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>142</STT>
+    <MS_MAY>235</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  235</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra cường độ dòng điện của block/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>143</STT>
+    <MS_MAY>235</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  235</TEN_MAY>
+    <TEN_BO_PHAN>03 - Hệ thống lạnh</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra hoạt động và nhiệt độ của Block lạnh ≤65°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>144</STT>
+    <MS_MAY>235</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  235</TEN_MAY>
+    <TEN_BO_PHAN>05 - Tủ điều khiển chính</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của các thiết bị đóng ngắt, tiếp điểm ≤45°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-24T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-24T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>5</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>145</STT>
+    <MS_MAY>255</MS_MAY>
+    <TEN_MAY>Máy ép đế 6 chiều</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm thủy lực</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra dòng điện của động cơ thủy lực/ dòng định mức (A)</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-31T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>146</STT>
+    <MS_MAY>255</MS_MAY>
+    <TEN_MAY>Máy ép đế 6 chiều</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm thủy lực</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra nhiệt độ làm việc của động cơ thủy lực ≤60°C</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-31T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>147</STT>
+    <MS_MAY>255</MS_MAY>
+    <TEN_MAY>Máy ép đế 6 chiều</TEN_MAY>
+    <TEN_BO_PHAN>01 - Hệ thống bơm thủy lực</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu ở các đầu nối và lão hóa đường ống đường ống dầu</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-31T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>1</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>148</STT>
+    <MS_MAY>255</MS_MAY>
+    <TEN_MAY>Máy ép đế 6 chiều</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu ép</TEN_BO_PHAN>
+    <TEN_TS_GSTT>kiểm tra các bộ chỉnh áp, đồng hồ thủy lực</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-31T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>149</STT>
+    <MS_MAY>255</MS_MAY>
+    <TEN_MAY>Máy ép đế 6 chiều</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu ép</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra các bulong, then, chốt khóa</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-31T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>150</STT>
+    <MS_MAY>255</MS_MAY>
+    <TEN_MAY>Máy ép đế 6 chiều</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu ép</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu ở các khớp nối, bộ chia </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-31T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>151</STT>
+    <MS_MAY>255</MS_MAY>
+    <TEN_MAY>Máy ép đế 6 chiều</TEN_MAY>
+    <TEN_BO_PHAN>02 - Cơ cấu ép</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu ở xylanh ép thủy lực và tình trạng lão hóa các ron phốt.</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-31T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>2</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>10</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>152</STT>
+    <MS_MAY>255</MS_MAY>
+    <TEN_MAY>Máy ép đế 6 chiều</TEN_MAY>
+    <TEN_BO_PHAN>03 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra sự lão hóa của đường ống dầu </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-31T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>3</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>153</STT>
+    <MS_MAY>255</MS_MAY>
+    <TEN_MAY>Máy ép đế 6 chiều</TEN_MAY>
+    <TEN_BO_PHAN>03 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu trên các đầu nối ống dầu còn lại</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-31T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>154</STT>
+    <MS_MAY>255</MS_MAY>
+    <TEN_MAY>Máy ép đế 6 chiều</TEN_MAY>
+    <TEN_BO_PHAN>03 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xì dầu trên các đường ống thủy lực xylanh khuôn ép</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-31T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>155</STT>
+    <MS_MAY>255</MS_MAY>
+    <TEN_MAY>Máy ép đế 6 chiều</TEN_MAY>
+    <TEN_BO_PHAN>03 - Ống dầu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra xiết chặt các khớp nối bị lỏng hoặc xì dầu</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2019-12-31T00:00:00+07:00</NGAY_KT_CUOI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2020-02-29T00:00:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng(D); Kém(C); Tốt (A); Trung Bình(B)</TEN_GT_GSTT>
+    <STT_BP>3</STT_BP>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>5</THOI_GIAN>
+    <MS_NHA_XUONG>-1</MS_NHA_XUONG>
+    <MS_HE_THONG>-1</MS_HE_THONG>
+    <MS_LOAI_MAY>-1</MS_LOAI_MAY>
+    <MS_MAY_FIL>-1</MS_MAY_FIL>
+    <MS_LOAI_CV>-1</MS_LOAI_CV>
+    <TNGAY>2020-02-11T00:00:00+07:00</TNGAY>
+    <DNGAY>2020-02-29T00:00:00+07:00</DNGAY>
+  </TINH_TRANG_THIET_BI>
+  <TIEU_DE_TINH_TRANG_THIET_BI>
+    <TIEU_DE>GIÁM SÁT TÌNH TRẠNG ĐẾN HẠN KIỂM TRA</TIEU_DE>
+    <TU_NGAY>Từ ngày: 11/02/2020</TU_NGAY>
+    <DEN_NGAY>Đến ngày: 29/02/2020</DEN_NGAY>
+    <DieuKienLoc>Địa điểm :  &lt; ALL &gt; 
+Hệ thống :  &lt; ALL &gt; 
+Loại thiết bị :  &lt; ALL &gt; 
+Thuộc loại công việc :  &lt; ALL &gt; </DieuKienLoc>
+    <BoPhan>Bộ phận</BoPhan>
+    <ThongSoGiamSat>Thông số</ThongSoGiamSat>
+    <GiaTri>Giá trị cuối</GiaTri>
+    <Dat>Đạt</Dat>
+    <NgayGSCuoi>Ngày GS cuối</NgayGSCuoi>
+    <ChuKy>Chu kỳ</ChuKy>
+    <NgayGSKe>Ngày GS kế</NgayGSKe>
+    <KetQuaKT>Kết quả KT</KetQuaKT>
+    <DiaDiem>Ghi chú</DiaDiem>
+    <ThietBi>Thiết bị</ThietBi>
+    <NgayKT>Ngày kiểm tra:      /     /  </NgayKT>
+    <NguoiKT>Người kiểm tra</NguoiKT>
+    <MAU_SO>Mẫu: P23/F04</MAU_SO>
+    <LAN_BH>Lần ban hành:</LAN_BH>
+    <NGAY_BH>Ngày ban hành:</NGAY_BH>
+    <TMP1>P/M/1.8A</TMP1>
+    <TMP2>P/M/1.8A</TMP2>
+    <TMP3>Tổng tất cả</TMP3>
+    <TMP4> &lt; ALL &gt; </TMP4>
+    <TMP5>Thuộc loại công việc</TMP5>
+    <TMP6> &lt; ALL &gt; </TMP6>
+    <TMP7>Loại thiết bị</TMP7>
+    <TMP8>@TMP8@</TMP8>
+    <TMP9>@TMP9@</TMP9>
+    <TMP10>@TMP10@</TMP10>
+    <STT>STT</STT>
+  </TIEU_DE_TINH_TRANG_THIET_BI>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty TNHH Remington International
+Lô C, 8C, CN, KCN Mỹ Phước 3, P. Thới Hòa, Thị Xã Bến Cát, Bình Dương, Việt Nam.
+Telephone: 02743559908  Fax: 02743559907</THONG_TIN_CTY>
+    <LOGO />
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1800</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngày in:10/02/2020</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

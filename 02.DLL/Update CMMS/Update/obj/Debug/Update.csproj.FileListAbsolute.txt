@@ -1,0 +1,11 @@
+D:\A9\01.Code\02.DLL\Update CMMS\Update\bin\Debug\Update.exe
+D:\A9\01.Code\02.DLL\Update CMMS\Update\bin\Debug\Update.pdb
+D:\A9\01.Code\02.DLL\Update CMMS\Update\obj\Debug\Update.csprojAssemblyReference.cache
+D:\A9\01.Code\02.DLL\Update CMMS\Update\obj\Debug\Update.FRM_INTERNET.resources
+D:\A9\01.Code\02.DLL\Update CMMS\Update\obj\Debug\Update.FRM_SHAREFOLDER.resources
+D:\A9\01.Code\02.DLL\Update CMMS\Update\obj\Debug\Update.Properties.Resources.resources
+D:\A9\01.Code\02.DLL\Update CMMS\Update\obj\Debug\Update.csproj.GenerateResource.cache
+D:\A9\01.Code\02.DLL\Update CMMS\Update\obj\Debug\Update.csproj.CoreCompileInputs.cache
+D:\A9\01.Code\02.DLL\Update CMMS\Update\obj\Debug\Update.csproj.CopyComplete
+D:\A9\01.Code\02.DLL\Update CMMS\Update\obj\Debug\Update.exe
+D:\A9\01.Code\02.DLL\Update CMMS\Update\obj\Debug\Update.pdb

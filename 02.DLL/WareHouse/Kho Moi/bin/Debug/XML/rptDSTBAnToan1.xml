@@ -1,0 +1,2924 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Title">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEUDEANH" type="xs:string" minOccurs="0" />
+                <xs:element name="TIEUDEVIET" type="xs:string" minOccurs="0" />
+                <xs:element name="THANG" type="xs:string" minOccurs="0" />
+                <xs:element name="MASO" type="xs:string" minOccurs="0" />
+                <xs:element name="TOTALPAGE" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOILAP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOIDUYET" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="TENMAY" type="xs:string" minOccurs="0" />
+                <xs:element name="KIEUMAY" type="xs:string" minOccurs="0" />
+                <xs:element name="HANGSX" type="xs:string" minOccurs="0" />
+                <xs:element name="NUOCSX" type="xs:string" minOccurs="0" />
+                <xs:element name="MASOTB" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYSD" type="xs:string" minOccurs="0" />
+                <xs:element name="NHIEMVU" type="xs:string" minOccurs="0" />
+                <xs:element name="TAILIEUTK" type="xs:string" minOccurs="0" />
+                <xs:element name="HIENTRANG" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIDS" type="xs:string" minOccurs="0" />
+                <xs:element name="LoaiTB" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DS_TB">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MODEL" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_HSX">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NUOC_SX" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SERIAL_NUMBER" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NHIEM_VU_THIET_BI" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="150" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_HIEN_TRANG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_NHAP1" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGAY_SX" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TEN_HE_THONG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_HE_THONG" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+                <xs:element name="TEN_TAI_LIEU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_LOAI_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Title>
+    <TIEUDEANH>LIST OF EQUIPMENT</TIEUDEANH>
+    <TIEUDEVIET>DANH SÁCH THIẾT BỊ</TIEUDEVIET>
+    <THANG>Date:</THANG>
+    <MASO>Code:</MASO>
+    <TOTALPAGE>Page :  </TOTALPAGE>
+    <NGUOILAP>Prepared by :</NGUOILAP>
+    <NGUOIDUYET>Approved by :</NGUOIDUYET>
+    <STT>No</STT>
+    <TENMAY>Equipment nameTên Thiết bị</TENMAY>
+    <KIEUMAY>ModelKiểu</KIEUMAY>
+    <HANGSX>BrandHãng sản xuất</HANGSX>
+    <NUOCSX>CountryNước SX</NUOCSX>
+    <MASOTB>CodeMã số</MASOTB>
+    <NGAYSD>Ngày đưa vào sử dụng</NGAYSD>
+    <NHIEMVU>FunctionNhiệm vụ thiết bị</NHIEMVU>
+    <TAILIEUTK>Ref. DocTL Tham Khao</TAILIEUTK>
+    <HIENTRANG>StatusHiện trạng</HIENTRANG>
+    <NOIDS>Dây chuyền/Line:</NOIDS>
+    <LoaiTB>Loại thiết bị</LoaiTB>
+  </Title>
+  <DS_TB>
+    <MS_MAY>AC001A</MS_MAY>
+    <TEN_MAY>Air Compressor</TEN_MAY>
+    <MODEL>GA 30 FF</MODEL>
+    <TEN_HSX>Atlas-Copco</TEN_HSX>
+    <NUOC_SX>Thuy Sy</NUOC_SX>
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <TEN_TAI_LIEU>fdsfs ds sdf sdfs dfsd </TEN_TAI_LIEU>
+    <MS_LOAI_MAY>30</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy nén khí</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AC002A</MS_MAY>
+    <TEN_MAY>Air Compressor</TEN_MAY>
+    <MODEL>SSR-EP 50 SE/50</MODEL>
+    <TEN_HSX>Ingersoll Rand</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>30</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy nén khí</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AD000A</MS_MAY>
+    <TEN_MAY>Air Dryer</TEN_MAY>
+    <MODEL>SD 0410A/312</MODEL>
+    <TEN_HSX>Ultratroc</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>34</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy sấy khí</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AF100A</MS_MAY>
+    <TEN_MAY>Auger Filler / Máy cấp liệu</TEN_MAY>
+    <TEN_HSX>Wolf</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2008-02-02T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2008-02-02T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 10000</TEN_HE_THONG>
+    <MS_HE_THONG>10</MS_HE_THONG>
+    <MS_LOAI_MAY>50</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Vít tải định lượng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AF110B</MS_MAY>
+    <TEN_MAY>Auger filler</TEN_MAY>
+    <MODEL>Wolf SD25</MODEL>
+    <TEN_HSX>Wolf</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 11000</TEN_HE_THONG>
+    <MS_HE_THONG>11</MS_HE_THONG>
+    <MS_LOAI_MAY>50</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Vít tải định lượng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AF130B</MS_MAY>
+    <TEN_MAY>Auger filler</TEN_MAY>
+    <MODEL>Wolf SD25</MODEL>
+    <TEN_HSX>Wolf</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 13000</TEN_HE_THONG>
+    <MS_HE_THONG>13</MS_HE_THONG>
+    <MS_LOAI_MAY>50</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Vít tải định lượng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AG001A</MS_MAY>
+    <TEN_MAY>Agitator 1</TEN_MAY>
+    <MODEL>FKL 80F</MODEL>
+    <TEN_HSX>Fluid</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>14</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cánh khuấy </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AG002A</MS_MAY>
+    <TEN_MAY>Agitator 2</TEN_MAY>
+    <MODEL>FKL 80F</MODEL>
+    <TEN_HSX>Fluid</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>14</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cánh khuấy </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AG041A</MS_MAY>
+    <TEN_MAY>Agitator Reducer </TEN_MAY>
+    <MODEL>RF67</MODEL>
+    <TEN_HSX>Sew Usocome</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>14</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cánh khuấy </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AG042A</MS_MAY>
+    <TEN_MAY>Agitator Reducer </TEN_MAY>
+    <MODEL>RF67</MODEL>
+    <TEN_HSX>Sew Usocome</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>14</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cánh khuấy </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AP000A</MS_MAY>
+    <TEN_MAY>Alarm control panel</TEN_MAY>
+    <MODEL>FA - 1000 </MODEL>
+    <TEN_HSX>Mircom</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>15</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Hệ thống báo cháy</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AS011A</MS_MAY>
+    <TEN_MAY>Aspirator 1</TEN_MAY>
+    <MODEL>3156</MODEL>
+    <TEN_HSX>CFM</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>27</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy hút bụi</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AS012A</MS_MAY>
+    <TEN_MAY>Aspirator 2</TEN_MAY>
+    <MODEL>3306</MODEL>
+    <TEN_HSX>CFM</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>27</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy hút bụi</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AS021A</MS_MAY>
+    <TEN_MAY>Aspirator 1</TEN_MAY>
+    <MODEL>3156</MODEL>
+    <TEN_HSX>CFM</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 2000</TEN_HE_THONG>
+    <MS_HE_THONG>2</MS_HE_THONG>
+    <MS_LOAI_MAY>27</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy hút bụi</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AS022A</MS_MAY>
+    <TEN_MAY>Aspirator 2</TEN_MAY>
+    <MODEL>3306</MODEL>
+    <TEN_HSX>CFM</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 2000</TEN_HE_THONG>
+    <MS_HE_THONG>2</MS_HE_THONG>
+    <MS_LOAI_MAY>27</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy hút bụi</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AS030A</MS_MAY>
+    <TEN_MAY>Aspirator</TEN_MAY>
+    <MODEL>3306</MODEL>
+    <TEN_HSX>CFM</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 3000</TEN_HE_THONG>
+    <MS_HE_THONG>3</MS_HE_THONG>
+    <MS_LOAI_MAY>27</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy hút bụi</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AS110B</MS_MAY>
+    <TEN_MAY>Aspirator</TEN_MAY>
+    <TEN_HSX>CFM</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 11000</TEN_HE_THONG>
+    <MS_HE_THONG>11</MS_HE_THONG>
+    <MS_LOAI_MAY>27</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy hút bụi</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AS120B</MS_MAY>
+    <TEN_MAY>Aspirator</TEN_MAY>
+    <MODEL />
+    <TEN_HSX>CFM</TEN_HSX>
+    <NUOC_SX />
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 12000</TEN_HE_THONG>
+    <MS_HE_THONG>12</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>27</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy hút bụi</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AS130B</MS_MAY>
+    <TEN_MAY>Aspirator</TEN_MAY>
+    <TEN_HSX>CFM</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 13000</TEN_HE_THONG>
+    <MS_HE_THONG>13</MS_HE_THONG>
+    <MS_LOAI_MAY>27</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy hút bụi</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AS140A</MS_MAY>
+    <TEN_MAY>Aspirator </TEN_MAY>
+    <MODEL>CFM 3156- 380V/2.7A</MODEL>
+    <TEN_HSX>CFM</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 14000</TEN_HE_THONG>
+    <MS_HE_THONG>14</MS_HE_THONG>
+    <MS_LOAI_MAY>27</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy hút bụi</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AS150A</MS_MAY>
+    <TEN_MAY>Aspirator </TEN_MAY>
+    <MODEL>CFM 3156- 380V/2.7A</MODEL>
+    <TEN_HSX>CFM</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-08-09T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-08-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 15000</TEN_HE_THONG>
+    <MS_HE_THONG>15</MS_HE_THONG>
+    <MS_LOAI_MAY>27</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy hút bụi</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>AT010A</MS_MAY>
+    <TEN_MAY>Ceram &amp; control Panel 1</TEN_MAY>
+    <MODEL>Ecovac 8.1</MODEL>
+    <TEN_HSX>Ceram</TEN_HSX>
+    <NUOC_SX />
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>48</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Tải liệu</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BA011A</MS_MAY>
+    <TEN_MAY>Batching Controller 1</TEN_MAY>
+    <MODEL>PR 1615</MODEL>
+    <TEN_HSX>Philips</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BA012A</MS_MAY>
+    <TEN_MAY>Batching Controller 2</TEN_MAY>
+    <MODEL>PR 1615</MODEL>
+    <TEN_HSX>Philips</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC011A</MS_MAY>
+    <TEN_MAY>Belt Conveyor</TEN_MAY>
+    <MODEL>MIB Std</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <NUOC_SX />
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC012A</MS_MAY>
+    <MODEL>MIB Std</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <NUOC_SX />
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC021A</MS_MAY>
+    <TEN_MAY>Belt Conveyor 1</TEN_MAY>
+    <MODEL>MIB Std</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 2000</TEN_HE_THONG>
+    <MS_HE_THONG>2</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC022A</MS_MAY>
+    <TEN_MAY>Belt Conveyor 2</TEN_MAY>
+    <MODEL>MIB Std</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 2000</TEN_HE_THONG>
+    <MS_HE_THONG>2</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC031A</MS_MAY>
+    <TEN_MAY>Belt Conveyor</TEN_MAY>
+    <MODEL>MIB Std</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <NUOC_SX>VN</NUOC_SX>
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI>Băng tải</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 3000</TEN_HE_THONG>
+    <MS_HE_THONG>3</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC032A</MS_MAY>
+    <TEN_MAY>Belt Conveyor 2</TEN_MAY>
+    <MODEL>MIB Std</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <NUOC_SX>VN</NUOC_SX>
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI>Băng tải</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 3000</TEN_HE_THONG>
+    <MS_HE_THONG>3</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC033A</MS_MAY>
+    <TEN_MAY>Belt Conveyor</TEN_MAY>
+    <MODEL>MIB Std</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <NUOC_SX>VN</NUOC_SX>
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI>Băng tải</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 3000</TEN_HE_THONG>
+    <MS_HE_THONG>3</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC111B</MS_MAY>
+    <TEN_MAY>Belt conveyor with motor 1</TEN_MAY>
+    <MODEL>380 x 2500</MODEL>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 11000</TEN_HE_THONG>
+    <MS_HE_THONG>11</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC112B</MS_MAY>
+    <TEN_MAY>Belt conveyor with motor 2</TEN_MAY>
+    <MODEL>380 x 2500</MODEL>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 11000</TEN_HE_THONG>
+    <MS_HE_THONG>11</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC120B</MS_MAY>
+    <TEN_MAY>Belt conveyor with motor</TEN_MAY>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 12000</TEN_HE_THONG>
+    <MS_HE_THONG>12</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC131B</MS_MAY>
+    <TEN_MAY>Belt conveyor with motor</TEN_MAY>
+    <MODEL>380 x 2500</MODEL>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 13000</TEN_HE_THONG>
+    <MS_HE_THONG>13</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC132B</MS_MAY>
+    <TEN_MAY>Belt conveyor with motor</TEN_MAY>
+    <MODEL>380 x 2500</MODEL>
+    <TEN_HSX>Local</TEN_HSX>
+    <NUOC_SX />
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 13000</TEN_HE_THONG>
+    <MS_HE_THONG>13</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC141A</MS_MAY>
+    <TEN_MAY>Belt Conveyor 1</TEN_MAY>
+    <MODEL>L1200 X W 250</MODEL>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 14000</TEN_HE_THONG>
+    <MS_HE_THONG>14</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC142A</MS_MAY>
+    <TEN_MAY>Belt Conveyor 2</TEN_MAY>
+    <MODEL>L3000 X W 350 - 380V/1HP</MODEL>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-06-26T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-06-26T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 14000</TEN_HE_THONG>
+    <MS_HE_THONG>14</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BC150A</MS_MAY>
+    <TEN_MAY>Belt Conveyor</TEN_MAY>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-08-09T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-08-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 15000</TEN_HE_THONG>
+    <MS_HE_THONG>15</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BF050A</MS_MAY>
+    <TEN_MAY>Bottle infeeder conveyor / Infeed  bottle table</TEN_MAY>
+    <MODEL>GAIA R6V1</MODEL>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 5000</TEN_HE_THONG>
+    <MS_HE_THONG>5</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>BF060A</MS_MAY>
+    <TEN_MAY>Bottle infeeder conveyor / Infeed  bottle table</TEN_MAY>
+    <MODEL>GAIA R6V1</MODEL>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CA010A</MS_MAY>
+    <TEN_MAY>Packing  into Cartons</TEN_MAY>
+    <MODEL>102</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>26</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy gấp thùng carton, gấp Case</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CA030A</MS_MAY>
+    <TEN_MAY>Máy gấp Case U-E-T</TEN_MAY>
+    <MODEL>Compact 4/S</MODEL>
+    <TEN_HSX>U-E-T Bernd Siebler GmgH</TEN_HSX>
+    <NUOC_SX>Germany</NUOC_SX>
+    <SERIAL_NUMBER>2334</SERIAL_NUMBER>
+    <NHIEM_VU_THIET_BI>Gấp Case</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2009-04-02T12:51:29.05+07:00</NGAY_NHAP1>
+    <NGAY_SX>2008-12-02T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 3000</TEN_HE_THONG>
+    <MS_HE_THONG>3</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>26</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy gấp thùng carton, gấp Case</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CA041A</MS_MAY>
+    <TEN_MAY>Packing  into Cartons</TEN_MAY>
+    <MODEL>102</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>26</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy gấp thùng carton, gấp Case</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CA050A</MS_MAY>
+    <TEN_MAY>Packing  into Cartons</TEN_MAY>
+    <MODEL>102</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 5000</TEN_HE_THONG>
+    <MS_HE_THONG>5</MS_HE_THONG>
+    <MS_LOAI_MAY>26</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy gấp thùng carton, gấp Case</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CA060A</MS_MAY>
+    <MODEL>102</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <NUOC_SX />
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>26</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy gấp thùng carton, gấp Case</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CA120B</MS_MAY>
+    <TEN_MAY>Case packing/Folding machine</TEN_MAY>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 12000</TEN_HE_THONG>
+    <MS_HE_THONG>12</MS_HE_THONG>
+    <MS_LOAI_MAY>26</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy gấp thùng carton, gấp Case</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CB051A</MS_MAY>
+    <TEN_MAY>Caps conveyor belt 1</TEN_MAY>
+    <MODEL>GAIA R6V1</MODEL>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 5000</TEN_HE_THONG>
+    <MS_HE_THONG>5</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CB052A</MS_MAY>
+    <TEN_MAY>Mobile belt elevators / Băng tải nắp 2</TEN_MAY>
+    <MODEL>EBT 200</MODEL>
+    <TEN_HSX>Rodant</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 5000</TEN_HE_THONG>
+    <MS_HE_THONG>5</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CB061A</MS_MAY>
+    <TEN_MAY>Caps conveyor belt 1</TEN_MAY>
+    <MODEL>GAIA R6V1</MODEL>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CB062A</MS_MAY>
+    <TEN_MAY>Mobile belt elevators 2</TEN_MAY>
+    <MODEL>EBT 200</MODEL>
+    <TEN_HSX>Rodant</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CC040A</MS_MAY>
+    <TEN_MAY>Chain Conveyor</TEN_MAY>
+    <MODEL>CTM</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CC051A</MS_MAY>
+    <TEN_MAY>In feed conveyor chain 1</TEN_MAY>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 5000</TEN_HE_THONG>
+    <MS_HE_THONG>5</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CC052A</MS_MAY>
+    <TEN_MAY>Out feed conveyor chain  2</TEN_MAY>
+    <MODEL>GAIA R6V1</MODEL>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 5000</TEN_HE_THONG>
+    <MS_HE_THONG>5</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CC053A</MS_MAY>
+    <TEN_MAY>Out feed conveyor chain  3</TEN_MAY>
+    <MODEL>GAIA R6V1</MODEL>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 5000</TEN_HE_THONG>
+    <MS_HE_THONG>5</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CC061A</MS_MAY>
+    <TEN_MAY>Infeed conveyor chain 1</TEN_MAY>
+    <MODEL>GAIA R6V1</MODEL>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CC062A</MS_MAY>
+    <TEN_MAY>Outfeed conveyor chain 2</TEN_MAY>
+    <MODEL>GAIA R6V1</MODEL>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CC063A</MS_MAY>
+    <TEN_MAY>Outfeed conveyor chain 3</TEN_MAY>
+    <MODEL>GAIA R6V1</MODEL>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CD020A</MS_MAY>
+    <TEN_MAY>Air Conditioner</TEN_MAY>
+    <TEN_HSX>Trane</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2006-03-04T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2006-03-04T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 2000</TEN_HE_THONG>
+    <MS_HE_THONG>2</MS_HE_THONG>
+    <MS_LOAI_MAY>29</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy lạnh </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CD030A</MS_MAY>
+    <TEN_MAY>Air Conditioner</TEN_MAY>
+    <TEN_HSX>Panasonic</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-02-07T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-02-07T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 3000</TEN_HE_THONG>
+    <MS_HE_THONG>3</MS_HE_THONG>
+    <MS_LOAI_MAY>29</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy lạnh </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CD110B</MS_MAY>
+    <TEN_MAY>Air conditioner</TEN_MAY>
+    <TEN_HSX>Trane</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 11000</TEN_HE_THONG>
+    <MS_HE_THONG>11</MS_HE_THONG>
+    <MS_LOAI_MAY>29</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy lạnh </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CD120B</MS_MAY>
+    <TEN_MAY>Air conditioner</TEN_MAY>
+    <TEN_HSX>Trane</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 12000</TEN_HE_THONG>
+    <MS_HE_THONG>12</MS_HE_THONG>
+    <MS_LOAI_MAY>29</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy lạnh </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CD130B</MS_MAY>
+    <TEN_MAY>Air conditioner</TEN_MAY>
+    <TEN_HSX>Trane</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 13000</TEN_HE_THONG>
+    <MS_HE_THONG>13</MS_HE_THONG>
+    <MS_LOAI_MAY>29</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy lạnh </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CD140A</MS_MAY>
+    <TEN_MAY>Air Conditioner</TEN_MAY>
+    <TEN_HSX>Trane</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2002-07-04T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2002-07-04T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 14000</TEN_HE_THONG>
+    <MS_HE_THONG>14</MS_HE_THONG>
+    <MS_LOAI_MAY>29</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy lạnh </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CD150A</MS_MAY>
+    <TEN_MAY>Air Conditioner</TEN_MAY>
+    <TEN_HSX>Panasonic</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-08-09T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-08-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 15000</TEN_HE_THONG>
+    <MS_HE_THONG>15</MS_HE_THONG>
+    <MS_LOAI_MAY>29</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy lạnh </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CM040A</MS_MAY>
+    <TEN_MAY>Capping Machine</TEN_MAY>
+    <MODEL>LIDUTA</MODEL>
+    <TEN_HSX>LIDUTA</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>16</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy cấp nắp</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CM080B</MS_MAY>
+    <TEN_MAY>Capping machine</TEN_MAY>
+    <TEN_HSX>Mewes</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 8000</TEN_HE_THONG>
+    <MS_HE_THONG>8</MS_HE_THONG>
+    <MS_LOAI_MAY>16</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy cấp nắp</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CN050A</MS_MAY>
+    <TEN_MAY>Infeed caps table (Cap infeeder conveyor)</TEN_MAY>
+    <MODEL>GAIA R6V1</MODEL>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 5000</TEN_HE_THONG>
+    <MS_HE_THONG>5</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CN060A</MS_MAY>
+    <TEN_MAY>Cap infeeder conveyor / Infeed caps table</TEN_MAY>
+    <MODEL>GAIA R6V1</MODEL>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CO010A</MS_MAY>
+    <TEN_MAY>Thermal Contact Coders </TEN_MAY>
+    <TEN_HSX>Markem</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-12-11T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-12-11T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>24</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy đóng code</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CO031A</MS_MAY>
+    <TEN_MAY>Contact Coders (Markem)</TEN_MAY>
+    <MODEL>18 Series</MODEL>
+    <TEN_HSX>Markem</TEN_HSX>
+    <NUOC_SX>USA</NUOC_SX>
+    <SERIAL_NUMBER>18</SERIAL_NUMBER>
+    <NHIEM_VU_THIET_BI>Máy đóng code</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2009-12-08T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2008-12-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 3000</TEN_HE_THONG>
+    <MS_HE_THONG>3</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>24</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy đóng code</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CO032A</MS_MAY>
+    <TEN_MAY>Contact Coder 4</TEN_MAY>
+    <MODEL>18 Series</MODEL>
+    <TEN_HSX>Markem</TEN_HSX>
+    <NUOC_SX>USA</NUOC_SX>
+    <SERIAL_NUMBER>18</SERIAL_NUMBER>
+    <NHIEM_VU_THIET_BI>Máy đóng code</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2009-12-08T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2008-12-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 3000</TEN_HE_THONG>
+    <MS_HE_THONG>3</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>24</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy đóng code</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CO100A</MS_MAY>
+    <TEN_MAY>Thermal Contact Coders </TEN_MAY>
+    <TEN_HSX>Markem</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2008-02-02T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2008-02-02T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 10000</TEN_HE_THONG>
+    <MS_HE_THONG>10</MS_HE_THONG>
+    <MS_LOAI_MAY>24</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy đóng code</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CR000A</MS_MAY>
+    <TEN_MAY>Tank Crusher</TEN_MAY>
+    <MODEL>N/A</MODEL>
+    <TEN_HSX>Dat Thanh</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>25</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy ép thủy lực</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CU000A</MS_MAY>
+    <TEN_MAY>Portable Cutting Machine</TEN_MAY>
+    <MODEL>CS 14-15</MODEL>
+    <TEN_HSX>Metabo</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>51</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Machine tools / Máy công cụ</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>CW100A</MS_MAY>
+    <TEN_MAY>Check weight KWD-2</TEN_MAY>
+    <MODEL>KWD-2</MODEL>
+    <TEN_HSX>Wolf</TEN_HSX>
+    <NUOC_SX>GERMANY</NUOC_SX>
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI>CÂN ĐỘNG</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2009-03-16T09:04:59.283+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-10-01T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 10000</TEN_HE_THONG>
+    <MS_HE_THONG>10</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>17</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy Check Weight</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>DP001A</MS_MAY>
+    <TEN_MAY>Pneumatic Pump R100 DIAPHRAGM PUMP 1</TEN_MAY>
+    <MODEL>AD 50</MODEL>
+    <TEN_HSX>Almatec</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>10</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm màng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>DP002A</MS_MAY>
+    <TEN_MAY>Pneumatic Pump B120 DIAPHRAGM PUMP 2</TEN_MAY>
+    <MODEL>AD 32 STT - E</MODEL>
+    <TEN_HSX>Almatec</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>10</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm màng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>DP003A</MS_MAY>
+    <TEN_MAY>Pneumatic Pump B320 DIAPHRAGM PUMP 3</TEN_MAY>
+    <MODEL>AD 32 STT - E</MODEL>
+    <TEN_HSX>Almatec</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>10</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm màng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>DP004A</MS_MAY>
+    <TEN_MAY>Pneumatic PumpB220 DIAPHRAGM PUMP 4</TEN_MAY>
+    <MODEL>AD 32 STT - E</MODEL>
+    <TEN_HSX>Almatec</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>10</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm màng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>DP010A</MS_MAY>
+    <TEN_MAY>Diaphragm Pump</TEN_MAY>
+    <MODEL>M2</MODEL>
+    <TEN_HSX>Wildent</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>10</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm màng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>DP041A</MS_MAY>
+    <TEN_MAY>Diaphragm Pump 1</TEN_MAY>
+    <MODEL>M1</MODEL>
+    <TEN_HSX>Wildent</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>10</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm màng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>DP042A</MS_MAY>
+    <TEN_MAY>Diaphragm Pump 2</TEN_MAY>
+    <MODEL>M1</MODEL>
+    <TEN_HSX>Wildent</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>10</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm màng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>DP080B</MS_MAY>
+    <TEN_MAY>Diaphram pump/ Bơm màng</TEN_MAY>
+    <TEN_HSX>Wildent</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 8000</TEN_HE_THONG>
+    <MS_HE_THONG>8</MS_HE_THONG>
+    <MS_LOAI_MAY>10</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm màng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>DR000A</MS_MAY>
+    <TEN_MAY>Drilling Machine</TEN_MAY>
+    <MODEL>IG 30-8</MODEL>
+    <TEN_HSX>IMA</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>51</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Machine tools / Máy công cụ</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>ED030A</MS_MAY>
+    <TEN_MAY>Ceram &amp; control panel </TEN_MAY>
+    <MODEL>5768d</MODEL>
+    <TEN_HSX>Ceram</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 3000</TEN_HE_THONG>
+    <MS_HE_THONG>3</MS_HE_THONG>
+    <MS_LOAI_MAY>48</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Tải liệu</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>ED140A</MS_MAY>
+    <TEN_MAY>Ceram &amp; control panel </TEN_MAY>
+    <MODEL>Chemical Transfer system</MODEL>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2005-11-11T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2005-11-11T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 14000</TEN_HE_THONG>
+    <MS_HE_THONG>14</MS_HE_THONG>
+    <MS_LOAI_MAY>48</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Tải liệu</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EE000A</MS_MAY>
+    <TEN_MAY>Electric Elevator</TEN_MAY>
+    <MODEL>N/A</MODEL>
+    <TEN_HSX>Dat Thanh</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>46</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Thiết bị nâng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF001A</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF002A</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF003A</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF004A</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF005A</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF006A</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF007A</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF008A</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF009A</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF00BA</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF00CA</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF00DA</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF00EA</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EF00FA</MS_MAY>
+    <TEN_MAY>Exhaust Fan</TEN_MAY>
+    <MODEL>21 G 1/3.4 P</MODEL>
+    <TEN_HSX>Mattheus</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EH001A</MS_MAY>
+    <TEN_MAY>Electric Chain Hoist</TEN_MAY>
+    <MODEL>MT-300</MODEL>
+    <TEN_HSX>MIRAS</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>46</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Thiết bị nâng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EP001A</MS_MAY>
+    <TEN_MAY>New electric pump</TEN_MAY>
+    <MODEL>100 HP</MODEL>
+    <TEN_HSX>Tecco</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>8</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm điện chữa cháy </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>EP002A</MS_MAY>
+    <TEN_MAY>Old electric pump</TEN_MAY>
+    <MODEL>20 HP</MODEL>
+    <TEN_HSX>Tecco</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>8</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm điện chữa cháy </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>FB000A</MS_MAY>
+    <TEN_MAY>Flatform Balance</TEN_MAY>
+    <MODEL>DUE 600 SX</MODEL>
+    <TEN_HSX>Mettle</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>FF000A</MS_MAY>
+    <TEN_MAY>Fillar Fan</TEN_MAY>
+    <MODEL>2036ME80104</MODEL>
+    <TEN_HSX>Filler</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>53</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Fan / Quạt hút</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>FI040A</MS_MAY>
+    <TEN_MAY>Filling Machine</TEN_MAY>
+    <MODEL>Doseuse</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>56</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Filling Machine Liduta</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>FI050A</MS_MAY>
+    <TEN_MAY>Filling &amp;capping Machine</TEN_MAY>
+    <MODEL>GAIA R6V1/520N</MODEL>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <NUOC_SX>FRANCE</NUOC_SX>
+    <SERIAL_NUMBER>99200</SERIAL_NUMBER>
+    <NHIEM_VU_THIET_BI>Máy chiết chai</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-06-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 5000</TEN_HE_THONG>
+    <MS_HE_THONG>5</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>20</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy chiết chai SERAC</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>FI060A</MS_MAY>
+    <TEN_MAY>Filling &amp;capping Machine</TEN_MAY>
+    <MODEL>GAIA R6V1</MODEL>
+    <TEN_HSX>SERAC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <MS_LOAI_MAY>20</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy chiết chai SERAC</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>FI070A</MS_MAY>
+    <TEN_MAY>Dose Filling Head</TEN_MAY>
+    <TEN_HSX>Finker</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 7000</TEN_HE_THONG>
+    <MS_HE_THONG>7</MS_HE_THONG>
+    <MS_LOAI_MAY>57</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Filling device Finker</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>FI080B</MS_MAY>
+    <TEN_MAY>Filling machine</TEN_MAY>
+    <TEN_HSX>Mewes</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 8000</TEN_HE_THONG>
+    <MS_HE_THONG>8</MS_HE_THONG>
+    <MS_LOAI_MAY>18</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy chiết chai MEWES</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>FI120B</MS_MAY>
+    <TEN_MAY>Bottle Filling machine</TEN_MAY>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2005-08-07T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2005-08-07T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 12000</TEN_HE_THONG>
+    <MS_HE_THONG>12</MS_HE_THONG>
+    <MS_LOAI_MAY>23</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy đóng chai</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>FT000A</MS_MAY>
+    <TEN_MAY>Camera Hong Ngoai</TEN_MAY>
+    <MODEL>Fluke Ti25 Thermal Imager</MODEL>
+    <TEN_HSX>Fluke Corporation</TEN_HSX>
+    <NUOC_SX>USA</NUOC_SX>
+    <SERIAL_NUMBER>Ti25-08090414</SERIAL_NUMBER>
+    <NHIEM_VU_THIET_BI>KIEM TRA NHIET DO</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2009-06-02T16:48:36.467+07:00</NGAY_NHAP1>
+    <NGAY_SX>2008-12-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <TEN_TAI_LIEU>Accuracy: 2 C or 2% of Reading (whichever is greater)
+Measurement Temp Range: -20 c to +350 c (Not Calib Under -10 c)
+</TEN_TAI_LIEU>
+    <MS_LOAI_MAY>51</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Machine tools / Máy công cụ</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>FT001A</MS_MAY>
+    <TEN_MAY>Foam tank</TEN_MAY>
+    <MODEL>Cap 1125</MODEL>
+    <TEN_HSX>Angus</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>11</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bồn chứa</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>FT002A</MS_MAY>
+    <TEN_MAY>Foam tank</TEN_MAY>
+    <MODEL>Cap 1125</MODEL>
+    <TEN_HSX>Angus</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>11</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bồn chứa</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>GE000A</MS_MAY>
+    <TEN_MAY>Generator</TEN_MAY>
+    <MODEL>G2000</MODEL>
+    <TEN_HSX>SDMO</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>32</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy phát điện </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>GR000A</MS_MAY>
+    <TEN_MAY>Grinder</TEN_MAY>
+    <MODEL>GSM 200</MODEL>
+    <TEN_HSX>Bosch</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>51</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Machine tools / Máy công cụ</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>HE001A</MS_MAY>
+    <TEN_MAY>Heater 1</TEN_MAY>
+    <TEN_HSX>T – W </TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>54</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Lò nung</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>HE002A</MS_MAY>
+    <TEN_MAY>Heater 2</TEN_MAY>
+    <TEN_HSX>T – W </TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>54</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Lò nung</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>HO110B</MS_MAY>
+    <TEN_MAY>Charging hopper</TEN_MAY>
+    <MODEL>V= 120 kg SU min.</MODEL>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 11000</TEN_HE_THONG>
+    <MS_HE_THONG>11</MS_HE_THONG>
+    <MS_LOAI_MAY>11</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bồn chứa</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>HO120B</MS_MAY>
+    <TEN_MAY>Charging hopper</TEN_MAY>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 12000</TEN_HE_THONG>
+    <MS_HE_THONG>12</MS_HE_THONG>
+    <MS_LOAI_MAY>11</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bồn chứa</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>HO130B</MS_MAY>
+    <TEN_MAY>Charging hopper</TEN_MAY>
+    <MODEL>V= 120 kg SU min.</MODEL>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 13000</TEN_HE_THONG>
+    <MS_HE_THONG>13</MS_HE_THONG>
+    <MS_LOAI_MAY>11</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bồn chứa</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>HO150A</MS_MAY>
+    <TEN_MAY>Chemical Hopper</TEN_MAY>
+    <MODEL>L1000XW1000XH1000 SS304</MODEL>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-08-09T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-08-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 15000</TEN_HE_THONG>
+    <MS_HE_THONG>15</MS_HE_THONG>
+    <MS_LOAI_MAY>11</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bồn chứa</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>IN011A</MS_MAY>
+    <TEN_MAY>Indicator 1</TEN_MAY>
+    <MODEL>PR 1612</MODEL>
+    <TEN_HSX>Philips</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>IN012A</MS_MAY>
+    <TEN_MAY>Indicator 2</TEN_MAY>
+    <MODEL>PR 1612</MODEL>
+    <TEN_HSX>Philips</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>IN020A</MS_MAY>
+    <TEN_MAY>Indicator 1</TEN_MAY>
+    <MODEL>PR 1612</MODEL>
+    <TEN_HSX>Philips</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 2000</TEN_HE_THONG>
+    <MS_HE_THONG>2</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>IN041A</MS_MAY>
+    <TEN_MAY>Indicator 1</TEN_MAY>
+    <MODEL>PR1612</MODEL>
+    <TEN_HSX>Philips</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>IN042A</MS_MAY>
+    <TEN_MAY>Indicator 2</TEN_MAY>
+    <MODEL>PR 1612</MODEL>
+    <TEN_HSX>Philips</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>IS050A</MS_MAY>
+    <TEN_MAY>Induction Capsealer/ Máy hàn cao tần</TEN_MAY>
+    <MODEL>2 kw UniFoiler</MODEL>
+    <TEN_HSX>Piller</TEN_HSX>
+    <NUOC_SX>USA</NUOC_SX>
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI>Han nap chai</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 5000</TEN_HE_THONG>
+    <MS_HE_THONG>5</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>28</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy Induction sealer</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>IS060A</MS_MAY>
+    <TEN_MAY>Induction sealer/Máy hàn cao tần</TEN_MAY>
+    <TEN_HSX>Piller</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <MS_LOAI_MAY>28</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy Induction sealer</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>IS080B</MS_MAY>
+    <TEN_MAY>Induction sealer</TEN_MAY>
+    <TEN_HSX>Piller</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2005-08-07T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2005-08-07T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 8000</TEN_HE_THONG>
+    <MS_HE_THONG>8</MS_HE_THONG>
+    <MS_LOAI_MAY>28</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy Induction sealer</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>IS090A</MS_MAY>
+    <TEN_MAY>Induction sealer/Máy hàn cao tần</TEN_MAY>
+    <TEN_HSX>Piller</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 9000</TEN_HE_THONG>
+    <MS_HE_THONG>9</MS_HE_THONG>
+    <MS_LOAI_MAY>28</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy Induction sealer</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>JE050A</MS_MAY>
+    <TEN_MAY>INK Jet</TEN_MAY>
+    <MODEL>37E</MODEL>
+    <TEN_HSX>Video Jet</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 5000</TEN_HE_THONG>
+    <MS_HE_THONG>5</MS_HE_THONG>
+    <MS_LOAI_MAY>24</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy đóng code</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>JE060A</MS_MAY>
+    <TEN_MAY>INK Jet</TEN_MAY>
+    <MODEL>37E</MODEL>
+    <TEN_HSX>Video Jet</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <MS_LOAI_MAY>24</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy đóng code</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>JP001A</MS_MAY>
+    <TEN_MAY>New jacking pump</TEN_MAY>
+    <MODEL>CR 2</MODEL>
+    <TEN_HSX>Grundfos</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>6</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm / Pump</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>JP002A</MS_MAY>
+    <TEN_MAY>Old jacking pump</TEN_MAY>
+    <MODEL>MP 400/8V</MODEL>
+    <TEN_HSX>Pentax</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>6</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm / Pump</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>LA050A</MS_MAY>
+    <TEN_MAY>Lable Machine / Máy dán nhãn Basic</TEN_MAY>
+    <MODEL>BA 100/01 GR</MODEL>
+    <TEN_HSX>BASIC</TEN_HSX>
+    <NUOC_SX>FRANCE</NUOC_SX>
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI>DAN NHAN</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-11-26T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-11-26T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 5000</TEN_HE_THONG>
+    <MS_HE_THONG>5</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>22</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy dán nhãn </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>LA060A</MS_MAY>
+    <TEN_MAY>Label machine</TEN_MAY>
+    <MODEL>BA 100/01 GR</MODEL>
+    <TEN_HSX>BASIC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <MS_LOAI_MAY>22</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy dán nhãn </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>LA080B</MS_MAY>
+    <TEN_MAY>Labeling Machine</TEN_MAY>
+    <MODEL>K916</MODEL>
+    <TEN_HSX>CKC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2006-10-07T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2006-10-07T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 8000</TEN_HE_THONG>
+    <MS_HE_THONG>8</MS_HE_THONG>
+    <MS_LOAI_MAY>22</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy dán nhãn </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>LA090A</MS_MAY>
+    <TEN_MAY>Máy dán nhãn / Lable machine</TEN_MAY>
+    <MODEL>CY 2000</MODEL>
+    <TEN_HSX>CKC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-06-26T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-06-26T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 9000</TEN_HE_THONG>
+    <MS_HE_THONG>9</MS_HE_THONG>
+    <MS_LOAI_MAY>22</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy dán nhãn </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>LA120B</MS_MAY>
+    <TEN_MAY>Labeling Machine</TEN_MAY>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2008-06-02T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2008-06-02T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 12000</TEN_HE_THONG>
+    <MS_HE_THONG>12</MS_HE_THONG>
+    <MS_LOAI_MAY>22</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy dán nhãn </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>MA001A</MS_MAY>
+    <TEN_MAY>Motor Agitator 1</TEN_MAY>
+    <MODEL>K11R 160M4</MODEL>
+    <TEN_HSX>Vem</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>14</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cánh khuấy </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>MA002A</MS_MAY>
+    <TEN_MAY>Motor Agitator 2</TEN_MAY>
+    <MODEL>K11R 160M4</MODEL>
+    <TEN_HSX>Vem</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>14</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cánh khuấy </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>MF000A</MS_MAY>
+    <TEN_MAY>Motor Filla Fan</TEN_MAY>
+    <MODEL>ENCV 160 MD</MODEL>
+    <TEN_HSX>Loher</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>MS111B</MS_MAY>
+    <TEN_MAY>Master scale 1</TEN_MAY>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 11000</TEN_HE_THONG>
+    <MS_HE_THONG>11</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>MS112B</MS_MAY>
+    <TEN_MAY>Master scale 2</TEN_MAY>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 11000</TEN_HE_THONG>
+    <MS_HE_THONG>11</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>MS121B</MS_MAY>
+    <TEN_MAY>Master scale </TEN_MAY>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 12000</TEN_HE_THONG>
+    <MS_HE_THONG>12</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>MS122B</MS_MAY>
+    <TEN_MAY>End line scale</TEN_MAY>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 12000</TEN_HE_THONG>
+    <MS_HE_THONG>12</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>MS131B</MS_MAY>
+    <TEN_MAY>Master scale </TEN_MAY>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 13000</TEN_HE_THONG>
+    <MS_HE_THONG>13</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>MS132B</MS_MAY>
+    <TEN_MAY>End line scale</TEN_MAY>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 13000</TEN_HE_THONG>
+    <MS_HE_THONG>13</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>MS151A</MS_MAY>
+    <TEN_MAY>Master scale 1 &amp; Printer</TEN_MAY>
+    <MODEL>Range - 1.5Kg- d=0.01</MODEL>
+    <TEN_HSX>Satorius</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-08-09T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-08-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 15000</TEN_HE_THONG>
+    <MS_HE_THONG>15</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>MV000A</MS_MAY>
+    <TEN_MAY>Motor Rotary Valve</TEN_MAY>
+    <MODEL>RF 57</MODEL>
+    <TEN_HSX>SEW</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>40</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy VOLPAK VE280</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>NC000A</MS_MAY>
+    <TEN_MAY>Nitrogen Compress</TEN_MAY>
+    <MODEL>MD 9912</MODEL>
+    <TEN_HSX>Cabor Tech</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>31</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy nitơ</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>NC001A</MS_MAY>
+    <TEN_MAY>Máy tạo khí Nitơ</TEN_MAY>
+    <MODEL>maxigas 104 ecbll</MODEL>
+    <TEN_HSX>Domnick Hunter</TEN_HSX>
+    <NUOC_SX>Germany</NUOC_SX>
+    <SERIAL_NUMBER>08MX0382</SERIAL_NUMBER>
+    <NHIEM_VU_THIET_BI>Tạo khí Nitơ</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2009-03-25T16:44:24.663+07:00</NGAY_NHAP1>
+    <NGAY_SX>2008-12-04T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <TEN_TAI_LIEU>Par number: 646500402</TEN_TAI_LIEU>
+    <MS_LOAI_MAY>31</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy nitơ</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>OP001A</MS_MAY>
+    <TEN_MAY>New diesel pump</TEN_MAY>
+    <MODEL>4GT3.9 - C</MODEL>
+    <TEN_HSX>Cummins</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-25T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-25T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>9</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm diesel chữa cháy </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>OP002A</MS_MAY>
+    <TEN_MAY>Old diesel pump</TEN_MAY>
+    <MODEL>ZT 5210</MODEL>
+    <TEN_HSX>John Deere</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>9</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm diesel chữa cháy </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PA010A</MS_MAY>
+    <TEN_MAY>Packaging Machine </TEN_MAY>
+    <MODEL>VE - 280</MODEL>
+    <TEN_HSX>Volpak</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>40</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy VOLPAK VE280</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PA020A</MS_MAY>
+    <TEN_MAY>Packaging Machine </TEN_MAY>
+    <MODEL>S-165 D</MODEL>
+    <TEN_HSX>Volpak</TEN_HSX>
+    <NUOC_SX>SPAIN</NUOC_SX>
+    <SERIAL_NUMBER>19</SERIAL_NUMBER>
+    <NHIEM_VU_THIET_BI>Máy đóng gói</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-06-30T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 2000</TEN_HE_THONG>
+    <MS_HE_THONG>2</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>37</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy VOLPAK S165</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PA031A</MS_MAY>
+    <TEN_MAY>Máy đóng gói VPZ-140 Duplex (Packaging Machine)</TEN_MAY>
+    <MODEL>VPZ- 140</MODEL>
+    <TEN_HSX>Wolf</TEN_HSX>
+    <NUOC_SX />
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2008-12-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 3000</TEN_HE_THONG>
+    <MS_HE_THONG>3</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>41</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy WOLF VPZ140</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PA032A</MS_MAY>
+    <TEN_MAY>Máy đóng gói VPZ-140 Duplex (Packaging Machine)</TEN_MAY>
+    <MODEL>VPZ- 140</MODEL>
+    <TEN_HSX>Wolf</TEN_HSX>
+    <NUOC_SX>Germany</NUOC_SX>
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2008-12-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 3000</TEN_HE_THONG>
+    <MS_HE_THONG>3</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>41</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy WOLF VPZ140</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PA100A</MS_MAY>
+    <TEN_MAY>May dong goi Wolf- VPP + 250</TEN_MAY>
+    <MODEL>TT</MODEL>
+    <TEN_HSX>Wolf</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2008-02-02T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2008-02-02T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 10000</TEN_HE_THONG>
+    <MS_HE_THONG>10</MS_HE_THONG>
+    <MS_LOAI_MAY>42</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy WOLF VPP250</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PA110B</MS_MAY>
+    <TEN_MAY>FFS-Filling machine</TEN_MAY>
+    <MODEL>Wolf VPZ 140</MODEL>
+    <TEN_HSX>Wolf</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 11000</TEN_HE_THONG>
+    <MS_HE_THONG>11</MS_HE_THONG>
+    <MS_LOAI_MAY>41</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy WOLF VPZ140</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PA130B</MS_MAY>
+    <TEN_MAY>FFS-Filling machine</TEN_MAY>
+    <MODEL>Wolf VPZ 140</MODEL>
+    <TEN_HSX>Wolf</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 13000</TEN_HE_THONG>
+    <MS_HE_THONG>13</MS_HE_THONG>
+    <MS_LOAI_MAY>41</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy WOLF VPZ140</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PA140A</MS_MAY>
+    <TEN_MAY>Packaging machine</TEN_MAY>
+    <MODEL>SL-130 D</MODEL>
+    <TEN_HSX>Volpak</TEN_HSX>
+    <NUOC_SX>SPAIN</NUOC_SX>
+    <SERIAL_NUMBER>02.83.007</SERIAL_NUMBER>
+    <NHIEM_VU_THIET_BI>Máy đóng gói</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2002-02-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 14000</TEN_HE_THONG>
+    <MS_HE_THONG>14</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>39</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy VOLPAK SL130D</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PA150A</MS_MAY>
+    <TEN_MAY>Packaging machine</TEN_MAY>
+    <MODEL>K-168</MODEL>
+    <TEN_HSX>CKC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-08-09T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-08-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 15000</TEN_HE_THONG>
+    <MS_HE_THONG>15</MS_HE_THONG>
+    <MS_LOAI_MAY>52</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>CKC-168</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PC000A</MS_MAY>
+    <TEN_MAY>Portable Compressor</TEN_MAY>
+    <MODEL>AC 20-30</MODEL>
+    <TEN_HSX>PUMA</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>30</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy nén khí</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PL001A</MS_MAY>
+    <TEN_MAY>Nhà kho thành phẩm đóng gói</TEN_MAY>
+    <MODEL />
+    <TEN_HSX>Becker</TEN_HSX>
+    <NUOC_SX />
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-01-11T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-01-11T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>43</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Nhà xưởng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PP001A</MS_MAY>
+    <TEN_MAY>Pneumatic Pump Soll</TEN_MAY>
+    <MODEL>AD 32 STT - E</MODEL>
+    <TEN_HSX>Almatec</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>10</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm màng </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PW010A</MS_MAY>
+    <TEN_MAY>Pallet wrapping Machine</TEN_MAY>
+    <MODEL>SDME</MODEL>
+    <TEN_HSX>Ameca</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>33</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy quấn palet</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>PW060A</MS_MAY>
+    <TEN_MAY>Pallet wrapping Machine</TEN_MAY>
+    <MODEL>DSME</MODEL>
+    <TEN_HSX>Ameca</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <MS_LOAI_MAY>33</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy quấn palet</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>RC041A</MS_MAY>
+    <TEN_MAY>Roll Conveyor 1</TEN_MAY>
+    <MODEL>TRS</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>RC042A</MS_MAY>
+    <TEN_MAY>Roll Conveyor 2</TEN_MAY>
+    <MODEL>TRS</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>RC043A</MS_MAY>
+    <TEN_MAY>Rotary Conveyor (ROLL CONVEYOR)</TEN_MAY>
+    <MODEL>TableTournante</MODEL>
+    <TEN_HSX>Somefi</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>5</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải / Conveyor</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>RV000A</MS_MAY>
+    <TEN_MAY>Rotary Valve</TEN_MAY>
+    <MODEL> AJK – ZS         </MODEL>
+    <TEN_HSX>Kolleman</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>55</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Monitor / Thiết bị giám sát</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>RX010A</MS_MAY>
+    <TEN_MAY>Rotary Mixer</TEN_MAY>
+    <MODEL>700 TH-40</MODEL>
+    <TEN_HSX>Munson</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>12</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bồn trộn MUNSON</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>SC010A</MS_MAY>
+    <TEN_MAY>Screw transfer conveyer</TEN_MAY>
+    <TEN_HSX>Chau Phu</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-12-11T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-12-11T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>49</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Vít tải cát </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>SC110B</MS_MAY>
+    <TEN_MAY>Screw feeder (SCREW TRANSFER CONVEYOR)</TEN_MAY>
+    <MODEL>Wolf SD25</MODEL>
+    <TEN_HSX>Wolf</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 11000</TEN_HE_THONG>
+    <MS_HE_THONG>11</MS_HE_THONG>
+    <MS_LOAI_MAY>48</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Tải liệu</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>SC1300B</MS_MAY>
+    <TEN_MAY>Screw feeder (SCREW TRANSFER CONVEYOR)</TEN_MAY>
+    <MODEL>Wolf SD25</MODEL>
+    <TEN_HSX>Wolf</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 13000</TEN_HE_THONG>
+    <MS_HE_THONG>13</MS_HE_THONG>
+    <MS_LOAI_MAY>48</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Tải liệu</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>SC150A</MS_MAY>
+    <TEN_MAY>Horizontal screw conveyor (SCREW TRANSFER CONVEYOR)</TEN_MAY>
+    <MODEL>380V / 0.5HP i= 30 </MODEL>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-08-09T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-08-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 15000</TEN_HE_THONG>
+    <MS_HE_THONG>15</MS_HE_THONG>
+    <MS_LOAI_MAY>48</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Tải liệu</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>SH150A</MS_MAY>
+    <TEN_MAY>Air shower cabinet </TEN_MAY>
+    <MODEL>L1400XW1000XH2180 SS304</MODEL>
+    <TEN_HSX>KLC</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-08-09T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-08-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 15000</TEN_HE_THONG>
+    <MS_HE_THONG>15</MS_HE_THONG>
+    <MS_LOAI_MAY>35</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy Shower </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>ST010A</MS_MAY>
+    <TEN_MAY>Sticky Tape Machine</TEN_MAY>
+    <MODEL>710</MODEL>
+    <TEN_HSX>Endoline</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <MS_LOAI_MAY>21</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy dán băng keo</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>ST040A</MS_MAY>
+    <TEN_MAY>Sticky Tape Machine</TEN_MAY>
+    <MODEL>710</MODEL>
+    <TEN_HSX>Endoline</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 4000</TEN_HE_THONG>
+    <MS_HE_THONG>4</MS_HE_THONG>
+    <MS_LOAI_MAY>21</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy dán băng keo</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>ST050A</MS_MAY>
+    <TEN_MAY>Sticky Tape Machine</TEN_MAY>
+    <MODEL>710</MODEL>
+    <TEN_HSX>Endoline</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 5000</TEN_HE_THONG>
+    <MS_HE_THONG>5</MS_HE_THONG>
+    <MS_LOAI_MAY>21</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy dán băng keo</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>ST060A</MS_MAY>
+    <TEN_MAY />
+    <MODEL>710</MODEL>
+    <TEN_HSX>Endoline</TEN_HSX>
+    <NUOC_SX />
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 6000</TEN_HE_THONG>
+    <MS_HE_THONG>6</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>21</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy dán băng keo</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>ST080B</MS_MAY>
+    <TEN_MAY>Sticky Tape Machine</TEN_MAY>
+    <MODEL>710</MODEL>
+    <TEN_HSX>Endoline</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 8000</TEN_HE_THONG>
+    <MS_HE_THONG>8</MS_HE_THONG>
+    <MS_LOAI_MAY>21</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy dán băng keo</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>ST100A</MS_MAY>
+    <TEN_MAY>Sticky Tape Machine</TEN_MAY>
+    <MODEL>710</MODEL>
+    <TEN_HSX>Endoline</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2006-04-22T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2006-04-22T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 10000</TEN_HE_THONG>
+    <MS_HE_THONG>10</MS_HE_THONG>
+    <MS_LOAI_MAY>21</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy dán băng keo</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>ST120B</MS_MAY>
+    <TEN_MAY>Tapping machine</TEN_MAY>
+    <TEN_HSX>Local</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-07-06T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-07-06T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 12000</TEN_HE_THONG>
+    <MS_HE_THONG>12</MS_HE_THONG>
+    <MS_LOAI_MAY>21</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy dán băng keo</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>TB000A</MS_MAY>
+    <TEN_MAY>Table Balance</TEN_MAY>
+    <MODEL>FAA 6</MODEL>
+    <TEN_HSX>Mettle</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>VE000A</MS_MAY>
+    <TEN_MAY>Dust fillter (VENTILATION)</TEN_MAY>
+    <MODEL>UMA 253  G8</MODEL>
+    <TEN_HSX>Unimaste</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>36</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy ventilation</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>VE030A</MS_MAY>
+    <TEN_MAY>Ventilation system </TEN_MAY>
+    <TEN_HSX>Chau Phu</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-02-07T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-02-07T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 3000</TEN_HE_THONG>
+    <MS_HE_THONG>3</MS_HE_THONG>
+    <MS_LOAI_MAY>36</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy ventilation</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>VE140A</MS_MAY>
+    <TEN_MAY>Ventilation system </TEN_MAY>
+    <MODEL>DCE Unit - UMA 152K3/1.8Kw</MODEL>
+    <TEN_HSX>DCE</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 14000</TEN_HE_THONG>
+    <MS_HE_THONG>14</MS_HE_THONG>
+    <MS_LOAI_MAY>36</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy ventilation</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>VE150A</MS_MAY>
+    <TEN_MAY>Ventilation system </TEN_MAY>
+    <MODEL>Cartridge Filter 2800m3/h /1.8Kw</MODEL>
+    <TEN_HSX>Chau Phu</TEN_HSX>
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2007-08-09T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2007-08-09T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 15000</TEN_HE_THONG>
+    <MS_HE_THONG>15</MS_HE_THONG>
+    <MS_LOAI_MAY>36</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Máy ventilation</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>VP011A</MS_MAY>
+    <TEN_MAY>Vacuum Pump Busch 1</TEN_MAY>
+    <MODEL>RA-0255 D 501 QNXX</MODEL>
+    <TEN_HSX>Busch</TEN_HSX>
+    <NUOC_SX>Switzerland</NUOC_SX>
+    <SERIAL_NUMBER>C0238000209</SERIAL_NUMBER>
+    <NHIEM_VU_THIET_BI>Bơm chân không</NHIEM_VU_THIET_BI>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-05-02T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-05-02T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <TEN_TAI_LIEU>p:  2.5 hpa (mbar)
+Oil ISO VG: 100/0.5 l</TEN_TAI_LIEU>
+    <MS_LOAI_MAY>7</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm chân không</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>VP012A</MS_MAY>
+    <TEN_MAY>Vacuum Pump Becker 1</TEN_MAY>
+    <MODEL>U4 - 190</MODEL>
+    <TEN_HSX>Becker</TEN_HSX>
+    <NUOC_SX />
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>7</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm chân không</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>VP013A</MS_MAY>
+    <TEN_MAY>Vacuum Pump Busch 2</TEN_MAY>
+    <MODEL>R5 - 0250</MODEL>
+    <TEN_HSX>Busch</TEN_HSX>
+    <NUOC_SX />
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2002-12-08T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2002-12-08T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 1000</TEN_HE_THONG>
+    <MS_HE_THONG>1</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>7</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm chân không</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>VP030A</MS_MAY>
+    <TEN_MAY>Vacuum Pump</TEN_MAY>
+    <MODEL>VT4-40</MODEL>
+    <TEN_HSX>Becker</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 3000</TEN_HE_THONG>
+    <MS_HE_THONG>3</MS_HE_THONG>
+    <MS_LOAI_MAY>7</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm chân không</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>VP140A</MS_MAY>
+    <TEN_MAY>Vacuum Pump</TEN_MAY>
+    <MODEL>Becker VT40- 40m3/h 1.1Kw</MODEL>
+    <TEN_HSX>Becker</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>Line 14000</TEN_HE_THONG>
+    <MS_HE_THONG>14</MS_HE_THONG>
+    <MS_LOAI_MAY>7</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bơm chân không</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>WE001A</MS_MAY>
+    <TEN_MAY>Máy hàn 1 / Welder 1</TEN_MAY>
+    <MODEL>KE 52</MODEL>
+    <TEN_HSX>Tiến Đạt</TEN_HSX>
+    <NUOC_SX>Viet Nam</NUOC_SX>
+    <SERIAL_NUMBER />
+    <NHIEM_VU_THIET_BI />
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>1998-11-20T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>1998-11-20T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <TEN_TAI_LIEU />
+    <MS_LOAI_MAY>51</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Machine tools / Máy công cụ</TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>WT001A</MS_MAY>
+    <TEN_MAY>Weighing Terminal</TEN_MAY>
+    <MODEL>ID 5 SX</MODEL>
+    <TEN_HSX>Mettle</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <DS_TB>
+    <MS_MAY>WT002A</MS_MAY>
+    <TEN_MAY>Weighing Terminal</TEN_MAY>
+    <MODEL>ID 5 SX</MODEL>
+    <TEN_HSX>Mettle</TEN_HSX>
+    <TEN_HIEN_TRANG>Đang sử dụng</TEN_HIEN_TRANG>
+    <NGAY_NHAP1>2000-08-05T00:00:00+07:00</NGAY_NHAP1>
+    <NGAY_SX>2000-08-05T00:00:00+07:00</NGAY_SX>
+    <TEN_HE_THONG>No line</TEN_HE_THONG>
+    <MS_HE_THONG>0</MS_HE_THONG>
+    <MS_LOAI_MAY>13</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Cân </TEN_LOAI_MAY>
+  </DS_TB>
+  <rptTitlereport>
+    <THONG_TIN_CTY>CÔNG TY TNHH BAYER VIỆT NAM
+118/4 KCN Amata, Biên Hòa , Đồng Nai
+Telephone: 0613936950  Fax: 0613936951</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>350</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>80</LE_TREN_LOGO>
+    <WIDTH>1500</WIDTH>
+    <HEIGHT>1100</HEIGHT>
+    <NGAY_IN>?PRINT_DATE?24/10/2009</NGAY_IN>
+    <PAGE>?PAGE?</PAGE>
+    <OFPAGE>?OF?</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

@@ -1,0 +1,4 @@
+01/01/0001:12:00 AM LOAI1-41 : The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at: Error. 
+01/01/0001:12:00 AM LOAI1-51 | The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses: Error. 
+01/01/0001:12:00 AM LOAI1-55 | The specified string is not in the form required for an e-mail address.: Error. 

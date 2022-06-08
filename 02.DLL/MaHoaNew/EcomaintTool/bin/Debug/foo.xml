@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <someNode>someValue</someNode>
+  <someNode1>someValue2</someNode1>
+</root>

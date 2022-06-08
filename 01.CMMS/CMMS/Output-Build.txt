@@ -1,0 +1,5 @@
+﻿1>------ Rebuild All started: Project: CMMS, Configuration: Debug Any CPU ------
+1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1820,5): warning MSB3277: Found conflicts between different versions of the same dependent assembly that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+1>D:\01.Code\01.CMMS\CMMS\Forms\Choices\frmNhapTaiChe.vb(44,160): warning BC42324: Using the iteration variable in a lambda expression may have unexpected results.  Instead, create a local variable within the loop and assign it the value of the iteration variable.
+1>  CMMS -> D:\01.Code\01.CMMS\CMMS\bin\Debug\CMMS.exe
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========

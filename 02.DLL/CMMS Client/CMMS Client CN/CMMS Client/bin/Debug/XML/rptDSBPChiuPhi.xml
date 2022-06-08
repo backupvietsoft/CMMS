@@ -1,0 +1,3632 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rptTHONG_TIN_CHUNG_TMP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="150" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="DIA_CHI_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DIEN_THOAI" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="15" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Fax" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="15" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="ngay_in" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTieuDeDSBPChiuPhi">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="commons.Modules.TypeLanguage" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayIn" type="xs:string" minOccurs="0" />
+                <xs:element name="TrangIn" type="xs:string" minOccurs="0" />
+                <xs:element name="TieuDe" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="ThietBi" type="xs:string" minOccurs="0" />
+                <xs:element name="SoThe" type="xs:string" minOccurs="0" />
+                <xs:element name="LoaiThietBi" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayLap" type="xs:string" minOccurs="0" />
+                <xs:element name="BoPhanCP" type="xs:string" minOccurs="0" />
+                <xs:element name="TenNhaXuong" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptDSBPChiuPhi_TMP" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_N_XUONG_FINAL">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_CHA" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_MAY_FINAL" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_TINH" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_QUAN" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="19" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_DUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_THE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_NHOM_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_NHAP" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MS_NHOM_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_BP_CHIU_PHI" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Ten_N_XUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_N_XUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rptTHONG_TIN_CHUNG_TMP>
+    <THONG_TIN_CTY>Công ty phần mềm Vietsoft </THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <DIA_CHI_CTY>27/49 B Hậu Giang, P.4, Q. Tân Bình, TP HCM</DIA_CHI_CTY>
+    <DIEN_THOAI>84-8-38762222</DIEN_THOAI>
+    <Fax>84-8-38762225</Fax>
+    <WIDTH>2000</WIDTH>
+    <HEIGHT>800</HEIGHT>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <ngay_in>22/01/2014</ngay_in>
+  </rptTHONG_TIN_CHUNG_TMP>
+  <rptTieuDeDSBPChiuPhi>
+    <commons.Modules.TypeLanguage>0</commons.Modules.TypeLanguage>
+    <NgayIn>Ngày in</NgayIn>
+    <TrangIn>Trang in</TrangIn>
+    <TieuDe>DANH SÁCH THIẾT BỊ THEO BỘ PHẬN CHỊU PHÍ</TieuDe>
+    <STT>STT</STT>
+    <ThietBi>MS thiết bị</ThietBi>
+    <SoThe>Số thẻ</SoThe>
+    <LoaiThietBi>Nhóm thiết bị</LoaiThietBi>
+    <NgayLap>Ngày lắp đặt</NgayLap>
+    <BoPhanCP>Bộ phận chịu phí</BoPhanCP>
+    <TenNhaXuong>Địa điểm</TenNhaXuong>
+  </rptTieuDeDSBPChiuPhi>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>0</MS_MAY_FINAL>
+    <MS_MAY>0</MS_MAY>
+    <SO_THE>22</SO_THE>
+    <TEN_NHOM_MAY>Cosen</TEN_NHOM_MAY>
+    <NGAY_NHAP>1900-01-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>11.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>10034776</MS_N_XUONG_FINAL>
+    <MS_CHA>NX001</MS_CHA>
+    <MS_MAY_FINAL>00037EG</MS_MAY_FINAL>
+    <MS_MAY>00037EG</MS_MAY>
+    <SO_THE>618346</SO_THE>
+    <TEN_NHOM_MAY>Charmilles</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-05-05T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>10.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Nguyen Thi Hoa</Ten_N_XUONG>
+    <MS_N_XUONG>10034776</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>00320EG</MS_MAY_FINAL>
+    <MS_MAY>00320EG</MS_MAY>
+    <SO_THE>703849</SO_THE>
+    <TEN_NHOM_MAY>FONGKEE</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-04-27T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>CEN</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>10034776</MS_N_XUONG_FINAL>
+    <MS_CHA>NX001</MS_CHA>
+    <MS_MAY_FINAL>00323EG</MS_MAY_FINAL>
+    <MS_MAY>00323EG</MS_MAY>
+    <SO_THE>703867</SO_THE>
+    <TEN_NHOM_MAY>Fanuc</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-04-27T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>10.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>CENNITECH</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Nguyen Thi Hoa</Ten_N_XUONG>
+    <MS_N_XUONG>10034776</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>00327EG</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>00327EG</MS_MAY>
+    <SO_THE>705175</SO_THE>
+    <TEN_NHOM_MAY>CHIAMING TĐ</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-04-27T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>15.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>VIETSOFT</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>00329EG</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>00329EG</MS_MAY>
+    <SO_THE>705185</SO_THE>
+    <TEN_NHOM_MAY>Fanuc</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-04-27T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>10.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>NANG SUAT XANH</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>10034776</MS_N_XUONG_FINAL>
+    <MS_CHA>NX001</MS_CHA>
+    <MS_MAY_FINAL>02095</MS_MAY_FINAL>
+    <MS_MAY>02095</MS_MAY>
+    <SO_THE>708606</SO_THE>
+    <TEN_NHOM_MAY>JOHN HUAH</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-07-16T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Nguyen Thi Hoa</Ten_N_XUONG>
+    <MS_N_XUONG>10034776</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>10034776</MS_N_XUONG_FINAL>
+    <MS_CHA>NX001</MS_CHA>
+    <MS_MAY_FINAL>020951</MS_MAY_FINAL>
+    <MS_MAY>020951</MS_MAY>
+    <SO_THE>708606</SO_THE>
+    <TEN_NHOM_MAY>JOHN HUAH</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-07-16T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Nguyen Thi Hoa</Ten_N_XUONG>
+    <MS_N_XUONG>10034776</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>10034776</MS_N_XUONG_FINAL>
+    <MS_CHA>NX001</MS_CHA>
+    <MS_MAY_FINAL>02095PP1</MS_MAY_FINAL>
+    <MS_MAY>02095PP1</MS_MAY>
+    <SO_THE>708606</SO_THE>
+    <TEN_NHOM_MAY>JOHN HUAH</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-07-04T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Nguyen Thi Hoa</Ten_N_XUONG>
+    <MS_N_XUONG>10034776</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>10034776</MS_N_XUONG_FINAL>
+    <MS_CHA>NX001</MS_CHA>
+    <MS_MAY_FINAL>02095PP2</MS_MAY_FINAL>
+    <MS_MAY>02095PP2</MS_MAY>
+    <SO_THE>708606</SO_THE>
+    <TEN_NHOM_MAY>Cosen</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-07-04T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>11.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Nguyen Thi Hoa</Ten_N_XUONG>
+    <MS_N_XUONG>10034776</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>1111</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>1111</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Industrial Air condictioner</TEN_NHOM_MAY>
+    <NGAY_NHAP>2010-11-15T13:11:03.61+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>57</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>123</MS_MAY_FINAL>
+    <MS_MAY>123</MS_MAY>
+    <SO_THE>123878</SO_THE>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-03-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>456</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>456</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Industrial Air condictioner</TEN_NHOM_MAY>
+    <NGAY_NHAP>2010-11-15T13:11:03.61+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>57</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>546</MS_MAY_FINAL>
+    <MS_MAY>546</MS_MAY>
+    <SO_THE>123878</SO_THE>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-03-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>BHCA-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>BHCA-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>FU SHENG</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-08T13:24:59.59+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>17.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>BHCA-02</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>BHCA-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>FU SHENG</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-08T13:24:59.59+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>17.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>BHCA-04</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>BHCA-04</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>TAIPEI</TEN_NHOM_MAY>
+    <NGAY_NHAP>2006-01-13T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>17.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>BHCA-05</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>BHCA-05</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>TAIPEI</TEN_NHOM_MAY>
+    <NGAY_NHAP>2006-01-13T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>17.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>BHTA-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>BHTA-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Fusheng</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-10-17T14:56:13.7+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>16.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>BHTA-02</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>BHTA-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Fusheng</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-10-17T14:56:13.7+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>16.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>BOMNUOCEP</MS_MAY_FINAL>
+    <MS_MAY>BOMNUOCEP</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BOM NUOC</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-10-20T09:04:12.56+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>19.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>BOMNUOCTHOI1</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>BOMNUOCTHOI1</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BOM NUOC</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-10-20T09:45:23.393+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>19.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>BOMNUOCTHOI2</MS_MAY_FINAL>
+    <MS_MAY>BOMNUOCTHOI2</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BOM NUOC</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-10-15T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>19.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CAT-DAY-01</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>CAT-DAY-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Charmilles</TEN_NHOM_MAY>
+    <NGAY_NHAP>2005-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>10.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CAT-DAY-02</MS_MAY_FINAL>
+    <MS_MAY>CAT-DAY-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Fanuc</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-02T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>10.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CAT-DAY-03</MS_MAY_FINAL>
+    <MS_MAY>CAT-DAY-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>GoldSan</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>10.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CH-01</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>CH-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Taiwan</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-11T16:28:46+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>64.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CH-02</MS_MAY_FINAL>
+    <MS_MAY>CH-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Taiwan</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-11T16:28:46+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>64.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CH-03</MS_MAY_FINAL>
+    <MS_MAY>CH-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Taiwan</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-11T16:28:46+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>64.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CHIAMING-01</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>CHIAMING-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CHIAMING</TEN_NHOM_MAY>
+    <NGAY_NHAP>2001-10-23T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CHIAMING-02</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>CHIAMING-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CHIAMING</TEN_NHOM_MAY>
+    <NGAY_NHAP>2001-10-23T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CHIAMING-03</MS_MAY_FINAL>
+    <MS_MAY>CHIAMING-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CHIAMING</TEN_NHOM_MAY>
+    <NGAY_NHAP>2001-10-23T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF100-01</MS_MAY_FINAL>
+    <MS_MAY>CLF100-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2001-12-12T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF100-02</MS_MAY_FINAL>
+    <MS_MAY>CLF100-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2001-12-12T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF100-03</MS_MAY_FINAL>
+    <MS_MAY>CLF100-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2001-12-12T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF120-01</MS_MAY_FINAL>
+    <MS_MAY>CLF120-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-02-13T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF120-02</MS_MAY_FINAL>
+    <MS_MAY>CLF120-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-02-13T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF120-03</MS_MAY_FINAL>
+    <MS_MAY>CLF120-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-02-13T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF125-01</MS_MAY_FINAL>
+    <MS_MAY>CLF125-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>1999-04-25T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF125-02</MS_MAY_FINAL>
+    <MS_MAY>CLF125-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>1999-04-25T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF125-03</MS_MAY_FINAL>
+    <MS_MAY>CLF125-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>1999-04-25T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF200-01</MS_MAY_FINAL>
+    <MS_MAY>CLF200-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-03-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF250-01</MS_MAY_FINAL>
+    <MS_MAY>CLF250-01</MS_MAY>
+    <SO_THE>123878</SO_THE>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-03-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF250-02</MS_MAY_FINAL>
+    <MS_MAY>CLF250-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-03-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF250-03</MS_MAY_FINAL>
+    <MS_MAY>CLF250-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-03-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF250-06</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>CLF250-06</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CHUAN LIH FA</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-09-24T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>14.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF250-09</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>CLF250-09</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CHUAN LIH FA</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-09-24T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>14.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF-260-01</MS_MAY_FINAL>
+    <MS_MAY>CLF-260-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-03-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF270-01</MS_MAY_FINAL>
+    <MS_MAY>CLF270-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-03-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF280-01</MS_MAY_FINAL>
+    <MS_MAY>CLF280-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-03-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF280-02</MS_MAY_FINAL>
+    <MS_MAY>CLF280-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-03-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF400-01</MS_MAY_FINAL>
+    <MS_MAY>CLF400-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-09T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF450-01</MS_MAY_FINAL>
+    <MS_MAY>CLF450-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-03-20T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF450-02</MS_MAY_FINAL>
+    <MS_MAY>CLF450-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-03-20T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF600-01</MS_MAY_FINAL>
+    <MS_MAY>CLF600-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-03-20T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF750-01</MS_MAY_FINAL>
+    <MS_MAY>CLF750-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-09T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CLF750-02</MS_MAY_FINAL>
+    <MS_MAY>CLF750-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-09T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CM-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>CM-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CHIAMING</TEN_NHOM_MAY>
+    <NGAY_NHAP>2000-12-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>15.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CM-02</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>CM-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CHIAMING</TEN_NHOM_MAY>
+    <NGAY_NHAP>2000-12-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>15.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CM-03</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>CM-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CHIAMING</TEN_NHOM_MAY>
+    <NGAY_NHAP>2000-12-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>15.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>COSMO-01</MS_MAY_FINAL>
+    <MS_MAY>COSMO-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Cosmo</TEN_NHOM_MAY>
+    <NGAY_NHAP>1996-01-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>COSMO-02</MS_MAY_FINAL>
+    <MS_MAY>COSMO-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Cosmo</TEN_NHOM_MAY>
+    <NGAY_NHAP>1996-01-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>COSMO-03</MS_MAY_FINAL>
+    <MS_MAY>COSMO-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Cosmo</TEN_NHOM_MAY>
+    <NGAY_NHAP>1996-01-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CP-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>CP-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CHUMPOWER</TEN_NHOM_MAY>
+    <NGAY_NHAP>2006-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>15.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CP-02</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>CP-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CHUMPOWER</TEN_NHOM_MAY>
+    <NGAY_NHAP>2006-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>15.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CP-03</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>CP-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CHUMPOWER</TEN_NHOM_MAY>
+    <NGAY_NHAP>2006-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>15.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CUA-01</MS_MAY_FINAL>
+    <MS_MAY>CUA-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Cosen</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-02T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>11.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX006</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>CUA-02</MS_MAY_FINAL>
+    <MS_MAY>CUA-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>DAITO</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-12T11:29:20.11+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>11.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng Cơ khí chế tạo</Ten_N_XUONG>
+    <MS_N_XUONG>NX006</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX013</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>DL-14</MS_MAY_FINAL>
+    <MS_MAY>DL-14</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Yuh Fa Machine</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-11T16:21:07.413+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.7</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng tạo hạt</Ten_N_XUONG>
+    <MS_N_XUONG>NX013</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>DN-01</MS_MAY_FINAL>
+    <MS_MAY>DN-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CVC LABELER</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-25T15:34:03.273+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>39.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>DN-02</MS_MAY_FINAL>
+    <MS_MAY>DN-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KWT LABELING</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-23T16:52:31.56+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>39.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>DO-2D</MS_MAY_FINAL>
+    <MS_MAY>DO-2D</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Mitutoyo</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-11-17T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>32.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>DO-CAO</MS_MAY_FINAL>
+    <MS_MAY>DO-CAO</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Trimos</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-11-17T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>33.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>DO-CMM</MS_MAY_FINAL>
+    <MS_MAY>DO-CMM</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>MITUTOYO</TEN_NHOM_MAY>
+    <NGAY_NHAP>2005-05-31T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>29.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>DO-DAO</MS_MAY_FINAL>
+    <MS_MAY>DO-DAO</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Smile</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-11-17T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>34.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>DO-DOCUNG</MS_MAY_FINAL>
+    <MS_MAY>DO-DOCUNG</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Germany</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-11-17T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>31.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX011</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>EDM-01</MS_MAY_FINAL>
+    <MS_MAY>EDM-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Aristech</TEN_NHOM_MAY>
+    <NGAY_NHAP>1997-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>4.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng MIDA</Ten_N_XUONG>
+    <MS_N_XUONG>NX011</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>EDM-03</MS_MAY_FINAL>
+    <MS_MAY>EDM-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>JS</TEN_NHOM_MAY>
+    <NGAY_NHAP>2001-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>4.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX011</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>EDM-04</MS_MAY_FINAL>
+    <MS_MAY>EDM-04</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Charmilles</TEN_NHOM_MAY>
+    <NGAY_NHAP>2005-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>4.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng MIDA</Ten_N_XUONG>
+    <MS_N_XUONG>NX011</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>EN-01</MS_MAY_FINAL>
+    <MS_MAY>EN-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>HONGKONG</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-04T17:02:14.97+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>58.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>EN-02</MS_MAY_FINAL>
+    <MS_MAY>EN-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>VIETNAM</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-04T17:28:02.503+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>58.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>FCS220-01</MS_MAY_FINAL>
+    <MS_MAY>FCS220-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Fu Chun Sin</TEN_NHOM_MAY>
+    <NGAY_NHAP>1998-04-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>FCS220-02</MS_MAY_FINAL>
+    <MS_MAY>FCS220-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Fu Chun Sin</TEN_NHOM_MAY>
+    <NGAY_NHAP>1998-04-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX011</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>FCS620-01</MS_MAY_FINAL>
+    <MS_MAY>FCS620-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Fu Chun Sin</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-06-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>CEN</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng MIDA</Ten_N_XUONG>
+    <MS_N_XUONG>NX011</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>VS1-1</MS_N_XUONG_FINAL>
+    <MS_CHA>VS2</MS_CHA>
+    <MS_MAY_FINAL>FDG</MS_MAY_FINAL>
+    <MS_MAY>FDG</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Filler</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-07-12T11:19:38.983+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>FILLER-01</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>CEN</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Vietsoft 11</Ten_N_XUONG>
+    <MS_N_XUONG>VS1-1</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>FILL-001</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>FILL-001</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Filler</TEN_NHOM_MAY>
+    <NGAY_NHAP>2010-01-25T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>FILLER-01</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>FILL-002</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>FILL-002</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Filler</TEN_NHOM_MAY>
+    <NGAY_NHAP>2010-01-25T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>FILLER-01</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>FKI-01</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>FKI-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>FONGKEE</TEN_NHOM_MAY>
+    <NGAY_NHAP>1995-09-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>GF-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>GF-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Golfang</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-05-25T13:18:22.667+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>56.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>GF-02</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>GF-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Golfang</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-05-25T13:18:22.667+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>56.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>HAN-01</MS_MAY_FINAL>
+    <MS_MAY>HAN-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Miller</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>46.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>HAN-02</MS_MAY_FINAL>
+    <MS_MAY>HAN-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Essab</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-09-30T09:47:50.463+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>46.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>HIEN1</MS_MAY_FINAL>
+    <MS_MAY>HIEN1</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2010-01-28T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>HIENĐ1</MS_MAY_FINAL>
+    <MS_MAY>HIENĐ1</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2010-01-28T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX011</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>HITACHI-01</MS_MAY_FINAL>
+    <MS_MAY>HITACHI-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Hitachi</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-15T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>16.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>CEN</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng MIDA</Ten_N_XUONG>
+    <MS_N_XUONG>NX011</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX014</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>HSA-01</MS_MAY_FINAL>
+    <MS_MAY>HSA-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>E-YUAN</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-22T16:04:13.647+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>57.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng Đức Hoà</Ten_N_XUONG>
+    <MS_N_XUONG>NX014</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>HSA-02</MS_MAY_FINAL>
+    <MS_MAY>HSA-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>E-YUAN</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-22T16:04:13.647+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>57.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>HSA-03</MS_MAY_FINAL>
+    <MS_MAY>HSA-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>E-YUAN</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-22T16:04:13.647+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>57.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>IL-01</MS_MAY_FINAL>
+    <MS_MAY>IL-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KENT</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-22T16:24:42.403+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>38.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>IL-02</MS_MAY_FINAL>
+    <MS_MAY>IL-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KENT</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-22T16:24:42.403+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>38.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>IL-24</MS_MAY_FINAL>
+    <MS_MAY>IL-24</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>DUBUIT</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-03-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>38.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>IR-01</MS_MAY_FINAL>
+    <MS_MAY>IR-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Ingersoll Rand</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-03T13:46:24.177+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>16.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>IR-02</MS_MAY_FINAL>
+    <MS_MAY>IR-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Ingersoll Rand</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-03T13:46:24.177+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>16.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>IS-01</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>IS-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>TAIWAN</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-04T16:39:06.107+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>59.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX013</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>IS-02</MS_MAY_FINAL>
+    <MS_MAY>IS-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>VIETNAM</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-04T16:43:21.433+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>59.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng tạo hạt</Ten_N_XUONG>
+    <MS_N_XUONG>NX013</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>IS-04</MS_MAY_FINAL>
+    <MS_MAY>IS-04</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>TAIWAN</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-04T16:39:06.107+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>59.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>IS-05</MS_MAY_FINAL>
+    <MS_MAY>IS-05</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>THAILAND</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-28T16:11:27.753+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>59.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>JH-01</MS_MAY_FINAL>
+    <MS_MAY>JH-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>JOHN HUAH</TEN_NHOM_MAY>
+    <NGAY_NHAP>1995-09-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>JH-02</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>JH-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>JOHN HUAH</TEN_NHOM_MAY>
+    <NGAY_NHAP>1995-09-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>55.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>JH-03</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>JH-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>JOHN HUAH</TEN_NHOM_MAY>
+    <NGAY_NHAP>1995-09-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>55.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>JSW450-01</MS_MAY_FINAL>
+    <MS_MAY>JSW450-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>JSW</TEN_NHOM_MAY>
+    <NGAY_NHAP>2007-05-13T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>JSW650-01</MS_MAY_FINAL>
+    <MS_MAY>JSW650-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>JSW</TEN_NHOM_MAY>
+    <NGAY_NHAP>2007-05-13T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>JSW650-02</MS_MAY_FINAL>
+    <MS_MAY>JSW650-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>JSW</TEN_NHOM_MAY>
+    <NGAY_NHAP>2007-05-13T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>JSW850-01</MS_MAY_FINAL>
+    <MS_MAY>JSW850-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>JSW</TEN_NHOM_MAY>
+    <NGAY_NHAP>2007-05-13T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KAIMEI-01</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>KAIMEI-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KAI MEI</TEN_NHOM_MAY>
+    <NGAY_NHAP>1995-09-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>55.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KAIMEI-02</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>KAIMEI-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KAI MEI</TEN_NHOM_MAY>
+    <NGAY_NHAP>1995-09-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>55.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KAIMEI-04</MS_MAY_FINAL>
+    <MS_MAY>KAIMEI-04</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KAI MEI</TEN_NHOM_MAY>
+    <NGAY_NHAP>1995-12-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KAIMEI-06</MS_MAY_FINAL>
+    <MS_MAY>KAIMEI-06</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KAI MEI</TEN_NHOM_MAY>
+    <NGAY_NHAP>1995-12-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KAIMEI-10</MS_MAY_FINAL>
+    <MS_MAY>KAIMEI-10</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KAI MEI</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-03-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KC-01</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>KC-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KUANG CHANG</TEN_NHOM_MAY>
+    <NGAY_NHAP>1995-09-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>55.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KC-02</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>KC-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KUANG CHANG</TEN_NHOM_MAY>
+    <NGAY_NHAP>1995-09-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>55.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KHACCHU</MS_MAY_FINAL>
+    <MS_MAY>KHACCHU</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Sakazaki</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>43.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KHOAN-01</MS_MAY_FINAL>
+    <MS_MAY>KHOAN-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Shen Yang</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-02T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>13.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KHOAN-02</MS_MAY_FINAL>
+    <MS_MAY>KHOAN-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Wakayama</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-02T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>13.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX006</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KHOAN-03</MS_MAY_FINAL>
+    <MS_MAY>KHOAN-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>ENKOH</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-12T11:32:33.037+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>13.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng Cơ khí chế tạo</Ten_N_XUONG>
+    <MS_N_XUONG>NX006</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KHOAN-04</MS_MAY_FINAL>
+    <MS_MAY>KHOAN-04</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Gundrill</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-09-30T09:41:52.253+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>13.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KM-01</MS_MAY_FINAL>
+    <MS_MAY>KM-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KraussMaffei</TEN_NHOM_MAY>
+    <NGAY_NHAP>2006-11-28T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.6</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KM-02</MS_MAY_FINAL>
+    <MS_MAY>KM-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KraussMaffei</TEN_NHOM_MAY>
+    <NGAY_NHAP>2006-11-28T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.6</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>KM-03</MS_MAY_FINAL>
+    <MS_MAY>KM-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KraussMaffei</TEN_NHOM_MAY>
+    <NGAY_NHAP>2006-11-28T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.6</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>LAP-AC-AS-006</MS_MAY_FINAL>
+    <MS_MAY>LAP-AC-AS-006</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>DAITO</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-03-26T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>11.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>CEN</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX006</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>LAP-AC-AS-009</MS_MAY_FINAL>
+    <MS_MAY>LAP-AC-AS-009</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Waida</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-03-26T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>12.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>CEN</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng Cơ khí chế tạo</Ten_N_XUONG>
+    <MS_N_XUONG>NX006</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>LK-01</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>LK-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>LKK</TEN_NHOM_MAY>
+    <NGAY_NHAP>1993-12-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>55.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>LK-02</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>LK-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>LKK</TEN_NHOM_MAY>
+    <NGAY_NHAP>1993-12-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>55.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>LTM-01</MS_MAY_FINAL>
+    <MS_MAY>LTM-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>VIETNAM</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-13T16:47:45.23+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>24.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>LTM-02</MS_MAY_FINAL>
+    <MS_MAY>LTM-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>SMC</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-13T16:50:42+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>24.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>LTM-03</MS_MAY_FINAL>
+    <MS_MAY>LTM-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>SMC</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-13T16:50:42+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>24.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>LTM-04</MS_MAY_FINAL>
+    <MS_MAY>LTM-04</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>VIETNAM</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-13T16:47:45.23+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>24.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>LTM-06</MS_MAY_FINAL>
+    <MS_MAY>LTM-06</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>DEBUIT</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-13T16:53:09.693+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>24.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MAIDAO-01</MS_MAY_FINAL>
+    <MS_MAY>MAIDAO-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Gotha</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>67.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MAIDAO-02</MS_MAY_FINAL>
+    <MS_MAY>MAIDAO-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Taiwan</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-09-30T10:28:58.657+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>67.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MAIPHANG-01</MS_MAY_FINAL>
+    <MS_MAY>MAIPHANG-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Proth</TEN_NHOM_MAY>
+    <NGAY_NHAP>1997-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>8.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MAIPHANG-02</MS_MAY_FINAL>
+    <MS_MAY>MAIPHANG-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Okamoto</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-02T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>8.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>VS1-1</MS_N_XUONG_FINAL>
+    <MS_CHA>VS2</MS_CHA>
+    <MS_MAY_FINAL>MAIPHANG-03</MS_MAY_FINAL>
+    <MS_MAY>MAIPHANG-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Okamoto</TEN_NHOM_MAY>
+    <NGAY_NHAP>2004-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>8.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Vietsoft 11</Ten_N_XUONG>
+    <MS_N_XUONG>VS1-1</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MAIPHANG-04</MS_MAY_FINAL>
+    <MS_MAY>MAIPHANG-04</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Kent</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-09-30T09:45:36.74+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>8.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MAI-PROFILE-01</MS_MAY_FINAL>
+    <MS_MAY>MAI-PROFILE-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Waida</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-02T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>12.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MAITRUC-01</MS_MAY_FINAL>
+    <MS_MAY>MAITRUC-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Kondo</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-02T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>9.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MAY-NEN</MS_MAY_FINAL>
+    <MS_MAY>MAY-NEN</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Hitachi</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-07-20T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>35.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MC-03</MS_MAY_FINAL>
+    <MS_MAY>MC-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>VIETNAM</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-12T11:03:44.15+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>36.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MC-04</MS_MAY_FINAL>
+    <MS_MAY>MC-04</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>VIETNAM</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-12T11:03:44.15+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>36.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MC-08</MS_MAY_FINAL>
+    <MS_MAY>MC-08</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>DASE-SING</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-12T10:57:42.25+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>36.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MDN-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>MDN-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Làm nóng dầu</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-24T14:18:06.847+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>23.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MDN-02</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>MDN-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Làm nóng dầu</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-24T14:18:06.847+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>23.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MHK-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>MHK-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>SHINI</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-06T16:48:29.61+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>54.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>ML-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>ML-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Flying Tiger KJ</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-10-20T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>21.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>ML1F</MS_MAY_FINAL>
+    <MS_MAY>ML1F</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Flying Tiger KJ</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-10-20T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>21.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>ML2F</MS_MAY_FINAL>
+    <MS_MAY>ML2F</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Flying Tiger KJ</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-10-20T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>21.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MLCA-01</MS_MAY_FINAL>
+    <MS_MAY>MLCA-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Flying Tiger KJ</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-01T17:00:10.873+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>20.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MLCA-01E</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>MLCA-01E</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Flying Tiger KJ</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-01T17:00:10.873+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>20.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MLCA-02</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>MLCA-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Flying Tiger KJ</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-01T17:00:10.873+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>20.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MLCA-02E</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>MLCA-02E</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Flying Tiger KJ</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-01T17:00:10.873+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>20.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MLTA-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>MLTA-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Flying Tiger KJ</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-10-20T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>21.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MLTA-02</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>MLTA-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Flying Tiger KJ</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-10-20T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>21.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MLTA-10</MS_MAY_FINAL>
+    <MS_MAY>MLTA-10</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Thailand</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-13T17:23:25.537+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>21.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MLTA-12</MS_MAY_FINAL>
+    <MS_MAY>MLTA-12</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>China</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-13T17:21:52.033+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>21.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MLTA-14</MS_MAY_FINAL>
+    <MS_MAY>MLTA-14</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>SHINI</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-11-16T16:38:30.68+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>21.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MLTA-15</MS_MAY_FINAL>
+    <MS_MAY>MLTA-15</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>SHINI</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-11-16T16:38:30.68+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>21.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MNN-01</MS_MAY_FINAL>
+    <MS_MAY>MNN-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Làm nóng nước</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-06T17:10:39.957+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>23.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MNN-02</MS_MAY_FINAL>
+    <MS_MAY>MNN-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Làm nóng nước</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-06T17:10:39.957+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>23.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MNN-03</MS_MAY_FINAL>
+    <MS_MAY>MNN-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Làm nóng nước</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-06T17:10:39.957+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>23.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>VS11</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MNT-CRT-001</MS_MAY_FINAL>
+    <MS_MAY>MNT-CRT-001</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Filler</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>FILLER-01</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>VS11</Ten_N_XUONG>
+    <MS_N_XUONG>VS11</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX017</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MNT-LCD-001</MS_MAY_FINAL>
+    <MS_MAY>MNT-LCD-001</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Filler</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>FILLER-01</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng sàn xuất</Ten_N_XUONG>
+    <MS_N_XUONG>NX017</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MP-01</MS_MAY_FINAL>
+    <MS_MAY>MP-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Cummins</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-25T15:13:24.993+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>18.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MP-02</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>MP-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Cummins</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-25T15:13:24.993+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>18.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MPS-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>MPS-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Industrial Air condictioner</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-06T16:30:15.537+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>57</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MPS-02</MS_MAY_FINAL>
+    <MS_MAY>MPS-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Industrial Air condictioner</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-06T16:30:15.537+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>57</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MS-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>MS-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CHIAMING</TEN_NHOM_MAY>
+    <NGAY_NHAP>2004-11-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>28.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MS-02</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>MS-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>CHIAMING</TEN_NHOM_MAY>
+    <NGAY_NHAP>2004-11-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>28.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MTA-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>MTA-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>SD INDUSTRIAL AIR CONDICTIONER</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-09T13:35:29.15+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>53.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>MTA-02</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>MTA-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Flying Tiger KJ</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-06T16:38:19.553+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>53.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>NN-01</MS_MAY_FINAL>
+    <MS_MAY>NN-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BIGNOSE</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-05T17:14:24.693+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>60.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>NN-04</MS_MAY_FINAL>
+    <MS_MAY>NN-04</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>SUNLIGHT</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-22T14:41:03.02+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>60.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>NN-05</MS_MAY_FINAL>
+    <MS_MAY>NN-05</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>SUNLIGHT</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-22T14:41:03.02+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>60.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>ON-AP-01</MS_MAY_FINAL>
+    <MS_MAY>ON-AP-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>AST</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>47.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>ON-AP-02</MS_MAY_FINAL>
+    <MS_MAY>ON-AP-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>LiOA</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>47.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>ON-AP-04</MS_MAY_FINAL>
+    <MS_MAY>ON-AP-04</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Natachi</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>47.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>ON-AP-05</MS_MAY_FINAL>
+    <MS_MAY>ON-AP-05</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Robot</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>47.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>ON-AP-06</MS_MAY_FINAL>
+    <MS_MAY>ON-AP-06</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Natachi</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>47.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>ON-AP-09</MS_MAY_FINAL>
+    <MS_MAY>ON-AP-09</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Hanshin</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>47.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PACK-001</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>PACK-001</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Hartford</TEN_NHOM_MAY>
+    <NGAY_NHAP>2011-04-01T14:01:31.767+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>5.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>CEN</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PALANG-10T-LRGD</MS_MAY_FINAL>
+    <MS_MAY>PALANG-10T-LRGD</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Palang</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>48.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PALANG-1T-LRMP</MS_MAY_FINAL>
+    <MS_MAY>PALANG-1T-LRMP</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Palang</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>48.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PALANG-3T-EDM</MS_MAY_FINAL>
+    <MS_MAY>PALANG-3T-EDM</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Palang</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>48.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX006</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-01</MS_MAY_FINAL>
+    <MS_MAY>PHAY-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Enshu</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-12T11:13:11.17+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>3.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng Cơ khí chế tạo</Ten_N_XUONG>
+    <MS_N_XUONG>NX006</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX006</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-02</MS_MAY_FINAL>
+    <MS_MAY>PHAY-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Kanto</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-12T11:22:18.453+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>3.6</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng Cơ khí chế tạo</Ten_N_XUONG>
+    <MS_N_XUONG>NX006</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-CNC-01</MS_MAY_FINAL>
+    <MS_MAY>PHAY-CNC-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Hartford</TEN_NHOM_MAY>
+    <NGAY_NHAP>2000-08-05T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>5.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-CNC-02</MS_MAY_FINAL>
+    <MS_MAY>PHAY-CNC-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Roku-Roku</TEN_NHOM_MAY>
+    <NGAY_NHAP>2005-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>5.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>VS11</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-CNC-05</MS_MAY_FINAL>
+    <MS_MAY>PHAY-CNC-05</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Hartford</TEN_NHOM_MAY>
+    <NGAY_NHAP>2001-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>5.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>VS11</Ten_N_XUONG>
+    <MS_N_XUONG>VS11</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-CNC-06</MS_MAY_FINAL>
+    <MS_MAY>PHAY-CNC-06</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Makino</TEN_NHOM_MAY>
+    <NGAY_NHAP>2004-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>5.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-CNC-07</MS_MAY_FINAL>
+    <MS_MAY>PHAY-CNC-07</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Hartford</TEN_NHOM_MAY>
+    <NGAY_NHAP>2005-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>5.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-CNC-08</MS_MAY_FINAL>
+    <MS_MAY>PHAY-CNC-08</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Mazak</TEN_NHOM_MAY>
+    <NGAY_NHAP>2006-06-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>5.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-CNC-09</MS_MAY_FINAL>
+    <MS_MAY>PHAY-CNC-09</MS_MAY>
+    <SO_THE>CNC-09</SO_THE>
+    <TEN_NHOM_MAY>Hartford</TEN_NHOM_MAY>
+    <NGAY_NHAP>2007-05-16T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>5.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAYCNC-099</MS_MAY_FINAL>
+    <MS_MAY>PHAYCNC-099</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Hartford</TEN_NHOM_MAY>
+    <NGAY_NHAP>2000-08-05T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>5.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-CNC-10</MS_MAY_FINAL>
+    <MS_MAY>PHAY-CNC-10</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>YeongChin</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-09-30T09:35:40.14+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>5.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-SHIBAURA</MS_MAY_FINAL>
+    <MS_MAY>PHAY-SHIBAURA</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Shibaura</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-11-18T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>3.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-TT-01</MS_MAY_FINAL>
+    <MS_MAY>PHAY-TT-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Topone</TEN_NHOM_MAY>
+    <NGAY_NHAP>2001-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>3.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-TT-02</MS_MAY_FINAL>
+    <MS_MAY>PHAY-TT-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Corisma</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-10-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>3.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-TT-03</MS_MAY_FINAL>
+    <MS_MAY>PHAY-TT-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Topone</TEN_NHOM_MAY>
+    <NGAY_NHAP>2001-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>3.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-TT-05</MS_MAY_FINAL>
+    <MS_MAY>PHAY-TT-05</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Chen Ying</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-11-11T09:06:19.283+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>3.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHAY-TT-08</MS_MAY_FINAL>
+    <MS_MAY>PHAY-TT-08</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Van</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-09-30T10:19:06.99+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>3.7</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>PHUNCAT</MS_MAY_FINAL>
+    <MS_MAY>PHUNCAT</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Concord</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>45.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>SAYKHI.08</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>SAYKHI.08</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>YEE</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-25T14:43:22.6+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>22.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX011</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>SM450</MS_MAY_FINAL>
+    <MS_MAY>SM450</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>SM</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-06-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>CEN</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng MIDA</Ten_N_XUONG>
+    <MS_N_XUONG>NX011</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>SMC-01</MS_MAY_FINAL>
+    <MS_MAY>SMC-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>SMC</TEN_NHOM_MAY>
+    <NGAY_NHAP>1995-09-30T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>SMC-02</MS_MAY_FINAL>
+    <MS_MAY>SMC-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>SMC</TEN_NHOM_MAY>
+    <NGAY_NHAP>2000-10-04T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>SMC-03</MS_MAY_FINAL>
+    <MS_MAY>SMC-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>SMC</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-10-22T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>SMC-04</MS_MAY_FINAL>
+    <MS_MAY>SMC-04</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>SMC</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-10-22T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>1.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TARO</MS_MAY_FINAL>
+    <MS_MAY>TARO</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Taro</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-01-06T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>44.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TD-CWP-A101</MS_MAY_FINAL>
+    <MS_MAY>TD-CWP-A101</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>BƠM LY TÂM TRỤC NGANG</TEN_NHOM_MAY>
+    <NGAY_NHAP>2002-12-02T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>BOM-001</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX013</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TH-01</MS_MAY_FINAL>
+    <MS_MAY>TH-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Vietnam</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-11T09:15:16.52+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>63.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng tạo hạt</Ten_N_XUONG>
+    <MS_N_XUONG>NX013</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX013</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TH-02</MS_MAY_FINAL>
+    <MS_MAY>TH-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Vietnam</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-11T09:15:16.52+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>63.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng tạo hạt</Ten_N_XUONG>
+    <MS_N_XUONG>NX013</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX006</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TIEN-01</MS_MAY_FINAL>
+    <MS_MAY>TIEN-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Takisawa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-12T11:23:15.877+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>7.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng Cơ khí chế tạo</Ten_N_XUONG>
+    <MS_N_XUONG>NX006</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX006</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TIEN-02</MS_MAY_FINAL>
+    <MS_MAY>TIEN-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Takisawa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-12T11:23:15.877+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>7.5</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng Cơ khí chế tạo</Ten_N_XUONG>
+    <MS_N_XUONG>NX006</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX006</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TIEN-03</MS_MAY_FINAL>
+    <MS_MAY>TIEN-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>YAM</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-12T11:27:57.683+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>7.6</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng Cơ khí chế tạo</Ten_N_XUONG>
+    <MS_N_XUONG>NX006</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TIEN-CNC-01</MS_MAY_FINAL>
+    <MS_MAY>TIEN-CNC-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Victor</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-02T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>6.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TIEN-CNC-02</MS_MAY_FINAL>
+    <MS_MAY>TIEN-CNC-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Mazak</TEN_NHOM_MAY>
+    <NGAY_NHAP>2005-02-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>6.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TIEN-CNC-03</MS_MAY_FINAL>
+    <MS_MAY>TIEN-CNC-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Mazak</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-03-31T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>6.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TIEN-TT-01</MS_MAY_FINAL>
+    <MS_MAY>TIEN-TT-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Namba-Valet</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-02T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>7.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TIEN-TT-02</MS_MAY_FINAL>
+    <MS_MAY>TIEN-TT-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Liên Xô</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-02T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>7.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TIEN-TT-04</MS_MAY_FINAL>
+    <MS_MAY>TIEN-TT-04</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Howa Sangyo</TEN_NHOM_MAY>
+    <NGAY_NHAP>2008-04-02T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>7.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TIEN-TT-05</MS_MAY_FINAL>
+    <MS_MAY>TIEN-TT-05</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>TOP Winner</TEN_NHOM_MAY>
+    <NGAY_NHAP>2006-01-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>7.4</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TIEN-TT-08</MS_MAY_FINAL>
+    <MS_MAY>TIEN-TT-08</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Harrison</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-09-30T10:16:04.13+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>7.7</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 2</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TRB-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>TRB-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>WETEC</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-07-09T14:20:04.933+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>49.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TRON-01</MS_MAY_FINAL>
+    <MS_MAY>TRON-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Trộn nhựa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-12T11:47:50.747+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>27.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TRON-02</MS_MAY_FINAL>
+    <MS_MAY>TRON-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Trộn nhựa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-12T11:47:50.747+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>27.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX003</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>TRONDL-01</MS_MAY_FINAL>
+    <MS_MAY>TRONDL-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>Trộn định lượng</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-24T14:00:52.58+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>27.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 2</Ten_N_XUONG>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>UV-01</MS_MAY_FINAL>
+    <MS_MAY>UV-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>TAIWAN</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-05T17:24:22.967+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>37.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>UV-02</MS_MAY_FINAL>
+    <MS_MAY>UV-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>TAIWAN</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-05T17:24:22.967+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>37.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>UV-03</MS_MAY_FINAL>
+    <MS_MAY>UV-03</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>VIETNAM</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-20T11:45:46.667+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>37.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>WERWE</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>WERWE</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>KAI MEI</TEN_NHOM_MAY>
+    <NGAY_NHAP>1995-09-01T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>55.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>www</MS_MAY_FINAL>
+    <MS_MAY>www</MS_MAY>
+    <SO_THE>123878</SO_THE>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-03-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>WWW-01</MS_MAY_FINAL>
+    <MS_MAY>WWW-01</MS_MAY>
+    <SO_THE>123878</SO_THE>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <NGAY_NHAP>2003-03-10T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>2.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>XAY-01</MS_MAY_FINAL>
+    <MS_MAY>XAY-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>VIETNAM</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-12T11:44:46.587+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>26.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX002</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>XAY-02</MS_MAY_FINAL>
+    <MS_MAY>XAY-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>VIETNAM</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-12T11:44:46.587+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>26.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>XLL-01</MS_MAY_FINAL>
+    <MS_MAY>XLL-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>XỬ LÝ PHẲNG</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-05T17:23:06.997+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>61.1</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX005</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>XLL-02</MS_MAY_FINAL>
+    <MS_MAY>XLL-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>XỬ LÝ TRÒN</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-06T15:19:59.967+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>61.2</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xường CĐP</Ten_N_XUONG>
+    <MS_N_XUONG>NX005</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX004</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>YEE-01</MS_MAY_FINAL>
+    <MS_TINH>HN</MS_TINH>
+    <MS_QUAN>HN-0001</MS_QUAN>
+    <MS_DUONG>120130405090330563</MS_DUONG>
+    <MS_MAY>YEE-01</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>YEE</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-06-26T16:31:34.873+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>16.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptDSBPChiuPhi_TMP>
+    <MS_N_XUONG_FINAL>NX008</MS_N_XUONG_FINAL>
+    <MS_CHA>VS1</MS_CHA>
+    <MS_MAY_FINAL>YEE-02</MS_MAY_FINAL>
+    <MS_TINH>HCM</MS_TINH>
+    <MS_QUAN>HCM-0013</MS_QUAN>
+    <MS_DUONG>HCM-0001</MS_DUONG>
+    <MS_MAY>YEE-02</MS_MAY>
+    <SO_THE />
+    <TEN_NHOM_MAY>YEE</TEN_NHOM_MAY>
+    <NGAY_NHAP>2009-08-25T00:00:00+07:00</NGAY_NHAP>
+    <MS_NHOM_MAY>16.3</MS_NHOM_MAY>
+    <TEN_BP_CHIU_PHI>Vietsoft 1</TEN_BP_CHIU_PHI>
+    <Ten_N_XUONG>Xưởng thổi 1</Ten_N_XUONG>
+    <MS_N_XUONG>NX008</MS_N_XUONG>
+  </rptDSBPChiuPhi_TMP>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty phần mềm Vietsoft
+27/49 B Hậu Giang, P.4, Q. Tân Bình, TP HCM
+Telephone: 84-8-38762222  Fax: 84-8-38762225</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>2000</WIDTH>
+    <HEIGHT>800</HEIGHT>
+    <NGAY_IN>Ngày in:22/01/2014</NGAY_IN>
+    <PAGE>?PAGE?</PAGE>
+    <OFPAGE>?OF?</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

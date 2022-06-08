@@ -1,0 +1,213 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_LOAI_BT" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+                <xs:element name="TEN_LOAI_BT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="40" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_CUOI" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGAY_KE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CHU_KY" type="xs:int" minOccurs="0" />
+                <xs:element name="MS_DV_TG" type="xs:int" minOccurs="0" />
+                <xs:element name="THU_TU" type="xs:int" minOccurs="0" />
+                <xs:element name="MS_CV" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+                <xs:element name="MS_BO_PHAN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_BO_PHAN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MO_TA_CV" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_LOAI_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_HE_THONG" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+                <xs:element name="TEN_HE_THONG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TUAN1">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TUAN2">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TUAN3">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TUAN4">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TUAN5">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="tbTieuDe">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TieuDe" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="ThietBi" type="xs:string" minOccurs="0" />
+                <xs:element name="CongViec" type="xs:string" minOccurs="0" />
+                <xs:element name="DinhKy" type="xs:string" minOccurs="0" />
+                <xs:element name="Tuan" type="xs:string" minOccurs="0" />
+                <xs:element name="HeThong" type="xs:string" minOccurs="0" />
+                <xs:element name="BoPhan" type="xs:string" minOccurs="0" />
+                <xs:element name="LoaiTB" type="xs:string" minOccurs="0" />
+                <xs:element name="DieuKienLoc" type="xs:string" minOccurs="0" />
+                <xs:element name="Tuan1" type="xs:string" minOccurs="0" />
+                <xs:element name="Tuan2" type="xs:string" minOccurs="0" />
+                <xs:element name="Tuan3" type="xs:string" minOccurs="0" />
+                <xs:element name="Tuan4" type="xs:string" minOccurs="0" />
+                <xs:element name="Tuan5" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <tbTieuDe>
+    <TieuDe>KẾ HOẠCH BẢO TRÌ TUẦN THEO LOẠI MÁY</TieuDe>
+    <STT>STT</STT>
+    <ThietBi>Thiết bị:</ThietBi>
+    <CongViec>Công việc</CongViec>
+    <DinhKy>Chu kỳ</DinhKy>
+    <Tuan>Tuần trong năm</Tuan>
+    <HeThong>Dây chuyền</HeThong>
+    <BoPhan>Bộ phận:</BoPhan>
+    <LoaiTB>Loại thiết bị:</LoaiTB>
+    <DieuKienLoc>Từ ngày: 11/11/2009 Đến ngày: 11/12/2009</DieuKienLoc>
+    <Tuan1>46/2009</Tuan1>
+    <Tuan2>47/2009</Tuan2>
+    <Tuan3>48/2009</Tuan3>
+    <Tuan4>49/2009</Tuan4>
+    <Tuan5>50/2009</Tuan5>
+  </tbTieuDe>
+  <rptTitlereport>
+    <THONG_TIN_CTY>CN Công ty CP Bia Sài Gòn - Miền Trung tại DakLak
+Km7 , Phường Tân An, TP Buôn Ma Thuột
+Telephone: 0500.3877519  Fax: 0500.3877455</THONG_TIN_CTY>
+    <LOGO>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b/6/O6qnha6LHzJ4QPUZOTz6j/Oe/O7hnicWp+5SuvPf8zeNKly+9LUZqV9e2eoSGC8LRyHcu19wH4c+3b047NGPEd+U2sYnyMHKdfy+v8uvG68vhZR80958vO7CY/Un6/n35zNjQdN5+SaT6+YT/TPP6+/PC6GKTcpT5E+8jdTpWSS5n6GFZ6bdalJuSP5CfmfAC8/z6n1698/PusbPw5asEImvJB36k/0XJ+pz3JqpeeJpZF2WkflA/wAbYZvwHI9PXr343YTu0rFnYux6knJP889ffr3z8+DrUcNf2PvS/mf6GihOr8ei7Dp5pLmZpZW3u55Pr/nP698/PH198/jn+fr79e+fnOvvn8c/z9ffr3z85198/jn+fr79e+fn81tt3Z1JJaB198/jn+fr79e+fnOvvn8c/wA/X3698/OdffP45/n6+/Xvn5zr75/HP8/X3698/OhkkEL3M6Qxjc7nA54579+Offr3z863FvLazGKZCH9Dzn+eevv175+fqNA0o20f2ubmWRflGc7R/if89STY122in0uZ2RS6DKtjkf5yR369D0r145XL6v7STs97HE8WlU5VscXkkYJyPTryfz9ffr3z8/d6TataabDE+d+NzAnoSc/5/r1rmPD9tHdaoPMyQimTGepyP/is/wD68t2tdOT4eydZ9dDLG1NVBFD+x7D7R54tlEmd3BIGfp09fzPqav4paK9mFOEPhSVzicm92FFFFaCCiiigAooooAKKKKACiiigClqGnw6jbGKUcj7rDqp/z2rir6wuLCYxTp16MOQ/uPz/AF75+f0Gori3iuYjFMiuh6g152NwEMSrrSX9bnRQxDp6PY866++fxz/P19+vfPznX3z+Of5+vv175+for/wy4JezfeDnMbnn8+/U9f1yd2DNBLBIUmjZH7hh1/nnr79e+fn+br4WrQdpr/I9OnWhU+FkfX3z+Of5+vv175+edL26jwI7mZR0+WQ/h/T1698/PB198/jn+fr79e+fnOvvn8c/z9ffr3z8+EZOOsXY0aT3Lv8Aa+oH/l7k544P+fb17dc/Ojarfv1u5u33Wx9On4evbr/HT6++fxz/AD9ffr3z85198/jn+fr79e+fn0deq/tP7yfZQ7IfJPLPjzZXkx03MW/x9ffr3z87Ovvn8c/z9ffr3z85198/jn+fr79e+fnOvvn8c/z9ffr3z8+Tbe5SVg6++fxz/P19+vfPznX3z+Of5+vv175+c6++fxz/AD9ffr3z85198/jn+fr79e+fnBh198/jn+fr79e+fnOvvn8c/wA/X3698/OoBc4ALE+nOf5+vv175+fXs/Dt5cnM48iM9S3JP4Z9z19+vO7WlQqVnamrkTqRgryZkKrSMFUFiewGSf556+/Xvn5+o0jQPJK3F4MydRH1C+59T1/Pvkk6djpltp6nylzI33nY5JqDV9TayVYYF33Mn3VAzgeuP8/jwD7mHwEMNH21fVrp/W7OCpiZVXyUy5c3lvZJunlVOMgdz9B1PUfnXLavrbX6m3hXbBnnuX/+tyPXt14DOXQdTvJTJckKW+80jZPT2z64/P33XrbwvEjhrmcyDP3VGAfr19T+fucqtPGYpcsI8sX3/r8ggqFLWTuyLwtbMXnuSPlICA5685Pf6evX6lunqOONIo1jRQFUYAFSV6uFoewpKmctWp7SbkLRRRXQZhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFACVHLDHOhSWNXU9QwyKlopNJ6MDGuPDljMGKK8THurZGeex+v8/U5z5fCj4Yx3SsecB1/rk+p/Pvzu6miuOpl+Gqbx+7Q2jiKsdmcY3hrUA2MRMCeSH/AF5+v8+vO6H+wNTPW269cyL/AI+/v3687+5ormeTYd9X9/8AwDVYyouxw39gamett165kX/H39+/XnfKvhvUGOGEa5zks/1+vr79TnPO7tKKFk2HW7b+f/AB4yo+xysfhWUj99dIpPXahbv7n0z+ffnddg8M2cZzM0kxPYnA/wAe57+vqc7tFdFPLcND7N/XUzliar6leC1gtVIhiRAeuB1+p71PS0V2RioqyVjC99xKgjtY4riScZaSTGWY5IA6AegqxRQ4p6sLhRRRVAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</LOGO>
+    <LE_TRAI_LOGO>500</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>100</LE_TREN_LOGO>
+    <WIDTH>1200</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngày in:11/11/2009</NGAY_IN>
+    <PAGE>?PAGE?</PAGE>
+    <OFPAGE>?OF?</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

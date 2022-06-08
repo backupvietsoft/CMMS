@@ -1,0 +1,78 @@
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\MMail.dll
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\MMail.pdb
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\MMail.xml
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.Data.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.Utils.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.XtraEditors.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.XtraGrid.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.XtraLayout.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.XtraNavBar.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.XtraTreeList.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\stdole.dll
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.Data.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.Utils.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.XtraEditors.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.XtraGrid.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.XtraLayout.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.XtraNavBar.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\bin\Debug\DevExpress.XtraTreeList.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\obj\Debug\MMail.vbprojAssemblyReference.cache
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\obj\Debug\MMail.Resources.resources
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\obj\Debug\MMail.vbproj.GenerateResource.cache
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\obj\Debug\MMail.vbproj.CoreCompileInputs.cache
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\obj\Debug\MMail.vbproj.CopyComplete
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\obj\Debug\MMail.dll
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\obj\Debug\MMail.xml
+D:\01.Code\02.DLL\Cmms Service Mail\Cmms Mail\MMail\obj\Debug\MMail.pdb
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\MMail.dll
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\MMail.pdb
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\MMail.xml
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.Data.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.Utils.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraEditors.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraGrid.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraLayout.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraNavBar.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraTreeList.v9.2.dll
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\stdole.dll
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.Data.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.Utils.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraEditors.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraGrid.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraLayout.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraNavBar.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraTreeList.v9.2.xml
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.vbprojAssemblyReference.cache
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.Resources.resources
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.vbproj.GenerateResource.cache
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.vbproj.CoreCompileInputs.cache
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.vbproj.CopyComplete
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.dll
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.xml
+D:\01.Code\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.pdb
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\MMail.dll
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\MMail.pdb
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\MMail.xml
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.Data.v9.2.dll
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.Utils.v9.2.dll
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraEditors.v9.2.dll
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraGrid.v9.2.dll
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraLayout.v9.2.dll
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraNavBar.v9.2.dll
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraTreeList.v9.2.dll
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\stdole.dll
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.Data.v9.2.xml
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.Utils.v9.2.xml
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraEditors.v9.2.xml
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraGrid.v9.2.xml
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraLayout.v9.2.xml
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraNavBar.v9.2.xml
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\bin\Debug\DevExpress.XtraTreeList.v9.2.xml
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.vbprojAssemblyReference.cache
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.Resources.resources
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.vbproj.GenerateResource.cache
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.vbproj.CoreCompileInputs.cache
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.vbproj.CopyComplete
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.dll
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.xml
+D:\01.Ecomain\02.DLL\Cmms Service Mail\VSMail\MMail\obj\Debug\MMail.pdb

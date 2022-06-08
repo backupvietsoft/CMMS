@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PhucHoiDLKho">
+</Property><Property Name="Solution File" Value="E:\Huan\00.SVN\DLL\PhucHoiDLKho\PhucHoiDLKho.sln">
+</Property><Property Name="User Options File" Value="E:\Huan\00.SVN\DLL\PhucHoiDLKho\PhucHoiDLKho.suo">
+</Property><Property Name="Date" Value="Thursday, July 7, 2016">
+</Property><Property Name="Time" Value="15:05 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PhucHoiDLKho.sln" Description="File successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\PhucHoiDLKho.sln">
+</Event><Event ErrorLevel="0" Project="" Source="PhucHoiDLKho.suo" Description="File successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\PhucHoiDLKho.suo">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="PhucHoiDLKho.csproj" Description="Project file successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\PhucHoiDLKho.csproj">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="Class\Class1.cs" Description="File successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\Class\Class1.cs">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="Class\clsConnect.cs" Description="File successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\Class\clsConnect.cs">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="MainForm.cs" Description="File successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="MainForm.Designer.cs" Description="File successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="Program.cs" Description="File successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="Properties\Settings.settings" Description="File successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="MainForm.resx" Description="File successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="Properties\Resources.resx" Description="File successfully backed up as E:\Huan\00.SVN\DLL\PhucHoiDLKho\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="PhucHoiDLKho.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PhucHoiDLKho" Source="PhucHoiDLKho.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="PhucHoiDLKho.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="PhucHoiDLKho.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PhucHoiDLKho" Source="PhucHoiDLKho.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

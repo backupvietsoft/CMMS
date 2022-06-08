@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>e:\0svn...new\dll\cmms service mail\cmmsservicemail\app.config</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>e:\0svn...new\dll\cmms service mail\cmmsservicemail\program.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>e:\0svn...new\dll\cmms service mail\cmmsservicemail\form1.cs</string>
+      <string>e:\0svn...new\dll\cmms service mail\cmmsservicemail\form1.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>E:\0SVN...NEW\DLL\Cmms Service Mail\CmmsServiceMail\MBaoCao.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>

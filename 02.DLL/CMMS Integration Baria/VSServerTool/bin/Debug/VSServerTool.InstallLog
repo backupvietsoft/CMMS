@@ -1,0 +1,35 @@
+﻿Installing assembly 'D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.InstallLog
+   assemblypath = D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.exe
+Installing service VSServerTool...
+Creating EventLog source VSServerTool in log Application...
+Rolling back assembly 'D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.InstallLog
+   assemblypath = D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.exe
+Restoring event log to previous state for source VSServerTool.
+Installing assembly 'D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.InstallLog
+   assemblypath = D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.exe
+Installing service VSServerTool...
+Service VSServerTool has been successfully installed.
+Creating EventLog source VSServerTool in log Application...
+Committing assembly 'D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.InstallLog
+   assemblypath = D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.exe
+Uninstalling assembly 'D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.InstallLog
+   assemblypath = D:\01 CMMS SVN\DLL\CMMS Integration Baria\VSServerTool\bin\Debug\VSServerTool.exe
+Removing EventLog source VSServerTool.
+Service VSServerTool is being removed from the system...
+Service VSServerTool was successfully removed from the system.
+Attempt to stop service VSServerTool.

@@ -1,0 +1,554 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rptDANH_SACH_CV_TMP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEUDE_" type="xs:string" minOccurs="0" />
+                <xs:element name="STT_" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_TB_" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_CV_" type="xs:string" minOccurs="0" />
+                <xs:element name="MO_TA_CV_" type="xs:string" minOccurs="0" />
+                <xs:element name="CHUYEN_MON_" type="xs:string" minOccurs="0" />
+                <xs:element name="TAY_NGHE_" type="xs:string" minOccurs="0" />
+                <xs:element name="THOI_GIAN_CHUAN_" type="xs:string" minOccurs="0" />
+                <xs:element name="TRANG_" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptDANH_SACH_CV">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TEN_LOAI_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_CV">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MO_TA_CV" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_CHUYEN_MON" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="200" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_BAC_THO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="THOI_GIAN_DU_KIEN" type="xs:float" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rptDANH_SACH_CV_TMP>
+    <TIEUDE_>DANH MỤC CÔNG VIỆC</TIEUDE_>
+    <STT_>STT</STT_>
+    <LOAI_TB_>Loại thiết bị</LOAI_TB_>
+    <LOAI_CV_>Loại công việc</LOAI_CV_>
+    <MO_TA_CV_>Mô tả công việc</MO_TA_CV_>
+    <CHUYEN_MON_>Chuyên môn</CHUYEN_MON_>
+    <TAY_NGHE_>Tay nghề</TAY_NGHE_>
+    <THOI_GIAN_CHUAN_>TG chuẩn (phút)</THOI_GIAN_CHUAN_>
+    <TRANG_>Trang</TRANG_>
+  </rptDANH_SACH_CV_TMP>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Bơm mỡ vào bộ truyền động</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Chạy thử không tải</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Đóng mở thử và trả về vị trí ban đầu của van</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra  độ rung ( ghi nhận )</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra bên ngoài actuator van</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra bulông liên kết van</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra các bulong liên kết, chân đế</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra các bulong liên kết, chân đế động cơ</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra các đầu dây hộp đấu điện</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra dây tiếp địa, đo điện trở tiếp địa</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra dây trân</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra độ kín khí từng buồng nén của cylinder</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra đồng hồ áp lực ngõ hút, đẩy</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra đóng mở van control van bằng cách tác động trực tiếp vào solenoid</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra mechanical seal</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra mực dầu, nhớt hộp số</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra mực dầu, nhớt ổ đỡ</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra mực nhớt</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra nhiệt độ bạc đạn</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra nhiệt độ ổ đỡ</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra nhiệt độ,tiếng động lạ</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra packing và nước giải nhiệt</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra tiếng động lạ, bất thường</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra toàn bộ đường ống và vệ sinh</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra và đo thời gian đóng mở van hoàn toàn</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra vệ sinh  tủ máy cắt (breaker)</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra vệ sinh các rơle</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra vệ sinh contactor</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra vệ sinh hộp nối dây động lực</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra vệ sinh rác ở ngõ hú</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>kiểm tra vệ sinh tủ DC</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra vị trí đóng mở va</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra xăng, nhớt.,làm vệ sinh lọc xăng</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra xì, rỉ air của đường ống dẫn khí</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra, bơm mỡ bạc đạn</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra, bơm mỡ coupling</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra, vệ sinh  tủ chống sét</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Làm vệ sinh lưới thông gió</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Làm vệ sinh toan bộ</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Làm vệ sinh tủ alternator</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Làm vệ sinh tủ điện và động cơ</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Làm vệ sinh, tra mỡ mới cho trục thanh răng</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Nâng phao ở hai mức tác động,chạy thử bơm</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Tháo, kiểm tra bộ ly hợp</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Tháo, kiểm tra làm vệ sinh toàn bộ cần handle van</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Tháo, kiểm tra làm vệ sinh toàn bộ fourway valve</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Tháo, kiểm tra, vệ sinh toàn bộ chi tiết cylinder actuator van</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Thay nhớt hộp số</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Thay nhớt ổ đỡ</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Thay nhớt ổ trượt động cơ</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Thay packing</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Thổi bụi động cơ</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Vận hành, kiểm tra tình trạng của van</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Vệ sinh bên ngoài bơm</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Vệ sinh lõi lọc chữ y, xả separator</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Vệ sinh toàn bộ tủ điều khiển, biến tần, đầu dò áp lực</MO_TA_CV>
+    <TEN_CHUYEN_MON>Electricity</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Vệ sinh van và actuator</MO_TA_CV>
+    <TEN_CHUYEN_MON>Mechanical</TEN_CHUYEN_MON>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra tiếp địa và ghi giá trị vào lịch bảo trì</MO_TA_CV>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>ĐIỆN CÔNG NGHIỆP</TEN_LOAI_CV>
+    <MO_TA_CV>Bảo trì hộp nối dây động lực</MO_TA_CV>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Kiểm tra bên ngoài cylinder actuator của van control, discharge, suction</MO_TA_CV>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptDANH_SACH_CV>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <TEN_LOAI_CV>CƠ KHÍ</TEN_LOAI_CV>
+    <MO_TA_CV>Tháo các cylinder của valve suction để kiểm tra : piston, cylinder , truc, vepacking, oring (thay nếu hư hỏng)</MO_TA_CV>
+    <THOI_GIAN_DU_KIEN>0</THOI_GIAN_DU_KIEN>
+  </rptDANH_SACH_CV>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Nhà Máy Nước Thủ Đức
+Số 2, Lê Văn Chí, P. Linh Trung, Q. Thủ Đức, TP HCM
+Telephone: 84-8-3896694  Fax: 84-8-38963893</THONG_TIN_CTY>
+    <LOGO>/9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBg8PDxQUEhQQFRQUGBkYERgSFhgWGBwSGBwXGxscEx0ZHycqGhovGRUVJi8gIycpLCwwGB8xNTAqNSYrLCn/2wBDAQkKCg4MDhkPDxowJBwlMi8uMTIyLDU1LjApMjUsLCw1MDU1NTE1NDUsLS0pLDQsLjU0KiwsNCksLC8sLCwsKSz/wAARCABDAH8DASIAAhEBAxEB/8QAGwABAAMBAQEBAAAAAAAAAAAAAAEFBgcEAwL/xAAxEAABAwMDAgQFBAIDAAAAAAABAAIDBBEhBRIxBkETIlFxB2GBodEUFjJUkbEVJVL/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQIDBAX/xAApEQACAgEDAQcFAQAAAAAAAAAAAgEDERIhgeEiMXGhscHwE0FhotEE/9oADAMBAAIRAxEAPwDuKIiAIiIAiIgCIiAIiIAiIgCIiAIiIAvxNJtaTYmwJsPkv2vhW03ixlm57d3dhs4exUwRPdsUI6qn/qyff8J+6p/6sn3/AAvB1FpsNJFudW1UZcbMLnueL8/xaPRUmmPjnmZGzUp3uccNDJASBk2J4wDleiqVMuqF25PLaL1nE2T+pqv3TUf1ZPv+F69T12WF4a2F77tBJbewJ7cKIOmGscHePVnab2dLcG3rjhY7W9ap31EjhqMkYvbYxklhtweMcgrNFrsbsrtyaMtyLOX34NP+6Z/6sn3/AArDS9cMx2uikjd23A7T9fVeXTNCaadu6Wd7nNv4m97TnIO2+ORhZDVWtpZTFLqUzXCxsWPODxkHKQtVmVWMTyI+tXhmfMcHSKycsjc4DcWgkAdyOyooepp3OANNIASBc3xc+y+lDqUc+nuc2cuDY3tfKGlpDmtN3W5uBlYuh1CEyxganK7ztxskybjBuq01RMNDRvHiaXs8ysq2I49zpddVmKNz9pdtFwG8n2VLS9Szue1rqaQAkAnOL9+FTdW9RUz5BG2tMJjJEgYx7ru92+mVTUepwiRn/aSnzNwWSWORg3V6qI0ZaN/CStztL9lsRx7nStRrDFE54aXkcNbySqVvU9QSAKWS5wL3Az9FU9X6/TulEYrXQGO+8MY83cfUt+XZenoum8RxmbVyzsF2gODmt3YufNzhUWtUr1PHqTZLvZhGxHBsGnClQFK4zuCFFBQGV6xfXOextPFRSNAJcaktvuPG0E4x3+a+PSVPXeOTUQ6exgadppg3dvJFhcHAtdY7qzVdMnrZXTU+pOe07C6M2aduPKLcLZfDegpW075aeKojErrEVBu47LgEeg8zl2tGiru8uvsY6ctk1NbI5sby3aXBp2hxsC7tc9hdc/pqfVnSNDqbSAC4biAxx23G4gXybXV98Q9Rp4qPZOyokZK4N20/8sebnsMLmtHqOlQyNkjptWa9hu0h3Btb09CU/wA6TpmceXWCXXMncbgDsAP9LD9RP1F9Q4wQaa+MWDHTljnnGb3OM9llqvqilqvI+PW3h2Nu/B9wArrQvhzQ1A3vp62EAjaJ5Rd3u0ZA90WuKu0/p1DRLbGt6egqRSEVEdM2Q7vLCAI9p4vbm/dZBjdYBBFNo4I4tsvf/K6N+naGbALNttAH/m1rD6LhjnaMDb9LquMfy9FFE6paceXUh02g3GmUmqSzt8Wn0sMLgZXMax7tve2efdfnU4NTbPIIqbSvDDj4ZeGB23tuzyrb4f6HSxU/jwRTx+MMiodd+0E29h3WL6y/4xtfOJqbUXSFwLnRO8hu0WLflZXRtVkxHd4dSv0tvn8LhsWsvdmm0gknJs0n35yug0dMI2BoDG4yGNDW7u9gFhfhzoNA8mqghqoywljP1Dr8jJaPra66CsL2zOmPt8/JetNIREXOahERARZLKUQEWSylEBFkspRAFFlKIAospRARZSiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiID//2Q==</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>2000</WIDTH>
+    <HEIGHT>800</HEIGHT>
+    <NGAY_IN>Ngày in:05/12/2011</NGAY_IN>
+    <PAGE>?PAGE?</PAGE>
+    <OFPAGE>?OF?</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

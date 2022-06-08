@@ -1,0 +1,865 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="TUA_DE_SUB" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_SO" type="xs:string" minOccurs="0" />
+                <xs:element name="LAN_BAN_HANH" type="xs:string" minOccurs="0" />
+                <xs:element name="lblNGAY_BAN_HANH" type="xs:string" minOccurs="0" />
+                <xs:element name="lblCAN_CU_THEO" type="xs:string" minOccurs="0" />
+                <xs:element name="lblDON_VI_DX" type="xs:string" minOccurs="0" />
+                <xs:element name="lblBankiemnghiem" type="xs:string" minOccurs="0" />
+                <xs:element name="lblDDNhamay" type="xs:string" minOccurs="0" />
+                <xs:element name="lblDDphongkt" type="xs:string" minOccurs="0" />
+                <xs:element name="lblDDDVSC" type="xs:string" minOccurs="0" />
+                <xs:element name="lblDDdonvisudungtaisancodinh" type="xs:string" minOccurs="0" />
+                <xs:element name="lblKiemnghiemcacnoidungsuachua" type="xs:string" minOccurs="0" />
+                <xs:element name="lblTenTSCD" type="xs:string" minOccurs="0" />
+                <xs:element name="lblSOKIEMKE" type="xs:string" minOccurs="0" />
+                <xs:element name="lblThuchientungay" type="xs:string" minOccurs="0" />
+                <xs:element name="CAC_BO_PHAN_SC" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="NOI_DUNG_CV" type="xs:string" minOccurs="0" />
+                <xs:element name="THONG_SO" type="xs:string" minOccurs="0" />
+                <xs:element name="TIEU_CHUAN" type="xs:string" minOccurs="0" />
+                <xs:element name="THUC_KIEM" type="xs:string" minOccurs="0" />
+                <xs:element name="KET_QUA_DANH_GIA" type="xs:string" minOccurs="0" />
+                <xs:element name="lblTongsocong" type="xs:string" minOccurs="0" />
+                <xs:element name="BAC" type="xs:string" minOccurs="0" />
+                <xs:element name="CONG" type="xs:string" minOccurs="0" />
+                <xs:element name="lblKetluan" type="xs:string" minOccurs="0" />
+                <xs:element name="DON_VI_NHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="DON_VI_SUA_CHUA" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONG_KY_THUAT" type="xs:string" minOccurs="0" />
+                <xs:element name="GIAM_DOC_NHA_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONG_CO_DIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONG_KE_HOACH" type="xs:string" minOccurs="0" />
+                <xs:element name="KE_TOAN_TRUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_BBGN" type="xs:string" minOccurs="0" />
+                <xs:element name="BINHQUAN" type="xs:string" minOccurs="0" />
+                <xs:element name="TUA_DE_SUB1" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP1" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP2" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP3" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP4" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DATA_INFO">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_PHIEU_BAO_TRI">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_LAP" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MS_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_BD_KH" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGAY_KT_KH" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TEN_BO_PHAN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MO_TA_CV" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TIEU_CHUAN_KT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_GIO_PB" type="xs:double" minOccurs="0" />
+                <xs:element name="TEN_LOAI_BT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="40" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="THUC_KIEM" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DATA_PHAN_BO">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="_x0033_5" type="xs:string" minOccurs="0" />
+                <xs:element name="_x0033_6" type="xs:string" minOccurs="0" />
+                <xs:element name="_x0033_7" type="xs:string" minOccurs="0" />
+                <xs:element name="_x0033_8" type="xs:string" minOccurs="0" />
+                <xs:element name="_x0033_9" type="xs:string" minOccurs="0" />
+                <xs:element name="_x0034_0" type="xs:string" minOccurs="0" />
+                <xs:element name="_x0034_1" type="xs:string" minOccurs="0" />
+                <xs:element name="_x0034_2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TTC_CAO" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_RONG" type="xs:int" minOccurs="0" />
+                <xs:element name="USER_LOG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_HT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <TIEU_DE>BIÊN BẢN GIAO NHẬN TÀI SẢN CỐ ĐỊNH  (NỘI BỘ)</TIEU_DE>
+    <TUA_DE_SUB>SỬA CHỮA</TUA_DE_SUB>
+    <MA_SO>Mã số: BM-09-BBGN</MA_SO>
+    <LAN_BAN_HANH>Lần ban hành: 03</LAN_BAN_HANH>
+    <lblNGAY_BAN_HANH>Ngày ban hành: 01/02/2011</lblNGAY_BAN_HANH>
+    <lblCAN_CU_THEO>Căn cứ theo quyết định (yêu cầu): Số </lblCAN_CU_THEO>
+    <lblDON_VI_DX>Của đơn vị đề xuất:</lblDON_VI_DX>
+    <lblBankiemnghiem>Ban kiểm nghiệm gồm có:</lblBankiemnghiem>
+    <lblDDNhamay>1. Ông:………………………………………………Đại diện nhà máy.</lblDDNhamay>
+    <lblDDphongkt>1. Ông:………………………………………………Đại diện phòng kỹ thuật/thiết bị.</lblDDphongkt>
+    <lblDDDVSC>1. Ông:………………………………………………Đại diện đơn vị sửa chữa.</lblDDDVSC>
+    <lblDDdonvisudungtaisancodinh>1. Ông:………………………………………………Đại diện đơn vị sử dụng tài sản cố định.</lblDDdonvisudungtaisancodinh>
+    <lblKiemnghiemcacnoidungsuachua>Kiểm nhận các nội dung sửa chữa</lblKiemnghiemcacnoidungsuachua>
+    <lblTenTSCD>Tên tài sản cố định</lblTenTSCD>
+    <lblSOKIEMKE>Số kiểm kê</lblSOKIEMKE>
+    <lblThuchientungay>Thực hiện từ ngày </lblThuchientungay>
+    <CAC_BO_PHAN_SC>CÁC BỘ PHẬN SỬA CHỮA GỒM CÓ:</CAC_BO_PHAN_SC>
+    <TEN_BO_PHAN>TÊN CÁC BỘ PHẬN</TEN_BO_PHAN>
+    <NOI_DUNG_CV>NỘI DUNG CÔNG VIỆC SỬA CHỮA</NOI_DUNG_CV>
+    <THONG_SO>THÔNG SỐ</THONG_SO>
+    <TIEU_CHUAN>TIÊU CHUẨN</TIEU_CHUAN>
+    <THUC_KIEM>THỰC KIỂM</THUC_KIEM>
+    <KET_QUA_DANH_GIA>KẾT QUẢ ĐÁNH GIÁ</KET_QUA_DANH_GIA>
+    <lblTongsocong>Tổng số công sửa chữa (không tính phát sinh)là</lblTongsocong>
+    <BAC>BẬC</BAC>
+    <CONG>CÔNG</CONG>
+    <lblKetluan>Kết luận</lblKetluan>
+    <DON_VI_NHAN>ĐƠN VỊ SỬA CHỮA </DON_VI_NHAN>
+    <DON_VI_SUA_CHUA>ĐƠN VỊ SỬ DỤNG</DON_VI_SUA_CHUA>
+    <PHONG_KY_THUAT>P.KỸ THUẬT/THIẾT BỊ</PHONG_KY_THUAT>
+    <GIAM_DOC_NHA_MAY>GIÁM ĐỐC NHÀ MÁY</GIAM_DOC_NHA_MAY>
+    <PHONG_CO_DIEN>PHÒNG CƠ ĐIỆN</PHONG_CO_DIEN>
+    <PHONG_KE_HOACH>PHÒNG KẾ HOẠCH</PHONG_KE_HOACH>
+    <KE_TOAN_TRUONG>KẾ TOÁN TRƯỞNG</KE_TOAN_TRUONG>
+    <SO_BBGN>Số:……………/………..BBGN</SO_BBGN>
+    <BINHQUAN>Bình quân</BINHQUAN>
+    <TUA_DE_SUB1>HOÀN THÀNH</TUA_DE_SUB1>
+    <TMP1>Đơn vị:</TMP1>
+    <TMP2>P/M/1.8A</TMP2>
+    <TMP3>Tổng tất cả</TMP3>
+    <TMP4>Thời gian cấp vật tư</TMP4>
+  </Table1>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra, vệ sinh cụm cáp dẫn, cáp nối ngoài, dây dẫn tránh hỏng hóc, daoah nát, lỏng đầu nối</MO_TA_CV>
+    <TIEU_CHUAN_KT>Không dập nát, hỏng hóc, đầu nối chắc chắn</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Không dập nát, hỏng hóc, đầu nối chắc chắn</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra, vệ sinh sạch sẽ bên ngoài tay máy</MO_TA_CV>
+    <TIEU_CHUAN_KT>Sạch sẽ.</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Sạch sẽ.</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh dấu Mark các trục</MO_TA_CV>
+    <TIEU_CHUAN_KT>Không tróc, dính bẩn</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Không tróc, dính bẩn</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh, sửa chữa giá đỡ tay hàn ( nứt, sứt mẻ, cong...)</MO_TA_CV>
+    <TIEU_CHUAN_KT>Không nứt, sứt mẻ, cong. Sạch sẽ</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Không nứt, sứt mẻ, cong. Sạch sẽ</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Chỉnh vị trí tay hàn phù hợp với cài đặt</MO_TA_CV>
+    <TIEU_CHUAN_KT>Không sai lệch vị trí</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Không sai lệch vị trí</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra, vệ sinh, siết chặt tay hàn</MO_TA_CV>
+    <TIEU_CHUAN_KT>Chắc chắn, pép không mòn, không dính bắn toé ở miệng phun kim loại</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Chắc chắn, pép không mòn, không dính bắn toé ở miệng phun kim loại</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh, thay dầu mỡ, thay thế vòng bi (nếu hỏng) các bánh răng trục 1, 2, 3, 4, 5 ,6</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt, không phát tiếng kêu lạ.</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt, không phát tiếng kêu lạ.</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Điều chỉnh, thay mới dây đai tay máy (nếu hỏng)</MO_TA_CV>
+    <TIEU_CHUAN_KT>Không trùng, hoạt động bình thường.</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Không trùng, hoạt động bình thường.</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Thay pin mới tay máy nếu không đảm bảo yêu cầu</MO_TA_CV>
+    <TIEU_CHUAN_KT>Điện áp &gt; hoặc = 3,6V</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Điện áp &gt; hoặc = 3,6V</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra, sửa chữa bộ cấp dây (mòn puly cấp dây). Vệ sinh sạch sẽ bộ cấp dây.</MO_TA_CV>
+    <TIEU_CHUAN_KT>Sạch sẽ, hoạt động tốt.</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Sạch sẽ, hoạt động tốt.</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra, thay thế nếu cần thiết cáp tay hàn đảm bảo không xước, uốn cáp.</MO_TA_CV>
+    <TIEU_CHUAN_KT>Không xước, uốn cáp</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Không xước, uốn cáp</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh, sửa chữa ống dẫn khí tay máy (không mòn hoặc uốn cong lò xo ruột gà)</MO_TA_CV>
+    <TIEU_CHUAN_KT>Không xước, uốn cong lò xo ruột gà</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Không xước, uốn cong lò xo ruột gà</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra, vệ sinh, sửa chữa cáp hàn, ống dẫn dây tay máy, tránh tình trạng hỏng, rò khí, lỏng đầu nối</MO_TA_CV>
+    <TIEU_CHUAN_KT>Chắc chắn, không rò rỉ khí, sạch sẽ</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Chắc chắn, không rò rỉ khí, sạch sẽ</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Siết chặt bulong đế tay máy</MO_TA_CV>
+    <TIEU_CHUAN_KT>Chắc chắn, không rung, lắc</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Chắc chắn, không rung, lắc</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tay máy</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra cáp nối ngoài, tay hàn, hộp đầu nối, phanh đảm bảo hoạt động tốt, không rơ lỏng.</MO_TA_CV>
+    <TIEU_CHUAN_KT>Chắc chắn, không rơ lỏng, không rung khi bật động cơ, tắt động cơ cánh tay không rơi</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Chắc chắn, không rơ lỏng, không rung khi bật động cơ, tắt động cơ cánh tay không rơi</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Nguồn hàn</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh tổng thể bên ngoài nguồn hàn</MO_TA_CV>
+    <TIEU_CHUAN_KT>Sạch sẽ.</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Sạch sẽ.</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Nguồn hàn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra, sửa chữa nguồn hàn không gây tiếng ồn, nóng và mùi lạ</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt, không nóng, kêu lạ</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt, chắc chắn</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Nguồn hàn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra và sửa chữa cáp nguồn vào, cáp hàn, cáp mát đảm bảo không phát sinh nóng trong quá trình hàn, lỏng đầu nối</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt, chắc chắn</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt, chắc chắn</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Nguồn hàn</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh, kiểm tra quạt làm mát đảm bảo hoạt động hiệu quả</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Nguồn hàn</TEN_BO_PHAN>
+    <MO_TA_CV>Đo điện áp đảm bảo yêu cầu kỹ thuật, kiểm tra nối đất không lỏng</MO_TA_CV>
+    <TIEU_CHUAN_KT>Sai số +/- 10%, chắc chắn</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Sai số +/- 10%, chắc chắn</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Nguồn hàn</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh sạch sẽ bên trong nguồn hàn, bắt chặt bảng mạch, đầu nối</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt, chắc chắn</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt, chắc chắn</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Nguồn hàn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra, siết chặt các đầu nối, giao diện và kết nối với robot đảm bảo đồng bộ</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt, chắc chắn</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt, chắc chắn</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Biến áp cấp nguồn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra, vệ sinh biến áp. Tránh nóng, tiếng kêu và mùi không bình thường</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt, không có mùi lạ</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt, không có mùi lạ</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh toàn bộ bên ngoài tủ điều khiển, làm sạch bụi, chỗ dính bắn toé...</MO_TA_CV>
+    <TIEU_CHUAN_KT>Sạch sẽ</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Sạch sẽ</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra và xử lý bề mặt sơn bị bong tróc, hoen ố....</MO_TA_CV>
+    <TIEU_CHUAN_KT>Sơn không trầy xước, bong tróc</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Sơn không trầy xước, bong tróc</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra, vệ sinh kháng trở, lau chùi bụi bặm</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt, sạch sẽ</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt, sạch sẽ</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra và lau sạch điện kháng, lau sạch rìa quạt làm mát và quay để kiểm tra.</MO_TA_CV>
+    <TIEU_CHUAN_KT>Sạch sẽ, hoạt động tốt</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Sạch sẽ, hoạt động tốt</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh công tắc vận hành, thay thế nếu vỡ, hỏng</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt, sạch sẽ</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt, sạch sẽ</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>vệ sinh, thay thế các đèn bảng dạy, hộp thao tác, hộp khởi động nếu hỏng. Tín hiệu dừng khẩn cấp hoạt động chính xác.</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt, sạch sẽ.</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt, sạch sẽ.</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh bảng giao diện với nguồn hàn, siết chặt đầu nối</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt, không lỏng</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt, không lỏng</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh, siết chặt các cáp nối ngoài, dây dẫn</MO_TA_CV>
+    <TIEU_CHUAN_KT>Chắc chắn, sạch sẽ, không xước.</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Chắc chắn, sạch sẽ, không xước.</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh, siết chặt các đầu nối bảng mạch</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt, không lỏng</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt, không lỏng</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh, sửa chữa, thay mới (nếu hỏng) bên trong tủ điện như rơle, nguồn rơle, cụm rơle...</MO_TA_CV>
+    <TIEU_CHUAN_KT>Sạch sẽ, hoạt động tốt</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Sạch sẽ, hoạt động tốt</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Thay mới pin nếu không đảm bảo điện áp</MO_TA_CV>
+    <TIEU_CHUAN_KT>Điện áp đảm bảo &gt; hoặc = 3V</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Điện áp đảm bảo &gt; hoặc = 3V</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh quạt làm mát, thay thế nếu hỏng</MO_TA_CV>
+    <TIEU_CHUAN_KT>Không dính dầu, khói, bụi bẩn...</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Không dính dầu, khói, bụi bẩn...</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Đo điện áp đảm bảo yêu cầu các thông số theo tiêu chuẩn</MO_TA_CV>
+    <TIEU_CHUAN_KT>Nguồn R4-S4-T4 : AC200V; Nguồn P5-M0 : DC+5V+0,1V/-0,1V; Nguồn P1-M1 : DC+24V+/-1V; Nguồn P5E-M5E : DC+5,2V~+5,4V</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Nguồn R4-S4-T4 : AC200V; Nguồn P5-M0 : DC+5V+0,1V/-0,1V; Nguồn P1-M1 : DC+24V+/-1V; Nguồn P5E-M5E : DC+5,2V~+5,4V</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra, thay thế (nếu hỏng) khởi động từ</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh và siết chặt các dây dẫn trên các cụm cực đấu</MO_TA_CV>
+    <TIEU_CHUAN_KT>Hoạt động tốt, không lỏng dây.</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Hoạt động tốt, không lỏng dây.</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ sinh các bảng mạch, đảm bảo chắc chắn.</MO_TA_CV>
+    <TIEU_CHUAN_KT>Không lỏng, hoạt động tốt</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Không lỏng, hoạt động tốt</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra và sửa chữa đệm cửa, khoá cửa nếu hỏng</MO_TA_CV>
+    <TIEU_CHUAN_KT>Không hở và thay đổi hình dạng</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Không hở và thay đổi hình dạng</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra, vệ sinh bảng dạy, vùng vận hành và vùng hiển thị</MO_TA_CV>
+    <TIEU_CHUAN_KT>Sạch sẽ, hoạt động tốt</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Sạch sẽ, hoạt động tốt</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra và sửa chữa nối đất</MO_TA_CV>
+    <TIEU_CHUAN_KT>Không lỏng, hỏng hóc.</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Không lỏng, hỏng hóc.</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_PHIEU_BAO_TRI>WO-201405000133</MS_PHIEU_BAO_TRI>
+    <NGAY_LAP>2014-05-04T00:00:00+07:00</NGAY_LAP>
+    <MS_MAY>HRB-34</MS_MAY>
+    <TEN_MAY>Rôbôt hàn Daihen OTC AII-V6</TEN_MAY>
+    <NGAY_BD_KH>2014-05-11T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-05-11T00:00:00+07:00</NGAY_KT_KH>
+    <TEN_BO_PHAN>Tủ điều khiển</TEN_BO_PHAN>
+    <MO_TA_CV>Siết chặt các đầu nối bộ truyền động, vệ sinh sạch sẽ.</MO_TA_CV>
+    <TIEU_CHUAN_KT>Không lỏng, sạch sẽ.</TIEU_CHUAN_KT>
+    <SO_GIO_PB>0</SO_GIO_PB>
+    <TEN_LOAI_BT>Bảo trì vừa</TEN_LOAI_BT>
+    <THUC_KIEM>Không lỏng, sạch sẽ.</THUC_KIEM>
+  </DATA_INFO>
+  <DATA_PHAN_BO>
+    <_x0033_5>0</_x0033_5>
+    <_x0033_6>0</_x0033_6>
+    <_x0033_7>0</_x0033_7>
+    <_x0033_8>0</_x0033_8>
+    <_x0033_9>0</_x0033_9>
+    <_x0034_0>0</_x0034_0>
+    <_x0034_1>0</_x0034_1>
+    <_x0034_2>0</_x0034_2>
+  </DATA_PHAN_BO>
+  <rptTitlereport>
+    <THONG_TIN_CTY>CÔNG TY CỔ PHẦN KIM KHÍ THĂNG LONG
+KIM KHÍ THĂNG LONG
+Telephone: 04.38759304  Fax: 04.38276670</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>0</LE_TREN_LOGO>
+    <WIDTH>1500</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngày in29/05/2014</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+    <TTC_CAO>700</TTC_CAO>
+    <TTC_RONG>7000</TTC_RONG>
+    <USER_LOG>User : admin</USER_LOG>
+    <NGAY_HT>Ngày in : 29/05/2014</NGAY_HT>
+  </rptTitlereport>
+</NewDataSet>

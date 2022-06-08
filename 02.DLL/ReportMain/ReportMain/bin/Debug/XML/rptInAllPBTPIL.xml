@@ -1,0 +1,2904 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="NHAN_VIEN_THUC_HIEN">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="HO_TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="CHUYEN_MON" type="xs:string" minOccurs="0" />
+                <xs:element name="TRINH_DO_VH" type="xs:string" minOccurs="0" />
+                <xs:element name="BAC_THO" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DANH_SACH_CONG_VIEC">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_PHIEU_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MO_TA_CV" type="xs:string" minOccurs="0" />
+                <xs:element name="CONG_NHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="VAT_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="DANH_GIA" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="CN_YCSDCT" type="xs:string" minOccurs="0" />
+                <xs:element name="LY_DO_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="Ten_N_XUONG" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PHU_TUNG_SU_DUNG">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_PHIEU_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_LUONG" type="xs:double" minOccurs="0" />
+                <xs:element name="TEN_DVT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TD_IN_PBT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NGUOI_LAP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_LAP" type="xs:string" minOccurs="0" />
+                <xs:element name="DIA_DIEM" type="xs:string" minOccurs="0" />
+                <xs:element name="DAY_CHUYEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NHAN_VIEN_THUC_HIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="HO_TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="CHUYEN_MON" type="xs:string" minOccurs="0" />
+                <xs:element name="TRINH_DO" type="xs:string" minOccurs="0" />
+                <xs:element name="BAC_THO" type="xs:string" minOccurs="0" />
+                <xs:element name="DS_CONG_VIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="PHIEU_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="BAT_DAU" type="xs:string" minOccurs="0" />
+                <xs:element name="KET_THUC" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_THIET_BI" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_THIET_BI" type="xs:string" minOccurs="0" />
+                <xs:element name="BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CONG_VIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="THUC_HIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="VAT_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="DANH_GIA" type="xs:string" minOccurs="0" />
+                <xs:element name="CN_YCSDCT" type="xs:string" minOccurs="0" />
+                <xs:element name="PHU_TUNG_SU_DUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="MSTB" type="xs:string" minOccurs="0" />
+                <xs:element name="BO_PHAN_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_LUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="DON_VI_TINH" type="xs:string" minOccurs="0" />
+                <xs:element name="Y_KIEN_NNT" type="xs:string" minOccurs="0" />
+                <xs:element name="NGHIEM_THU" type="xs:string" minOccurs="0" />
+                <xs:element name="KIEM_TRA" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_THUC_HIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TGNT" type="xs:string" minOccurs="0" />
+                <xs:element name="TRANG" type="xs:string" minOccurs="0" />
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="YCNSDCT" type="xs:string" minOccurs="0" />
+                <xs:element name="LYDO" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <NHAN_VIEN_THUC_HIEN>
+    <HO_TEN>BÙI HOÀNG ÂN</HO_TEN>
+    <CHUYEN_MON xml:space="preserve"> </CHUYEN_MON>
+    <TRINH_DO_VH>Đại học</TRINH_DO_VH>
+    <BAC_THO xml:space="preserve"> </BAC_THO>
+  </NHAN_VIEN_THUC_HIEN>
+  <NHAN_VIEN_THUC_HIEN>
+    <HO_TEN>HUỲNH THANH ĐIỀN</HO_TEN>
+    <CHUYEN_MON xml:space="preserve"> </CHUYEN_MON>
+    <TRINH_DO_VH>Đại học</TRINH_DO_VH>
+    <BAC_THO xml:space="preserve"> </BAC_THO>
+  </NHAN_VIEN_THUC_HIEN>
+  <NHAN_VIEN_THUC_HIEN>
+    <HO_TEN>PHẠM HOÀNG NHI</HO_TEN>
+    <CHUYEN_MON xml:space="preserve"> </CHUYEN_MON>
+    <TRINH_DO_VH>Đại học</TRINH_DO_VH>
+    <BAC_THO xml:space="preserve"> </BAC_THO>
+  </NHAN_VIEN_THUC_HIEN>
+  <NHAN_VIEN_THUC_HIEN>
+    <HO_TEN>PHẠM VI QUÂN</HO_TEN>
+    <CHUYEN_MON xml:space="preserve"> </CHUYEN_MON>
+    <TRINH_DO_VH>Đại học</TRINH_DO_VH>
+    <BAC_THO xml:space="preserve"> </BAC_THO>
+  </NHAN_VIEN_THUC_HIEN>
+  <NHAN_VIEN_THUC_HIEN>
+    <HO_TEN>PHAN TOÀN TRUNG</HO_TEN>
+    <CHUYEN_MON xml:space="preserve"> </CHUYEN_MON>
+    <TRINH_DO_VH>Đại học</TRINH_DO_VH>
+    <BAC_THO xml:space="preserve"> </BAC_THO>
+  </NHAN_VIEN_THUC_HIEN>
+  <NHAN_VIEN_THUC_HIEN>
+    <HO_TEN>PHAN VĂN HUY</HO_TEN>
+    <CHUYEN_MON xml:space="preserve"> </CHUYEN_MON>
+    <TRINH_DO_VH>Đại học</TRINH_DO_VH>
+    <BAC_THO xml:space="preserve"> </BAC_THO>
+  </NHAN_VIEN_THUC_HIEN>
+  <NHAN_VIEN_THUC_HIEN>
+    <HO_TEN>THÁI ĐỨC TỐT</HO_TEN>
+    <CHUYEN_MON xml:space="preserve"> </CHUYEN_MON>
+    <TRINH_DO_VH>Đại học</TRINH_DO_VH>
+    <BAC_THO xml:space="preserve"> </BAC_THO>
+  </NHAN_VIEN_THUC_HIEN>
+  <NHAN_VIEN_THUC_HIEN>
+    <HO_TEN>TRẦN MINH TÂN</HO_TEN>
+    <CHUYEN_MON xml:space="preserve"> </CHUYEN_MON>
+    <TRINH_DO_VH>Đại học</TRINH_DO_VH>
+    <BAC_THO xml:space="preserve"> </BAC_THO>
+  </NHAN_VIEN_THUC_HIEN>
+  <NHAN_VIEN_THUC_HIEN>
+    <HO_TEN>TRẦN QUỐC TRẦM</HO_TEN>
+    <CHUYEN_MON xml:space="preserve"> </CHUYEN_MON>
+    <TRINH_DO_VH>Đại học</TRINH_DO_VH>
+    <BAC_THO xml:space="preserve"> </BAC_THO>
+  </NHAN_VIEN_THUC_HIEN>
+  <NHAN_VIEN_THUC_HIEN>
+    <HO_TEN>VÕ QUỐC CƯỞNG</HO_TEN>
+    <CHUYEN_MON xml:space="preserve"> </CHUYEN_MON>
+    <TRINH_DO_VH>Đại học</TRINH_DO_VH>
+    <BAC_THO xml:space="preserve"> </BAC_THO>
+  </NHAN_VIEN_THUC_HIEN>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201806000147</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Tường bao che</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra sửa lại các cửa sổ bị hỏng</MO_TA_CV>
+    <MS_MAY>INF-01-01</MS_MAY>
+    <TEN_MAY>Cơ sở hạ tầng XTAV -DC1&amp;2  </TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>sệ cửa</LY_DO_BT>
+    <Ten_N_XUONG>Kho số 02</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201806000147</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Trần nhà</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra sửa chữa trần la phong bị sụp</MO_TA_CV>
+    <MS_MAY>INF-01-01</MS_MAY>
+    <TEN_MAY>Cơ sở hạ tầng XTAV -DC1&amp;2  </TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>sệ cửa</LY_DO_BT>
+    <Ten_N_XUONG>Kho số 02</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201806000150</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>10</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Lắp bể thứ cấp cho 2 bồn nước máy ép đùn E-F</MO_TA_CV>
+    <MS_MAY>INF-01-02</MS_MAY>
+    <TEN_MAY>Cơ sở hạ tầng XTAV -DC3  </TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>Làm theo tiêu chuẩn</LY_DO_BT>
+    <Ten_N_XUONG>Kho số 02</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số vít tải trấu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ hộp số</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít trấu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hệ thống truyền động</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số gàu tải trấu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ hộp số</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Gàu tải trấu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra gàu tải</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hệ thống truyền động</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít cấp liệu 01</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ hộp số</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít cấp liệu 01</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít cấp liệu 02</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít cấp liệu 02</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ hộp số</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Quạt thổi 01</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Quạt thổi 01</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra quạt thổi</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>07</MS_BO_PHAN>
+    <TEN_BO_PHAN>Quạt thổi 02</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra quạt thổi</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>07</MS_BO_PHAN>
+    <TEN_BO_PHAN>Quạt thổi 02</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>08.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ quạt thổi lớn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>08.02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Guồng quạt</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra guồng quạt</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>08.03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Gối đỡ bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra gối đỡ bạc đạn</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>08.04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra puly / dây cuaro</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>11</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bơm nước cấp lò bơm 01</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra máy bơm</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>12</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bơm nước cấp lò bơm 02</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra máy bơm</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>14</MS_BO_PHAN>
+    <TEN_BO_PHAN>Airlock tro 1</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra airlock</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>14</MS_BO_PHAN>
+    <TEN_BO_PHAN>Airlock tro 1</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ hộp số</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>15</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải tro 1</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ hộp số</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>15</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải tro 1</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>16</MS_BO_PHAN>
+    <TEN_BO_PHAN>Airlock tro 2</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ hộp số</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>16</MS_BO_PHAN>
+    <TEN_BO_PHAN>Airlock tro 2</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra airlock</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>17</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải tro 2</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ hộp số</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>17</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải tro 2</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>18.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ quạt hút tổng</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ</MO_TA_CV>
+    <CONG_NHAN>PHAN VĂN HUY</CONG_NHAN>
+    <VAT_TU>VTK0044 (1 Cái); VTK0092 (1 Cái)</VAT_TU>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>18.02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Guồng quạt</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra guồng quạt</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>18.03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Gối đỡ bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra gối đỡ bạc đạn</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>18.04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra puly / dây cuaro</MO_TA_CV>
+    <CONG_NHAN>BÙI HOÀNG ÂN; THÁI ĐỨC TỐT</CONG_NHAN>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>19</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ bơm dập bụi</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra máy bơm</MO_TA_CV>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>BTrì Đkỳ</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000009</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>20</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Thay ống khối lò hơi</MO_TA_CV>
+    <CONG_NHAN>PHẠM HOÀNG NHI; TRẦN MINH TÂN</CONG_NHAN>
+    <VAT_TU>VBL117 (20 Bộ)</VAT_TU>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_MAY>Lò hơi 18 tấn</TEN_MAY>
+    <LY_DO_BT>Thay mới</LY_DO_BT>
+    <Ten_N_XUONG>Khu lò hơi </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000012</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04.04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Trục trộn nhão</TEN_BO_PHAN>
+    <MO_TA_CV>Thay 2 trục trộn nhão</MO_TA_CV>
+    <CONG_NHAN>PHẠM VI QUÂN; PHAN TOÀN TRUNG; VÕ QUỐC CƯỞNG</CONG_NHAN>
+    <VAT_TU>VTK0085 (3 Cái); VTK0112 (3 Cái)</VAT_TU>
+    <MS_MAY>EXT-01-03</MS_MAY>
+    <TEN_MAY>Ép đùn C</TEN_MAY>
+    <LY_DO_BT>Thay trục mới</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000012</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06.02.02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít ép đùn</TEN_BO_PHAN>
+    <MO_TA_CV>Thay trục ép đùn</MO_TA_CV>
+    <CONG_NHAN>PHẠM VI QUÂN; PHAN TOÀN TRUNG</CONG_NHAN>
+    <MS_MAY>EXT-01-03</MS_MAY>
+    <TEN_MAY>Ép đùn C</TEN_MAY>
+    <LY_DO_BT>Thay trục mới</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000019</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>08.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ trao đổi nhiệt vị trí d</TEN_BO_PHAN>
+    <MO_TA_CV>Thay mô tơ</MO_TA_CV>
+    <MS_MAY>DRY-01-04</MS_MAY>
+    <TEN_MAY>Máy sấy D</TEN_MAY>
+    <LY_DO_BT>Nóng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000019</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>08.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ trao đổi nhiệt vị trí d</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ</MO_TA_CV>
+    <MS_MAY>DRY-01-04</MS_MAY>
+    <TEN_MAY>Máy sấy D</TEN_MAY>
+    <LY_DO_BT>Nóng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000019</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>08.02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Guồng quạt</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>DRY-01-04</MS_MAY>
+    <TEN_MAY>Máy sấy D</TEN_MAY>
+    <LY_DO_BT>Nóng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000019</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>08.02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Guồng quạt</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra guồng quạt</MO_TA_CV>
+    <MS_MAY>DRY-01-04</MS_MAY>
+    <TEN_MAY>Máy sấy D</TEN_MAY>
+    <LY_DO_BT>Nóng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000025</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04.05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn trộn nhão</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn trộn nhão bị xì liệu</MO_TA_CV>
+    <CONG_NHAN>PHẠM VI QUÂN; TRẦN QUỐC TRẦM</CONG_NHAN>
+    <MS_MAY>EXT-01-04</MS_MAY>
+    <TEN_MAY>Ép đùn D</TEN_MAY>
+    <LY_DO_BT>Kiểm tra trộn nhão theo yêu cầu Nguyễn Văn Thừa Ma YC ..009</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000026</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hố nạp liệu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra sửa chữa hố nạp liệu</MO_TA_CV>
+    <MS_MAY>INT-02-01</MS_MAY>
+    <TEN_MAY>Nạp liệu DC3</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>ktra</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000028</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>12</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra lắp lại nấp đậy dưới máy sấy</MO_TA_CV>
+    <MS_MAY>DRY-01-03</MS_MAY>
+    <TEN_MAY>Máy sấy C</TEN_MAY>
+    <LY_DO_BT>Sụp đáy</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000029</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>12</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra lắp lại nấp đậy dưới máy sấy</MO_TA_CV>
+    <MS_MAY>DRY-01-04</MS_MAY>
+    <TEN_MAY>Máy sấy D</TEN_MAY>
+    <LY_DO_BT>Sụp đáy</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000031</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-A04</MS_MAY>
+    <TEN_MAY>Vít tải A04</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000031</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-A04</MS_MAY>
+    <TEN_MAY>Vít tải A04</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000031</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-A04</MS_MAY>
+    <TEN_MAY>Vít tải A04</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000031</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tài</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-A04</MS_MAY>
+    <TEN_MAY>Vít tải A04</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000031</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-A04</MS_MAY>
+    <TEN_MAY>Vít tải A04</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000031</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hệ thống truyền động</MO_TA_CV>
+    <MS_MAY>SCC-01-A04</MS_MAY>
+    <TEN_MAY>Vít tải A04</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000031</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-A04</MS_MAY>
+    <TEN_MAY>Vít tải A04</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000035</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-01-A05</MS_MAY>
+    <TEN_MAY>Vít tải liệu 12 Bin A05 - DC1</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000035</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải liệu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-01-A05</MS_MAY>
+    <TEN_MAY>Vít tải liệu 12 Bin A05 - DC1</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000035</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-01-A05</MS_MAY>
+    <TEN_MAY>Vít tải liệu 12 Bin A05 - DC1</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000035</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-01-A05</MS_MAY>
+    <TEN_MAY>Vít tải liệu 12 Bin A05 - DC1</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000035</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-01-A05</MS_MAY>
+    <TEN_MAY>Vít tải liệu 12 Bin A05 - DC1</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000035</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-01-A05</MS_MAY>
+    <TEN_MAY>Vít tải liệu 12 Bin A05 - DC1</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000036</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-01-01</MS_MAY>
+    <TEN_MAY>Vít tải liệu A15 (Sau cân Đ/lượng DC1)</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000036</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-01-01</MS_MAY>
+    <TEN_MAY>Vít tải liệu A15 (Sau cân Đ/lượng DC1)</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000036</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải liệu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-01-01</MS_MAY>
+    <TEN_MAY>Vít tải liệu A15 (Sau cân Đ/lượng DC1)</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000036</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-01-01</MS_MAY>
+    <TEN_MAY>Vít tải liệu A15 (Sau cân Đ/lượng DC1)</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000036</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-01-01</MS_MAY>
+    <TEN_MAY>Vít tải liệu A15 (Sau cân Đ/lượng DC1)</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000036</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-01-01</MS_MAY>
+    <TEN_MAY>Vít tải liệu A15 (Sau cân Đ/lượng DC1)</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000036</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-01-01</MS_MAY>
+    <TEN_MAY>Vít tải liệu A15 (Sau cân Đ/lượng DC1)</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000037</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hố nạp liệu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hố nạp liệu</MO_TA_CV>
+    <MS_MAY>INT-01-01</MS_MAY>
+    <TEN_MAY>Nạp liệu DC1</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000037</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số vít tải A01</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ hộp số</MO_TA_CV>
+    <MS_MAY>INT-01-01</MS_MAY>
+    <TEN_MAY>Nạp liệu DC1</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000037</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải liệu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>INT-01-01</MS_MAY>
+    <TEN_MAY>Nạp liệu DC1</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000037</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hệ thống truyền động</MO_TA_CV>
+    <MS_MAY>INT-01-01</MS_MAY>
+    <TEN_MAY>Nạp liệu DC1</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000038</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ máy làm sạch</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>CLE-01-01</MS_MAY>
+    <TEN_MAY>Máy làm sạch A03 ( DC1 )</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000038</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Lồng lưới</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra lồng lưới</MO_TA_CV>
+    <MS_MAY>CLE-01-01</MS_MAY>
+    <TEN_MAY>Máy làm sạch A03 ( DC1 )</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000038</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra puly / dây cuaro</MO_TA_CV>
+    <MS_MAY>CLE-01-01</MS_MAY>
+    <TEN_MAY>Máy làm sạch A03 ( DC1 )</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000039</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>BUE-01-02</MS_MAY>
+    <TEN_MAY>Gàu sau cân B01</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000039</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>BUE-01-02</MS_MAY>
+    <TEN_MAY>Gàu sau cân B01</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000039</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Guồng quay</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra cân/chỉnh guồng quay</MO_TA_CV>
+    <MS_MAY>BUE-01-02</MS_MAY>
+    <TEN_MAY>Gàu sau cân B01</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000039</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Dây gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra dây gàu</MO_TA_CV>
+    <MS_MAY>BUE-01-02</MS_MAY>
+    <TEN_MAY>Gàu sau cân B01</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000039</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máng gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra /thay máng gàu</MO_TA_CV>
+    <MS_MAY>BUE-01-02</MS_MAY>
+    <TEN_MAY>Gàu sau cân B01</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000039</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>BUE-01-02</MS_MAY>
+    <TEN_MAY>Gàu sau cân B01</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000039</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bánh răng / sên truyền động</MO_TA_CV>
+    <MS_MAY>BUE-01-02</MS_MAY>
+    <TEN_MAY>Gàu sau cân B01</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000040</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>BUE-01-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu A02</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000040</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>BUE-01-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu A02</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000040</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Guồng quay</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra cân/chỉnh guồng quay</MO_TA_CV>
+    <MS_MAY>BUE-01-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu A02</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000040</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Dây gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra dây gàu</MO_TA_CV>
+    <MS_MAY>BUE-01-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu A02</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000040</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máng gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra /thay máng gàu</MO_TA_CV>
+    <MS_MAY>BUE-01-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu A02</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000040</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>BUE-01-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu A02</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000040</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bánh răng / sên truyền động</MO_TA_CV>
+    <MS_MAY>BUE-01-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu A02</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000041</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>0.1</MS_BO_PHAN>
+    <TEN_BO_PHAN>Cửa trượt khí nén</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra cửa trượt khí nén</MO_TA_CV>
+    <MS_MAY>MXR-02-01</MS_MAY>
+    <TEN_MAY>Máy trộn thô M 101</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000041</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ</MO_TA_CV>
+    <MS_MAY>MXR-02-01</MS_MAY>
+    <TEN_MAY>Máy trộn thô M 101</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000041</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hộp số</MO_TA_CV>
+    <MS_MAY>MXR-02-01</MS_MAY>
+    <TEN_MAY>Máy trộn thô M 101</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000041</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Cánh bồn trộn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra cánh bồn trộn</MO_TA_CV>
+    <MS_MAY>MXR-02-01</MS_MAY>
+    <TEN_MAY>Máy trộn thô M 101</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000041</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Trục bồn trộn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra trục bồn trộn</MO_TA_CV>
+    <MS_MAY>MXR-02-01</MS_MAY>
+    <TEN_MAY>Máy trộn thô M 101</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000041</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn trộn thô</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>MXR-02-01</MS_MAY>
+    <TEN_MAY>Máy trộn thô M 101</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000041</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bánh răng / sên truyền động</MO_TA_CV>
+    <MS_MAY>MXR-02-01</MS_MAY>
+    <TEN_MAY>Máy trộn thô M 101</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000041</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>MXR-02-01</MS_MAY>
+    <TEN_MAY>Máy trộn thô M 101</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000042</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hố nạp liệu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hố nạp liệu</MO_TA_CV>
+    <MS_MAY>INT-02-01</MS_MAY>
+    <TEN_MAY>Nạp liệu DC3</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000042</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Quạt hút bụi</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra quạt hút</MO_TA_CV>
+    <MS_MAY>INT-02-01</MS_MAY>
+    <TEN_MAY>Nạp liệu DC3</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000043</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ</MO_TA_CV>
+    <MS_MAY>CHC-03-02</MS_MAY>
+    <TEN_MAY>Xích tải dưới trộn thô M104</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000043</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hộp số</MO_TA_CV>
+    <MS_MAY>CHC-03-02</MS_MAY>
+    <TEN_MAY>Xích tải dưới trộn thô M104</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000043</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ xích tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ xích</MO_TA_CV>
+    <MS_MAY>CHC-03-02</MS_MAY>
+    <TEN_MAY>Xích tải dưới trộn thô M104</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000043</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Xích tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra xích tải</MO_TA_CV>
+    <MS_MAY>CHC-03-02</MS_MAY>
+    <TEN_MAY>Xích tải dưới trộn thô M104</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000043</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>CHC-03-02</MS_MAY>
+    <TEN_MAY>Xích tải dưới trộn thô M104</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000043</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bánh răng / sên truyền động</MO_TA_CV>
+    <MS_MAY>CHC-03-02</MS_MAY>
+    <TEN_MAY>Xích tải dưới trộn thô M104</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000044</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ</MO_TA_CV>
+    <MS_MAY>CHC-03-01</MS_MAY>
+    <TEN_MAY>Xích tải nạp liệu R104</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000044</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hộp số</MO_TA_CV>
+    <MS_MAY>CHC-03-01</MS_MAY>
+    <TEN_MAY>Xích tải nạp liệu R104</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000044</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ xích tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ xích</MO_TA_CV>
+    <MS_MAY>CHC-03-01</MS_MAY>
+    <TEN_MAY>Xích tải nạp liệu R104</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000044</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Xích tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra xích tải</MO_TA_CV>
+    <MS_MAY>CHC-03-01</MS_MAY>
+    <TEN_MAY>Xích tải nạp liệu R104</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000044</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>CHC-03-01</MS_MAY>
+    <TEN_MAY>Xích tải nạp liệu R104</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000044</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bánh răng / sên truyền động</MO_TA_CV>
+    <MS_MAY>CHC-03-01</MS_MAY>
+    <TEN_MAY>Xích tải nạp liệu R104</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000045</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ</MO_TA_CV>
+    <MS_MAY>BUE-02-03</MS_MAY>
+    <TEN_MAY>Gàu tải M105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Kho số 02</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000045</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hộp số</MO_TA_CV>
+    <MS_MAY>BUE-02-03</MS_MAY>
+    <TEN_MAY>Gàu tải M105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Kho số 02</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000045</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Guồng quay</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra cân/chỉnh guồng quay</MO_TA_CV>
+    <MS_MAY>BUE-02-03</MS_MAY>
+    <TEN_MAY>Gàu tải M105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Kho số 02</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000045</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Dây gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra dây gàu</MO_TA_CV>
+    <MS_MAY>BUE-02-03</MS_MAY>
+    <TEN_MAY>Gàu tải M105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Kho số 02</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000045</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máng gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra /thay máng gàu</MO_TA_CV>
+    <MS_MAY>BUE-02-03</MS_MAY>
+    <TEN_MAY>Gàu tải M105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Kho số 02</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000045</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>BUE-02-03</MS_MAY>
+    <TEN_MAY>Gàu tải M105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Kho số 02</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000045</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hệ thống truyền động</MO_TA_CV>
+    <MS_MAY>BUE-02-03</MS_MAY>
+    <TEN_MAY>Gàu tải M105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Kho số 02</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000045</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>07</MS_BO_PHAN>
+    <TEN_BO_PHAN>Thân gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>BUE-02-03</MS_MAY>
+    <TEN_MAY>Gàu tải M105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Kho số 02</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000045</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>08</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máy lọc bụi M105.1</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra máy lọc bụi</MO_TA_CV>
+    <MS_MAY>BUE-02-03</MS_MAY>
+    <TEN_MAY>Gàu tải M105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Kho số 02</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000045</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>09</MS_BO_PHAN>
+    <TEN_BO_PHAN>Cảm biến tốc độ (sensors)</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra cảm biến tốc độ</MO_TA_CV>
+    <MS_MAY>BUE-02-03</MS_MAY>
+    <TEN_MAY>Gàu tải M105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Kho số 02</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000046</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ</MO_TA_CV>
+    <MS_MAY>BUE-02-02</MS_MAY>
+    <TEN_MAY>Gàu tải 12 Bin R110</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000046</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hộp số</MO_TA_CV>
+    <MS_MAY>BUE-02-02</MS_MAY>
+    <TEN_MAY>Gàu tải 12 Bin R110</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000046</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Guồng quay</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra cân/chỉnh guồng quay</MO_TA_CV>
+    <MS_MAY>BUE-02-02</MS_MAY>
+    <TEN_MAY>Gàu tải 12 Bin R110</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000046</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Dây gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra dây gàu</MO_TA_CV>
+    <MS_MAY>BUE-02-02</MS_MAY>
+    <TEN_MAY>Gàu tải 12 Bin R110</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000046</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máng gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra /thay máng gàu</MO_TA_CV>
+    <MS_MAY>BUE-02-02</MS_MAY>
+    <TEN_MAY>Gàu tải 12 Bin R110</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000046</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>BUE-02-02</MS_MAY>
+    <TEN_MAY>Gàu tải 12 Bin R110</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000046</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hệ thống truyền động</MO_TA_CV>
+    <MS_MAY>BUE-02-02</MS_MAY>
+    <TEN_MAY>Gàu tải 12 Bin R110</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000046</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>07</MS_BO_PHAN>
+    <TEN_BO_PHAN>Thân gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>BUE-02-02</MS_MAY>
+    <TEN_MAY>Gàu tải 12 Bin R110</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000046</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>08</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máy lọc bụi R110.1</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra máy lọc bụi</MO_TA_CV>
+    <MS_MAY>BUE-02-02</MS_MAY>
+    <TEN_MAY>Gàu tải 12 Bin R110</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000046</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>09</MS_BO_PHAN>
+    <TEN_BO_PHAN>Cảm biến tốc độ (sensors)</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra cảm biến tốc độ</MO_TA_CV>
+    <MS_MAY>BUE-02-02</MS_MAY>
+    <TEN_MAY>Gàu tải 12 Bin R110</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000047</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ</MO_TA_CV>
+    <MS_MAY>BUE-02-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu R105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000047</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hộp số</MO_TA_CV>
+    <MS_MAY>BUE-02-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu R105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000047</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Guồng quay</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra cân/chỉnh guồng quay</MO_TA_CV>
+    <MS_MAY>BUE-02-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu R105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000047</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Dây gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra dây gàu</MO_TA_CV>
+    <MS_MAY>BUE-02-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu R105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000047</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máng gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra /thay máng gàu</MO_TA_CV>
+    <MS_MAY>BUE-02-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu R105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000047</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>BUE-02-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu R105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000047</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra hệ thống truyền động</MO_TA_CV>
+    <MS_MAY>BUE-02-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu R105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000047</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>07</MS_BO_PHAN>
+    <TEN_BO_PHAN>Thân gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>BUE-02-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu R105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000047</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>08</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máy lọc bụi R110.1</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra máy lọc bụi</MO_TA_CV>
+    <MS_MAY>BUE-02-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu R105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000047</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>09</MS_BO_PHAN>
+    <TEN_BO_PHAN>Cảm biến tốc độ (sensors)</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra cảm biến tốc độ</MO_TA_CV>
+    <MS_MAY>BUE-02-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu R105</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000050</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vật tư mới</TEN_BO_PHAN>
+    <MO_TA_CV>Nhập vật tư</MO_TA_CV>
+    <VAT_TU>VCD0017 (1 Cái); VCD0088 (1 Cái); VCD0163 (1 Cái); VED0125 (1 Cuộn); VED0192 (5 Cái)</VAT_TU>
+    <MS_MAY>PCD-01</MS_MAY>
+    <TEN_MAY>VẬT TƯ CƠ ĐIỆN</TEN_MAY>
+    <LY_DO_BT>Nhập vật tư</LY_DO_BT>
+    <Ten_N_XUONG>Pilmico</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000051</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vật tư mới</TEN_BO_PHAN>
+    <MO_TA_CV>Nhập vật tư</MO_TA_CV>
+    <VAT_TU>VED0137 (1 Cái); VED0153 (1 Cái); VED0389 (2 Mét)</VAT_TU>
+    <MS_MAY>PCD-01</MS_MAY>
+    <TEN_MAY>VẬT TƯ CƠ ĐIỆN</TEN_MAY>
+    <LY_DO_BT>Vật tư</LY_DO_BT>
+    <Ten_N_XUONG>Pilmico</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000052</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khu sản xuất</TEN_BO_PHAN>
+    <MO_TA_CV>Nhập vật tư</MO_TA_CV>
+    <VAT_TU>VBS0013 (1 Cái); VCD0020 (1 Cái)</VAT_TU>
+    <MS_MAY>KSX-01</MS_MAY>
+    <TEN_MAY>VẬT TƯ XTAV</TEN_MAY>
+    <LY_DO_BT>Nhập vật tư</LY_DO_BT>
+    <Ten_N_XUONG>Khu sản xuất </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000053</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra mô tơ hộp số</MO_TA_CV>
+    <MS_MAY>BUE-01-A02-01</MS_MAY>
+    <TEN_MAY>Gàu sau Máy nghiền thô A02-01</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000053</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Guồng quay</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra cân/chỉnh guồng quay</MO_TA_CV>
+    <MS_MAY>BUE-01-A02-01</MS_MAY>
+    <TEN_MAY>Gàu sau Máy nghiền thô A02-01</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000053</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Dây gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra dây gàu</MO_TA_CV>
+    <MS_MAY>BUE-01-A02-01</MS_MAY>
+    <TEN_MAY>Gàu sau Máy nghiền thô A02-01</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000053</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máng gàu</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra /thay máng gàu</MO_TA_CV>
+    <MS_MAY>BUE-01-A02-01</MS_MAY>
+    <TEN_MAY>Gàu sau Máy nghiền thô A02-01</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000053</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>BUE-01-A02-01</MS_MAY>
+    <TEN_MAY>Gàu sau Máy nghiền thô A02-01</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000053</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bánh răng / sên truyền động</MO_TA_CV>
+    <MS_MAY>BUE-01-A02-01</MS_MAY>
+    <TEN_MAY>Gàu sau Máy nghiền thô A02-01</TEN_MAY>
+    <LY_DO_BT>Chuyển từ BTPN  6 tháng </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000054</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>11.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Cấp hơi vị trí a</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra các mặt bít bị xì hơi</MO_TA_CV>
+    <MS_MAY>DRY-01-01</MS_MAY>
+    <TEN_MAY>Máy sấy A</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>bao tri </LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000055</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Trộn nhão E05b</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra tổng thể trộn nhão</MO_TA_CV>
+    <MS_MAY>EXT-01-02</MS_MAY>
+    <TEN_MAY>Ép đùn B</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>Ktra</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000055</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Trộn nhão E05b</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra khắc phục tiếng kêu bất thường</MO_TA_CV>
+    <MS_MAY>EXT-01-02</MS_MAY>
+    <TEN_MAY>Ép đùn B</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>Ktra</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000056</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Guồng quay</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra cân/chỉnh guồng quay</MO_TA_CV>
+    <MS_MAY>BUE-02-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu R105</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>Ktra</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000056</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Guồng quay</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra khắc phục đầu gàu bị cọ nóng</MO_TA_CV>
+    <MS_MAY>BUE-02-01</MS_MAY>
+    <TEN_MAY>Gàu nạp liệu R105</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>Ktra</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 3</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000057</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>11.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Cấp hơi vị trí a</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra các mặt bít bị xì hơi</MO_TA_CV>
+    <MS_MAY>DRY-01-02</MS_MAY>
+    <TEN_MAY>Máy sấy B</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>bảo trì</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000057</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>11.02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Cấp hơi vị trí b</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra lọc Y bị xì hơi</MO_TA_CV>
+    <MS_MAY>DRY-01-02</MS_MAY>
+    <TEN_MAY>Máy sấy B</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>bảo trì</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000058</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Ép đùn E06d</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra thay bạc đỡ trục ép đùn</MO_TA_CV>
+    <MS_MAY>EXT-01-04</MS_MAY>
+    <TEN_MAY>Ép đùn D</TEN_MAY>
+    <CN_YCSDCT>HUỲNH THANH LĂM</CN_YCSDCT>
+    <LY_DO_BT>bảo trì</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000066</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ sàng tinh B25d-1</TEN_BO_PHAN>
+    <MO_TA_CV>Lắp mô tơ lồng lưới</MO_TA_CV>
+    <CONG_NHAN>HUỲNH THANH ĐIỀN; VÕ QUỐC CƯỞNG</CONG_NHAN>
+    <VAT_TU>VCD0132 (1 Cái)</VAT_TU>
+    <MS_MAY>DRS-01-04</MS_MAY>
+    <TEN_MAY>Sàng tinh B25d</TEN_MAY>
+    <LY_DO_BT>Sửa chữa</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000066</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Lắp dây cuaro và puly truyền động</MO_TA_CV>
+    <VAT_TU>VCR0054 (2 Sợi)</VAT_TU>
+    <MS_MAY>DRS-01-04</MS_MAY>
+    <TEN_MAY>Sàng tinh B25d</TEN_MAY>
+    <LY_DO_BT>Sửa chữa</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000066</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hộ số lồng lưới</TEN_BO_PHAN>
+    <MO_TA_CV>Lắp hộp số lồng lưới</MO_TA_CV>
+    <MS_MAY>DRS-01-04</MS_MAY>
+    <TEN_MAY>Sàng tinh B25d</TEN_MAY>
+    <LY_DO_BT>Sửa chữa</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 2</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000071</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Dây chuyền 2</TEN_BO_PHAN>
+    <MO_TA_CV>Làm sàn thao tác cho áo dầu D</MO_TA_CV>
+    <CONG_NHAN>PHAN TOÀN TRUNG</CONG_NHAN>
+    <MS_MAY>TAV-123</MS_MAY>
+    <TEN_MAY>XƯỞNG THỨC ĂN VIÊN</TEN_MAY>
+    <LY_DO_BT>làm sàn thao tác</LY_DO_BT>
+    <Ten_N_XUONG>Pilmico</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000073</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống khí nén DC1</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra khí nén bị xì vị trí Van 2 ngã bin thành phẩm Line B</MO_TA_CV>
+    <MS_MAY>KNE-01</MS_MAY>
+    <TEN_MAY>HỆ THỐNG KHÍ NÉN</TEN_MAY>
+    <LY_DO_BT>Kiểm tra khí nén bị xì</LY_DO_BT>
+    <Ten_N_XUONG>Khu sản xuất </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000073</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống khí nén DC1</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra khí nén bị xì vị trí bồn dầu (Tầng 1 DC 1&amp;2)</MO_TA_CV>
+    <MS_MAY>KNE-01</MS_MAY>
+    <TEN_MAY>HỆ THỐNG KHÍ NÉN</TEN_MAY>
+    <LY_DO_BT>Kiểm tra khí nén bị xì</LY_DO_BT>
+    <Ten_N_XUONG>Khu sản xuất </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000073</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống khí nén DC1</TEN_BO_PHAN>
+    <MO_TA_CV>Kiềm tra khí nén bị xì vị trí của trượt phía trên máy nghiền B(Tầng 1)</MO_TA_CV>
+    <MS_MAY>KNE-01</MS_MAY>
+    <TEN_MAY>HỆ THỐNG KHÍ NÉN</TEN_MAY>
+    <LY_DO_BT>Kiểm tra khí nén bị xì</LY_DO_BT>
+    <Ten_N_XUONG>Khu sản xuất </Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000074</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-01</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-01</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000074</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-01</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-01</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000074</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-01</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-01</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000074</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tài</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-01</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-01</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000074</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-01</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-01</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000074</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-01</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-01</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000074</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-01</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-01</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000075</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-02</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-02</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000075</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-02</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-02</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000075</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-02</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-02</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000075</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tài</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-02</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-02</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000075</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-02</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-02</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000075</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-02</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-02</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000076</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-03</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-03</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000076</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-03</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-03</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000076</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-03</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-03</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000076</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tài</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-03</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-03</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000076</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-03</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-03</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000076</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-03</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-03</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000076</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-03</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-03</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000077</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-04</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-04</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000077</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-04</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-04</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000077</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-04</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-04</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000077</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tài</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-04</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-04</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000077</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-04</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-04</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000077</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-04</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-04</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000077</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-04</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-04</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000078</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-05</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-05</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000078</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-05</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-05</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000078</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-05</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-05</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000078</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tài</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-05</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-05</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000078</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-05</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-05</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000078</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-05</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-05</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000078</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-05</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-05</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000079</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-06</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-06</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000079</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-06</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-06</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000079</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-06</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-06</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000079</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tài</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-06</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-06</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000079</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-06</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-06</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000079</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-06</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-06</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000079</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-06</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-06</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000080</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-07</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-07</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000080</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-07</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-07</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000080</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-07</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-07</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000080</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tài</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-07</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-07</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000080</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-07</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-07</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000080</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-07</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-07</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000080</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-07</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-07</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000081</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-08</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-08</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000081</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-08</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-08</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000081</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-08</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-08</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000081</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tài</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-08</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-08</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000081</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-08</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-08</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000081</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-08</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-08</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000081</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-08</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-08</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000082</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-09</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-09</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000082</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-09</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-09</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000082</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-09</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-09</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000082</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tài</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-09</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-09</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000082</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-09</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-09</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000082</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-09</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-09</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000082</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-09</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-09</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000083</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-10</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-10</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000083</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-10</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-10</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000083</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-10</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-10</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000083</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tài</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-10</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-10</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000083</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-10</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-10</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000083</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-10</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-10</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000083</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-10</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-10</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000084</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-11</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-11</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000084</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-11</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-11</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000084</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-11</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-11</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000084</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tài</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-11</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-11</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000084</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-11</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-11</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000084</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-11</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-11</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000084</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-11</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-11</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000085</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra phót / nhớt hộp số</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-12</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-12</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000085</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Mô tơ hộp số</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn / hộp đấu dây mô tơ</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-12</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-12</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000085</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vít tải</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-12</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-12</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000085</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>03</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vỏ vít tài</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra vỏ vít</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-12</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-12</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000085</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bạc đạn</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bạc đạn</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-12</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-12</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000085</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra bộ truyền động khớp nối</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-12</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-12</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-201807000085</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MO_TA_CV>Kiểm tra làm kín các vị trí xì liệu</MO_TA_CV>
+    <MS_MAY>SCC-01-A10-12</MS_MAY>
+    <TEN_MAY>Vít định lượng A10-12</TEN_MAY>
+    <LY_DO_BT>6 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Dây chuyền 1</Ten_N_XUONG>
+  </DANH_SACH_CONG_VIEC>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_BO_PHAN>Mô tơ quạt hút tổng</TEN_BO_PHAN>
+    <MS_PT>VTK0044</MS_PT>
+    <TEN_PT>Bạc đạn 6319 SKF</TEN_PT>
+    <SO_LUONG>1</SO_LUONG>
+    <TEN_DVT>Cái</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000007</MS_PHIEU_BAO_TRI>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_BO_PHAN>Mô tơ quạt hút tổng</TEN_BO_PHAN>
+    <MS_PT>VTK0092</MS_PT>
+    <TEN_PT>Bạc đạn NU 319 ECM SKF</TEN_PT>
+    <SO_LUONG>1</SO_LUONG>
+    <TEN_DVT>Cái</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000009</MS_PHIEU_BAO_TRI>
+    <MS_MAY>BOL-02-01</MS_MAY>
+    <TEN_BO_PHAN>Khác</TEN_BO_PHAN>
+    <MS_PT>VBL117</MS_PT>
+    <TEN_PT>BULON ĐAI ỐC 12*60</TEN_PT>
+    <SO_LUONG>20</SO_LUONG>
+    <TEN_DVT>Bộ</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000012</MS_PHIEU_BAO_TRI>
+    <MS_MAY>EXT-01-03</MS_MAY>
+    <TEN_BO_PHAN>Trục trộn nhão</TEN_BO_PHAN>
+    <MS_PT>VTK0085</MS_PT>
+    <TEN_PT>Bạc đạn H 318 SKF</TEN_PT>
+    <SO_LUONG>3</SO_LUONG>
+    <TEN_DVT>Cái</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000012</MS_PHIEU_BAO_TRI>
+    <MS_MAY>EXT-01-03</MS_MAY>
+    <TEN_BO_PHAN>Trục trộn nhão</TEN_BO_PHAN>
+    <MS_PT>VTK0112</MS_PT>
+    <TEN_PT>Bạc đạn 22218 SKF</TEN_PT>
+    <SO_LUONG>3</SO_LUONG>
+    <TEN_DVT>Cái</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000050</MS_PHIEU_BAO_TRI>
+    <MS_MAY>PCD-01</MS_MAY>
+    <TEN_BO_PHAN>Vật tư mới</TEN_BO_PHAN>
+    <MS_PT>VCD0017</MS_PT>
+    <TEN_PT>ĐẦU CẮM NHANH TĂNG GIẢM ÁP 13/10</TEN_PT>
+    <SO_LUONG>1</SO_LUONG>
+    <TEN_DVT>Cái</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000050</MS_PHIEU_BAO_TRI>
+    <MS_MAY>PCD-01</MS_MAY>
+    <TEN_BO_PHAN>Vật tư mới</TEN_BO_PHAN>
+    <MS_PT>VCD0088</MS_PT>
+    <TEN_PT>BÉC CẮT GAS</TEN_PT>
+    <SO_LUONG>1</SO_LUONG>
+    <TEN_DVT>Cái</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000050</MS_PHIEU_BAO_TRI>
+    <MS_MAY>PCD-01</MS_MAY>
+    <TEN_BO_PHAN>Vật tư mới</TEN_BO_PHAN>
+    <MS_PT>VCD0163</MS_PT>
+    <TEN_PT>BÉC CẮT PLASMA</TEN_PT>
+    <SO_LUONG>1</SO_LUONG>
+    <TEN_DVT>Cái</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000050</MS_PHIEU_BAO_TRI>
+    <MS_MAY>PCD-01</MS_MAY>
+    <TEN_BO_PHAN>Vật tư mới</TEN_BO_PHAN>
+    <MS_PT>VED0125</MS_PT>
+    <TEN_PT>BĂNG KEO ĐiỆN </TEN_PT>
+    <SO_LUONG>1</SO_LUONG>
+    <TEN_DVT>Cuộn</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000050</MS_PHIEU_BAO_TRI>
+    <MS_MAY>PCD-01</MS_MAY>
+    <TEN_BO_PHAN>Vật tư mới</TEN_BO_PHAN>
+    <MS_PT>VED0192</MS_PT>
+    <TEN_PT>ĐẦU COS CÀI 2-250</TEN_PT>
+    <SO_LUONG>5</SO_LUONG>
+    <TEN_DVT>Cái</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000051</MS_PHIEU_BAO_TRI>
+    <MS_MAY>PCD-01</MS_MAY>
+    <TEN_BO_PHAN>Vật tư mới</TEN_BO_PHAN>
+    <MS_PT>VED0137</MS_PT>
+    <TEN_PT>Ổ CẤM CÁI 32A -1P</TEN_PT>
+    <SO_LUONG>1</SO_LUONG>
+    <TEN_DVT>Cái</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000051</MS_PHIEU_BAO_TRI>
+    <MS_MAY>PCD-01</MS_MAY>
+    <TEN_BO_PHAN>Vật tư mới</TEN_BO_PHAN>
+    <MS_PT>VED0153</MS_PT>
+    <TEN_PT>HỘP ĐiỆN</TEN_PT>
+    <SO_LUONG>1</SO_LUONG>
+    <TEN_DVT>Cái</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000051</MS_PHIEU_BAO_TRI>
+    <MS_MAY>PCD-01</MS_MAY>
+    <TEN_BO_PHAN>Vật tư mới</TEN_BO_PHAN>
+    <MS_PT>VED0389</MS_PT>
+    <TEN_PT>DÂY ĐIỆN ĐÔI 2*2.5MM</TEN_PT>
+    <SO_LUONG>2</SO_LUONG>
+    <TEN_DVT>Mét</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000052</MS_PHIEU_BAO_TRI>
+    <MS_MAY>KSX-01</MS_MAY>
+    <TEN_BO_PHAN>Khu sản xuất</TEN_BO_PHAN>
+    <MS_PT>VBS0013</MS_PT>
+    <TEN_PT>MẮC SÊN ĐƠN 60</TEN_PT>
+    <SO_LUONG>1</SO_LUONG>
+    <TEN_DVT>Cái</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000052</MS_PHIEU_BAO_TRI>
+    <MS_MAY>KSX-01</MS_MAY>
+    <TEN_BO_PHAN>Khu sản xuất</TEN_BO_PHAN>
+    <MS_PT>VCD0020</MS_PT>
+    <TEN_PT>ĐẦU CẮM NHANH 13/10</TEN_PT>
+    <SO_LUONG>1</SO_LUONG>
+    <TEN_DVT>Cái</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000066</MS_PHIEU_BAO_TRI>
+    <MS_MAY>DRS-01-04</MS_MAY>
+    <TEN_BO_PHAN>Hệ thống truyền động</TEN_BO_PHAN>
+    <MS_PT>VCR0054</MS_PT>
+    <TEN_PT>DÂY CUARO SPA 1857</TEN_PT>
+    <SO_LUONG>2</SO_LUONG>
+    <TEN_DVT>Sợi</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <PHU_TUNG_SU_DUNG>
+    <MS_PHIEU_BAO_TRI>WO-201807000066</MS_PHIEU_BAO_TRI>
+    <MS_MAY>DRS-01-04</MS_MAY>
+    <TEN_BO_PHAN>Mô tơ sàng tinh B25d-1</TEN_BO_PHAN>
+    <MS_PT>VCD0132</MS_PT>
+    <TEN_PT>CÁNH QUẠT NHỰA NGOÀI 200 LỖ 38</TEN_PT>
+    <SO_LUONG>1</SO_LUONG>
+    <TEN_DVT>Cái</TEN_DVT>
+  </PHU_TUNG_SU_DUNG>
+  <TD_IN_PBT>
+    <NGUOI_LAP>Người lập : </NGUOI_LAP>
+    <NGAY_LAP>Ngày lập : 16:57 19/07/2018</NGAY_LAP>
+    <DIA_DIEM>Địa điểm : ALL</DIA_DIEM>
+    <DAY_CHUYEN>Dây chuyền : ALL</DAY_CHUYEN>
+    <NHAN_VIEN_THUC_HIEN>              NHÂN VIÊN THỰC HIỆN :</NHAN_VIEN_THUC_HIEN>
+    <HO_TEN>Họ tên</HO_TEN>
+    <CHUYEN_MON>Chuyên môn</CHUYEN_MON>
+    <TRINH_DO>Trình độ</TRINH_DO>
+    <BAC_THO>Bậc thợ</BAC_THO>
+    <DS_CONG_VIEC>              DANH SÁCH CÔNG VIỆC :</DS_CONG_VIEC>
+    <PHIEU_BAO_TRI>Phiếu bảo trì</PHIEU_BAO_TRI>
+    <BAT_DAU>Bắt đầu __:__ ..../..../....</BAT_DAU>
+    <KET_THUC>Kết thúc __:__ ..../..../....</KET_THUC>
+    <MS_THIET_BI>Thiết bị</MS_THIET_BI>
+    <TEN_THIET_BI>Tên thiết bị</TEN_THIET_BI>
+    <BO_PHAN>Bộ phận</BO_PHAN>
+    <CONG_VIEC>Công việc</CONG_VIEC>
+    <THUC_HIEN>Thực hiện</THUC_HIEN>
+    <VAT_TU>Vật tư</VAT_TU>
+    <DANH_GIA>Đánh giá</DANH_GIA>
+    <CN_YCSDCT>Nhân viên</CN_YCSDCT>
+    <PHU_TUNG_SU_DUNG>              PHỤ TÙNG SỬ DỤNG :</PHU_TUNG_SU_DUNG>
+    <MSTB>Mã thiết bị</MSTB>
+    <BO_PHAN_TB>Bộ phận</BO_PHAN_TB>
+    <MS_PT>Mã Số PT</MS_PT>
+    <TEN_PT>Địa điểm</TEN_PT>
+    <SO_LUONG>Số lượng</SO_LUONG>
+    <DON_VI_TINH>ĐVT</DON_VI_TINH>
+    <Y_KIEN_NNT>             Ý KIẾN NGƯỜI NGHIỆM THU :</Y_KIEN_NNT>
+    <NGHIEM_THU>Xác nhận</NGHIEM_THU>
+    <KIEM_TRA>Bộ phận sử dụng</KIEM_TRA>
+    <NGUOI_THUC_HIEN>Phê duyệt</NGUOI_THUC_HIEN>
+    <TGNT>Ngày ..../..../....</TGNT>
+    <TRANG>Mã BP</TRANG>
+    <TIEU_DE>DANH SÁCH PHIẾU BẢO TRÌ</TIEU_DE>
+    <YCNSDCT>Nhân viên</YCNSDCT>
+    <LYDO>Lý do</LYDO>
+  </TD_IN_PBT>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty cổ phần thức ăn chăn nuôi Pilmico việt nam
+Quốc lộ 30, Cụm công nghiệp Thanh Bình, Xã Bình Thành, Huyện Thanh Bình, Đồng Tháp
+Telephone:   Fax: </THONG_TIN_CTY>
+    <LOGO>/9j/4AAQSkZJRgABAQEAAAAAAAD/4QCqRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAZKGAAcAAAB0AAAALAAAAABDAFIARQBBAFQATwBSADoAIABnAGQALQBqAHAAZQBnACAAdgAxAC4AMAAgACgAdQBzAGkAbgBnACAASQBKAEcAIABKAFAARQBHACAAdgA2ADIAKQAsACAAcQB1AGEAbABpAHQAeQAgAD0AIAA5ADUACgAAAAAA/9sAQwACAQEBAQECAQEBAgICAgIEAwICAgIFBAQDBAYFBgYGBQYGBgcJCAYHCQcGBggLCAkKCgoKCgYICwwLCgwJCgoK/9sAQwECAgICAgIFAwMFCgcGBwoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK/8AAEQgB9AH0AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A/fyiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigArwr9o39vv9nn9mDVf+EX8eapqd3rn2ZJ00XStNaSUwv91/Mk2Q/+P5r3Wvzw/wCC4vgyzhv/AAD4+tLWIXM8N/YXsw+88SeVJEn4F5j+NfV8FZTl2e8R0cDjebknzfC7O6i5JXs9Ha3fzPz/AMT+IM54W4MxGaZZy+0puPxrmXLKSi2ldaq6et1o9CHx9/wW81+SeW3+F/wMsbdT/wAe974h1Vpc/WGFVI/7+VxcP/Baj9qWK78y58CeBHix80Q0+8T/AMe+018eUV/SuH8O+DMNDlWEi/OTk3+LP4qxfjB4j4yt7SWYTj5RUYr7lFfjdn6//sR/t8+Df2vbS70CbRP7D8T6bb+fdaT9q86KaDcF86KTauRuOGXGVOK+ja/Ir/gkqurP+2voP9kyfuE0nUP7S/65/Zn/APavl1+utfzz4icP4HhziJ4bB6U5RU0r35buSau9baXV9dT+wfB3i7NOMuD1i8x1q06kqblZLnsoyUrLTaVnbS6CvDP2qf26vgt+yXbQ6X4vurnUtduovNtNA0sq05izjzJGb5Yk9z+Ga9zr8QP2xfEHiTxP+1R8QdT8WzP9rPiy9t9kw+ZIopXihj/3UijjArXw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cggggsoEt7WJEjT5VSMbQtT0UVhqdySSCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2Q==</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1800</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngày in:19/07/2018</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

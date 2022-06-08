@@ -1,0 +1,799 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="TU_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DEN_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DIA_DIEM" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_VT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_VT" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_LUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="THANH_TIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TONG" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_VT" type="xs:string" minOccurs="0" />
+                <xs:element name="TONG_THEO_XUONG" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DATA_INFO">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_NHOM_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_XUAT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MS_PHIEU_BAO_TRI">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_BD_KH" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MS_DH_XUAT_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="14" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_LUONG_THUC_XUAT" type="xs:double" minOccurs="0" />
+                <xs:element name="DON_GIA" type="xs:double" minOccurs="0" />
+                <xs:element name="NGOAI_TE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TY_GIA" type="xs:double" minOccurs="0" />
+                <xs:element name="MS_LOAI_VT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_VT_TV" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_N_XUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_N_XUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_LOAI_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TTC_CAO" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_RONG" type="xs:int" minOccurs="0" />
+                <xs:element name="USER_LOG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_HT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <TIEU_DE>DANH SÁCH VẬT TƯ PHỤ TÙNG SỬ DỤNG ĐỂ BẢO TRÌ THIẾT BỊ</TIEU_DE>
+    <TU_NGAY>Từ ngày: 01/11/2016</TU_NGAY>
+    <DEN_NGAY>Đến ngày: 30/11/2016</DEN_NGAY>
+    <DIA_DIEM>Địa điểm :</DIA_DIEM>
+    <TMP>TMP</TMP>
+    <MS_TB>MS thiết bị</MS_TB>
+    <TEN_TB>Tên thiết bị:</TEN_TB>
+    <LOAI_TB>Loại thiết bị</LOAI_TB>
+    <MS_VT>MS VTPT</MS_VT>
+    <TEN_VT>Tên VTPT</TEN_VT>
+    <SO_LUONG>Số lượng</SO_LUONG>
+    <THANH_TIEN>Thành tiền</THANH_TIEN>
+    <TONG>Tổng theo loại VTPT</TONG>
+    <STT>STT</STT>
+    <LOAI_VT>Loại VTPT :</LOAI_VT>
+    <TONG_THEO_XUONG>Tổng theo địa điểm</TONG_THEO_XUONG>
+  </Table1>
+  <DATA_INFO>
+    <MS_NHOM_MAY>BAF-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-01T15:47:30+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611000594</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-02T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0092</MS_DH_XUAT_PT>
+    <MS_PT>BAF-BF-022</MS_PT>
+    <TEN_PT>Túi lọc  160x3000</TEN_PT>
+    <SO_LUONG_THUC_XUAT>45</SO_LUONG_THUC_XUAT>
+    <DON_GIA>127600</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>1</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>BAG FILTER</TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>BAF</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Lọc bụi</TEN_LOAI_MAY>
+    <MS_MAY>BAF-1504</MS_MAY>
+    <TEN_MAY>Hệ thống lọc bụi 140F ( Hố nạp liệu nghiền)</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>BAF-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-01T15:49:05+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611000595</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-02T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0093</MS_DH_XUAT_PT>
+    <MS_PT>BAF-BF-022</MS_PT>
+    <TEN_PT>Túi lọc  160x3000</TEN_PT>
+    <SO_LUONG_THUC_XUAT>45</SO_LUONG_THUC_XUAT>
+    <DON_GIA>127600</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>1</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>BAG FILTER</TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>BAF</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Lọc bụi</TEN_LOAI_MAY>
+    <MS_MAY>BAF-1505</MS_MAY>
+    <TEN_MAY>Hệ thống lọc bụi 150F ( Hố nạp liệu không nghiền)</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>BEC-03</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-09T09:13:30+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001073</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-08T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0059</MS_DH_XUAT_PT>
+    <MS_PT>MOT-3P-002</MS_PT>
+    <TEN_PT>Motor giảm tốc 3HP-2.2Kw</TEN_PT>
+    <SO_LUONG_THUC_XUAT>1</SO_LUONG_THUC_XUAT>
+    <DON_GIA>0</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>36</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>MOTOR</TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-04-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Hưng Yên</TEN_N_XUONG>
+    <MS_LOAI_MAY>BEC</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Băng tải liệu</TEN_LOAI_MAY>
+    <MS_MAY>BEC-1011</MS_MAY>
+    <TEN_MAY>Băng tải cho sàng viên ra bao 2</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>BOL-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-01T09:52:04+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611000577</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-01T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0185</MS_DH_XUAT_PT>
+    <MS_PT>VAL-SA-004</MS_PT>
+    <TEN_PT>Van an toàn DN50</TEN_PT>
+    <SO_LUONG_THUC_XUAT>1</SO_LUONG_THUC_XUAT>
+    <DON_GIA>14050300</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>31</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>VALVE </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-01-03</MS_N_XUONG>
+    <TEN_N_XUONG>Lò hơi Bến lức</TEN_N_XUONG>
+    <MS_LOAI_MAY>BOL</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Lò hơi</TEN_LOAI_MAY>
+    <MS_MAY>BOL-0006</MS_MAY>
+    <TEN_MAY>Lò hơi GS 1</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>BOL-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-03T16:03:19+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001068</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-08T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0098</MS_DH_XUAT_PT>
+    <MS_PT>OIS-OS-015</MS_PT>
+    <TEN_PT>Phốt 35-70</TEN_PT>
+    <SO_LUONG_THUC_XUAT>1</SO_LUONG_THUC_XUAT>
+    <DON_GIA>79000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>20</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>OIL SEAL </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03-02</MS_N_XUONG>
+    <TEN_N_XUONG>Lò hơi Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>BOL</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Lò hơi</TEN_LOAI_MAY>
+    <MS_MAY>BOL-1501</MS_MAY>
+    <TEN_MAY>Hệ thống Lò hơi 1</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>ELE-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-07T16:01:19+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001067</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-07T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0097</MS_DH_XUAT_PT>
+    <MS_PT>COC-3P-001</MS_PT>
+    <TEN_PT>Tụ bù 25kva</TEN_PT>
+    <SO_LUONG_THUC_XUAT>1</SO_LUONG_THUC_XUAT>
+    <DON_GIA>947221</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>45</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>COMPENSATING CAPACITOR</TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>ELE</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Tủ điện</TEN_LOAI_MAY>
+    <MS_MAY>ELE-1504</MS_MAY>
+    <TEN_MAY>Tủ bù trạm 3200KVA</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>EXT-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-07T08:32:27+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001227</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-07T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0127</MS_DH_XUAT_PT>
+    <MS_PT>EXT-CU-019</MS_PT>
+    <TEN_PT>Cán dao cắt ép đùn bắp</TEN_PT>
+    <SO_LUONG_THUC_XUAT>10</SO_LUONG_THUC_XUAT>
+    <DON_GIA>550000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>16</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>EXTRUDER</TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-01-02</MS_N_XUONG>
+    <TEN_N_XUONG>Gia súc Bến Lức</TEN_N_XUONG>
+    <MS_LOAI_MAY>EXT</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Ép đùn</TEN_LOAI_MAY>
+    <MS_MAY>EXT-0009</MS_MAY>
+    <TEN_MAY>Hệ thống ép đùn bắp</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>HAM-02</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-09T09:03:10+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001071</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-07T13:56:32+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0058</MS_DH_XUAT_PT>
+    <MS_PT>COS-AC-111</MS_PT>
+    <TEN_PT>Pin các loại</TEN_PT>
+    <SO_LUONG_THUC_XUAT>2</SO_LUONG_THUC_XUAT>
+    <DON_GIA>177540</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>8</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>CONSUMPTION </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-04-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Hưng Yên</TEN_N_XUONG>
+    <MS_LOAI_MAY>HAM</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Nghiền</TEN_LOAI_MAY>
+    <MS_MAY>HAM-1001</MS_MAY>
+    <TEN_MAY>Máy nghiền số 1</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>HAM-02</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-09T09:03:10+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001071</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-07T13:56:32+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0058</MS_DH_XUAT_PT>
+    <MS_PT>COS-GR-006</MS_PT>
+    <TEN_PT>Vải lau</TEN_PT>
+    <SO_LUONG_THUC_XUAT>5</SO_LUONG_THUC_XUAT>
+    <DON_GIA>12100</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>8</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>CONSUMPTION </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-04-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Hưng Yên</TEN_N_XUONG>
+    <MS_LOAI_MAY>HAM</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Nghiền</TEN_LOAI_MAY>
+    <MS_MAY>HAM-1001</MS_MAY>
+    <TEN_MAY>Máy nghiền số 1</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>HAM-02</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-09T09:03:10+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001071</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-07T13:56:32+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0058</MS_DH_XUAT_PT>
+    <MS_PT>OIG-GR-016</MS_PT>
+    <TEN_PT>Mỡ SKF LGWA 2/1</TEN_PT>
+    <SO_LUONG_THUC_XUAT>2</SO_LUONG_THUC_XUAT>
+    <DON_GIA>569800</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>19</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>OIL &amp; GREASE</TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-04-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Hưng Yên</TEN_N_XUONG>
+    <MS_LOAI_MAY>HAM</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Nghiền</TEN_LOAI_MAY>
+    <MS_MAY>HAM-1001</MS_MAY>
+    <TEN_MAY>Máy nghiền số 1</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>HAM-02</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-09T09:03:10+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001071</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-07T13:56:32+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0058</MS_DH_XUAT_PT>
+    <MS_PT>OIS-OS-039</MS_PT>
+    <TEN_PT>Phốt TSN 522L</TEN_PT>
+    <SO_LUONG_THUC_XUAT>3</SO_LUONG_THUC_XUAT>
+    <DON_GIA>720830</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>20</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>OIL SEAL </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-04-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Hưng Yên</TEN_N_XUONG>
+    <MS_LOAI_MAY>HAM</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Nghiền</TEN_LOAI_MAY>
+    <MS_MAY>HAM-1001</MS_MAY>
+    <TEN_MAY>Máy nghiền số 1</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>INF</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-03T13:54:53+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001240</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-03T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0110</MS_DH_XUAT_PT>
+    <MS_PT>COS-LI-001</MS_PT>
+    <TEN_PT>Bóng đèn 1.2m</TEN_PT>
+    <SO_LUONG_THUC_XUAT>1</SO_LUONG_THUC_XUAT>
+    <DON_GIA>15000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>8</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>CONSUMPTION </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03</MS_N_XUONG>
+    <TEN_N_XUONG>Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>INF</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bảo trì chung &amp; Cơ sở hạ tầng</TEN_LOAI_MAY>
+    <MS_MAY>INF-1501</MS_MAY>
+    <TEN_MAY>Cơ sở hạ tầng</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>INF</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-03T13:54:53+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001240</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-03T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0110</MS_DH_XUAT_PT>
+    <MS_PT>COS-LI-083</MS_PT>
+    <TEN_PT>Bóng tuýp 0.6 mét</TEN_PT>
+    <SO_LUONG_THUC_XUAT>2</SO_LUONG_THUC_XUAT>
+    <DON_GIA>11000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>8</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>CONSUMPTION </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03</MS_N_XUONG>
+    <TEN_N_XUONG>Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>INF</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Bảo trì chung &amp; Cơ sở hạ tầng</TEN_LOAI_MAY>
+    <MS_MAY>INF-1501</MS_MAY>
+    <TEN_MAY>Cơ sở hạ tầng</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>LIT-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-12T14:00:03+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001243</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-12T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0111</MS_DH_XUAT_PT>
+    <MS_PT>CAB-1C-008</MS_PT>
+    <TEN_PT>Dây cáp điện 2.5mm2</TEN_PT>
+    <SO_LUONG_THUC_XUAT>100</SO_LUONG_THUC_XUAT>
+    <DON_GIA>4400</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>33</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>CABLE</TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03-06</MS_N_XUONG>
+    <TEN_N_XUONG>Bên ngoài nhà xưởng Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>LIT</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Đèn chiếu sáng</TEN_LOAI_MAY>
+    <MS_MAY>LIT-1506</MS_MAY>
+    <TEN_MAY>Hệ thống chiếu sáng bên ngoài</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>PEM-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-03T15:48:20+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611000596</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-03T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0050</MS_DH_XUAT_PT>
+    <MS_PT>BEA-BE-120</MS_PT>
+    <TEN_PT>Bạc đạn UCF 216</TEN_PT>
+    <SO_LUONG_THUC_XUAT>1</SO_LUONG_THUC_XUAT>
+    <DON_GIA>1933800</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>2</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>BEARING </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-01-02</MS_N_XUONG>
+    <TEN_N_XUONG>Gia súc Bến Lức</TEN_N_XUONG>
+    <MS_LOAI_MAY>PEM</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Ép viên</TEN_LOAI_MAY>
+    <MS_MAY>PEM-0002</MS_MAY>
+    <TEN_MAY>Hệ thống ép viên 721</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>PEM-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-03T15:48:20+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611000596</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-03T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0050</MS_DH_XUAT_PT>
+    <MS_PT>BEL-VB-023</MS_PT>
+    <TEN_PT>Dây curoa B 87</TEN_PT>
+    <SO_LUONG_THUC_XUAT>4</SO_LUONG_THUC_XUAT>
+    <DON_GIA>149600</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>3</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>BELT </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-01-02</MS_N_XUONG>
+    <TEN_N_XUONG>Gia súc Bến Lức</TEN_N_XUONG>
+    <MS_LOAI_MAY>PEM</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Ép viên</TEN_LOAI_MAY>
+    <MS_MAY>PEM-0002</MS_MAY>
+    <TEN_MAY>Hệ thống ép viên 721</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>PEM-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-09T09:18:52+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001075</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-07T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0060</MS_DH_XUAT_PT>
+    <MS_PT>COS-GR-006</MS_PT>
+    <TEN_PT>Vải lau</TEN_PT>
+    <SO_LUONG_THUC_XUAT>1</SO_LUONG_THUC_XUAT>
+    <DON_GIA>12100</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>8</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>CONSUMPTION </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-04-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Hưng Yên</TEN_N_XUONG>
+    <MS_LOAI_MAY>PEM</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Ép viên</TEN_LOAI_MAY>
+    <MS_MAY>PEM-1001</MS_MAY>
+    <TEN_MAY>Máy ép viên 1</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>PEM-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-09T09:18:52+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001075</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-07T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0060</MS_DH_XUAT_PT>
+    <MS_PT>CYL-PC-049</MS_PT>
+    <TEN_PT>Pittong thủy lực đẩy khuôn</TEN_PT>
+    <SO_LUONG_THUC_XUAT>2</SO_LUONG_THUC_XUAT>
+    <DON_GIA>36317420</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>11</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>CYLINDER </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-04-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Hưng Yên</TEN_N_XUONG>
+    <MS_LOAI_MAY>PEM</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Ép viên</TEN_LOAI_MAY>
+    <MS_MAY>PEM-1001</MS_MAY>
+    <TEN_MAY>Máy ép viên 1</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>PEM-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-08T08:50:14+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001226</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-08T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0141</MS_DH_XUAT_PT>
+    <MS_PT>DIE-PM-019</MS_PT>
+    <TEN_PT>Khuôn ép viên 2.5x55/30-TPM520-205</TEN_PT>
+    <SO_LUONG_THUC_XUAT>1</SO_LUONG_THUC_XUAT>
+    <DON_GIA>80994875</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>14</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>DIE </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-01-02</MS_N_XUONG>
+    <TEN_N_XUONG>Gia súc Bến Lức</TEN_N_XUONG>
+    <MS_LOAI_MAY>PEM</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Ép viên</TEN_LOAI_MAY>
+    <MS_MAY>PEM-0002</MS_MAY>
+    <TEN_MAY>Hệ thống ép viên 721</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>PEM-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-08T08:50:14+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001226</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-08T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0141</MS_DH_XUAT_PT>
+    <MS_PT>PEM-MP-021</MS_PT>
+    <TEN_PT>Support bolt-520-205</TEN_PT>
+    <SO_LUONG_THUC_XUAT>3</SO_LUONG_THUC_XUAT>
+    <DON_GIA>1540000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>22</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>PELLET MILL</TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-01-02</MS_N_XUONG>
+    <TEN_N_XUONG>Gia súc Bến Lức</TEN_N_XUONG>
+    <MS_LOAI_MAY>PEM</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Ép viên</TEN_LOAI_MAY>
+    <MS_MAY>PEM-0002</MS_MAY>
+    <TEN_MAY>Hệ thống ép viên 721</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>PEM-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-09T13:50:32+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001080</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-09T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0107</MS_DH_XUAT_PT>
+    <MS_PT>PEM-MP-080</MS_PT>
+    <TEN_PT>Chén trong CPM</TEN_PT>
+    <SO_LUONG_THUC_XUAT>1</SO_LUONG_THUC_XUAT>
+    <DON_GIA>400000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>22</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>PELLET MILL</TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>PEM</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Ép viên</TEN_LOAI_MAY>
+    <MS_MAY>PEM-1502</MS_MAY>
+    <TEN_MAY>Hệ thống ép viên 02</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>PEM-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-10T13:52:13+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001229</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-10T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0108</MS_DH_XUAT_PT>
+    <MS_PT>DIE-PM-090</MS_PT>
+    <TEN_PT>Khuôn ép viên 4.0x65/60-CPM7726</TEN_PT>
+    <SO_LUONG_THUC_XUAT>1</SO_LUONG_THUC_XUAT>
+    <DON_GIA>114742833</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>14</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>DIE </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>PEM</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Ép viên</TEN_LOAI_MAY>
+    <MS_MAY>PEM-1502</MS_MAY>
+    <TEN_MAY>Hệ thống ép viên 02</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>PES-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-08T15:51:18+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001064</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-08T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0094</MS_DH_XUAT_PT>
+    <MS_PT>BEL-VA-027</MS_PT>
+    <TEN_PT>Dây curoa SPA 2120</TEN_PT>
+    <SO_LUONG_THUC_XUAT>2</SO_LUONG_THUC_XUAT>
+    <DON_GIA>253000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>3</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>BELT </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>PES</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Sàng rung</TEN_LOAI_MAY>
+    <MS_MAY>PES-1501</MS_MAY>
+    <TEN_MAY>Sàng rung TP 01</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>PES-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-08T15:53:25+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001065</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-08T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0095</MS_DH_XUAT_PT>
+    <MS_PT>BEL-VA-027</MS_PT>
+    <TEN_PT>Dây curoa SPA 2120</TEN_PT>
+    <SO_LUONG_THUC_XUAT>2</SO_LUONG_THUC_XUAT>
+    <DON_GIA>242000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>3</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>BELT </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>PES</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Sàng rung</TEN_LOAI_MAY>
+    <MS_MAY>PES-1502</MS_MAY>
+    <TEN_MAY>Sàng rung TP 02</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>PES-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-09T13:53:37+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001234</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-11T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0109</MS_DH_XUAT_PT>
+    <MS_PT>SIE-SC-017</MS_PT>
+    <TEN_PT>Lưới máy sàng  H15</TEN_PT>
+    <SO_LUONG_THUC_XUAT>3</SO_LUONG_THUC_XUAT>
+    <DON_GIA>600000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>32</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>SIEVE</TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>PES</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>Sàng rung</TEN_LOAI_MAY>
+    <MS_MAY>PES-1501</MS_MAY>
+    <TEN_MAY>Sàng rung TP 01</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>SEW-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-07T15:55:45+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001066</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-07T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0096</MS_DH_XUAT_PT>
+    <MS_PT>VAL-SV-001</MS_PT>
+    <TEN_PT>Van Solenoid (solenoid valve) 1 cuộn 220VAC-DN</TEN_PT>
+    <SO_LUONG_THUC_XUAT>1</SO_LUONG_THUC_XUAT>
+    <DON_GIA>202400</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>31</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>VALVE </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>SEW</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>May bao TP</TEN_LOAI_MAY>
+    <MS_MAY>SEW-1502</MS_MAY>
+    <TEN_MAY>Hệ thống may bao TP 02</TEN_MAY>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_NHOM_MAY>SEW-01</MS_NHOM_MAY>
+    <NGAY_XUAT>2016-11-07T15:55:45+07:00</NGAY_XUAT>
+    <MS_PHIEU_BAO_TRI>WO-201611001066</MS_PHIEU_BAO_TRI>
+    <NGAY_BD_KH>2016-11-07T00:00:00+07:00</NGAY_BD_KH>
+    <MS_DH_XUAT_PT>PX-1611-0096</MS_DH_XUAT_PT>
+    <MS_PT>VAL-SV-026</MS_PT>
+    <TEN_PT>Cuộn coil  DC24V-4W</TEN_PT>
+    <SO_LUONG_THUC_XUAT>1</SO_LUONG_THUC_XUAT>
+    <DON_GIA>88000</DON_GIA>
+    <NGOAI_TE>VND</NGOAI_TE>
+    <TY_GIA>1</TY_GIA>
+    <MS_LOAI_VT>31</MS_LOAI_VT>
+    <TEN_LOAI_VT_TV>VALVE </TEN_LOAI_VT_TV>
+    <MS_N_XUONG>GF-03-01</MS_N_XUONG>
+    <TEN_N_XUONG>Gia Súc Bình Định</TEN_N_XUONG>
+    <MS_LOAI_MAY>SEW</MS_LOAI_MAY>
+    <TEN_LOAI_MAY>May bao TP</TEN_LOAI_MAY>
+    <MS_MAY>SEW-1502</MS_MAY>
+    <TEN_MAY>Hệ thống may bao TP 02</TEN_MAY>
+  </DATA_INFO>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty Cổ phần Greenfeed Việt Nam
+Xã Nhựt Chánh – Huyện Bến Lức – Tỉnh Long An
+Telephone: (072) 3632.881  Fax: (072) 3633.374</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1800</WIDTH>
+    <HEIGHT>500</HEIGHT>
+    <NGAY_IN>Ngày in:07/12/2016</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+    <TTC_CAO>700</TTC_CAO>
+    <TTC_RONG>7000</TTC_RONG>
+    <USER_LOG>User : admin</USER_LOG>
+    <NGAY_HT>Ngày : 07/12/2016</NGAY_HT>
+  </rptTitlereport>
+</NewDataSet>

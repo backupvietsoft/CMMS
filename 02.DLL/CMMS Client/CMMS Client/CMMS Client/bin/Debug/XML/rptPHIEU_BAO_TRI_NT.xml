@@ -1,0 +1,947 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PBT_INFO">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PHIEU_BAO_TRI">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_PHIEU_BAO_TRI" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LY_DO_BT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_LAP" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGUOI_LAP" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="41" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_HT_BT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_BT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="40" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DIA_DIEM" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_BD_KH" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGAY_KT_KH" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="BO_PHAN" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_NGHIEM_THU" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TT_SAU_BT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="200" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGUOI_NGHIEM_THU" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="41" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CHI_PHI_PHU_TUNG" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="CHI_PHI_VAT_TU" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="CHI_PHI_NHAN_CONG" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="CHI_PHI_DV" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="CHI_PHI_KHAC" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="TEN_TINH_TRANG" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="STT" type="xs:int" />
+                <xs:element name="SERIAL_NUMBER" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_CONG_VIEC">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TEN_BAC_THO" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MO_TA_CV" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_BP" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_GIO_KH" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="NGAY_HOAN_THANH" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NOI_NGOAI" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="THAO_TAC" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TIEU_CHUAN_KT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_CONG_NHAN">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="HO_TEN" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="41" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="BAN_TO" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="103" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_TO" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TU_NGAY" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DEN_NGAY" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CHINH_PHU" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_DICH_VU">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NOI_DUNG_SERVICE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_RUT_GON" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_LUONG" type="xs:int" minOccurs="0" />
+                <xs:element name="DON_GIA" type="xs:double" minOccurs="0" />
+                <xs:element name="TY_GIA" type="xs:double" minOccurs="0" />
+                <xs:element name="TY_GIA_USD" type="xs:double" minOccurs="0" />
+                <xs:element name="THANH_TIEN" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="THANH_TIEN_USD" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_VAT_TU">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="QUY_CACH" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_PT" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SL_KH" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="SO_LUONG_THUC_XUAT" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="DVT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TT" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+                <xs:element name="MS_PT_NCC" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DON_GIA" msdata:ReadOnly="true" type="xs:int" />
+                <xs:element name="NGOAI_TE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TY_GIA" msdata:ReadOnly="true" type="xs:int" />
+                <xs:element name="MS_PT_TT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="500" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PBT_PHU_TUNG">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="QUY_CACH" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PTTT" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+                <xs:element name="TEN_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SL_KH" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="SL_TT" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="GHI_CHU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DVT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TT" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+                <xs:element name="MS_PT_NCC" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_HSX" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DON_GIA" msdata:ReadOnly="true" type="xs:int" />
+                <xs:element name="NGOAI_TE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TI_GIA" msdata:ReadOnly="true" type="xs:int" />
+                <xs:element name="MS_PT_TT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="500" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="BT_NUMBER_RECORD">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NR_CONG_VIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_CONG_NHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_DICH_VU" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_PHU_TUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_VAT_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="NR_TT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_PHIEU_BAO_TRI_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="MAU_SO" type="xs:string" minOccurs="0" />
+                <xs:element name="PHIEU_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_LAP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_LAP" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TINH_TRANG" type="xs:string" minOccurs="0" />
+                <xs:element name="MO_TA" type="xs:string" minOccurs="0" />
+                <xs:element name="HINH_THUC_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="DIA_DIEM" type="xs:string" minOccurs="0" />
+                <xs:element name="Column13" type="xs:string" minOccurs="0" />
+                <xs:element name="KE_HOACH" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_BD" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_KT" type="xs:string" minOccurs="0" />
+                <xs:element name="BO_PHAN_CP" type="xs:string" minOccurs="0" />
+                <xs:element name="PHE_DUYET1" type="xs:string" minOccurs="0" />
+                <xs:element name="PHE_DUYET2" type="xs:string" minOccurs="0" />
+                <xs:element name="PHE_DUYET3" type="xs:string" minOccurs="0" />
+                <xs:element name="PHE_DUYET4" type="xs:string" minOccurs="0" />
+                <xs:element name="LY_DO_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="GIAM_DOC_NHA_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONG_CO_DIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SERIAL_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_NL" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP1" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP2" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP3" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP4" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP5" type="xs:string" minOccurs="0" />
+                <xs:element name="USER_HT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_CONG_VIEC_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DANH_SACH_CV" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_CONG_VIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_SPHUT_KH" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_NGAY_HT" type="xs:string" minOccurs="0" />
+                <xs:element name="CV_LOAI_CV" type="xs:string" minOccurs="0" />
+                <xs:element name="TONG_PHUT_KH_CV" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_BAC_THO" type="xs:string" minOccurs="0" />
+                <xs:element name="TONG_CONG" type="xs:string" minOccurs="0" />
+                <xs:element name="THAO_TAC" type="xs:string" minOccurs="0" />
+                <xs:element name="TIEU_CHUAN_KT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_NHAN_VIEN_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NV_DS_NV" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_HO_TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_TO_PB" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_TU_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_DEN_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_LOAI_VN" type="xs:string" minOccurs="0" />
+                <xs:element name="Column7" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_DICH_VU_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DV_DS_DV" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_ND" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_CTY" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_SL" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_DG" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_TG" type="xs:string" minOccurs="0" />
+                <xs:element name="DV_TT" type="xs:string" minOccurs="0" />
+                <xs:element name="Column8" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_PHU_TUNG_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PT_DS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_MS_PTTT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_TEN_PTTT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_SL_KH" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_SL_TT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_GHI_CHU" type="xs:string" minOccurs="0" />
+                <xs:element name="QUY_CACH" type="xs:string" minOccurs="0" />
+                <xs:element name="PT_MS_PT_NCC" type="xs:string" minOccurs="0" />
+                <xs:element name="HANG_SX" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT_TT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_VAT_TU_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VT_DS_VT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_MS_VT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_TEN_VT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_SL_KH" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_SL_TT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_GHI_CHU" type="xs:string" minOccurs="0" />
+                <xs:element name="QUY_CACH" type="xs:string" minOccurs="0" />
+                <xs:element name="VT_DS_VT_NCC" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT_TT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_CHI_PHI_BT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TONG_CHI_PHI" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_NOI_DUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_TIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_TONG" type="xs:string" minOccurs="0" />
+                <xs:element name="KQ_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="KQ_NGAY_NT" type="xs:string" minOccurs="0" />
+                <xs:element name="KQ_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_NT" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_PHU_TUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_VAT_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_NHAN_CONG" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_DICH_VU" type="xs:string" minOccurs="0" />
+                <xs:element name="CP_KHAC" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TTC_CAO" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_RONG" type="xs:int" minOccurs="0" />
+                <xs:element name="USER_LOG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_HT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PBT_INFO>
+    <MS_MAY>HO1-05-FLM-001</MS_MAY>
+    <TEN_MAY>Cối trộn 1 line1 HCM</TEN_MAY>
+    <MS_PHIEU_BAO_TRI>WO-201409000018</MS_PHIEU_BAO_TRI>
+    <SO_PHIEU_BAO_TRI>WO-201409000018</SO_PHIEU_BAO_TRI>
+    <LY_DO_BT>hư hỏng</LY_DO_BT>
+    <NGAY_LAP>22/09/2014 14:26</NGAY_LAP>
+    <NGUOI_LAP>NGUYỄN VĂN HIỀN</NGUOI_LAP>
+    <TEN_HT_BT>Bảo trì không định kỳ</TEN_HT_BT>
+    <TEN_LOAI_BT>Sửa chữa</TEN_LOAI_BT>
+    <DIA_DIEM>Phân xưởng mì</DIA_DIEM>
+    <NGAY_BD_KH>2014-09-22T00:00:00+07:00</NGAY_BD_KH>
+    <NGAY_KT_KH>2014-09-22T00:00:00+07:00</NGAY_KT_KH>
+    <BO_PHAN>NM Mì</BO_PHAN>
+    <NGAY_NGHIEM_THU>2014-09-22T09:46:00+07:00</NGAY_NGHIEM_THU>
+    <TT_SAU_BT>ok</TT_SAU_BT>
+    <NGUOI_NGHIEM_THU>NGUYỄN VĂN HIỀN</NGUOI_NGHIEM_THU>
+    <CHI_PHI_PHU_TUNG>0</CHI_PHI_PHU_TUNG>
+    <CHI_PHI_VAT_TU>0</CHI_PHI_VAT_TU>
+    <CHI_PHI_NHAN_CONG>0</CHI_PHI_NHAN_CONG>
+    <CHI_PHI_DV>0</CHI_PHI_DV>
+    <CHI_PHI_KHAC>0</CHI_PHI_KHAC>
+    <TEN_TINH_TRANG>Đang thực hiện </TEN_TINH_TRANG>
+    <STT>2</STT>
+    <SERIAL_NUMBER />
+  </PBT_INFO>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>gia công</MO_TA_CV>
+    <SO_GIO_KH>30</SO_GIO_KH>
+    <NGAY_HOAN_THANH>2014-09-22T19:00:00+07:00</NGAY_HOAN_THANH>
+    <NOI_NGOAI>N</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra thay mới bạc đạn</MO_TA_CV>
+    <TEN_BP>Hộp giảm motor trộn bột</TEN_BP>
+    <SO_GIO_KH>15</SO_GIO_KH>
+    <NGAY_HOAN_THANH>2014-09-22T14:40:35.98+07:00</NGAY_HOAN_THANH>
+    <NOI_NGOAI>TN</NOI_NGOAI>
+    <THAO_TAC />
+    <TIEU_CHUAN_KT />
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra thay mới bạc đạn</MO_TA_CV>
+    <TEN_BP>Hộp giảm motor xoay cối</TEN_BP>
+    <SO_GIO_KH>15</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+    <THAO_TAC />
+    <TIEU_CHUAN_KT />
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra thay mới bạc đạn</MO_TA_CV>
+    <TEN_BP>Trục đánh bột bị động</TEN_BP>
+    <SO_GIO_KH>15</SO_GIO_KH>
+    <NGAY_HOAN_THANH>2014-09-22T14:40:35.98+07:00</NGAY_HOAN_THANH>
+    <NOI_NGOAI>TN</NOI_NGOAI>
+    <THAO_TAC />
+    <TIEU_CHUAN_KT />
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra và thay mới phốt</MO_TA_CV>
+    <TEN_BP>Hộp giảm motor trộn bột</TEN_BP>
+    <SO_GIO_KH>15</SO_GIO_KH>
+    <NGAY_HOAN_THANH>2014-09-22T14:40:35.98+07:00</NGAY_HOAN_THANH>
+    <NOI_NGOAI>TN</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>Kiểm tra vệ sinh motor</MO_TA_CV>
+    <TEN_BP>Motor trộn bột, 11kw</TEN_BP>
+    <SO_GIO_KH>15</SO_GIO_KH>
+    <NOI_NGOAI>Y</NOI_NGOAI>
+    <THAO_TAC />
+    <TIEU_CHUAN_KT />
+  </PBT_CONG_VIEC>
+  <PBT_CONG_VIEC>
+    <MO_TA_CV>thuê ngoài</MO_TA_CV>
+    <SO_GIO_KH>24</SO_GIO_KH>
+    <NGAY_HOAN_THANH>2014-09-22T19:00:00+07:00</NGAY_HOAN_THANH>
+    <NOI_NGOAI>N</NOI_NGOAI>
+  </PBT_CONG_VIEC>
+  <PBT_CONG_NHAN>
+    <HO_TEN>BÙI THỊ XUÂN PHÁT</HO_TEN>
+    <BAN_TO>Phòng Cơ Diện NV - Quản lý</BAN_TO>
+    <TEN_TO>Quản lý</TEN_TO>
+    <TU_NGAY>22/09/2014 14:26</TU_NGAY>
+    <DEN_NGAY>22/09/2014 22:00</DEN_NGAY>
+    <CHINH_PHU>Y</CHINH_PHU>
+  </PBT_CONG_NHAN>
+  <PBT_CONG_NHAN>
+    <HO_TEN>NGUYỄN VĂN KHÁNH</HO_TEN>
+    <BAN_TO>Phòng Cơ Diện NV - Cơ khí</BAN_TO>
+    <TEN_TO>Cơ khí</TEN_TO>
+    <TU_NGAY>22/09/2014 14:26</TU_NGAY>
+    <DEN_NGAY>22/09/2014 22:00</DEN_NGAY>
+    <CHINH_PHU>Y</CHINH_PHU>
+  </PBT_CONG_NHAN>
+  <PBT_CONG_NHAN>
+    <HO_TEN>TRẦN HOÀNG QUYỀN</HO_TEN>
+    <BAN_TO>Phòng Cơ Diện NV - Cơ khí</BAN_TO>
+    <TEN_TO>Cơ khí</TEN_TO>
+    <TU_NGAY>22/09/2014 14:26</TU_NGAY>
+    <DEN_NGAY>22/09/2014 22:00</DEN_NGAY>
+    <CHINH_PHU>Y</CHINH_PHU>
+  </PBT_CONG_NHAN>
+  <PBT_CONG_NHAN>
+    <HO_TEN>KHƯU QUỐC HƯNG</HO_TEN>
+    <BAN_TO>Phòng Cơ Diện NV Điện</BAN_TO>
+    <TEN_TO>Điện</TEN_TO>
+    <TU_NGAY>22/09/2014 14:26</TU_NGAY>
+    <DEN_NGAY>22/09/2014 19:00</DEN_NGAY>
+    <CHINH_PHU>N</CHINH_PHU>
+  </PBT_CONG_NHAN>
+  <PBT_CONG_NHAN>
+    <HO_TEN>NGUYỄN THỊ VÂN ANH</HO_TEN>
+    <BAN_TO>Phòng Cơ Diện NV Kho</BAN_TO>
+    <TEN_TO>Kho</TEN_TO>
+    <TU_NGAY>22/09/2014 14:26</TU_NGAY>
+    <DEN_NGAY>22/09/2014 19:00</DEN_NGAY>
+    <CHINH_PHU>N</CHINH_PHU>
+  </PBT_CONG_NHAN>
+  <PBT_DICH_VU>
+    <NOI_DUNG_SERVICE>thuê ngoài</NOI_DUNG_SERVICE>
+    <TEN_RUT_GON>AN PHÁT</TEN_RUT_GON>
+    <SO_LUONG>2</SO_LUONG>
+    <DON_GIA>22</DON_GIA>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>4.53514739229025E-05</TY_GIA_USD>
+    <THANH_TIEN>44</THANH_TIEN>
+    <THANH_TIEN_USD>0.00199546485260771</THANH_TIEN_USD>
+  </PBT_DICH_VU>
+  <PBT_DICH_VU>
+    <NOI_DUNG_SERVICE>gia công</NOI_DUNG_SERVICE>
+    <TEN_RUT_GON>CÔNG NGỆ AMBEE</TEN_RUT_GON>
+    <SO_LUONG>2</SO_LUONG>
+    <DON_GIA>3232</DON_GIA>
+    <TY_GIA>1</TY_GIA>
+    <TY_GIA_USD>4.53514739229025E-05</TY_GIA_USD>
+    <THANH_TIEN>6464</THANH_TIEN>
+    <THANH_TIEN_USD>0.29315192743764179</THANH_TIEN_USD>
+  </PBT_DICH_VU>
+  <PBT_PHU_TUNG>
+    <QUY_CACH>6215</QUY_CACH>
+    <MS_PT>BEA-0104</MS_PT>
+    <TEN_PT>Bạc đạn 6215 &lt;SKF&gt;</TEN_PT>
+    <SL_KH>1</SL_KH>
+    <SL_TT>1</SL_TT>
+    <DVT>Cái.</DVT>
+    <TT>2</TT>
+    <MS_PT_NCC />
+    <TEN_HSX>SKF</TEN_HSX>
+    <DON_GIA>0</DON_GIA>
+    <NGOAI_TE />
+    <TI_GIA>0</TI_GIA>
+  </PBT_PHU_TUNG>
+  <PBT_PHU_TUNG>
+    <QUY_CACH>6217</QUY_CACH>
+    <MS_PT>BEA-0105</MS_PT>
+    <TEN_PT>Bạc đạn 6217 &lt;SKF&gt;</TEN_PT>
+    <DVT>Cái.</DVT>
+    <TT>2</TT>
+    <MS_PT_NCC />
+    <TEN_HSX>SKF</TEN_HSX>
+    <DON_GIA>0</DON_GIA>
+    <NGOAI_TE />
+    <TI_GIA>0</TI_GIA>
+  </PBT_PHU_TUNG>
+  <PBT_PHU_TUNG>
+    <QUY_CACH>6301</QUY_CACH>
+    <MS_PT>BEA-0114</MS_PT>
+    <TEN_PT>Bạc đạn 6301 &lt;NSK&gt;</TEN_PT>
+    <SL_KH>1</SL_KH>
+    <SL_TT>0</SL_TT>
+    <DVT>Cái.</DVT>
+    <TT>2</TT>
+    <MS_PT_NCC />
+    <TEN_HSX>NSK</TEN_HSX>
+    <DON_GIA>0</DON_GIA>
+    <NGOAI_TE />
+    <TI_GIA>0</TI_GIA>
+  </PBT_PHU_TUNG>
+  <PBT_PHU_TUNG>
+    <QUY_CACH>61617-25-YRX2-1A</QUY_CACH>
+    <MS_PT>BEA-0364</MS_PT>
+    <TEN_PT>Bạc đạn lệch tâm 61617-25-YRX2-1A &lt;SKF&gt;</TEN_PT>
+    <SL_KH>1</SL_KH>
+    <SL_TT>1</SL_TT>
+    <DVT>Cái.</DVT>
+    <TT>2</TT>
+    <MS_PT_NCC />
+    <TEN_HSX>SKF</TEN_HSX>
+    <DON_GIA>0</DON_GIA>
+    <NGOAI_TE />
+    <TI_GIA>0</TI_GIA>
+  </PBT_PHU_TUNG>
+  <PBT_PHU_TUNG>
+    <QUY_CACH>F216</QUY_CACH>
+    <MS_PT>BEA-0380</MS_PT>
+    <TEN_PT>Gối F216 &lt;SKF&gt;</TEN_PT>
+    <SL_KH>1</SL_KH>
+    <SL_TT>1</SL_TT>
+    <DVT>Cái.</DVT>
+    <TT>2</TT>
+    <MS_PT_NCC />
+    <TEN_HSX>SKF</TEN_HSX>
+    <DON_GIA>0</DON_GIA>
+    <NGOAI_TE />
+    <TI_GIA>0</TI_GIA>
+  </PBT_PHU_TUNG>
+  <PBT_PHU_TUNG>
+    <QUY_CACH>68/35</QUY_CACH>
+    <MS_PT>SEA-0101</MS_PT>
+    <TEN_PT>Phốt đầu hộp giảm 68/35 &lt;JAPAN&gt;</TEN_PT>
+    <SL_KH>1</SL_KH>
+    <SL_TT>1</SL_TT>
+    <DVT>Cái.</DVT>
+    <TT>2</TT>
+    <MS_PT_NCC />
+    <TEN_HSX>JAPAN</TEN_HSX>
+    <DON_GIA>0</DON_GIA>
+    <NGOAI_TE />
+    <TI_GIA>0</TI_GIA>
+  </PBT_PHU_TUNG>
+  <BT_NUMBER_RECORD>
+    <NR_CONG_VIEC>7</NR_CONG_VIEC>
+    <NR_CONG_NHAN>5</NR_CONG_NHAN>
+    <NR_DICH_VU>2</NR_DICH_VU>
+    <NR_PHU_TUNG>6</NR_PHU_TUNG>
+    <NR_VAT_TU>0</NR_VAT_TU>
+    <NR_TT>2</NR_TT>
+  </BT_NUMBER_RECORD>
+  <TIEU_DE_PHIEU_BAO_TRI_BT>
+    <TIEU_DE>THÔNG TIN PHIẾU BẢO TRÌ</TIEU_DE>
+    <MAU_SO>Mẫu số :</MAU_SO>
+    <PHIEU_BAO_TRI>Phiếu bảo trì:</PHIEU_BAO_TRI>
+    <NGUOI_LAP>Người lập:</NGUOI_LAP>
+    <NGAY_LAP>Ngày lập:</NGAY_LAP>
+    <MS_MAY>MS thiết bị:</MS_MAY>
+    <TEN_MAY>Tên thiết bị:</TEN_MAY>
+    <TINH_TRANG>Tình trạng PBT:</TINH_TRANG>
+    <MO_TA>MÔ TẢ</MO_TA>
+    <HINH_THUC_BT>Hình thức bảo trì:</HINH_THUC_BT>
+    <LOAI_BT>Loại bảo trì:</LOAI_BT>
+    <DIA_DIEM>Địa điểm:</DIA_DIEM>
+    <KE_HOACH>KẾ HOẠCH</KE_HOACH>
+    <NGAY_BD>Ngày bắt đầu:</NGAY_BD>
+    <NGAY_KT>Ngày kết thúc:</NGAY_KT>
+    <BO_PHAN_CP>Bộ phận chịu phí</BO_PHAN_CP>
+    <PHE_DUYET1>Duyệt</PHE_DUYET1>
+    <PHE_DUYET2>Kiểm tra</PHE_DUYET2>
+    <PHE_DUYET3>Người lập</PHE_DUYET3>
+    <PHE_DUYET4>Phê duyệt</PHE_DUYET4>
+    <LY_DO_BT>Lý do:</LY_DO_BT>
+    <GIAM_DOC_NHA_MAY>Trưởng bộ phận</GIAM_DOC_NHA_MAY>
+    <PHONG_CO_DIEN>Phòng cơ điện</PHONG_CO_DIEN>
+    <SERIAL_NUMBER>Mã HM cũ</SERIAL_NUMBER>
+    <TEN_NL>NGUYỄN VĂN HIỀN</TEN_NL>
+    <TMP1>Nghiệm thu công việc</TMP1>
+    <TMP2>Ngày ban hành: </TMP2>
+    <TMP3>Nội dung</TMP3>
+    <TMP4>Đơn vị sử dụng</TMP4>
+    <USER_HT>User : admin</USER_HT>
+  </TIEU_DE_PHIEU_BAO_TRI_BT>
+  <TIEU_DE_CONG_VIEC_BT>
+    <DANH_SACH_CV>Danh sách công việc </DANH_SACH_CV>
+    <CV_CONG_VIEC>Công việc</CV_CONG_VIEC>
+    <CV_BO_PHAN>Bộ phận</CV_BO_PHAN>
+    <CV_SPHUT_KH>Số phút KH</CV_SPHUT_KH>
+    <CV_NGAY_HT>Ngày hoàn thành</CV_NGAY_HT>
+    <CV_LOAI_CV>Chính/Phụ/TN</CV_LOAI_CV>
+    <TONG_PHUT_KH_CV>Tổng thời gian:</TONG_PHUT_KH_CV>
+    <STT>STT</STT>
+    <TEN_BAC_THO>Bậc thợ</TEN_BAC_THO>
+    <TONG_CONG>Tổng cộng</TONG_CONG>
+    <THAO_TAC>Thao tác</THAO_TAC>
+    <TIEU_CHUAN_KT>Tiêu chuẩn kiểm tra</TIEU_CHUAN_KT>
+  </TIEU_DE_CONG_VIEC_BT>
+  <TIEU_DE_NHAN_VIEN_BT>
+    <NV_DS_NV>Danh sách nhân viên</NV_DS_NV>
+    <NV_HO_TEN>Họ tên</NV_HO_TEN>
+    <NV_TO_PB>Ban - Tổ</NV_TO_PB>
+    <NV_TU_NGAY>Từ ngày</NV_TU_NGAY>
+    <NV_DEN_NGAY>Đến ngày</NV_DEN_NGAY>
+    <NV_LOAI_VN>Ghi chú</NV_LOAI_VN>
+  </TIEU_DE_NHAN_VIEN_BT>
+  <TIEU_DE_DICH_VU_BT>
+    <DV_DS_DV>Danh sách dịch vụ</DV_DS_DV>
+    <DV_ND>Nội dung</DV_ND>
+    <DV_CTY>Nhà cung cấp</DV_CTY>
+    <DV_SL>Số lượng</DV_SL>
+    <DV_DG>Đơn giá</DV_DG>
+    <DV_TG>Tỷ giá</DV_TG>
+    <DV_TT>Thành tiền</DV_TT>
+  </TIEU_DE_DICH_VU_BT>
+  <TIEU_DE_PHU_TUNG_BT>
+    <PT_DS_PT>Danh sách phụ tùng</PT_DS_PT>
+    <PT_MS_PT>MS phụ tùng</PT_MS_PT>
+    <PT_MS_PTTT>MS PT sử dụng</PT_MS_PTTT>
+    <PT_TEN_PT>Tên phụ tùng</PT_TEN_PT>
+    <PT_TEN_PTTT>Tên PT sử dụng</PT_TEN_PTTT>
+    <PT_SL_KH>Số lượng KH</PT_SL_KH>
+    <PT_SL_TT>Số lượng TT</PT_SL_TT>
+    <PT_DVT>Đơn vị tính</PT_DVT>
+    <PT_GHI_CHU>Ghi chú</PT_GHI_CHU>
+    <QUY_CACH>Quy cách</QUY_CACH>
+    <PT_MS_PT_NCC>Part No</PT_MS_PT_NCC>
+    <HANG_SX>Hãng sản xuất</HANG_SX>
+    <MS_PT_TT>Mã PT tương đương</MS_PT_TT>
+  </TIEU_DE_PHU_TUNG_BT>
+  <TIEU_DE_VAT_TU_BT>
+    <VT_DS_VT>Danh sách vật tư</VT_DS_VT>
+    <VT_MS_VT>MS Vật tư</VT_MS_VT>
+    <VT_TEN_VT>Tên vật tư</VT_TEN_VT>
+    <VT_SL_KH>Số lượng KH</VT_SL_KH>
+    <VT_SL_TT>Số lượng TT</VT_SL_TT>
+    <VT_DVT>Đơn vị tính</VT_DVT>
+    <VT_GHI_CHU>Ghi chú</VT_GHI_CHU>
+    <QUY_CACH>Quy cách</QUY_CACH>
+    <VT_DS_VT_NCC>Part No</VT_DS_VT_NCC>
+    <MS_PT_TT>Mã PT tương đương</MS_PT_TT>
+  </TIEU_DE_VAT_TU_BT>
+  <TIEU_DE_CHI_PHI_BT>
+    <TONG_CHI_PHI>TỔNG CHI PHÍ</TONG_CHI_PHI>
+    <STT>STT</STT>
+    <CP_NOI_DUNG>Nội dung</CP_NOI_DUNG>
+    <CP_TIEN>Chi phí</CP_TIEN>
+    <CP_TONG>Tổng chi phí</CP_TONG>
+    <KQ_BAO_TRI>KẾT QUẢ BẢO TRÌ</KQ_BAO_TRI>
+    <KQ_NGAY_NT>Ngày nghiệm thu</KQ_NGAY_NT>
+    <KQ_BT>Kết quả bảo trì</KQ_BT>
+    <NGUOI_NT>Người nghiệm thu</NGUOI_NT>
+    <CP_PHU_TUNG>Chi phí phụ tùng</CP_PHU_TUNG>
+    <CP_VAT_TU>Chi phí vật tư</CP_VAT_TU>
+    <CP_NHAN_CONG>Chi phí nhân công</CP_NHAN_CONG>
+    <CP_DICH_VU>Chi phí dịch vụ</CP_DICH_VU>
+    <CP_KHAC>Chi phí khác</CP_KHAC>
+  </TIEU_DE_CHI_PHI_BT>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty THHH Phần Mềm Nam Việt
+27/49B, Hậu Giang Tân Bình, Tp HCM
+Telephone: 0838110770  Fax: (84.8) 38112750</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>200</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>200</LE_TREN_LOGO>
+    <WIDTH>1500</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngày in:13/07/2015</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+    <TTC_CAO>700</TTC_CAO>
+    <TTC_RONG>7000</TTC_RONG>
+    <USER_LOG>User : admin</USER_LOG>
+    <NGAY_HT>Ngày HT : 13/07/2015</NGAY_HT>
+  </rptTitlereport>
+</NewDataSet>

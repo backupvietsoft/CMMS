@@ -1,0 +1,218 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BAN_DU_TRU_DFC">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TEN_PT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SL_DA_DUYET" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DON_GIA" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+                <xs:element name="THANH_TIEN_VND" msdata:ReadOnly="true" type="xs:decimal" />
+                <xs:element name="THANH_TIEN_VAT" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_DFC">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TONG_CONG_TY" type="xs:string" minOccurs="0" />
+                <xs:element name="CONG_NGHIEP_TP" type="xs:string" minOccurs="0" />
+                <xs:element name="PKT_CO_DIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="CONG_HOA" type="xs:string" minOccurs="0" />
+                <xs:element name="DOC_LAP" type="xs:string" minOccurs="0" />
+                <xs:element name="BIEN_HOA" type="xs:string" minOccurs="0" />
+                <xs:element name="GIAY_DE_NGHI" type="xs:string" minOccurs="0" />
+                <xs:element name="KINH_GOI" type="xs:string" minOccurs="0" />
+                <xs:element name="KE_TOAN" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="MHH" type="xs:string" minOccurs="0" />
+                <xs:element name="MSKT" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="SLG" type="xs:string" minOccurs="0" />
+                <xs:element name="DON_GIA" type="xs:string" minOccurs="0" />
+                <xs:element name="THANH_TIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TONG_CONG_VAT" type="xs:string" minOccurs="0" />
+                <xs:element name="TONG_CONG" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI" type="xs:string" minOccurs="0" />
+                <xs:element name="TRINH_LANH_DAO" type="xs:string" minOccurs="0" />
+                <xs:element name="DUYET" type="xs:string" minOccurs="0" />
+                <xs:element name="DUYET_KT" type="xs:string" minOccurs="0" />
+                <xs:element name="TPKT" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_DN" type="xs:string" minOccurs="0" />
+                <xs:element name="VO_MINH_TAN" type="xs:string" minOccurs="0" />
+                <xs:element name="TIEN_CHU" type="xs:string" minOccurs="0" />
+                <xs:element name="GACH1" type="xs:string" minOccurs="0" />
+                <xs:element name="GACH2" type="xs:string" minOccurs="0" />
+                <xs:element name="GACH3" type="xs:string" minOccurs="0" />
+                <xs:element name="GACH4" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_LE_TT" type="xs:int" minOccurs="0" />
+                <xs:element name="SO_LE_SL" type="xs:int" minOccurs="0" />
+                <xs:element name="SO_LE_DG" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_CAO" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_RONG" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BAN_DU_TRU_DFC>
+    <TEN_PT>Con lăn tán mực DL3</TEN_PT>
+    <MS_PT>L0844</MS_PT>
+    <MS_PT_CTY>DL3-2DL621EB00-114-GC</MS_PT_CTY>
+    <SL_DA_DUYET>10</SL_DA_DUYET>
+    <DON_GIA>0.00000000</DON_GIA>
+    <THANH_TIEN_VND>0.00</THANH_TIEN_VND>
+    <THANH_TIEN_VAT>0</THANH_TIEN_VAT>
+  </BAN_DU_TRU_DFC>
+  <BAN_DU_TRU_DFC>
+    <TEN_PT>Con lăn cao su kéo nhủ D43-110</TEN_PT>
+    <MS_PT>L3045</MS_PT>
+    <MS_PT_CTY>FD3-2FD545AC02-59-GC</MS_PT_CTY>
+    <SL_DA_DUYET>10</SL_DA_DUYET>
+    <DON_GIA>0.00000000</DON_GIA>
+    <THANH_TIEN_VND>0.00</THANH_TIEN_VND>
+    <THANH_TIEN_VAT>0</THANH_TIEN_VAT>
+  </BAN_DU_TRU_DFC>
+  <BAN_DU_TRU_DFC>
+    <TEN_PT>Dao cắt điếu DX</TEN_PT>
+    <MS_PT>L4355</MS_PT>
+    <MS_PT_CTY>DX-2DG511BA0000-13</MS_PT_CTY>
+    <SL_DA_DUYET>1000</SL_DA_DUYET>
+    <DON_GIA>0.00000000</DON_GIA>
+    <THANH_TIEN_VND>0.00</THANH_TIEN_VND>
+    <THANH_TIEN_VAT>0</THANH_TIEN_VAT>
+  </BAN_DU_TRU_DFC>
+  <BAN_DU_TRU_DFC>
+    <TEN_PT>Trục con lăn giấy đôi</TEN_PT>
+    <MS_PT>L7951</MS_PT>
+    <MS_PT_CTY>MO-SA1782-05-GC</MS_PT_CTY>
+    <SL_DA_DUYET>10</SL_DA_DUYET>
+    <DON_GIA>0.00000000</DON_GIA>
+    <THANH_TIEN_VND>0.00</THANH_TIEN_VND>
+    <THANH_TIEN_VAT>0</THANH_TIEN_VAT>
+  </BAN_DU_TRU_DFC>
+  <BAN_DU_TRU_DFC>
+    <TEN_PT>Con lăn giấy đôi</TEN_PT>
+    <MS_PT>L7952</MS_PT>
+    <MS_PT_CTY>MO-SA1782-04-GC</MS_PT_CTY>
+    <SL_DA_DUYET>20</SL_DA_DUYET>
+    <DON_GIA>0.00000000</DON_GIA>
+    <THANH_TIEN_VND>0.00</THANH_TIEN_VND>
+    <THANH_TIEN_VAT>0</THANH_TIEN_VAT>
+  </BAN_DU_TRU_DFC>
+  <TIEU_DE_DFC>
+    <TONG_CONG_TY>TỔNG CÔNG TY</TONG_CONG_TY>
+    <CONG_NGHIEP_TP>CÔNG NGHIỆP THỰC PHẨM ĐỒNG NAI</CONG_NGHIEP_TP>
+    <PKT_CO_DIEN>PKT CƠ ĐIỆN &amp; MT</PKT_CO_DIEN>
+    <CONG_HOA>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</CONG_HOA>
+    <DOC_LAP>Độc lập – Tự do – Hạnh phúc</DOC_LAP>
+    <BIEN_HOA>Biên Hòa , ngày 7 tháng 2 năm 2014</BIEN_HOA>
+    <GIAY_DE_NGHI>BẢN DỰ TRÙ</GIAY_DE_NGHI>
+    <KINH_GOI>Kính gởi:</KINH_GOI>
+    <KE_TOAN>- Ban Tổng Giám đốc</KE_TOAN>
+    <STT>STT</STT>
+    <TEN>TÊN</TEN>
+    <MHH>MHH</MHH>
+    <MSKT>MSKTCN</MSKT>
+    <MS_PT>Nguyễn Đình Lộc</MS_PT>
+    <SLG>SLG (Cái)</SLG>
+    <DON_GIA>ĐƠN GIÁ (Đ)</DON_GIA>
+    <THANH_TIEN>THÀNH TIỀN (Đ)</THANH_TIEN>
+    <TONG_CONG_VAT>VAT</TONG_CONG_VAT>
+    <TONG_CONG>TỔNG CỘNG</TONG_CONG>
+    <LOAI>Loại</LOAI>
+    <TRINH_LANH_DAO>Trình lãnh đạo xét duyệt.</TRINH_LANH_DAO>
+    <DUYET>Duyệt Ban TGĐ</DUYET>
+    <DUYET_KT>Duyệt kế toán </DUYET_KT>
+    <TPKT>TPKT Cơ điện - MT</TPKT>
+    <NGUOI_DN>Người đề nghị</NGUOI_DN>
+    <VO_MINH_TAN>Võ Minh Tân</VO_MINH_TAN>
+    <TIEN_CHU>( 0 đồng . )</TIEN_CHU>
+    <GACH1>- Căn cứ theo đề nghị được duyệt ngày …/…/……, bản chào giá</GACH1>
+    <GACH2>- PKT CƠ ĐIỆN &amp; MT trình lãnh đạo TCty xét duyệt dự trù gia công, mua vật tư phụ tùng như sau để dự phòng, phục vụ sản xuất</GACH2>
+    <GACH3>- Phòng kế toán</GACH3>
+  </TIEU_DE_DFC>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Tổng Công Ty Công Nghiệp Thực Phẩm Đồng Nai
+Số 21, Đường 2A, KCN Biên Hòa 2, P. An Bình, Tp. Biên Hòa, T. Đồng Nai
+Telephone: 061-3836110  Fax: 061-3836132</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>2000</WIDTH>
+    <HEIGHT>800</HEIGHT>
+    <NGAY_IN>?PRINT_DATE? 17/09/2014</NGAY_IN>
+    <PAGE>?PAGE?</PAGE>
+    <OFPAGE>?OF?</OFPAGE>
+    <SO_LE_TT>3</SO_LE_TT>
+    <SO_LE_SL>1</SO_LE_SL>
+    <SO_LE_DG>2</SO_LE_DG>
+    <TTC_CAO>700</TTC_CAO>
+    <TTC_RONG>7000</TTC_RONG>
+  </rptTitlereport>
+</NewDataSet>

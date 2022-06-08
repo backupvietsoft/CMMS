@@ -1,0 +1,292 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_LOAI_BT" type="xs:int" />
+                <xs:element name="TEN_LOAI_BT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="40" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_BT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="LIST_CN" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Table2">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="TU_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DEN_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TDE_XUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="TENXUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="TUNGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DENNGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="TG_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="NV_TH" type="xs:string" minOccurs="0" />
+                <xs:element name="KETQUA" type="xs:string" minOccurs="0" />
+                <xs:element name="KY1" type="xs:string" minOccurs="0" />
+                <xs:element name="KY2" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="MAU_SO" type="xs:string" minOccurs="0" />
+                <xs:element name="SO" type="xs:string" minOccurs="0" />
+                <xs:element name="ND_SO" type="xs:string" minOccurs="0" />
+                <xs:element name="TT_CTY" type="xs:string" minOccurs="0" />
+                <xs:element name="TT_PHONG_BAN" type="xs:string" minOccurs="0" />
+                <xs:element name="TRANG" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <MS_MAY>PHAY-CNC-01</MS_MAY>
+    <TEN_MAY>Máy phay CNC-01</TEN_MAY>
+    <MS_LOAI_BT>8</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 6 tháng</TEN_LOAI_BT>
+    <NGAY_BT>2009-06-30T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-05</MS_MAY>
+    <TEN_MAY>Máy phay CNC-05</TEN_MAY>
+    <MS_LOAI_BT>8</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 6 tháng</TEN_LOAI_BT>
+    <NGAY_BT>2009-06-30T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-07</MS_MAY>
+    <TEN_MAY>Máy phay CNC-07</TEN_MAY>
+    <MS_LOAI_BT>8</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 6 tháng</TEN_LOAI_BT>
+    <NGAY_BT>2009-06-30T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-08</MS_MAY>
+    <TEN_MAY>Máy phay CNC-08</TEN_MAY>
+    <MS_LOAI_BT>8</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 6 tháng</TEN_LOAI_BT>
+    <NGAY_BT>2009-06-30T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-09</MS_MAY>
+    <TEN_MAY>Máy phay CNC-09</TEN_MAY>
+    <MS_LOAI_BT>8</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 6 tháng</TEN_LOAI_BT>
+    <NGAY_BT>2009-06-30T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-05</MS_MAY>
+    <TEN_MAY>Máy phay CNC-05</TEN_MAY>
+    <MS_LOAI_BT>33</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tuần</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-08T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-07</MS_MAY>
+    <TEN_MAY>Máy phay CNC-07</TEN_MAY>
+    <MS_LOAI_BT>33</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tuần</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-08T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-08</MS_MAY>
+    <TEN_MAY>Máy phay CNC-08</TEN_MAY>
+    <MS_LOAI_BT>33</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tuần</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-08T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-09</MS_MAY>
+    <TEN_MAY>Máy phay CNC-09</TEN_MAY>
+    <MS_LOAI_BT>33</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tuần</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-08T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-01</MS_MAY>
+    <TEN_MAY>Máy phay CNC-01</TEN_MAY>
+    <MS_LOAI_BT>33</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tuần</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-11T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-05</MS_MAY>
+    <TEN_MAY>Máy phay CNC-05</TEN_MAY>
+    <MS_LOAI_BT>33</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tuần</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-15T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-07</MS_MAY>
+    <TEN_MAY>Máy phay CNC-07</TEN_MAY>
+    <MS_LOAI_BT>33</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tuần</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-15T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-08</MS_MAY>
+    <TEN_MAY>Máy phay CNC-08</TEN_MAY>
+    <MS_LOAI_BT>33</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tuần</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-15T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-09</MS_MAY>
+    <TEN_MAY>Máy phay CNC-09</TEN_MAY>
+    <MS_LOAI_BT>33</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tuần</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-15T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-01</MS_MAY>
+    <TEN_MAY>Máy phay CNC-01</TEN_MAY>
+    <MS_LOAI_BT>33</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tuần</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-18T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-01</MS_MAY>
+    <TEN_MAY>Máy phay CNC-01</TEN_MAY>
+    <MS_LOAI_BT>5</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tháng</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-28T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-05</MS_MAY>
+    <TEN_MAY>Máy phay CNC-05</TEN_MAY>
+    <MS_LOAI_BT>5</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tháng</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-28T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-07</MS_MAY>
+    <TEN_MAY>Máy phay CNC-07</TEN_MAY>
+    <MS_LOAI_BT>5</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tháng</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-28T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-08</MS_MAY>
+    <TEN_MAY>Máy phay CNC-08</TEN_MAY>
+    <MS_LOAI_BT>5</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tháng</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-28T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table1>
+    <MS_MAY>PHAY-CNC-09</MS_MAY>
+    <TEN_MAY>Máy phay CNC-09</TEN_MAY>
+    <MS_LOAI_BT>5</MS_LOAI_BT>
+    <TEN_LOAI_BT>TT 1 tháng</TEN_LOAI_BT>
+    <NGAY_BT>2009-07-28T00:00:00+07:00</NGAY_BT>
+  </Table1>
+  <Table2>
+    <TIEU_DE>KẾ HOẠCH BẢO TRÌ</TIEU_DE>
+    <TU_NGAY>Từ ngày</TU_NGAY>
+    <DEN_NGAY>Đến ngày</DEN_NGAY>
+    <TDE_XUONG>Đơn vị sử dụng</TDE_XUONG>
+    <TENXUONG>Xưởng CK khuôn mẫu</TENXUONG>
+    <TUNGAY>30/06/2009</TUNGAY>
+    <DENNGAY>30/07/2009</DENNGAY>
+    <STT>STT</STT>
+    <TEN_MAY>Tên máy</TEN_MAY>
+    <MS_MAY>MS máy</MS_MAY>
+    <LOAI_BT>Loại BT</LOAI_BT>
+    <TG_BT>Ngày</TG_BT>
+    <NV_TH>Nhân viên</NV_TH>
+    <KETQUA>Kết quả</KETQUA>
+    <KY1>Trưởng đơn vị sử dụng</KY1>
+    <KY2>Trưởng phòng cơ điện</KY2>
+    <NGAY>Ngày.....Tháng.....Năm.....</NGAY>
+    <MAU_SO>Mẫu số</MAU_SO>
+    <SO>Số</SO>
+    <ND_SO>NX001/7</ND_SO>
+    <TT_CTY>Công ty cổ phần Dược Hậu Giang</TT_CTY>
+    <TT_PHONG_BAN>Phòng Cơ Điện</TT_PHONG_BAN>
+    <TRANG>?TRANG?</TRANG>
+  </Table2>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty TNHH Nhựa Duy Tân
+298 Hồ Học Lãm, P. An Lạc, Q. Bình Tân, TP.HCM
+Telephone: 84-8-8762222  Fax: 84-8-8762225</THONG_TIN_CTY>
+    <LE_TRAI_LOGO>20</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1300</WIDTH>
+    <HEIGHT>650</HEIGHT>
+    <NGAY_IN>?PRINT_DATE?30/06/2009</NGAY_IN>
+    <PAGE>?PAGE?</PAGE>
+    <OFPAGE>?OF?</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

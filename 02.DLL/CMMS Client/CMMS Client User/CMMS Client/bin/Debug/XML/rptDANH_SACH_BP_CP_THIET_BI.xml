@@ -1,0 +1,157 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA_INFO">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_NHOM_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_BP_CHIU_PHI">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_DON_VI">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_NHAP" type="xs:dateTime" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="NHOM_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="DON_VI" type="xs:string" minOccurs="0" />
+                <xs:element name="Column10" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA_INFO>
+    <MS_MAY>A</MS_MAY>
+    <TEN_MAY />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_BP_CHIU_PHI>Khối kỹ thuật</TEN_BP_CHIU_PHI>
+    <TEN_DON_VI>Nam Việt</TEN_DON_VI>
+    <NGAY_NHAP>2001-12-12T00:00:00+07:00</NGAY_NHAP>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_MAY>A</MS_MAY>
+    <TEN_MAY />
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_BP_CHIU_PHI>Khối kỹ thuật</TEN_BP_CHIU_PHI>
+    <TEN_DON_VI>Nam Việt</TEN_DON_VI>
+    <NGAY_NHAP>2009-07-20T14:52:17.687+07:00</NGAY_NHAP>
+  </DATA_INFO>
+  <Table1>
+    <TIEU_DE>DANH SÁCH BỘ PHẬN CHỊU PHÍ CỦA THIẾT BỊ</TIEU_DE>
+    <MS_TB>Mã thiết bị:</MS_TB>
+    <TEN_TB>Tên thiết bị:</TEN_TB>
+    <LOAI_TB>Loại thiết bị:</LOAI_TB>
+    <NHOM_TB>Nhóm thiết bị:</NHOM_TB>
+    <STT>STT</STT>
+    <NGAY>Ngày</NGAY>
+    <BO_PHAN>Bộ phận chịu phí</BO_PHAN>
+    <DON_VI>Đơn vị</DON_VI>
+  </Table1>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty TNHH Phần mềm Nam Việt
+27/49B, Hậu Giang, F4, Q. Tân Bình, TP.HCM
+Telephone: 84-8-38110770  Fax: 84-8-8117787</THONG_TIN_CTY>
+    <LOGO />
+    <LE_TRAI_LOGO>150</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>10</LE_TREN_LOGO>
+    <WIDTH>1300</WIDTH>
+    <HEIGHT>650</HEIGHT>
+    <NGAY_IN>Ngày in:24/07/2009</NGAY_IN>
+    <PAGE>?PAGE?</PAGE>
+    <OFPAGE>?OF?</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

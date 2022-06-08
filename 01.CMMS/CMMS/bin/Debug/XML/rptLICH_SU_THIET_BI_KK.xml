@@ -1,0 +1,653 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rptTIEU_DE_LICH_SU_TB">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_HT" type="xs:string" minOccurs="0" />
+                <xs:element name="MO_TA_CV" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PHIEU_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_VI_TRI_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PTTT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_PTTT" type="xs:string" minOccurs="0" />
+                <xs:element name="SL_TT" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_DH_NHAP_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="XUAT_XU" type="xs:string" minOccurs="0" />
+                <xs:element name="GHI_CHU" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="BO_PHAN" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptLICH_SU_THIET_BI">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NGAY_HOAN_THANH" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MO_TA_CV" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_BO_PHAN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_BO_PHAN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PHIEU_BAO_TRI">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_PT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_VI_TRI_PT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PTTT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Expr1" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SL_TT" type="xs:double" minOccurs="0" />
+                <xs:element name="MS_DH_NHAP_PT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="14" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="XUAT_XU" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="GHI_CHU" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="512" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rptTIEU_DE_LICH_SU_TB>
+    <TIEU_DE>LỊCH SỬ THIẾT BỊ</TIEU_DE>
+    <NGAY_HT>Ngày HT</NGAY_HT>
+    <MO_TA_CV>Công việc</MO_TA_CV>
+    <TEN_BO_PHAN>Bộ phận</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>MS phiếu BT</MS_PHIEU_BAO_TRI>
+    <MS_PT>MS Phụ tùng</MS_PT>
+    <TEN_PT>Part No</TEN_PT>
+    <MS_VI_TRI_PT>Vị trí</MS_VI_TRI_PT>
+    <MS_PTTT>MS PT SD</MS_PTTT>
+    <TEN_PTTT>Tên PT SD</TEN_PTTT>
+    <SL_TT>SL SD</SL_TT>
+    <MS_DH_NHAP_PT>MS phiếu nhập</MS_DH_NHAP_PT>
+    <XUAT_XU>Xuất xứ</XUAT_XU>
+    <GHI_CHU>Ghi chú</GHI_CHU>
+    <MS_MAY>MS Thiết bị:  TP003</MS_MAY>
+    <TEN_MAY>Tên thiết bị:  Máy chiết chai</TEN_MAY>
+    <BO_PHAN />
+  </rptTIEU_DE_LICH_SU_TB>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-08-14T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay Accordion bellows_Valve needle_</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201308000002</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030020</MS_PT>
+    <TEN_PT>X58876091</TEN_PT>
+    <MS_VI_TRI_PT>a</MS_VI_TRI_PT>
+    <Expr1>Accordion bellows_Valve needle_</Expr1>
+    <SL_TT>2</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-07-16T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay Accordion bellows_Valve needle_</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000005</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030020</MS_PT>
+    <TEN_PT>X58876091</TEN_PT>
+    <MS_VI_TRI_PT>a</MS_VI_TRI_PT>
+    <Expr1>Accordion bellows_Valve needle_</Expr1>
+    <SL_TT>2</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-07-08T09:30:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế joint chuông</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000012</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030069</MS_PT>
+    <TEN_PT>X58899715</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Pressure gasket__(joint chuông máy chiết)</Expr1>
+    <SL_TT>60</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-07-08T09:30:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế Package__Joint nón vòi chiết</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000015</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030022</MS_PT>
+    <TEN_PT>X58899782</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Package__Joint nón vòi chiết</Expr1>
+    <SL_TT>60</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-07-02T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế Package__Joint nón vòi chiết</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000014</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030022</MS_PT>
+    <TEN_PT>X58899782</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Package__Joint nón vòi chiết</Expr1>
+    <SL_TT>39</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-06-20T09:30:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế bạc trượt</MO_TA_CV>
+    <MS_BO_PHAN>TP3.2</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ xylanh nâng</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000018</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030028</MS_PT>
+    <TEN_PT>X58803153</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Guide piece__(Bạc trượt)</Expr1>
+    <SL_TT>11</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-06-17T09:05:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế joint chuông</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000011</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030069</MS_PT>
+    <TEN_PT>X58899715</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Pressure gasket__(joint chuông máy chiết)</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-06-14T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay Accordion bellows_Valve needle_</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000004</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030020</MS_PT>
+    <TEN_PT>X58876091</TEN_PT>
+    <MS_VI_TRI_PT>a</MS_VI_TRI_PT>
+    <Expr1>Accordion bellows_Valve needle_</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-06-11T10:30:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV> Thay thế vít tải</MO_TA_CV>
+    <MS_BO_PHAN>TP3.1</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải, bàn tải, sao tải.</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000022</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030021</MS_PT>
+    <TEN_PT>58826856S639</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Pre-sorting worm (Trục tải chai vào máy chiết)</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-06-11T10:00:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế thanh trượt chai</MO_TA_CV>
+    <MS_BO_PHAN>TP3.1</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải, bàn tải, sao tải.</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000020</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030103</MS_PT>
+    <TEN_PT>59919270S001</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Slide plate TK 1800 599-19-270S001 (Thanh trượt chai)</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-06-11T10:00:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế thanh trượt chai</MO_TA_CV>
+    <MS_BO_PHAN>TP3.1</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải, bàn tải, sao tải.</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000020</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030104</MS_PT>
+    <TEN_PT>X59919202</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Slide plate TK 1800 X599-19-202 (Thanh trượt chai)</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-06-11T10:00:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế thanh trượt chai</MO_TA_CV>
+    <MS_BO_PHAN>TP3.1</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải, bàn tải, sao tải.</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000020</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030105</MS_PT>
+    <TEN_PT>X59913425</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Slide plate infeed TK 360 X599-13-425 (Thanh trượt chai)</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-05-30T09:10:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế joint chuông</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000010</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030069</MS_PT>
+    <TEN_PT>X58899715</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Pressure gasket__(joint chuông máy chiết)</Expr1>
+    <SL_TT>2</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-05-13T09:05:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế joint chuông</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000009</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030069</MS_PT>
+    <TEN_PT>X58899715</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Pressure gasket__(joint chuông máy chiết)</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-05-13T09:01:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế Package__Joint nón vòi chiết</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000013</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030022</MS_PT>
+    <TEN_PT>X58899782</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Package__Joint nón vòi chiết</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-04-27T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế joint chuông</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000008</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030069</MS_PT>
+    <TEN_PT>X58899715</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Pressure gasket__(joint chuông máy chiết)</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-04-26T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay Accordion bellows_Valve needle_</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000003</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030020</MS_PT>
+    <TEN_PT>X58876091</TEN_PT>
+    <MS_VI_TRI_PT>a</MS_VI_TRI_PT>
+    <Expr1>Accordion bellows_Valve needle_</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-04-20T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay Accordion bellows_Valve needle_</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000002</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030020</MS_PT>
+    <TEN_PT>X58876091</TEN_PT>
+    <MS_VI_TRI_PT>a</MS_VI_TRI_PT>
+    <Expr1>Accordion bellows_Valve needle_</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-04-17T10:00:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế bơm mở trung tâm</MO_TA_CV>
+    <MS_BO_PHAN>TP3.5</MS_BO_PHAN>
+    <TEN_BO_PHAN>Hệ thống bôi trơn mỡ</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000019</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030108</MS_PT>
+    <TEN_PT>X59930905</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Lubrication pump grease (bơm mỡ trung tâm)</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-04-15T11:00:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế bạc trượt</MO_TA_CV>
+    <MS_BO_PHAN>TP3.2</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ xylanh nâng</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000017</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030028</MS_PT>
+    <TEN_PT>X58803153</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Guide piece__(Bạc trượt)</Expr1>
+    <SL_TT>60</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-04-15T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế joint chuông</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000007</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030069</MS_PT>
+    <TEN_PT>X58899715</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Pressure gasket__(joint chuông máy chiết)</Expr1>
+    <SL_TT>2</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-03-05T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay Accordion bellows_Valve needle_</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201303000002</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030020</MS_PT>
+    <TEN_PT>X58876091</TEN_PT>
+    <MS_VI_TRI_PT>a</MS_VI_TRI_PT>
+    <Expr1>Accordion bellows_Valve needle_</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-02-19T09:10:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế bạc trượt</MO_TA_CV>
+    <MS_BO_PHAN>TP3.2</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ xylanh nâng</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000016</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030028</MS_PT>
+    <TEN_PT>X58803153</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Guide piece__(Bạc trượt)</Expr1>
+    <SL_TT>2</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-02-01T09:00:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế joint chuông</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000006</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030069</MS_PT>
+    <TEN_PT>X58899715</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Pressure gasket__(joint chuông máy chiết)</Expr1>
+    <SL_TT>2</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-01-31T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay Accordion bellows_Valve needle_</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201301000008</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030020</MS_PT>
+    <TEN_PT>X58876091</TEN_PT>
+    <MS_VI_TRI_PT>a</MS_VI_TRI_PT>
+    <Expr1>Accordion bellows_Valve needle_</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-01-31T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế bạc trượt</MO_TA_CV>
+    <MS_BO_PHAN>TP3.2</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ xylanh nâng</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201301000014</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030028</MS_PT>
+    <TEN_PT>X58803153</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Guide piece__(Bạc trượt)</Expr1>
+    <SL_TT>3</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-01-31T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế ống xếp khía Bellows gas control cylinder</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201301000015</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030098</MS_PT>
+    <TEN_PT>X58876090</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Bellows gas control cylinder (ống xếp khía của bộ vòi chiết)</Expr1>
+    <SL_TT>2</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-01-31T09:05:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế Package__Joint nón vòi chiết</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201301000012</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030022</MS_PT>
+    <TEN_PT>X58899782</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Package__Joint nón vòi chiết</Expr1>
+    <SL_TT>4</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-01-26T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay Accordion bellows_Valve needle_</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201301000007</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030020</MS_PT>
+    <TEN_PT>X58876091</TEN_PT>
+    <MS_VI_TRI_PT>a</MS_VI_TRI_PT>
+    <Expr1>Accordion bellows_Valve needle_</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-01-21T11:00:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế bạc trượt</MO_TA_CV>
+    <MS_BO_PHAN>TP3.2</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ xylanh nâng</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201301000013</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030028</MS_PT>
+    <TEN_PT>X58803153</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Guide piece__(Bạc trượt)</Expr1>
+    <SL_TT>60</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-01-21T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế joint chuông</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201301000010</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030069</MS_PT>
+    <TEN_PT>X58899715</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Pressure gasket__(joint chuông máy chiết)</Expr1>
+    <SL_TT>60</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-01-21T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế Package__Joint nón vòi chiết</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201301000011</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030022</MS_PT>
+    <TEN_PT>X58899782</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Package__Joint nón vòi chiết</Expr1>
+    <SL_TT>60</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-01-07T08:30:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay Accordion bellows_Valve needle_</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201311000001</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030020</MS_PT>
+    <TEN_PT>X58876091</TEN_PT>
+    <MS_VI_TRI_PT>a</MS_VI_TRI_PT>
+    <Expr1>Accordion bellows_Valve needle_</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-01-05T09:20:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay thế thanh trượt chai</MO_TA_CV>
+    <MS_BO_PHAN>TP3.1</MS_BO_PHAN>
+    <TEN_BO_PHAN>Vít tải, bàn tải, sao tải.</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201301000009</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030106</MS_PT>
+    <TEN_PT>59913429S001</TEN_PT>
+    <MS_VI_TRI_PT>A</MS_VI_TRI_PT>
+    <Expr1>Slide plate outlet 30Pi 599-13-429S001(Thanh trượt chai)</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptLICH_SU_THIET_BI>
+    <NGAY_HOAN_THANH>2013-01-01T10:31:00+07:00</NGAY_HOAN_THANH>
+    <MO_TA_CV>Thay Accordion bellows_Valve needle_</MO_TA_CV>
+    <MS_BO_PHAN>TP3.3</MS_BO_PHAN>
+    <TEN_BO_PHAN>Bộ van chiết</TEN_BO_PHAN>
+    <MS_PHIEU_BAO_TRI>WO-201301000006</MS_PHIEU_BAO_TRI>
+    <MS_PT>TP0030020</MS_PT>
+    <TEN_PT>X58876091</TEN_PT>
+    <MS_VI_TRI_PT>a</MS_VI_TRI_PT>
+    <Expr1>Accordion bellows_Valve needle_</Expr1>
+    <SL_TT>1</SL_TT>
+    <ID>0</ID>
+  </rptLICH_SU_THIET_BI>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công Ty Cổ Phần Bia Sài Gòn - Bạc Liêu
+Lô B5, KCN Trà Kha, F8, TP. Bạc Liêu, Tỉnh Bạc Liêu
+Telephone: 07813780781  Fax: 07813.780.567</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>0</LE_TREN_LOGO>
+    <WIDTH>1100</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngày in11/01/2014</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

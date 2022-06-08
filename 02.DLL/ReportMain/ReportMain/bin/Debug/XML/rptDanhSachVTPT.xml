@@ -1,0 +1,3483 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DL_VTPT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STT" msdata:ReadOnly="true" type="xs:long" minOccurs="0" />
+                <xs:element name="MS_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_PT_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="25" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_PT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="QUY_CACH" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_DVT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SL" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="TONG_TIEN" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+                <xs:element name="TEN_GROUP" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="288" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TD_VTPT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DIA_DIEM" type="xs:string" minOccurs="0" />
+                <xs:element name="DAY_CHUYEN" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="MSTB" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT_CTY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="QUY_CACH" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="SL" type="xs:string" minOccurs="0" />
+                <xs:element name="DU1" type="xs:string" minOccurs="0" />
+                <xs:element name="DU2" type="xs:string" minOccurs="0" />
+                <xs:element name="TONG_TIEN" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DL_VTPT>
+    <STT>1</STT>
+    <MS_PT>CO-BT-003</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dây đai máy dán thùng 50x1340</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>190000</TONG_TIEN>
+    <TEN_GROUP>MDT-01-07 : Máy dán thùng 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>2</STT>
+    <MS_PT>CO-BT-016</MS_PT>
+    <TEN_PT>Băng Tải Teflon khổ 1.45x63,4 (m)</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>TSA-01-05 : Tủ sấy lá 10</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>3</STT>
+    <MS_PT>CO-BT-016</MS_PT>
+    <TEN_PT>Băng Tải Teflon khổ 1.45x63,4 (m)</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>TSA-01-06 : Tủ sấy lá 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>4</STT>
+    <MS_PT>CO-BT-016</MS_PT>
+    <TEN_PT>Băng Tải Teflon khổ 1.45x63,4 (m)</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>TSA-01-07 : Tủ sấy lá 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>5</STT>
+    <MS_PT>CO-BT-023</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Băng tải Teflon khổ 1,5x65 (m)</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>22168000</TONG_TIEN>
+    <TEN_GROUP>TSA-01-08 : Tủ sấy lá 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>6</STT>
+    <MS_PT>CO-BT-023</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Băng tải Teflon khổ 1,5x65 (m)</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>22168000</TONG_TIEN>
+    <TEN_GROUP>TSA-01-09 : Tủ sấy lá 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>7</STT>
+    <MS_PT>CO-BT-026</MS_PT>
+    <TEN_PT>Băng tải PVC 1200x150x0.8</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>200000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-04 : Máy đóng gói màng co 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>8</STT>
+    <MS_PT>CO-BT-026</MS_PT>
+    <TEN_PT>Băng tải PVC 1200x150x0.8</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>400000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-05 : Máy đóng gói màng ngoài 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>9</STT>
+    <MS_PT>CO-BT-029</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Băng tải Teflon 7900x240</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>1500000</TONG_TIEN>
+    <TEN_GROUP>MCM-01-02 : Máy co màng 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>10</STT>
+    <MS_PT>CO-BT-029</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Băng tải Teflon 7900x240</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>1500000</TONG_TIEN>
+    <TEN_GROUP>MCM-01-03 : Máy co màng 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>11</STT>
+    <MS_PT>CO-BT-029</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Băng tải Teflon 7900x240</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>1500000</TONG_TIEN>
+    <TEN_GROUP>MCM-01-04 : Máy co màng 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>12</STT>
+    <MS_PT>CO-BT-030</MS_PT>
+    <TEN_PT>Băng tải PVC 6940x300x1.5</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>680000</TONG_TIEN>
+    <TEN_GROUP>BTA-04-01 : Băng tải sau máy co màng 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>13</STT>
+    <MS_PT>CO-BT-043</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Băng tải PVC 2500x600x3</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>TUU-01-05 : Tủ ủ thường 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>14</STT>
+    <MS_PT>CO-BT-046</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Băng tải Teflon khổ 1,45x85 (m)</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>TSA-01-07 : Tủ sấy lá 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>15</STT>
+    <MS_PT>CO-BT-058</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Băng tải PVC 3000X600X2</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>720000</TONG_TIEN>
+    <TEN_GROUP>TUU-01-03 : Tủ ủ thường 10</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>16</STT>
+    <MS_PT>CO-BT-060</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Băng tải PVC 3500X600X2</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>620000</TONG_TIEN>
+    <TEN_GROUP>TUU-01-03 : Tủ ủ thường 10</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>17</STT>
+    <MS_PT>CO-BT-062</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Băng tải PVC 860x160x0.6</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>200000</TONG_TIEN>
+    <TEN_GROUP>CTD-01-01 : Cân tự động 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>18</STT>
+    <MS_PT>CO-BT-074</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Băng tải lưới Teflon khổ 5126x580mm</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>2750000</TONG_TIEN>
+    <TEN_GROUP>MCM-01-08 : Máy co màng lốc 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>19</STT>
+    <MS_PT>CO-DA-005</MS_PT>
+    <TEN_PT>Dây đai A45</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>135000</TONG_TIEN>
+    <TEN_GROUP>DGD-12-02 : Máy đóng gói cháo đứng 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>20</STT>
+    <MS_PT>CO-DA-018</MS_PT>
+    <TEN_PT>Dây đai B47</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>282000</TONG_TIEN>
+    <TEN_GROUP>MXA-01-02 : Máy xay trục vít đôi 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>21</STT>
+    <MS_PT>CO-DA-018</MS_PT>
+    <TEN_PT>Dây đai B47</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>70500</TONG_TIEN>
+    <TEN_GROUP>TSA-01-03 : Tủ sấy lá 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>22</STT>
+    <MS_PT>CO-DA-018</MS_PT>
+    <TEN_PT>Dây đai B47</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>70500</TONG_TIEN>
+    <TEN_GROUP>TSA-01-04 : Tủ sấy lá 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>23</STT>
+    <MS_PT>CO-DA-022</MS_PT>
+    <TEN_PT>Dây đai B54</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>162000</TONG_TIEN>
+    <TEN_GROUP>MCT-01-04 : Máy cắt hành lát 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>24</STT>
+    <MS_PT>CO-DA-027</MS_PT>
+    <TEN_PT>Dây đai B61</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>366000</TONG_TIEN>
+    <TEN_GROUP>TSA-02-04 : Tủ sấy vắt 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>25</STT>
+    <MS_PT>CO-DA-028</MS_PT>
+    <TEN_PT>Dây đai B62</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>160000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-03 : Máy đùn cháo 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>26</STT>
+    <MS_PT>CO-DA-028</MS_PT>
+    <TEN_PT>Dây đai B62</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>240000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-07 : Máy đùn cháo 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>27</STT>
+    <MS_PT>CO-DA-037</MS_PT>
+    <TEN_PT>Dây đai B96</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>432000</TONG_TIEN>
+    <TEN_GROUP>MLT-01-01 : Máy ly tâm gạo</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>28</STT>
+    <MS_PT>CO-DA-061</MS_PT>
+    <TEN_PT>Dây đai XL150-037</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>84000</TONG_TIEN>
+    <TEN_GROUP>CTD-01-05 : Cân tự động 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>29</STT>
+    <MS_PT>CO-DA-061</MS_PT>
+    <TEN_PT>Dây đai XL150-037</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>CTD-01-06 : Cân tự động 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>30</STT>
+    <MS_PT>CO-DA-065</MS_PT>
+    <TEN_PT>Dây đai 135L</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>51000</TONG_TIEN>
+    <TEN_GROUP>MKL-01-01 : Máy dò kim loại - GV 01</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>31</STT>
+    <MS_PT>CO-DA-068</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dây đai S2M-140</TEN_PT>
+    <QUY_CACH>Bản đai rộng 6mm</QUY_CACH>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>45000</TONG_TIEN>
+    <TEN_GROUP>CTD-01-05 : Cân tự động 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>32</STT>
+    <MS_PT>CO-DA-069</MS_PT>
+    <TEN_PT>Dây đai 190XL</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>52000</TONG_TIEN>
+    <TEN_GROUP>CTD-01-01 : Cân tự động 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>33</STT>
+    <MS_PT>CO-DA-069</MS_PT>
+    <TEN_PT>Dây đai 190XL</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>52000</TONG_TIEN>
+    <TEN_GROUP>CTD-01-07 : Cân tự động 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>34</STT>
+    <MS_PT>CO-DA-071</MS_PT>
+    <TEN_PT>Dây đai 310H</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>160000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-02 : Máy đóng gói màng ngoài 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>35</STT>
+    <MS_PT>CO-DA-072</MS_PT>
+    <TEN_PT>Dây đai 427L</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>180000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-01 : Máy đóng gói màng co 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>36</STT>
+    <MS_PT>CO-DA-075</MS_PT>
+    <TEN_PT>Dây đai 315L</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>122000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-07 : Máy đóng gói màng ngoài 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>37</STT>
+    <MS_PT>CO-DA-079</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dây đai A31</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>31000</TONG_TIEN>
+    <TEN_GROUP>DGD-12-01 : Máy đóng gói cháo đứng 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>38</STT>
+    <MS_PT>CO-DA-079</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dây đai A31</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>124000</TONG_TIEN>
+    <TEN_GROUP>DGD-12-02 : Máy đóng gói cháo đứng 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>39</STT>
+    <MS_PT>CO-DA-085</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dây đai M16</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>20000</TONG_TIEN>
+    <TEN_GROUP>MKL-01-05 : Máy dò kim loại - SPG 05</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>40</STT>
+    <MS_PT>CO-DA-085</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dây đai M16</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>40000</TONG_TIEN>
+    <TEN_GROUP>MKL-01-07 : Máy dò kim loại - SPG 07</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>41</STT>
+    <MS_PT>CO-DA-086</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dây đai K19</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>40000</TONG_TIEN>
+    <TEN_GROUP>TBC-01-01 : Thiết bị dự phòng PXG</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>42</STT>
+    <MS_PT>CO-DA-087</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dây đai M28</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>20000</TONG_TIEN>
+    <TEN_GROUP>TBC-01-01 : Thiết bị dự phòng PXG</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>43</STT>
+    <MS_PT>CO-HN-003</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Bẫy đồng tiền phi 34 JIS10</TEN_PT>
+    <QUY_CACH>25A</QUY_CACH>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>3248000</TONG_TIEN>
+    <TEN_GROUP>THA-02-04 : Tủ hấp gạo 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>44</STT>
+    <MS_PT>CO-HN-019</MS_PT>
+    <TEN_PT>Van cầu phi 34 JIS10</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>6057000</TONG_TIEN>
+    <TEN_GROUP>TSA-02-04 : Tủ sấy vắt 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>45</STT>
+    <MS_PT>CO-HN-032</MS_PT>
+    <TEN_PT>Van bi inox 304 phi 49</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>136000</TONG_TIEN>
+    <TEN_GROUP>THA-02-09 : Tủ hấp gạo 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>46</STT>
+    <MS_PT>CO-HN-032</MS_PT>
+    <TEN_PT>Van bi inox 304 phi 49</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>136000</TONG_TIEN>
+    <TEN_GROUP>TKH-01-17 : Thùng khuấy 7a</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>47</STT>
+    <MS_PT>CO-HN-054</MS_PT>
+    <TEN_PT>T ren inox 304 phi 34</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>12</SL>
+    <TONG_TIEN>545250</TONG_TIEN>
+    <TEN_GROUP>THA-02-08 : Tủ hấp gạo 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>48</STT>
+    <MS_PT>CO-HN-054</MS_PT>
+    <TEN_PT>T ren inox 304 phi 34</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>12</SL>
+    <TONG_TIEN>545250</TONG_TIEN>
+    <TEN_GROUP>THA-02-09 : Tủ hấp gạo 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>49</STT>
+    <MS_PT>CO-HN-055</MS_PT>
+    <TEN_PT>T ren inox 304 phi 42</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>224000</TONG_TIEN>
+    <TEN_GROUP>THA-02-01 : Tủ hấp gạo 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>50</STT>
+    <MS_PT>CO-HN-066</MS_PT>
+    <TEN_PT>Co hàn inox 304 phi 49</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>90000</TONG_TIEN>
+    <TEN_GROUP>TKH-01-01 : Thùng khuấy 2a</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>51</STT>
+    <MS_PT>CO-HN-066</MS_PT>
+    <TEN_PT>Co hàn inox 304 phi 49</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>90000</TONG_TIEN>
+    <TEN_GROUP>TKH-01-17 : Thùng khuấy 7a</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>52</STT>
+    <MS_PT>CO-HN-071</MS_PT>
+    <TEN_PT>Co ren inox 304 phi 42</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>140000</TONG_TIEN>
+    <TEN_GROUP>THA-02-01 : Tủ hấp gạo 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>53</STT>
+    <MS_PT>CO-HN-072</MS_PT>
+    <TEN_PT>Co ren inox 304 phi 49</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>72000</TONG_TIEN>
+    <TEN_GROUP>THA-02-06 : Tủ hấp gạo 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>54</STT>
+    <MS_PT>CO-HN-072</MS_PT>
+    <TEN_PT>Co ren inox 304 phi 49</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>144000</TONG_TIEN>
+    <TEN_GROUP>THA-02-09 : Tủ hấp gạo 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>55</STT>
+    <MS_PT>CO-HN-100</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Nối inox 2 đầu răng ngoài phi 49</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>58910</TONG_TIEN>
+    <TEN_GROUP>THA-02-06 : Tủ hấp gạo 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>56</STT>
+    <MS_PT>CO-HN-100</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Nối inox 2 đầu răng ngoài phi 49</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>58910</TONG_TIEN>
+    <TEN_GROUP>THA-02-09 : Tủ hấp gạo 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>57</STT>
+    <MS_PT>CO-HN-101</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Nối inox 2 đầu răng ngoài phi 34</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>8</SL>
+    <TONG_TIEN>196000</TONG_TIEN>
+    <TEN_GROUP>THA-02-09 : Tủ hấp gạo 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>58</STT>
+    <MS_PT>CO-KN-001</MS_PT>
+    <TEN_PT>Co khí nén 6</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>21</SL>
+    <TONG_TIEN>546000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-01 : Máy đóng gói màng co 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>59</STT>
+    <MS_PT>CO-KN-017</MS_PT>
+    <TEN_PT>Nối khí nén phi 6</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>21</SL>
+    <TONG_TIEN>260000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-01 : Máy đóng gói màng co 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>60</STT>
+    <MS_PT>CO-KN-024</MS_PT>
+    <TEN_PT>T khí nén 12</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>29000</TONG_TIEN>
+    <TEN_GROUP>CTD-01-05 : Cân tự động 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>61</STT>
+    <MS_PT>CO-KN-042</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Van tiết lưu khí nén 8 M9,6</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>144000</TONG_TIEN>
+    <TEN_GROUP>MTR-04-01 : Máy trộn bột gia vị 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>62</STT>
+    <MS_PT>CO-KN-043</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Van tiết lưu khí nén 8 M13</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>199200</TONG_TIEN>
+    <TEN_GROUP>DGD-08-01 : Máy đóng gói past ớt 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>63</STT>
+    <MS_PT>CO-KN-043</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Van tiết lưu khí nén 8 M13</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>398400</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>64</STT>
+    <MS_PT>CO-KN-046</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Van tiết lưu khí nén 10 M13</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>124000</TONG_TIEN>
+    <TEN_GROUP>MCR-01-01 : Máy rót tương ớt</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>65</STT>
+    <MS_PT>CO-KN-053</MS_PT>
+    <TEN_PT>Ống khí nén phi 10</TEN_PT>
+    <TEN_DVT>Cuộn</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>1120000</TONG_TIEN>
+    <TEN_GROUP>MCR-01-01 : Máy rót tương ớt</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>66</STT>
+    <MS_PT>CO-KN-072</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Van điện từ Airtac 4V210-06 - 24v</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>980000</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>67</STT>
+    <MS_PT>CO-KN-072</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Van điện từ Airtac 4V210-06 - 24v</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>980000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>68</STT>
+    <MS_PT>CO-KN-078</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Nối giảm khí nén 10-8</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>24000</TONG_TIEN>
+    <TEN_GROUP>CTD-01-05 : Cân tự động 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>69</STT>
+    <MS_PT>CO-KN-083</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Nối giảm khí nén 12-10</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>24000</TONG_TIEN>
+    <TEN_GROUP>CTD-01-05 : Cân tự động 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>70</STT>
+    <MS_PT>CO-KN-100</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Xy lanh khí nén Airtac - SC 32x175-CA</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>656000</TONG_TIEN>
+    <TEN_GROUP>MTR-04-01 : Máy trộn bột gia vị 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>71</STT>
+    <MS_PT>CO-PT-002</MS_PT>
+    <TEN_PT>Con lăn cao su máy đóng gói</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>DGN-02-05 : Máy đóng gói màng co tô 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>72</STT>
+    <MS_PT>CO-PT-007</MS_PT>
+    <TEN_PT>Đá cối xay bằng 350 dạng bằng</TEN_PT>
+    <TEN_DVT>viên</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>3128290.58</TONG_TIEN>
+    <TEN_GROUP>MXA-02-05 : Máy xay 2 mặt đá 10a</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>73</STT>
+    <MS_PT>CO-PT-008</MS_PT>
+    <TEN_PT>Đá cối xay bằng 350 dạng lõm</TEN_PT>
+    <TEN_DVT>viên</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>MXA-02-09 : Máy xay 2 mặt đá 14a</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>74</STT>
+    <MS_PT>CO-PT-008</MS_PT>
+    <TEN_PT>Đá cối xay bằng 350 dạng lõm</TEN_PT>
+    <TEN_DVT>viên</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>3100000</TONG_TIEN>
+    <TEN_GROUP>MXA-02-10 : Máy xay 2 mặt đá 14b</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>75</STT>
+    <MS_PT>CO-PT-008</MS_PT>
+    <TEN_PT>Đá cối xay bằng 350 dạng lõm</TEN_PT>
+    <TEN_DVT>viên</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>1550000</TONG_TIEN>
+    <TEN_GROUP>MXA-02-11 : Máy xay 2 mặt đá 15a</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>76</STT>
+    <MS_PT>CO-PT-016</MS_PT>
+    <TEN_PT>Lược cắt 7 Vắt - 0,9 mm</TEN_PT>
+    <TEN_DVT>Bộ</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>2400000</TONG_TIEN>
+    <TEN_GROUP>MCT-07-02 : Máy cắt sợi 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>77</STT>
+    <MS_PT>CO-PT-017</MS_PT>
+    <TEN_PT>Lược Cắt 7 Vắt - 1,05 mm</TEN_PT>
+    <TEN_DVT>Bộ</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>800000</TONG_TIEN>
+    <TEN_GROUP>MCT-07-01 : Máy cắt sợi 1 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>78</STT>
+    <MS_PT>CO-PT-019</MS_PT>
+    <TEN_PT>Lược Cắt 7 Vắt - 4 mm</TEN_PT>
+    <TEN_DVT>Bộ</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>1600000</TONG_TIEN>
+    <TEN_GROUP>MCT-07-03 : Máy cắt sợi 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>79</STT>
+    <MS_PT>CO-PT-041</MS_PT>
+    <TEN_PT>Lưới sàng inox 304 1,2x1,2 m</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>10</SL>
+    <TONG_TIEN>1133340</TONG_TIEN>
+    <TEN_GROUP>MSA-02-01 : Máy sàng rung 10</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>80</STT>
+    <MS_PT>CO-PT-041</MS_PT>
+    <TEN_PT>Lưới sàng inox 304 1,2x1,2 m</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>9</SL>
+    <TONG_TIEN>1020006</TONG_TIEN>
+    <TEN_GROUP>MSA-02-03 : Máy sàng rung 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>81</STT>
+    <MS_PT>CO-PT-041</MS_PT>
+    <TEN_PT>Lưới sàng inox 304 1,2x1,2 m</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>16</SL>
+    <TONG_TIEN>1813344</TONG_TIEN>
+    <TEN_GROUP>MSA-02-04 : Máy sàng rung 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>82</STT>
+    <MS_PT>CO-PT-041</MS_PT>
+    <TEN_PT>Lưới sàng inox 304 1,2x1,2 m</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>113334</TONG_TIEN>
+    <TEN_GROUP>TBC-01-01 : Thiết bị dự phòng PXG</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>83</STT>
+    <MS_PT>CO-PT-042</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Cốt máy đùn cháo loại nhỏ</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>450000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-03 : Máy đùn cháo 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>84</STT>
+    <MS_PT>CO-PT-042</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Cốt máy đùn cháo loại nhỏ</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>MDC-01-04 : Máy đùn cháo 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>85</STT>
+    <MS_PT>CO-PT-042</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Cốt máy đùn cháo loại nhỏ</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>900000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-05 : Máy đùn cháo 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>86</STT>
+    <MS_PT>CO-PT-042</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Cốt máy đùn cháo loại nhỏ</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>450000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-06 : Máy đùn cháo 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>87</STT>
+    <MS_PT>CO-PT-042</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Cốt máy đùn cháo loại nhỏ</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>450000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-07 : Máy đùn cháo 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>88</STT>
+    <MS_PT>CO-PT-043</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Trục vít máy đùn cháo loại nhỏ</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>1350000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-03 : Máy đùn cháo 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>89</STT>
+    <MS_PT>CO-PT-043</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Trục vít máy đùn cháo loại nhỏ</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>450000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-04 : Máy đùn cháo 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>90</STT>
+    <MS_PT>CO-PT-043</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Trục vít máy đùn cháo loại nhỏ</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>450000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-05 : Máy đùn cháo 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>91</STT>
+    <MS_PT>CO-PT-043</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Trục vít máy đùn cháo loại nhỏ</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>450000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-06 : Máy đùn cháo 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>92</STT>
+    <MS_PT>CO-PT-043</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Trục vít máy đùn cháo loại nhỏ</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>1350000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-07 : Máy đùn cháo 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>93</STT>
+    <MS_PT>CO-PT-051</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Nòng máy đùn cháo loại nhỏ</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>450000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-03 : Máy đùn cháo 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>94</STT>
+    <MS_PT>CO-PT-051</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Nòng máy đùn cháo loại nhỏ</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>450000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-06 : Máy đùn cháo 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>95</STT>
+    <MS_PT>CO-PT-052</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dao cắt thẳng máy đóng gói - 200x23.5x5mm</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Bộ</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>2400000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-06 : Máy đóng gói màng trong 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>96</STT>
+    <MS_PT>CO-PT-052</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dao cắt thẳng máy đóng gói - 200x23.5x5mm</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Bộ</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>1200000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-01 : Máy đóng gói màng ngoài 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>97</STT>
+    <MS_PT>CO-PT-052</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dao cắt thẳng máy đóng gói - 200x23.5x5mm</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Bộ</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>1800000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-02 : Máy đóng gói màng ngoài 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>98</STT>
+    <MS_PT>CO-PT-055</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dao cắt răng cưa máy Macwell</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Bộ</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>1860000</TONG_TIEN>
+    <TEN_GROUP>DGD-09-02 : Máy đóng gói rau nêm 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>99</STT>
+    <MS_PT>CO-PT-055</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dao cắt răng cưa máy Macwell</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Bộ</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>1860000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-01 : Máy đóng gói màng ngoài 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>100</STT>
+    <MS_PT>CO-PT-056</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Băng tải mút 1460x145x20mm</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>800000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-02 : Máy đóng gói màng ngoài 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>101</STT>
+    <MS_PT>CO-PT-057</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dao cắt răng cưa 205x16x2mm - MĐG cháo, bột canh</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>7</SL>
+    <TONG_TIEN>6200000</TONG_TIEN>
+    <TEN_GROUP>DGD-12-01 : Máy đóng gói cháo đứng 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>102</STT>
+    <MS_PT>CO-PT-057</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dao cắt răng cưa 205x16x2mm - MĐG cháo, bột canh</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>2860000</TONG_TIEN>
+    <TEN_GROUP>DGD-12-02 : Máy đóng gói cháo đứng 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>103</STT>
+    <MS_PT>CO-PT-058</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Gàu máy đóng gói cháo</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>30</SL>
+    <TONG_TIEN>4500000</TONG_TIEN>
+    <TEN_GROUP>DGD-12-01 : Máy đóng gói cháo đứng 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>104</STT>
+    <MS_PT>CO-PT-059</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Mâm chết máy Macwell</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>2450000</TONG_TIEN>
+    <TEN_GROUP>DGD-09-01 : Máy đóng gói rau nêm 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>105</STT>
+    <MS_PT>CO-PT-059</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Mâm chết máy Macwell</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>2450000</TONG_TIEN>
+    <TEN_GROUP>DGD-09-03 : Máy đóng gói rau nêm 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>106</STT>
+    <MS_PT>CO-PT-059</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Mâm chết máy Macwell</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>2450000</TONG_TIEN>
+    <TEN_GROUP>DGD-09-06 : Máy đóng gói rau nêm 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>107</STT>
+    <MS_PT>CO-PT-060</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dao cắt MDG Soonforward - 250x24x3mm</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Bộ</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>600000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-05 : Máy đóng gói màng ngoài 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>108</STT>
+    <MS_PT>CO-PT-060</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dao cắt MDG Soonforward - 250x24x3mm</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Bộ</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>850000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-06 : Máy đóng gói màng ngoài 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>109</STT>
+    <MS_PT>CO-PT-060</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dao cắt MDG Soonforward - 250x24x3mm</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Bộ</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>1100000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-07 : Máy đóng gói màng ngoài 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>110</STT>
+    <MS_PT>CO-PT-060</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dao cắt MDG Soonforward - 250x24x3mm</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Bộ</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>250000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-08 : Máy đóng gói màng ngoài 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>111</STT>
+    <MS_PT>CO-PT-061</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Trục chủ động băng tải lỗ MDG màng co</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>1050000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-04 : Máy đóng gói màng co 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>112</STT>
+    <MS_PT>CO-PT-084</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Dao cắt hạt lựu dạng tròn - Máy cắt củ hành hạt lựu</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>10</SL>
+    <TONG_TIEN>4800000</TONG_TIEN>
+    <TEN_GROUP>MCT-08-01 : Máy cắt củ hành hạt lựu (vuông)</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>113</STT>
+    <MS_PT>CO-PT-120</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Trục gá bàn ép dưới - MĐG Nissin QNF-450</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>2500000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-06 : Máy đóng gói màng trong 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>114</STT>
+    <MS_PT>CO-PT-239</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Bàn ép - MĐG Soonforward</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Bộ</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>17428507.2</TONG_TIEN>
+    <TEN_GROUP>DGN-03-05 : Máy đóng gói màng ngoài 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>115</STT>
+    <MS_PT>CO-PT-240</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Trục chủ động băng tải cấp vắt - MDG Soonforward</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>4375000</TONG_TIEN>
+    <TEN_GROUP>TBC-01-01 : Thiết bị dự phòng PXG</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>116</STT>
+    <MS_PT>CO-PT-241</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Bánh xe công nghiệp cố định D=150mm</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>300000</TONG_TIEN>
+    <TEN_GROUP>MDT-01-07 : Máy dán thùng 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>117</STT>
+    <MS_PT>CO-PT-242</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Bánh xe công nghiệp xoay D=150mm</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>712000</TONG_TIEN>
+    <TEN_GROUP>MCM-01-08 : Máy co màng lốc 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>118</STT>
+    <MS_PT>CO-PT-242</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Bánh xe công nghiệp xoay D=150mm</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>356000</TONG_TIEN>
+    <TEN_GROUP>MDT-01-07 : Máy dán thùng 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>119</STT>
+    <MS_PT>CO-PT-243</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Tang chủ động băng tải - Máy co màng lốc</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>950000</TONG_TIEN>
+    <TEN_GROUP>MCM-01-08 : Máy co màng lốc 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>120</STT>
+    <MS_PT>CO-PT-244</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Tang bị động băng tải - Máy co màng lốc</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>950000</TONG_TIEN>
+    <TEN_GROUP>MCM-01-08 : Máy co màng lốc 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>121</STT>
+    <MS_PT>CO-TD-015</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Puly 3-B-250</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>240000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-07 : Máy đùn cháo 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>122</STT>
+    <MS_PT>CO-TD-017</MS_PT>
+    <TEN_PT>Dây xích thép 40-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>DGD-09-05 : Máy đóng gói rau nêm 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>123</STT>
+    <MS_PT>CO-TD-017</MS_PT>
+    <TEN_PT>Dây xích thép 40-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>1051320</TONG_TIEN>
+    <TEN_GROUP>DGD-12-01 : Máy đóng gói cháo đứng 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>124</STT>
+    <MS_PT>CO-TD-017</MS_PT>
+    <TEN_PT>Dây xích thép 40-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>DGN-02-03 : Máy đóng gói màng co 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>125</STT>
+    <MS_PT>CO-TD-017</MS_PT>
+    <TEN_PT>Dây xích thép 40-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>350440</TONG_TIEN>
+    <TEN_GROUP>MCT-06-11 : Máy cắt đoạn cháo 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>126</STT>
+    <MS_PT>CO-TD-018</MS_PT>
+    <TEN_PT>Dây xích thép 50-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>490500</TONG_TIEN>
+    <TEN_GROUP>THA-02-04 : Tủ hấp gạo 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>127</STT>
+    <MS_PT>CO-TD-020</MS_PT>
+    <TEN_PT>Dây xích thép 60-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>MTR-04-01 : Máy trộn bột gia vị 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>128</STT>
+    <MS_PT>CO-TD-020</MS_PT>
+    <TEN_PT>Dây xích thép 60-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>881000</TONG_TIEN>
+    <TEN_GROUP>THA-02-06 : Tủ hấp gạo 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>129</STT>
+    <MS_PT>CO-TD-020</MS_PT>
+    <TEN_PT>Dây xích thép 60-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>881000</TONG_TIEN>
+    <TEN_GROUP>THA-02-08 : Tủ hấp gạo 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>130</STT>
+    <MS_PT>CO-TD-027</MS_PT>
+    <TEN_PT>Dây xích inox 60-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>2045400</TONG_TIEN>
+    <TEN_GROUP>MCT-06-08 : Máy cắt đoạn 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>131</STT>
+    <MS_PT>CO-TD-027</MS_PT>
+    <TEN_PT>Dây xích inox 60-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>8181600</TONG_TIEN>
+    <TEN_GROUP>TUU-01-05 : Tủ ủ thường 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>132</STT>
+    <MS_PT>CO-TD-027</MS_PT>
+    <TEN_PT>Dây xích inox 60-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>4090800</TONG_TIEN>
+    <TEN_GROUP>TUU-02-01 : Tủ ủ lạnh 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>133</STT>
+    <MS_PT>CO-TD-028</MS_PT>
+    <TEN_PT>Dây xích inox 80-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>5</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>MTR-04-01 : Máy trộn bột gia vị 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>134</STT>
+    <MS_PT>CO-TD-028</MS_PT>
+    <TEN_PT>Dây xích inox 80-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>5500000</TONG_TIEN>
+    <TEN_GROUP>TSA-01-08 : Tủ sấy lá 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>135</STT>
+    <MS_PT>CO-TD-063</MS_PT>
+    <TEN_PT>Puly inox 304 XL-Z18</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>509000</TONG_TIEN>
+    <TEN_GROUP>CTD-01-05 : Cân tự động 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>136</STT>
+    <MS_PT>CO-TD-068</MS_PT>
+    <TEN_PT>Dây xích cò inox 40-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>3900000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-01 : Máy đóng gói màng co 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>137</STT>
+    <MS_PT>CO-TD-068</MS_PT>
+    <TEN_PT>Dây xích cò inox 40-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>1950000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-03 : Máy đóng gói màng co 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>138</STT>
+    <MS_PT>CO-TD-068</MS_PT>
+    <TEN_PT>Dây xích cò inox 40-1</TEN_PT>
+    <TEN_DVT>Hộp</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>7800000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-04 : Máy đóng gói màng co 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>139</STT>
+    <MS_PT>CO-TD-083</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Khóa xích thép 40 đơn</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>10000</TONG_TIEN>
+    <TEN_GROUP>MCT-06-17 : Máy cắt đoạn cháo 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>140</STT>
+    <MS_PT>CO-TD-087</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Cò nhôm đơn phải - máy đóng gói</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>5</SL>
+    <TONG_TIEN>475000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-10 : Máy đóng gói màng co tô 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>141</STT>
+    <MS_PT>CO-TD-089</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Cò nhựa đơn phải - máy đóng gói</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>25</SL>
+    <TONG_TIEN>2375000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-01 : Máy đóng gói màng co 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>142</STT>
+    <MS_PT>CO-TD-089</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Cò nhựa đơn phải - máy đóng gói</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>285000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-03 : Máy đóng gói màng co 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>143</STT>
+    <MS_PT>CO-TD-090</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Cò nhựa đơn trái - máy đóng gói</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>22</SL>
+    <TONG_TIEN>2090000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-04 : Máy đóng gói màng co 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>144</STT>
+    <MS_PT>CO-TD-099</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Puly 2-B-200</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>350000</TONG_TIEN>
+    <TEN_GROUP>MXA-02-09 : Máy xay 2 mặt đá 14a</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>145</STT>
+    <MS_PT>CO-TD-192</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Bánh răng nhựa - Máy dò kim loại Square</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>1760000</TONG_TIEN>
+    <TEN_GROUP>MKL-01-02 : Máy dò kim loại - GV 02</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>146</STT>
+    <MS_PT>CO-TD-192</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Bánh răng nhựa - Máy dò kim loại Square</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>1760000</TONG_TIEN>
+    <TEN_GROUP>MKL-01-10 : Máy dò kim loại - SPG 10 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>147</STT>
+    <MS_PT>CO-VB-009</MS_PT>
+    <TEN_PT>Vòng bi 1203</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>DGD-09-02 : Máy đóng gói rau nêm 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>148</STT>
+    <MS_PT>CO-VB-010</MS_PT>
+    <TEN_PT>Vòng bi 1206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>400000</TONG_TIEN>
+    <TEN_GROUP>MCT-07-01 : Máy cắt sợi 1 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>149</STT>
+    <MS_PT>CO-VB-010</MS_PT>
+    <TEN_PT>Vòng bi 1206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>200000</TONG_TIEN>
+    <TEN_GROUP>MCT-07-02 : Máy cắt sợi 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>150</STT>
+    <MS_PT>CO-VB-010</MS_PT>
+    <TEN_PT>Vòng bi 1206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>12</SL>
+    <TONG_TIEN>1200000</TONG_TIEN>
+    <TEN_GROUP>MCT-07-05 : Máy cắt sợi 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>151</STT>
+    <MS_PT>CO-VB-010</MS_PT>
+    <TEN_PT>Vòng bi 1206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>10</SL>
+    <TONG_TIEN>1000000</TONG_TIEN>
+    <TEN_GROUP>MCT-07-10 : Máy cắt sợi 10</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>152</STT>
+    <MS_PT>CO-VB-010</MS_PT>
+    <TEN_PT>Vòng bi 1206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>300000</TONG_TIEN>
+    <TEN_GROUP>MCT-07-12 : Máy cắt sợi 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>153</STT>
+    <MS_PT>CO-VB-034</MS_PT>
+    <TEN_PT>Vòng bi 30209</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>145000</TONG_TIEN>
+    <TEN_GROUP>MXA-02-09 : Máy xay 2 mặt đá 14a</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>154</STT>
+    <MS_PT>CO-VB-034</MS_PT>
+    <TEN_PT>Vòng bi 30209</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>145000</TONG_TIEN>
+    <TEN_GROUP>MXA-02-11 : Máy xay 2 mặt đá 15a</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>155</STT>
+    <MS_PT>CO-VB-052</MS_PT>
+    <TEN_PT>Vòng bi 4902</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>300000</TONG_TIEN>
+    <TEN_GROUP>DGD-09-02 : Máy đóng gói rau nêm 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>156</STT>
+    <MS_PT>CO-VB-053</MS_PT>
+    <TEN_PT>Vòng bi 51101</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>DGD-09-02 : Máy đóng gói rau nêm 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>157</STT>
+    <MS_PT>CO-VB-054</MS_PT>
+    <TEN_PT>Vòng bi 51104</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>60909.11</TONG_TIEN>
+    <TEN_GROUP>DGD-09-02 : Máy đóng gói rau nêm 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>158</STT>
+    <MS_PT>CO-VB-059</MS_PT>
+    <TEN_PT>Vòng bi 51111</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>154000</TONG_TIEN>
+    <TEN_GROUP>MXA-02-03 : Máy xay 2 mặt đá 3a</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>159</STT>
+    <MS_PT>CO-VB-067</MS_PT>
+    <TEN_PT>Vòng bi 6002</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>112000</TONG_TIEN>
+    <TEN_GROUP>CTD-01-05 : Cân tự động 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>160</STT>
+    <MS_PT>CO-VB-068</MS_PT>
+    <TEN_PT>Vòng bi 6003</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>192000</TONG_TIEN>
+    <TEN_GROUP>BTA-04-05 : Băng tải thủ công 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>161</STT>
+    <MS_PT>CO-VB-068</MS_PT>
+    <TEN_PT>Vòng bi 6003</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>63400</TONG_TIEN>
+    <TEN_GROUP>MCM-01-08 : Máy co màng lốc 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>162</STT>
+    <MS_PT>CO-VB-069</MS_PT>
+    <TEN_PT>Vòng bi 6004</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>66000</TONG_TIEN>
+    <TEN_GROUP>DGD-09-02 : Máy đóng gói rau nêm 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>163</STT>
+    <MS_PT>CO-VB-069</MS_PT>
+    <TEN_PT>Vòng bi 6004</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>62000</TONG_TIEN>
+    <TEN_GROUP>DGD-09-06 : Máy đóng gói rau nêm 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>164</STT>
+    <MS_PT>CO-VB-069</MS_PT>
+    <TEN_PT>Vòng bi 6004</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>62000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-04 : Máy đóng gói màng co 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>165</STT>
+    <MS_PT>CO-VB-069</MS_PT>
+    <TEN_PT>Vòng bi 6004</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>130000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-02 : Máy đóng gói màng ngoài 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>166</STT>
+    <MS_PT>CO-VB-069</MS_PT>
+    <TEN_PT>Vòng bi 6004</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>62000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-05 : Máy đóng gói màng ngoài 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>167</STT>
+    <MS_PT>CO-VB-069</MS_PT>
+    <TEN_PT>Vòng bi 6004</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>62000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-06 : Máy đóng gói màng ngoài 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>168</STT>
+    <MS_PT>CO-VB-069</MS_PT>
+    <TEN_PT>Vòng bi 6004</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>32500</TONG_TIEN>
+    <TEN_GROUP>MCM-01-08 : Máy co màng lốc 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>169</STT>
+    <MS_PT>CO-VB-069</MS_PT>
+    <TEN_PT>Vòng bi 6004</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>97500</TONG_TIEN>
+    <TEN_GROUP>MCT-08-01 : Máy cắt củ hành hạt lựu (vuông)</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>170</STT>
+    <MS_PT>CO-VB-069</MS_PT>
+    <TEN_PT>Vòng bi 6004</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>65000</TONG_TIEN>
+    <TEN_GROUP>TBC-01-01 : Thiết bị dự phòng PXG</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>171</STT>
+    <MS_PT>CO-VB-071</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi 6008</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>788000</TONG_TIEN>
+    <TEN_GROUP>DGD-09-01 : Máy đóng gói rau nêm 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>172</STT>
+    <MS_PT>CO-VB-071</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi 6008</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>394000</TONG_TIEN>
+    <TEN_GROUP>DGD-09-02 : Máy đóng gói rau nêm 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>173</STT>
+    <MS_PT>CO-VB-071</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi 6008</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>1182000</TONG_TIEN>
+    <TEN_GROUP>DGD-09-04 : Máy đóng gói rau nêm 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>174</STT>
+    <MS_PT>CO-VB-071</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi 6008</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>788000</TONG_TIEN>
+    <TEN_GROUP>DGD-09-06 : Máy đóng gói rau nêm 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>175</STT>
+    <MS_PT>CO-VB-081</MS_PT>
+    <TEN_PT>Vòng bi 6202</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>50000</TONG_TIEN>
+    <TEN_GROUP>TUU-01-03 : Tủ ủ thường 10</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>176</STT>
+    <MS_PT>CO-VB-083</MS_PT>
+    <TEN_PT>Vòng bi 6204</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>58000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-08 : Máy đóng gói màng ngoài 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>177</STT>
+    <MS_PT>CO-VB-083</MS_PT>
+    <TEN_PT>Vòng bi 6204</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>10</SL>
+    <TONG_TIEN>290000</TONG_TIEN>
+    <TEN_GROUP>XE-03-01 : Xe nâng tay 1 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>178</STT>
+    <MS_PT>CO-VB-083</MS_PT>
+    <TEN_PT>Vòng bi 6204</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>116000</TONG_TIEN>
+    <TEN_GROUP>XE-03-02 : Xe nâng tay 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>179</STT>
+    <MS_PT>CO-VB-083</MS_PT>
+    <TEN_PT>Vòng bi 6204</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>8</SL>
+    <TONG_TIEN>232000</TONG_TIEN>
+    <TEN_GROUP>XE-03-03 : Xe nâng tay 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>180</STT>
+    <MS_PT>CO-VB-084</MS_PT>
+    <TEN_PT>Vòng bi 6205</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>62000</TONG_TIEN>
+    <TEN_GROUP>BTA-04-04 : Băng tải sau máy co màng 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>181</STT>
+    <MS_PT>CO-VB-084</MS_PT>
+    <TEN_PT>Vòng bi 6205</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>62000</TONG_TIEN>
+    <TEN_GROUP>TSA-01-01 : Tủ sấy lá 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>182</STT>
+    <MS_PT>CO-VB-084</MS_PT>
+    <TEN_PT>Vòng bi 6205</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>62000</TONG_TIEN>
+    <TEN_GROUP>TUU-01-05 : Tủ ủ thường 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>183</STT>
+    <MS_PT>CO-VB-089</MS_PT>
+    <TEN_PT>Vòng bi 6210</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>122000</TONG_TIEN>
+    <TEN_GROUP>MXA-02-03 : Máy xay 2 mặt đá 3a</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>184</STT>
+    <MS_PT>CO-VB-089</MS_PT>
+    <TEN_PT>Vòng bi 6210</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>122000</TONG_TIEN>
+    <TEN_GROUP>MXA-02-09 : Máy xay 2 mặt đá 14a</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>185</STT>
+    <MS_PT>CO-VB-089</MS_PT>
+    <TEN_PT>Vòng bi 6210</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>122000</TONG_TIEN>
+    <TEN_GROUP>MXA-02-11 : Máy xay 2 mặt đá 15a</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>186</STT>
+    <MS_PT>CO-VB-098</MS_PT>
+    <TEN_PT>Vòng bi 6305</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>104000</TONG_TIEN>
+    <TEN_GROUP>MCM-01-08 : Máy co màng lốc 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>187</STT>
+    <MS_PT>CO-VB-109</MS_PT>
+    <TEN_PT>Vòng bi 6900</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>69000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-03 : Máy đóng gói màng co 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>188</STT>
+    <MS_PT>CO-VB-109</MS_PT>
+    <TEN_PT>Vòng bi 6900</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>156800</TONG_TIEN>
+    <TEN_GROUP>DGN-03-07 : Máy đóng gói màng ngoài 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>189</STT>
+    <MS_PT>CO-VB-110</MS_PT>
+    <TEN_PT>Vòng bi 6902</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>8</SL>
+    <TONG_TIEN>406000</TONG_TIEN>
+    <TEN_GROUP>CTD-01-05 : Cân tự động 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>190</STT>
+    <MS_PT>CO-VB-110</MS_PT>
+    <TEN_PT>Vòng bi 6902</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>124000</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>191</STT>
+    <MS_PT>CO-VB-110</MS_PT>
+    <TEN_PT>Vòng bi 6902</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>124000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-01 : Máy đóng gói past ớt 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>192</STT>
+    <MS_PT>CO-VB-110</MS_PT>
+    <TEN_PT>Vòng bi 6902</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>79000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-02 : Máy đóng gói past ớt 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>193</STT>
+    <MS_PT>CO-VB-110</MS_PT>
+    <TEN_PT>Vòng bi 6902</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>11</SL>
+    <TONG_TIEN>637000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-03 : Máy đóng gói past ớt 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>194</STT>
+    <MS_PT>CO-VB-110</MS_PT>
+    <TEN_PT>Vòng bi 6902</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>372000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>195</STT>
+    <MS_PT>CO-VB-110</MS_PT>
+    <TEN_PT>Vòng bi 6902</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>124000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-05 : Máy đóng gói past ớt 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>196</STT>
+    <MS_PT>CO-VB-110</MS_PT>
+    <TEN_PT>Vòng bi 6902</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>282000</TONG_TIEN>
+    <TEN_GROUP>TBC-01-01 : Thiết bị dự phòng PXG</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>197</STT>
+    <MS_PT>CO-VB-141</MS_PT>
+    <TEN_PT>Vòng bi SDM 20</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>300000</TONG_TIEN>
+    <TEN_GROUP>DGD-12-01 : Máy đóng gói cháo đứng 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>198</STT>
+    <MS_PT>CO-VB-143</MS_PT>
+    <TEN_PT>Vòng bi UC 204</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>78000</TONG_TIEN>
+    <TEN_GROUP>BTA-04-25 : Băng tải vô thùng tô 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>199</STT>
+    <MS_PT>CO-VB-143</MS_PT>
+    <TEN_PT>Vòng bi UC 204</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>78000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-03 : Máy đóng gói màng co 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>200</STT>
+    <MS_PT>CO-VB-143</MS_PT>
+    <TEN_PT>Vòng bi UC 204</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>156000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-05 : Máy đóng gói màng co tô 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>201</STT>
+    <MS_PT>CO-VB-143</MS_PT>
+    <TEN_PT>Vòng bi UC 204</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>156000</TONG_TIEN>
+    <TEN_GROUP>MCM-01-08 : Máy co màng lốc 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>202</STT>
+    <MS_PT>CO-VB-144</MS_PT>
+    <TEN_PT>Vòng bi UC 205</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>1235000</TONG_TIEN>
+    <TEN_GROUP>BTA-04-04 : Băng tải sau máy co màng 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>203</STT>
+    <MS_PT>CO-VB-144</MS_PT>
+    <TEN_PT>Vòng bi UC 205</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>97500</TONG_TIEN>
+    <TEN_GROUP>BTA-04-25 : Băng tải vô thùng tô 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>204</STT>
+    <MS_PT>CO-VB-144</MS_PT>
+    <TEN_PT>Vòng bi UC 205</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>1235000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-01 : Máy đóng gói màng co 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>205</STT>
+    <MS_PT>CO-VB-144</MS_PT>
+    <TEN_PT>Vòng bi UC 205</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>1235000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-03 : Máy đóng gói màng co 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>206</STT>
+    <MS_PT>CO-VB-144</MS_PT>
+    <TEN_PT>Vòng bi UC 205</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>1235000</TONG_TIEN>
+    <TEN_GROUP>MCT-06-11 : Máy cắt đoạn cháo 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>207</STT>
+    <MS_PT>CO-VB-145</MS_PT>
+    <TEN_PT>Vòng bi UC 206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>206000</TONG_TIEN>
+    <TEN_GROUP>BTA-02-05 : Băng tải xích inox chuyển cháo</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>208</STT>
+    <MS_PT>CO-VB-145</MS_PT>
+    <TEN_PT>Vòng bi UC 206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>1425000</TONG_TIEN>
+    <TEN_GROUP>BTA-04-26 : Băng tải vô thùng tô 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>209</STT>
+    <MS_PT>CO-VB-145</MS_PT>
+    <TEN_PT>Vòng bi UC 206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>115000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-06 : Máy đóng gói màng trong 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>210</STT>
+    <MS_PT>CO-VB-145</MS_PT>
+    <TEN_PT>Vòng bi UC 206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>316800</TONG_TIEN>
+    <TEN_GROUP>DGN-03-07 : Máy đóng gói màng ngoài 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>211</STT>
+    <MS_PT>CO-VB-145</MS_PT>
+    <TEN_PT>Vòng bi UC 206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>1425000</TONG_TIEN>
+    <TEN_GROUP>MCT-06-04 : Máy cắt đoạn 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>212</STT>
+    <MS_PT>CO-VB-145</MS_PT>
+    <TEN_PT>Vòng bi UC 206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>712500</TONG_TIEN>
+    <TEN_GROUP>MCT-06-08 : Máy cắt đoạn 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>213</STT>
+    <MS_PT>CO-VB-145</MS_PT>
+    <TEN_PT>Vòng bi UC 206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>334600</TONG_TIEN>
+    <TEN_GROUP>MCT-07-13 : Máy cắt sợi 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>214</STT>
+    <MS_PT>CO-VB-145</MS_PT>
+    <TEN_PT>Vòng bi UC 206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>1646600</TONG_TIEN>
+    <TEN_GROUP>MCT-07-14 : Máy cắt sợi 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>215</STT>
+    <MS_PT>CO-VB-145</MS_PT>
+    <TEN_PT>Vòng bi UC 206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>712500</TONG_TIEN>
+    <TEN_GROUP>THA-02-01 : Tủ hấp gạo 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>216</STT>
+    <MS_PT>CO-VB-145</MS_PT>
+    <TEN_PT>Vòng bi UC 206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>110800</TONG_TIEN>
+    <TEN_GROUP>THA-02-04 : Tủ hấp gạo 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>217</STT>
+    <MS_PT>CO-VB-145</MS_PT>
+    <TEN_PT>Vòng bi UC 206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>1425000</TONG_TIEN>
+    <TEN_GROUP>THA-02-05 : Tủ hấp gạo 10</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>218</STT>
+    <MS_PT>CO-VB-145</MS_PT>
+    <TEN_PT>Vòng bi UC 206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>226000</TONG_TIEN>
+    <TEN_GROUP>THA-02-09 : Tủ hấp gạo 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>219</STT>
+    <MS_PT>CO-VB-145</MS_PT>
+    <TEN_PT>Vòng bi UC 206</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>1425000</TONG_TIEN>
+    <TEN_GROUP>TUU-02-02 : Tủ ủ lạnh 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>220</STT>
+    <MS_PT>CO-VB-146</MS_PT>
+    <TEN_PT>Vòng bi UC 207</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>125000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-06 : Máy đóng gói màng trong 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>221</STT>
+    <MS_PT>CO-VB-146</MS_PT>
+    <TEN_PT>Vòng bi UC 207</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>250000</TONG_TIEN>
+    <TEN_GROUP>DGN-03-07 : Máy đóng gói màng ngoài 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>222</STT>
+    <MS_PT>CO-VB-146</MS_PT>
+    <TEN_PT>Vòng bi UC 207</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>125000</TONG_TIEN>
+    <TEN_GROUP>THA-02-05 : Tủ hấp gạo 10</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>223</STT>
+    <MS_PT>CO-VB-146</MS_PT>
+    <TEN_PT>Vòng bi UC 207</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>250000</TONG_TIEN>
+    <TEN_GROUP>TSA-01-07 : Tủ sấy lá 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>224</STT>
+    <MS_PT>CO-VB-150</MS_PT>
+    <TEN_PT>Vòng bi UCFC 209</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>395000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-06 : Máy đùn cháo 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>225</STT>
+    <MS_PT>CO-VB-151</MS_PT>
+    <TEN_PT>Vòng bi UCFC 210</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>MDC-01-04 : Máy đùn cháo 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>226</STT>
+    <MS_PT>CO-VB-151</MS_PT>
+    <TEN_PT>Vòng bi UCFC 210</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>792000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-06 : Máy đùn cháo 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>227</STT>
+    <MS_PT>CO-VB-168</MS_PT>
+    <TEN_PT>Vòng bi UCP 205 </TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>THA-02-09 : Tủ hấp gạo 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>228</STT>
+    <MS_PT>CO-VB-169</MS_PT>
+    <TEN_PT>Vòng bi UCP 206 </TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>155000</TONG_TIEN>
+    <TEN_GROUP>THA-02-01 : Tủ hấp gạo 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>229</STT>
+    <MS_PT>CO-VB-173</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi chữ thập 50x20</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>10</SL>
+    <TONG_TIEN>1700000</TONG_TIEN>
+    <TEN_GROUP>TSA-02-06 : Tủ sấy vắt 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>230</STT>
+    <MS_PT>CO-VB-173</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi chữ thập 50x20</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>170000</TONG_TIEN>
+    <TEN_GROUP>TSA-02-07 : Tủ sấy vắt 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>231</STT>
+    <MS_PT>CO-VB-173</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi chữ thập 50x20</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>170000</TONG_TIEN>
+    <TEN_GROUP>TSA-02-08 : Tủ sấy vắt 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>232</STT>
+    <MS_PT>CO-VB-173</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi chữ thập 50x20</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>1020000</TONG_TIEN>
+    <TEN_GROUP>TUU-01-03 : Tủ ủ thường 10</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>233</STT>
+    <MS_PT>CO-VB-173</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi chữ thập 50x20</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>170000</TONG_TIEN>
+    <TEN_GROUP>TUU-01-05 : Tủ ủ thường 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>234</STT>
+    <MS_PT>CO-VB-179</MS_PT>
+    <TEN_PT>Vòng bi FC 204</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>78000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-04 : Máy đóng gói màng co 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>235</STT>
+    <MS_PT>CO-VB-188</MS_PT>
+    <TEN_PT>Vòng bi 6001</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>50000</TONG_TIEN>
+    <TEN_GROUP>DGN-02-03 : Máy đóng gói màng co 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>236</STT>
+    <MS_PT>CO-VB-188</MS_PT>
+    <TEN_PT>Vòng bi 6001</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>100000</TONG_TIEN>
+    <TEN_GROUP>MCT-06-11 : Máy cắt đoạn cháo 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>237</STT>
+    <MS_PT>CO-VB-188</MS_PT>
+    <TEN_PT>Vòng bi 6001</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>50000</TONG_TIEN>
+    <TEN_GROUP>MKL-01-01 : Máy dò kim loại - GV 01</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>238</STT>
+    <MS_PT>CO-VB-189</MS_PT>
+    <TEN_PT>Vòng bi 6005</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>474000</TONG_TIEN>
+    <TEN_GROUP>DGD-09-04 : Máy đóng gói rau nêm 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>239</STT>
+    <MS_PT>CO-VB-190</MS_PT>
+    <TEN_PT>Vòng bi 6201</TEN_PT>
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>44000</TONG_TIEN>
+    <TEN_GROUP>MKL-01-01 : Máy dò kim loại - GV 01</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>240</STT>
+    <MS_PT>CO-VB-191</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi 51105</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>DGD-09-02 : Máy đóng gói rau nêm 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>241</STT>
+    <MS_PT>CO-VB-191</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi 51105</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>68500</TONG_TIEN>
+    <TEN_GROUP>DGD-09-06 : Máy đóng gói rau nêm 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>242</STT>
+    <MS_PT>CO-VB-192</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi 51201</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>DGD-09-02 : Máy đóng gói rau nêm 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>243</STT>
+    <MS_PT>CO-VB-193</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi 51208</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>DGD-09-06 : Máy đóng gói rau nêm 6</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>244</STT>
+    <MS_PT>CO-VB-194</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi 6906</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>DGD-09-02 : Máy đóng gói rau nêm 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>245</STT>
+    <MS_PT>CO-VB-197</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UC 208</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>300000</TONG_TIEN>
+    <TEN_GROUP>THA-02-06 : Tủ hấp gạo 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>246</STT>
+    <MS_PT>CO-VB-197</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UC 208</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>150000</TONG_TIEN>
+    <TEN_GROUP>TSA-01-03 : Tủ sấy lá 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>247</STT>
+    <MS_PT>CO-VB-197</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UC 208</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>150000</TONG_TIEN>
+    <TEN_GROUP>TSA-02-04 : Tủ sấy vắt 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>248</STT>
+    <MS_PT>CO-VB-198</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UC 209</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>334000</TONG_TIEN>
+    <TEN_GROUP>MCT-06-06 : Máy cắt đoạn 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>249</STT>
+    <MS_PT>CO-VB-198</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UC 209</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>167000</TONG_TIEN>
+    <TEN_GROUP>MCT-06-08 : Máy cắt đoạn 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>250</STT>
+    <MS_PT>CO-VB-198</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UC 209</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>186000</TONG_TIEN>
+    <TEN_GROUP>MCT-06-09 : Máy cắt đoạn 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>251</STT>
+    <MS_PT>CO-VB-198</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UC 209</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>167000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-03 : Máy đùn cháo 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>252</STT>
+    <MS_PT>CO-VB-198</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UC 209</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>167000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-04 : Máy đùn cháo 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>253</STT>
+    <MS_PT>CO-VB-198</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UC 209</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>501000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-05 : Máy đùn cháo 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>254</STT>
+    <MS_PT>CO-VB-198</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UC 209</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>334000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-07 : Máy đùn cháo 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>255</STT>
+    <MS_PT>CO-VB-198</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UC 209</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>186000</TONG_TIEN>
+    <TEN_GROUP>TSA-02-06 : Tủ sấy vắt 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>256</STT>
+    <MS_PT>CO-VB-199</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UC 210</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>MDC-01-07 : Máy đùn cháo 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>257</STT>
+    <MS_PT>CO-VB-199</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UC 210</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>0</TONG_TIEN>
+    <TEN_GROUP>TSA-01-01 : Tủ sấy lá 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>258</STT>
+    <MS_PT>CO-VB-217</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi UCP 208</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>534000</TONG_TIEN>
+    <TEN_GROUP>MCT-01-04 : Máy cắt hành lát 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>259</STT>
+    <MS_PT>CO-VB-228</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi 209</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>7</SL>
+    <TONG_TIEN>1260000</TONG_TIEN>
+    <TEN_GROUP>MCT-06-04 : Máy cắt đoạn 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>260</STT>
+    <MS_PT>CO-VB-228</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Vòng bi 209</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>180000</TONG_TIEN>
+    <TEN_GROUP>MDC-01-03 : Máy đùn cháo 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>261</STT>
+    <MS_PT>CT-IN-001</MS_PT>
+    <TEN_PT>Ty inox 304 phi 42</TEN_PT>
+    <TEN_DVT>Cây</TEN_DVT>
+    <SL>100</SL>
+    <TONG_TIEN>14000000</TONG_TIEN>
+    <TEN_GROUP>TSA-01-09 : Tủ sấy lá 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>262</STT>
+    <MS_PT>CT-IN-002</MS_PT>
+    <TEN_PT>Ty inox 201 phi 16</TEN_PT>
+    <TEN_DVT>Cây</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>960320</TONG_TIEN>
+    <TEN_GROUP>TUU-02-02 : Tủ ủ lạnh 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>263</STT>
+    <MS_PT>CT-IN-003</MS_PT>
+    <TEN_PT>Ty inox 201 phi 8</TEN_PT>
+    <TEN_DVT>Cây</TEN_DVT>
+    <SL>21</SL>
+    <TONG_TIEN>2940000</TONG_TIEN>
+    <TEN_GROUP>BTA-02-05 : Băng tải xích inox chuyển cháo</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>264</STT>
+    <MS_PT>CT-IN-004</MS_PT>
+    <TEN_PT>Ty inox 201 phi 10</TEN_PT>
+    <TEN_DVT>Cây</TEN_DVT>
+    <SL>24</SL>
+    <TONG_TIEN>3528000</TONG_TIEN>
+    <TEN_GROUP>TSA-01-01 : Tủ sấy lá 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>265</STT>
+    <MS_PT>CT-IN-004</MS_PT>
+    <TEN_PT>Ty inox 201 phi 10</TEN_PT>
+    <TEN_DVT>Cây</TEN_DVT>
+    <SL>13</SL>
+    <TONG_TIEN>1911000</TONG_TIEN>
+    <TEN_GROUP>TSA-01-03 : Tủ sấy lá 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>266</STT>
+    <MS_PT>CT-IN-005</MS_PT>
+    <TEN_PT>Ty inox 201 phi 12</TEN_PT>
+    <TEN_DVT>Cây</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>240000</TONG_TIEN>
+    <TEN_GROUP>TSA-02-08 : Tủ sấy vắt 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>267</STT>
+    <MS_PT>CT-IN-005</MS_PT>
+    <TEN_PT>Ty inox 201 phi 12</TEN_PT>
+    <TEN_DVT>Cây</TEN_DVT>
+    <SL>5</SL>
+    <TONG_TIEN>1200000</TONG_TIEN>
+    <TEN_GROUP>TUU-01-02 : Tủ ủ thường 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>268</STT>
+    <MS_PT>CT-IN-005</MS_PT>
+    <TEN_PT>Ty inox 201 phi 12</TEN_PT>
+    <TEN_DVT>Cây</TEN_DVT>
+    <SL>28</SL>
+    <TONG_TIEN>6720000</TONG_TIEN>
+    <TEN_GROUP>TUU-01-03 : Tủ ủ thường 10</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>269</STT>
+    <MS_PT>CT-IN-005</MS_PT>
+    <TEN_PT>Ty inox 201 phi 12</TEN_PT>
+    <TEN_DVT>Cây</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>480000</TONG_TIEN>
+    <TEN_GROUP>TUU-01-04 : Tủ ủ thường 11</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>270</STT>
+    <MS_PT>CT-IN-005</MS_PT>
+    <TEN_PT>Ty inox 201 phi 12</TEN_PT>
+    <TEN_DVT>Cây</TEN_DVT>
+    <SL>81</SL>
+    <TONG_TIEN>18720720</TONG_TIEN>
+    <TEN_GROUP>TUU-01-05 : Tủ ủ thường 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>271</STT>
+    <MS_PT>CT-IN-005</MS_PT>
+    <TEN_PT>Ty inox 201 phi 12</TEN_PT>
+    <TEN_DVT>Cây</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>960000</TONG_TIEN>
+    <TEN_GROUP>TUU-02-01 : Tủ ủ lạnh 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>272</STT>
+    <MS_PT>CT-IN-019</MS_PT>
+    <TEN_PT>Phôi inox 304 tròn phi 40</TEN_PT>
+    <TEN_DVT>m</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>670000</TONG_TIEN>
+    <TEN_GROUP>TSA-01-09 : Tủ sấy lá 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>273</STT>
+    <MS_PT>CT-IN-022</MS_PT>
+    <TEN_PT>Ống inox 304 hàn phi 25</TEN_PT>
+    <TEN_DVT>m</TEN_DVT>
+    <SL>12</SL>
+    <TONG_TIEN>540000</TONG_TIEN>
+    <TEN_GROUP>THA-02-01 : Tủ hấp gạo 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>274</STT>
+    <MS_PT>CT-IN-023</MS_PT>
+    <TEN_PT>Ống inox 304 đúc phi 34</TEN_PT>
+    <TEN_DVT>m</TEN_DVT>
+    <SL>50</SL>
+    <TONG_TIEN>10100000</TONG_TIEN>
+    <TEN_GROUP>THA-02-08 : Tủ hấp gạo 14</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>275</STT>
+    <MS_PT>CT-IN-023</MS_PT>
+    <TEN_PT>Ống inox 304 đúc phi 34</TEN_PT>
+    <TEN_DVT>m</TEN_DVT>
+    <SL>42</SL>
+    <TONG_TIEN>8484000</TONG_TIEN>
+    <TEN_GROUP>THA-02-09 : Tủ hấp gạo 15</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>276</STT>
+    <MS_PT>CT-IN-038</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Inox V đúc 80</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>m</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>1515600</TONG_TIEN>
+    <TEN_GROUP>MTR-04-01 : Máy trộn bột gia vị 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>277</STT>
+    <MS_PT>CT-TH-004</MS_PT>
+    <TEN_PT>Thép V đúc 40</TEN_PT>
+    <TEN_DVT>m</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>912000</TONG_TIEN>
+    <TEN_GROUP>THA-02-04 : Tủ hấp gạo 7</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>278</STT>
+    <MS_PT>TH-CD-010</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D30x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>12000</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>279</STT>
+    <MS_PT>TH-CD-010</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D30x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>9</SL>
+    <TONG_TIEN>36000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>280</STT>
+    <MS_PT>TH-CD-010</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D30x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>12000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-05 : Máy đóng gói past ớt 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>281</STT>
+    <MS_PT>TH-CD-091</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D12.5x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>5000</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>282</STT>
+    <MS_PT>TH-CD-091</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D12.5x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>1000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-01 : Máy đóng gói past ớt 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>283</STT>
+    <MS_PT>TH-CD-091</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D12.5x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>11000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-03 : Máy đóng gói past ớt 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>284</STT>
+    <MS_PT>TH-CD-091</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D12.5x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>5000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>285</STT>
+    <MS_PT>TH-CD-091</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D12.5x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>5000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-05 : Máy đóng gói past ớt 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>286</STT>
+    <MS_PT>TH-CD-092</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D16x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>7500</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>287</STT>
+    <MS_PT>TH-CD-092</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D16x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>9000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-03 : Máy đóng gói past ớt 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>288</STT>
+    <MS_PT>TH-CD-092</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D16x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>15000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>289</STT>
+    <MS_PT>TH-CD-093</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D19x1.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>5000</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>290</STT>
+    <MS_PT>TH-CD-093</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D19x1.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>1500</TONG_TIEN>
+    <TEN_GROUP>DGD-08-01 : Máy đóng gói past ớt 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>291</STT>
+    <MS_PT>TH-CD-093</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D19x1.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>16500</TONG_TIEN>
+    <TEN_GROUP>DGD-08-03 : Máy đóng gói past ớt 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>292</STT>
+    <MS_PT>TH-CD-093</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D19x1.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>5000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>293</STT>
+    <MS_PT>TH-CD-093</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D19x1.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>5000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-05 : Máy đóng gói past ớt 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>294</STT>
+    <MS_PT>TH-CD-093</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D19x1.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>15000</TONG_TIEN>
+    <TEN_GROUP>TBC-01-01 : Thiết bị dự phòng PXG</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>295</STT>
+    <MS_PT>TH-CD-094</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D22x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>2500</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>296</STT>
+    <MS_PT>TH-CD-094</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D22x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>4000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-03 : Máy đóng gói past ớt 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>297</STT>
+    <MS_PT>TH-CD-095</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D32x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>6000</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>298</STT>
+    <MS_PT>TH-CD-095</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D32x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>10800</TONG_TIEN>
+    <TEN_GROUP>DGD-08-01 : Máy đóng gói past ớt 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>299</STT>
+    <MS_PT>TH-CD-095</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D32x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>6000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-02 : Máy đóng gói past ớt 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>300</STT>
+    <MS_PT>TH-CD-095</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D32x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>18</SL>
+    <TONG_TIEN>58800</TONG_TIEN>
+    <TEN_GROUP>DGD-08-03 : Máy đóng gói past ớt 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>301</STT>
+    <MS_PT>TH-CD-095</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D32x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>12000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>302</STT>
+    <MS_PT>TH-CD-095</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D32x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>6000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-05 : Máy đóng gói past ớt 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>303</STT>
+    <MS_PT>TH-CD-095</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D32x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>9</SL>
+    <TONG_TIEN>18000</TONG_TIEN>
+    <TEN_GROUP>TBC-01-01 : Thiết bị dự phòng PXG</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>304</STT>
+    <MS_PT>TH-CD-096</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D39.2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>20000</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>305</STT>
+    <MS_PT>TH-CD-096</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D39.2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>3400</TONG_TIEN>
+    <TEN_GROUP>DGD-08-01 : Máy đóng gói past ớt 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>306</STT>
+    <MS_PT>TH-CD-096</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D39.2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>43400</TONG_TIEN>
+    <TEN_GROUP>DGD-08-03 : Máy đóng gói past ớt 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>307</STT>
+    <MS_PT>TH-CD-096</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D39.2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>11</SL>
+    <TONG_TIEN>110000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>308</STT>
+    <MS_PT>TH-CD-096</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D39.2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>20000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-05 : Máy đóng gói past ớt 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>309</STT>
+    <MS_PT>TH-CD-097</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D40x3.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>8000</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>310</STT>
+    <MS_PT>TH-CD-097</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D40x3.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>156000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>311</STT>
+    <MS_PT>TH-CD-097</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D40x3.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>64000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-05 : Máy đóng gói past ớt 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>312</STT>
+    <MS_PT>TH-CD-098</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D40x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>24000</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>313</STT>
+    <MS_PT>TH-CD-098</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D40x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>4000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-01 : Máy đóng gói past ớt 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>314</STT>
+    <MS_PT>TH-CD-098</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D40x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>52000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-03 : Máy đóng gói past ớt 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>315</STT>
+    <MS_PT>TH-CD-098</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D40x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>48000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>316</STT>
+    <MS_PT>TH-CD-098</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D40x2.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>24000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-05 : Máy đóng gói past ớt 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>317</STT>
+    <MS_PT>TH-CD-099</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D42x3.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>2000</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>318</STT>
+    <MS_PT>TH-CD-099</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D42x3.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>2000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-01 : Máy đóng gói past ớt 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>319</STT>
+    <MS_PT>TH-CD-099</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D42x3.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>4000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-03 : Máy đóng gói past ớt 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>320</STT>
+    <MS_PT>TH-CD-099</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D42x3.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>2000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>321</STT>
+    <MS_PT>TH-CD-099</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D42x3.5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>1</SL>
+    <TONG_TIEN>2000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-05 : Máy đóng gói past ớt 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>322</STT>
+    <MS_PT>TH-CD-100</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Ron cao su D43x3</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>84000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>323</STT>
+    <MS_PT>TH-CD-101</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Phốt 31.5x23.5x5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>75000</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>324</STT>
+    <MS_PT>TH-CD-101</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Phốt 31.5x23.5x5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>9</SL>
+    <TONG_TIEN>225000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>325</STT>
+    <MS_PT>TH-CD-101</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Phốt 31.5x23.5x5</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>3</SL>
+    <TONG_TIEN>75000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-05 : Máy đóng gói past ớt 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>326</STT>
+    <MS_PT>TH-CD-102</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Phốt 18x30x7</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>24000</TONG_TIEN>
+    <TEN_GROUP>CTD-01-05 : Cân tự động 12</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>327</STT>
+    <MS_PT>TH-CD-102</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Phốt 18x30x7</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>24000</TONG_TIEN>
+    <TEN_GROUP>DGD-04-01 : Máy đóng gói paste ớt 6 </TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>328</STT>
+    <MS_PT>TH-CD-102</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Phốt 18x30x7</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>4</SL>
+    <TONG_TIEN>48000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-01 : Máy đóng gói past ớt 1</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>329</STT>
+    <MS_PT>TH-CD-102</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Phốt 18x30x7</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>24000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-02 : Máy đóng gói past ớt 2</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>330</STT>
+    <MS_PT>TH-CD-102</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Phốt 18x30x7</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>11</SL>
+    <TONG_TIEN>132000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-03 : Máy đóng gói past ớt 3</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>331</STT>
+    <MS_PT>TH-CD-102</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Phốt 18x30x7</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>72000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-04 : Máy đóng gói past ớt 4</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>332</STT>
+    <MS_PT>TH-CD-102</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Phốt 18x30x7</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>2</SL>
+    <TONG_TIEN>24000</TONG_TIEN>
+    <TEN_GROUP>DGD-08-05 : Máy đóng gói past ớt 5</TEN_GROUP>
+  </DL_VTPT>
+  <DL_VTPT>
+    <STT>333</STT>
+    <MS_PT>TH-CD-102</MS_PT>
+    <MS_PT_CTY />
+    <TEN_PT>Phốt 18x30x7</TEN_PT>
+    <QUY_CACH />
+    <TEN_DVT>Cái</TEN_DVT>
+    <SL>6</SL>
+    <TONG_TIEN>72000</TONG_TIEN>
+    <TEN_GROUP>TBC-01-01 : Thiết bị dự phòng PXG</TEN_GROUP>
+  </DL_VTPT>
+  <TD_VTPT>
+    <TIEU_DE>DANH SÁCH VẬT TƯ PHỤ TÙNG ĐÃ SỬ DỤNG CHO BẢO TRÌ </TIEU_DE>
+    <NGAY>Từ ngày : 01/02/2010 Đến ngày : 19/02/2019</NGAY>
+    <DIA_DIEM>Địa điểm :  &lt; ALL &gt; </DIA_DIEM>
+    <DAY_CHUYEN>Dây chuyền :  &lt; ALL &gt; </DAY_CHUYEN>
+    <LOAI_TB>Loại thiết bị :  &lt; ALL &gt; </LOAI_TB>
+    <MSTB>Mã thiết bị :  &lt; ALL &gt; </MSTB>
+    <STT>STT</STT>
+    <MS_PT>Mã VT PT</MS_PT>
+    <MS_PT_CTY>Item code</MS_PT_CTY>
+    <TEN_PT>Tên</TEN_PT>
+    <QUY_CACH>Quy cách</QUY_CACH>
+    <TEN_DVT>DVT</TEN_DVT>
+    <SL>Số lượng</SL>
+    <DU1>DU1</DU1>
+    <DU2>DU2</DU2>
+    <TONG_TIEN>Tổng tiền</TONG_TIEN>
+  </TD_VTPT>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Cổ Phần Kỹ Nghệ Thực Phẩm Việt Nam
+913 Trường Chinh, Phường Tây Thạnh, Quận Tân Phú, Tp Hồ Chí Minh
+Telephone: 848 38 153 933  Fax: 848 38 151 294</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1000</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngày in19/02/2019</NGAY_IN>
+    <PAGE>Trang</PAGE>
+    <OFPAGE>/</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

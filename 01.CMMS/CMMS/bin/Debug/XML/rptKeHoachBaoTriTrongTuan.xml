@@ -1,0 +1,3858 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rptKE_HOACH_BAO_TRI_TRONG_TUAN">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_N_XUONG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Ten_N_XUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_LOAI_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_MAY" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="288" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MO_TA_CV" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_LOAI_BT" type="xs:int" />
+                <xs:element name="TEN_LOAI_BT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="THU_TU" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_CUOI" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGAY_KE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CHU_KY" type="xs:int" minOccurs="0" />
+                <xs:element name="MS_DV_TG" type="xs:int" minOccurs="0" />
+                <xs:element name="N1" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="N2" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="N3" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="N4" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="N5" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="N6" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="N7" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTieude">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="commons.Modules.TypeLanguage" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayIn" type="xs:string" minOccurs="0" />
+                <xs:element name="TrangIn" type="xs:string" minOccurs="0" />
+                <xs:element name="TieuDe" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="ThietBi" type="xs:string" minOccurs="0" />
+                <xs:element name="CongViec" type="xs:string" minOccurs="0" />
+                <xs:element name="DinhKy" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayTrongTuan" type="xs:string" minOccurs="0" />
+                <xs:element name="DKloc" type="xs:string" minOccurs="0" />
+                <xs:element name="NguoiThucHien" type="xs:string" minOccurs="0" />
+                <xs:element name="N1" type="xs:string" minOccurs="0" />
+                <xs:element name="N2" type="xs:string" minOccurs="0" />
+                <xs:element name="N3" type="xs:string" minOccurs="0" />
+                <xs:element name="N4" type="xs:string" minOccurs="0" />
+                <xs:element name="N5" type="xs:string" minOccurs="0" />
+                <xs:element name="N6" type="xs:string" minOccurs="0" />
+                <xs:element name="N7" type="xs:string" minOccurs="0" />
+                <xs:element name="NhaXuong" type="xs:string" minOccurs="0" />
+                <xs:element name="HeThong" type="xs:string" minOccurs="0" />
+                <xs:element name="TenThietBi" type="xs:string" minOccurs="0" />
+                <xs:element name="NguoiDuyet" type="xs:string" minOccurs="0" />
+                <xs:element name="NguoiGS" type="xs:string" minOccurs="0" />
+                <xs:element name="ketQua" type="xs:string" minOccurs="0" />
+                <xs:element name="NguoiLap" type="xs:string" minOccurs="0" />
+                <xs:element name="NguoiKT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TTC_CAO" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_RONG" type="xs:int" minOccurs="0" />
+                <xs:element name="USER_LOG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_HT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0103</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước cấp 6500 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>HPH</MS_LOAI_MAY>
+    <MS_MAY>HPH-001 - Hệ pha Polymer Anion XLNC</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0103</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước cấp 6500 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>HPH</MS_LOAI_MAY>
+    <MS_MAY>HPH-002 - Hệ pha Polymer Cation XLNC</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0103</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước cấp 6500 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>MEB</MS_LOAI_MAY>
+    <MS_MAY>HEB-001 - Hệ ép bùn xử lý nước cấp 6500m3/h</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0103</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước cấp 6500 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>MEB</MS_LOAI_MAY>
+    <MS_MAY>HEB-001 - Hệ ép bùn xử lý nước cấp 6500m3/h</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0103</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước cấp 6500 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>TBO</MS_LOAI_MAY>
+    <MS_MAY>TBOM-001 - Trạm bơm cấp 1</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0103</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước cấp 6500 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>TBO</MS_LOAI_MAY>
+    <MS_MAY>TBOM-001 - Trạm bơm cấp 1</MS_MAY>
+    <MO_TA_CV>Vệ sinh tủ điện</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0103</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước cấp 6500 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>TBO</MS_LOAI_MAY>
+    <MS_MAY>TBOM-002 - Trạm bơm cấp 2</MS_MAY>
+    <MO_TA_CV>Hiệu chuẩn calip thiết bị đo</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0103</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước cấp 6500 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>TBO</MS_LOAI_MAY>
+    <MS_MAY>TBOM-002 - Trạm bơm cấp 2</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0103</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước cấp 6500 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>TBO</MS_LOAI_MAY>
+    <MS_MAY>TBOM-002 - Trạm bơm cấp 2</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>BCH</MS_LOAI_MAY>
+    <MS_MAY>BCH-003 - Bể hố gom nước thải </MS_MAY>
+    <MO_TA_CV>Vệ sinh tủ điện</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>BCH</MS_LOAI_MAY>
+    <MS_MAY>BCH-005 - Bể tuyển nổi</MS_MAY>
+    <MO_TA_CV>Kiểm tra, tăng đơ dây curoa </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>BCH</MS_LOAI_MAY>
+    <MS_MAY>BCH-005 - Bể tuyển nổi</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>BCH</MS_LOAI_MAY>
+    <MS_MAY>BCH-005 - Bể tuyển nổi</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>BCH</MS_LOAI_MAY>
+    <MS_MAY>BCH-005 - Bể tuyển nổi</MS_MAY>
+    <MO_TA_CV>Tra mỡ bò xích tải</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>BCH</MS_LOAI_MAY>
+    <MS_MAY>BCH-005 - Bể tuyển nổi</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc gió</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>BCH</MS_LOAI_MAY>
+    <MS_MAY>BCH-007 - Bể lắng sinh học </MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>BCH</MS_LOAI_MAY>
+    <MS_MAY>BCH-008 - Bể lắng hoá lý </MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>BCH</MS_LOAI_MAY>
+    <MS_MAY>BCH-009 - Bể nén bùn </MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>BCH</MS_LOAI_MAY>
+    <MS_MAY>BCH-009 - Bể nén bùn </MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>HPH</MS_LOAI_MAY>
+    <MS_MAY>HPH-003 - Hệ pha Polymer Cation XLNT</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>MEB</MS_LOAI_MAY>
+    <MS_MAY>HEB-002 - Hệ ép bùn xử lý nước thải 01 </MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>MEB</MS_LOAI_MAY>
+    <MS_MAY>HEB-002 - Hệ ép bùn xử lý nước thải 01 </MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>MEB</MS_LOAI_MAY>
+    <MS_MAY>HEB-003 - Hệ ép bùn xử lý nước thải 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>MEB</MS_LOAI_MAY>
+    <MS_MAY>HEB-003 - Hệ ép bùn xử lý nước thải 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>MEB</MS_LOAI_MAY>
+    <MS_MAY>HEB-003 - Hệ ép bùn xử lý nước thải 02</MS_MAY>
+    <MO_TA_CV>Vệ sinh tủ điện</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>THC</MS_LOAI_MAY>
+    <MS_MAY>HHC-001 - Hệ trích hóa chất keo tụ hóa lý 1 XLNT</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>THC</MS_LOAI_MAY>
+    <MS_MAY>HHC-002 - Hệ trích hóa chất keo tụ hóa lý 2 XLNT</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0104</MS_N_XUONG>
+    <Ten_N_XUONG>Khu xử lý nước thải 2800 m3/ngày đêm</Ten_N_XUONG>
+    <MS_LOAI_MAY>THC</MS_LOAI_MAY>
+    <MS_MAY>HHC-003 - Hệ trích hóa chất khử trùng XLNT</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>HKN</MS_LOAI_MAY>
+    <MS_MAY>HKN-001 - Hệ thống khí nén 01</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>HKN</MS_LOAI_MAY>
+    <MS_MAY>HKN-001 - Hệ thống khí nén 01</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể quạt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>HKN</MS_LOAI_MAY>
+    <MS_MAY>HKN-001 - Hệ thống khí nén 01</MS_MAY>
+    <MO_TA_CV>Thay lọc gió </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>HKN</MS_LOAI_MAY>
+    <MS_MAY>HKN-001 - Hệ thống khí nén 01</MS_MAY>
+    <MO_TA_CV>Vệ sinh dàn trao đổi nhiệt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>HKN</MS_LOAI_MAY>
+    <MS_MAY>HKN-001 - Hệ thống khí nén 01</MS_MAY>
+    <MO_TA_CV>Vệ sinh máy nén khí</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>HKN</MS_LOAI_MAY>
+    <MS_MAY>HKN-001 - Hệ thống khí nén 01</MS_MAY>
+    <MO_TA_CV>Vệ sinh tủ điện</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>HKN</MS_LOAI_MAY>
+    <MS_MAY>HKN-002 - Hệ thống khí nén 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể máy sấy khí</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>HKN</MS_LOAI_MAY>
+    <MS_MAY>HKN-002 - Hệ thống khí nén 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>HKN</MS_LOAI_MAY>
+    <MS_MAY>HKN-002 - Hệ thống khí nén 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể quạt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>HKN</MS_LOAI_MAY>
+    <MS_MAY>HKN-002 - Hệ thống khí nén 02</MS_MAY>
+    <MO_TA_CV>Thay lọc gió </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>HKN</MS_LOAI_MAY>
+    <MS_MAY>HKN-002 - Hệ thống khí nén 02</MS_MAY>
+    <MO_TA_CV>Vệ sinh dàn trao đổi nhiệt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>HKN</MS_LOAI_MAY>
+    <MS_MAY>HKN-002 - Hệ thống khí nén 02</MS_MAY>
+    <MO_TA_CV>Vệ sinh máy nén khí</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>HKN</MS_LOAI_MAY>
+    <MS_MAY>HKN-002 - Hệ thống khí nén 02</MS_MAY>
+    <MO_TA_CV>Vệ sinh tủ điện</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MPT</MS_LOAI_MAY>
+    <MS_MAY>MNL-007 - Máy nén lạnh Piston 01-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Bơm mỡ bò ổ đỡ</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MPT</MS_LOAI_MAY>
+    <MS_MAY>MNL-007 - Máy nén lạnh Piston 01-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Kiểm tra, tăng đơ dây curoa </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MPT</MS_LOAI_MAY>
+    <MS_MAY>MNL-007 - Máy nén lạnh Piston 01-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-001 - Máy nén lạnh trục vít 01-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Bơm mỡ bò ổ đỡ</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-001 - Máy nén lạnh trục vít 01-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bô điều khiển</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-001 - Máy nén lạnh trục vít 01-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-001 - Máy nén lạnh trục vít 01-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc gas byppass</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-001 - Máy nén lạnh trục vít 01-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc gas hồi nhớt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-001 - Máy nén lạnh trục vít 01-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc nhớt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-002 - Máy nén lạnh trục vít 02-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Bơm mỡ bò ổ đỡ</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-002 - Máy nén lạnh trục vít 02-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bô điều khiển</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-002 - Máy nén lạnh trục vít 02-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-002 - Máy nén lạnh trục vít 02-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc gas byppass</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-002 - Máy nén lạnh trục vít 02-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc gas hồi nhớt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-002 - Máy nén lạnh trục vít 02-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc nhớt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-003 - Máy nén lạnh trục vít 03-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Bơm mỡ bò ổ đỡ</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-003 - Máy nén lạnh trục vít 03-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bô điều khiển</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-003 - Máy nén lạnh trục vít 03-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-003 - Máy nén lạnh trục vít 03-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc gas byppass</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-003 - Máy nén lạnh trục vít 03-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc gas hồi nhớt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-003 - Máy nén lạnh trục vít 03-Kho lạnh</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc nhớt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-004 - Máy nén lạnh trục vít 01-Chiller</MS_MAY>
+    <MO_TA_CV>Bơm mỡ bò ổ đỡ</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-004 - Máy nén lạnh trục vít 01-Chiller</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bô điều khiển</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-004 - Máy nén lạnh trục vít 01-Chiller</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-004 - Máy nén lạnh trục vít 01-Chiller</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc gas byppass</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-004 - Máy nén lạnh trục vít 01-Chiller</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc gas hồi nhớt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-004 - Máy nén lạnh trục vít 01-Chiller</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc nhớt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-005 - Máy nén lạnh trục vít 02-Chiller</MS_MAY>
+    <MO_TA_CV>Bơm mỡ bò ổ đỡ</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-005 - Máy nén lạnh trục vít 02-Chiller</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bô điều khiển</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-005 - Máy nén lạnh trục vít 02-Chiller</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-005 - Máy nén lạnh trục vít 02-Chiller</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc gas byppass</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-005 - Máy nén lạnh trục vít 02-Chiller</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc gas hồi nhớt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-005 - Máy nén lạnh trục vít 02-Chiller</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc nhớt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-006 - Máy nén lạnh trục vít 03-Chiller</MS_MAY>
+    <MO_TA_CV>Bơm mỡ bò ổ đỡ</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-006 - Máy nén lạnh trục vít 03-Chiller</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bô điều khiển</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-006 - Máy nén lạnh trục vít 03-Chiller</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-006 - Máy nén lạnh trục vít 03-Chiller</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc gas byppass</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-006 - Máy nén lạnh trục vít 03-Chiller</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc gas hồi nhớt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0105</MS_N_XUONG>
+    <Ten_N_XUONG>Hệ thống lạnh</Ten_N_XUONG>
+    <MS_LOAI_MAY>MTV</MS_LOAI_MAY>
+    <MS_MAY>MNL-006 - Máy nén lạnh trục vít 03-Chiller</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc nhớt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-001 - FCU DHKK 01</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể quạt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-001 - FCU DHKK 01</MS_MAY>
+    <MO_TA_CV>Thông đường nước ngưng</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-001 - FCU DHKK 01</MS_MAY>
+    <MO_TA_CV>Vệ sinh dàn trao đổi nhiệt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-002 - FCU DHKK 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể quạt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-002 - FCU DHKK 02</MS_MAY>
+    <MO_TA_CV>Thông đường nước ngưng</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-002 - FCU DHKK 02</MS_MAY>
+    <MO_TA_CV>Vệ sinh dàn trao đổi nhiệt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-005 - FCU DHKK 05</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể quạt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-005 - FCU DHKK 05</MS_MAY>
+    <MO_TA_CV>Thông đường nước ngưng</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-005 - FCU DHKK 05</MS_MAY>
+    <MO_TA_CV>Vệ sinh dàn trao đổi nhiệt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-006 - FCU DHKK 06</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể quạt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-006 - FCU DHKK 06</MS_MAY>
+    <MO_TA_CV>Thông đường nước ngưng</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-006 - FCU DHKK 06</MS_MAY>
+    <MO_TA_CV>Vệ sinh dàn trao đổi nhiệt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-007 - FCU DHKK 07</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể quạt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-007 - FCU DHKK 07</MS_MAY>
+    <MO_TA_CV>Thông đường nước ngưng</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-007 - FCU DHKK 07</MS_MAY>
+    <MO_TA_CV>Vệ sinh dàn trao đổi nhiệt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-19T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-19T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5>X</N5>
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>HTS</MS_LOAI_MAY>
+    <MS_MAY>HSBT-001 - Hệ thống sấy băng tải gellatin 01</MS_MAY>
+    <MO_TA_CV>Kiểm tra, tăng đơ băng tải</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>HTS</MS_LOAI_MAY>
+    <MS_MAY>HSBT-001 - Hệ thống sấy băng tải gellatin 01</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>HTS</MS_LOAI_MAY>
+    <MS_MAY>HSBT-001 - Hệ thống sấy băng tải gellatin 01</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể quạt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>HTS</MS_LOAI_MAY>
+    <MS_MAY>HSBT-001 - Hệ thống sấy băng tải gellatin 01</MS_MAY>
+    <MO_TA_CV>Thay lọc F8 </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>HTS</MS_LOAI_MAY>
+    <MS_MAY>HSBT-001 - Hệ thống sấy băng tải gellatin 01</MS_MAY>
+    <MO_TA_CV>Thay lọc G4 </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>HTS</MS_LOAI_MAY>
+    <MS_MAY>HSBT-001 - Hệ thống sấy băng tải gellatin 01</MS_MAY>
+    <MO_TA_CV>Vệ sinh dàn trao đổi nhiệt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>HTS</MS_LOAI_MAY>
+    <MS_MAY>HSBT-002 - Hệ thống sấy băng tải gellatin 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra, tăng đơ băng tải</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>HTS</MS_LOAI_MAY>
+    <MS_MAY>HSBT-002 - Hệ thống sấy băng tải gellatin 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>HTS</MS_LOAI_MAY>
+    <MS_MAY>HSBT-002 - Hệ thống sấy băng tải gellatin 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể quạt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>HTS</MS_LOAI_MAY>
+    <MS_MAY>HSBT-002 - Hệ thống sấy băng tải gellatin 02</MS_MAY>
+    <MO_TA_CV>Thay lọc F8 </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>HTS</MS_LOAI_MAY>
+    <MS_MAY>HSBT-002 - Hệ thống sấy băng tải gellatin 02</MS_MAY>
+    <MO_TA_CV>Thay lọc G4 </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0107</MS_N_XUONG>
+    <Ten_N_XUONG>Khu sấy băng tải</Ten_N_XUONG>
+    <MS_LOAI_MAY>HTS</MS_LOAI_MAY>
+    <MS_MAY>HSBT-002 - Hệ thống sấy băng tải gellatin 02</MS_MAY>
+    <MO_TA_CV>Vệ sinh dàn trao đổi nhiệt</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-18T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-18T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4>X</N4>
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0108</MS_N_XUONG>
+    <Ten_N_XUONG>Kho thành phẩm</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-003 - FCU DHKK 03</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể quạt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0108</MS_N_XUONG>
+    <Ten_N_XUONG>Kho thành phẩm</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-003 - FCU DHKK 03</MS_MAY>
+    <MO_TA_CV>Thông đường nước ngưng</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0108</MS_N_XUONG>
+    <Ten_N_XUONG>Kho thành phẩm</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-003 - FCU DHKK 03</MS_MAY>
+    <MO_TA_CV>Vệ sinh dàn trao đổi nhiệt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0108</MS_N_XUONG>
+    <Ten_N_XUONG>Kho thành phẩm</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-004 - FCU DHKK 04</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể quạt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0108</MS_N_XUONG>
+    <Ten_N_XUONG>Kho thành phẩm</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-004 - FCU DHKK 04</MS_MAY>
+    <MO_TA_CV>Thông đường nước ngưng</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0108</MS_N_XUONG>
+    <Ten_N_XUONG>Kho thành phẩm</Ten_N_XUONG>
+    <MS_LOAI_MAY>FCU</MS_LOAI_MAY>
+    <MS_MAY>FCU-004 - FCU DHKK 04</MS_MAY>
+    <MO_TA_CV>Vệ sinh dàn trao đổi nhiệt</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-17T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-17T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3>X</N3>
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0112</MS_N_XUONG>
+    <Ten_N_XUONG>Phòng máy</Ten_N_XUONG>
+    <MS_LOAI_MAY>MPD</MS_LOAI_MAY>
+    <MS_MAY>MPD-001 - Máy phát điện 01</MS_MAY>
+    <MO_TA_CV>Vệ sinh bên ngoài bình acquy</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0112</MS_N_XUONG>
+    <Ten_N_XUONG>Phòng máy</Ten_N_XUONG>
+    <MS_LOAI_MAY>MPD</MS_LOAI_MAY>
+    <MS_MAY>MPD-001 - Máy phát điện 01</MS_MAY>
+    <MO_TA_CV>Vệ sinh đầu máy phát</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0112</MS_N_XUONG>
+    <Ten_N_XUONG>Phòng máy</Ten_N_XUONG>
+    <MS_LOAI_MAY>MPD</MS_LOAI_MAY>
+    <MS_MAY>MPD-001 - Máy phát điện 01</MS_MAY>
+    <MO_TA_CV>Vệ sinh lọc khí</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0112</MS_N_XUONG>
+    <Ten_N_XUONG>Phòng máy</Ten_N_XUONG>
+    <MS_LOAI_MAY>MPD</MS_LOAI_MAY>
+    <MS_MAY>MPD-001 - Máy phát điện 01</MS_MAY>
+    <MO_TA_CV>Vệ sinh tổng thể máy phát điên</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-001 - Bồn xử lý hệ Collagen</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng khớp nối</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-001 - Bồn xử lý hệ Collagen</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng khớp nối</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-001 - Bồn xử lý hệ Collagen</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng vỏ bơm vít</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-001 - Bồn xử lý hệ Collagen</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng vỏ bơm vít</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-001 - Bồn xử lý hệ Collagen</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-001 - Bồn xử lý hệ Collagen</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-002 - Bồn xử lý hệ Gellatin</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng khớp nối</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-002 - Bồn xử lý hệ Gellatin</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng khớp nối</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-002 - Bồn xử lý hệ Gellatin</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng vỏ bơm vít</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-002 - Bồn xử lý hệ Gellatin</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng vỏ bơm vít</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-002 - Bồn xử lý hệ Gellatin</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-002 - Bồn xử lý hệ Gellatin</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>HBT</MS_LOAI_MAY>
+    <MS_MAY>HBT-001 - Hệ băng tải da</MS_MAY>
+    <MO_TA_CV>Bơm mỡ bò ổ đỡ</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>HBT</MS_LOAI_MAY>
+    <MS_MAY>HBT-001 - Hệ băng tải da</MS_MAY>
+    <MO_TA_CV>Kiểm tra, tăng đơ băng tải da</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>HBT</MS_LOAI_MAY>
+    <MS_MAY>HBT-001 - Hệ băng tải da</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>HBT</MS_LOAI_MAY>
+    <MS_MAY>HBT-002 - Hệ băng tải da trung gian</MS_MAY>
+    <MO_TA_CV>Bơm mỡ bò ổ đỡ</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>HBT</MS_LOAI_MAY>
+    <MS_MAY>HBT-002 - Hệ băng tải da trung gian</MS_MAY>
+    <MO_TA_CV>Kiểm tra, tăng đơ băng tải da</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>HBT</MS_LOAI_MAY>
+    <MS_MAY>HBT-002 - Hệ băng tải da trung gian</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>HBT</MS_LOAI_MAY>
+    <MS_MAY>HBT-002 - Hệ băng tải da trung gian</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0113</MS_N_XUONG>
+    <Ten_N_XUONG>Khu tiếp nhận nguyên liệu</Ten_N_XUONG>
+    <MS_LOAI_MAY>HBT</MS_LOAI_MAY>
+    <MS_MAY>HBT-002 - Hệ băng tải da trung gian</MS_MAY>
+    <MO_TA_CV>Vệ sinh tủ điện</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-003 - Bồn trích ly hệ Collagen</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-003 - Bồn trích ly hệ Collagen</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-004 - Bồn trích ly hệ Gellatin</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>BON</MS_LOAI_MAY>
+    <MS_MAY>BON-004 - Bồn trích ly hệ Gellatin</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-001 - Hệ thống lọc khung bảng 01</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng khớp nối</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-14T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-14T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7>X</N7>
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-001 - Hệ thống lọc khung bảng 01</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng khớp nối</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-001 - Hệ thống lọc khung bảng 01</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng vỏ bơm vít</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-14T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-14T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7>X</N7>
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-001 - Hệ thống lọc khung bảng 01</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng vỏ bơm vít</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-001 - Hệ thống lọc khung bảng 01</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-14T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-14T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7>X</N7>
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-001 - Hệ thống lọc khung bảng 01</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-001 - Hệ thống lọc khung bảng 01</MS_MAY>
+    <MO_TA_CV>Vệ sinh tủ điện</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-002 - Hệ thống lọc khung bảng 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng khớp nối</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-14T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-14T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7>X</N7>
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-002 - Hệ thống lọc khung bảng 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng khớp nối</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-002 - Hệ thống lọc khung bảng 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng vỏ bơm vít</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-14T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-14T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7>X</N7>
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-002 - Hệ thống lọc khung bảng 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng vỏ bơm vít</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-002 - Hệ thống lọc khung bảng 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-14T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-14T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7>X</N7>
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-002 - Hệ thống lọc khung bảng 02</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-002 - Hệ thống lọc khung bảng 02</MS_MAY>
+    <MO_TA_CV>Vệ sinh tủ điện</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-003 - Hệ thống lọc khung bảng 03</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng khớp nối</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-003 - Hệ thống lọc khung bảng 03</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng khớp nối</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-003 - Hệ thống lọc khung bảng 03</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng vỏ bơm vít</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-003 - Hệ thống lọc khung bảng 03</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng vỏ bơm vít</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-003 - Hệ thống lọc khung bảng 03</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-003 - Hệ thống lọc khung bảng 03</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-003 - Hệ thống lọc khung bảng 03</MS_MAY>
+    <MO_TA_CV>Vệ sinh tủ điện</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-004 - Hệ thống lọc khung bảng 04</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng khớp nối</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-004 - Hệ thống lọc khung bảng 04</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng khớp nối</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-004 - Hệ thống lọc khung bảng 04</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng vỏ bơm vít</MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-004 - Hệ thống lọc khung bảng 04</MS_MAY>
+    <MO_TA_CV>Kiểm tra tình trạng vỏ bơm vít</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-004 - Hệ thống lọc khung bảng 04</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>30</MS_LOAI_BT>
+    <TEN_LOAI_BT>1 tháng </TEN_LOAI_BT>
+    <THU_TU>1</THU_TU>
+    <NGAY_CUOI>2021-03-16T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-16T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>1</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2>X</N2>
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-004 - Hệ thống lọc khung bảng 04</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể motor </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LKB</MS_LOAI_MAY>
+    <MS_MAY>LKB-004 - Hệ thống lọc khung bảng 04</MS_MAY>
+    <MO_TA_CV>Vệ sinh tủ điện</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-15T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-15T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1>X</N1>
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LNF</MS_LOAI_MAY>
+    <MS_MAY>HNF-001 - Hệ thống lọc NF </MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-14T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-14T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7>X</N7>
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0114</MS_N_XUONG>
+    <Ten_N_XUONG>Khu trích ly</Ten_N_XUONG>
+    <MS_LOAI_MAY>LNF</MS_LOAI_MAY>
+    <MS_MAY>HNF-001 - Hệ thống lọc NF </MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm định lượng</MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-14T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-14T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6 />
+    <N7>X</N7>
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+    <MS_N_XUONG>0115</MS_N_XUONG>
+    <Ten_N_XUONG>Khu cô màng-cô nhiệt</Ten_N_XUONG>
+    <MS_LOAI_MAY>HCN</MS_LOAI_MAY>
+    <MS_MAY>HCN-002 - Hệ cô nhiệt tiệc trùng Collagen</MS_MAY>
+    <MO_TA_CV>Kiểm tra, vệ sinh tổng thể bơm </MO_TA_CV>
+    <MS_LOAI_BT>31</MS_LOAI_BT>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <THU_TU>2</THU_TU>
+    <NGAY_CUOI>2021-03-20T00:00:00+07:00</NGAY_CUOI>
+    <NGAY_KE>2021-03-20T00:00:00+07:00</NGAY_KE>
+    <CHU_KY>3</CHU_KY>
+    <MS_DV_TG>3</MS_DV_TG>
+    <N1 />
+    <N2 />
+    <N3 />
+    <N4 />
+    <N5 />
+    <N6>X</N6>
+    <N7 />
+  </rptKE_HOACH_BAO_TRI_TRONG_TUAN>
+  <rptTieude>
+    <commons.Modules.TypeLanguage>Ngày in</commons.Modules.TypeLanguage>
+    <NgayIn>Ngày in</NgayIn>
+    <TrangIn>Trang in</TrangIn>
+    <TieuDe>KẾ HOẠCH BẢO TRÌ TRONG TUẦN</TieuDe>
+    <STT>STT</STT>
+    <ThietBi>Thiết bị</ThietBi>
+    <CongViec>Nội dung công việc</CongViec>
+    <DinhKy>Định kỳ</DinhKy>
+    <NgayTrongTuan>Ngày trong tuần</NgayTrongTuan>
+    <DKloc>Từ ngày: 14/03/2021 Đến ngày: 20/03/2021</DKloc>
+    <NguoiThucHien>Thực hiện bởi</NguoiThucHien>
+    <N1>N1</N1>
+    <N2>N2</N2>
+    <N3>N3</N3>
+    <N4>N4</N4>
+    <N5>N5</N5>
+    <N6>N6</N6>
+    <N7>N7</N7>
+    <NhaXuong>Địa điểm: &lt; ALL &gt;</NhaXuong>
+    <HeThong>Dây chuyền</HeThong>
+    <TenThietBi>Thiết bị</TenThietBi>
+    <NguoiDuyet>Duyệt</NguoiDuyet>
+    <NguoiGS>Người giám sát</NguoiGS>
+    <ketQua>Kết quả:</ketQua>
+    <NguoiLap>Người lập</NguoiLap>
+    <NguoiKT>PKTCN</NguoiKT>
+  </rptTieude>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty TNHH MTV Vĩnh Hoàn Collagen
+Số 1647, Quốc Lộ 30, Phường 11, Thành Phố Cao Lãnh, Tỉnh Đồng Tháp, Việt Nam
+Telephone: (84.67) 3567888  Fax: (84.67) 3890876</THONG_TIN_CTY>
+    <LOGO>/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAArAGoDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAYDBAUCAQf/xAA7EAABAwMBAwgGCAcAAAAAAAABAgMEAAURIQYSMQcTQVFxkaGxIlJhc4HBFBUmMjRCQ9E1N2JydIKi/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAEDBQIE/8QAKBEAAQMDAwQCAgMAAAAAAAAAAQACEQMSIQQxQVFhgbETFHHRBSKR/9oADAMBAAIRAxEAPwBz2LzYeUa/WJWUtPZeZT7Acj/lXhWXFBvd222vxyppmM7HZPwxp/qnxq9ykl7Z/ai17SRUjeU2thfRk4IGfgo91W9nrZ9Xcj81xYw7LjOyFk8dQceAHfWvcLRW5dA/fpZAabzR4bJ/XtJ9yClckthAzkzXAO9Vbs7aBy9cklwYl7wuEBTbEhKvvaLGFHtHiDWHP/lRs9/nr81Vp8plnftTyrrD9GJdG0tS0gac4MEH447weurw1zmtO9xI8HZQlzWucNrQD5G68vEhuK5yfvvuBtltpC1rUdEgFGSa0OU3aSz3fZpli3XFiQ8mSlZQ2rJxuq18RWZfIrM4bAxJCSpl5lDa0g4yklAOtWOUTY2ybPbPNS7dHW28qQlsqU6pXokKPA9grhnx307pnMdNyu3mpZUtiMT/AIF9YhfgI/uk+QqeoIX4CP7pPkKnrFO62hsiiiikmiiiihCKKKKEKhMg2u+R+Zlsx5jKFb26sBQSamMeG7b1RS20qJzfNlvTc3cYx2YpehO/Vz17a4BAK0+OPMVXtr6olmubK/RUEBQH9wx+1eAfyB/qHDr4ifcKciZha67Rs2u3MQ1xYJhtLK2mzjcSrpI9utXJLVru0cwZAjSmVYyyohQOPZSxLYbZtdoQ6MIUVKWR1EjPhWvZ4loMtT0Bxxbjadd4nAB+FFPXVqlQNMcc5yJMJADaArabRZZRirTEiumDgRyADzOOGOrgKmucK2XJtuJcmY76SreQ09g5PDIHxrM2U/Dy/e/Ki7j7R2vt+dVGsf8AC2tzPswnDbdt1v8AoMtflQ2gdgAFDbiHUBba0rQfzJORVW6/wmX7pXlWBs5LXGWIjujchJWyejPAjwoqan46zaZGDyuiYMJlEqOWy4H29wHBVvDANcidEJAEpkk/1ilJkfZabp+uPlVi2w7JIXHQHHTKIBKcnG8NT0V5m657i0ADInJ7wlcUzyJceKAX3kN54bxxmu23m3mw424laD+ZJyKU7kY6dpXDc0rUwUjcx1Y8uNXXIsdjZyWbY4pxDh3iQckDOo7qo3VuLn4ENnnOO3dFy2W7hDed5puS0pz1QoZqzSjaWbNJ+ipKlty0KCiCdFkdA6KbqtpazqrbnR4KbTKT7+0tu9KQjQS0JSfbrj5V5tAypi4hpvRMlpCMdeDj9qcClJIJAJHA4oKUkgkAkcMjhXnqaC6/O5n8dfZSLEs7SBuObalYy22SCOsDFWLZdrWqWGIcVTTjumQkAHGuutbykpV95IPaK8DaAchCQesCqfWeKxqNIgxx43TtMylCzXmNbG5CHkuKK3MjcANSXK5suz7ZcEhfNDJweOisU18036ie6jm0EAbicDhpUho6wp/HeIG2O8pWmIWC9fotxhyo7SHAvmFqyoDGg7arNwlStl4zzOfpEcqW2Rx4nIpnDaBwQkdHCvQAkYAAHUKr9VzzNV04jaE7Z3SUwrOysw5/XHyq1Bu9oioYP0RQkISAXAgceBOc01bicEbowejFHNN+onuqTdFUYQWuGBGR3StIWBPvEEy3olwhqLaPuKKck/t21Ss8ly326dMQwtbJWAhPzPwxrTWtptwAOISrHrDNdAADAAAHRVDpajql5dtMYznr+EWmZSZMkwZ8mKbfHU3JU4N7AwPDzpzQCEJCjlWNT7a5Qy2hRUhtKSeJAxXdU02ndSLnOOT0EBNohf/Z</LOGO>
+    <LE_TRAI_LOGO>400</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>200</LE_TREN_LOGO>
+    <WIDTH>2100</WIDTH>
+    <HEIGHT>800</HEIGHT>
+    <NGAY_IN>Ngày in: : 22/03/2021</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+    <TTC_CAO>700</TTC_CAO>
+    <TTC_RONG>7000</TTC_RONG>
+    <USER_LOG>User : admin</USER_LOG>
+    <NGAY_HT>Ngày : 22/03/2021</NGAY_HT>
+  </rptTitlereport>
+</NewDataSet>

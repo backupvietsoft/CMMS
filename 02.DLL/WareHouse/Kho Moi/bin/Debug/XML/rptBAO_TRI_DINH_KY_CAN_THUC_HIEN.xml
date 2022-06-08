@@ -1,0 +1,526 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BAO_TRI_DINH_KY_CAN_THUC_HIEN">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_BT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_HC_CUOI" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CHU_KY" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="31" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_KE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Ten_N_XUONG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_HE_THONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_NHOM_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_BAO_TRI_DINH_KY_CAN_THUC_HIEN">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="TU_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DEN_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DieuKienLoc" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayChuanCuoi" type="xs:string" minOccurs="0" />
+                <xs:element name="ChuKy" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayChuanKeTiep" type="xs:string" minOccurs="0" />
+                <xs:element name="TenNhaXuong" type="xs:string" minOccurs="0" />
+                <xs:element name="TenNhomMay" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>023</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 023</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-24T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-24T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#1</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#1</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy gò gót giày</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>024</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  024</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-24T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-24T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#2</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#2</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy gò gót giày</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>025</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  025</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-24T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-24T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#3</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#3</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy gò gót giày</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>026</MS_MAY>
+    <TEN_MAY>Máy gò gót giày 026</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-24T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-24T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#8</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#8</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy gò gót giày</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>052</MS_MAY>
+    <TEN_MAY>Băng tải sấy đế giày 052</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-14T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-14T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#21</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#21</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Băng tải sấy đế giày</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>053</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingteel EVA 053</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-14T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-14T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#21</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#21</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Kingteel EVA</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>057</MS_MAY>
+    <TEN_MAY>Máy cắt dập FiPi AF510H</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-03T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-03T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>Tổ cắt</Ten_N_XUONG>
+    <TEN_HE_THONG>Cutting</TEN_HE_THONG>
+    <TEN_NHOM_MAY>FIPI</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>058</MS_MAY>
+    <TEN_MAY>Máy cắt dập ATOM HPS 588</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-03T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-03T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>Tổ cắt</Ten_N_XUONG>
+    <TEN_HE_THONG>Cutting</TEN_HE_THONG>
+    <TEN_NHOM_MAY>ATOM</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>062</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLEXCUT 3015S</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-16T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-16T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>Tổ cắt</Ten_N_XUONG>
+    <TEN_HE_THONG>Cutting</TEN_HE_THONG>
+    <TEN_NHOM_MAY>ATOM FLEXCUT</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>063</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLASHCUT 30155HD</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-16T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-16T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>Tổ cắt</Ten_N_XUONG>
+    <TEN_HE_THONG>Cutting</TEN_HE_THONG>
+    <TEN_NHOM_MAY>ATOM FLASHCUT</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>064</MS_MAY>
+    <TEN_MAY>Máy ép nóng lạnh YUAN YI (1) 064</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-10-12T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-12T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#19</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#19</TEN_HE_THONG>
+    <TEN_NHOM_MAY>YUAN YI </TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>065</MS_MAY>
+    <TEN_MAY>Máy ép nóng lạnh YUAN YI (2) 065</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-10-12T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-12T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#18</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#18</TEN_HE_THONG>
+    <TEN_NHOM_MAY>YUAN YI </TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>066</MS_MAY>
+    <TEN_MAY>Tủ sấy nóng YUANYI 066</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-10T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-10T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#19</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#19</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy sấy nóng dùng hộc  Yuani</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>067</MS_MAY>
+    <TEN_MAY>Tủ sấy nóng YUANYI 067</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-10T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-10T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#18</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#18</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy sấy nóng dùng hộc  Yuani</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>091</MS_MAY>
+    <TEN_MAY>Bơm PCCC điện</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-30T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-29T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>PCCC</Ten_N_XUONG>
+    <TEN_HE_THONG>No-line</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy bơm PCCC điện</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>094</MS_MAY>
+    <TEN_MAY>Máy Bơm PCCC dầu</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-30T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-29T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>PCCC</Ten_N_XUONG>
+    <TEN_HE_THONG>No-line</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy Bơm PCCC dầu</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>098</MS_MAY>
+    <TEN_MAY>Máy sấy khô -KAESER 098</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-18T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-18T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>Phòng phân phối</Ten_N_XUONG>
+    <TEN_HE_THONG>No-line</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy sấy khô KAESER</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC 099</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-11T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-11T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#26</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#26</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Kingsteel  PVC</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>102</MS_MAY>
+    <TEN_MAY>Máy sấy khô KAESER 102</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-18T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-18T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>Phòng phân phối</Ten_N_XUONG>
+    <TEN_HE_THONG>No-line</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy sấy khô KAESER</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>116</MS_MAY>
+    <TEN_MAY>Máy bơm PCCC xăng</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-30T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-29T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>PCCC</Ten_N_XUONG>
+    <TEN_HE_THONG>No-line</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy Bơm PCCC dầu</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>154</MS_MAY>
+    <TEN_MAY>Máy ép nóng lạnh YUANYI (3) 154</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-10-12T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-12T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#19</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#19</TEN_HE_THONG>
+    <TEN_NHOM_MAY>YUAN YI </TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>155</MS_MAY>
+    <TEN_MAY>Máy  ép nóng lạnh YUANYI 155</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-10-12T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-12T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#19</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#19</TEN_HE_THONG>
+    <TEN_NHOM_MAY>YUAN YI </TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>156</MS_MAY>
+    <TEN_MAY>Máy tủ sấy nóng YUANYI (3) 156</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-10T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-10T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#19</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#19</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy sấy nóng dùng hộc  Yuani</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>159</MS_MAY>
+    <TEN_MAY>Máy ép nóng YuanYi 159</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-10-12T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-12T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#19</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#19</TEN_HE_THONG>
+    <TEN_NHOM_MAY>YUAN YI </TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>163</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi khu vực sản xuất</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-10-30T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-29T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>Hệ thống hút mùi</Ten_N_XUONG>
+    <TEN_HE_THONG>No-line</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Hệ thống hút mùi </TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>168</MS_MAY>
+    <TEN_MAY>Hệ thống điện NM1 </TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-04T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-04T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>Hệ thống điện</Ten_N_XUONG>
+    <TEN_HE_THONG>No-line</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Hệ thống điện </TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>169</MS_MAY>
+    <TEN_MAY>Hệ thống điện NM2 </TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-04T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-04T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>Hệ thống điện</Ten_N_XUONG>
+    <TEN_HE_THONG>No-line</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Hệ thống điện </TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>216</MS_MAY>
+    <TEN_MAY>Máy sấy nóng YUANYI nhỏ_YU-703 (4) 216</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-10T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-10T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#18</Ten_N_XUONG>
+    <TEN_HE_THONG>No-line</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy sấy nóng dùng hộc  Yuani</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>232</MS_MAY>
+    <TEN_MAY>Máy cắt dập Samco TC-75 (17084)</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-19T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-19T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>Tổ cắt</Ten_N_XUONG>
+    <TEN_HE_THONG>Cutting</TEN_HE_THONG>
+    <TEN_NHOM_MAY>HUDSON </TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>232</MS_MAY>
+    <TEN_MAY>Máy cắt dập Samco TC-75 (17084)</TEN_MAY>
+    <TEN_LOAI_BT>2 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-19T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>2 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-19T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>Tổ cắt</Ten_N_XUONG>
+    <TEN_HE_THONG>Cutting</TEN_HE_THONG>
+    <TEN_NHOM_MAY>HUDSON </TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ (50 tấn)</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-19T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-19T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#18</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#18</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Taiwant </TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ (50 tấn)</TEN_MAY>
+    <TEN_LOAI_BT>2 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-19T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>2 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-19T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#18</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#18</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Taiwant </TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>235</MS_MAY>
+    <TEN_MAY>Máy gò gót giày  235</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-24T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-24T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#8</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#8</TEN_HE_THONG>
+    <TEN_NHOM_MAY>Máy gò gót giày</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <MS_MAY>255</MS_MAY>
+    <TEN_MAY>Máy ép đế 6 chiều</TEN_MAY>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <NGAY_HC_CUOI>2019-12-31T00:00:00+07:00</NGAY_HC_CUOI>
+    <CHU_KY>1 Tháng</CHU_KY>
+    <NGAY_KE>2020-02-29T00:00:00+07:00</NGAY_KE>
+    <Ten_N_XUONG>CL#1</Ten_N_XUONG>
+    <TEN_HE_THONG>CL#1</TEN_HE_THONG>
+    <TEN_NHOM_MAY>2 trạm 1 màu_TPE</TEN_NHOM_MAY>
+  </BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <TIEU_DE_BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+    <TIEU_DE>BẢO TRÌ ĐỊNH KỲ CẦN THỰC HIỆN</TIEU_DE>
+    <TU_NGAY>Từ ngày: 01/02/2020</TU_NGAY>
+    <DEN_NGAY>Đến ngày: 29/02/2020</DEN_NGAY>
+    <DieuKienLoc>Địa điểm   :  &lt; ALL &gt;  - Loại thiết bị :  &lt; ALL &gt; </DieuKienLoc>
+    <MS_MAY>MS Thiết bị</MS_MAY>
+    <TEN_MAY>Thiết bị</TEN_MAY>
+    <LOAI_BT>Loại bảo trì</LOAI_BT>
+    <NgayChuanCuoi>Ngày BT cuối</NgayChuanCuoi>
+    <ChuKy>Chu kỳ</ChuKy>
+    <NgayChuanKeTiep>Ngày BT kế</NgayChuanKeTiep>
+    <TenNhaXuong>Địa điểm:</TenNhaXuong>
+    <TenNhomMay>Nhóm máy:</TenNhomMay>
+  </TIEU_DE_BAO_TRI_DINH_KY_CAN_THUC_HIEN>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty TNHH Remington International
+Lô C, 8C, CN, KCN Mỹ Phước 3, P. Thới Hòa, Thị Xã Bến Cát, Bình Dương, Việt Nam.
+Telephone: 02743559908  Fax: 02743559907</THONG_TIN_CTY>
+    <LOGO />
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1800</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngày in:10/02/2020</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

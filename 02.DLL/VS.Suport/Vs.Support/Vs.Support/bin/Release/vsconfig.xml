@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Import>
+  <Row>
+    <S>https://api.vietsoft.com.vn/VS.Api//</S>
+    <D>VS_ERP</D>
+    <U>sa</U>
+    <P>codaikadaiku</P>
+    <M>baotritoandien@gmail.com</M>
+    <PM>namviet123</PM>
+    <SMTP>smtp.gmail.com</SMTP>
+    <PORT>587</PORT>
+  </Row>
+</Import>

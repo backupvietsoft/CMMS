@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{95C41A6A-E7EF-45DA-AA54-FF3C476F2F3D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReportMail</RootNamespace>
+    <AssemblyName>ReportMail</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Commons, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Interop.Excel, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Interop.Office, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ExportExcels\ExportExcels\bin\Debug\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="csSchedules.cs" />
+    <Compile Include="FormsTest\frmMailBieuDoTGNMayTheoMayThang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBieuDoTGNMayTheoMayThang.Designer.cs">
+      <DependentUpon>frmMailBieuDoTGNMayTheoMayThang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmBieuDoChiPhiTheoNXThang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmBieuDoChiPhiTheoNXThang.Designer.cs">
+      <DependentUpon>frmBieuDoChiPhiTheoNXThang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmMailChuaCoHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmMailChuaCoHoaDon.Designer.cs">
+      <DependentUpon>frmMailChuaCoHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmSchedules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmSchedules.Designer.cs">
+      <DependentUpon>frmSchedules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBieuDoChiPhiTheoTBThang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBieuDoChiPhiTheoTBThang.Designer.cs">
+      <DependentUpon>frmMailBieuDoChiPhiTheoTBThang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBieuDoTGNMayTheoNXThang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBieuDoTGNMayTheoNXThang.Designer.cs">
+      <DependentUpon>frmMailBieuDoTGNMayTheoNXThang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmMailVatTuDeXuatChuaNhapKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmMailVatTuDeXuatChuaNhapKho.Designer.cs">
+      <DependentUpon>frmMailVatTuDeXuatChuaNhapKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\XtraForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\XtraForm1.Designer.cs">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailBaoTriDinhKyThangCS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailBaoTriDinhKyThangCS.Designer.cs">
+      <DependentUpon>ucMailBaoTriDinhKyThangCS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoChiPhiTheoNX.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoChiPhiTheoNX.Designer.cs">
+      <DependentUpon>ucMailBieuDoChiPhiTheoNX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoChiPhiTheoNXThang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoChiPhiTheoNXThang.Designer.cs">
+      <DependentUpon>ucMailBieuDoChiPhiTheoNXThang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoChiPhiTheoTB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoChiPhiTheoTB.Designer.cs">
+      <DependentUpon>ucMailBieuDoChiPhiTheoTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoTGNMayTheoMay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoTGNMayTheoMay.designer.cs">
+      <DependentUpon>ucMailBieuDoTGNMayTheoMay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoTGNMayTheoMayThang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoTGNMayTheoMayThang.Designer.cs">
+      <DependentUpon>ucMailBieuDoTGNMayTheoMayThang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoTGNMayTheoNX.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoTGNMayTheoNX.Designer.cs">
+      <DependentUpon>ucMailBieuDoTGNMayTheoNX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailBTDKCThucHien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailBTDKCThucHien.Designer.cs">
+      <DependentUpon>ucMailBTDKCThucHien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailChuaCoHoaDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailChuaCoHoaDon.Designer.cs">
+      <DependentUpon>ucMailChuaCoHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailDanhSachPhieuNhapKho.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailDanhSachPhieuNhapKho.Designer.cs">
+      <DependentUpon>ucMailDanhSachPhieuNhapKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailPGSTTDHKT.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailPGSTTDHKT.Designer.cs">
+      <DependentUpon>ucMailPGSTTDHKT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailVatTuDeXuatChuaNhapKho.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailVatTuDeXuatChuaNhapKho.Designer.cs">
+      <DependentUpon>ucMailVatTuDeXuatChuaNhapKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailNhapXuatTon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailNhapXuatTon.Designer.cs">
+      <DependentUpon>ucMailNhapXuatTon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailVatTuPhuTungXuatKho.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailVatTuPhuTungXuatKho.Designer.cs">
+      <DependentUpon>ucMailVatTuPhuTungXuatKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucPBTQuaHanKT.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucPBTQuaHanKT.Designer.cs">
+      <DependentUpon>ucPBTQuaHanKT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucPBTTrongNgay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucPBTTrongNgay.Designer.cs">
+      <DependentUpon>ucPBTTrongNgay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucThietBiDenHanHieuChuan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucThietBiDenHanHieuChuan.Designer.cs">
+      <DependentUpon>ucThietBiDenHanHieuChuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucMailPhanTichTGNMay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucMailPhanTichTGNMay.Designer.cs">
+      <DependentUpon>ucMailPhanTichTGNMay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XtraForm1.Designer.cs">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormsTest\frmMailBieuDoChiPhiTheoTBThang.resx">
+      <DependentUpon>frmMailBieuDoChiPhiTheoTBThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmMailBieuDoTGNMayTheoMayThang.resx">
+      <DependentUpon>frmMailBieuDoTGNMayTheoMayThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmBieuDoChiPhiTheoNXThang.resx">
+      <DependentUpon>frmBieuDoChiPhiTheoNXThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmMailChuaCoHoaDon.resx">
+      <DependentUpon>frmMailChuaCoHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmMailVatTuDeXuatChuaNhapKho.resx">
+      <DependentUpon>frmMailVatTuDeXuatChuaNhapKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmSchedules.resx">
+      <DependentUpon>frmSchedules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmMailBieuDoTGNMayTheoNXThang.resx">
+      <DependentUpon>frmMailBieuDoTGNMayTheoNXThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailBaoTriDinhKyThangCS.resx">
+      <DependentUpon>ucMailBaoTriDinhKyThangCS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailBieuDoChiPhiTheoNX.resx">
+      <DependentUpon>ucMailBieuDoChiPhiTheoNX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailBieuDoChiPhiTheoNXThang.resx">
+      <DependentUpon>ucMailBieuDoChiPhiTheoNXThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailBieuDoChiPhiTheoTB.resx">
+      <DependentUpon>ucMailBieuDoChiPhiTheoTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailBieuDoTGNMayTheoMay.resx">
+      <DependentUpon>ucMailBieuDoTGNMayTheoMay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailBieuDoTGNMayTheoMayThang.resx">
+      <DependentUpon>ucMailBieuDoTGNMayTheoMayThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailBieuDoTGNMayTheoNX.resx">
+      <DependentUpon>ucMailBieuDoTGNMayTheoNX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailBTDKCThucHien.resx">
+      <DependentUpon>ucMailBTDKCThucHien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailChuaCoHoaDon.resx">
+      <DependentUpon>ucMailChuaCoHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailDanhSachPhieuNhapKho.resx">
+      <DependentUpon>ucMailDanhSachPhieuNhapKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailPGSTTDHKT.resx">
+      <DependentUpon>ucMailPGSTTDHKT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailVatTuDeXuatChuaNhapKho.resx">
+      <DependentUpon>ucMailVatTuDeXuatChuaNhapKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailNhapXuatTon.resx">
+      <DependentUpon>ucMailNhapXuatTon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailVatTuPhuTungXuatKho.resx">
+      <DependentUpon>ucMailVatTuPhuTungXuatKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucPBTQuaHanKT.resx">
+      <DependentUpon>ucPBTQuaHanKT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucPBTTrongNgay.resx">
+      <DependentUpon>ucPBTTrongNgay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucThietBiDenHanHieuChuan.resx">
+      <DependentUpon>ucThietBiDenHanHieuChuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucSentTo.resx">
+      <DependentUpon>ucSentTo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucVTPTSLTonNhohonTTT.resx">
+      <DependentUpon>ucVTPTSLTonNhohonTTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmVTPTSLTonNhohonTTT.resx">
+      <DependentUpon>frmVTPTSLTonNhohonTTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmMailBieuDoTGNMayTheoNX.resx">
+      <DependentUpon>frmMailBieuDoTGNMayTheoNX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmMailBaoTriDinhKyThangCS.resx">
+      <DependentUpon>frmMailBaoTriDinhKyThangCS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmMailPGSTTDHKT.resx">
+      <DependentUpon>frmMailPGSTTDHKT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmMailBTDKCThucHien.resx">
+      <DependentUpon>frmMailBTDKCThucHien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmPBTQuaHanKT.resx">
+      <DependentUpon>frmPBTQuaHanKT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmPBTTrongNgay.resx">
+      <DependentUpon>frmPBTTrongNgay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmThietBiDenHanHieuChuan.resx">
+      <DependentUpon>frmThietBiDenHanHieuChuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmMailBieuDoChiPhiTheoTB.resx">
+      <DependentUpon>frmMailBieuDoChiPhiTheoTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmMailBieuDoChiPhiTheoNX.resx">
+      <DependentUpon>frmMailBieuDoChiPhiTheoNX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsTest\frmMailBieuDoTGNMayTheoMay.resx">
+      <DependentUpon>frmMailBieuDoTGNMayTheoMay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailBieuDoChiPhiTheoTBThang.resx">
+      <DependentUpon>ucMailBieuDoChiPhiTheoTBThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ucMailBieuDoTGNMayTheoNXThang.resx">
+      <DependentUpon>ucMailBieuDoTGNMayTheoNXThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ucMailPhanTichTGNMay.resx">
+      <DependentUpon>ucMailPhanTichTGNMay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraForm1.resx">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Mail\ucSentTo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucSentTo.Designer.cs">
+      <DependentUpon>ucSentTo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucVTPTSLTonNhohonTTT.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucVTPTSLTonNhohonTTT.Designer.cs">
+      <DependentUpon>ucVTPTSLTonNhohonTTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmVTPTSLTonNhohonTTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmVTPTSLTonNhohonTTT.Designer.cs">
+      <DependentUpon>frmVTPTSLTonNhohonTTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBieuDoTGNMayTheoNX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBieuDoTGNMayTheoNX.Designer.cs">
+      <DependentUpon>frmMailBieuDoTGNMayTheoNX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBaoTriDinhKyThangCS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBaoTriDinhKyThangCS.Designer.cs">
+      <DependentUpon>frmMailBaoTriDinhKyThangCS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmMailPGSTTDHKT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmMailPGSTTDHKT.Designer.cs">
+      <DependentUpon>frmMailPGSTTDHKT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBTDKCThucHien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBTDKCThucHien.Designer.cs">
+      <DependentUpon>frmMailBTDKCThucHien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmPBTQuaHanKT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmPBTQuaHanKT.Designer.cs">
+      <DependentUpon>frmPBTQuaHanKT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmPBTTrongNgay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmPBTTrongNgay.Designer.cs">
+      <DependentUpon>frmPBTTrongNgay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmThietBiDenHanHieuChuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmThietBiDenHanHieuChuan.Designer.cs">
+      <DependentUpon>frmThietBiDenHanHieuChuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBieuDoChiPhiTheoTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBieuDoChiPhiTheoTB.Designer.cs">
+      <DependentUpon>frmMailBieuDoChiPhiTheoTB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBieuDoChiPhiTheoNX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBieuDoChiPhiTheoNX.Designer.cs">
+      <DependentUpon>frmMailBieuDoChiPhiTheoNX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBieuDoTGNMayTheoMay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsTest\frmMailBieuDoTGNMayTheoMay.Designer.cs">
+      <DependentUpon>frmMailBieuDoTGNMayTheoMay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoChiPhiTheoTBThang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoChiPhiTheoTBThang.Designer.cs">
+      <DependentUpon>ucMailBieuDoChiPhiTheoTBThang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoTGNMayTheoNXThang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ucMailBieuDoTGNMayTheoNXThang.Designer.cs">
+      <DependentUpon>ucMailBieuDoTGNMayTheoNXThang.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Commons.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

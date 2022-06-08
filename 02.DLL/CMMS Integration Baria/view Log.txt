@@ -1,0 +1,4 @@
+cmd
+eventvwr
+
+Control Panel/System and Security/Administrative Tools/Event Viewer.

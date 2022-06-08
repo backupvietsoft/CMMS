@@ -1,0 +1,60 @@
+------ Rebuild All started: Project: MReportVB, Configuration: Debug Any CPU ------
+Build started 28/03/2014 08:49:05.
+Target CoreClean:
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\bin\Debug\MReportVB.pdb".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\bin\Debug\Microsoft.Vbe.Interop.dll".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\bin\Debug\MReportVB.exe".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\ResolveAssemblyReference.cache".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.frmPhieuBaoTriBHNT.resources".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.frmKho.resources".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.Resources.resources".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.frmDuyetSanXuat.resources".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.ucBangKeChiTietVatTu.resources".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.ucBangKeCTNhapKho.resources".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.ucDeXuatVatTu.resources".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.ucKHKiemDinhBenNgoai.resources".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.ucLuanChuyenVatTu.resources".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.ucTest.resources".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.XtraForm2.resources".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.XtraForm1.resources".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.vbproj.GenerateResource.Cache".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.xml".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.pdb".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.ucDuToanTheoDonVi.resources".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.exe.licenses".
+    Deleting file "D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\obj\Debug\MReportVB.exe".
+Target EntityClean:
+    Successfully cleaned the output for 0 EDMX files.
+Target EntityDeploy:
+    Processing 0 EDMX files.
+    Finished processing 0 EDMX files.
+Target CoreResGen:
+    Processing resource file "Forms\frmPhieuBaoTriBHNT.resx" into "obj\Debug\MReportVB.frmPhieuBaoTriBHNT.resources".
+    Processing resource file "Forms\frmKho.resx" into "obj\Debug\MReportVB.frmKho.resources".
+    Processing resource file "My Project\Resources.resx" into "obj\Debug\MReportVB.Resources.resources".
+    Processing resource file "Forms\frmDuyetSanXuat.resx" into "obj\Debug\MReportVB.frmDuyetSanXuat.resources".
+    Processing resource file "UAC\ucBangKeChiTietVatTu.resx" into "obj\Debug\MReportVB.ucBangKeChiTietVatTu.resources".
+    Processing resource file "UAC\ucBangKeCTNhapKho.resx" into "obj\Debug\MReportVB.ucBangKeCTNhapKho.resources".
+    Processing resource file "UAC\ucDeXuatVatTu.resx" into "obj\Debug\MReportVB.ucDeXuatVatTu.resources".
+    Processing resource file "UAC\ucDuToanTheoDonVi.resx" into "obj\Debug\MReportVB.ucDuToanTheoDonVi.resources".
+    Processing resource file "UAC\ucKHKiemDinhBenNgoai.resx" into "obj\Debug\MReportVB.ucKHKiemDinhBenNgoai.resources".
+    Processing resource file "UAC\ucLuanChuyenVatTu.resx" into "obj\Debug\MReportVB.ucLuanChuyenVatTu.resources".
+    Processing resource file "UAC\ucTest.resx" into "obj\Debug\MReportVB.ucTest.resources".
+    Processing resource file "Forms\XtraForm2.resx" into "obj\Debug\MReportVB.XtraForm2.resources".
+    Processing resource file "XtraForm1.resx" into "obj\Debug\MReportVB.XtraForm1.resources".
+Target CompileLicxFiles:
+    C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\LC.exe /target:MReportVB.exe /complist:"My Project\licenses.licx" /outdir:obj\Debug\ /i:bin\Debug\Commons.dll /i:"C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.Data.v9.2.dll" /i:"C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.Utils.v9.2.dll" /i:"C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v9.2.dll" /i:"C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v9.2.dll" /i:"C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.XtraLayout.v9.2.dll" /i:bin\Debug\Interop.Excel.dll /i:bin\Debug\Interop.Office.dll /i:bin\Debug\Microsoft.ApplicationBlocks.Data.dll /i:bin\Debug\Microsoft.Office.Interop.Excel.dll /i:bin\Debug\office.dll /i:bin\Debug\ReportMain.dll /i:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /i:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /i:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /i:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Deployment.dll /i:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Design.dll /i:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /i:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /i:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.Services.dll /i:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /i:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /i:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /i:"C:\Program Files (x86)\Microsoft Visual Studio 9.0\Visual Studio Tools for Office\PIA\Office11\stdole.dll" /i:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Transactions.dll /i:"C:\Program Files (x86)\Business Objects\Common\2.8\managed\CrystalDecisions.Windows.Forms.dll" /i:"C:\Program Files (x86)\Microsoft Visual Studio 9.0\Visual Studio Tools for Office\PIA\Office11\Microsoft.Vbe.Interop.dll" /i:"C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.XtraPrinting.v9.2.dll" /i:"C:\Program Files (x86)\Business Objects\Common\2.8\managed\CrystalDecisions.CrystalReports.Engine.dll" /i:"C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.XtraBars.v9.2.dll" /i:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Management.dll /i:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.dll /i:"C:\Program Files (x86)\Business Objects\Common\2.8\managed\CrystalDecisions.Shared.dll" /i:"C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.XtraRichEdit.v9.2.dll" /i:"C:\Program Files (x86)\Business Objects\Common\2.8\managed\CrystalDecisions.ReportSource.dll" /i:C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.dll /i:"C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.XtraTreeList.v9.2.dll" 
+Target CoreCompile:
+    C:\Windows\Microsoft.NET\Framework\v3.5\Vbc.exe /noconfig /imports:Microsoft.VisualBasic,System,System.Collections,System.Collections.Generic,System.Data,System.Drawing,System.Diagnostics,System.Windows.Forms,System.Linq,System.Xml.Linq /optioncompare:Binary /optionexplicit+ /optionstrict:custom /nowarn:42016,41999,42017,42018,42019,42032,42036,42020,42021,42022 /optioninfer+ /platform:x86 /rootnamespace:MReportVB /doc:obj\Debug\MReportVB.xml /define:"CONFIG=\"Debug\",DEBUG=-1,TRACE=-1,_MyType=\"WindowsFormsWithCustomSubMain\",PLATFORM=\"AnyCPU\",_MYFORMS=True" /reference:bin\Debug\Commons.dll,"C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.Data.v9.2.dll","C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.Utils.v9.2.dll","C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v9.2.dll","C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v9.2.dll","C:\Program Files (x86)\DevExpress 2009.2\Components\Sources\DevExpress.DLL\DevExpress.XtraLayout.v9.2.dll",bin\Debug\Interop.Excel.dll,bin\Debug\Interop.Office.dll,bin\Debug\Microsoft.ApplicationBlocks.Data.dll,bin\Debug\Microsoft.Office.Interop.Excel.dll,bin\Debug\office.dll,bin\Debug\ReportMain.dll,"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll","C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll",C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Deployment.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Design.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.Services.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll,"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /out:obj\Debug\MReportVB.exe /resource:obj\Debug\MReportVB.frmPhieuBaoTriBHNT.resources /resource:obj\Debug\MReportVB.frmKho.resources /resource:obj\Debug\MReportVB.Resources.resources /resource:obj\Debug\MReportVB.frmDuyetSanXuat.resources /resource:obj\Debug\MReportVB.ucBangKeChiTietVatTu.resources /resource:obj\Debug\MReportVB.ucBangKeCTNhapKho.resources /resource:obj\Debug\MReportVB.ucDeXuatVatTu.resources /resource:obj\Debug\MReportVB.ucDuToanTheoDonVi.resources /resource:obj\Debug\MReportVB.ucKHKiemDinhBenNgoai.resources /resource:obj\Debug\MReportVB.ucLuanChuyenVatTu.resources /resource:obj\Debug\MReportVB.ucTest.resources /resource:obj\Debug\MReportVB.XtraForm2.resources /resource:obj\Debug\MReportVB.XtraForm1.resources /resource:obj\Debug\MReportVB.exe.licenses /target:winexe /win32manifest:"My Project\app.manifest" Forms\frmPhieuBaoTriBHNT.Designer.vb Forms\frmPhieuBaoTriBHNT.vb Forms\frmKho.Designer.vb Forms\frmKho.vb "My Project\Application.Designer.vb" Program.vb "My Project\AssemblyInfo.vb" "My Project\Resources.Designer.vb" "My Project\Settings.Designer.vb" Forms\frmDuyetSanXuat.Designer.vb Forms\frmDuyetSanXuat.vb UAC\ucBangKeChiTietVatTu.Designer.vb UAC\ucBangKeChiTietVatTu.vb UAC\ucBangKeCTNhapKho.designer.vb UAC\ucBangKeCTNhapKho.vb UAC\ucDuToanTheoDonVi.Designer.vb UAC\ucDuToanTheoDonVi.vb UAC\ucKHKiemDinhBenNgoai.Designer.vb UAC\ucKHKiemDinhBenNgoai.vb UAC\ucLuanChuyenVatTu.Designer.vb UAC\ucLuanChuyenVatTu.vb UAC\ucTest.Designer.vb UAC\ucTest.vb Forms\XtraForm2.Designer.vb Forms\XtraForm2.vb UAC\ucDeXuatVatTu.Designer.vb UAC\ucDeXuatVatTu.vb XtraForm1.Designer.vb XtraForm1.vb
+Target _CopyFilesMarkedCopyLocal:
+    Copying file from "C:\Program Files (x86)\Microsoft Visual Studio 9.0\Visual Studio Tools for Office\PIA\Office11\Microsoft.Vbe.Interop.dll" to "bin\Debug\Microsoft.Vbe.Interop.dll".
+Target CopyFilesToOutputDirectory:
+    Copying file from "obj\Debug\MReportVB.exe" to "bin\Debug\MReportVB.exe".
+    MReportVB -> D:\01 KH New\CMMS\MReportVB\00 MReportVB\MReportVB\bin\Debug\MReportVB.exe
+    Copying file from "obj\Debug\MReportVB.pdb" to "bin\Debug\MReportVB.pdb".
+    Copying file from "obj\Debug\MReportVB.xml" to "bin\Debug\MReportVB.xml".
+
+Build succeeded.
+
+Time Elapsed 00:00:05.19
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========

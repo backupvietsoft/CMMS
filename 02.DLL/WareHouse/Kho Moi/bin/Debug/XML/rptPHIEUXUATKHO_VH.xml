@@ -1,0 +1,204 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PXK_INFO">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_DH_XUAT_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_KHO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="GIO" type="xs:string" minOccurs="0" />
+                <xs:element name="DON_VI" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_CHUNG_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="MUC_DICH_XUAT" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PHIEU_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG_XUAT_VIET" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_DANG_XUAT" type="xs:int" minOccurs="0" />
+                <xs:element name="LY_DO_XUAT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PXK_DETAIL">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_1" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_LUONG_CTU" type="xs:double" minOccurs="0" />
+                <xs:element name="SO_LUONG_THUC_XUAT" type="xs:double" minOccurs="0" />
+                <xs:element name="GHI_CHU" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_PXK">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PHIEU_XUAT_KHO" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_SO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_HIEU_LUC" type="xs:string" minOccurs="0" />
+                <xs:element name="LAN_SOAT_XET" type="xs:string" minOccurs="0" />
+                <xs:element name="XUAT_TAI_KHO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_GIO_XUAT" type="xs:string" minOccurs="0" />
+                <xs:element name="DON_VI" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_CHUNG_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="MUC_DICH_XUAT" type="xs:string" minOccurs="0" />
+                <xs:element name="PHIEU_BAO_TRI_SO" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_SO_THIET_BI" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_THIET_BI" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_HANG_HOA" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_HANG_HOA" type="xs:string" minOccurs="0" />
+                <xs:element name="DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_LUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="THEO_CHUNG_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="THUC_XUAT" type="xs:string" minOccurs="0" />
+                <xs:element name="GHI_CHU" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_NHAN_HANG" type="xs:string" minOccurs="0" />
+                <xs:element name="THU_KHO" type="xs:string" minOccurs="0" />
+                <xs:element name="KE_TOAN_TRUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="KY_HO_TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_PX" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP1" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP2" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP3" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP4" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP5" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TTC_CAO" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_RONG" type="xs:int" minOccurs="0" />
+                <xs:element name="USER_LOG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_HT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PXK_INFO>
+    <MS_DH_XUAT_PT>PX-1512-0095</MS_DH_XUAT_PT>
+    <TEN_KHO>Kho vật tư</TEN_KHO>
+    <NGAY>2015-12-24T14:14:24+07:00</NGAY>
+    <GIO>Dec 24 2015  2:14PM</GIO>
+    <DON_VI>XƯỞNG SẢN XUẤT</DON_VI>
+    <SO_CHUNG_TU>đựng bả than</SO_CHUNG_TU>
+    <MUC_DICH_XUAT>Khác</MUC_DICH_XUAT>
+    <MS_PHIEU_BAO_TRI />
+    <MS_MAY />
+    <TEN_MAY />
+    <DANG_XUAT_VIET>Khác</DANG_XUAT_VIET>
+    <MS_DANG_XUAT>3</MS_DANG_XUAT>
+    <LY_DO_XUAT>đựng bả than</LY_DO_XUAT>
+  </PXK_INFO>
+  <PXK_DETAIL>
+    <TEN_PT>Bao đựng than</TEN_PT>
+    <MS_PT>BBI-035</MS_PT>
+    <TEN_1>Cái</TEN_1>
+    <SO_LUONG_CTU>100</SO_LUONG_CTU>
+    <SO_LUONG_THUC_XUAT>100</SO_LUONG_THUC_XUAT>
+  </PXK_DETAIL>
+  <TIEU_DE_PXK>
+    <PHIEU_XUAT_KHO>PHIẾU XUẤT KHO</PHIEU_XUAT_KHO>
+    <MA_SO>Mã số:</MA_SO>
+    <NGAY_HIEU_LUC>Ngày hiệu lực:</NGAY_HIEU_LUC>
+    <LAN_SOAT_XET>Lần soát xét:</LAN_SOAT_XET>
+    <XUAT_TAI_KHO>Xuất tại kho:</XUAT_TAI_KHO>
+    <NGAY_GIO_XUAT>Ngày, giờ xuất:</NGAY_GIO_XUAT>
+    <DON_VI>Đơn vị:</DON_VI>
+    <LOAI_CHUNG_TU>Loại chứng từ:</LOAI_CHUNG_TU>
+    <MUC_DICH_XUAT>Mục đích xuất : Khác</MUC_DICH_XUAT>
+    <PHIEU_BAO_TRI_SO>Phiếu bảo trì số:</PHIEU_BAO_TRI_SO>
+    <MA_SO_THIET_BI>Mã số thiết bị:</MA_SO_THIET_BI>
+    <TEN_THIET_BI>TÊN THIẾT BỊ</TEN_THIET_BI>
+    <STT>STT</STT>
+    <TEN_HANG_HOA>Tên hàng hóa</TEN_HANG_HOA>
+    <MA_HANG_HOA>Mã hàng</MA_HANG_HOA>
+    <DVT>ĐVT</DVT>
+    <SO_LUONG>Số lượng</SO_LUONG>
+    <THEO_CHUNG_TU>Theo chứng từ</THEO_CHUNG_TU>
+    <THUC_XUAT>Thực xuất</THUC_XUAT>
+    <GHI_CHU>Ghi chú</GHI_CHU>
+    <NGUOI_NHAN_HANG>Người nhận hàng</NGUOI_NHAN_HANG>
+    <THU_KHO>Thủ kho</THU_KHO>
+    <KE_TOAN_TRUONG>Kế toán trưởng</KE_TOAN_TRUONG>
+    <KY_HO_TEN>(Ký và ghi rõ họ tên)</KY_HO_TEN>
+    <SO_PX>SỐ</SO_PX>
+    <TMP1>P/M/1.8A</TMP1>
+    <TMP2>P/M/1.8A</TMP2>
+    <TMP3>Tổng tất cả</TMP3>
+    <TMP4>Thời gian cấp vật tư</TMP4>
+    <TMP5>Số:...../.....GDN</TMP5>
+  </TIEU_DE_PXK>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty Cổ Phần Vĩnh Hoàn Collagen 5
+Quốc Lộ 30, Phường 11, Thành Phố Cao Lãnh, Tỉnh Đồng Tháp, Việt Nam
+Telephone: (84.67) 3567888  Fax: (84.67) 3891062</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>2100</WIDTH>
+    <HEIGHT>800</HEIGHT>
+    <NGAY_IN>Ngày in:28/12/2015</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+    <TTC_CAO>700</TTC_CAO>
+    <TTC_RONG>7000</TTC_RONG>
+    <USER_LOG>User : administrator</USER_LOG>
+    <NGAY_HT>Ngày : 28/12/2015</NGAY_HT>
+  </rptTitlereport>
+</NewDataSet>

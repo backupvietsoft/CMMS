@@ -1,0 +1,1789 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="DIA_DIEM" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="NHOM_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="GIATRI" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DATA_INFO">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_N_XUONG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Ten_N_XUONG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_NHOM_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="GIA_MUA" type="xs:double" minOccurs="0" />
+                <xs:element name="TEN_NGOAI_TE">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="6" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <TIEU_DE>DANH SÁCH THIẾT BỊ VỚI GIÁ TRỊ KHI MUA</TIEU_DE>
+    <DIA_DIEM>Địa điểm: </DIA_DIEM>
+    <MS_TB>Mã thiết bị</MS_TB>
+    <TEN_TB>Tên thiết bị</TEN_TB>
+    <STT>STT</STT>
+    <LOAI_TB>Loại thiết bị</LOAI_TB>
+    <NHOM_TB>Nhóm thiết bị</NHOM_TB>
+    <GIATRI>Giá trị</GIATRI>
+  </Table1>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>CAT-DAY-01</MS_MAY>
+    <TEN_MAY>Máy cắt dây Robofil 380</TEN_MAY>
+    <TEN_LOAI_MAY>Máy WEDM</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Charmilles</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>CAT-DAY-02</MS_MAY>
+    <TEN_MAY>Máy cắt dây Fanuc</TEN_MAY>
+    <TEN_LOAI_MAY>Máy WEDM</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Fanuc</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>CAT-DAY-03</MS_MAY>
+    <TEN_MAY>Máy cắt dây GS-8</TEN_MAY>
+    <TEN_LOAI_MAY>Máy WEDM</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>GoldSan</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>CUA-01</MS_MAY>
+    <TEN_MAY>Máy cưa Cosen</TEN_MAY>
+    <TEN_LOAI_MAY>Máy cưa</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Cosen</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>DO-2D</MS_MAY>
+    <TEN_MAY>Máy chiếu profile</TEN_MAY>
+    <TEN_LOAI_MAY>Máy chiếu profile</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Mitutoyo</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>DO-CAM-TAY</MS_MAY>
+    <TEN_MAY>Dụng cụ đo </TEN_MAY>
+    <TEN_LOAI_MAY>Dụng cụ đo cầm tay</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>DO-CAM-TAY</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Việt nam</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>DO-CAO</MS_MAY>
+    <TEN_MAY>Máy đo cao Trimos</TEN_MAY>
+    <TEN_LOAI_MAY>Máy đo cao</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Trimos</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>DO-CMM</MS_MAY>
+    <TEN_MAY>Coordinate measuring machine</TEN_MAY>
+    <TEN_LOAI_MAY>Máy CMM</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>MITUTOYO</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>DO-DAO</MS_MAY>
+    <TEN_MAY>Máy đo dao Smile 500</TEN_MAY>
+    <TEN_LOAI_MAY>Máy đo dao</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Smile</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>DO-DOCUNG</MS_MAY>
+    <TEN_MAY>Máy đo độ cứng RASN</TEN_MAY>
+    <TEN_LOAI_MAY>Máy đo độ cứng</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Germany</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>DO-DOCUNGCAMTAY</MS_MAY>
+    <TEN_MAY>Máy đo độ cứng cầm tay</TEN_MAY>
+    <TEN_LOAI_MAY>Máy đo độ cứng</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Mitutoyo</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>EDM-01</MS_MAY>
+    <TEN_MAY>Máy bắn EDM-01</TEN_MAY>
+    <TEN_LOAI_MAY>Máy EDM</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Aristech</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>EDM-02</MS_MAY>
+    <TEN_MAY>Máy bắn EDM-02</TEN_MAY>
+    <TEN_LOAI_MAY>Máy EDM</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Aristech</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>EDM-03</MS_MAY>
+    <TEN_MAY>Máy bắn EDM-03</TEN_MAY>
+    <TEN_LOAI_MAY>Máy EDM</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>JS</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>EDM-04</MS_MAY>
+    <TEN_MAY>Máy bắn EDM-04 (Roboform)</TEN_MAY>
+    <TEN_LOAI_MAY>Máy EDM</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Charmilles</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>EDM-05</MS_MAY>
+    <TEN_MAY>Máy bắn lỗ hơi</TEN_MAY>
+    <TEN_LOAI_MAY>Máy EDM</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Aristech</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>FFF</MS_MAY>
+    <TEN_LOAI_MAY>Máy EDM</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Charmilles</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>HAN</MS_MAY>
+    <TEN_MAY>Máy hàn Miller</TEN_MAY>
+    <TEN_LOAI_MAY>Máy hàn</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Miller</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>KHACCHU</MS_MAY>
+    <TEN_MAY>Máy khắc chữ Sakazaki</TEN_MAY>
+    <TEN_LOAI_MAY>Máy khắc chữ</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Sakazaki</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>KHOAN-01</MS_MAY>
+    <TEN_MAY>Máy khoan -01 (Shen Yang)</TEN_MAY>
+    <TEN_LOAI_MAY>Máy khoan</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Shen Yang</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>KHOAN-02</MS_MAY>
+    <TEN_MAY>Máy khoan -02 (Wakayama)</TEN_MAY>
+    <TEN_LOAI_MAY>Máy khoan</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Wakayama</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>MAI-GOTHA</MS_MAY>
+    <TEN_MAY>Máy mài Gotha</TEN_MAY>
+    <TEN_LOAI_MAY>Máy mài</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Gotha</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>MAIPHANG-01</MS_MAY>
+    <TEN_MAY>Máy mài phẳng -01 (Proth)</TEN_MAY>
+    <TEN_LOAI_MAY>Máy mài phẳng</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Proth</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>MAIPHANG-02</MS_MAY>
+    <TEN_MAY>Máy mài phẳng -02 (Okamoto)</TEN_MAY>
+    <TEN_LOAI_MAY>Máy mài phẳng</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Okamoto</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>MAIPHANG-03</MS_MAY>
+    <TEN_MAY>Máy mài phẳng -03 (Okamoto)</TEN_MAY>
+    <TEN_LOAI_MAY>Máy mài phẳng</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Okamoto</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>MAI-PROFILE-01</MS_MAY>
+    <TEN_MAY>Máy mài profile -01 (Waida)</TEN_MAY>
+    <TEN_LOAI_MAY>Máy mài profile</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Waida</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>MAITRUC-01</MS_MAY>
+    <TEN_MAY>Máy mài trục -01 (Kondo)</TEN_MAY>
+    <TEN_LOAI_MAY>Máy mài tròn</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Kondo</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>MAY-NEN</MS_MAY>
+    <TEN_MAY>Máy nén khí HI-SCREW 22-2000 Series</TEN_MAY>
+    <TEN_LOAI_MAY>Máy nén khí</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Hitachi</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>ON-AP-01</MS_MAY>
+    <TEN_MAY>Ổn áp 01</TEN_MAY>
+    <TEN_LOAI_MAY>Ổn áp</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>AST</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>ON-AP-02</MS_MAY>
+    <TEN_MAY>Ổn áp 02</TEN_MAY>
+    <TEN_LOAI_MAY>Ổn áp</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>LiOA</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>ON-AP-03</MS_MAY>
+    <TEN_MAY>Ổn áp 03</TEN_MAY>
+    <TEN_LOAI_MAY>Ổn áp</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>LiOA</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>ON-AP-04</MS_MAY>
+    <TEN_MAY>Ổn áp 04</TEN_MAY>
+    <TEN_LOAI_MAY>Ổn áp</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Natachi</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>ON-AP-05</MS_MAY>
+    <TEN_MAY>Ổn áp 05</TEN_MAY>
+    <TEN_LOAI_MAY>Ổn áp</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Robot</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>ON-AP-06</MS_MAY>
+    <TEN_MAY>Ổn áp 06</TEN_MAY>
+    <TEN_LOAI_MAY>Ổn áp</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Natachi</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>ON-AP-07</MS_MAY>
+    <TEN_MAY>Ổn áp 07</TEN_MAY>
+    <TEN_LOAI_MAY>Ổn áp</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Natachi</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>ON-AP-08</MS_MAY>
+    <TEN_MAY>Ổn áp 08</TEN_MAY>
+    <TEN_LOAI_MAY>Ổn áp</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>LiOA</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>ON-AP-09</MS_MAY>
+    <TEN_MAY>Ổn áp 09</TEN_MAY>
+    <TEN_LOAI_MAY>Ổn áp</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Hanshin</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>ON-AP-10</MS_MAY>
+    <TEN_MAY>Ổn áp 10</TEN_MAY>
+    <TEN_LOAI_MAY>Ổn áp</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>LiOA</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>ON-AP-11</MS_MAY>
+    <TEN_MAY>Ổn áp 11</TEN_MAY>
+    <TEN_LOAI_MAY>Ổn áp</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Natachi</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>ON-AP-12</MS_MAY>
+    <TEN_MAY>Ổn áp 12</TEN_MAY>
+    <TEN_LOAI_MAY>Ổn áp</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>LiOA</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PALANG-3T-EDM</MS_MAY>
+    <TEN_MAY>Palang 3 tấn</TEN_MAY>
+    <TEN_LOAI_MAY>Palang</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Palang</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-CNC-01</MS_MAY>
+    <TEN_MAY>Máy phay CNC-01</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay CNC</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Hartford</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-CNC-02</MS_MAY>
+    <TEN_MAY>Máy phay CNC-02</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay CNC</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Roku-Roku</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-CNC-03</MS_MAY>
+    <TEN_MAY>Máy phay CNC-03</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay CNC</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Roku-Roku</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-CNC-05</MS_MAY>
+    <TEN_MAY>Máy phay CNC-05</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay CNC</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Hartford</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-CNC-06</MS_MAY>
+    <TEN_MAY>Máy phay CNC-06</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay CNC</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Makino</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-CNC-07</MS_MAY>
+    <TEN_MAY>Máy phay CNC-07</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay CNC</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Hartford</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-CNC-08</MS_MAY>
+    <TEN_MAY>Máy phay CNC-08</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay CNC</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Mazak</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-CNC-09</MS_MAY>
+    <TEN_MAY>Máy phay CNC-09</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay CNC</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Hartford</TEN_NHOM_MAY>
+    <GIA_MUA>500000</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-SHIBAURA</MS_MAY>
+    <TEN_MAY>Máy phay Shibaura</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Shibaura</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-TT-01</MS_MAY>
+    <TEN_MAY>Máy phay TT-01</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Topone</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-TT-02</MS_MAY>
+    <TEN_MAY>Máy phay TT 02</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Corisma</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-TT-03</MS_MAY>
+    <TEN_MAY>Máy phay TT 03</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Topone</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-TT-04</MS_MAY>
+    <TEN_MAY>Máy phay TT 04</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Corisma</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-TT-05</MS_MAY>
+    <TEN_MAY>Máy phay TT 05</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chen Ying</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-TT-06</MS_MAY>
+    <TEN_MAY>Máy phay TT 06</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Topone</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHAY-TT-07</MS_MAY>
+    <TEN_MAY>Máy phay TT 07</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Topone</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>PHUNCAT</MS_MAY>
+    <TEN_MAY>Máy phun cát</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phun cát</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Concord</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>TARO</MS_MAY>
+    <TEN_MAY>Máy taro</TEN_MAY>
+    <TEN_LOAI_MAY>Máy taro</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Taro</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>TEST</MS_MAY>
+    <TEN_MAY>TES</TEN_MAY>
+    <TEN_LOAI_MAY>Máy phay CNC</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Hartford</TEN_NHOM_MAY>
+    <GIA_MUA>100000</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>TIEN-CNC-01</MS_MAY>
+    <TEN_MAY>Máy tiện CNC-01 (Victor)</TEN_MAY>
+    <TEN_LOAI_MAY>Máy tiện CNC</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Victor</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>TIEN-CNC-02</MS_MAY>
+    <TEN_MAY>Máy tiện Mazak 1</TEN_MAY>
+    <TEN_LOAI_MAY>Máy tiện CNC</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Mazak</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>TIEN-CNC-03</MS_MAY>
+    <TEN_MAY>Máy tiện Mazak 2</TEN_MAY>
+    <TEN_LOAI_MAY>Máy tiện CNC</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Mazak</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>TIEN-TT-01</MS_MAY>
+    <TEN_MAY>Máy tiện TT 01 (Namba-valet)</TEN_MAY>
+    <TEN_LOAI_MAY>Máy tiện TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Namba-Valet</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>TIEN-TT-02</MS_MAY>
+    <TEN_MAY>Máy tiện TT 02</TEN_MAY>
+    <TEN_LOAI_MAY>Máy tiện TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Liên Xô</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>TIEN-TT-03</MS_MAY>
+    <TEN_MAY>Máy tiện TT 03</TEN_MAY>
+    <TEN_LOAI_MAY>Máy tiện TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Liên Xô</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>TIEN-TT-04</MS_MAY>
+    <TEN_MAY>Máy tiện TT 04</TEN_MAY>
+    <TEN_LOAI_MAY>Máy tiện TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Howa Sangyo</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>TIEN-TT-05</MS_MAY>
+    <TEN_MAY>Máy tiện TT 05</TEN_MAY>
+    <TEN_LOAI_MAY>Máy tiện TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>TOP Winner</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng CK khuôn mẫu</Ten_N_XUONG>
+    <MS_MAY>TIEN-TT-06</MS_MAY>
+    <TEN_MAY>Máy tiện TT 06</TEN_MAY>
+    <TEN_LOAI_MAY>Máy tiện TT</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>TOP Winner</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>A1</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF100-01</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF100-02</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF120-01</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF120-02</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF120-03</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF120-08</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF120-09</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF120-10</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF125-02</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF125-04</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF125-06</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF125-08</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF125-09</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF125-11</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF125-15</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF125-16</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF125-17</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF125-20</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF125-22</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF400-01</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF450-01</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF450-02</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>CLF450-03</MS_MAY>
+    <TEN_MAY>máy ép</TEN_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>COSMO-04</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Cosmo</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>FCS620</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Fu Chun Sin</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>JSW450-02</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>JSW</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>JSW650-02</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>JSW</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX002</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng ép</Ten_N_XUONG>
+    <MS_MAY>SM450</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SM</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>A</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chuan Lih Fa</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>CHIAMIGN_TEST2</MS_MAY>
+    <TEN_MAY>DFDFDFDF</TEN_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CHIAMING PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>CHIAMING-02</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CHIAMING PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>CHIAMING-03</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CHIAMING PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>CHIAMING-TEST</MS_MAY>
+    <TEN_MAY>Test</TEN_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CHIAMING PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>CLF285-01</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CLF</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>COSMO-03</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Cosmo</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>CP-02</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CP</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>DFD</MS_MAY>
+    <TEN_MAY>dfdfdfd</TEN_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CHIAMING PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>JH-01</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Jonh Huah Plastic Machanery Factory Corp</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KAIMEI-01</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KAIMEI-02</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KAIMEI-03</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KAIMEI-04</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KAIMEI-05</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KAIMEI-06</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KAIMEI-07</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KAIMEI-08</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KAIMEI-09</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KAIMEI-10</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KAIMEI-11</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KAIMEI-12</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KC-01</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KUANG CHANG MACHINERY CO., LTD</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KC-02</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KUANG CHANG MACHINERY CO., LTD</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>KMF80-03</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KraussMaffei</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>LK-01</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>LKK</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>LK-03</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>LKK</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>LK-05</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>LKK</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>LK-06</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>LKK</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-01</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-02</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-03</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-04</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-05</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-06</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-07</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>KAI MEI PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-08</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-09</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-10</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-11</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-13</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-14</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-15</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-16</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-17</MS_MAY>
+    <TEN_MAY>Máy thổi SMC 17</TEN_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-18</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-19</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-20</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-21</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-22</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SMC-23</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>SMC Corporation Limited</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX003</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng thổi</Ten_N_XUONG>
+    <MS_MAY>SSSSSSSSSSSSSSSSS</MS_MAY>
+    <TEN_MAY>DDDDDDDDDDDDDDDD</TEN_MAY>
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CHIAMING PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CHIAMING-01</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CHIAMING PLASTIC MACHINERY CO., LTD.</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CLF250-04</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CLF</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CLF250-06</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CLF</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CLF250-09</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CLF</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CLF250-10</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy ép PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CLF</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CLF250-13</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CLF</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CLF250-14</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CLF</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CLF250-16</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CLF</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CM-01</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chia Ming Machinery Co., LTD</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CM-02</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chia Ming Machinery Co., LTD</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CM-03</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chia Ming Machinery Co., LTD</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CM-04</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chia Ming Machinery Co., LTD</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CM-05</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy sấy phôi PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>MS</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CM-07</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chia Ming Machinery Co., LTD</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CM-08</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy thổi PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chia Ming Machinery Co., LTD</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>CM-11</MS_MAY>
+    <TEN_LOAI_MAY>Máy thổi PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>Chia Ming Machinery Co., LTD</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>MS-02</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy sấy phôi PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>MS</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>MS-07</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy sấy phôi PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>MS</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>MS-09</MS_MAY>
+    <TEN_MAY />
+    <TEN_LOAI_MAY>Máy sấy phôi PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>MS</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <DATA_INFO>
+    <MS_N_XUONG>NX004</MS_N_XUONG>
+    <Ten_N_XUONG>Xưởng PET</Ten_N_XUONG>
+    <MS_MAY>wwww</MS_MAY>
+    <TEN_LOAI_MAY>Máy ép PET</TEN_LOAI_MAY>
+    <TEN_NHOM_MAY>CLF</TEN_NHOM_MAY>
+    <GIA_MUA>0</GIA_MUA>
+    <TEN_NGOAI_TE>Tiền EUR</TEN_NGOAI_TE>
+  </DATA_INFO>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty TNHH Phần mềm Nam Việt
+27/49B, Hậu Giang, F4, Q. Tân Bình, TP.HCM
+Telephone: 84-8-38110770  Fax: 84-8-8117787</THONG_TIN_CTY>
+    <LOGO />
+    <LE_TRAI_LOGO>150</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>10</LE_TREN_LOGO>
+    <WIDTH>1300</WIDTH>
+    <HEIGHT>650</HEIGHT>
+    <NGAY_IN>Ngày in:21/07/2009</NGAY_IN>
+    <PAGE>?PAGE?</PAGE>
+    <OFPAGE>?OF?</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

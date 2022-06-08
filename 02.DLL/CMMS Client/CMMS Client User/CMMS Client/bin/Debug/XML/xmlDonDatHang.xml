@@ -1,0 +1,94 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CHI_TIET_DDH">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MS_DDH" type="xs:string" minOccurs="0" />
+              <xs:element name="MAT_HANG" type="xs:string" minOccurs="0" />
+              <xs:element name="SO_LUONG" type="xs:int" minOccurs="0" />
+              <xs:element name="DON_GIA" type="xs:double" minOccurs="0" />
+              <xs:element name="NGOAI_TE" type="xs:string" minOccurs="0" />
+              <xs:element name="TI_GIA" type="xs:double" minOccurs="0" />
+              <xs:element name="DVT" type="xs:string" minOccurs="0" />
+              <xs:element name="THANH_TIEN" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="THONG_TIN_CHUNG">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STT" type="xs:int" minOccurs="0" />
+              <xs:element name="TEN_CTY_TIENG_VIET" type="xs:string" minOccurs="0" />
+              <xs:element name="TEN_CTY_TIENG_ANH" type="xs:string" minOccurs="0" />
+              <xs:element name="TEN_NGAN_TIENG_VIET" type="xs:string" minOccurs="0" />
+              <xs:element name="TEN_NGAN_TIENG_ANH" type="xs:string" minOccurs="0" />
+              <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="LOGO_PATH" type="xs:string" minOccurs="0" />
+              <xs:element name="DIA_CHI_VIET" type="xs:string" minOccurs="0" />
+              <xs:element name="DIA_CHI_ANH" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax" type="xs:string" minOccurs="0" />
+              <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+              <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+              <xs:element name="TI_LE_PHAN_TRAM" type="xs:int" minOccurs="0" />
+              <xs:element name="STRETCH" type="xs:boolean" minOccurs="0" />
+              <xs:element name="LE_PHAI_LOGO" type="xs:int" minOccurs="0" />
+              <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+              <xs:element name="LOGO_TEN_CTY" type="xs:int" minOccurs="0" />
+              <xs:element name="LIM_NUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="USE_NUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="NGAY_TAO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="VI_TRI_KHO" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DUONG_DAN_TL" type="xs:string" minOccurs="0" />
+              <xs:element name="LENGTH" type="xs:int" minOccurs="0" />
+              <xs:element name="LIM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="USED_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PHIEU_NHAP_VTPT" type="xs:string" minOccurs="0" />
+              <xs:element name="PHIEU_XUAT_VTPT" type="xs:string" minOccurs="0" />
+              <xs:element name="PRIVATE" type="xs:string" minOccurs="0" />
+              <xs:element name="AUTO_TGNM" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PBT_KHO" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DDH_DXMH" type="xs:boolean" minOccurs="0" />
+              <xs:element name="EMAIL" type="xs:string" minOccurs="0" />
+              <xs:element name="SO_PHUT_HIEN_MSG" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DON_DAT_HANG">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MS_DDH" type="xs:string" minOccurs="0" />
+              <xs:element name="SO_DDH" type="xs:string" minOccurs="0" />
+              <xs:element name="NGAY_LAP" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SO_DE_XUAT" type="xs:string" minOccurs="0" />
+              <xs:element name="MS_KH" type="xs:string" minOccurs="0" />
+              <xs:element name="DIA_CHI1" type="xs:string" minOccurs="0" />
+              <xs:element name="FAX1" type="xs:string" minOccurs="0" />
+              <xs:element name="THANH_TIEN" type="xs:double" minOccurs="0" />
+              <xs:element name="NGUOI_XAC_NHAN" type="xs:string" minOccurs="0" />
+              <xs:element name="NGUOI_DUYET" type="xs:string" minOccurs="0" />
+              <xs:element name="NGUOI_DAT_HANG" type="xs:string" minOccurs="0" />
+              <xs:element name="FAX" type="xs:string" minOccurs="0" />
+              <xs:element name="DIEN_THOAI" type="xs:string" minOccurs="0" />
+              <xs:element name="DIA_CHI_GIAO_HANG" type="xs:string" minOccurs="0" />
+              <xs:element name="THOI_HAN_THANH_TOAN" type="xs:string" minOccurs="0" />
+              <xs:element name="NGUOI_LIEN_HE" type="xs:string" minOccurs="0" />
+              <xs:element name="DUYET" type="xs:boolean" minOccurs="0" />
+              <xs:element name="HINH_THUC_TT" type="xs:string" minOccurs="0" />
+              <xs:element name="BAO_HANH" type="xs:string" minOccurs="0" />
+              <xs:element name="GHI_CHU" type="xs:string" minOccurs="0" />
+              <xs:element name="NGAY_GIAO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NOI_DUNG_DDH" type="xs:string" minOccurs="0" />
+              <xs:element name="TEN_CONG_TY" type="xs:string" minOccurs="0" />
+              <xs:element name="VAT" type="xs:double" minOccurs="0" />
+              <xs:element name="CAN_CU" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

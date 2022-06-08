@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Import>
+  <Row>
+    <S>Server=192.168.2.5;database=khachhang;uid=sa;pwd=123;Connect Timeout=0;</S>
+    <D>KhachHang</D>
+    <U>SA</U>
+    <P>123</P>
+    <M>baotritoandien@gmail.com</M>
+    <PM>namviet123</PM>
+    <SMTP>smtp.gmail.com</SMTP>
+    <PORT>587</PORT>
+  </Row>
+</Import>

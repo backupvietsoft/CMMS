@@ -1,0 +1,22 @@
+﻿01/01/0001:12:00 AM ucMailBaoTriDinhKyThangCS-13 : True
+ M4-17: Error. 
+01/01/0001:12:00 AM ucMailBaoTriDinhKyThangCS-13 : True
+ M4-17: Error. 
+01/01/0001:12:00 AM ucMailBaoTriDinhKyThangCS-13 : True
+ M4-17: Error. 
+15/03/2021:11:52 AM ucMailBTDKCThucHien-5.pdf: suscess sent to bamboo2711@gmail.com. CC bamboo2711@gmail.com. BCC bamboo2711@gmail.com. 
+01/04/2021:9:25 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:9:25 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:9:26 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:9:27 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:9:28 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:9:29 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:9:30 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:9:31 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:9:56 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:9:57 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:10:07 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:10:08 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:10:09 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:10:11 AM ucMailPGSTTDHKT-7 : can not create: Error. 
+01/04/2021:10:21 AM ucMailPGSTTDHKT-7.pdf: suscess sent to bamboo2711@gmail.com. 

@@ -1,0 +1,4 @@
+﻿1>------ Rebuild All started: Project: MReportVB, Configuration: Debug Any CPU ------
+1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1820,5): warning MSB3277: Found conflicts between different versions of the same dependent assembly that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+1>  MReportVB -> D:\01.Code\02.DLL\MReportVB\MReportVB\bin\Debug\MReportVB.dll
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========

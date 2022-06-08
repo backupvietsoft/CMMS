@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="CMMS_Ecomaint" Class="CustomInfoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LENOVO-PC\SQLEXPRESS;Initial Catalog=CMMS_Ecomaint;User ID=sa" SettingsObjectName="CustomerInfoReport.Properties.Settings" SettingsPropertyName="CMMS_EcomaintConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Y_Tinh" Member="Y_Tinhs">
+    <Type Name="Y_Tinh">
+      <Column Name="ma_qg" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="ten_qg" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Y_District" Member="Y_Districts">
+    <Type Name="Y_District">
+      <Column Name="ma_qg" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="ten_qg" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ms_cha" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NHA_XUONG" Member="NHA_XUONGs">
+    <Type Name="NHA_XUONG">
+      <Column Name="MS_N_XUONG" Type="System.String" DbType="NVarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MS_CHA" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="TEN_N_XUONG" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="TEN_N_XUONG_A" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TEN_N_XUONG_H" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TRU_SO" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="NGUOI_DAI_DIEN" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DIEN_THOAI" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MS_QG" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="MS_DUONG" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="DIA_CHI" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DIEN_TICH" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="KHOANG_CACH" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="GHI_CHU" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="MS_DON_VI" Type="System.String" DbType="NVarChar(6)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NHOM_MAY" Member="NHOM_MAYs">
+    <Type Name="NHOM_MAY">
+      <Column Name="MS_NHOM_MAY" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TEN_NHOM_MAY" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="MS_LOAI_MAY" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="LOAI_MAY_NHOM_MAY" Member="LOAI_MAY" ThisKey="MS_LOAI_MAY" OtherKey="MS_LOAI_MAY" Type="LOAI_MAY" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOAI_MAY" Member="LOAI_MAYs">
+    <Type Name="LOAI_MAY">
+      <Column Name="MS_LOAI_MAY" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TEN_LOAI_MAY" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="STT_MAY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ATTACHMENT" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="LOAI_MAY_NHOM_MAY" Member="NHOM_MAYs" ThisKey="MS_LOAI_MAY" OtherKey="MS_LOAI_MAY" Type="NHOM_MAY" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Y_Duong" Member="Y_Duongs">
+    <Type Name="Y_Duong">
+      <Column Name="Duong_Quan" Type="System.String" DbType="NVarChar(203)" CanBeNull="true" />
+      <Column Name="Duong_TV" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Duong_TA" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Duong_TH" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MS_Duong" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="MS_Quan" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Quan" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MS_Tinh" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.IC_DUONG" Member="IC_DUONGs">
+    <Type Name="IC_DUONG">
+      <Column Name="MS" Type="System.String" DbType="NVarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TEN_V" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="TEN_A" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TEN_H" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="GHI_CHU" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_Duong_Not_District" Member="View_Duong_Not_Districts">
+    <Type Name="View_Duong_Not_District">
+      <Column Name="ten_v" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="ms_Duong" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="ms_Tinh" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_ReportCustomer" Member="V_ReportCustomers">
+    <Type Name="V_ReportCustomer">
+      <Column Name="MS_N_XUONG" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="MS_CHA" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="TEN_N_XUONG" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="DIEN_THOAI" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="DIA_CHI" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="tendaily" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="MS_QG" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="MS_DUONG" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="tenduong" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="quan" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="ms_city" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Tinh" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="NX1" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="MS_MAY" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="SO_THE" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SERIAL_NUMBER" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TEN_MAY" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="MS_NHOM_MAY" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="TEN_NHOM_MAY" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="MS_LOAI_MAY" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="TEN_LOAI_MAY" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOAI_BAO_TRI" Member="LOAI_BAO_TRIs">
+    <Type Name="LOAI_BAO_TRI">
+      <Column Name="MS_LOAI_BT" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TEN_LOAI_BT" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="THU_TU" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MS_HT_BT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GHI_CHU" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="HU_HONG" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Report_Warranty_Equipment" Member="V_Report_Warranty_Equipments">
+    <Type Name="V_Report_Warranty_Equipment">
+      <Column Name="MS_MAY_FINAL" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="MS_N_Xuong" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ms_cha" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="TEN_DAI_LY" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="MS_Duong" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="TENDUONG" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="MS_Q" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="QUAN" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="MS_TINH" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="TINH" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="GHI_CHU" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="MS_NX" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MS_PHIEU_BAO_TRI" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MS_MAY" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="THOI_GIAN_BAO_TRI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="THOI_GIAN_SU_CO" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BIEN_BAN" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="NGUOI_THUC_HIEN" Type="System.String" DbType="NVarChar(41)" CanBeNull="true" />
+      <Column Name="TEN_THIET_BI" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="MS_NHOM_MAY" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="TEN_NHOM_MAY" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="MS_LOAI_MAY" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="TEN_LOAI_MAY" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TEN_BO_PHAN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MO_TA_CV" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TEN_PT" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="SL" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_ReportMaintaince" Member="V_ReportMaintainces">
+    <Type Name="V_ReportMaintaince">
+      <Column Name="MS_MAY_FINAL" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="Ten_N_Xuong" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MS_N_Xuong" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ms_cha" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="TEN_DAI_LY" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="MS_Duong" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="TENDUONG" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="MS_Q" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="QUAN" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="MS_TINH" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="TINH" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Dien_Thoai" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Dia_Chi" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MS_NX" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TEN_NX" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MS_LOAI_MAY" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MO_TA_CV" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="GHI_CHU" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="MS_MAY" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="MS_NHOM_MAY" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MODEL" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TEN_MAY" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="MS_CV" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NGAY_LAP" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MS_BO_PHAN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TEN_PT" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TEN_1" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="TEN_BO_PHAN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TEN_NHOM_MAY" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="MS_PT" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="NGAY_HOAN_THANH" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MS_PHIEU_BAO_TRI" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MS_LOAI_BT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HoTen_CN" Type="System.String" DbType="NVarChar(41)" CanBeNull="true" />
+      <Column Name="NGAY_BD_KH" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SL" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.Get_Nha_Xuong_All" Method="Get_Nha_Xuong_All">
+    <Parameter Name="ms_tinh" Type="System.String" DbType="NVarChar(30)" />
+    <Parameter Name="ms_quan" Type="System.String" DbType="NVarChar(30)" />
+    <Parameter Name="ms_duong" Type="System.String" DbType="NVarChar(30)" />
+    <ElementType Name="Get_Nha_Xuong_AllResult">
+      <Column Name="ms_n_xuong" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="ten_n_xuong" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

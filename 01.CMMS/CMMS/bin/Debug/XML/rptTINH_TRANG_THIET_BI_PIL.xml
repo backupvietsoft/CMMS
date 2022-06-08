@@ -1,0 +1,2860 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TINH_TRANG_THIET_BI">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STT" msdata:ReadOnly="true" type="xs:long" minOccurs="0" />
+                <xs:element name="MS_MAY" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_BO_PHAN" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="556" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_TS_GSTT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CHU_KY_DO" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="29" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_KT_CUOI" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TEN_GIA_TRI" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DAT" msdata:ReadOnly="true" type="xs:boolean" />
+                <xs:element name="NGAY_KT_KE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TEN_GT_GSTT" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="STT_BP" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+                <xs:element name="TEN_LOAI_MAY" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CACH_THUC_HIEN" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="THOI_GIAN" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TIEU_DE_TINH_TRANG_THIET_BI">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="TU_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DEN_NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DieuKienLoc" type="xs:string" minOccurs="0" />
+                <xs:element name="BoPhan" type="xs:string" minOccurs="0" />
+                <xs:element name="ThongSoGiamSat" type="xs:string" minOccurs="0" />
+                <xs:element name="GiaTri" type="xs:string" minOccurs="0" />
+                <xs:element name="Dat" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayGSCuoi" type="xs:string" minOccurs="0" />
+                <xs:element name="ChuKy" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayGSKe" type="xs:string" minOccurs="0" />
+                <xs:element name="KetQuaKT" type="xs:string" minOccurs="0" />
+                <xs:element name="DiaDiem" type="xs:string" minOccurs="0" />
+                <xs:element name="ThietBi" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayKT" type="xs:string" minOccurs="0" />
+                <xs:element name="NguoiKT" type="xs:string" minOccurs="0" />
+                <xs:element name="MAU_SO" type="xs:string" minOccurs="0" />
+                <xs:element name="LAN_BH" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_BH" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP1" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP2" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP3" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP4" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP5" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP6" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP7" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP8" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP9" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP10" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <TINH_TRANG_THIET_BI>
+    <STT>1</STT>
+    <MS_MAY>ACI-01-01-01</MS_MAY>
+    <TEN_MAY>Fcu 2/1(1.5Hp) Ban Giám Đốc</TEN_MAY>
+    <TEN_BO_PHAN>Máy lạnh VP 2 cục loại treo tường - 01.01 - Cục nóng </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra cục nóng</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-29T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Dơ; Hư tụ lóc; Hư tụ quạt; Thiếu ga; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Máy lạnh</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>2</STT>
+    <MS_MAY>ACI-01-01-01</MS_MAY>
+    <TEN_MAY>Fcu 2/1(1.5Hp) Ban Giám Đốc</TEN_MAY>
+    <TEN_BO_PHAN>Máy lạnh VP 2 cục loại treo tường - 01.02 - Cục lạnh treo tường</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra cục lạnh</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-29T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Dơ; Hư boad ; Hư cánh đảo gió; Hư đầu dò tính hiệu; Hư tụ quạt; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Máy lạnh</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>3</STT>
+    <MS_MAY>ACI-01-01-02</MS_MAY>
+    <TEN_MAY>Fcu 2/2(1.5Hp) Ban Giám Đốc</TEN_MAY>
+    <TEN_BO_PHAN>Máy lạnh VP 2 cục loại treo tường - 01.01 - Cục nóng </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra cục nóng</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-29T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Dơ; Hư tụ lóc; Hư tụ quạt; Thiếu ga; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Máy lạnh</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>4</STT>
+    <MS_MAY>ACI-01-01-02</MS_MAY>
+    <TEN_MAY>Fcu 2/2(1.5Hp) Ban Giám Đốc</TEN_MAY>
+    <TEN_BO_PHAN>Máy lạnh VP 2 cục loại treo tường - 01.02 - Cục lạnh treo tường</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra cục lạnh</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-29T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Dơ; Hư boad ; Hư cánh đảo gió; Hư đầu dò tính hiệu; Hư tụ quạt; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Máy lạnh</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>5</STT>
+    <MS_MAY>ACI-01-01-03</MS_MAY>
+    <TEN_MAY>Fcu 2/3(1.5Hp) Ban Giám Đốc</TEN_MAY>
+    <TEN_BO_PHAN>Máy lạnh VP 2 cục loại treo tường - 01.01 - Cục nóng </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra cục nóng</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-29T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Dơ; Hư tụ lóc; Hư tụ quạt; Thiếu ga; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Máy lạnh</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>6</STT>
+    <MS_MAY>ACI-01-01-03</MS_MAY>
+    <TEN_MAY>Fcu 2/3(1.5Hp) Ban Giám Đốc</TEN_MAY>
+    <TEN_BO_PHAN>Máy lạnh VP 2 cục loại treo tường - 01.02 - Cục lạnh treo tường</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra cục lạnh</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-29T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Dơ; Hư boad ; Hư cánh đảo gió; Hư đầu dò tính hiệu; Hư tụ quạt; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Máy lạnh</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>7</STT>
+    <MS_MAY>ACI-01-01-20</MS_MAY>
+    <TEN_MAY>Fcu 7/2(1.5Hp) Phòng Nguyên Liệu</TEN_MAY>
+    <TEN_BO_PHAN>Máy lạnh VP 2 cục loại treo tường - 01.01 - Cục nóng </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra cục nóng</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-23T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-04-30T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Dơ; Hư tụ lóc; Hư tụ quạt; Thiếu ga; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Máy lạnh</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>8</STT>
+    <MS_MAY>ACI-01-01-20</MS_MAY>
+    <TEN_MAY>Fcu 7/2(1.5Hp) Phòng Nguyên Liệu</TEN_MAY>
+    <TEN_BO_PHAN>Máy lạnh VP 2 cục loại treo tường - 01.02 - Cục lạnh treo tường</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra cục lạnh</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-23T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-04-30T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Dơ; Hư boad ; Hư cánh đảo gió; Hư đầu dò tính hiệu; Hư tụ quạt; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Máy lạnh</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>9</STT>
+    <MS_MAY>BEC-01-01</MS_MAY>
+    <TEN_MAY>Băng tải sau máy sấy E14a</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.01 - Con lăn băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra con lăn</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-02-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-08-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Lệch hướng; Mòn ; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>10</STT>
+    <MS_MAY>BEC-01-01</MS_MAY>
+    <TEN_MAY>Băng tải sau máy sấy E14a</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.02 - Dây băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra băng tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-02-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-08-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng con lăn; Lệch hướng; Quá chùng ; Rách băng tải; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>11</STT>
+    <MS_MAY>BEC-01-02</MS_MAY>
+    <TEN_MAY>Băng tải sau máy sấy E14b</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.01 - Con lăn băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra con lăn</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Lệch hướng; Mòn ; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>12</STT>
+    <MS_MAY>BEC-01-02</MS_MAY>
+    <TEN_MAY>Băng tải sau máy sấy E14b</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.02 - Dây băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra băng tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng con lăn; Lệch hướng; Quá chùng ; Rách băng tải; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>13</STT>
+    <MS_MAY>BEC-01-03</MS_MAY>
+    <TEN_MAY>Băng tải sau máy sấy E14c</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.01 - Con lăn băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra con lăn</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2017-11-04T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-04T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Lệch hướng; Mòn ; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>14</STT>
+    <MS_MAY>BEC-01-03</MS_MAY>
+    <TEN_MAY>Băng tải sau máy sấy E14c</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.02 - Dây băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra băng tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2017-11-04T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-04T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng con lăn; Lệch hướng; Quá chùng ; Rách băng tải; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>15</STT>
+    <MS_MAY>BEC-01-04</MS_MAY>
+    <TEN_MAY>Băng tải sau máy sấy E14d</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.01 - Con lăn băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra con lăn</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2017-11-04T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-04T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Lệch hướng; Mòn ; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>16</STT>
+    <MS_MAY>BEC-01-04</MS_MAY>
+    <TEN_MAY>Băng tải sau máy sấy E14d</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.02 - Dây băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra băng tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2017-11-04T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-04T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng con lăn; Lệch hướng; Quá chùng ; Rách băng tải; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>17</STT>
+    <MS_MAY>BEC-01-05</MS_MAY>
+    <TEN_MAY>Băng tải sau máy sấy E</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.01 - Con lăn băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra con lăn</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-02-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-08-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Lệch hướng; Mòn ; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>18</STT>
+    <MS_MAY>BEC-01-05</MS_MAY>
+    <TEN_MAY>Băng tải sau máy sấy E</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.02 - Dây băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra băng tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-02-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-08-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng con lăn; Lệch hướng; Quá chùng ; Rách băng tải; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>19</STT>
+    <MS_MAY>BEC-01-06</MS_MAY>
+    <TEN_MAY>Băng tải sau máy sấy F</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.01 - Con lăn băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra con lăn</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Lệch hướng; Mòn ; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>20</STT>
+    <MS_MAY>BEC-01-06</MS_MAY>
+    <TEN_MAY>Băng tải sau máy sấy F</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.02 - Dây băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra băng tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng con lăn; Lệch hướng; Quá chùng ; Rách băng tải; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>21</STT>
+    <MS_MAY>BEC-04-01</MS_MAY>
+    <TEN_MAY>Băng tải thành phẩm DC1</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.01 - Con lăn băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra con lăn</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Lệch hướng; Mòn ; Tốt</TEN_GT_GSTT>
+    <STT_BP>999</STT_BP>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>22</STT>
+    <MS_MAY>BEC-04-01</MS_MAY>
+    <TEN_MAY>Băng tải thành phẩm DC1</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.02 - Dây băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra băng tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng con lăn; Lệch hướng; Quá chùng ; Rách băng tải; Tốt</TEN_GT_GSTT>
+    <STT_BP>999</STT_BP>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>23</STT>
+    <MS_MAY>BEC-04-02</MS_MAY>
+    <TEN_MAY>Băng tải thành phẩm DC2</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.01 - Con lăn băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra con lăn</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2017-12-02T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-06-02T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Lệch hướng; Mòn ; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>24</STT>
+    <MS_MAY>BEC-04-02</MS_MAY>
+    <TEN_MAY>Băng tải thành phẩm DC2</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.02 - Dây băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra băng tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2017-12-02T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-06-02T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng con lăn; Lệch hướng; Quá chùng ; Rách băng tải; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>25</STT>
+    <MS_MAY>BEC-04-03</MS_MAY>
+    <TEN_MAY>Băng tải thành phẩm DC3</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.01 - Con lăn băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra con lăn</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Lệch hướng; Mòn ; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>26</STT>
+    <MS_MAY>BEC-04-03</MS_MAY>
+    <TEN_MAY>Băng tải thành phẩm DC3</TEN_MAY>
+    <TEN_BO_PHAN>Băng tải - 02.02 - Dây băng tải</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra băng tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng con lăn; Lệch hướng; Quá chùng ; Rách băng tải; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Băng tải</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>27</STT>
+    <MS_MAY>BIN-01-01-01</MS_MAY>
+    <TEN_MAY>Bin chứa số 01 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>28</STT>
+    <MS_MAY>BIN-01-01-02</MS_MAY>
+    <TEN_MAY>Bin chứa số 02 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>29</STT>
+    <MS_MAY>BIN-01-01-02</MS_MAY>
+    <TEN_MAY>Bin chứa số 02 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>30</STT>
+    <MS_MAY>BIN-01-01-02</MS_MAY>
+    <TEN_MAY>Bin chứa số 02 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>31</STT>
+    <MS_MAY>BIN-01-01-03</MS_MAY>
+    <TEN_MAY>Bin chứa số 03 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>32</STT>
+    <MS_MAY>BIN-01-01-03</MS_MAY>
+    <TEN_MAY>Bin chứa số 03 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>33</STT>
+    <MS_MAY>BIN-01-01-03</MS_MAY>
+    <TEN_MAY>Bin chứa số 03 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>34</STT>
+    <MS_MAY>BIN-01-01-04</MS_MAY>
+    <TEN_MAY>Bin chứa số 04 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>35</STT>
+    <MS_MAY>BIN-01-01-04</MS_MAY>
+    <TEN_MAY>Bin chứa số 04 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>36</STT>
+    <MS_MAY>BIN-01-01-04</MS_MAY>
+    <TEN_MAY>Bin chứa số 04 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>37</STT>
+    <MS_MAY>BIN-01-01-05</MS_MAY>
+    <TEN_MAY>Bin chứa số 05 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>38</STT>
+    <MS_MAY>BIN-01-01-05</MS_MAY>
+    <TEN_MAY>Bin chứa số 05 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>39</STT>
+    <MS_MAY>BIN-01-01-05</MS_MAY>
+    <TEN_MAY>Bin chứa số 05 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>40</STT>
+    <MS_MAY>BIN-01-01-06</MS_MAY>
+    <TEN_MAY>Bin chứa số 06 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>41</STT>
+    <MS_MAY>BIN-01-01-06</MS_MAY>
+    <TEN_MAY>Bin chứa số 06 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>42</STT>
+    <MS_MAY>BIN-01-01-06</MS_MAY>
+    <TEN_MAY>Bin chứa số 06 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>43</STT>
+    <MS_MAY>BIN-01-01-07</MS_MAY>
+    <TEN_MAY>Bin chứa số 07 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>44</STT>
+    <MS_MAY>BIN-01-01-07</MS_MAY>
+    <TEN_MAY>Bin chứa số 07 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>45</STT>
+    <MS_MAY>BIN-01-01-07</MS_MAY>
+    <TEN_MAY>Bin chứa số 07 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>46</STT>
+    <MS_MAY>BIN-01-01-08</MS_MAY>
+    <TEN_MAY>Bin chứa số 08 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>47</STT>
+    <MS_MAY>BIN-01-01-08</MS_MAY>
+    <TEN_MAY>Bin chứa số 08 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>48</STT>
+    <MS_MAY>BIN-01-01-08</MS_MAY>
+    <TEN_MAY>Bin chứa số 08 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>49</STT>
+    <MS_MAY>BIN-01-01-09</MS_MAY>
+    <TEN_MAY>Bin chứa số 09 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>50</STT>
+    <MS_MAY>BIN-01-01-09</MS_MAY>
+    <TEN_MAY>Bin chứa số 09 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>51</STT>
+    <MS_MAY>BIN-01-01-09</MS_MAY>
+    <TEN_MAY>Bin chứa số 09 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>52</STT>
+    <MS_MAY>BIN-01-01-10</MS_MAY>
+    <TEN_MAY>Bin chứa số 10 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>53</STT>
+    <MS_MAY>BIN-01-01-10</MS_MAY>
+    <TEN_MAY>Bin chứa số 10 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>54</STT>
+    <MS_MAY>BIN-01-01-10</MS_MAY>
+    <TEN_MAY>Bin chứa số 10 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>55</STT>
+    <MS_MAY>BIN-01-01-11</MS_MAY>
+    <TEN_MAY>Bin chứa số 11 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>56</STT>
+    <MS_MAY>BIN-01-01-11</MS_MAY>
+    <TEN_MAY>Bin chứa số 11 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>57</STT>
+    <MS_MAY>BIN-01-01-11</MS_MAY>
+    <TEN_MAY>Bin chứa số 11 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>58</STT>
+    <MS_MAY>BIN-01-01-12</MS_MAY>
+    <TEN_MAY>Bin chứa số 12 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>59</STT>
+    <MS_MAY>BIN-01-01-12</MS_MAY>
+    <TEN_MAY>Bin chứa số 12 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>60</STT>
+    <MS_MAY>BIN-01-01-12</MS_MAY>
+    <TEN_MAY>Bin chứa số 12 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>61</STT>
+    <MS_MAY>BIN-01-03-01</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>62</STT>
+    <MS_MAY>BIN-01-03-01</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>63</STT>
+    <MS_MAY>BIN-01-03-01</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>64</STT>
+    <MS_MAY>BIN-01-03-02</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-2</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>65</STT>
+    <MS_MAY>BIN-01-03-02</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-2</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>66</STT>
+    <MS_MAY>BIN-01-03-02</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-2</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>67</STT>
+    <MS_MAY>BIN-01-03-03</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-3</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>68</STT>
+    <MS_MAY>BIN-01-03-03</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-3</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>69</STT>
+    <MS_MAY>BIN-01-03-03</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-3</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>70</STT>
+    <MS_MAY>BIN-01-03-04</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-4</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>71</STT>
+    <MS_MAY>BIN-01-03-04</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-4</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>72</STT>
+    <MS_MAY>BIN-01-03-04</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-4</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>73</STT>
+    <MS_MAY>BIN-01-03-05</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-5</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>74</STT>
+    <MS_MAY>BIN-01-03-05</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-5</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>75</STT>
+    <MS_MAY>BIN-01-03-05</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-5</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>76</STT>
+    <MS_MAY>BIN-01-03-06</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-6</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>77</STT>
+    <MS_MAY>BIN-01-03-06</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-6</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>78</STT>
+    <MS_MAY>BIN-01-03-06</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-6</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>79</STT>
+    <MS_MAY>BIN-01-03-07</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-7</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>80</STT>
+    <MS_MAY>BIN-01-03-07</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-7</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>81</STT>
+    <MS_MAY>BIN-01-03-07</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-7</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>82</STT>
+    <MS_MAY>BIN-01-03-08</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-8</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>83</STT>
+    <MS_MAY>BIN-01-03-08</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-8</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>84</STT>
+    <MS_MAY>BIN-01-03-08</MS_MAY>
+    <TEN_MAY>Bin chứa 30m3 B 101-8</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>85</STT>
+    <MS_MAY>BIN-01-03-09</MS_MAY>
+    <TEN_MAY>Bin chứa 15m3 B 101-1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>86</STT>
+    <MS_MAY>BIN-01-03-09</MS_MAY>
+    <TEN_MAY>Bin chứa 15m3 B 101-1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>87</STT>
+    <MS_MAY>BIN-01-03-09</MS_MAY>
+    <TEN_MAY>Bin chứa 15m3 B 101-1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>88</STT>
+    <MS_MAY>BIN-01-03-10</MS_MAY>
+    <TEN_MAY>Bin chứa 15m3 B 101-2</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>89</STT>
+    <MS_MAY>BIN-01-03-10</MS_MAY>
+    <TEN_MAY>Bin chứa 15m3 B 101-2</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>90</STT>
+    <MS_MAY>BIN-01-03-10</MS_MAY>
+    <TEN_MAY>Bin chứa 15m3 B 101-2</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>91</STT>
+    <MS_MAY>BIN-01-03-11</MS_MAY>
+    <TEN_MAY>Bin chứa 15m3 B 101-3</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>92</STT>
+    <MS_MAY>BIN-01-03-11</MS_MAY>
+    <TEN_MAY>Bin chứa 15m3 B 101-3</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>93</STT>
+    <MS_MAY>BIN-01-03-11</MS_MAY>
+    <TEN_MAY>Bin chứa 15m3 B 101-3</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>94</STT>
+    <MS_MAY>BIN-01-03-12</MS_MAY>
+    <TEN_MAY>Bin chứa 15m3 B 101-4</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>95</STT>
+    <MS_MAY>BIN-01-03-12</MS_MAY>
+    <TEN_MAY>Bin chứa 15m3 B 101-4</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>96</STT>
+    <MS_MAY>BIN-01-03-12</MS_MAY>
+    <TEN_MAY>Bin chứa 15m3 B 101-4</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-06T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-06T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>97</STT>
+    <MS_MAY>BIN-02-01</MS_MAY>
+    <TEN_MAY>Bin thành phẩm FP101-1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-31T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-30T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>98</STT>
+    <MS_MAY>BIN-02-01</MS_MAY>
+    <TEN_MAY>Bin thành phẩm FP101-1</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-31T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-30T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>99</STT>
+    <MS_MAY>BIN-02-01</MS_MAY>
+    <TEN_MAY>Bin thành phẩm FP101-1</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-31T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-30T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>100</STT>
+    <MS_MAY>BIN-02-02</MS_MAY>
+    <TEN_MAY>Bin thành phẩm FP101-2</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>101</STT>
+    <MS_MAY>BIN-02-02</MS_MAY>
+    <TEN_MAY>Bin thành phẩm FP101-2</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>102</STT>
+    <MS_MAY>BIN-02-02</MS_MAY>
+    <TEN_MAY>Bin thành phẩm FP101-2</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>103</STT>
+    <MS_MAY>BIN-02-03</MS_MAY>
+    <TEN_MAY>Bin thành phẩm FP101-3</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>104</STT>
+    <MS_MAY>BIN-02-03</MS_MAY>
+    <TEN_MAY>Bin thành phẩm FP101-3</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>105</STT>
+    <MS_MAY>BIN-02-03</MS_MAY>
+    <TEN_MAY>Bin thành phẩm FP101-3</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>106</STT>
+    <MS_MAY>BIN-02-04</MS_MAY>
+    <TEN_MAY>Bin thành phẩm FP101-4</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>107</STT>
+    <MS_MAY>BIN-02-04</MS_MAY>
+    <TEN_MAY>Bin thành phẩm FP101-4</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>108</STT>
+    <MS_MAY>BIN-02-04</MS_MAY>
+    <TEN_MAY>Bin thành phẩm FP101-4</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>109</STT>
+    <MS_MAY>BIN-04-01</MS_MAY>
+    <TEN_MAY>Bin chứa DC3</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức cao - 01 - Báo mức cao</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức cao</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-02-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-08-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>110</STT>
+    <MS_MAY>BIN-04-01</MS_MAY>
+    <TEN_MAY>Bin chứa DC3</TEN_MAY>
+    <TEN_BO_PHAN>Báo mức thấp - 02 - Báo mức thấp</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra báo mức thấp</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-02-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-08-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Không hoạt động; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>111</STT>
+    <MS_MAY>BIN-04-01</MS_MAY>
+    <TEN_MAY>Bin chứa DC3</TEN_MAY>
+    <TEN_BO_PHAN>Búa rung - 03 - Búa rung</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra búa rung </TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-02-03T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-08-03T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Rung yếu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Bin chứa</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>112</STT>
+    <MS_MAY>BUE-01-01</MS_MAY>
+    <TEN_MAY>Gàu cấp liệu A02</TEN_MAY>
+    <TEN_BO_PHAN>Guồng quay - 02 - Guồng quay</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra gàu tải</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-13T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-11-20T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bạc đạn hư; Dây gàu mòn; Máng hư; Máng mòn; Thiếu mỡ bò; Thủng thân gàu; Tốt; Trục mòn</TEN_GT_GSTT>
+    <STT_BP>329</STT_BP>
+    <TEN_LOAI_MAY>Gàu tải liệu</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>113</STT>
+    <MS_MAY>BUE-01-01</MS_MAY>
+    <TEN_MAY>Gàu cấp liệu A02</TEN_MAY>
+    <TEN_BO_PHAN>Dây gàu - 03 - Dây gàu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra gàu tải</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-13T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-11-20T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bạc đạn hư; Dây gàu mòn; Máng hư; Máng mòn; Thiếu mỡ bò; Thủng thân gàu; Tốt; Trục mòn</TEN_GT_GSTT>
+    <STT_BP>330</STT_BP>
+    <TEN_LOAI_MAY>Gàu tải liệu</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>114</STT>
+    <MS_MAY>BUE-01-01</MS_MAY>
+    <TEN_MAY>Gàu cấp liệu A02</TEN_MAY>
+    <TEN_BO_PHAN>Máng gàu - 04 - Máng gàu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra gàu tải</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-13T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-11-20T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bạc đạn hư; Dây gàu mòn; Máng hư; Máng mòn; Thiếu mỡ bò; Thủng thân gàu; Tốt; Trục mòn</TEN_GT_GSTT>
+    <STT_BP>331</STT_BP>
+    <TEN_LOAI_MAY>Gàu tải liệu</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>115</STT>
+    <MS_MAY>BUE-01-01</MS_MAY>
+    <TEN_MAY>Gàu cấp liệu A02</TEN_MAY>
+    <TEN_BO_PHAN>Bạc đạn - 05 - Bạc đạn</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bạc đạn </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-13T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-11-20T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Nóng ; Rung ; Tốt </TEN_GT_GSTT>
+    <STT_BP>332</STT_BP>
+    <TEN_LOAI_MAY>Gàu tải liệu</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>116</STT>
+    <MS_MAY>BUE-01-01</MS_MAY>
+    <TEN_MAY>Gàu cấp liệu A02</TEN_MAY>
+    <TEN_BO_PHAN>Hệ thống truyền động - 06 - Hệ thống truyền động</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra hệ thống truyền động</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-13T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-12-13T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Kêu; Rung; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Gàu tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>60</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>117</STT>
+    <MS_MAY>BUE-01-02</MS_MAY>
+    <TEN_MAY>Gàu cấp liệu B01</TEN_MAY>
+    <TEN_BO_PHAN>Guồng quay - 02 - Guồng quay</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra gàu tải</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-13T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-11-20T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bạc đạn hư; Dây gàu mòn; Máng hư; Máng mòn; Thiếu mỡ bò; Thủng thân gàu; Tốt; Trục mòn</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Gàu tải liệu</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>118</STT>
+    <MS_MAY>BUE-01-02</MS_MAY>
+    <TEN_MAY>Gàu cấp liệu B01</TEN_MAY>
+    <TEN_BO_PHAN>Dây gàu - 03 - Dây gàu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra gàu tải</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-13T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-11-20T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bạc đạn hư; Dây gàu mòn; Máng hư; Máng mòn; Thiếu mỡ bò; Thủng thân gàu; Tốt; Trục mòn</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Gàu tải liệu</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>119</STT>
+    <MS_MAY>BUE-01-02</MS_MAY>
+    <TEN_MAY>Gàu cấp liệu B01</TEN_MAY>
+    <TEN_BO_PHAN>Máng gàu - 04 - Máng gàu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra gàu tải</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-13T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-11-20T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bạc đạn hư; Dây gàu mòn; Máng hư; Máng mòn; Thiếu mỡ bò; Thủng thân gàu; Tốt; Trục mòn</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Gàu tải liệu</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>120</STT>
+    <MS_MAY>BUE-01-02</MS_MAY>
+    <TEN_MAY>Gàu cấp liệu B01</TEN_MAY>
+    <TEN_BO_PHAN>Bạc đạn - 05 - Bạc đạn</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bạc đạn </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-13T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-11-20T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Nóng ; Rung ; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Gàu tải liệu</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>121</STT>
+    <MS_MAY>DRS-01-03</MS_MAY>
+    <TEN_MAY>Sàng tinh B25c</TEN_MAY>
+    <TEN_BO_PHAN>Vít tải liệu - 02.01 - Mô tơ hộp số</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra mô tơ hộp số</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-14T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-14T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Chảy dầu; Dầu dơ; Hỏng; Hộp số nóng; Kêu; Mô tơ nóng; Rò rỉ điện; Thiếu dầu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Sàng tinh </TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>122</STT>
+    <MS_MAY>DRS-01-03</MS_MAY>
+    <TEN_MAY>Sàng tinh B25c</TEN_MAY>
+    <TEN_BO_PHAN>Trục sàng tinh - 04.05 - Hệ thống truyền động</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra hệ thống truyền động</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-14T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-14T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Kêu; Rung; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Sàng tinh </TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>60</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>123</STT>
+    <MS_MAY>DRS-01-04</MS_MAY>
+    <TEN_MAY>Sàng tinh B25d</TEN_MAY>
+    <TEN_BO_PHAN>Vít tải liệu - 02.01 - Mô tơ hộp số</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra mô tơ hộp số</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-14T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-14T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Chảy dầu; Dầu dơ; Hỏng; Hộp số nóng; Kêu; Mô tơ nóng; Rò rỉ điện; Thiếu dầu; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Sàng tinh </TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>124</STT>
+    <MS_MAY>DRS-01-04</MS_MAY>
+    <TEN_MAY>Sàng tinh B25d</TEN_MAY>
+    <TEN_BO_PHAN>Mô tơ  lồng lưới - 03.03 - Hệ thống truyền động</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra hệ thống truyền động</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-14T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-14T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Kêu; Rung; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Sàng tinh </TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>60</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>125</STT>
+    <MS_MAY>DRS-01-04</MS_MAY>
+    <TEN_MAY>Sàng tinh B25d</TEN_MAY>
+    <TEN_BO_PHAN>Trục sàng tinh - 04.05 - Hệ thống truyền động</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra hệ thống truyền động</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-14T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-14T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Kêu; Rung; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Sàng tinh </TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>60</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>126</STT>
+    <MS_MAY>HAM-01-01</MS_MAY>
+    <TEN_MAY>Máy nghiền A</TEN_MAY>
+    <TEN_BO_PHAN>Máy nghiền B07A - 01.01 - Mô tơ </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra mô tơ</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-24T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-12-01T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Kêu; Nóng; Rò rỉ điện; Tốt </TEN_GT_GSTT>
+    <STT_BP>10</STT_BP>
+    <TEN_LOAI_MAY>Nghiền tinh</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>127</STT>
+    <MS_MAY>HAM-01-01</MS_MAY>
+    <TEN_MAY>Máy nghiền A</TEN_MAY>
+    <TEN_BO_PHAN>Máy nghiền B07A - 01.04 - Khung lưới</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bạc đạn </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-24T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-12-01T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Nóng ; Rung ; Tốt </TEN_GT_GSTT>
+    <STT_BP>13</STT_BP>
+    <TEN_LOAI_MAY>Nghiền tinh</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>128</STT>
+    <MS_MAY>HAM-01-01</MS_MAY>
+    <TEN_MAY>Máy nghiền A</TEN_MAY>
+    <TEN_BO_PHAN>Quạt hút máy nghiền B09a - 02.01 - Mô tơ </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra mô tơ</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-24T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-12-01T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Kêu; Nóng; Rò rỉ điện; Tốt </TEN_GT_GSTT>
+    <STT_BP>17</STT_BP>
+    <TEN_LOAI_MAY>Nghiền tinh</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>129</STT>
+    <MS_MAY>HAM-01-01</MS_MAY>
+    <TEN_MAY>Máy nghiền A</TEN_MAY>
+    <TEN_BO_PHAN>Quạt hút máy nghiền B09a - 02.02 - Guồng quạt </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra quạt</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-24T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-12-01T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Cánh mòn; Dây đai chùng; Dây đai hỏng; Gối đỡ kêu; Hộp đấu dây tiếp xúc không tốt; Khung hỏng; Puly lỏng; Tốt; Trục mòn</TEN_GT_GSTT>
+    <STT_BP>18</STT_BP>
+    <TEN_LOAI_MAY>Nghiền tinh</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>130</STT>
+    <MS_MAY>HAM-01-01</MS_MAY>
+    <TEN_MAY>Máy nghiền A</TEN_MAY>
+    <TEN_BO_PHAN>Gạt liệu bộ dủ B10a - 1 - 03.01 - Mô tơ </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra mô tơ</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-24T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-12-01T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Kêu; Nóng; Rò rỉ điện; Tốt </TEN_GT_GSTT>
+    <STT_BP>20</STT_BP>
+    <TEN_LOAI_MAY>Nghiền tinh</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>131</STT>
+    <MS_MAY>HAM-01-01</MS_MAY>
+    <TEN_MAY>Máy nghiền A</TEN_MAY>
+    <TEN_BO_PHAN>Airlock bộ dủ B10a - 2 - 04.02 - Airlock</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra airlock</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-24T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-12-01T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bạc đạn kêu; Cánh mòn; Tốt; Trục mòn</TEN_GT_GSTT>
+    <STT_BP>24</STT_BP>
+    <TEN_LOAI_MAY>Nghiền tinh</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>132</STT>
+    <MS_MAY>INT-01-01</MS_MAY>
+    <TEN_MAY>Nạp liệu DC1</TEN_MAY>
+    <TEN_BO_PHAN>Vít nạp liệu - 02 - Vít nạp liệu</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra băng tải</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-20T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-11-27T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng con lăn; Lệch hướng; Quá chùng ; Rách băng tải; Tốt</TEN_GT_GSTT>
+    <STT_BP>625</STT_BP>
+    <TEN_LOAI_MAY>Nạp liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>133</STT>
+    <MS_MAY>INT-01-01</MS_MAY>
+    <TEN_MAY>Nạp liệu DC1</TEN_MAY>
+    <TEN_BO_PHAN>Quạt hút bụi - 03 - Quạt hút bụi</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra quạt hút</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-20T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2019-05-20T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Không hoạt động; Mòn cánh quạt; Motor nóng; Tốt</TEN_GT_GSTT>
+    <STT_BP>999</STT_BP>
+    <TEN_LOAI_MAY>Nạp liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>15</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>134</STT>
+    <MS_MAY>MXF-01-01</MS_MAY>
+    <TEN_MAY>Trộn tinh B17 DC1</TEN_MAY>
+    <TEN_BO_PHAN>Bồn trộn tinh - 01.04 - Bạc đạn</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bạc đạn </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-05T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Nóng ; Rung ; Tốt </TEN_GT_GSTT>
+    <STT_BP>263</STT_BP>
+    <TEN_LOAI_MAY>Trộn tinh </TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>135</STT>
+    <MS_MAY>MXF-01-02</MS_MAY>
+    <TEN_MAY>Trộn tinh B36 DC2</TEN_MAY>
+    <TEN_BO_PHAN>Bồn trộn tinh - 01.04 - Bạc đạn</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bạc đạn </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-05T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Nóng ; Rung ; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Trộn tinh </TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>136</STT>
+    <MS_MAY>MXR-01-01</MS_MAY>
+    <TEN_MAY>Trộn thô B02a</TEN_MAY>
+    <TEN_BO_PHAN>Bồn trộn thô - 01.01 - Mô tơ </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra mô tơ</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-27T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-12-04T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Kêu; Nóng; Rò rỉ điện; Tốt </TEN_GT_GSTT>
+    <STT_BP>245</STT_BP>
+    <TEN_LOAI_MAY>Trộn thô</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>137</STT>
+    <MS_MAY>MXR-01-01</MS_MAY>
+    <TEN_MAY>Trộn thô B02a</TEN_MAY>
+    <TEN_BO_PHAN>Bồn trộn thô - 01.04 - Bạc đạn</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bạc đạn </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-27T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-12-04T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Nóng ; Rung ; Tốt </TEN_GT_GSTT>
+    <STT_BP>248</STT_BP>
+    <TEN_LOAI_MAY>Trộn thô</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>138</STT>
+    <MS_MAY>MXR-01-03</MS_MAY>
+    <TEN_MAY>Trộn thô B02c</TEN_MAY>
+    <TEN_BO_PHAN>Bồn trộn thô - 01.01 - Mô tơ </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra mô tơ</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-05T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Kêu; Nóng; Rò rỉ điện; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Trộn thô</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>139</STT>
+    <MS_MAY>MXR-01-03</MS_MAY>
+    <TEN_MAY>Trộn thô B02c</TEN_MAY>
+    <TEN_BO_PHAN>Bồn trộn thô - 01.04 - Bạc đạn</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra bạc đạn </TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-05-05T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Nóng ; Rung ; Tốt </TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Trộn thô</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>140</STT>
+    <MS_MAY>PAC-01-03</MS_MAY>
+    <TEN_MAY>Cân đóng bao thành phẩm FP 111</TEN_MAY>
+    <TEN_BO_PHAN>Cửa đóng mở - 03 - Cửa đóng mở</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra cửa đóng mở</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-31T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-30T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bánh xe cửa trượt hỏng; Ben hỏng; Ron cửa hỏng ; Tốt; Van từ hỏng</TEN_GT_GSTT>
+    <STT_BP>999</STT_BP>
+    <TEN_LOAI_MAY>Cân đóng bao </TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>141</STT>
+    <MS_MAY>PES-01-01</MS_MAY>
+    <TEN_MAY>Sàng phân cỡ A</TEN_MAY>
+    <TEN_BO_PHAN>Airlock - 01 - Airlock</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra airlock</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-24T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-12-01T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bạc đạn kêu; Cánh mòn; Tốt; Trục mòn</TEN_GT_GSTT>
+    <STT_BP>318</STT_BP>
+    <TEN_LOAI_MAY>Sàng phân cỡ </TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>142</STT>
+    <MS_MAY>PES-01-01</MS_MAY>
+    <TEN_MAY>Sàng phân cỡ A</TEN_MAY>
+    <TEN_BO_PHAN>Sàng phân cỡ E28A - 02.01 - Mô tơ </TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra mô tơ</TEN_TS_GSTT>
+    <CHU_KY_DO>1 Tuần</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-24T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt </TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-12-01T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Kêu; Nóng; Rò rỉ điện; Tốt </TEN_GT_GSTT>
+    <STT_BP>320</STT_BP>
+    <TEN_LOAI_MAY>Sàng phân cỡ </TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>143</STT>
+    <MS_MAY>SCA-01-02</MS_MAY>
+    <TEN_MAY>Cân định lượng A18</TEN_MAY>
+    <TEN_BO_PHAN>Loadcell - 01-04-01 - Loadcell</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra loadcell</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Không tín hiệu; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Cân phối liệu </TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>144</STT>
+    <MS_MAY>SCA-01-02</MS_MAY>
+    <TEN_MAY>Cân định lượng A18</TEN_MAY>
+    <TEN_BO_PHAN>Màn hình hiển thị - 01-04-02 - Màn hình hiển thị</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra màn hình hiển thị</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Cân phối liệu </TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>145</STT>
+    <MS_MAY>SCA-01-02</MS_MAY>
+    <TEN_MAY>Cân định lượng A18</TEN_MAY>
+    <TEN_BO_PHAN>Cửa đóng mở - 01-04-03 - Cửa đóng mở</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra cửa đóng mở</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bánh xe cửa trượt hỏng; Ben hỏng; Ron cửa hỏng ; Tốt; Van từ hỏng</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Cân phối liệu </TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>146</STT>
+    <MS_MAY>SCA-02-01</MS_MAY>
+    <TEN_MAY>Cân phối liệu B 107</TEN_MAY>
+    <TEN_BO_PHAN>Loadcell - 01-04-01 - Loadcell</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra loadcell</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-27T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-27T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Không tín hiệu; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Cân phối liệu </TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>147</STT>
+    <MS_MAY>SCA-02-01</MS_MAY>
+    <TEN_MAY>Cân phối liệu B 107</TEN_MAY>
+    <TEN_BO_PHAN>Màn hình hiển thị - 01-04-02 - Màn hình hiển thị</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra màn hình hiển thị</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-27T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-27T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Cân phối liệu </TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>148</STT>
+    <MS_MAY>SCA-02-01</MS_MAY>
+    <TEN_MAY>Cân phối liệu B 107</TEN_MAY>
+    <TEN_BO_PHAN>Cửa đóng mở - 01-04-03 - Cửa đóng mở</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra cửa đóng mở</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-01-27T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-07-27T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bánh xe cửa trượt hỏng; Ben hỏng; Ron cửa hỏng ; Tốt; Van từ hỏng</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Cân phối liệu </TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>149</STT>
+    <MS_MAY>SCA-03-01</MS_MAY>
+    <TEN_MAY>Cân Premix DC2</TEN_MAY>
+    <TEN_BO_PHAN>Loadcell - 01 - Loadcell</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra loadcell</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Không tín hiệu; Tốt</TEN_GT_GSTT>
+    <STT_BP>999</STT_BP>
+    <TEN_LOAI_MAY>Cân Premix</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>150</STT>
+    <MS_MAY>SCA-03-01</MS_MAY>
+    <TEN_MAY>Cân Premix DC2</TEN_MAY>
+    <TEN_BO_PHAN>Màn hình hiển thị - 02 - Màn hình hiển thị</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra màn hình hiển thị</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Cân Premix</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>151</STT>
+    <MS_MAY>SCA-03-01</MS_MAY>
+    <TEN_MAY>Cân Premix DC2</TEN_MAY>
+    <TEN_BO_PHAN>Cửa đóng mở - 03 - Cửa đóng mở</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra cửa đóng mở</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bánh xe cửa trượt hỏng; Ben hỏng; Ron cửa hỏng ; Tốt; Van từ hỏng</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Cân Premix</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>152</STT>
+    <MS_MAY>SCA-03-02</MS_MAY>
+    <TEN_MAY>Cân Premix B 305</TEN_MAY>
+    <TEN_BO_PHAN>Loadcell - 01 - Loadcell</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra loadcell</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-02-20T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-08-20T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Không tín hiệu; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Cân Premix</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>153</STT>
+    <MS_MAY>SCA-03-02</MS_MAY>
+    <TEN_MAY>Cân Premix B 305</TEN_MAY>
+    <TEN_BO_PHAN>Màn hình hiển thị - 02 - Màn hình hiển thị</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra màn hình hiển thị</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-02-20T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-08-20T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Hỏng; Tốt</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Cân Premix</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>154</STT>
+    <MS_MAY>SCA-03-02</MS_MAY>
+    <TEN_MAY>Cân Premix B 305</TEN_MAY>
+    <TEN_BO_PHAN>Cửa đóng mở - 03 - Cửa đóng mở</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra cửa đóng mở</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-02-20T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-08-20T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bánh xe cửa trượt hỏng; Ben hỏng; Ron cửa hỏng ; Tốt; Van từ hỏng</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Cân Premix</TEN_LOAI_MAY>
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>155</STT>
+    <MS_MAY>SCC-01-01-02</MS_MAY>
+    <TEN_MAY>Vít tải B24</TEN_MAY>
+    <TEN_BO_PHAN>Vỏ vít tài - 03 - Vỏ vít tài</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra vỏ vít tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-11-24T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2019-05-24T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Rỉ sét; Tốt; Xì liệu</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Vít tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>156</STT>
+    <MS_MAY>SCC-01-01-03</MS_MAY>
+    <TEN_MAY>Vít điều liệu bộ dũ B 12 - 3</TEN_MAY>
+    <TEN_BO_PHAN>Vỏ vít tài - 03 - Vỏ vít tài</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra vỏ vít tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-31T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-30T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Rỉ sét; Tốt; Xì liệu</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Vít tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>157</STT>
+    <MS_MAY>SCC-01-01-04</MS_MAY>
+    <TEN_MAY>Vít tải B21</TEN_MAY>
+    <TEN_BO_PHAN>Vỏ vít tài - 03 - Vỏ vít tài</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra vỏ vít tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-31T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-30T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Rỉ sét; Tốt; Xì liệu</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Vít tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>158</STT>
+    <MS_MAY>SCC-01-02-01</MS_MAY>
+    <TEN_MAY>Vít tải A24</TEN_MAY>
+    <TEN_BO_PHAN>Vỏ vít tài - 03 - Vỏ vít tài</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra vỏ vít tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Rỉ sét; Tốt; Xì liệu</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Vít tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>159</STT>
+    <MS_MAY>SCC-01-02-02</MS_MAY>
+    <TEN_MAY>Vít tải B01-1</TEN_MAY>
+    <TEN_BO_PHAN>Vỏ vít tài - 03 - Vỏ vít tài</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra vỏ vít tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Rỉ sét; Tốt; Xì liệu</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Vít tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>160</STT>
+    <MS_MAY>SCC-01-02-03</MS_MAY>
+    <TEN_MAY>Vít máy nghiền thô B04 -2</TEN_MAY>
+    <TEN_BO_PHAN>Vỏ vít tài - 03 - Vỏ vít tài</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra vỏ vít tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Rỉ sét; Tốt; Xì liệu</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Vít tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>161</STT>
+    <MS_MAY>SCC-01-02-04</MS_MAY>
+    <TEN_MAY>Vít tải qua máy nghiền B12</TEN_MAY>
+    <TEN_BO_PHAN>Vỏ vít tài - 03 - Vỏ vít tài</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra vỏ vít tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Rỉ sét; Tốt; Xì liệu</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Vít tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>162</STT>
+    <MS_MAY>SCC-01-02-05</MS_MAY>
+    <TEN_MAY>Vít tải xuống nghiền tinh B12 - 1</TEN_MAY>
+    <TEN_BO_PHAN>Vỏ vít tài - 03 - Vỏ vít tài</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra vỏ vít tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Rỉ sét; Tốt; Xì liệu</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Vít tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>163</STT>
+    <MS_MAY>SCC-01-02-06</MS_MAY>
+    <TEN_MAY>Vít tải xuống sàng tinh B20c - 3</TEN_MAY>
+    <TEN_BO_PHAN>Vỏ vít tài - 03 - Vỏ vít tài</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra vỏ vít tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Rỉ sét; Tốt; Xì liệu</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Vít tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>164</STT>
+    <MS_MAY>SCC-01-02-07</MS_MAY>
+    <TEN_MAY>Vít tải xuống sàng tinh B20d- 3</TEN_MAY>
+    <TEN_BO_PHAN>Vỏ vít tài - 03 - Vỏ vít tài</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra vỏ vít tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Rỉ sét; Tốt; Xì liệu</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Vít tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>165</STT>
+    <MS_MAY>SCC-01-02-08</MS_MAY>
+    <TEN_MAY>Vít tải B43</TEN_MAY>
+    <TEN_BO_PHAN>Vỏ vít tài - 03 - Vỏ vít tài</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra vỏ vít tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-04-28T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-10-28T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Rỉ sét; Tốt; Xì liệu</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Vít tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>166</STT>
+    <MS_MAY>SCC-01-03-01</MS_MAY>
+    <TEN_MAY>Vít tải M205</TEN_MAY>
+    <TEN_BO_PHAN>Vỏ vít tài - 03 - Vỏ vít tài</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra vỏ vít tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-31T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-30T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Rỉ sét; Tốt; Xì liệu</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Vít tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TINH_TRANG_THIET_BI>
+    <STT>167</STT>
+    <MS_MAY>SCC-01-03-02</MS_MAY>
+    <TEN_MAY>Vít tải tái chế D209</TEN_MAY>
+    <TEN_BO_PHAN>Vỏ vít tài - 03 - Vỏ vít tài</TEN_BO_PHAN>
+    <TEN_TS_GSTT>Kiểm tra vỏ vít tải</TEN_TS_GSTT>
+    <CHU_KY_DO>6 Tháng</CHU_KY_DO>
+    <NGAY_KT_CUOI>2018-03-31T08:57:00+07:00</NGAY_KT_CUOI>
+    <TEN_GIA_TRI>Tốt</TEN_GIA_TRI>
+    <DAT>false</DAT>
+    <NGAY_KT_KE>2018-09-30T08:57:00+07:00</NGAY_KT_KE>
+    <TEN_GT_GSTT>Bể bạc đạn; Rỉ sét; Tốt; Xì liệu</TEN_GT_GSTT>
+    <TEN_LOAI_MAY>Vít tải liệu</TEN_LOAI_MAY>
+    <CACH_THUC_HIEN />
+    <THOI_GIAN>0</THOI_GIAN>
+  </TINH_TRANG_THIET_BI>
+  <TIEU_DE_TINH_TRANG_THIET_BI>
+    <TIEU_DE>GIÁM SÁT TÌNH TRẠNG ĐẾN HẠN KIỂM TRA</TIEU_DE>
+    <TU_NGAY>Từ ngày: 01/05/2018</TU_NGAY>
+    <DEN_NGAY>Đến ngày: 31/05/2019</DEN_NGAY>
+    <DieuKienLoc>Địa điểm :  &lt; ALL &gt; 
+Hệ thống :  &lt; ALL &gt; 
+Loại thiết bị :  &lt; ALL &gt; 
+Thuộc loại công việc :  &lt; ALL &gt; </DieuKienLoc>
+    <BoPhan>Bộ phận</BoPhan>
+    <ThongSoGiamSat>Thông số</ThongSoGiamSat>
+    <GiaTri>Giá trị cuối</GiaTri>
+    <Dat>Đạt</Dat>
+    <NgayGSCuoi>Ngày GS cuối</NgayGSCuoi>
+    <ChuKy>Chu kỳ</ChuKy>
+    <NgayGSKe>Ngày GS kế</NgayGSKe>
+    <KetQuaKT>Kết quả KT</KetQuaKT>
+    <DiaDiem>Ghi chú</DiaDiem>
+    <ThietBi>Thiết bị</ThietBi>
+    <NgayKT>Ngày kiểm tra:      /     /  </NgayKT>
+    <NguoiKT>Người kiểm tra</NguoiKT>
+    <MAU_SO>Mẫu số :</MAU_SO>
+    <LAN_BH>Lần ban hành:</LAN_BH>
+    <NGAY_BH>Ngày ban hành:</NGAY_BH>
+    <TMP1>P/M/1.8A</TMP1>
+    <TMP2>P/M/1.8A</TMP2>
+    <TMP3>Tổng tất cả</TMP3>
+    <TMP4> &lt; ALL &gt; </TMP4>
+    <TMP5>Thuộc loại công việc</TMP5>
+    <TMP6> &lt; ALL &gt; </TMP6>
+    <TMP7>Loại thiết bị</TMP7>
+    <TMP8>@TMP8@</TMP8>
+    <TMP9>@TMP9@</TMP9>
+    <TMP10>@TMP10@</TMP10>
+    <STT>STT</STT>
+  </TIEU_DE_TINH_TRANG_THIET_BI>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty cổ phần thức ăn chăn nuôi Pilmico việt nam
+Quốc lộ 30, Cụm công nghiệp Thanh Bình, Xã Bình Thành, Huyện Thanh Bình, Đồng Tháp
+Telephone:   Fax: </THONG_TIN_CTY>
+    <LOGO>/9j/4AAQSkZJRgABAQEAAAAAAAD/4QCuRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAZKGAAcAAAB6AAAALAAAAABVTklDT0RFAABDAFIARQBBAFQATwBSADoAIABnAGQALQBqAHAAZQBnACAAdgAxAC4AMAAgACgAdQBzAGkAbgBnACAASQBKAEcAIABKAFAARQBHACAAdgA2ADIAKQAsACAAcQB1AGEAbABpAHQAeQAgAD0AIAA5ADUACv/bAEMAAgEBAQEBAgEBAQICAgICBAMCAgICBQQEAwQGBQYGBgUGBgYHCQgGBwkHBgYICwgJCgoKCgoGCAsMCwoMCQoKCv/bAEMBAgICAgICBQMDBQoHBgcKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCv/AABEIAfQB9AMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP38ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK8K/aN/b7/Z5/Zg1X/hF/Hmqand659mSdNF0rTWklML/dfzJNkP/j+a91r88P8AguL4Ms4b/wAA+PrS1iFzPDf2F7MPvPEnlSRJ+BeY/jX1fBWU5dnvEdHA43m5J83wuzuouSV7PR2t38z8/wDE/iDOeFuDMRmmWcvtKbj8a5lyykotpXWqunrdaPQh8ff8FvNfknlt/hf8DLG3U/8AHve+IdVaXP1hhVSP+/lcXD/wWo/aliu/MufAngR4sfNENPvE/wDHvtNfHlFf0rh/DvgzDQ5VhIvzk5N/iz+KsX4weI+Mre0lmE4+UVGK+5RX43Z+v/7Ef7fPg39r20u9Am0T+w/E+m2/n3Wk/avOimg3BfOik2rkbjhlxlTivo2vyK/4JKrqz/tr6D/ZMn7hNJ1D+0v+uf2Z/wD2r5dfrrX88+InD+B4c4ieGwelOUVNK9+W7kmrvW2l1fXU/sHwd4uzTjLg9YvMdatOpKm5WS57KMlKy02lZ20ugrwz9qn9ur4Lfsl20Ol+L7q51LXbqLzbTQNLKtOYs48yRm+WJPc/hmvc6/ED9sXxB4k8T/tUfEHU/Fsz/az4svbfZMPmSKKV4oY/91Io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Ytr5tXIIIILKBLe1iRI0+VUjG0LU9FFYanckkgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//9k=</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1800</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngày in:10/05/2018</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

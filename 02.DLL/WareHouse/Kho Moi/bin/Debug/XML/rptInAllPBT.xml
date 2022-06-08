@@ -1,0 +1,436 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="NHAN_VIEN_THUC_HIEN">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="HO_TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="CHUYEN_MON" type="xs:string" minOccurs="0" />
+                <xs:element name="TRINH_DO_VH" type="xs:string" minOccurs="0" />
+                <xs:element name="BAC_THO" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DANH_SACH_CONG_VIEC">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_PHIEU_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MO_TA_CV" type="xs:string" minOccurs="0" />
+                <xs:element name="CONG_NHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="VAT_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="DANH_GIA" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="CN_YCSDCT" type="xs:string" minOccurs="0" />
+                <xs:element name="LY_DO_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="Ten_N_XUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="PHIEU_YC" type="xs:string" minOccurs="0" />
+                <xs:element name="NOI_DUNG_YC" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_LOAI_BT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PHU_TUNG_SU_DUNG">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_PHIEU_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_LUONG" type="xs:double" minOccurs="0" />
+                <xs:element name="TEN_DVT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TD_IN_PBT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NGUOI_LAP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_LAP" type="xs:string" minOccurs="0" />
+                <xs:element name="DIA_DIEM" type="xs:string" minOccurs="0" />
+                <xs:element name="DAY_CHUYEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NHAN_VIEN_THUC_HIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="HO_TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="CHUYEN_MON" type="xs:string" minOccurs="0" />
+                <xs:element name="TRINH_DO" type="xs:string" minOccurs="0" />
+                <xs:element name="BAC_THO" type="xs:string" minOccurs="0" />
+                <xs:element name="DS_CONG_VIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="PHIEU_BAO_TRI" type="xs:string" minOccurs="0" />
+                <xs:element name="BAT_DAU" type="xs:string" minOccurs="0" />
+                <xs:element name="KET_THUC" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_THIET_BI" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_THIET_BI" type="xs:string" minOccurs="0" />
+                <xs:element name="BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CONG_VIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="THUC_HIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="VAT_TU" type="xs:string" minOccurs="0" />
+                <xs:element name="DANH_GIA" type="xs:string" minOccurs="0" />
+                <xs:element name="CN_YCSDCT" type="xs:string" minOccurs="0" />
+                <xs:element name="PHU_TUNG_SU_DUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="MSTB" type="xs:string" minOccurs="0" />
+                <xs:element name="BO_PHAN_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_LUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="DON_VI_TINH" type="xs:string" minOccurs="0" />
+                <xs:element name="Y_KIEN_NNT" type="xs:string" minOccurs="0" />
+                <xs:element name="NGHIEM_THU" type="xs:string" minOccurs="0" />
+                <xs:element name="KIEM_TRA" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_THUC_HIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TGNT" type="xs:string" minOccurs="0" />
+                <xs:element name="TRANG" type="xs:string" minOccurs="0" />
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="YCNSDCT" type="xs:string" minOccurs="0" />
+                <xs:element name="LYDO" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP0" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP1" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP2" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP3" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP4" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP5" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP6" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP7" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP8" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP9" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <NHAN_VIEN_THUC_HIEN>
+    <HO_TEN>NGUYỄN MINH THIỆN</HO_TEN>
+    <CHUYEN_MON xml:space="preserve"> </CHUYEN_MON>
+    <TRINH_DO_VH />
+    <BAC_THO xml:space="preserve"> </BAC_THO>
+  </NHAN_VIEN_THUC_HIEN>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000013</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.01.01.06.01</MS_BO_PHAN>
+    <TEN_BO_PHAN> Con Lăn Pu Dẫn Tole</TEN_BO_PHAN>
+    <MO_TA_CV>Hàn đường ống</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>KT Đường Ống Thuỷ Lực : Rò rĩ,  Con lan 1 con lan 2 con lan 3</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>Bảo trì GSTT</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000015</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.02.09</MS_BO_PHAN>
+    <TEN_BO_PHAN>Trạm Thủy Lực Áp Thấp 5 Giá Cán</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ Sinh Bồn Dầu</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>1 năm</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>1 năm</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000015</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.02.09</MS_BO_PHAN>
+    <TEN_BO_PHAN>Trạm Thủy Lực Áp Thấp 5 Giá Cán</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ Sinh Bộ Đế Van 1 Chiều</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>1 năm</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>1 năm</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000015</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.02.10</MS_BO_PHAN>
+    <TEN_BO_PHAN>Trạm Bơm Dầu Bôi Trơn Giá 1,2</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ Sinh Bộ Giải Nhiệt Dầu</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>1 năm</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>1 năm</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000015</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.02.10</MS_BO_PHAN>
+    <TEN_BO_PHAN>Trạm Bơm Dầu Bôi Trơn Giá 1,2</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ Sinh Bộ Lọc Dầu</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>1 năm</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>1 năm</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000015</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.02.10</MS_BO_PHAN>
+    <TEN_BO_PHAN>Trạm Bơm Dầu Bôi Trơn Giá 1,2</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ Sinh Bồn Dầu</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>1 năm</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>1 năm</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000015</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.02.11</MS_BO_PHAN>
+    <TEN_BO_PHAN>Trạm Bơm Dầu Bôi Trơn Giá 3,4,5</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ Sinh Bồn Dầu</MO_TA_CV>
+    <CONG_NHAN>NGUYỄN MINH THIỆN</CONG_NHAN>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>1 năm</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>1 năm</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000015</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.02.11</MS_BO_PHAN>
+    <TEN_BO_PHAN>Trạm Bơm Dầu Bôi Trơn Giá 3,4,5</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ Sinh Bộ Lọc Dầu</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>1 năm</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>1 năm</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000015</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>01.02.11</MS_BO_PHAN>
+    <TEN_BO_PHAN>Trạm Bơm Dầu Bôi Trơn Giá 3,4,5</TEN_BO_PHAN>
+    <MO_TA_CV>Vệ Sinh Bộ Giải Nhiệt Dầu</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>1 năm</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>1 năm</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000016</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.03.05.01</MS_BO_PHAN>
+    <TEN_BO_PHAN>Motor dao cắt bay</TEN_BO_PHAN>
+    <MO_TA_CV>Thay lọc bụi motor</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>2 tháng</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>2 tháng</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000017</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02.01.06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máy đo độ dày</TEN_BO_PHAN>
+    <MO_TA_CV>Hiệu chỉnh máy đo độ dày</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>2 tuần</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>2 tuần</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000017</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02.02.05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máy đo độ dày</TEN_BO_PHAN>
+    <MO_TA_CV>Hiệu chỉnh máy đo độ dày</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>2 tuần</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>2 tuần</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000017</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02.03.04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máy đo độ dày</TEN_BO_PHAN>
+    <MO_TA_CV>Hiệu chỉnh máy đo độ dày</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>2 tuần</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>2 tuần</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000017</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02.04.05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máy đo độ dày</TEN_BO_PHAN>
+    <MO_TA_CV>Hiệu chỉnh máy đo độ dày</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>2 tuần</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>2 tuần</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000017</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02.05.04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máy đo độ dày</TEN_BO_PHAN>
+    <MO_TA_CV>Hiệu chỉnh máy đo độ dày</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>2 tuần</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>2 tuần</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000018</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02.01.06</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máy đo độ dày</TEN_BO_PHAN>
+    <MO_TA_CV>Hiệu chỉnh máy đo độ dày</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>2 tuần</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>2 tuần</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000018</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02.02.05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máy đo độ dày</TEN_BO_PHAN>
+    <MO_TA_CV>Hiệu chỉnh máy đo độ dày</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>2 tuần</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>2 tuần</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000018</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02.03.04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máy đo độ dày</TEN_BO_PHAN>
+    <MO_TA_CV>Hiệu chỉnh máy đo độ dày</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>2 tuần</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>2 tuần</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000018</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02.04.05</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máy đo độ dày</TEN_BO_PHAN>
+    <MO_TA_CV>Hiệu chỉnh máy đo độ dày</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>2 tuần</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>2 tuần</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <DANH_SACH_CONG_VIEC>
+    <MS_PHIEU_BAO_TRI>WO-202003000018</MS_PHIEU_BAO_TRI>
+    <MS_BO_PHAN>02.02.05.04</MS_BO_PHAN>
+    <TEN_BO_PHAN>Máy đo độ dày</TEN_BO_PHAN>
+    <MO_TA_CV>Hiệu chỉnh máy đo độ dày</MO_TA_CV>
+    <MS_MAY>MCLT5G</MS_MAY>
+    <TEN_MAY>Dây chuyền máy cán  5 Giá liên tục</TEN_MAY>
+    <LY_DO_BT>2 tuần</LY_DO_BT>
+    <Ten_N_XUONG>Nhà máy cán hạ 5G</Ten_N_XUONG>
+    <TEN_LOAI_BT>2 tuần</TEN_LOAI_BT>
+  </DANH_SACH_CONG_VIEC>
+  <TD_IN_PBT>
+    <NGUOI_LAP>Người lập : </NGUOI_LAP>
+    <NGAY_LAP>Ngày lập : 05/03/2020 16:03:17</NGAY_LAP>
+    <DIA_DIEM>Địa điểm : ALL</DIA_DIEM>
+    <DAY_CHUYEN>Dây chuyền : ALL</DAY_CHUYEN>
+    <NHAN_VIEN_THUC_HIEN>I.            NHÂN VIÊN THỰC HIỆN :</NHAN_VIEN_THUC_HIEN>
+    <HO_TEN>Họ tên</HO_TEN>
+    <CHUYEN_MON>Chuyên môn</CHUYEN_MON>
+    <TRINH_DO>Trình độ</TRINH_DO>
+    <BAC_THO>Bậc thợ</BAC_THO>
+    <DS_CONG_VIEC>II.           DANH SÁCH CÔNG VIỆC :</DS_CONG_VIEC>
+    <PHIEU_BAO_TRI>Phiếu bảo trì</PHIEU_BAO_TRI>
+    <BAT_DAU>Bắt đầu ..../..../.... __:__</BAT_DAU>
+    <KET_THUC>Kết thúc ..../..../.... __:__</KET_THUC>
+    <MS_THIET_BI>Thiết bị</MS_THIET_BI>
+    <TEN_THIET_BI>Tên thiết bị</TEN_THIET_BI>
+    <BO_PHAN>Bộ phận</BO_PHAN>
+    <CONG_VIEC>Công việc</CONG_VIEC>
+    <THUC_HIEN>Thực hiện</THUC_HIEN>
+    <VAT_TU>Vật tư</VAT_TU>
+    <DANH_GIA>Đánh giá</DANH_GIA>
+    <CN_YCSDCT>Nhân viên</CN_YCSDCT>
+    <PHU_TUNG_SU_DUNG>III.          PHỤ TÙNG SỬ DỤNG :</PHU_TUNG_SU_DUNG>
+    <MSTB>Mã thiết bị</MSTB>
+    <BO_PHAN_TB>Bộ phận</BO_PHAN_TB>
+    <MS_PT>Mã Số PT</MS_PT>
+    <TEN_PT>Tên VTPT</TEN_PT>
+    <SO_LUONG>Số lượng</SO_LUONG>
+    <DON_VI_TINH>ĐVT</DON_VI_TINH>
+    <Y_KIEN_NNT>III.          Ý KIẾN NGƯỜI NGHIỆM THU :</Y_KIEN_NNT>
+    <NGHIEM_THU>Nghiệm thu</NGHIEM_THU>
+    <KIEM_TRA>Kiểm tra</KIEM_TRA>
+    <NGUOI_THUC_HIEN>Thực hiện</NGUOI_THUC_HIEN>
+    <TGNT>TGNT : ..../..../.... __:__</TGNT>
+    <TRANG>Trang</TRANG>
+    <TIEU_DE>THÔNG TIN PHIẾU BẢO TRÌ</TIEU_DE>
+    <YCNSDCT>Nhân viên</YCNSDCT>
+    <LYDO>Lý do</LYDO>
+    <TMP0>Mã yêu cầu</TMP0>
+    <TMP1>Nội dung yêu cầu</TMP1>
+    <TMP2>Loại bảo trì</TMP2>
+    <TMP3>Tổng tất cả</TMP3>
+    <TMP4>Thời gian cấp vật tư</TMP4>
+    <TMP5>Số:...../.....GDN</TMP5>
+    <TMP6>@TMP7@</TMP6>
+    <TMP7>@TMP8@</TMP7>
+    <TMP8>@TMP9@</TMP8>
+    <TMP9>@TMP9@</TMP9>
+  </TD_IN_PBT>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty cổ phần sản xuất thép Vina One
+Ấp Voi Lá, xã Long Hiệp, huyện Bến Lức, tỉnh Long An
+Telephone: (027) 23989898  Fax: (027) 23890900</THONG_TIN_CTY>
+    <LOGO />
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1800</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngày in05/03/2020</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

@@ -1,0 +1,159 @@
+E:\VS_Support\Vs.Support\Vs.Support\bin\Debug\Vs.Support.exe
+E:\VS_Support\Vs.Support\Vs.Support\bin\Debug\Vs.Support.pdb
+E:\VS_Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csprojAssemblyReference.cache
+E:\VS_Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.Properties.Resources.resources
+E:\VS_Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csproj.GenerateResource.cache
+E:\VS_Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csproj.CoreCompileInputs.cache
+E:\VS_Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.exe
+E:\VS_Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.pdb
+E:\VS_Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmSupport.resources
+E:\VS_Support\Vs.Support\Vs.Support\bin\Debug\Vs.Support.exe.config
+E:\VS_Support\Vs.Support\Vs.Support\bin\Debug\System.Net.Http.Extensions.dll
+E:\VS_Support\Vs.Support\Vs.Support\bin\Debug\System.Net.Http.Formatting.dll
+E:\VS_Support\Vs.Support\Vs.Support\bin\Debug\System.Net.Http.Primitives.dll
+E:\VS_Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.TEST.resources
+E:\VS_Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csproj.CopyComplete
+E:\VS_Support\Vs.Support\Vs.Support\bin\Debug\Newtonsoft.Json.dll
+E:\VS_Support\Vs.Support\Vs.Support\bin\Debug\Newtonsoft.Json.xml
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\bin\Debug\Vs.Support.pdb
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\bin\Debug\Newtonsoft.Json.dll
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\bin\Debug\System.Net.Http.Extensions.dll
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\bin\Debug\System.Net.Http.Formatting.dll
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\bin\Debug\System.Net.Http.Primitives.dll
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\bin\Debug\Newtonsoft.Json.xml
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmSupport.resources
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.Properties.Resources.resources
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.TEST.resources
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csproj.GenerateResource.cache
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csproj.CoreCompileInputs.cache
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csproj.CopyComplete
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.pdb
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csprojAssemblyReference.cache
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmELearning.resources
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\bin\Debug\Vs.Support.dll.config
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\bin\Debug\Vs.Support.dll
+D:\01.Vs.Support\Dat\Vs.Support\Vs.Support\Vs.Support\obj\Debug\Vs.Support.dll
+E:\512022_VS_SP\Vs.Support\Vs.Support\bin\Debug\Vs.Support.pdb
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmELearning.resources
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmMain.resources
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmSupport.resources
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmVSReply.resources
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.Properties.Resources.resources
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmLogin.resources
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmCustomer.resources
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmCustomerContract.resources
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmCustomerContract_View.resources
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmContractVSStaff.resources
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.TEST.resources
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csproj.GenerateResource.cache
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csproj.CoreCompileInputs.cache
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csproj.CopyComplete
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.pdb
+E:\512022_VS_SP\Vs.Support\Vs.Support\bin\Debug\Vs.Support.exe.config
+E:\512022_VS_SP\Vs.Support\Vs.Support\bin\Debug\Vs.Support.exe
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.exe
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csprojAssemblyReference.cache
+E:\512022_VS_SP\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmCustomer_View.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.exe.config
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.exe
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.pdb
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Newtonsoft.Json.dll
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Newtonsoft.Json.xml
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmELearning.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmMain.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmSupport.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmVSReply.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.Properties.Resources.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmLogin.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomer.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomerContract.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomerContract_View.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmContractVSStaff.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomer_View.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.TEST.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csproj.GenerateResource.cache
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csproj.CoreCompileInputs.cache
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csproj.CopyComplete
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.exe
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.pdb
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csprojAssemblyReference.cache
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmReportContract.resources
+E:\TEST_2201022_VSVietSoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmReport_NV.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.exe.config
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.exe
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.pdb
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Newtonsoft.Json.dll
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Newtonsoft.Json.xml
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmELearning.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmMain.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmSupport.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmVSReply.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.Properties.Resources.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmLogin.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomer.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomerContract.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomerContract_View.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmContractVSStaff.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomer_View.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmReportContract.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmReport_NV.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.TEST.resources
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csproj.GenerateResource.cache
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csproj.CoreCompileInputs.cache
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csproj.CopyComplete
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.exe
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.pdb
+D:\Dat\20220127\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csprojAssemblyReference.cache
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.exe.config
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.exe
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.pdb
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Newtonsoft.Json.dll
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Newtonsoft.Json.xml
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmELearning.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmMain.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmSupport.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmVSReply.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.Properties.Resources.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmLogin.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomer.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomerContract.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomerContract_View.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmContractVSStaff.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomer_View.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmReportContract.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmReport_NV.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmThemNguoiDung.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmViewVStaff.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.TEST.resources
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csproj.GenerateResource.cache
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csproj.CoreCompileInputs.cache
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csproj.CopyComplete
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.exe
+E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.pdb
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.pdb
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Newtonsoft.Json.dll
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Newtonsoft.Json.xml
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csprojAssemblyReference.cache
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmELearning.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmMain.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmSupport.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmVSReply.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.Properties.Resources.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmLogin.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomer.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomerContract.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomerContract_View.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmContractVSStaff.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmCustomer_View.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmReportContract.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmReport_NV.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmThemNguoiDung.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.frmViewVStaff.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.TEST.resources
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csproj.GenerateResource.cache
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csproj.CoreCompileInputs.cache
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.csproj.CopyComplete
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.pdb
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.exe.config
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.exe
+F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.exe

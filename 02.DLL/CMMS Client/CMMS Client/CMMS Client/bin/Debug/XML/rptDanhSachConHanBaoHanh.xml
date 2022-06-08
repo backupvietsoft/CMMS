@@ -1,0 +1,234 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Title">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEUDE" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="TENMAY" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTHE" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNHOMTB" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTHANGBH" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYHH" type="xs:string" minOccurs="0" />
+                <xs:element name="XUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAITB" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYDK" type="xs:string" minOccurs="0" />
+                <xs:element name="NHA_CC" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DS_TB" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_N_XUONG_FINAL">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_CHA" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_MAY_FINAL" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_TINH" msdata:ReadOnly="true" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_QUAN" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="19" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_DUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_THE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NHA_CC" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SO_THANG_BH" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_HETBH" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MS_N_XUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_N_XUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_NHOM_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_NHOM_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_LOAI_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Title>
+    <TIEUDE>DANH SÁCH THIẾT BỊ CÒN BẢO HÀNH</TIEUDE>
+    <NGAY>Ngày</NGAY>
+    <STT>STT</STT>
+    <TENMAY>Tên máy</TENMAY>
+    <SOTHE>Số thẻ</SOTHE>
+    <TENNHOMTB>Nhóm TB</TENNHOMTB>
+    <SOTHANGBH>Số Tháng BH</SOTHANGBH>
+    <NGAYHH>Ngày hết hạn</NGAYHH>
+    <XUONG>Địa điểm</XUONG>
+    <LOAITB>Loại TB</LOAITB>
+    <NGAYDK>05/12/2011</NGAYDK>
+    <NHA_CC>Nhà cung cấp</NHA_CC>
+  </Title>
+  <DS_TB>
+    <MS_N_XUONG_FINAL>NX001</MS_N_XUONG_FINAL>
+    <MS_CHA>TD</MS_CHA>
+    <MS_MAY_FINAL>AAA</MS_MAY_FINAL>
+    <MS_TINH>VN-01</MS_TINH>
+    <MS_QUAN>HCM-01</MS_QUAN>
+    <MS_DUONG>D0001</MS_DUONG>
+    <MS_MAY>AAA</MS_MAY>
+    <TEN_MAY>Bơm</TEN_MAY>
+    <SO_THE>1223</SO_THE>
+    <SO_THANG_BH>12</SO_THANG_BH>
+    <NGAY_HETBH>2012-12-02T00:00:00+07:00</NGAY_HETBH>
+    <MS_N_XUONG>NX001</MS_N_XUONG>
+    <TEN_N_XUONG>Khu hành chánh</TEN_N_XUONG>
+    <TEN_LOAI_MAY>BƠM</TEN_LOAI_MAY>
+    <MS_NHOM_MAY>BOM-01</MS_NHOM_MAY>
+    <TEN_NHOM_MAY>BƠM BÁNH RĂNG</TEN_NHOM_MAY>
+    <MS_LOAI_MAY>BOM</MS_LOAI_MAY>
+  </DS_TB>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Nhà Máy Nước Thủ Đức
+Số 2, Lê Văn Chí, P. Linh Trung, Q. Thủ Đức, TP HCM
+Telephone: 84-8-3896694  Fax: 84-8-38963893</THONG_TIN_CTY>
+    <LOGO>/9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBg8PDxQUEhQQFRQUGBkYERgSFhgWGBwSGBwXGxscEx0ZHycqGhovGRUVJi8gIycpLCwwGB8xNTAqNSYrLCn/2wBDAQkKCg4MDhkPDxowJBwlMi8uMTIyLDU1LjApMjUsLCw1MDU1NTE1NDUsLS0pLDQsLjU0KiwsNCksLC8sLCwsKSz/wAARCABDAH8DASIAAhEBAxEB/8QAGwABAAMBAQEBAAAAAAAAAAAAAAEFBgcEAwL/xAAxEAABAwMDAgQFBAIDAAAAAAABAAIDBBEhBRIxBkETIlFxB2GBodEUFjJUkbEVJVL/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQIDBAX/xAApEQACAgEDAQcFAQAAAAAAAAAAAgEDERIhgeEiMXGhscHwE0FhotEE/9oADAMBAAIRAxEAPwDuKIiAIiIAiIgCIiAIiIAiIgCIiAIiIAvxNJtaTYmwJsPkv2vhW03ixlm57d3dhs4exUwRPdsUI6qn/qyff8J+6p/6sn3/AAvB1FpsNJFudW1UZcbMLnueL8/xaPRUmmPjnmZGzUp3uccNDJASBk2J4wDleiqVMuqF25PLaL1nE2T+pqv3TUf1ZPv+F69T12WF4a2F77tBJbewJ7cKIOmGscHePVnab2dLcG3rjhY7W9ap31EjhqMkYvbYxklhtweMcgrNFrsbsrtyaMtyLOX34NP+6Z/6sn3/AArDS9cMx2uikjd23A7T9fVeXTNCaadu6Wd7nNv4m97TnIO2+ORhZDVWtpZTFLqUzXCxsWPODxkHKQtVmVWMTyI+tXhmfMcHSKycsjc4DcWgkAdyOyooepp3OANNIASBc3xc+y+lDqUc+nuc2cuDY3tfKGlpDmtN3W5uBlYuh1CEyxganK7ztxskybjBuq01RMNDRvHiaXs8ysq2I49zpddVmKNz9pdtFwG8n2VLS9Szue1rqaQAkAnOL9+FTdW9RUz5BG2tMJjJEgYx7ru92+mVTUepwiRn/aSnzNwWSWORg3V6qI0ZaN/CStztL9lsRx7nStRrDFE54aXkcNbySqVvU9QSAKWS5wL3Az9FU9X6/TulEYrXQGO+8MY83cfUt+XZenoum8RxmbVyzsF2gODmt3YufNzhUWtUr1PHqTZLvZhGxHBsGnClQFK4zuCFFBQGV6xfXOextPFRSNAJcaktvuPG0E4x3+a+PSVPXeOTUQ6exgadppg3dvJFhcHAtdY7qzVdMnrZXTU+pOe07C6M2aduPKLcLZfDegpW075aeKojErrEVBu47LgEeg8zl2tGiru8uvsY6ctk1NbI5sby3aXBp2hxsC7tc9hdc/pqfVnSNDqbSAC4biAxx23G4gXybXV98Q9Rp4qPZOyokZK4N20/8sebnsMLmtHqOlQyNkjptWa9hu0h3Btb09CU/wA6TpmceXWCXXMncbgDsAP9LD9RP1F9Q4wQaa+MWDHTljnnGb3OM9llqvqilqvI+PW3h2Nu/B9wArrQvhzQ1A3vp62EAjaJ5Rd3u0ZA90WuKu0/p1DRLbGt6egqRSEVEdM2Q7vLCAI9p4vbm/dZBjdYBBFNo4I4tsvf/K6N+naGbALNttAH/m1rD6LhjnaMDb9LquMfy9FFE6paceXUh02g3GmUmqSzt8Wn0sMLgZXMax7tve2efdfnU4NTbPIIqbSvDDj4ZeGB23tuzyrb4f6HSxU/jwRTx+MMiodd+0E29h3WL6y/4xtfOJqbUXSFwLnRO8hu0WLflZXRtVkxHd4dSv0tvn8LhsWsvdmm0gknJs0n35yug0dMI2BoDG4yGNDW7u9gFhfhzoNA8mqghqoywljP1Dr8jJaPra66CsL2zOmPt8/JetNIREXOahERARZLKUQEWSylEBFkspRAFFlKIAospRARZSiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiID//2Q==</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>2000</WIDTH>
+    <HEIGHT>800</HEIGHT>
+    <NGAY_IN>Ngày in:05/12/2011</NGAY_IN>
+    <PAGE>Trang</PAGE>
+    <OFPAGE>/</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

@@ -1,0 +1,19 @@
+﻿DECLARE @menu nvarchar(500)
+DECLARE @menu1 nvarchar(500)
+DECLARE @menuText NVARCHAR(500) = N'9.2. Xem yêu cầu hỗ trợ'
+DECLARE @menuTextA NVARCHAR(500) = N'9.2. View support request'
+DECLARE @MENU_PARENT NVARCHAR(500) = N'mnuHelp'
+SET @menu1 = 'mnuXemYeuCau'
+set @menu =  N'ΞΠήʹΎΞͶΎή͊Άή'
+
+
+IF NOT EXISTS (SELECT * FROM dbo.LIC_MENU WHERE MENU_ID = @menu)
+	INSERT INTO LIC_MENU (MENU_ID,TYPE_LIC) VALUES ( @menu,N'̦')
+
+IF NOT EXISTS (SELECT * FROM dbo.MENU WHERE MENU_ID = @menu1)
+	INSERT	dbo.MENU(MENU_ID,MENU_TEXT,MENU_ENGLISH,MENU_PARENT,MENU_LINE,MENU_INDEX,CLASS_NAME,FUNCTION_NAME,AN_HIEN)
+		VALUES(@menu1, @menuText,  @menuTextA, @MENU_PARENT,0,2,'frmMain','ShowXemYeuCauHoTro',1 )
+	
+IF NOT EXISTS (SELECT * FROM NHOM_MENU WHERE MENU_ID = @menu1)
+	INSERT INTO NHOM_MENU(MENU_ID,GROUP_ID)
+	VALUES(@menu1, 1)

@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <KetNoi>
+    <SERVER>27.74.240.29</SERVER>
+    <Instance></Instance>
+    <Database>eaqua</Database>
+    <User>sa</User>
+    <Pass>codaikadaiku</Pass>
+	<Port>600</Port>
+  </KetNoi>
+</DocumentElement>

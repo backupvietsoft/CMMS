@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Commons
+</name>
+</assembly>
+<members>
+<member name="T:Commons.utcTextBox">
+	<summary>
+ Created by Nghiem Quan, Lieu
+ Create date: 21/06/06
+ Description:	TextBox User Control
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Commons.TypeMode">
+	<summary>
+ Created by Nghiem Quan, Lieu
+ Create date: 21/06/06
+ Description:	TypeMode of TextBox User Control
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Commons.OSystems.SplitString(System.String)">
+	<summary>
+ Tăng thêm ngày 28/06/2007.
+ Hàm này dùng để cắt bỏ những khoảng trắng dư thừa giữa hai ký tự trong một chuổi.
+ </summary>
+	<param name="str"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Commons.RegexValidator">
+	<summary>
+ Created by Nghiem Quan, Lieu
+ Create date: 21/06/06
+ Description:	Class RegexValidatior Control
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Commons.VS.UserControls.QLGrid">
+	<summary>
+ Created by Nghiem Quan, Lieu email nghiemquan_lieu@yahoo.com
+ Create date: 21/06/06
+ Description:	QLGrid Control
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Commons.VS.UserControls.QLGridMaskedTextBoxColumn.Mask">
+	<summary>
+ MaskedTextBox
+ </summary>
+</member><member name="T:Commons.VS.UserControls.QLGridMaskedTextBoxCell">
+	<summary>
+ MaskedTextBox
+ DataGridView
+ </summary>
+</member><member name="T:Commons.VS.UserControls.QLGridMaskedTextBoxEditingControl">
+	<summary>
+ QLGridMaskedTextBoxCell
+ MaskedTextBox
+ </summary>
+</member>
+</members>
+</doc>

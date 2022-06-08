@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="NSD">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_YEU_CAU" type="xs:string" minOccurs="0" />
+                <xs:element name="GIO_YEU_CAU" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGUOI_YEU_CAU" type="xs:string" minOccurs="0" />
+                <xs:element name="Ten_N_XUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="USER_COMMENT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="NSD_CT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MS_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_HE_THONG" type="xs:string" minOccurs="0" />
+                <xs:element name="MO_TA_TINH_TRANG" type="xs:string" minOccurs="0" />
+                <xs:element name="YEU_CAU" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="QUY_CACH" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TD_IN_YCSD">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE_YC" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_YC" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_YC" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_YC" type="xs:string" minOccurs="0" />
+                <xs:element name="DIA_DIEM" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_MAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_DC_YC" type="xs:string" minOccurs="0" />
+                <xs:element name="TT_TB_TRUOC_SAU" type="xs:string" minOccurs="0" />
+                <xs:element name="NOI_DUNG_YC" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_YC_KT" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOI_DUYET_YC" type="xs:string" minOccurs="0" />
+                <xs:element name="KY_HO_TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="APPROVED_BY" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_BO_PHAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_PT" type="xs:string" minOccurs="0" />
+                <xs:element name="QUY_CACH" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP1" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP2" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP3" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP4" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP5" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP6" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP7" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP8" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP9" type="xs:string" minOccurs="0" />
+                <xs:element name="TMP10" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <NSD>
+    <MS_YEU_CAU>WR-202001000002</MS_YEU_CAU>
+    <GIO_YEU_CAU>2020-01-03T11:06:49+07:00</GIO_YEU_CAU>
+    <NGUOI_YEU_CAU> d</NGUOI_YEU_CAU>
+    <Ten_N_XUONG>CL#1</Ten_N_XUONG>
+    <USER_COMMENT />
+  </NSD>
+  <NSD_CT>
+    <MS_MAY>004</MS_MAY>
+    <TEN_MAY>Lò sấy đế giày Activator 004</TEN_MAY>
+    <TEN_HE_THONG>CL#1</TEN_HE_THONG>
+    <MO_TA_TINH_TRANG>d</MO_TA_TINH_TRANG>
+    <YEU_CAU>d</YEU_CAU>
+  </NSD_CT>
+  <TD_IN_YCSD>
+    <TIEU_DE_YC>YÊU CẦU CỦA NGƯỜI SỬ DỤNG</TIEU_DE_YC>
+    <MS_YC>Số yêu cầu</MS_YC>
+    <NGAY_YC>Ngày yêu cầu</NGAY_YC>
+    <NGUOI_YC>Người yêu cầu</NGUOI_YC>
+    <DIA_DIEM>Địa điểm</DIA_DIEM>
+    <MS_MAY>Thiết bị</MS_MAY>
+    <TEN_MAY>Tên thiết bị</TEN_MAY>
+    <TEN_DC_YC>Dây chuyền</TEN_DC_YC>
+    <TT_TB_TRUOC_SAU>Mô tả tình trạng</TT_TB_TRUOC_SAU>
+    <NOI_DUNG_YC>Yêu cầu</NOI_DUNG_YC>
+    <NGUOI_YC_KT>Người yêu cầu kiểm tra</NGUOI_YC_KT>
+    <NGUOI_DUYET_YC>Người duyệt yêu cầu</NGUOI_DUYET_YC>
+    <KY_HO_TEN>(Ký và họ tên)</KY_HO_TEN>
+    <APPROVED_BY>Duyệt</APPROVED_BY>
+    <MS_BO_PHAN>Mã bộ phận</MS_BO_PHAN>
+    <TEN_BO_PHAN>Tên bộ phận</TEN_BO_PHAN>
+    <MS_PT>Mã VT PT</MS_PT>
+    <TEN_PT>Tên VTPT</TEN_PT>
+    <QUY_CACH>Quy cách</QUY_CACH>
+    <TMP1>@YEU_CAU_CHUNG@</TMP1>
+    <TMP2>STT</TMP2>
+    <TMP3>Chi tiết yêu cầu</TMP3>
+    <TMP4>Thời gian cấp vật tư</TMP4>
+    <TMP5>Mẫu: P23/F04</TMP5>
+    <TMP6>Ngày ban hành:</TMP6>
+    <TMP7>Lần ban hành:</TMP7>
+    <TMP8>BM-01-BT</TMP8>
+    <TMP9>01/07/2015</TMP9>
+    <TMP10>1</TMP10>
+  </TD_IN_YCSD>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty TNHH Remington International
+Lô C, 8C, CN, KCN Mỹ Phước 3, P. Thới Hòa, Thị Xã Bến Cát, Bình Dương, Việt Nam.
+Telephone: 02743559908  Fax: 02743559907</THONG_TIN_CTY>
+    <LOGO />
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1800</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngày in03/01/2020</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+  </rptTitlereport>
+</NewDataSet>

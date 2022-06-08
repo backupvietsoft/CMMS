@@ -1,0 +1,1 @@
+DELETE  FROM LANGUAGES WHERE rtrim(FORM) like N'% %'

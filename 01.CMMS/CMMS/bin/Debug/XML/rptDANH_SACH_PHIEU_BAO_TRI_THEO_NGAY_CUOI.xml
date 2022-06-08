@@ -1,0 +1,2055 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA_INFO">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TEN_N_XUONG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_MAY">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_MAY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_NGHIEM_THU" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MS_PHIEU_BAO_TRI">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TEN_LOAI_BT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LY_DO_BT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2147483647" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MS_N_XUONG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TIEU_DE" type="xs:string" minOccurs="0" />
+                <xs:element name="DIA_DIEM" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="NHOM_TB" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="THIET_BI" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_CUOI" type="xs:string" minOccurs="0" />
+                <xs:element name="MS_PHIEU_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_BT" type="xs:string" minOccurs="0" />
+                <xs:element name="LY_DO" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rptTitlereport">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="THONG_TIN_CTY" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="LOGO" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="LE_TRAI_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="LE_TREN_LOGO" type="xs:int" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:int" minOccurs="0" />
+                <xs:element name="HEIGHT" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_IN">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="7" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OFPAGE" msdata:ReadOnly="true">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TTC_CAO" type="xs:int" minOccurs="0" />
+                <xs:element name="TTC_RONG" type="xs:int" minOccurs="0" />
+                <xs:element name="USER_LOG">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NGAY_HT">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>023</MS_MAY>
+    <TEN_MAY>Máy gò gót giày (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202007000002</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-001</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>023</MS_MAY>
+    <TEN_MAY>Máy gò gót giày (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000108</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-001</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>005</MS_MAY>
+    <TEN_MAY>Máy ép nóng lót gót CP (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000099</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>9 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>9 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-001</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>255</MS_MAY>
+    <TEN_MAY>Máy ép đế 6 chiều (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000049</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-001</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>015</MS_MAY>
+    <TEN_MAY>Máy sấy đế giày Activator (05)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000024</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>9 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>9 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-001</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#11</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>018</MS_MAY>
+    <TEN_MAY>Máy đóng nút mắt cáo (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000106</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>9 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>9 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-002</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#11</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>017</MS_MAY>
+    <TEN_MAY>Máy ép tem nhãn (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000105</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>9 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>9 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-002</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#11</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>016</MS_MAY>
+    <TEN_MAY>Máy đóng nút mắt cáo (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000104</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>9 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>9 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-002</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#14</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>019</MS_MAY>
+    <TEN_MAY>Máy ép đế giày Compo (06)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000079</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-004</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#14</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>003</MS_MAY>
+    <TEN_MAY>Máy ép đế giày Compo (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000075</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-004</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#17</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>158</MS_MAY>
+    <TEN_MAY>Máy biến áp SUTUDO 3P-220V-100KVA (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000048</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-003</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#17</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>158</MS_MAY>
+    <TEN_MAY>Máy biến áp SUTUDO 3P-220V-100KVA (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000083</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-003</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#17</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>136</MS_MAY>
+    <TEN_MAY>Máy ép lạnh định hình (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000077</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-003</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#17</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>135</MS_MAY>
+    <TEN_MAY>Lò sấy 2 học (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000076</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-003</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#17</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>110</MS_MAY>
+    <TEN_MAY>Máy sấy băng tải (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000072</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-003</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#17</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>149</MS_MAY>
+    <TEN_MAY>Máy ép tự động-Mâm trượt (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-05-25T16:29:36.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000010</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Do sử dụng lâu ngày bi lỏng</LY_DO_BT>
+    <MS_N_XUONG>NM2-003</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#18</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ-50T (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000069</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-004</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#18</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ-50T (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000068</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>2 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>2 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-004</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#18</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ-50T (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000067</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-004</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#18</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>233</MS_MAY>
+    <TEN_MAY>Máy cắt dập 4 trụ-50T (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000100</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-004</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#18</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>067</MS_MAY>
+    <TEN_MAY>Tủ sấy nóng YUANYI (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000060</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-004</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#18</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>065</MS_MAY>
+    <TEN_MAY>Máy ép nóng lạnh YUAN YI (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000058</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-004</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#18</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>065</MS_MAY>
+    <TEN_MAY>Máy ép nóng lạnh YUAN YI (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000022</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Khả năng lỗi dây dò nhiệt</LY_DO_BT>
+    <MS_N_XUONG>NM2-004</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#19</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>155</MS_MAY>
+    <TEN_MAY>Máy ép nóng lạnh YUANYI (04)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000073</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Xì đầu côn ống do sử dụng lâu ngày</LY_DO_BT>
+    <MS_N_XUONG>NM2-006</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#19</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>156</MS_MAY>
+    <TEN_MAY>Tủ sấy nóng YUANYI (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000045</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-006</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#19</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>156</MS_MAY>
+    <TEN_MAY>Tủ sấy nóng YUANYI (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000044</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-006</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#19</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>154</MS_MAY>
+    <TEN_MAY>Máy ép nóng lạnh YUANYI (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000042</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-006</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#19</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>156</MS_MAY>
+    <TEN_MAY>Tủ sấy nóng YUANYI (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000081</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-006</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#19</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>154</MS_MAY>
+    <TEN_MAY>Máy ép nóng lạnh YUANYI (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000079</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-006</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#19</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>109</MS_MAY>
+    <TEN_MAY>Máy ép tem nhiệt bàn xoay 8 vị trí (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000071</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-006</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#19</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>066</MS_MAY>
+    <TEN_MAY>Tủ sấy nóng YUANYI (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000059</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-006</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#19</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>064</MS_MAY>
+    <TEN_MAY>Máy ép nóng lạnh YUAN YI (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000057</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-006</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#19</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>064</MS_MAY>
+    <TEN_MAY>Máy ép nóng lạnh YUAN YI (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000011</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Hư trạm nhiệt</LY_DO_BT>
+    <MS_N_XUONG>NM2-006</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#19</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>066</MS_MAY>
+    <TEN_MAY>Tủ sấy nóng YUANYI (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000009</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Bảo trì theo yêu cầu </TEN_LOAI_BT>
+    <LY_DO_BT>Do di dời vị trí máy và chưa có nhu cầu sử dụng</LY_DO_BT>
+    <MS_N_XUONG>NM2-006</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#19</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>159</MS_MAY>
+    <TEN_MAY>Máy ép nóng YuanYi (05)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-29T15:12:48.237+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000004</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Xì khớp nối đường ống dầu</LY_DO_BT>
+    <MS_N_XUONG>NM2-006</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>024</MS_MAY>
+    <TEN_MAY>Máy gò gót giày (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000109</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-005</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>008</MS_MAY>
+    <TEN_MAY>Máy ép nóng lót gót CP (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000100</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>9 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>9 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-005</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>006</MS_MAY>
+    <TEN_MAY>Máy ép đế giày Compo (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000076</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-005</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>010</MS_MAY>
+    <TEN_MAY>Máy sấy đế giày Activator (04)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000023</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>9 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>9 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-005</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#21</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>187</MS_MAY>
+    <TEN_MAY>Hệ thống xử lý nước (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000056</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tuần</TEN_LOAI_BT>
+    <LY_DO_BT>1 tuần</LY_DO_BT>
+    <MS_N_XUONG>NM2-009</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#21</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>187</MS_MAY>
+    <TEN_MAY>Hệ thống xử lý nước (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000055</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tuần</TEN_LOAI_BT>
+    <LY_DO_BT>1 tuần</LY_DO_BT>
+    <MS_N_XUONG>NM2-009</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#21</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>187</MS_MAY>
+    <TEN_MAY>Hệ thống xử lý nước (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000054</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tuần</TEN_LOAI_BT>
+    <LY_DO_BT>1 tuần</LY_DO_BT>
+    <MS_N_XUONG>NM2-009</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#21</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>187</MS_MAY>
+    <TEN_MAY>Hệ thống xử lý nước (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000095</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-009</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#21</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>187</MS_MAY>
+    <TEN_MAY>Hệ thống xử lý nước (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000094</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tuần</TEN_LOAI_BT>
+    <LY_DO_BT>1 tuần</LY_DO_BT>
+    <MS_N_XUONG>NM2-009</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#21</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>187</MS_MAY>
+    <TEN_MAY>Hệ thống xử lý nước (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000093</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tuần</TEN_LOAI_BT>
+    <LY_DO_BT>1 tuần</LY_DO_BT>
+    <MS_N_XUONG>NM2-009</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#21</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>187</MS_MAY>
+    <TEN_MAY>Hệ thống xử lý nước (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000092</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tuần</TEN_LOAI_BT>
+    <LY_DO_BT>1 tuần</LY_DO_BT>
+    <MS_N_XUONG>NM2-009</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#21</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>187</MS_MAY>
+    <TEN_MAY>Hệ thống xử lý nước (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000091</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tuần</TEN_LOAI_BT>
+    <LY_DO_BT>1 tuần</LY_DO_BT>
+    <MS_N_XUONG>NM2-009</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#21</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>187</MS_MAY>
+    <TEN_MAY>Hệ thống xử lý nước (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000090</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-009</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#21</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>053</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingteel EVA (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000017</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-009</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#21</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>052</MS_MAY>
+    <TEN_MAY>Băng tải sấy đế giày (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000015</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>Chuyển từ BTPN  1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-009</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#21</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>053</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingteel EVA (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000007</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Đế khuôn bị lệch</LY_DO_BT>
+    <MS_N_XUONG>NM2-009</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#22</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>201</MS_MAY>
+    <TEN_MAY>Máy cắt băng keo (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000093</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-007</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#23</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>198</MS_MAY>
+    <TEN_MAY>Máy biến áp FUYACO 3P-220/480V-100KVA (04)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000057</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#23</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>157</MS_MAY>
+    <TEN_MAY>Máy phun PU WASON G-380SDC (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000047</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#23</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>157</MS_MAY>
+    <TEN_MAY>Máy phun PU WASON G-380SDC (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000046</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#23</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>129</MS_MAY>
+    <TEN_MAY>Máy phun Silicon Wason G-280V (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000041</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#23</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>129</MS_MAY>
+    <TEN_MAY>Máy phun Silicon Wason G-280V (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000040</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#23</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>119</MS_MAY>
+    <TEN_MAY>Hệ thống bơm hút chân không (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000039</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#23</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>096</MS_MAY>
+    <TEN_MAY>Máy biến áp SUTUDO 3P-220/480V-150KVA (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000036</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#23</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>128</MS_MAY>
+    <TEN_MAY>Hệ thống 6 trạm sấy Gel/Silicon (02-&gt;07)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000005</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Mất tín hiệu Timer trạm số 3</LY_DO_BT>
+    <MS_N_XUONG>NM2-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#23</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>198</MS_MAY>
+    <TEN_MAY>Máy biến áp FUYACO 3P-220/480V-100KVA (04)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000097</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#23</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>157</MS_MAY>
+    <TEN_MAY>Máy phun PU WASON G-380SDC (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000082</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#23</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>129</MS_MAY>
+    <TEN_MAY>Máy phun Silicon Wason G-280V (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000075</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#23</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>119</MS_MAY>
+    <TEN_MAY>Hệ thống bơm hút chân không (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000074</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#23</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>096</MS_MAY>
+    <TEN_MAY>Máy biến áp SUTUDO 3P-220/480V-150KVA (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000068</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#24</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy may</TEN_LOAI_MAY>
+    <MS_MAY>M-024</MS_MAY>
+    <TEN_MAY>Máy 1 kim 737 Brother (06)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000053</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Lỗi bo chưa rõ nguyên nhân</LY_DO_BT>
+    <MS_N_XUONG>NM1-008</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#26</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000070</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-013</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#26</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>099</MS_MAY>
+    <TEN_MAY>Máy đúc đế Kingsteel PVC (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000005</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Dư đầu nối điện trở</LY_DO_BT>
+    <MS_N_XUONG>NM2-013</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#27</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>111</MS_MAY>
+    <TEN_MAY>Máy ép nhiệt bàn xoay 2 vị trí (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000116</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-010</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#27</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>111</MS_MAY>
+    <TEN_MAY>Máy ép nhiệt bàn xoay 2 vị trí (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000115</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-010</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#3</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>025</MS_MAY>
+    <TEN_MAY>Máy gò gót giày (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000110</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#3</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>011</MS_MAY>
+    <TEN_MAY>Máy ép nóng lót gót CP (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000101</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>9 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>9 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#3</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>231</MS_MAY>
+    <TEN_MAY>Máy cắt băng keo (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000096</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#3</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>009</MS_MAY>
+    <TEN_MAY>Máy ép đế giày Compo (04)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000077</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#3</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>004</MS_MAY>
+    <TEN_MAY>Máy sấy đế giày Activator (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000013</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>9 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>9 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-011</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#32</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>192</MS_MAY>
+    <TEN_MAY>Máy hàn nhựa sóng siêu âm (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000096</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2-015</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#6</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>013</MS_MAY>
+    <TEN_MAY>Máy ép nhiệt sườn dây viền (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000103</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>9 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>9 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-014</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#7</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>002</MS_MAY>
+    <TEN_MAY>Máy ép đế giày Compo (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000074</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-015</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#8</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>026</MS_MAY>
+    <TEN_MAY>Máy gò gót giày (04)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000111</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-016</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#8</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>014</MS_MAY>
+    <TEN_MAY>Máy ép đế giày Compo (05)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000078</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-016</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#8</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>235</MS_MAY>
+    <TEN_MAY>Máy gò gót giày HL-ENL (05)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000048</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-016</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#8</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>132</MS_MAY>
+    <TEN_MAY>Máy ép nóng lót gót_đầu quay (04)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-05-29T10:52:08.277+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000038</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-016</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#9</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>089</MS_MAY>
+    <TEN_MAY>Máy ép nhiệt (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202007000005</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-017</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>CL#9</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>021</MS_MAY>
+    <TEN_MAY>Máy ép lạnh lót gót CP (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000107</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>9 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>9 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-017</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Hệ thống hút mùi</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>163</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi khu vực sản xuất NM1 (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000042</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-019</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Lầu 1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>079</MS_MAY>
+    <TEN_MAY>Máy biến áp SUTUDO 1P-110V-40KVA (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202007000003</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-021</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Lầu 1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>123</MS_MAY>
+    <TEN_MAY>Máy hàn miệng bao nylon (04)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000119</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-021</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Lầu 1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>122</MS_MAY>
+    <TEN_MAY>Máy hàn miệng bao nylon (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000118</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-021</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Lầu 1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>121</MS_MAY>
+    <TEN_MAY>Máy hàn miệng bao nylon (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000117</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-021</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Lầu 1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>108</MS_MAY>
+    <TEN_MAY>Máy hàn miệng bao nylon (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000114</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-021</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Lầu 1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>012</MS_MAY>
+    <TEN_MAY>Máy ép tem nhãn (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000102</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>9 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>9 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-021</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Lầu 1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy may</TEN_LOAI_MAY>
+    <MS_MAY>M-040</MS_MAY>
+    <TEN_MAY>Máy 1 kim 737 Brother (10)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-22T16:12:28.34+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000001</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Lỗi bo điện tử</LY_DO_BT>
+    <MS_N_XUONG>NM1-021</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Lầu 1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy may</TEN_LOAI_MAY>
+    <MS_MAY>M-209</MS_MAY>
+    <TEN_MAY>Máy Zigzag bàn Golden wheel (17)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-05-29T10:52:08.277+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000016</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Hư bánh nhong máy</LY_DO_BT>
+    <MS_N_XUONG>NM1-021</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Lầu 1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy may</TEN_LOAI_MAY>
+    <MS_MAY>M-137</MS_MAY>
+    <TEN_MAY>Máy 2 kim 332 Consew (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202004000251</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-021</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>MAINT</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>222</MS_MAY>
+    <TEN_MAY>Máy mài bàn 2 đá Bosch (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000094</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-022</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>MAINT</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>185</MS_MAY>
+    <TEN_MAY>Máy bơm dầu (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000092</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-022</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>MAINT</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>183</MS_MAY>
+    <TEN_MAY>Máy mài góc (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000091</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-022</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>MAINT</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>182</MS_MAY>
+    <TEN_MAY>Máy cưa gỗ cầm tay (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000090</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-022</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>MAINT</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>176</MS_MAY>
+    <TEN_MAY>Máy hàn điện (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000044</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-022</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>MAINT-MM</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>178</MS_MAY>
+    <TEN_MAY>Máy mài bàn 2 đá (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000089</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-023</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>MAINT-MM</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>179</MS_MAY>
+    <TEN_MAY>Máy khoan Pin sạc cầm tay (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000045</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-023</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>MAINT-WS</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>223</MS_MAY>
+    <TEN_MAY>Máy cắt đĩa Makita (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000095</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-024</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>MAINT-WS</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>174</MS_MAY>
+    <TEN_MAY>Máy khoan bàn Hồng Ký (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000088</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-024</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>MAINT-WS</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>224</MS_MAY>
+    <TEN_MAY>Máy khoan điện cầm tay Bosch (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000047</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-024</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>MAINT-WS</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>181</MS_MAY>
+    <TEN_MAY>Máy khoan bê tông cầm tay (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000046</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-024</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>069</MS_MAY>
+    <TEN_MAY>Máy ép đế LIZHOU-LZ606 (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000113</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>9 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>9 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>069</MS_MAY>
+    <TEN_MAY>Máy ép đế LIZHOU-LZ606 (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000112</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>168</MS_MAY>
+    <TEN_MAY>Hệ thống điện, đèn, quạt,... NM1 (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000087</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>140</MS_MAY>
+    <TEN_MAY>Máy sấy màng co băng tải (03)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000085</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>257</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi phòng keo NM1 (04)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000050</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM1</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>#001</MS_MAY>
+    <TEN_MAY>CHUNG NM1</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000019</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Lắp mới thiết bị</TEN_LOAI_BT>
+    <LY_DO_BT>Lắp cho 6 máy thuê chưa có thùng điện kết nối vào chuyền</LY_DO_BT>
+    <MS_N_XUONG>NM1</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>232</MS_MAY>
+    <TEN_MAY>Máy cắt dập Samco TC-75 (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-06T14:13:46.14+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000098</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Bánh xe định vị trượt bị hư</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>252</MS_MAY>
+    <TEN_MAY>Máy lạng da CN TAKING (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-29T15:12:48.237+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000097</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Nâng cấp thiết bị</TEN_LOAI_BT>
+    <LY_DO_BT>Cần lực hút mạnh hơn, dùng túi lọc tinh bị cản gió nên thay loại lọc thưa hơn</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>133</MS_MAY>
+    <TEN_MAY>Máy cắt hơi xù gai TRC (11)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000072</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Đứt dây curoa do sử dụng lâu ngày</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>238</MS_MAY>
+    <TEN_MAY>Máy cắt dây gai xù (12)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000071</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>234</MS_MAY>
+    <TEN_MAY>Máy cắt Giấy/ EVA (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000070</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>227</MS_MAY>
+    <TEN_MAY>Máy khoan bàn Hồng ký (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000063</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>226</MS_MAY>
+    <TEN_MAY>Máy mài góc Makita (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000062</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>225</MS_MAY>
+    <TEN_MAY>Súng hơi mở bulong 2 búa Anton (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000061</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>216</MS_MAY>
+    <TEN_MAY>Tủ sấy nóng YUANYI (04)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000060</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>216</MS_MAY>
+    <TEN_MAY>Tủ sấy nóng YUANYI (04)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000059</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>202</MS_MAY>
+    <TEN_MAY>Máy cắt băng keo (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000058</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>177</MS_MAY>
+    <TEN_MAY>Máy mài bàn 2 đá (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000053</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>175</MS_MAY>
+    <TEN_MAY>Máy cắt đĩa (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000052</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>169</MS_MAY>
+    <TEN_MAY>Hệ thống điện, đèn, quạt,... NM2 (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000051</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>166</MS_MAY>
+    <TEN_MAY>Máy cắt dây gai bo đầu (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000050</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>098</MS_MAY>
+    <TEN_MAY>Máy sấy khô KAESER (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000038</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>098</MS_MAY>
+    <TEN_MAY>Máy sấy khô KAESER (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000037</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>088</MS_MAY>
+    <TEN_MAY>Máy cuốn kiểm vải (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000035</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>063</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLASHCUT 30155HD (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000034</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>063</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLASHCUT 30155HD (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000033</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>062</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLEXCUT 3015S (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000032</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>062</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLEXCUT 3015S (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000031</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>#002</MS_MAY>
+    <TEN_MAY>CHUNG NM2</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000026</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>xì dầu do sử dujng lâu ngày</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>058</MS_MAY>
+    <TEN_MAY>Máy cắt dập đầu di dộng ATOM (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-22T16:12:28.34+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000016</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>058</MS_MAY>
+    <TEN_MAY>Máy cắt dập đầu di dộng ATOM (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-22T16:12:28.34+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000015</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>057</MS_MAY>
+    <TEN_MAY>Máy cắt dập đầu di dộng FiPi (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-22T16:12:28.34+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000014</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>057</MS_MAY>
+    <TEN_MAY>Máy cắt dập đầu di dộng FiPi (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-22T16:12:28.34+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000013</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>258</MS_MAY>
+    <TEN_MAY>Máy biến áp LARSON 3ph-220V-15kVA (07)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000104</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>239</MS_MAY>
+    <TEN_MAY>Máy biến áp LARSON 3ph-220V-15kVA (06)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000103</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>236</MS_MAY>
+    <TEN_MAY>Máy biến áp KOBISHIN 3P-220V-10KVA (05)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000102</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>234</MS_MAY>
+    <TEN_MAY>Máy cắt Giấy/ EVA (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000101</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>216</MS_MAY>
+    <TEN_MAY>Tủ sấy nóng YUANYI (04)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000098</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>186</MS_MAY>
+    <TEN_MAY>Máy bơm mỡ bò (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000089</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>184</MS_MAY>
+    <TEN_MAY>Máy hàn điện tử (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000088</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>180</MS_MAY>
+    <TEN_MAY>Máy khoan điện cầm tay Bosch (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000087</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>169</MS_MAY>
+    <TEN_MAY>Hệ thống điện, đèn, quạt,... NM2 (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000086</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>162</MS_MAY>
+    <TEN_MAY>Hệ thống hút mùi chuyền keo NM2 (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000085</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>139</MS_MAY>
+    <TEN_MAY>Máy tháo Revet (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000078</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>118</MS_MAY>
+    <TEN_MAY>Máy xén lạng vật liệu (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000073</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>098</MS_MAY>
+    <TEN_MAY>Máy sấy khô KAESER (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000069</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>088</MS_MAY>
+    <TEN_MAY>Máy cuốn kiểm vải (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000066</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>078</MS_MAY>
+    <TEN_MAY>Máy nén khí KAESER (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000065</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>076</MS_MAY>
+    <TEN_MAY>Máy biến tần TEMCO (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000064</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>073</MS_MAY>
+    <TEN_MAY>Máy phát điện Cummins (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000063</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>068</MS_MAY>
+    <TEN_MAY>Máy ép đế LIZHOU-LZ606 (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000062</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>068</MS_MAY>
+    <TEN_MAY>Máy ép đế LIZHOU-LZ606 (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000061</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>063</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLASHCUT 30155HD (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000056</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>062</MS_MAY>
+    <TEN_MAY>Máy cắt ATOM FLEXCUT 3015S (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000055</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>118</MS_MAY>
+    <TEN_MAY>Máy xén lạng vật liệu (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000051</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Dây cu roa bị hỏng do sử dụng lâu ngày</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>073</MS_MAY>
+    <TEN_MAY>Máy phát điện Cummins (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000018</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Bình điện đã sử dụng từ năm 2016 </LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>220</MS_MAY>
+    <TEN_MAY>Máy cắt dập đầu quay Atom HF-9.3 (10)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000008</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Hư khớp nối trục</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>118</MS_MAY>
+    <TEN_MAY>Máy xén lạng vật liệu (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-06-26T10:44:15.323+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000006</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Hư dây cu-roa đá mài</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>NM2</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>221</MS_MAY>
+    <TEN_MAY>Máy cắt dập đầu quay Atom HF-9.3 (11)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-05-25T16:29:36.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000001</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>Hư công tắc nút nhấn, thị trường VN không có</LY_DO_BT>
+    <MS_N_XUONG>NM2</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Phòng phân phối</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>102</MS_MAY>
+    <TEN_MAY>Máy sấy khô KAESER (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202007000009</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-026</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Phòng phân phối</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>101</MS_MAY>
+    <TEN_MAY>Máy nén khí Kaeser (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202007000008</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-026</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Phòng phân phối</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>100</MS_MAY>
+    <TEN_MAY>Máy biến tần TEMCO (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202007000007</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>3 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>3 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-026</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Phòng phân phối</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>100</MS_MAY>
+    <TEN_MAY>Máy biến tần TEMCO (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202007000006</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-026</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>Phòng phân phối</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>147</MS_MAY>
+    <TEN_MAY>Máy phát điện Cummins (02)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202006000086</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>1 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>1 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-026</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>TRỆT</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy cơ điện</TEN_LOAI_MAY>
+    <MS_MAY>087</MS_MAY>
+    <TEN_MAY>Thang máy NM1 (01)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-20T08:58:21.297+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202007000004</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>2 tháng</TEN_LOAI_BT>
+    <LY_DO_BT>2 tháng</LY_DO_BT>
+    <MS_N_XUONG>NM1-028</MS_N_XUONG>
+  </DATA_INFO>
+  <DATA_INFO>
+    <TEN_N_XUONG>TRỆT</TEN_N_XUONG>
+    <TEN_LOAI_MAY>Máy may</TEN_LOAI_MAY>
+    <MS_MAY>M-064</MS_MAY>
+    <TEN_MAY>Máy 1 kim 737 Brother (13)</TEN_MAY>
+    <NGAY_NGHIEM_THU>2020-07-02T14:47:57.877+07:00</NGAY_NGHIEM_THU>
+    <MS_PHIEU_BAO_TRI>WO-202005000054</MS_PHIEU_BAO_TRI>
+    <TEN_LOAI_BT>Sửa chữa đột xuất</TEN_LOAI_BT>
+    <LY_DO_BT>lỗi bo chưa rõ nguyên nhân</LY_DO_BT>
+    <MS_N_XUONG>NM1-028</MS_N_XUONG>
+  </DATA_INFO>
+  <Table1>
+    <TIEU_DE>DANH SÁCH PHIẾU BẢO TRÌ THEO NGÀY BẢO TRÌ CUỐI</TIEU_DE>
+    <DIA_DIEM>Địa điểm :</DIA_DIEM>
+    <LOAI_TB>Loại TB</LOAI_TB>
+    <NHOM_TB>Từ ngày 01/05/2020 Đến ngày - 31/07/2020</NHOM_TB>
+    <STT>STT</STT>
+    <THIET_BI>THIẾT BỊ</THIET_BI>
+    <NGAY_CUOI>Ngày BT cuối</NGAY_CUOI>
+    <MS_PHIEU_BT>Phiếu bảo trì</MS_PHIEU_BT>
+    <LOAI_BT>Loại bảo trì</LOAI_BT>
+    <LY_DO>do yếu tố chủ quan</LY_DO>
+  </Table1>
+  <rptTitlereport>
+    <THONG_TIN_CTY>Công ty TNHH Remington International
+Lô C, 8C, CN, KCN Mỹ Phước 3, P. Thới Hòa, Thị Xã Bến Cát, Bình Dương, Việt Nam.
+Telephone: 02743559908  Fax: 02743559907</THONG_TIN_CTY>
+    <LOGO>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</LOGO>
+    <LE_TRAI_LOGO>0</LE_TRAI_LOGO>
+    <LE_TREN_LOGO>120</LE_TREN_LOGO>
+    <WIDTH>1800</WIDTH>
+    <HEIGHT>1000</HEIGHT>
+    <NGAY_IN>Ngày in: : 22/07/2020</NGAY_IN>
+    <PAGE>Trang: </PAGE>
+    <OFPAGE>/</OFPAGE>
+    <TTC_CAO>700</TTC_CAO>
+    <TTC_RONG>7000</TTC_RONG>
+    <USER_LOG>User : admin</USER_LOG>
+    <NGAY_HT>Ngày HT : 22/07/2020</NGAY_HT>
+  </rptTitlereport>
+</NewDataSet>
