@@ -20,9 +20,9 @@ namespace ReportManager
             Commons.Modules.TypeLanguage = 0;
 
 
-            Commons.IConnections.Server = ".";
-            Commons.IConnections.Database = "CMMS_VF";
-            Commons.IConnections.Password = "123";
+            Commons.IConnections.Server = "27.74.240.29,1433";
+            Commons.IConnections.Database = "CMMS_BARIA";
+            Commons.IConnections.Password = "codaikadaiku";
             Commons.IConnections.Username = "sa";
 
             //Commons.IConnections.Server = "192.168.200.57";

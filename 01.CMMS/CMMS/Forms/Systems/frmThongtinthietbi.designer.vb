@@ -565,6 +565,7 @@ Partial Class frmThongtinthietbi
         'DataGridViewTextBoxColumn1
         '
         Me.DataGridViewTextBoxColumn1.HeaderText = "MA_TAI_LIEU"
+        Me.DataGridViewTextBoxColumn1.MinimumWidth = 8
         Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
         Me.DataGridViewTextBoxColumn1.ReadOnly = True
         Me.DataGridViewTextBoxColumn1.Visible = False
@@ -573,6 +574,7 @@ Partial Class frmThongtinthietbi
         'DataGridViewTextBoxColumn2
         '
         Me.DataGridViewTextBoxColumn2.HeaderText = "MS_MAY"
+        Me.DataGridViewTextBoxColumn2.MinimumWidth = 8
         Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
         Me.DataGridViewTextBoxColumn2.ReadOnly = True
         Me.DataGridViewTextBoxColumn2.Width = 196
@@ -580,6 +582,7 @@ Partial Class frmThongtinthietbi
         'DataGridViewTextBoxColumn3
         '
         Me.DataGridViewTextBoxColumn3.HeaderText = "MS_PT"
+        Me.DataGridViewTextBoxColumn3.MinimumWidth = 8
         Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
         Me.DataGridViewTextBoxColumn3.ReadOnly = True
         Me.DataGridViewTextBoxColumn3.Width = 97
@@ -587,6 +590,7 @@ Partial Class frmThongtinthietbi
         'DataGridViewTextBoxColumn4
         '
         Me.DataGridViewTextBoxColumn4.HeaderText = "MS_PT_NCC"
+        Me.DataGridViewTextBoxColumn4.MinimumWidth = 8
         Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
         Me.DataGridViewTextBoxColumn4.ReadOnly = True
         Me.DataGridViewTextBoxColumn4.Width = 97
@@ -594,6 +598,7 @@ Partial Class frmThongtinthietbi
         'DataGridViewTextBoxColumn5
         '
         Me.DataGridViewTextBoxColumn5.HeaderText = "MS_PT_CTY"
+        Me.DataGridViewTextBoxColumn5.MinimumWidth = 8
         Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
         Me.DataGridViewTextBoxColumn5.ReadOnly = True
         Me.DataGridViewTextBoxColumn5.Visible = False
@@ -602,6 +607,7 @@ Partial Class frmThongtinthietbi
         'DataGridViewTextBoxColumn6
         '
         Me.DataGridViewTextBoxColumn6.HeaderText = "TEN_PT"
+        Me.DataGridViewTextBoxColumn6.MinimumWidth = 8
         Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
         Me.DataGridViewTextBoxColumn6.ReadOnly = True
         Me.DataGridViewTextBoxColumn6.Visible = False
@@ -610,12 +616,14 @@ Partial Class frmThongtinthietbi
         'DataGridViewTextBoxColumn7
         '
         Me.DataGridViewTextBoxColumn7.HeaderText = "DVT"
+        Me.DataGridViewTextBoxColumn7.MinimumWidth = 8
         Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
         Me.DataGridViewTextBoxColumn7.Width = 97
         '
         'DataGridViewTextBoxColumn8
         '
         Me.DataGridViewTextBoxColumn8.HeaderText = "QUY_CACH"
+        Me.DataGridViewTextBoxColumn8.MinimumWidth = 8
         Me.DataGridViewTextBoxColumn8.Name = "DataGridViewTextBoxColumn8"
         Me.DataGridViewTextBoxColumn8.Width = 97
         '
@@ -623,10 +631,10 @@ Partial Class frmThongtinthietbi
         '
         Me.btnHelp.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btnHelp.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
-        Me.btnHelp.Location = New System.Drawing.Point(1578, 13)
+        Me.btnHelp.Location = New System.Drawing.Point(1047, 9)
         Me.btnHelp.Margin = New System.Windows.Forms.Padding(1)
         Me.btnHelp.Name = "btnHelp"
-        Me.btnHelp.Size = New System.Drawing.Size(51, 41)
+        Me.btnHelp.Size = New System.Drawing.Size(33, 27)
         Me.btnHelp.TabIndex = 95
         Me.btnHelp.Tag = "CMMS!frmThongtinthietbi"
         '
@@ -634,10 +642,10 @@ Partial Class frmThongtinthietbi
         '
         Me.btnVideo.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btnVideo.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
-        Me.btnVideo.Location = New System.Drawing.Point(1525, 13)
+        Me.btnVideo.Location = New System.Drawing.Point(1012, 9)
         Me.btnVideo.Margin = New System.Windows.Forms.Padding(1)
         Me.btnVideo.Name = "btnVideo"
-        Me.btnVideo.Size = New System.Drawing.Size(51, 41)
+        Me.btnVideo.Size = New System.Drawing.Size(33, 27)
         Me.btnVideo.TabIndex = 94
         Me.btnVideo.Tag = "CMMS!frmThongtinthietbi"
         '
@@ -645,10 +653,9 @@ Partial Class frmThongtinthietbi
         '
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.LblHT, DevExpress.Utils.DefaultBoolean.[Default])
         Me.LblHT.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LblHT.Location = New System.Drawing.Point(375, 0)
-        Me.LblHT.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LblHT.Location = New System.Drawing.Point(249, 0)
         Me.LblHT.Name = "LblHT"
-        Me.LblHT.Size = New System.Drawing.Size(131, 39)
+        Me.LblHT.Size = New System.Drawing.Size(87, 27)
         Me.LblHT.TabIndex = 103
         Me.LblHT.Text = "Hệ thống :"
         Me.LblHT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -657,10 +664,9 @@ Partial Class frmThongtinthietbi
         '
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.LblNhomthietbi3, DevExpress.Utils.DefaultBoolean.[Default])
         Me.LblNhomthietbi3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LblNhomthietbi3.Location = New System.Drawing.Point(1117, 0)
-        Me.LblNhomthietbi3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LblNhomthietbi3.Location = New System.Drawing.Point(741, 0)
         Me.LblNhomthietbi3.Name = "LblNhomthietbi3"
-        Me.LblNhomthietbi3.Size = New System.Drawing.Size(131, 39)
+        Me.LblNhomthietbi3.Size = New System.Drawing.Size(87, 27)
         Me.LblNhomthietbi3.TabIndex = 77
         Me.LblNhomthietbi3.Text = "Nhóm thiết bị :"
         Me.LblNhomthietbi3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -668,22 +674,21 @@ Partial Class frmThongtinthietbi
         'cboLine
         '
         Me.cboLine.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.cboLine.Location = New System.Drawing.Point(514, 2)
-        Me.cboLine.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.cboLine.Location = New System.Drawing.Point(342, 1)
+        Me.cboLine.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.cboLine.Name = "cboLine"
         Me.cboLine.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cboLine.Properties.NullText = ""
-        Me.cboLine.Size = New System.Drawing.Size(224, 26)
+        Me.cboLine.Size = New System.Drawing.Size(147, 20)
         Me.cboLine.TabIndex = 101
         '
         'LblNLD
         '
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.LblNLD, DevExpress.Utils.DefaultBoolean.[Default])
         Me.LblNLD.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LblNLD.Location = New System.Drawing.Point(4, 0)
-        Me.LblNLD.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LblNLD.Location = New System.Drawing.Point(3, 0)
         Me.LblNLD.Name = "LblNLD"
-        Me.LblNLD.Size = New System.Drawing.Size(131, 39)
+        Me.LblNLD.Size = New System.Drawing.Size(87, 27)
         Me.LblNLD.TabIndex = 81
         Me.LblNLD.Text = "Nơi lắp đặt :"
         Me.LblNLD.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -691,22 +696,21 @@ Partial Class frmThongtinthietbi
         'CboLoaithietbi
         '
         Me.CboLoaithietbi.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.CboLoaithietbi.Location = New System.Drawing.Point(885, 2)
-        Me.CboLoaithietbi.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.CboLoaithietbi.Location = New System.Drawing.Point(588, 1)
+        Me.CboLoaithietbi.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.CboLoaithietbi.Name = "CboLoaithietbi"
         Me.CboLoaithietbi.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.CboLoaithietbi.Properties.NullText = ""
-        Me.CboLoaithietbi.Size = New System.Drawing.Size(224, 26)
+        Me.CboLoaithietbi.Size = New System.Drawing.Size(147, 20)
         Me.CboLoaithietbi.TabIndex = 99
         '
         'LblLoaithietbi
         '
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.LblLoaithietbi, DevExpress.Utils.DefaultBoolean.[Default])
         Me.LblLoaithietbi.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LblLoaithietbi.Location = New System.Drawing.Point(746, 0)
-        Me.LblLoaithietbi.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LblLoaithietbi.Location = New System.Drawing.Point(495, 0)
         Me.LblLoaithietbi.Name = "LblLoaithietbi"
-        Me.LblLoaithietbi.Size = New System.Drawing.Size(131, 39)
+        Me.LblLoaithietbi.Size = New System.Drawing.Size(87, 27)
         Me.LblLoaithietbi.TabIndex = 0
         Me.LblLoaithietbi.Text = "Loại thiết bị :"
         Me.LblLoaithietbi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -720,29 +724,29 @@ Partial Class frmThongtinthietbi
         Me.CboNLD.EditValue = Nothing
         Me.CboNLD.Enabled = False
         Me.CboNLD.KeyFieldName = Nothing
-        Me.CboNLD.Location = New System.Drawing.Point(143, 2)
+        Me.CboNLD.Location = New System.Drawing.Point(96, 1)
         Me.CboNLD.LookAndFeel.SkinName = "Blue"
         Me.CboNLD.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.CboNLD.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.CboNLD.MaximumSize = New System.Drawing.Size(1500, 30)
-        Me.CboNLD.MinimumSize = New System.Drawing.Size(15, 30)
+        Me.CboNLD.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.CboNLD.MaximumSize = New System.Drawing.Size(1000, 21)
+        Me.CboNLD.MinimumSize = New System.Drawing.Size(10, 21)
         Me.CboNLD.Name = "CboNLD"
         Me.CboNLD.ParentFieldName = Nothing
         Me.CboNLD.ReadOnly = False
         Me.CboNLD.SelectedIndex = 0
-        Me.CboNLD.Size = New System.Drawing.Size(224, 30)
+        Me.CboNLD.Size = New System.Drawing.Size(147, 21)
         Me.CboNLD.TabIndex = 100
         Me.CboNLD.TextValue = Nothing
         '
         'CboNhomthietbi
         '
         Me.CboNhomthietbi.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.CboNhomthietbi.Location = New System.Drawing.Point(1256, 2)
-        Me.CboNhomthietbi.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.CboNhomthietbi.Location = New System.Drawing.Point(834, 1)
+        Me.CboNhomthietbi.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.CboNhomthietbi.Name = "CboNhomthietbi"
         Me.CboNhomthietbi.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.CboNhomthietbi.Properties.NullText = ""
-        Me.CboNhomthietbi.Size = New System.Drawing.Size(226, 26)
+        Me.CboNhomthietbi.Size = New System.Drawing.Size(148, 20)
         Me.CboNhomthietbi.TabIndex = 102
         '
         'lblClass
@@ -753,10 +757,9 @@ Partial Class frmThongtinthietbi
         Me.lblClass.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblClass.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblClass.ForeColor = System.Drawing.Color.Black
-        Me.lblClass.Location = New System.Drawing.Point(4, 112)
-        Me.lblClass.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblClass.Location = New System.Drawing.Point(3, 76)
         Me.lblClass.Name = "lblClass"
-        Me.lblClass.Size = New System.Drawing.Size(127, 48)
+        Me.lblClass.Size = New System.Drawing.Size(84, 35)
         Me.lblClass.TabIndex = 107
         Me.lblClass.Text = "CLASS"
         Me.lblClass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -765,19 +768,19 @@ Partial Class frmThongtinthietbi
         '
         Me.Tabthietbi.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Tabthietbi.Location = New System.Drawing.Point(0, 0)
-        Me.Tabthietbi.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Tabthietbi.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Tabthietbi.Name = "Tabthietbi"
         Me.Tabthietbi.SelectedTabPage = Me.TabThongtinTB
-        Me.Tabthietbi.Size = New System.Drawing.Size(1562, 979)
+        Me.Tabthietbi.Size = New System.Drawing.Size(930, 671)
         Me.Tabthietbi.TabIndex = 0
         Me.Tabthietbi.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.TabThongtinTB, Me.tabCautrucTB, Me.tabLichBTDKy, Me.tabGSTTvaHCTB, Me.tabThongsoTB, Me.tabLichsuTB, Me.tabHechuyengia, Me.tabBaocao})
         '
         'TabThongtinTB
         '
         Me.TabThongtinTB.Controls.Add(Me.TableLayoutPanel6)
-        Me.TabThongtinTB.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.TabThongtinTB.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.TabThongtinTB.Name = "TabThongtinTB"
-        Me.TabThongtinTB.Size = New System.Drawing.Size(1555, 945)
+        Me.TabThongtinTB.Size = New System.Drawing.Size(923, 643)
         Me.TabThongtinTB.Text = "Thông tin thiết bị"
         '
         'TableLayoutPanel6
@@ -785,18 +788,18 @@ Partial Class frmThongtinthietbi
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.TableLayoutPanel6, DevExpress.Utils.DefaultBoolean.[Default])
         Me.TableLayoutPanel6.BackColor = System.Drawing.Color.FromArgb(CType(CType(227, Byte), Integer), CType(CType(239, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.TableLayoutPanel6.ColumnCount = 2
-        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 747.0!))
+        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 498.0!))
         Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel6.Controls.Add(Me.ucDMTBi, 0, 0)
         Me.TableLayoutPanel6.Controls.Add(Me.Panel7, 0, 1)
         Me.TableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel6.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel6.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel6.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
         Me.TableLayoutPanel6.RowCount = 2
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55.0!))
-        Me.TableLayoutPanel6.Size = New System.Drawing.Size(1555, 945)
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38.0!))
+        Me.TableLayoutPanel6.Size = New System.Drawing.Size(923, 643)
         Me.TableLayoutPanel6.TabIndex = 90
         '
         'ucDMTBi
@@ -804,12 +807,12 @@ Partial Class frmThongtinthietbi
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.ucDMTBi, DevExpress.Utils.DefaultBoolean.[Default])
         Me.TableLayoutPanel6.SetColumnSpan(Me.ucDMTBi, 2)
         Me.ucDMTBi.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ucDMTBi.Location = New System.Drawing.Point(6, 6)
+        Me.ucDMTBi.Location = New System.Drawing.Point(4, 4)
         Me.ucDMTBi.LookAndFeel.SkinName = "Blue"
         Me.ucDMTBi.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.ucDMTBi.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.ucDMTBi.Margin = New System.Windows.Forms.Padding(4)
         Me.ucDMTBi.Name = "ucDMTBi"
-        Me.ucDMTBi.Size = New System.Drawing.Size(1543, 878)
+        Me.ucDMTBi.Size = New System.Drawing.Size(915, 597)
         Me.ucDMTBi.TabIndex = 91
         '
         'Panel7
@@ -827,119 +830,119 @@ Partial Class frmThongtinthietbi
         Me.Panel7.Controls.Add(Me.BtnXoa)
         Me.Panel7.Controls.Add(Me.BtnThoat)
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel7.Location = New System.Drawing.Point(4, 892)
-        Me.Panel7.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel7.Location = New System.Drawing.Point(3, 606)
+        Me.Panel7.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(1547, 51)
+        Me.Panel7.Size = New System.Drawing.Size(917, 36)
         Me.Panel7.TabIndex = 5
         '
         'BtnGhi
         '
         Me.BtnGhi.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnGhi.Location = New System.Drawing.Point(1234, 7)
+        Me.BtnGhi.Location = New System.Drawing.Point(709, 6)
         Me.BtnGhi.LookAndFeel.SkinName = "Blue"
         Me.BtnGhi.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.BtnGhi.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnGhi.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnGhi.Name = "BtnGhi"
-        Me.BtnGhi.Size = New System.Drawing.Size(156, 44)
+        Me.BtnGhi.Size = New System.Drawing.Size(104, 30)
         Me.BtnGhi.TabIndex = 42
         Me.BtnGhi.Text = "&Ghi"
         '
         'txtMS_MAY
         '
-        Me.txtMS_MAY.Location = New System.Drawing.Point(355, 17)
-        Me.txtMS_MAY.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtMS_MAY.Location = New System.Drawing.Point(237, 12)
+        Me.txtMS_MAY.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtMS_MAY.Name = "txtMS_MAY"
-        Me.txtMS_MAY.Size = New System.Drawing.Size(94, 26)
+        Me.txtMS_MAY.Size = New System.Drawing.Size(63, 20)
         Me.txtMS_MAY.TabIndex = 111
         Me.txtMS_MAY.Visible = False
         '
         'txtM0
         '
-        Me.txtM0.Location = New System.Drawing.Point(519, 17)
-        Me.txtM0.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtM0.Location = New System.Drawing.Point(346, 12)
+        Me.txtM0.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtM0.Name = "txtM0"
-        Me.txtM0.Size = New System.Drawing.Size(94, 26)
+        Me.txtM0.Size = New System.Drawing.Size(63, 20)
         Me.txtM0.TabIndex = 111
         Me.txtM0.Visible = False
         '
         'BtnThem
         '
         Me.BtnThem.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnThem.Location = New System.Drawing.Point(919, 7)
+        Me.BtnThem.Location = New System.Drawing.Point(499, 6)
         Me.BtnThem.LookAndFeel.SkinName = "Blue"
         Me.BtnThem.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.BtnThem.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnThem.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnThem.Name = "BtnThem"
-        Me.BtnThem.Size = New System.Drawing.Size(156, 44)
+        Me.BtnThem.Size = New System.Drawing.Size(104, 30)
         Me.BtnThem.TabIndex = 40
         Me.BtnThem.Text = "&Thêm"
         '
         'BtnSua
         '
         Me.BtnSua.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnSua.Location = New System.Drawing.Point(1075, 7)
+        Me.BtnSua.Location = New System.Drawing.Point(603, 6)
         Me.BtnSua.LookAndFeel.SkinName = "Blue"
         Me.BtnSua.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.BtnSua.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnSua.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnSua.Name = "BtnSua"
-        Me.BtnSua.Size = New System.Drawing.Size(156, 44)
+        Me.BtnSua.Size = New System.Drawing.Size(104, 30)
         Me.BtnSua.TabIndex = 41
         Me.BtnSua.Text = "&Sửa"
         '
         'btnCopyTB
         '
         Me.btnCopyTB.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.btnCopyTB.Location = New System.Drawing.Point(174, 7)
-        Me.btnCopyTB.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnCopyTB.Location = New System.Drawing.Point(116, 6)
+        Me.btnCopyTB.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnCopyTB.Name = "btnCopyTB"
-        Me.btnCopyTB.Size = New System.Drawing.Size(172, 44)
+        Me.btnCopyTB.Size = New System.Drawing.Size(115, 30)
         Me.btnCopyTB.TabIndex = 39
         Me.btnCopyTB.Text = "Copy thiết bị"
         '
         'BtnTaoMoiTB
         '
         Me.BtnTaoMoiTB.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.BtnTaoMoiTB.Location = New System.Drawing.Point(0, 7)
-        Me.BtnTaoMoiTB.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnTaoMoiTB.Location = New System.Drawing.Point(0, 6)
+        Me.BtnTaoMoiTB.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnTaoMoiTB.Name = "BtnTaoMoiTB"
-        Me.BtnTaoMoiTB.Size = New System.Drawing.Size(172, 44)
+        Me.BtnTaoMoiTB.Size = New System.Drawing.Size(115, 30)
         Me.BtnTaoMoiTB.TabIndex = 38
         Me.BtnTaoMoiTB.Text = "Tạo mới thiết bị"
         '
         'BtnKhongghi
         '
         Me.BtnKhongghi.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnKhongghi.Location = New System.Drawing.Point(1390, 7)
+        Me.BtnKhongghi.Location = New System.Drawing.Point(813, 6)
         Me.BtnKhongghi.LookAndFeel.SkinName = "Blue"
         Me.BtnKhongghi.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.BtnKhongghi.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnKhongghi.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnKhongghi.Name = "BtnKhongghi"
-        Me.BtnKhongghi.Size = New System.Drawing.Size(156, 44)
+        Me.BtnKhongghi.Size = New System.Drawing.Size(104, 30)
         Me.BtnKhongghi.TabIndex = 43
         Me.BtnKhongghi.Text = "&Không"
         '
         'BtnXoa
         '
         Me.BtnXoa.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXoa.Location = New System.Drawing.Point(1234, 7)
+        Me.BtnXoa.Location = New System.Drawing.Point(709, 6)
         Me.BtnXoa.LookAndFeel.SkinName = "Blue"
         Me.BtnXoa.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.BtnXoa.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoa.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoa.Name = "BtnXoa"
-        Me.BtnXoa.Size = New System.Drawing.Size(156, 44)
+        Me.BtnXoa.Size = New System.Drawing.Size(104, 30)
         Me.BtnXoa.TabIndex = 36
         Me.BtnXoa.Text = "&Xóa"
         '
         'BtnThoat
         '
         Me.BtnThoat.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnThoat.Location = New System.Drawing.Point(1390, 7)
+        Me.BtnThoat.Location = New System.Drawing.Point(813, 6)
         Me.BtnThoat.LookAndFeel.SkinName = "Blue"
         Me.BtnThoat.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.BtnThoat.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnThoat.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnThoat.Name = "BtnThoat"
-        Me.BtnThoat.Size = New System.Drawing.Size(156, 44)
+        Me.BtnThoat.Size = New System.Drawing.Size(104, 30)
         Me.BtnThoat.TabIndex = 37
         Me.BtnThoat.Text = "T&hoát"
         '
@@ -947,9 +950,9 @@ Partial Class frmThongtinthietbi
         '
         Me.tabCautrucTB.Controls.Add(Me.SplitContainer7)
         Me.tabCautrucTB.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tabCautrucTB.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.tabCautrucTB.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.tabCautrucTB.Name = "tabCautrucTB"
-        Me.tabCautrucTB.Size = New System.Drawing.Size(1134, 722)
+        Me.tabCautrucTB.Size = New System.Drawing.Size(923, 643)
         Me.tabCautrucTB.Text = "Cấu trúc thiết bị"
         '
         'SplitContainer7
@@ -958,13 +961,13 @@ Partial Class frmThongtinthietbi
         Me.SplitContainer7.Dock = System.Windows.Forms.DockStyle.Fill
         Me.SplitContainer7.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.None
         Me.SplitContainer7.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainer7.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.SplitContainer7.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.SplitContainer7.Name = "SplitContainer7"
         Me.SplitContainer7.Panel1.Controls.Add(Me.grpCautrucTB)
         Me.SplitContainer7.Panel1.Controls.Add(Me.optHL)
         Me.SplitContainer7.Panel1.Text = "Panel1"
         Me.SplitContainer7.Panel2.Controls.Add(Me.TableLayoutPanel12)
-        Me.SplitContainer7.Size = New System.Drawing.Size(1134, 722)
+        Me.SplitContainer7.Size = New System.Drawing.Size(923, 643)
         Me.SplitContainer7.SplitterPosition = 272
         Me.SplitContainer7.TabIndex = 0
         Me.SplitContainer7.Text = "SplitContainer7"
@@ -975,11 +978,11 @@ Partial Class frmThongtinthietbi
         Me.grpCautrucTB.Controls.Add(Me.TableLayoutPanel11)
         Me.grpCautrucTB.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpCautrucTB.ForeColor = System.Drawing.Color.Maroon
-        Me.grpCautrucTB.Location = New System.Drawing.Point(0, 43)
-        Me.grpCautrucTB.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpCautrucTB.Location = New System.Drawing.Point(0, 29)
+        Me.grpCautrucTB.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpCautrucTB.Name = "grpCautrucTB"
-        Me.grpCautrucTB.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpCautrucTB.Size = New System.Drawing.Size(272, 679)
+        Me.grpCautrucTB.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpCautrucTB.Size = New System.Drawing.Size(272, 614)
         Me.grpCautrucTB.TabIndex = 0
         Me.grpCautrucTB.TabStop = False
         Me.grpCautrucTB.Text = "Cấu trúc thiết bị"
@@ -992,14 +995,14 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel11.Controls.Add(Me.tvwCTTBi, 0, 0)
         Me.TableLayoutPanel11.Controls.Add(Me.txtTimThietBi, 0, 1)
         Me.TableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel11.Location = New System.Drawing.Point(4, 22)
-        Me.TableLayoutPanel11.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel11.Location = New System.Drawing.Point(3, 15)
+        Me.TableLayoutPanel11.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel11.Name = "TableLayoutPanel11"
         Me.TableLayoutPanel11.RowCount = 2
         Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39.0!))
-        Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
-        Me.TableLayoutPanel11.Size = New System.Drawing.Size(264, 655)
+        Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
+        Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21.0!))
+        Me.TableLayoutPanel11.Size = New System.Drawing.Size(266, 598)
         Me.TableLayoutPanel11.TabIndex = 6
         '
         'tvwCTTBi
@@ -1014,8 +1017,8 @@ Partial Class frmThongtinthietbi
         Me.tvwCTTBi.Appearance.HideSelectionRow.Options.UseBackColor = True
         Me.tvwCTTBi.Appearance.HideSelectionRow.Options.UseForeColor = True
         Me.tvwCTTBi.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.tvwCTTBi.Location = New System.Drawing.Point(4, 2)
-        Me.tvwCTTBi.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.tvwCTTBi.Location = New System.Drawing.Point(3, 1)
+        Me.tvwCTTBi.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.tvwCTTBi.Name = "tvwCTTBi"
         Me.tvwCTTBi.OptionsBehavior.DragNodes = True
         Me.tvwCTTBi.OptionsBehavior.Editable = False
@@ -1033,7 +1036,7 @@ Partial Class frmThongtinthietbi
         Me.tvwCTTBi.OptionsView.ShowHorzLines = False
         Me.tvwCTTBi.OptionsView.ShowPreview = True
         Me.tvwCTTBi.RootValue = -1
-        Me.tvwCTTBi.Size = New System.Drawing.Size(256, 612)
+        Me.tvwCTTBi.Size = New System.Drawing.Size(260, 569)
         Me.tvwCTTBi.TabIndex = 45
         '
         'txtTimThietBi
@@ -1044,8 +1047,8 @@ Partial Class frmThongtinthietbi
         Me.txtTimThietBi.ErrorProviderControl = Nothing
         Me.txtTimThietBi.FieldName = ""
         Me.txtTimThietBi.IsNull = True
-        Me.txtTimThietBi.Location = New System.Drawing.Point(4, 618)
-        Me.txtTimThietBi.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtTimThietBi.Location = New System.Drawing.Point(3, 572)
+        Me.txtTimThietBi.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtTimThietBi.MaxLength = 0
         Me.txtTimThietBi.Multiline = False
         Me.txtTimThietBi.Name = "txtTimThietBi"
@@ -1055,7 +1058,7 @@ Partial Class frmThongtinthietbi
         Me.txtTimThietBi.Properties.Appearance.Options.UseTextOptions = True
         Me.txtTimThietBi.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near
         Me.txtTimThietBi.ReadOnly = False
-        Me.txtTimThietBi.Size = New System.Drawing.Size(256, 26)
+        Me.txtTimThietBi.Size = New System.Drawing.Size(260, 20)
         Me.txtTimThietBi.TabIndex = 3
         Me.txtTimThietBi.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.txtTimThietBi.TextTypeMode = Commons.TypeMode.None
@@ -1065,13 +1068,13 @@ Partial Class frmThongtinthietbi
         Me.optHL.Dock = System.Windows.Forms.DockStyle.Top
         Me.optHL.EditValue = "optAll"
         Me.optHL.Location = New System.Drawing.Point(0, 0)
-        Me.optHL.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.optHL.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.optHL.Name = "optHL"
         Me.optHL.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(227, Byte), Integer), CType(CType(239, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.optHL.Properties.Appearance.Options.UseBackColor = True
         Me.optHL.Properties.ExportMode = DevExpress.XtraEditors.Repository.ExportMode.DisplayText
         Me.optHL.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem("optAll", "optAll"), New DevExpress.XtraEditors.Controls.RadioGroupItem("optHieuLuc", "optHieuLuc"), New DevExpress.XtraEditors.Controls.RadioGroupItem("optKhongHL", "optKhongHL")})
-        Me.optHL.Size = New System.Drawing.Size(272, 43)
+        Me.optHL.Size = New System.Drawing.Size(272, 29)
         Me.optHL.TabIndex = 23
         '
         'TableLayoutPanel12
@@ -1086,15 +1089,15 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel12.Controls.Add(Me.txtPath, 0, 0)
         Me.TableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel12.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel12.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel12.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel12.Name = "TableLayoutPanel12"
         Me.TableLayoutPanel12.RowCount = 4
-        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39.0!))
-        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 188.0!))
-        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 56.0!))
+        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
+        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 129.0!))
+        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38.0!))
         Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
-        Me.TableLayoutPanel12.Size = New System.Drawing.Size(856, 722)
+        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21.0!))
+        Me.TableLayoutPanel12.Size = New System.Drawing.Size(645, 643)
         Me.TableLayoutPanel12.TabIndex = 100
         '
         'grpNhapcautrucTB
@@ -1103,11 +1106,11 @@ Partial Class frmThongtinthietbi
         Me.grpNhapcautrucTB.Controls.Add(Me.TableLayoutPanel13)
         Me.grpNhapcautrucTB.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpNhapcautrucTB.ForeColor = System.Drawing.Color.Maroon
-        Me.grpNhapcautrucTB.Location = New System.Drawing.Point(4, 41)
-        Me.grpNhapcautrucTB.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpNhapcautrucTB.Location = New System.Drawing.Point(3, 28)
+        Me.grpNhapcautrucTB.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpNhapcautrucTB.Name = "grpNhapcautrucTB"
-        Me.grpNhapcautrucTB.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpNhapcautrucTB.Size = New System.Drawing.Size(848, 184)
+        Me.grpNhapcautrucTB.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpNhapcautrucTB.Size = New System.Drawing.Size(639, 127)
         Me.grpNhapcautrucTB.TabIndex = 0
         Me.grpNhapcautrucTB.TabStop = False
         Me.grpNhapcautrucTB.Text = "Nhập cấu trúc thiết bị"
@@ -1117,13 +1120,13 @@ Partial Class frmThongtinthietbi
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.TableLayoutPanel13, DevExpress.Utils.DefaultBoolean.[Default])
         Me.TableLayoutPanel13.ColumnCount = 8
         Me.TableLayoutPanel13.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 0!))
-        Me.TableLayoutPanel13.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 135.0!))
+        Me.TableLayoutPanel13.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 90.0!))
         Me.TableLayoutPanel13.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel13.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel13.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 165.0!))
+        Me.TableLayoutPanel13.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110.0!))
         Me.TableLayoutPanel13.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.0!))
-        Me.TableLayoutPanel13.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 46.0!))
-        Me.TableLayoutPanel13.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 44.0!))
+        Me.TableLayoutPanel13.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 31.0!))
+        Me.TableLayoutPanel13.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 32.0!))
         Me.TableLayoutPanel13.Controls.Add(Me.txtTEN_BO_PHAN, 5, 0)
         Me.TableLayoutPanel13.Controls.Add(Me.cboClass, 2, 3)
         Me.TableLayoutPanel13.Controls.Add(Me.lblMabophan, 0, 0)
@@ -1144,15 +1147,15 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel13.Controls.Add(Me.lblGhichu, 4, 3)
         Me.TableLayoutPanel13.Controls.Add(Me.chk_active, 3, 0)
         Me.TableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel13.Location = New System.Drawing.Point(4, 22)
-        Me.TableLayoutPanel13.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel13.Location = New System.Drawing.Point(3, 15)
+        Me.TableLayoutPanel13.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel13.Name = "TableLayoutPanel13"
         Me.TableLayoutPanel13.RowCount = 4
-        Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
-        Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
-        Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38.0!))
-        Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
-        Me.TableLayoutPanel13.Size = New System.Drawing.Size(840, 160)
+        Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26.0!))
+        Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel13.Size = New System.Drawing.Size(633, 111)
         Me.TableLayoutPanel13.TabIndex = 102
         '
         'txtTEN_BO_PHAN
@@ -1161,25 +1164,25 @@ Partial Class frmThongtinthietbi
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TableLayoutPanel13.SetColumnSpan(Me.txtTEN_BO_PHAN, 2)
         Me.txtTEN_BO_PHAN.EditValue = ""
-        Me.txtTEN_BO_PHAN.Location = New System.Drawing.Point(484, 2)
-        Me.txtTEN_BO_PHAN.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtTEN_BO_PHAN.Location = New System.Drawing.Point(351, 1)
+        Me.txtTEN_BO_PHAN.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtTEN_BO_PHAN.Name = "txtTEN_BO_PHAN"
         Me.txtTEN_BO_PHAN.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
         Me.txtTEN_BO_PHAN.Properties.ReadOnly = True
-        Me.txtTEN_BO_PHAN.Size = New System.Drawing.Size(308, 26)
+        Me.txtTEN_BO_PHAN.Size = New System.Drawing.Size(247, 20)
         Me.txtTEN_BO_PHAN.TabIndex = 109
         '
         'cboClass
         '
         Me.TableLayoutPanel13.SetColumnSpan(Me.cboClass, 2)
         Me.cboClass.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.cboClass.Location = New System.Drawing.Point(139, 114)
-        Me.cboClass.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.cboClass.Location = New System.Drawing.Point(93, 77)
+        Me.cboClass.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.cboClass.Name = "cboClass"
         Me.cboClass.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cboClass.Properties.NullText = ""
         Me.cboClass.Properties.ReadOnly = True
-        Me.cboClass.Size = New System.Drawing.Size(172, 26)
+        Me.cboClass.Size = New System.Drawing.Size(142, 20)
         Me.cboClass.TabIndex = 108
         '
         'lblMabophan
@@ -1190,10 +1193,9 @@ Partial Class frmThongtinthietbi
         Me.lblMabophan.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblMabophan.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMabophan.ForeColor = System.Drawing.Color.Black
-        Me.lblMabophan.Location = New System.Drawing.Point(4, 0)
-        Me.lblMabophan.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblMabophan.Location = New System.Drawing.Point(3, 0)
         Me.lblMabophan.Name = "lblMabophan"
-        Me.lblMabophan.Size = New System.Drawing.Size(127, 37)
+        Me.lblMabophan.Size = New System.Drawing.Size(84, 25)
         Me.lblMabophan.TabIndex = 0
         Me.lblMabophan.Text = "MS - bộ phận"
         Me.lblMabophan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1206,10 +1208,9 @@ Partial Class frmThongtinthietbi
         Me.lblSoluong.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblSoluong.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSoluong.ForeColor = System.Drawing.Color.Black
-        Me.lblSoluong.Location = New System.Drawing.Point(4, 37)
-        Me.lblSoluong.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblSoluong.Location = New System.Drawing.Point(3, 25)
         Me.lblSoluong.Name = "lblSoluong"
-        Me.lblSoluong.Size = New System.Drawing.Size(127, 37)
+        Me.lblSoluong.Size = New System.Drawing.Size(84, 25)
         Me.lblSoluong.TabIndex = 4
         Me.lblSoluong.Text = "Số lượng"
         Me.lblSoluong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1221,10 +1222,9 @@ Partial Class frmThongtinthietbi
         Me.lblMS_PT.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblMS_PT.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMS_PT.ForeColor = System.Drawing.Color.Black
-        Me.lblMS_PT.Location = New System.Drawing.Point(319, 37)
-        Me.lblMS_PT.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblMS_PT.Location = New System.Drawing.Point(241, 25)
         Me.lblMS_PT.Name = "lblMS_PT"
-        Me.lblMS_PT.Size = New System.Drawing.Size(157, 37)
+        Me.lblMS_PT.Size = New System.Drawing.Size(104, 25)
         Me.lblMS_PT.TabIndex = 100
         Me.lblMS_PT.Text = "Mã số phụ tùng"
         Me.lblMS_PT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1236,10 +1236,9 @@ Partial Class frmThongtinthietbi
         Me.lblTenbophan.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblTenbophan.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTenbophan.ForeColor = System.Drawing.Color.Black
-        Me.lblTenbophan.Location = New System.Drawing.Point(319, 0)
-        Me.lblTenbophan.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblTenbophan.Location = New System.Drawing.Point(241, 0)
         Me.lblTenbophan.Name = "lblTenbophan"
-        Me.lblTenbophan.Size = New System.Drawing.Size(157, 37)
+        Me.lblTenbophan.Size = New System.Drawing.Size(104, 25)
         Me.lblTenbophan.TabIndex = 2
         Me.lblTenbophan.Text = "Tên bộ phận"
         Me.lblTenbophan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1247,64 +1246,64 @@ Partial Class frmThongtinthietbi
         'txtMS_BO_PHAN
         '
         Me.txtMS_BO_PHAN.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtMS_BO_PHAN.Location = New System.Drawing.Point(139, 2)
-        Me.txtMS_BO_PHAN.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtMS_BO_PHAN.Location = New System.Drawing.Point(93, 1)
+        Me.txtMS_BO_PHAN.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtMS_BO_PHAN.Name = "txtMS_BO_PHAN"
         Me.txtMS_BO_PHAN.Properties.ReadOnly = True
-        Me.txtMS_BO_PHAN.Size = New System.Drawing.Size(82, 26)
+        Me.txtMS_BO_PHAN.Size = New System.Drawing.Size(68, 20)
         Me.txtMS_BO_PHAN.TabIndex = 102
         '
         'txtSO_LUONG
         '
         Me.TableLayoutPanel13.SetColumnSpan(Me.txtSO_LUONG, 2)
         Me.txtSO_LUONG.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtSO_LUONG.Location = New System.Drawing.Point(139, 39)
-        Me.txtSO_LUONG.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtSO_LUONG.Location = New System.Drawing.Point(93, 26)
+        Me.txtSO_LUONG.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtSO_LUONG.Name = "txtSO_LUONG"
         Me.txtSO_LUONG.Properties.ReadOnly = True
-        Me.txtSO_LUONG.Size = New System.Drawing.Size(172, 26)
+        Me.txtSO_LUONG.Size = New System.Drawing.Size(142, 20)
         Me.txtSO_LUONG.TabIndex = 102
         '
         'CboPT_BP
         '
         Me.CboPT_BP.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.CboPT_BP.Location = New System.Drawing.Point(484, 39)
-        Me.CboPT_BP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.CboPT_BP.Location = New System.Drawing.Point(351, 26)
+        Me.CboPT_BP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.CboPT_BP.Name = "CboPT_BP"
         Me.CboPT_BP.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.CboPT_BP.Properties.NullText = ""
         Me.CboPT_BP.Properties.ReadOnly = True
-        Me.CboPT_BP.Size = New System.Drawing.Size(262, 26)
+        Me.CboPT_BP.Size = New System.Drawing.Size(216, 20)
         Me.CboPT_BP.TabIndex = 103
         '
         'BtnTimPTCmb
         '
         Me.BtnTimPTCmb.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.BtnTimPTCmb.Location = New System.Drawing.Point(754, 39)
-        Me.BtnTimPTCmb.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnTimPTCmb.Location = New System.Drawing.Point(573, 26)
+        Me.BtnTimPTCmb.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnTimPTCmb.Name = "BtnTimPTCmb"
-        Me.BtnTimPTCmb.Size = New System.Drawing.Size(38, 33)
+        Me.BtnTimPTCmb.Size = New System.Drawing.Size(25, 23)
         Me.BtnTimPTCmb.TabIndex = 5
         Me.BtnTimPTCmb.Text = "..."
         '
         'btnPathAnh
         '
         Me.btnPathAnh.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnPathAnh.Location = New System.Drawing.Point(754, 76)
-        Me.btnPathAnh.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnPathAnh.Location = New System.Drawing.Point(573, 51)
+        Me.btnPathAnh.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnPathAnh.Name = "btnPathAnh"
-        Me.btnPathAnh.Size = New System.Drawing.Size(38, 34)
+        Me.btnPathAnh.Size = New System.Drawing.Size(25, 24)
         Me.btnPathAnh.TabIndex = 5
         Me.btnPathAnh.Text = "..."
         '
         'TxtHINH
         '
         Me.TxtHINH.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TxtHINH.Location = New System.Drawing.Point(484, 76)
-        Me.TxtHINH.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TxtHINH.Location = New System.Drawing.Point(351, 51)
+        Me.TxtHINH.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TxtHINH.Name = "TxtHINH"
         Me.TxtHINH.Properties.ReadOnly = True
-        Me.TxtHINH.Size = New System.Drawing.Size(262, 26)
+        Me.TxtHINH.Size = New System.Drawing.Size(216, 20)
         Me.TxtHINH.TabIndex = 102
         '
         'LblHINH
@@ -1313,10 +1312,9 @@ Partial Class frmThongtinthietbi
         Me.LblHINH.AutoSize = True
         Me.LblHINH.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LblHINH.ForeColor = System.Drawing.Color.Black
-        Me.LblHINH.Location = New System.Drawing.Point(319, 74)
-        Me.LblHINH.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LblHINH.Location = New System.Drawing.Point(241, 50)
         Me.LblHINH.Name = "LblHINH"
-        Me.LblHINH.Size = New System.Drawing.Size(157, 38)
+        Me.LblHINH.Size = New System.Drawing.Size(104, 26)
         Me.LblHINH.TabIndex = 16
         Me.LblHINH.Text = "Hình"
         Me.LblHINH.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1328,10 +1326,9 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel13.SetColumnSpan(Me.lblSTT, 2)
         Me.lblSTT.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblSTT.ForeColor = System.Drawing.Color.Black
-        Me.lblSTT.Location = New System.Drawing.Point(4, 74)
-        Me.lblSTT.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblSTT.Location = New System.Drawing.Point(3, 50)
         Me.lblSTT.Name = "lblSTT"
-        Me.lblSTT.Size = New System.Drawing.Size(127, 38)
+        Me.lblSTT.Size = New System.Drawing.Size(84, 26)
         Me.lblSTT.TabIndex = 16
         Me.lblSTT.Text = "STT"
         Me.lblSTT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1340,22 +1337,22 @@ Partial Class frmThongtinthietbi
         '
         Me.TableLayoutPanel13.SetColumnSpan(Me.txtSTT, 2)
         Me.txtSTT.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtSTT.Location = New System.Drawing.Point(139, 76)
-        Me.txtSTT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtSTT.Location = New System.Drawing.Point(93, 51)
+        Me.txtSTT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtSTT.Name = "txtSTT"
         Me.txtSTT.Properties.ReadOnly = True
-        Me.txtSTT.Size = New System.Drawing.Size(172, 26)
+        Me.txtSTT.Size = New System.Drawing.Size(142, 20)
         Me.txtSTT.TabIndex = 102
         '
         'txtGHI_CHU
         '
         Me.TableLayoutPanel13.SetColumnSpan(Me.txtGHI_CHU, 2)
         Me.txtGHI_CHU.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtGHI_CHU.Location = New System.Drawing.Point(484, 114)
-        Me.txtGHI_CHU.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtGHI_CHU.Location = New System.Drawing.Point(351, 77)
+        Me.txtGHI_CHU.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtGHI_CHU.Name = "txtGHI_CHU"
         Me.txtGHI_CHU.Properties.ReadOnly = True
-        Me.txtGHI_CHU.Size = New System.Drawing.Size(308, 26)
+        Me.txtGHI_CHU.Size = New System.Drawing.Size(247, 20)
         Me.txtGHI_CHU.TabIndex = 102
         '
         'lblGhichu
@@ -1364,10 +1361,9 @@ Partial Class frmThongtinthietbi
         Me.lblGhichu.AutoSize = True
         Me.lblGhichu.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblGhichu.ForeColor = System.Drawing.Color.Black
-        Me.lblGhichu.Location = New System.Drawing.Point(319, 112)
-        Me.lblGhichu.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblGhichu.Location = New System.Drawing.Point(241, 76)
         Me.lblGhichu.Name = "lblGhichu"
-        Me.lblGhichu.Size = New System.Drawing.Size(157, 48)
+        Me.lblGhichu.Size = New System.Drawing.Size(104, 35)
         Me.lblGhichu.TabIndex = 14
         Me.lblGhichu.Text = "Ghi chú"
         Me.lblGhichu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1375,12 +1371,12 @@ Partial Class frmThongtinthietbi
         'chk_active
         '
         Me.chk_active.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.chk_active.Location = New System.Drawing.Point(228, 2)
-        Me.chk_active.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.chk_active.Location = New System.Drawing.Point(165, 1)
+        Me.chk_active.Margin = New System.Windows.Forms.Padding(1)
         Me.chk_active.Name = "chk_active"
         Me.chk_active.Properties.Caption = "Active"
         Me.chk_active.Properties.ReadOnly = True
-        Me.chk_active.Size = New System.Drawing.Size(84, 24)
+        Me.chk_active.Size = New System.Drawing.Size(72, 18)
         Me.chk_active.TabIndex = 110
         '
         'Panel9
@@ -1394,20 +1390,20 @@ Partial Class frmThongtinthietbi
         Me.Panel9.Controls.Add(Me.BtnGhi4)
         Me.Panel9.Controls.Add(Me.BtnSua4)
         Me.Panel9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel9.Location = New System.Drawing.Point(4, 229)
-        Me.Panel9.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel9.Location = New System.Drawing.Point(3, 157)
+        Me.Panel9.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(848, 52)
+        Me.Panel9.Size = New System.Drawing.Size(639, 36)
         Me.Panel9.TabIndex = 1
         '
         'GrdChungPT
         '
-        Me.GrdChungPT.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GrdChungPT.Location = New System.Drawing.Point(168, 2)
+        Me.GrdChungPT.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.GrdChungPT.Location = New System.Drawing.Point(112, 1)
         Me.GrdChungPT.MainView = Me.GrvChung1
-        Me.GrdChungPT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.GrdChungPT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.GrdChungPT.Name = "GrdChungPT"
-        Me.GrdChungPT.Size = New System.Drawing.Size(145, 46)
+        Me.GrdChungPT.Size = New System.Drawing.Size(97, 31)
         Me.GrdChungPT.TabIndex = 2
         Me.GrdChungPT.Tag = ""
         Me.GrdChungPT.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GrvChung1, Me.GridView22})
@@ -1428,12 +1424,12 @@ Partial Class frmThongtinthietbi
         '
         'GrdChungMH
         '
-        Me.GrdChungMH.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GrdChungMH.Location = New System.Drawing.Point(13, 2)
+        Me.GrdChungMH.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.GrdChungMH.Location = New System.Drawing.Point(9, 1)
         Me.GrdChungMH.MainView = Me.GrvChungMH
-        Me.GrdChungMH.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.GrdChungMH.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.GrdChungMH.Name = "GrdChungMH"
-        Me.GrdChungMH.Size = New System.Drawing.Size(145, 46)
+        Me.GrdChungMH.Size = New System.Drawing.Size(97, 31)
         Me.GrdChungMH.TabIndex = 2
         Me.GrdChungMH.Tag = ""
         Me.GrdChungMH.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GrvChungMH, Me.GridView3})
@@ -1456,10 +1452,10 @@ Partial Class frmThongtinthietbi
         '
         Me.BtnThem4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnThem4.Location = New System.Drawing.Point(406, 0)
-        Me.BtnThem4.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnThem4.Location = New System.Drawing.Point(344, 0)
+        Me.BtnThem4.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnThem4.Name = "BtnThem4"
-        Me.BtnThem4.Size = New System.Drawing.Size(147, 51)
+        Me.BtnThem4.Size = New System.Drawing.Size(98, 35)
         Me.BtnThem4.TabIndex = 87
         Me.BtnThem4.Text = "&Thêm"
         '
@@ -1467,10 +1463,10 @@ Partial Class frmThongtinthietbi
         '
         Me.BtnXoa4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXoa4.Location = New System.Drawing.Point(703, 0)
-        Me.BtnXoa4.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoa4.Location = New System.Drawing.Point(542, 0)
+        Me.BtnXoa4.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoa4.Name = "BtnXoa4"
-        Me.BtnXoa4.Size = New System.Drawing.Size(147, 51)
+        Me.BtnXoa4.Size = New System.Drawing.Size(98, 35)
         Me.BtnXoa4.TabIndex = 88
         Me.BtnXoa4.Text = "&Xóa"
         '
@@ -1478,10 +1474,10 @@ Partial Class frmThongtinthietbi
         '
         Me.BtnKhongGhi4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnKhongGhi4.Location = New System.Drawing.Point(703, 0)
-        Me.BtnKhongGhi4.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnKhongGhi4.Location = New System.Drawing.Point(542, 0)
+        Me.BtnKhongGhi4.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnKhongGhi4.Name = "BtnKhongGhi4"
-        Me.BtnKhongGhi4.Size = New System.Drawing.Size(147, 51)
+        Me.BtnKhongGhi4.Size = New System.Drawing.Size(98, 35)
         Me.BtnKhongGhi4.TabIndex = 92
         Me.BtnKhongGhi4.Text = "&Không"
         Me.BtnKhongGhi4.Visible = False
@@ -1490,10 +1486,10 @@ Partial Class frmThongtinthietbi
         '
         Me.BtnGhi4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnGhi4.Location = New System.Drawing.Point(555, 0)
-        Me.BtnGhi4.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnGhi4.Location = New System.Drawing.Point(444, 0)
+        Me.BtnGhi4.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnGhi4.Name = "BtnGhi4"
-        Me.BtnGhi4.Size = New System.Drawing.Size(147, 51)
+        Me.BtnGhi4.Size = New System.Drawing.Size(98, 35)
         Me.BtnGhi4.TabIndex = 91
         Me.BtnGhi4.Text = "&Ghi"
         Me.BtnGhi4.Visible = False
@@ -1502,30 +1498,30 @@ Partial Class frmThongtinthietbi
         '
         Me.BtnSua4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnSua4.Location = New System.Drawing.Point(555, 0)
-        Me.BtnSua4.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnSua4.Location = New System.Drawing.Point(444, 0)
+        Me.BtnSua4.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnSua4.Name = "BtnSua4"
-        Me.BtnSua4.Size = New System.Drawing.Size(147, 51)
+        Me.BtnSua4.Size = New System.Drawing.Size(98, 35)
         Me.BtnSua4.TabIndex = 90
         Me.BtnSua4.Text = "&Sửa"
         '
         'Tab2Sub
         '
         Me.Tab2Sub.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Tab2Sub.Location = New System.Drawing.Point(4, 285)
-        Me.Tab2Sub.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Tab2Sub.Location = New System.Drawing.Point(3, 195)
+        Me.Tab2Sub.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Tab2Sub.Name = "Tab2Sub"
         Me.Tab2Sub.SelectedTabPage = Me.TabPhutung
-        Me.Tab2Sub.Size = New System.Drawing.Size(848, 435)
+        Me.Tab2Sub.Size = New System.Drawing.Size(639, 447)
         Me.Tab2Sub.TabIndex = 98
         Me.Tab2Sub.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.TabPhutung, Me.TabCV, Me.TabTSGSTT, Me.TabGSTT_DL, Me.TabTSvaPT})
         '
         'TabPhutung
         '
         Me.TabPhutung.Controls.Add(Me.TableLayoutPanel14)
-        Me.TabPhutung.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.TabPhutung.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.TabPhutung.Name = "TabPhutung"
-        Me.TabPhutung.Size = New System.Drawing.Size(841, 401)
+        Me.TabPhutung.Size = New System.Drawing.Size(632, 419)
         Me.TabPhutung.Text = "Phụ tùng"
         '
         'TableLayoutPanel14
@@ -1533,17 +1529,17 @@ Partial Class frmThongtinthietbi
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.TableLayoutPanel14, DevExpress.Utils.DefaultBoolean.[Default])
         Me.TableLayoutPanel14.ColumnCount = 1
         Me.TableLayoutPanel14.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel14.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
+        Me.TableLayoutPanel14.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel14.Controls.Add(Me.grpThongtinPT, 0, 0)
         Me.TableLayoutPanel14.Controls.Add(Me.Panel10, 0, 1)
         Me.TableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel14.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel14.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel14.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel14.Name = "TableLayoutPanel14"
         Me.TableLayoutPanel14.RowCount = 2
         Me.TableLayoutPanel14.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel14.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52.0!))
-        Me.TableLayoutPanel14.Size = New System.Drawing.Size(841, 401)
+        Me.TableLayoutPanel14.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
+        Me.TableLayoutPanel14.Size = New System.Drawing.Size(632, 419)
         Me.TableLayoutPanel14.TabIndex = 109
         '
         'grpThongtinPT
@@ -1553,11 +1549,11 @@ Partial Class frmThongtinthietbi
         Me.grpThongtinPT.Controls.Add(Me.grdCTTB_PT)
         Me.grpThongtinPT.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpThongtinPT.ForeColor = System.Drawing.Color.Maroon
-        Me.grpThongtinPT.Location = New System.Drawing.Point(4, 2)
-        Me.grpThongtinPT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpThongtinPT.Location = New System.Drawing.Point(3, 1)
+        Me.grpThongtinPT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpThongtinPT.Name = "grpThongtinPT"
-        Me.grpThongtinPT.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpThongtinPT.Size = New System.Drawing.Size(833, 345)
+        Me.grpThongtinPT.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpThongtinPT.Size = New System.Drawing.Size(626, 381)
         Me.grpThongtinPT.TabIndex = 2
         Me.grpThongtinPT.TabStop = False
         Me.grpThongtinPT.Text = "Thông tin phụ tùng"
@@ -1565,12 +1561,12 @@ Partial Class frmThongtinthietbi
         'grdCTTB_PT
         '
         Me.grdCTTB_PT.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdCTTB_PT.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdCTTB_PT.Location = New System.Drawing.Point(4, 22)
+        Me.grdCTTB_PT.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdCTTB_PT.Location = New System.Drawing.Point(3, 15)
         Me.grdCTTB_PT.MainView = Me.grvCTTB_PT
-        Me.grdCTTB_PT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdCTTB_PT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdCTTB_PT.Name = "grdCTTB_PT"
-        Me.grdCTTB_PT.Size = New System.Drawing.Size(825, 321)
+        Me.grdCTTB_PT.Size = New System.Drawing.Size(620, 365)
         Me.grdCTTB_PT.TabIndex = 2
         Me.grdCTTB_PT.Tag = ""
         Me.grdCTTB_PT.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvCTTB_PT, Me.GridView4})
@@ -1601,19 +1597,19 @@ Partial Class frmThongtinthietbi
         Me.Panel10.Controls.Add(Me.BtnXoa43)
         Me.Panel10.Controls.Add(Me.BtnThoat41)
         Me.Panel10.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel10.Location = New System.Drawing.Point(4, 351)
-        Me.Panel10.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel10.Location = New System.Drawing.Point(3, 384)
+        Me.Panel10.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(833, 48)
+        Me.Panel10.Size = New System.Drawing.Size(626, 34)
         Me.Panel10.TabIndex = 3
         '
         'BtnGhiPT
         '
         Me.BtnGhiPT.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnGhiPT.Location = New System.Drawing.Point(536, 4)
-        Me.BtnGhiPT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnGhiPT.Location = New System.Drawing.Point(428, 4)
+        Me.BtnGhiPT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnGhiPT.Name = "BtnGhiPT"
-        Me.BtnGhiPT.Size = New System.Drawing.Size(147, 44)
+        Me.BtnGhiPT.Size = New System.Drawing.Size(98, 30)
         Me.BtnGhiPT.TabIndex = 106
         Me.BtnGhiPT.Text = "Ghi"
         Me.BtnGhiPT.Visible = False
@@ -1621,29 +1617,29 @@ Partial Class frmThongtinthietbi
         'BtnThemSuaPT
         '
         Me.BtnThemSuaPT.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnThemSuaPT.Location = New System.Drawing.Point(388, 4)
-        Me.BtnThemSuaPT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnThemSuaPT.Location = New System.Drawing.Point(329, 4)
+        Me.BtnThemSuaPT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnThemSuaPT.Name = "BtnThemSuaPT"
-        Me.BtnThemSuaPT.Size = New System.Drawing.Size(147, 44)
+        Me.BtnThemSuaPT.Size = New System.Drawing.Size(98, 30)
         Me.BtnThemSuaPT.TabIndex = 105
         Me.BtnThemSuaPT.Text = "Thêm/Sửa TS và PT"
         '
         'txtM1
         '
-        Me.txtM1.Location = New System.Drawing.Point(0, 11)
-        Me.txtM1.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtM1.Location = New System.Drawing.Point(0, 8)
+        Me.txtM1.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtM1.Name = "txtM1"
-        Me.txtM1.Size = New System.Drawing.Size(193, 26)
+        Me.txtM1.Size = New System.Drawing.Size(129, 20)
         Me.txtM1.TabIndex = 109
         Me.txtM1.Visible = False
         '
         'BtnKhongghiPT
         '
         Me.BtnKhongghiPT.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnKhongghiPT.Location = New System.Drawing.Point(684, 4)
-        Me.BtnKhongghiPT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnKhongghiPT.Location = New System.Drawing.Point(527, 4)
+        Me.BtnKhongghiPT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnKhongghiPT.Name = "BtnKhongghiPT"
-        Me.BtnKhongghiPT.Size = New System.Drawing.Size(147, 44)
+        Me.BtnKhongghiPT.Size = New System.Drawing.Size(98, 30)
         Me.BtnKhongghiPT.TabIndex = 107
         Me.BtnKhongghiPT.Text = "Không ghi"
         Me.BtnKhongghiPT.Visible = False
@@ -1651,10 +1647,10 @@ Partial Class frmThongtinthietbi
         'btnChon_PT
         '
         Me.btnChon_PT.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnChon_PT.Location = New System.Drawing.Point(365, 4)
-        Me.btnChon_PT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnChon_PT.Location = New System.Drawing.Point(314, 4)
+        Me.btnChon_PT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnChon_PT.Name = "btnChon_PT"
-        Me.btnChon_PT.Size = New System.Drawing.Size(172, 44)
+        Me.btnChon_PT.Size = New System.Drawing.Size(115, 30)
         Me.btnChon_PT.TabIndex = 101
         Me.btnChon_PT.Text = "Chọn phụ tùng cho cụm"
         Me.btnChon_PT.Visible = False
@@ -1662,29 +1658,29 @@ Partial Class frmThongtinthietbi
         'BtnXoa43
         '
         Me.BtnXoa43.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXoa43.Location = New System.Drawing.Point(536, 4)
-        Me.BtnXoa43.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoa43.Location = New System.Drawing.Point(428, 4)
+        Me.BtnXoa43.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoa43.Name = "BtnXoa43"
-        Me.BtnXoa43.Size = New System.Drawing.Size(147, 44)
+        Me.BtnXoa43.Size = New System.Drawing.Size(98, 30)
         Me.BtnXoa43.TabIndex = 102
         Me.BtnXoa43.Text = "Xóa phụ tùng"
         '
         'BtnThoat41
         '
         Me.BtnThoat41.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnThoat41.Location = New System.Drawing.Point(684, 4)
-        Me.BtnThoat41.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnThoat41.Location = New System.Drawing.Point(527, 4)
+        Me.BtnThoat41.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnThoat41.Name = "BtnThoat41"
-        Me.BtnThoat41.Size = New System.Drawing.Size(147, 44)
+        Me.BtnThoat41.Size = New System.Drawing.Size(98, 30)
         Me.BtnThoat41.TabIndex = 108
         Me.BtnThoat41.Text = "T&hoát"
         '
         'TabCV
         '
         Me.TabCV.Controls.Add(Me.TableLayoutPanel18)
-        Me.TabCV.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.TabCV.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.TabCV.Name = "TabCV"
-        Me.TabCV.Size = New System.Drawing.Size(1086, 540)
+        Me.TabCV.Size = New System.Drawing.Size(632, 419)
         Me.TabCV.Text = "Công việc "
         '
         'TableLayoutPanel18
@@ -1696,12 +1692,12 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel18.Controls.Add(Me.Panel3, 0, 1)
         Me.TableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel18.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel18.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel18.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel18.Name = "TableLayoutPanel18"
         Me.TableLayoutPanel18.RowCount = 2
         Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52.0!))
-        Me.TableLayoutPanel18.Size = New System.Drawing.Size(1086, 540)
+        Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
+        Me.TableLayoutPanel18.Size = New System.Drawing.Size(632, 419)
         Me.TableLayoutPanel18.TabIndex = 110
         '
         'GrpCV_BP
@@ -1710,11 +1706,11 @@ Partial Class frmThongtinthietbi
         Me.GrpCV_BP.Controls.Add(Me.grdCTTB_CV)
         Me.GrpCV_BP.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GrpCV_BP.ForeColor = System.Drawing.Color.Maroon
-        Me.GrpCV_BP.Location = New System.Drawing.Point(4, 2)
-        Me.GrpCV_BP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.GrpCV_BP.Location = New System.Drawing.Point(3, 1)
+        Me.GrpCV_BP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.GrpCV_BP.Name = "GrpCV_BP"
-        Me.GrpCV_BP.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GrpCV_BP.Size = New System.Drawing.Size(1078, 484)
+        Me.GrpCV_BP.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.GrpCV_BP.Size = New System.Drawing.Size(626, 381)
         Me.GrpCV_BP.TabIndex = 2
         Me.GrpCV_BP.TabStop = False
         Me.GrpCV_BP.Text = "Danh sách công việc của bộ phận "
@@ -1722,12 +1718,12 @@ Partial Class frmThongtinthietbi
         'grdCTTB_CV
         '
         Me.grdCTTB_CV.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdCTTB_CV.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdCTTB_CV.Location = New System.Drawing.Point(4, 22)
+        Me.grdCTTB_CV.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdCTTB_CV.Location = New System.Drawing.Point(3, 15)
         Me.grdCTTB_CV.MainView = Me.grvCTTB_CV
-        Me.grdCTTB_CV.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdCTTB_CV.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdCTTB_CV.Name = "grdCTTB_CV"
-        Me.grdCTTB_CV.Size = New System.Drawing.Size(1070, 460)
+        Me.grdCTTB_CV.Size = New System.Drawing.Size(620, 365)
         Me.grdCTTB_CV.TabIndex = 3
         Me.grdCTTB_CV.Tag = ""
         Me.grdCTTB_CV.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvCTTB_CV, Me.GridView5})
@@ -1756,29 +1752,29 @@ Partial Class frmThongtinthietbi
         Me.Panel3.Controls.Add(Me.BtnXoaCVBP)
         Me.Panel3.Controls.Add(Me.BtnGhiCV_BP)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel3.Location = New System.Drawing.Point(4, 490)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel3.Location = New System.Drawing.Point(3, 384)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1078, 48)
+        Me.Panel3.Size = New System.Drawing.Size(626, 34)
         Me.Panel3.TabIndex = 3
         '
         'btnThoat42
         '
         Me.btnThoat42.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnThoat42.Location = New System.Drawing.Point(929, 4)
-        Me.btnThoat42.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnThoat42.Location = New System.Drawing.Point(527, 4)
+        Me.btnThoat42.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnThoat42.Name = "btnThoat42"
-        Me.btnThoat42.Size = New System.Drawing.Size(147, 44)
+        Me.btnThoat42.Size = New System.Drawing.Size(98, 30)
         Me.btnThoat42.TabIndex = 109
         Me.btnThoat42.Text = "T&hoát"
         '
         'BtnKhongGhiCV_BP
         '
         Me.BtnKhongGhiCV_BP.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnKhongGhiCV_BP.Location = New System.Drawing.Point(929, 4)
-        Me.BtnKhongGhiCV_BP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnKhongGhiCV_BP.Location = New System.Drawing.Point(527, 4)
+        Me.BtnKhongGhiCV_BP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnKhongGhiCV_BP.Name = "BtnKhongGhiCV_BP"
-        Me.BtnKhongGhiCV_BP.Size = New System.Drawing.Size(147, 44)
+        Me.BtnKhongGhiCV_BP.Size = New System.Drawing.Size(98, 30)
         Me.BtnKhongGhiCV_BP.TabIndex = 103
         Me.BtnKhongGhiCV_BP.Text = "Không Ghi"
         Me.BtnKhongGhiCV_BP.Visible = False
@@ -1786,20 +1782,20 @@ Partial Class frmThongtinthietbi
         'BtnThemSuaCVBP
         '
         Me.BtnThemSuaCVBP.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnThemSuaCVBP.Location = New System.Drawing.Point(632, 4)
-        Me.BtnThemSuaCVBP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnThemSuaCVBP.Location = New System.Drawing.Point(329, 4)
+        Me.BtnThemSuaCVBP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnThemSuaCVBP.Name = "BtnThemSuaCVBP"
-        Me.BtnThemSuaCVBP.Size = New System.Drawing.Size(147, 44)
+        Me.BtnThemSuaCVBP.Size = New System.Drawing.Size(98, 30)
         Me.BtnThemSuaCVBP.TabIndex = 100
         Me.BtnThemSuaCVBP.Text = "Thêm Sửa công việc"
         '
         'BtnChonCV_BP
         '
         Me.BtnChonCV_BP.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnChonCV_BP.Location = New System.Drawing.Point(609, 4)
-        Me.BtnChonCV_BP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnChonCV_BP.Location = New System.Drawing.Point(313, 4)
+        Me.BtnChonCV_BP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnChonCV_BP.Name = "BtnChonCV_BP"
-        Me.BtnChonCV_BP.Size = New System.Drawing.Size(172, 44)
+        Me.BtnChonCV_BP.Size = New System.Drawing.Size(115, 30)
         Me.BtnChonCV_BP.TabIndex = 104
         Me.BtnChonCV_BP.Text = "Chọn công việc"
         Me.BtnChonCV_BP.Visible = False
@@ -1807,20 +1803,20 @@ Partial Class frmThongtinthietbi
         'BtnXoaCVBP
         '
         Me.BtnXoaCVBP.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXoaCVBP.Location = New System.Drawing.Point(781, 4)
-        Me.BtnXoaCVBP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoaCVBP.Location = New System.Drawing.Point(428, 4)
+        Me.BtnXoaCVBP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoaCVBP.Name = "BtnXoaCVBP"
-        Me.BtnXoaCVBP.Size = New System.Drawing.Size(147, 44)
+        Me.BtnXoaCVBP.Size = New System.Drawing.Size(98, 30)
         Me.BtnXoaCVBP.TabIndex = 101
         Me.BtnXoaCVBP.Text = "Xóa công việc"
         '
         'BtnGhiCV_BP
         '
         Me.BtnGhiCV_BP.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnGhiCV_BP.Location = New System.Drawing.Point(781, 4)
-        Me.BtnGhiCV_BP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnGhiCV_BP.Location = New System.Drawing.Point(428, 4)
+        Me.BtnGhiCV_BP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnGhiCV_BP.Name = "BtnGhiCV_BP"
-        Me.BtnGhiCV_BP.Size = New System.Drawing.Size(147, 44)
+        Me.BtnGhiCV_BP.Size = New System.Drawing.Size(98, 30)
         Me.BtnGhiCV_BP.TabIndex = 102
         Me.BtnGhiCV_BP.Text = "Ghi"
         Me.BtnGhiCV_BP.Visible = False
@@ -1828,9 +1824,9 @@ Partial Class frmThongtinthietbi
         'TabTSGSTT
         '
         Me.TabTSGSTT.Controls.Add(Me.TableLayoutPanel19)
-        Me.TabTSGSTT.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.TabTSGSTT.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.TabTSGSTT.Name = "TabTSGSTT"
-        Me.TabTSGSTT.Size = New System.Drawing.Size(1086, 540)
+        Me.TabTSGSTT.Size = New System.Drawing.Size(632, 419)
         Me.TabTSGSTT.Text = "Thông số GSTT"
         '
         'TableLayoutPanel19
@@ -1842,12 +1838,12 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel19.Controls.Add(Me.Panel4, 0, 1)
         Me.TableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel19.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel19.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel19.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel19.Name = "TableLayoutPanel19"
         Me.TableLayoutPanel19.RowCount = 2
         Me.TableLayoutPanel19.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel19.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52.0!))
-        Me.TableLayoutPanel19.Size = New System.Drawing.Size(1086, 540)
+        Me.TableLayoutPanel19.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
+        Me.TableLayoutPanel19.Size = New System.Drawing.Size(632, 419)
         Me.TableLayoutPanel19.TabIndex = 111
         '
         'GrpTSGSTT
@@ -1856,11 +1852,11 @@ Partial Class frmThongtinthietbi
         Me.GrpTSGSTT.Controls.Add(Me.grdCTTB_TS)
         Me.GrpTSGSTT.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GrpTSGSTT.ForeColor = System.Drawing.Color.Maroon
-        Me.GrpTSGSTT.Location = New System.Drawing.Point(4, 2)
-        Me.GrpTSGSTT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.GrpTSGSTT.Location = New System.Drawing.Point(3, 1)
+        Me.GrpTSGSTT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.GrpTSGSTT.Name = "GrpTSGSTT"
-        Me.GrpTSGSTT.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GrpTSGSTT.Size = New System.Drawing.Size(1078, 484)
+        Me.GrpTSGSTT.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.GrpTSGSTT.Size = New System.Drawing.Size(626, 381)
         Me.GrpTSGSTT.TabIndex = 2
         Me.GrpTSGSTT.TabStop = False
         Me.GrpTSGSTT.Text = "Danh sách thông số GSTT của bộ phận"
@@ -1868,12 +1864,12 @@ Partial Class frmThongtinthietbi
         'grdCTTB_TS
         '
         Me.grdCTTB_TS.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdCTTB_TS.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdCTTB_TS.Location = New System.Drawing.Point(4, 22)
+        Me.grdCTTB_TS.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdCTTB_TS.Location = New System.Drawing.Point(3, 15)
         Me.grdCTTB_TS.MainView = Me.grvCTTB_TS
-        Me.grdCTTB_TS.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdCTTB_TS.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdCTTB_TS.Name = "grdCTTB_TS"
-        Me.grdCTTB_TS.Size = New System.Drawing.Size(1070, 460)
+        Me.grdCTTB_TS.Size = New System.Drawing.Size(620, 365)
         Me.grdCTTB_TS.TabIndex = 4
         Me.grdCTTB_TS.Tag = ""
         Me.grdCTTB_TS.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvCTTB_TS, Me.GridView6})
@@ -1902,19 +1898,19 @@ Partial Class frmThongtinthietbi
         Me.Panel4.Controls.Add(Me.BtnGhiTSGSTT_BP)
         Me.Panel4.Controls.Add(Me.BtnXoaTSGSTT_BP)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel4.Location = New System.Drawing.Point(4, 490)
-        Me.Panel4.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel4.Location = New System.Drawing.Point(3, 384)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1078, 48)
+        Me.Panel4.Size = New System.Drawing.Size(626, 34)
         Me.Panel4.TabIndex = 3
         '
         'BtnChonTSGSTT_BP
         '
         Me.BtnChonTSGSTT_BP.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnChonTSGSTT_BP.Location = New System.Drawing.Point(609, 4)
-        Me.BtnChonTSGSTT_BP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnChonTSGSTT_BP.Location = New System.Drawing.Point(313, 4)
+        Me.BtnChonTSGSTT_BP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnChonTSGSTT_BP.Name = "BtnChonTSGSTT_BP"
-        Me.BtnChonTSGSTT_BP.Size = New System.Drawing.Size(172, 44)
+        Me.BtnChonTSGSTT_BP.Size = New System.Drawing.Size(115, 30)
         Me.BtnChonTSGSTT_BP.TabIndex = 105
         Me.BtnChonTSGSTT_BP.Text = "Chọn Thông số "
         Me.BtnChonTSGSTT_BP.Visible = False
@@ -1922,30 +1918,30 @@ Partial Class frmThongtinthietbi
         'BtnThemSuaTSGSTT_BP
         '
         Me.BtnThemSuaTSGSTT_BP.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnThemSuaTSGSTT_BP.Location = New System.Drawing.Point(632, 4)
-        Me.BtnThemSuaTSGSTT_BP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnThemSuaTSGSTT_BP.Location = New System.Drawing.Point(329, 4)
+        Me.BtnThemSuaTSGSTT_BP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnThemSuaTSGSTT_BP.Name = "BtnThemSuaTSGSTT_BP"
-        Me.BtnThemSuaTSGSTT_BP.Size = New System.Drawing.Size(147, 44)
+        Me.BtnThemSuaTSGSTT_BP.Size = New System.Drawing.Size(98, 30)
         Me.BtnThemSuaTSGSTT_BP.TabIndex = 102
         Me.BtnThemSuaTSGSTT_BP.Text = "Thêm Sửa thông số GSTT"
         '
         'btnThoat43
         '
         Me.btnThoat43.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnThoat43.Location = New System.Drawing.Point(929, 4)
-        Me.btnThoat43.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnThoat43.Location = New System.Drawing.Point(527, 4)
+        Me.btnThoat43.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnThoat43.Name = "btnThoat43"
-        Me.btnThoat43.Size = New System.Drawing.Size(147, 44)
+        Me.btnThoat43.Size = New System.Drawing.Size(98, 30)
         Me.btnThoat43.TabIndex = 110
         Me.btnThoat43.Text = "T&hoát"
         '
         'BtnKhongGhiTSGSTT_BP
         '
         Me.BtnKhongGhiTSGSTT_BP.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnKhongGhiTSGSTT_BP.Location = New System.Drawing.Point(929, 4)
-        Me.BtnKhongGhiTSGSTT_BP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnKhongGhiTSGSTT_BP.Location = New System.Drawing.Point(527, 4)
+        Me.BtnKhongGhiTSGSTT_BP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnKhongGhiTSGSTT_BP.Name = "BtnKhongGhiTSGSTT_BP"
-        Me.BtnKhongGhiTSGSTT_BP.Size = New System.Drawing.Size(147, 44)
+        Me.BtnKhongGhiTSGSTT_BP.Size = New System.Drawing.Size(98, 30)
         Me.BtnKhongGhiTSGSTT_BP.TabIndex = 100
         Me.BtnKhongGhiTSGSTT_BP.Text = "Không ghi"
         Me.BtnKhongGhiTSGSTT_BP.Visible = False
@@ -1953,10 +1949,10 @@ Partial Class frmThongtinthietbi
         'BtnGhiTSGSTT_BP
         '
         Me.BtnGhiTSGSTT_BP.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnGhiTSGSTT_BP.Location = New System.Drawing.Point(781, 4)
-        Me.BtnGhiTSGSTT_BP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnGhiTSGSTT_BP.Location = New System.Drawing.Point(428, 4)
+        Me.BtnGhiTSGSTT_BP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnGhiTSGSTT_BP.Name = "BtnGhiTSGSTT_BP"
-        Me.BtnGhiTSGSTT_BP.Size = New System.Drawing.Size(147, 44)
+        Me.BtnGhiTSGSTT_BP.Size = New System.Drawing.Size(98, 30)
         Me.BtnGhiTSGSTT_BP.TabIndex = 99
         Me.BtnGhiTSGSTT_BP.Text = "Ghi"
         Me.BtnGhiTSGSTT_BP.Visible = False
@@ -1964,19 +1960,19 @@ Partial Class frmThongtinthietbi
         'BtnXoaTSGSTT_BP
         '
         Me.BtnXoaTSGSTT_BP.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXoaTSGSTT_BP.Location = New System.Drawing.Point(781, 4)
-        Me.BtnXoaTSGSTT_BP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoaTSGSTT_BP.Location = New System.Drawing.Point(428, 4)
+        Me.BtnXoaTSGSTT_BP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoaTSGSTT_BP.Name = "BtnXoaTSGSTT_BP"
-        Me.BtnXoaTSGSTT_BP.Size = New System.Drawing.Size(147, 44)
+        Me.BtnXoaTSGSTT_BP.Size = New System.Drawing.Size(98, 30)
         Me.BtnXoaTSGSTT_BP.TabIndex = 103
         Me.BtnXoaTSGSTT_BP.Text = "Xóa thông số GSTT"
         '
         'TabGSTT_DL
         '
         Me.TabGSTT_DL.Controls.Add(Me.TableLayoutPanel2)
-        Me.TabGSTT_DL.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.TabGSTT_DL.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.TabGSTT_DL.Name = "TabGSTT_DL"
-        Me.TabGSTT_DL.Size = New System.Drawing.Size(1086, 540)
+        Me.TabGSTT_DL.Size = New System.Drawing.Size(632, 419)
         Me.TabGSTT_DL.Text = "Thông số GSTT định lượng"
         '
         'TableLayoutPanel2
@@ -1988,12 +1984,12 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel2.Controls.Add(Me.Panel15, 0, 1)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 2
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 57.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1086, 540)
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39.0!))
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(632, 419)
         Me.TableLayoutPanel2.TabIndex = 124
         '
         'SplitContainerControl4
@@ -2002,14 +1998,14 @@ Partial Class frmThongtinthietbi
         Me.SplitContainerControl4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.SplitContainerControl4.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.None
         Me.SplitContainerControl4.Horizontal = False
-        Me.SplitContainerControl4.Location = New System.Drawing.Point(4, 2)
-        Me.SplitContainerControl4.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.SplitContainerControl4.Location = New System.Drawing.Point(3, 1)
+        Me.SplitContainerControl4.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.SplitContainerControl4.Name = "SplitContainerControl4"
         Me.SplitContainerControl4.Panel1.Controls.Add(Me.grpDanhsachthongsoGSTTdinhluong)
         Me.SplitContainerControl4.Panel1.Text = "Panel1"
         Me.SplitContainerControl4.Panel2.Controls.Add(Me.grpDanhsachthongsoGiatrithongso)
         Me.SplitContainerControl4.Panel2.Text = "Panel2"
-        Me.SplitContainerControl4.Size = New System.Drawing.Size(1078, 479)
+        Me.SplitContainerControl4.Size = New System.Drawing.Size(626, 378)
         Me.SplitContainerControl4.SplitterPosition = 162
         Me.SplitContainerControl4.TabIndex = 119
         Me.SplitContainerControl4.Text = "SplitContainerControl4"
@@ -2021,10 +2017,10 @@ Partial Class frmThongtinthietbi
         Me.grpDanhsachthongsoGSTTdinhluong.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpDanhsachthongsoGSTTdinhluong.ForeColor = System.Drawing.Color.Maroon
         Me.grpDanhsachthongsoGSTTdinhluong.Location = New System.Drawing.Point(0, 0)
-        Me.grpDanhsachthongsoGSTTdinhluong.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpDanhsachthongsoGSTTdinhluong.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpDanhsachthongsoGSTTdinhluong.Name = "grpDanhsachthongsoGSTTdinhluong"
-        Me.grpDanhsachthongsoGSTTdinhluong.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpDanhsachthongsoGSTTdinhluong.Size = New System.Drawing.Size(1078, 194)
+        Me.grpDanhsachthongsoGSTTdinhluong.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpDanhsachthongsoGSTTdinhluong.Size = New System.Drawing.Size(626, 162)
         Me.grpDanhsachthongsoGSTTdinhluong.TabIndex = 118
         Me.grpDanhsachthongsoGSTTdinhluong.TabStop = False
         Me.grpDanhsachthongsoGSTTdinhluong.Text = "Danh sách thông số giám sát tình trạng định lượng"
@@ -2032,12 +2028,12 @@ Partial Class frmThongtinthietbi
         'grdThongsoGSTTDL
         '
         Me.grdThongsoGSTTDL.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdThongsoGSTTDL.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdThongsoGSTTDL.Location = New System.Drawing.Point(4, 22)
+        Me.grdThongsoGSTTDL.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdThongsoGSTTDL.Location = New System.Drawing.Point(3, 15)
         Me.grdThongsoGSTTDL.MainView = Me.grvThongsoGSTTDL
-        Me.grdThongsoGSTTDL.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdThongsoGSTTDL.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdThongsoGSTTDL.Name = "grdThongsoGSTTDL"
-        Me.grdThongsoGSTTDL.Size = New System.Drawing.Size(1070, 170)
+        Me.grdThongsoGSTTDL.Size = New System.Drawing.Size(620, 146)
         Me.grdThongsoGSTTDL.TabIndex = 5
         Me.grdThongsoGSTTDL.Tag = ""
         Me.grdThongsoGSTTDL.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvThongsoGSTTDL, Me.GridView8})
@@ -2063,10 +2059,10 @@ Partial Class frmThongtinthietbi
         Me.grpDanhsachthongsoGiatrithongso.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpDanhsachthongsoGiatrithongso.ForeColor = System.Drawing.Color.Maroon
         Me.grpDanhsachthongsoGiatrithongso.Location = New System.Drawing.Point(0, 0)
-        Me.grpDanhsachthongsoGiatrithongso.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpDanhsachthongsoGiatrithongso.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpDanhsachthongsoGiatrithongso.Name = "grpDanhsachthongsoGiatrithongso"
-        Me.grpDanhsachthongsoGiatrithongso.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpDanhsachthongsoGiatrithongso.Size = New System.Drawing.Size(1078, 279)
+        Me.grpDanhsachthongsoGiatrithongso.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpDanhsachthongsoGiatrithongso.Size = New System.Drawing.Size(626, 210)
         Me.grpDanhsachthongsoGiatrithongso.TabIndex = 116
         Me.grpDanhsachthongsoGiatrithongso.TabStop = False
         Me.grpDanhsachthongsoGiatrithongso.Text = "Giá trị thống số"
@@ -2074,12 +2070,12 @@ Partial Class frmThongtinthietbi
         'grdThongsochitiet
         '
         Me.grdThongsochitiet.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdThongsochitiet.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdThongsochitiet.Location = New System.Drawing.Point(4, 22)
+        Me.grdThongsochitiet.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdThongsochitiet.Location = New System.Drawing.Point(3, 15)
         Me.grdThongsochitiet.MainView = Me.grvThongsochitiet
-        Me.grdThongsochitiet.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdThongsochitiet.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdThongsochitiet.Name = "grdThongsochitiet"
-        Me.grdThongsochitiet.Size = New System.Drawing.Size(1070, 255)
+        Me.grdThongsochitiet.Size = New System.Drawing.Size(620, 194)
         Me.grdThongsochitiet.TabIndex = 5
         Me.grdThongsochitiet.Tag = ""
         Me.grdThongsochitiet.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvThongsochitiet, Me.GridView10})
@@ -2108,19 +2104,19 @@ Partial Class frmThongtinthietbi
         Me.Panel15.Controls.Add(Me.BtnGhi15)
         Me.Panel15.Controls.Add(Me.BtnXoa15)
         Me.Panel15.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel15.Location = New System.Drawing.Point(4, 485)
-        Me.Panel15.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel15.Location = New System.Drawing.Point(3, 381)
+        Me.Panel15.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(1078, 53)
+        Me.Panel15.Size = New System.Drawing.Size(626, 37)
         Me.Panel15.TabIndex = 117
         '
         'BtnChonthongso15
         '
         Me.BtnChonthongso15.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnChonthongso15.Location = New System.Drawing.Point(601, 9)
-        Me.BtnChonthongso15.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnChonthongso15.Location = New System.Drawing.Point(308, 7)
+        Me.BtnChonthongso15.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnChonthongso15.Name = "BtnChonthongso15"
-        Me.BtnChonthongso15.Size = New System.Drawing.Size(180, 44)
+        Me.BtnChonthongso15.Size = New System.Drawing.Size(120, 30)
         Me.BtnChonthongso15.TabIndex = 122
         Me.BtnChonthongso15.Text = "Chọn Thông số "
         Me.BtnChonthongso15.Visible = False
@@ -2128,30 +2124,30 @@ Partial Class frmThongtinthietbi
         'BtnThoat15
         '
         Me.BtnThoat15.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnThoat15.Location = New System.Drawing.Point(929, 9)
-        Me.BtnThoat15.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnThoat15.Location = New System.Drawing.Point(527, 7)
+        Me.BtnThoat15.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnThoat15.Name = "BtnThoat15"
-        Me.BtnThoat15.Size = New System.Drawing.Size(147, 44)
+        Me.BtnThoat15.Size = New System.Drawing.Size(98, 30)
         Me.BtnThoat15.TabIndex = 121
         Me.BtnThoat15.Text = "T&hoát"
         '
         'BtnThemSua15
         '
         Me.BtnThemSua15.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnThemSua15.Location = New System.Drawing.Point(632, 9)
-        Me.BtnThemSua15.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnThemSua15.Location = New System.Drawing.Point(329, 7)
+        Me.BtnThemSua15.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnThemSua15.Name = "BtnThemSua15"
-        Me.BtnThemSua15.Size = New System.Drawing.Size(147, 44)
+        Me.BtnThemSua15.Size = New System.Drawing.Size(98, 30)
         Me.BtnThemSua15.TabIndex = 117
         Me.BtnThemSua15.Text = "Thêm/Sửa"
         '
         'BtnKhongGhi15
         '
         Me.BtnKhongGhi15.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnKhongGhi15.Location = New System.Drawing.Point(929, 9)
-        Me.BtnKhongGhi15.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnKhongGhi15.Location = New System.Drawing.Point(527, 7)
+        Me.BtnKhongGhi15.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnKhongGhi15.Name = "BtnKhongGhi15"
-        Me.BtnKhongGhi15.Size = New System.Drawing.Size(147, 44)
+        Me.BtnKhongGhi15.Size = New System.Drawing.Size(98, 30)
         Me.BtnKhongGhi15.TabIndex = 120
         Me.BtnKhongGhi15.Text = "Không Ghi"
         Me.BtnKhongGhi15.Visible = False
@@ -2159,10 +2155,10 @@ Partial Class frmThongtinthietbi
         'BtnGhi15
         '
         Me.BtnGhi15.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnGhi15.Location = New System.Drawing.Point(781, 9)
-        Me.BtnGhi15.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnGhi15.Location = New System.Drawing.Point(428, 7)
+        Me.BtnGhi15.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnGhi15.Name = "BtnGhi15"
-        Me.BtnGhi15.Size = New System.Drawing.Size(147, 44)
+        Me.BtnGhi15.Size = New System.Drawing.Size(98, 30)
         Me.BtnGhi15.TabIndex = 119
         Me.BtnGhi15.Text = "Ghi"
         Me.BtnGhi15.Visible = False
@@ -2170,19 +2166,19 @@ Partial Class frmThongtinthietbi
         'BtnXoa15
         '
         Me.BtnXoa15.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXoa15.Location = New System.Drawing.Point(781, 9)
-        Me.BtnXoa15.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoa15.Location = New System.Drawing.Point(428, 7)
+        Me.BtnXoa15.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoa15.Name = "BtnXoa15"
-        Me.BtnXoa15.Size = New System.Drawing.Size(147, 44)
+        Me.BtnXoa15.Size = New System.Drawing.Size(98, 30)
         Me.BtnXoa15.TabIndex = 118
         Me.BtnXoa15.Text = "Xóa "
         '
         'TabTSvaPT
         '
         Me.TabTSvaPT.Controls.Add(Me.TableLayoutPanel20)
-        Me.TabTSvaPT.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.TabTSvaPT.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.TabTSvaPT.Name = "TabTSvaPT"
-        Me.TabTSvaPT.Size = New System.Drawing.Size(1086, 540)
+        Me.TabTSvaPT.Size = New System.Drawing.Size(632, 419)
         Me.TabTSvaPT.Text = "Thông số và phụ tùng"
         '
         'TableLayoutPanel20
@@ -2190,17 +2186,17 @@ Partial Class frmThongtinthietbi
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.TableLayoutPanel20, DevExpress.Utils.DefaultBoolean.[Default])
         Me.TableLayoutPanel20.ColumnCount = 1
         Me.TableLayoutPanel20.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel20.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
+        Me.TableLayoutPanel20.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel20.Controls.Add(Me.grpThongsobophan, 0, 0)
         Me.TableLayoutPanel20.Controls.Add(Me.Panel14, 0, 1)
         Me.TableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel20.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel20.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel20.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel20.Name = "TableLayoutPanel20"
         Me.TableLayoutPanel20.RowCount = 2
         Me.TableLayoutPanel20.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel20.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52.0!))
-        Me.TableLayoutPanel20.Size = New System.Drawing.Size(1086, 540)
+        Me.TableLayoutPanel20.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
+        Me.TableLayoutPanel20.Size = New System.Drawing.Size(632, 419)
         Me.TableLayoutPanel20.TabIndex = 112
         '
         'grpThongsobophan
@@ -2209,11 +2205,11 @@ Partial Class frmThongtinthietbi
         Me.grpThongsobophan.Controls.Add(Me.grdThongSoBP)
         Me.grpThongsobophan.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpThongsobophan.ForeColor = System.Drawing.Color.Maroon
-        Me.grpThongsobophan.Location = New System.Drawing.Point(4, 2)
-        Me.grpThongsobophan.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpThongsobophan.Location = New System.Drawing.Point(3, 1)
+        Me.grpThongsobophan.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpThongsobophan.Name = "grpThongsobophan"
-        Me.grpThongsobophan.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpThongsobophan.Size = New System.Drawing.Size(1078, 484)
+        Me.grpThongsobophan.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpThongsobophan.Size = New System.Drawing.Size(626, 381)
         Me.grpThongsobophan.TabIndex = 1
         Me.grpThongsobophan.TabStop = False
         Me.grpThongsobophan.Text = "Thông số bộ phận"
@@ -2221,12 +2217,12 @@ Partial Class frmThongtinthietbi
         'grdThongSoBP
         '
         Me.grdThongSoBP.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdThongSoBP.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdThongSoBP.Location = New System.Drawing.Point(4, 22)
+        Me.grdThongSoBP.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdThongSoBP.Location = New System.Drawing.Point(3, 15)
         Me.grdThongSoBP.MainView = Me.grvThongSoBP
-        Me.grdThongSoBP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdThongSoBP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdThongSoBP.Name = "grdThongSoBP"
-        Me.grdThongSoBP.Size = New System.Drawing.Size(1070, 460)
+        Me.grdThongSoBP.Size = New System.Drawing.Size(620, 365)
         Me.grdThongSoBP.TabIndex = 5
         Me.grdThongSoBP.Tag = ""
         Me.grdThongSoBP.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvThongSoBP, Me.GridView7})
@@ -2255,29 +2251,29 @@ Partial Class frmThongtinthietbi
         Me.Panel14.Controls.Add(Me.BtnGhiTSvaPT)
         Me.Panel14.Controls.Add(Me.BtnKhongGhiTSvaPT)
         Me.Panel14.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel14.Location = New System.Drawing.Point(4, 490)
-        Me.Panel14.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel14.Location = New System.Drawing.Point(3, 384)
+        Me.Panel14.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(1078, 48)
+        Me.Panel14.Size = New System.Drawing.Size(626, 34)
         Me.Panel14.TabIndex = 2
         '
         'BtnThemSuaTSvaPT
         '
         Me.BtnThemSuaTSvaPT.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnThemSuaTSvaPT.Location = New System.Drawing.Point(632, 4)
-        Me.BtnThemSuaTSvaPT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnThemSuaTSvaPT.Location = New System.Drawing.Point(329, 4)
+        Me.BtnThemSuaTSvaPT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnThemSuaTSvaPT.Name = "BtnThemSuaTSvaPT"
-        Me.BtnThemSuaTSvaPT.Size = New System.Drawing.Size(147, 44)
+        Me.BtnThemSuaTSvaPT.Size = New System.Drawing.Size(98, 30)
         Me.BtnThemSuaTSvaPT.TabIndex = 99
         Me.BtnThemSuaTSvaPT.Text = "Thêm/Sửa TS và PT"
         '
         'BtnXoa44
         '
         Me.BtnXoa44.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXoa44.Location = New System.Drawing.Point(929, 4)
-        Me.BtnXoa44.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoa44.Location = New System.Drawing.Point(527, 4)
+        Me.BtnXoa44.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoa44.Name = "BtnXoa44"
-        Me.BtnXoa44.Size = New System.Drawing.Size(147, 44)
+        Me.BtnXoa44.Size = New System.Drawing.Size(98, 30)
         Me.BtnXoa44.TabIndex = 97
         Me.BtnXoa44.Text = "Trở Về"
         Me.BtnXoa44.Visible = False
@@ -2285,30 +2281,30 @@ Partial Class frmThongtinthietbi
         'btnThoat44
         '
         Me.btnThoat44.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnThoat44.Location = New System.Drawing.Point(929, 4)
-        Me.btnThoat44.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnThoat44.Location = New System.Drawing.Point(527, 4)
+        Me.btnThoat44.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnThoat44.Name = "btnThoat44"
-        Me.btnThoat44.Size = New System.Drawing.Size(147, 44)
+        Me.btnThoat44.Size = New System.Drawing.Size(98, 30)
         Me.btnThoat44.TabIndex = 111
         Me.btnThoat44.Text = "T&hoát"
         '
         'BtnXoa42
         '
         Me.BtnXoa42.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXoa42.Location = New System.Drawing.Point(781, 4)
-        Me.BtnXoa42.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoa42.Location = New System.Drawing.Point(428, 4)
+        Me.BtnXoa42.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoa42.Name = "BtnXoa42"
-        Me.BtnXoa42.Size = New System.Drawing.Size(147, 44)
+        Me.BtnXoa42.Size = New System.Drawing.Size(98, 30)
         Me.BtnXoa42.TabIndex = 95
         Me.BtnXoa42.Text = "Xóa thông số"
         '
         'BtnGhiTSvaPT
         '
         Me.BtnGhiTSvaPT.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnGhiTSvaPT.Location = New System.Drawing.Point(781, 4)
-        Me.BtnGhiTSvaPT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnGhiTSvaPT.Location = New System.Drawing.Point(428, 4)
+        Me.BtnGhiTSvaPT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnGhiTSvaPT.Name = "BtnGhiTSvaPT"
-        Me.BtnGhiTSvaPT.Size = New System.Drawing.Size(147, 44)
+        Me.BtnGhiTSvaPT.Size = New System.Drawing.Size(98, 30)
         Me.BtnGhiTSvaPT.TabIndex = 99
         Me.BtnGhiTSvaPT.Text = "Ghi"
         Me.BtnGhiTSvaPT.Visible = False
@@ -2316,10 +2312,10 @@ Partial Class frmThongtinthietbi
         'BtnKhongGhiTSvaPT
         '
         Me.BtnKhongGhiTSvaPT.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnKhongGhiTSvaPT.Location = New System.Drawing.Point(929, 4)
-        Me.BtnKhongGhiTSvaPT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnKhongGhiTSvaPT.Location = New System.Drawing.Point(527, 4)
+        Me.BtnKhongGhiTSvaPT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnKhongGhiTSvaPT.Name = "BtnKhongGhiTSvaPT"
-        Me.BtnKhongGhiTSvaPT.Size = New System.Drawing.Size(147, 44)
+        Me.BtnKhongGhiTSvaPT.Size = New System.Drawing.Size(98, 30)
         Me.BtnKhongGhiTSvaPT.TabIndex = 100
         Me.BtnKhongGhiTSvaPT.Text = "Khong Ghi"
         Me.BtnKhongGhiTSvaPT.Visible = False
@@ -2327,19 +2323,19 @@ Partial Class frmThongtinthietbi
         'txtPath
         '
         Me.txtPath.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtPath.Location = New System.Drawing.Point(4, 2)
-        Me.txtPath.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtPath.Location = New System.Drawing.Point(3, 1)
+        Me.txtPath.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtPath.Name = "txtPath"
         Me.txtPath.Properties.ReadOnly = True
-        Me.txtPath.Size = New System.Drawing.Size(848, 26)
+        Me.txtPath.Size = New System.Drawing.Size(639, 20)
         Me.txtPath.TabIndex = 3
         '
         'tabLichBTDKy
         '
         Me.tabLichBTDKy.Controls.Add(Me.TableLayoutPanel15)
-        Me.tabLichBTDKy.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.tabLichBTDKy.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.tabLichBTDKy.Name = "tabLichBTDKy"
-        Me.tabLichBTDKy.Size = New System.Drawing.Size(1134, 722)
+        Me.tabLichBTDKy.Size = New System.Drawing.Size(923, 643)
         Me.tabLichBTDKy.Text = "Lịch bảo trì định kỳ"
         '
         'TableLayoutPanel15
@@ -2352,12 +2348,12 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel15.Controls.Add(Me.Panel11, 0, 1)
         Me.TableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel15.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel15.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel15.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel15.Name = "TableLayoutPanel15"
         Me.TableLayoutPanel15.RowCount = 2
         Me.TableLayoutPanel15.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel15.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52.0!))
-        Me.TableLayoutPanel15.Size = New System.Drawing.Size(1134, 722)
+        Me.TableLayoutPanel15.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
+        Me.TableLayoutPanel15.Size = New System.Drawing.Size(923, 643)
         Me.TableLayoutPanel15.TabIndex = 110
         '
         'SplitContainerControl3
@@ -2367,14 +2363,14 @@ Partial Class frmThongtinthietbi
         Me.SplitContainerControl3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.SplitContainerControl3.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.None
         Me.SplitContainerControl3.Horizontal = False
-        Me.SplitContainerControl3.Location = New System.Drawing.Point(4, 2)
-        Me.SplitContainerControl3.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.SplitContainerControl3.Location = New System.Drawing.Point(3, 1)
+        Me.SplitContainerControl3.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.SplitContainerControl3.Name = "SplitContainerControl3"
         Me.SplitContainerControl3.Panel1.Controls.Add(Me.SplitContainerControl1)
         Me.SplitContainerControl3.Panel1.Text = "Panel1"
         Me.SplitContainerControl3.Panel2.Controls.Add(Me.grpDanhsachPT)
         Me.SplitContainerControl3.Panel2.Text = "Panel2"
-        Me.SplitContainerControl3.Size = New System.Drawing.Size(1126, 666)
+        Me.SplitContainerControl3.Size = New System.Drawing.Size(917, 605)
         Me.SplitContainerControl3.SplitterPosition = 239
         Me.SplitContainerControl3.TabIndex = 0
         Me.SplitContainerControl3.Text = "SplitContainerControl3"
@@ -2387,13 +2383,13 @@ Partial Class frmThongtinthietbi
         Me.SplitContainerControl1.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.None
         Me.SplitContainerControl1.ImeMode = System.Windows.Forms.ImeMode.[On]
         Me.SplitContainerControl1.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainerControl1.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.SplitContainerControl1.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.SplitContainerControl1.Name = "SplitContainerControl1"
         Me.SplitContainerControl1.Panel1.Controls.Add(Me.grpLoaiBTPN)
         Me.SplitContainerControl1.Panel1.Text = "Panel1"
         Me.SplitContainerControl1.Panel2.Controls.Add(Me.grpDanhmucCV)
         Me.SplitContainerControl1.Panel2.Text = "Panel2"
-        Me.SplitContainerControl1.Size = New System.Drawing.Size(1126, 236)
+        Me.SplitContainerControl1.Size = New System.Drawing.Size(917, 239)
         Me.SplitContainerControl1.SplitterPosition = 391
         Me.SplitContainerControl1.TabIndex = 111
         Me.SplitContainerControl1.Text = "SplitContainerControl1"
@@ -2406,10 +2402,10 @@ Partial Class frmThongtinthietbi
         Me.grpLoaiBTPN.Font = New System.Drawing.Font("Tahoma", 8.25!)
         Me.grpLoaiBTPN.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.grpLoaiBTPN.Location = New System.Drawing.Point(0, 0)
-        Me.grpLoaiBTPN.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpLoaiBTPN.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpLoaiBTPN.Name = "grpLoaiBTPN"
-        Me.grpLoaiBTPN.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpLoaiBTPN.Size = New System.Drawing.Size(391, 236)
+        Me.grpLoaiBTPN.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpLoaiBTPN.Size = New System.Drawing.Size(391, 239)
         Me.grpLoaiBTPN.TabIndex = 1
         Me.grpLoaiBTPN.TabStop = False
         Me.grpLoaiBTPN.Text = "Loại bảo trì phòng ngừa"
@@ -2422,24 +2418,24 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel16.Controls.Add(Me.grdLoaiBTPN, 0, 0)
         Me.TableLayoutPanel16.Controls.Add(Me.Panel13, 0, 1)
         Me.TableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel16.Location = New System.Drawing.Point(4, 22)
-        Me.TableLayoutPanel16.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel16.Location = New System.Drawing.Point(3, 15)
+        Me.TableLayoutPanel16.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel16.Name = "TableLayoutPanel16"
         Me.TableLayoutPanel16.RowCount = 2
         Me.TableLayoutPanel16.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel16.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52.0!))
-        Me.TableLayoutPanel16.Size = New System.Drawing.Size(383, 212)
+        Me.TableLayoutPanel16.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
+        Me.TableLayoutPanel16.Size = New System.Drawing.Size(385, 223)
         Me.TableLayoutPanel16.TabIndex = 2
         '
         'grdLoaiBTPN
         '
         Me.grdLoaiBTPN.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdLoaiBTPN.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdLoaiBTPN.Location = New System.Drawing.Point(4, 2)
+        Me.grdLoaiBTPN.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdLoaiBTPN.Location = New System.Drawing.Point(3, 1)
         Me.grdLoaiBTPN.MainView = Me.grvLoaiBTPN
-        Me.grdLoaiBTPN.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdLoaiBTPN.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdLoaiBTPN.Name = "grdLoaiBTPN"
-        Me.grdLoaiBTPN.Size = New System.Drawing.Size(375, 156)
+        Me.grdLoaiBTPN.Size = New System.Drawing.Size(379, 185)
         Me.grdLoaiBTPN.TabIndex = 5
         Me.grdLoaiBTPN.Tag = ""
         Me.grdLoaiBTPN.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvLoaiBTPN, Me.GridView20})
@@ -2463,29 +2459,29 @@ Partial Class frmThongtinthietbi
         Me.Panel13.Controls.Add(Me.btnChukyBTPN)
         Me.Panel13.Controls.Add(Me.btnCopyLoaiBT)
         Me.Panel13.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel13.Location = New System.Drawing.Point(4, 162)
-        Me.Panel13.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel13.Location = New System.Drawing.Point(3, 188)
+        Me.Panel13.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(375, 48)
+        Me.Panel13.Size = New System.Drawing.Size(379, 34)
         Me.Panel13.TabIndex = 3
         '
         'btnChukyBTPN
         '
         Me.btnChukyBTPN.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.btnChukyBTPN.Location = New System.Drawing.Point(0, 4)
-        Me.btnChukyBTPN.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnChukyBTPN.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnChukyBTPN.Name = "btnChukyBTPN"
-        Me.btnChukyBTPN.Size = New System.Drawing.Size(147, 44)
+        Me.btnChukyBTPN.Size = New System.Drawing.Size(98, 30)
         Me.btnChukyBTPN.TabIndex = 1
         Me.btnChukyBTPN.Text = "Chu kỳ BTPN"
         '
         'btnCopyLoaiBT
         '
         Me.btnCopyLoaiBT.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.btnCopyLoaiBT.Location = New System.Drawing.Point(148, 4)
-        Me.btnCopyLoaiBT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnCopyLoaiBT.Location = New System.Drawing.Point(99, 4)
+        Me.btnCopyLoaiBT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnCopyLoaiBT.Name = "btnCopyLoaiBT"
-        Me.btnCopyLoaiBT.Size = New System.Drawing.Size(147, 44)
+        Me.btnCopyLoaiBT.Size = New System.Drawing.Size(98, 30)
         Me.btnCopyLoaiBT.TabIndex = 2
         Me.btnCopyLoaiBT.Text = "Copy Loại Bảo Trì"
         '
@@ -2497,10 +2493,10 @@ Partial Class frmThongtinthietbi
         Me.grpDanhmucCV.Font = New System.Drawing.Font("Tahoma", 8.25!)
         Me.grpDanhmucCV.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.grpDanhmucCV.Location = New System.Drawing.Point(0, 0)
-        Me.grpDanhmucCV.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpDanhmucCV.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpDanhmucCV.Name = "grpDanhmucCV"
-        Me.grpDanhmucCV.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpDanhmucCV.Size = New System.Drawing.Size(729, 236)
+        Me.grpDanhmucCV.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpDanhmucCV.Size = New System.Drawing.Size(520, 239)
         Me.grpDanhmucCV.TabIndex = 2
         Me.grpDanhmucCV.TabStop = False
         Me.grpDanhmucCV.Text = "Danh mục công việc bảo trì phòng ngừa"
@@ -2510,26 +2506,26 @@ Partial Class frmThongtinthietbi
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.TableLayoutPanel17, DevExpress.Utils.DefaultBoolean.[Default])
         Me.TableLayoutPanel17.ColumnCount = 1
         Me.TableLayoutPanel17.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel17.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
+        Me.TableLayoutPanel17.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel17.Controls.Add(Me.grdLoaiBTPN_CV, 0, 0)
         Me.TableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel17.Location = New System.Drawing.Point(4, 22)
-        Me.TableLayoutPanel17.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel17.Location = New System.Drawing.Point(3, 15)
+        Me.TableLayoutPanel17.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel17.Name = "TableLayoutPanel17"
         Me.TableLayoutPanel17.RowCount = 1
         Me.TableLayoutPanel17.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel17.Size = New System.Drawing.Size(721, 212)
+        Me.TableLayoutPanel17.Size = New System.Drawing.Size(514, 223)
         Me.TableLayoutPanel17.TabIndex = 5
         '
         'grdLoaiBTPN_CV
         '
         Me.grdLoaiBTPN_CV.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdLoaiBTPN_CV.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdLoaiBTPN_CV.Location = New System.Drawing.Point(4, 2)
+        Me.grdLoaiBTPN_CV.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdLoaiBTPN_CV.Location = New System.Drawing.Point(3, 1)
         Me.grdLoaiBTPN_CV.MainView = Me.grvLoaiBTPN_CV
-        Me.grdLoaiBTPN_CV.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdLoaiBTPN_CV.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdLoaiBTPN_CV.Name = "grdLoaiBTPN_CV"
-        Me.grdLoaiBTPN_CV.Size = New System.Drawing.Size(713, 208)
+        Me.grdLoaiBTPN_CV.Size = New System.Drawing.Size(508, 221)
         Me.grdLoaiBTPN_CV.TabIndex = 4
         Me.grdLoaiBTPN_CV.Tag = ""
         Me.grdLoaiBTPN_CV.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvLoaiBTPN_CV, Me.GridView18})
@@ -2555,10 +2551,10 @@ Partial Class frmThongtinthietbi
         Me.grpDanhsachPT.Font = New System.Drawing.Font("Tahoma", 8.25!)
         Me.grpDanhsachPT.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.grpDanhsachPT.Location = New System.Drawing.Point(0, 0)
-        Me.grpDanhsachPT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpDanhsachPT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpDanhsachPT.Name = "grpDanhsachPT"
-        Me.grpDanhsachPT.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpDanhsachPT.Size = New System.Drawing.Size(1126, 424)
+        Me.grpDanhsachPT.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpDanhsachPT.Size = New System.Drawing.Size(917, 360)
         Me.grpDanhsachPT.TabIndex = 0
         Me.grpDanhsachPT.TabStop = False
         Me.grpDanhsachPT.Text = "Danh sách phụ tùng bảo trì phòng ngừa"
@@ -2566,12 +2562,12 @@ Partial Class frmThongtinthietbi
         'grdLoaiBTPN_PT
         '
         Me.grdLoaiBTPN_PT.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdLoaiBTPN_PT.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdLoaiBTPN_PT.Location = New System.Drawing.Point(4, 22)
+        Me.grdLoaiBTPN_PT.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdLoaiBTPN_PT.Location = New System.Drawing.Point(3, 15)
         Me.grdLoaiBTPN_PT.MainView = Me.grvLoaiBTPN_PT
-        Me.grdLoaiBTPN_PT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdLoaiBTPN_PT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdLoaiBTPN_PT.Name = "grdLoaiBTPN_PT"
-        Me.grdLoaiBTPN_PT.Size = New System.Drawing.Size(1118, 400)
+        Me.grdLoaiBTPN_PT.Size = New System.Drawing.Size(911, 344)
         Me.grdLoaiBTPN_PT.TabIndex = 5
         Me.grdLoaiBTPN_PT.Tag = ""
         Me.grdLoaiBTPN_PT.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvLoaiBTPN_PT, Me.GridView21})
@@ -2606,29 +2602,29 @@ Partial Class frmThongtinthietbi
         Me.Panel11.Controls.Add(Me.btnGhi3)
         Me.Panel11.Controls.Add(Me.BtnXoaPT)
         Me.Panel11.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel11.Location = New System.Drawing.Point(4, 672)
-        Me.Panel11.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel11.Location = New System.Drawing.Point(3, 608)
+        Me.Panel11.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(1126, 48)
+        Me.Panel11.Size = New System.Drawing.Size(917, 34)
         Me.Panel11.TabIndex = 3
         '
         'btnThemLichBTPN
         '
         Me.btnThemLichBTPN.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnThemLichBTPN.Location = New System.Drawing.Point(498, 4)
-        Me.btnThemLichBTPN.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnThemLichBTPN.Location = New System.Drawing.Point(499, 4)
+        Me.btnThemLichBTPN.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnThemLichBTPN.Name = "btnThemLichBTPN"
-        Me.btnThemLichBTPN.Size = New System.Drawing.Size(156, 44)
+        Me.btnThemLichBTPN.Size = New System.Drawing.Size(104, 30)
         Me.btnThemLichBTPN.TabIndex = 109
         Me.btnThemLichBTPN.Text = "Thêm/Sửa &BTPN"
         '
         'BtnXoaLoaiBTPN
         '
         Me.BtnXoaLoaiBTPN.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXoaLoaiBTPN.Location = New System.Drawing.Point(498, 4)
-        Me.BtnXoaLoaiBTPN.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoaLoaiBTPN.Location = New System.Drawing.Point(499, 4)
+        Me.BtnXoaLoaiBTPN.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoaLoaiBTPN.Name = "BtnXoaLoaiBTPN"
-        Me.BtnXoaLoaiBTPN.Size = New System.Drawing.Size(156, 44)
+        Me.BtnXoaLoaiBTPN.Size = New System.Drawing.Size(104, 30)
         Me.BtnXoaLoaiBTPN.TabIndex = 105
         Me.BtnXoaLoaiBTPN.Text = "Xóa loại BTPN"
         Me.BtnXoaLoaiBTPN.Visible = False
@@ -2636,20 +2632,20 @@ Partial Class frmThongtinthietbi
         'btnThoat3
         '
         Me.btnThoat3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnThoat3.Location = New System.Drawing.Point(969, 4)
-        Me.btnThoat3.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnThoat3.Location = New System.Drawing.Point(813, 4)
+        Me.btnThoat3.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnThoat3.Name = "btnThoat3"
-        Me.btnThoat3.Size = New System.Drawing.Size(156, 44)
+        Me.btnThoat3.Size = New System.Drawing.Size(104, 30)
         Me.btnThoat3.TabIndex = 102
         Me.btnThoat3.Text = "T&hoát"
         '
         'BtnChonPT
         '
         Me.BtnChonPT.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnChonPT.Location = New System.Drawing.Point(498, 4)
-        Me.BtnChonPT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnChonPT.Location = New System.Drawing.Point(499, 4)
+        Me.BtnChonPT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnChonPT.Name = "BtnChonPT"
-        Me.BtnChonPT.Size = New System.Drawing.Size(156, 44)
+        Me.BtnChonPT.Size = New System.Drawing.Size(104, 30)
         Me.BtnChonPT.TabIndex = 5
         Me.BtnChonPT.Text = "Chọn VT PT"
         Me.BtnChonPT.Visible = False
@@ -2657,10 +2653,10 @@ Partial Class frmThongtinthietbi
         'btnKhongghi3
         '
         Me.btnKhongghi3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnKhongghi3.Location = New System.Drawing.Point(969, 4)
-        Me.btnKhongghi3.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnKhongghi3.Location = New System.Drawing.Point(813, 4)
+        Me.btnKhongghi3.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnKhongghi3.Name = "btnKhongghi3"
-        Me.btnKhongghi3.Size = New System.Drawing.Size(156, 44)
+        Me.btnKhongghi3.Size = New System.Drawing.Size(104, 30)
         Me.btnKhongghi3.TabIndex = 104
         Me.btnKhongghi3.Text = "&Không ghi"
         Me.btnKhongghi3.Visible = False
@@ -2668,20 +2664,20 @@ Partial Class frmThongtinthietbi
         'BtnTroVeBTPN
         '
         Me.BtnTroVeBTPN.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnTroVeBTPN.Location = New System.Drawing.Point(969, 4)
-        Me.BtnTroVeBTPN.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnTroVeBTPN.Location = New System.Drawing.Point(813, 4)
+        Me.BtnTroVeBTPN.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnTroVeBTPN.Name = "BtnTroVeBTPN"
-        Me.BtnTroVeBTPN.Size = New System.Drawing.Size(156, 44)
+        Me.BtnTroVeBTPN.Size = New System.Drawing.Size(104, 30)
         Me.BtnTroVeBTPN.TabIndex = 108
         Me.BtnTroVeBTPN.Text = "Trở về"
         Me.BtnTroVeBTPN.Visible = False
         '
         'txtM2
         '
-        Me.txtM2.Location = New System.Drawing.Point(4, 21)
-        Me.txtM2.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtM2.Location = New System.Drawing.Point(3, 14)
+        Me.txtM2.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtM2.Name = "txtM2"
-        Me.txtM2.Size = New System.Drawing.Size(193, 26)
+        Me.txtM2.Size = New System.Drawing.Size(129, 20)
         Me.txtM2.TabIndex = 110
         Me.txtM2.Visible = False
         '
@@ -2689,20 +2685,20 @@ Partial Class frmThongtinthietbi
         '
         Me.btnThemsua3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnThemsua3.Enabled = False
-        Me.btnThemsua3.Location = New System.Drawing.Point(654, 4)
-        Me.btnThemsua3.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnThemsua3.Location = New System.Drawing.Point(603, 4)
+        Me.btnThemsua3.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnThemsua3.Name = "btnThemsua3"
-        Me.btnThemsua3.Size = New System.Drawing.Size(156, 44)
+        Me.btnThemsua3.Size = New System.Drawing.Size(104, 30)
         Me.btnThemsua3.TabIndex = 100
         Me.btnThemsua3.Text = "&Thêm/Sửa CV"
         '
         'BtnChonCongViec
         '
         Me.BtnChonCongViec.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnChonCongViec.Location = New System.Drawing.Point(654, 4)
-        Me.BtnChonCongViec.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnChonCongViec.Location = New System.Drawing.Point(603, 4)
+        Me.BtnChonCongViec.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnChonCongViec.Name = "BtnChonCongViec"
-        Me.BtnChonCongViec.Size = New System.Drawing.Size(156, 44)
+        Me.BtnChonCongViec.Size = New System.Drawing.Size(104, 30)
         Me.BtnChonCongViec.TabIndex = 4
         Me.BtnChonCongViec.Text = "Chọn Công Việc"
         Me.BtnChonCongViec.Visible = False
@@ -2710,10 +2706,10 @@ Partial Class frmThongtinthietbi
         'BtnXoaCV
         '
         Me.BtnXoaCV.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXoaCV.Location = New System.Drawing.Point(654, 4)
-        Me.BtnXoaCV.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoaCV.Location = New System.Drawing.Point(603, 4)
+        Me.BtnXoaCV.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoaCV.Name = "BtnXoaCV"
-        Me.BtnXoaCV.Size = New System.Drawing.Size(156, 44)
+        Me.BtnXoaCV.Size = New System.Drawing.Size(104, 30)
         Me.BtnXoaCV.TabIndex = 106
         Me.BtnXoaCV.Text = "Xóa công việc"
         Me.BtnXoaCV.Visible = False
@@ -2721,20 +2717,20 @@ Partial Class frmThongtinthietbi
         'btnXoa3
         '
         Me.btnXoa3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnXoa3.Location = New System.Drawing.Point(813, 4)
-        Me.btnXoa3.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnXoa3.Location = New System.Drawing.Point(709, 4)
+        Me.btnXoa3.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnXoa3.Name = "btnXoa3"
-        Me.btnXoa3.Size = New System.Drawing.Size(156, 44)
+        Me.btnXoa3.Size = New System.Drawing.Size(104, 30)
         Me.btnXoa3.TabIndex = 101
         Me.btnXoa3.Text = "&Xóa"
         '
         'btnGhi3
         '
         Me.btnGhi3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnGhi3.Location = New System.Drawing.Point(813, 4)
-        Me.btnGhi3.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnGhi3.Location = New System.Drawing.Point(709, 4)
+        Me.btnGhi3.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnGhi3.Name = "btnGhi3"
-        Me.btnGhi3.Size = New System.Drawing.Size(156, 44)
+        Me.btnGhi3.Size = New System.Drawing.Size(104, 30)
         Me.btnGhi3.TabIndex = 103
         Me.btnGhi3.Text = "&Ghi"
         Me.btnGhi3.Visible = False
@@ -2742,10 +2738,10 @@ Partial Class frmThongtinthietbi
         'BtnXoaPT
         '
         Me.BtnXoaPT.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXoaPT.Location = New System.Drawing.Point(813, 4)
-        Me.BtnXoaPT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoaPT.Location = New System.Drawing.Point(709, 4)
+        Me.BtnXoaPT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoaPT.Name = "BtnXoaPT"
-        Me.BtnXoaPT.Size = New System.Drawing.Size(156, 44)
+        Me.BtnXoaPT.Size = New System.Drawing.Size(104, 30)
         Me.BtnXoaPT.TabIndex = 107
         Me.BtnXoaPT.Text = "Xóa phụ tùng"
         Me.BtnXoaPT.Visible = False
@@ -2753,9 +2749,9 @@ Partial Class frmThongtinthietbi
         'tabGSTTvaHCTB
         '
         Me.tabGSTTvaHCTB.Controls.Add(Me.TableLayoutPanel8)
-        Me.tabGSTTvaHCTB.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.tabGSTTvaHCTB.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.tabGSTTvaHCTB.Name = "tabGSTTvaHCTB"
-        Me.tabGSTTvaHCTB.Size = New System.Drawing.Size(1134, 722)
+        Me.tabGSTTvaHCTB.Size = New System.Drawing.Size(923, 643)
         Me.tabGSTTvaHCTB.Text = "Lịch giám sát tình trạng & hiệu chuẩn TB"
         '
         'TableLayoutPanel8
@@ -2764,17 +2760,17 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel8.BackColor = System.Drawing.Color.FromArgb(CType(CType(227, Byte), Integer), CType(CType(239, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.TableLayoutPanel8.ColumnCount = 1
         Me.TableLayoutPanel8.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel8.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
+        Me.TableLayoutPanel8.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel8.Controls.Add(Me.Panel6, 0, 1)
         Me.TableLayoutPanel8.Controls.Add(Me.grpLichHC, 0, 0)
         Me.TableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel8.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel8.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel8.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel8.Name = "TableLayoutPanel8"
         Me.TableLayoutPanel8.RowCount = 2
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 57.0!))
-        Me.TableLayoutPanel8.Size = New System.Drawing.Size(1134, 722)
+        Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39.0!))
+        Me.TableLayoutPanel8.Size = New System.Drawing.Size(923, 643)
         Me.TableLayoutPanel8.TabIndex = 94
         '
         'Panel6
@@ -2790,27 +2786,27 @@ Partial Class frmThongtinthietbi
         Me.Panel6.Controls.Add(Me.btnGhi2)
         Me.Panel6.Controls.Add(Me.btnThemsua2)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel6.Location = New System.Drawing.Point(4, 667)
-        Me.Panel6.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel6.Location = New System.Drawing.Point(3, 605)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(1126, 53)
+        Me.Panel6.Size = New System.Drawing.Size(917, 37)
         Me.Panel6.TabIndex = 0
         '
         'txtM3
         '
-        Me.txtM3.Location = New System.Drawing.Point(660, 7)
-        Me.txtM3.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtM3.Location = New System.Drawing.Point(440, 5)
+        Me.txtM3.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtM3.Name = "txtM3"
-        Me.txtM3.Size = New System.Drawing.Size(193, 26)
+        Me.txtM3.Size = New System.Drawing.Size(129, 20)
         Me.txtM3.TabIndex = 110
         Me.txtM3.Visible = False
         '
         'BtnXoaLichHieuChuanTB
         '
-        Me.BtnXoaLichHieuChuanTB.Location = New System.Drawing.Point(4, 0)
-        Me.BtnXoaLichHieuChuanTB.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoaLichHieuChuanTB.Location = New System.Drawing.Point(3, 0)
+        Me.BtnXoaLichHieuChuanTB.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoaLichHieuChuanTB.Name = "BtnXoaLichHieuChuanTB"
-        Me.BtnXoaLichHieuChuanTB.Size = New System.Drawing.Size(109, 44)
+        Me.BtnXoaLichHieuChuanTB.Size = New System.Drawing.Size(73, 30)
         Me.BtnXoaLichHieuChuanTB.TabIndex = 92
         Me.BtnXoaLichHieuChuanTB.Text = "&Xóa Lịch hiệu chuẩn thiết bị"
         Me.BtnXoaLichHieuChuanTB.Visible = False
@@ -2818,20 +2814,20 @@ Partial Class frmThongtinthietbi
         'btnThoat2
         '
         Me.btnThoat2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnThoat2.Location = New System.Drawing.Point(969, 9)
-        Me.btnThoat2.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnThoat2.Location = New System.Drawing.Point(813, 7)
+        Me.btnThoat2.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnThoat2.Name = "btnThoat2"
-        Me.btnThoat2.Size = New System.Drawing.Size(156, 44)
+        Me.btnThoat2.Size = New System.Drawing.Size(104, 30)
         Me.btnThoat2.TabIndex = 88
         Me.btnThoat2.Text = "T&hoát"
         '
         'BtnTroVe2
         '
         Me.BtnTroVe2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnTroVe2.Location = New System.Drawing.Point(969, 9)
-        Me.BtnTroVe2.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnTroVe2.Location = New System.Drawing.Point(813, 7)
+        Me.BtnTroVe2.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnTroVe2.Name = "BtnTroVe2"
-        Me.BtnTroVe2.Size = New System.Drawing.Size(156, 44)
+        Me.BtnTroVe2.Size = New System.Drawing.Size(104, 30)
         Me.BtnTroVe2.TabIndex = 93
         Me.BtnTroVe2.Text = "Trở về"
         Me.BtnTroVe2.Visible = False
@@ -2839,40 +2835,40 @@ Partial Class frmThongtinthietbi
         'btnKhongghi2
         '
         Me.btnKhongghi2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnKhongghi2.Location = New System.Drawing.Point(969, 9)
-        Me.btnKhongghi2.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnKhongghi2.Location = New System.Drawing.Point(813, 7)
+        Me.btnKhongghi2.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnKhongghi2.Name = "btnKhongghi2"
-        Me.btnKhongghi2.Size = New System.Drawing.Size(156, 44)
+        Me.btnKhongghi2.Size = New System.Drawing.Size(104, 30)
         Me.btnKhongghi2.TabIndex = 90
         Me.btnKhongghi2.Text = "&Không ghi"
         '
         'btnXoa2
         '
         Me.btnXoa2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnXoa2.Location = New System.Drawing.Point(813, 9)
-        Me.btnXoa2.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnXoa2.Location = New System.Drawing.Point(709, 7)
+        Me.btnXoa2.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnXoa2.Name = "btnXoa2"
-        Me.btnXoa2.Size = New System.Drawing.Size(156, 44)
+        Me.btnXoa2.Size = New System.Drawing.Size(104, 30)
         Me.btnXoa2.TabIndex = 87
         Me.btnXoa2.Text = "&Xóa"
         '
         'btnGhi2
         '
         Me.btnGhi2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnGhi2.Location = New System.Drawing.Point(813, 9)
-        Me.btnGhi2.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnGhi2.Location = New System.Drawing.Point(709, 7)
+        Me.btnGhi2.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnGhi2.Name = "btnGhi2"
-        Me.btnGhi2.Size = New System.Drawing.Size(156, 44)
+        Me.btnGhi2.Size = New System.Drawing.Size(104, 30)
         Me.btnGhi2.TabIndex = 89
         Me.btnGhi2.Text = "&Ghi"
         '
         'btnThemsua2
         '
         Me.btnThemsua2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnThemsua2.Location = New System.Drawing.Point(653, 9)
-        Me.btnThemsua2.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnThemsua2.Location = New System.Drawing.Point(602, 7)
+        Me.btnThemsua2.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnThemsua2.Name = "btnThemsua2"
-        Me.btnThemsua2.Size = New System.Drawing.Size(156, 44)
+        Me.btnThemsua2.Size = New System.Drawing.Size(104, 30)
         Me.btnThemsua2.TabIndex = 86
         Me.btnThemsua2.Text = "&Thêm/Sửa"
         '
@@ -2884,11 +2880,11 @@ Partial Class frmThongtinthietbi
         Me.grpLichHC.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpLichHC.Font = New System.Drawing.Font("Tahoma", 8.25!)
         Me.grpLichHC.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.grpLichHC.Location = New System.Drawing.Point(4, 2)
-        Me.grpLichHC.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpLichHC.Location = New System.Drawing.Point(3, 1)
+        Me.grpLichHC.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpLichHC.Name = "grpLichHC"
-        Me.grpLichHC.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpLichHC.Size = New System.Drawing.Size(1126, 661)
+        Me.grpLichHC.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpLichHC.Size = New System.Drawing.Size(917, 602)
         Me.grpLichHC.TabIndex = 1
         Me.grpLichHC.TabStop = False
         Me.grpLichHC.Text = "Lịch hiệu chuẩn thiết bị"
@@ -2896,12 +2892,12 @@ Partial Class frmThongtinthietbi
         'grdChuKiHC
         '
         Me.grdChuKiHC.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdChuKiHC.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdChuKiHC.Location = New System.Drawing.Point(4, 22)
+        Me.grdChuKiHC.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdChuKiHC.Location = New System.Drawing.Point(3, 15)
         Me.grdChuKiHC.MainView = Me.grvChuKiHC
-        Me.grdChuKiHC.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdChuKiHC.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdChuKiHC.Name = "grdChuKiHC"
-        Me.grdChuKiHC.Size = New System.Drawing.Size(1118, 637)
+        Me.grdChuKiHC.Size = New System.Drawing.Size(911, 586)
         Me.grdChuKiHC.TabIndex = 3
         Me.grdChuKiHC.Tag = ""
         Me.grdChuKiHC.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvChuKiHC, Me.GridView16})
@@ -2922,9 +2918,9 @@ Partial Class frmThongtinthietbi
         'tabThongsoTB
         '
         Me.tabThongsoTB.Controls.Add(Me.TableLayoutPanel7)
-        Me.tabThongsoTB.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.tabThongsoTB.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.tabThongsoTB.Name = "tabThongsoTB"
-        Me.tabThongsoTB.Size = New System.Drawing.Size(1134, 722)
+        Me.tabThongsoTB.Size = New System.Drawing.Size(923, 643)
         Me.tabThongsoTB.Text = "Thông số thiết bị & Danh mục tài liệu"
         '
         'TableLayoutPanel7
@@ -2937,13 +2933,13 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel7.Controls.Add(Me.Panel20, 0, 2)
         Me.TableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel7.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel7.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel7.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel7.Name = "TableLayoutPanel7"
         Me.TableLayoutPanel7.RowCount = 3
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59.0!))
-        Me.TableLayoutPanel7.Size = New System.Drawing.Size(1134, 722)
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40.0!))
+        Me.TableLayoutPanel7.Size = New System.Drawing.Size(923, 643)
         Me.TableLayoutPanel7.TabIndex = 94
         '
         'grpDanhmuctailieu
@@ -2952,11 +2948,11 @@ Partial Class frmThongtinthietbi
         Me.grpDanhmuctailieu.Controls.Add(Me.grdTaiLieuTS)
         Me.grpDanhmuctailieu.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpDanhmuctailieu.ForeColor = System.Drawing.Color.Maroon
-        Me.grpDanhmuctailieu.Location = New System.Drawing.Point(4, 333)
-        Me.grpDanhmuctailieu.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpDanhmuctailieu.Location = New System.Drawing.Point(3, 302)
+        Me.grpDanhmuctailieu.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpDanhmuctailieu.Name = "grpDanhmuctailieu"
-        Me.grpDanhmuctailieu.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpDanhmuctailieu.Size = New System.Drawing.Size(1126, 327)
+        Me.grpDanhmuctailieu.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpDanhmuctailieu.Size = New System.Drawing.Size(917, 299)
         Me.grpDanhmuctailieu.TabIndex = 0
         Me.grpDanhmuctailieu.TabStop = False
         Me.grpDanhmuctailieu.Text = "Danh mục tài liệu kèm theo"
@@ -2964,12 +2960,12 @@ Partial Class frmThongtinthietbi
         'grdTaiLieuTS
         '
         Me.grdTaiLieuTS.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdTaiLieuTS.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdTaiLieuTS.Location = New System.Drawing.Point(4, 22)
+        Me.grdTaiLieuTS.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdTaiLieuTS.Location = New System.Drawing.Point(3, 15)
         Me.grdTaiLieuTS.MainView = Me.grvTaiLieuTS
-        Me.grdTaiLieuTS.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdTaiLieuTS.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdTaiLieuTS.Name = "grdTaiLieuTS"
-        Me.grdTaiLieuTS.Size = New System.Drawing.Size(1118, 303)
+        Me.grdTaiLieuTS.Size = New System.Drawing.Size(911, 283)
         Me.grdTaiLieuTS.TabIndex = 7
         Me.grdTaiLieuTS.Tag = ""
         Me.grdTaiLieuTS.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvTaiLieuTS, Me.GridView15})
@@ -2992,14 +2988,14 @@ Partial Class frmThongtinthietbi
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.SplitContainerControl10, DevExpress.Utils.DefaultBoolean.[Default])
         Me.SplitContainerControl10.Dock = System.Windows.Forms.DockStyle.Fill
         Me.SplitContainerControl10.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.None
-        Me.SplitContainerControl10.Location = New System.Drawing.Point(4, 2)
-        Me.SplitContainerControl10.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.SplitContainerControl10.Location = New System.Drawing.Point(3, 1)
+        Me.SplitContainerControl10.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.SplitContainerControl10.Name = "SplitContainerControl10"
         Me.SplitContainerControl10.Panel1.Controls.Add(Me.TableLayoutPanel36)
         Me.SplitContainerControl10.Panel1.Text = "Panel1"
         Me.SplitContainerControl10.Panel2.Controls.Add(Me.TableLayoutPanel35)
         Me.SplitContainerControl10.Panel2.Text = "Panel2"
-        Me.SplitContainerControl10.Size = New System.Drawing.Size(1126, 327)
+        Me.SplitContainerControl10.Size = New System.Drawing.Size(917, 299)
         Me.SplitContainerControl10.SplitterPosition = 297
         Me.SplitContainerControl10.TabIndex = 1
         Me.SplitContainerControl10.Text = "SplitContainerControl10"
@@ -3013,12 +3009,12 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel36.Controls.Add(Me.chxAnToan, 0, 0)
         Me.TableLayoutPanel36.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel36.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel36.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel36.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel36.Name = "TableLayoutPanel36"
         Me.TableLayoutPanel36.RowCount = 2
-        Me.TableLayoutPanel36.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44.0!))
+        Me.TableLayoutPanel36.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
         Me.TableLayoutPanel36.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel36.Size = New System.Drawing.Size(297, 327)
+        Me.TableLayoutPanel36.Size = New System.Drawing.Size(297, 299)
         Me.TableLayoutPanel36.TabIndex = 1
         '
         'grpLuuY
@@ -3028,11 +3024,11 @@ Partial Class frmThongtinthietbi
         Me.grpLuuY.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpLuuY.Font = New System.Drawing.Font("Tahoma", 8.25!)
         Me.grpLuuY.ForeColor = System.Drawing.Color.Maroon
-        Me.grpLuuY.Location = New System.Drawing.Point(4, 46)
-        Me.grpLuuY.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpLuuY.Location = New System.Drawing.Point(3, 31)
+        Me.grpLuuY.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpLuuY.Name = "grpLuuY"
-        Me.grpLuuY.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpLuuY.Size = New System.Drawing.Size(289, 279)
+        Me.grpLuuY.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpLuuY.Size = New System.Drawing.Size(291, 267)
         Me.grpLuuY.TabIndex = 0
         Me.grpLuuY.TabStop = False
         Me.grpLuuY.Text = "Lưu ý trong lắp ráp và vận hành"
@@ -3040,23 +3036,23 @@ Partial Class frmThongtinthietbi
         'txtLuuY
         '
         Me.txtLuuY.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtLuuY.Location = New System.Drawing.Point(4, 22)
-        Me.txtLuuY.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtLuuY.Location = New System.Drawing.Point(3, 15)
+        Me.txtLuuY.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtLuuY.Name = "txtLuuY"
         Me.txtLuuY.Properties.Appearance.BackColor = System.Drawing.Color.White
         Me.txtLuuY.Properties.Appearance.Options.UseBackColor = True
         Me.txtLuuY.Properties.ReadOnly = True
-        Me.txtLuuY.Size = New System.Drawing.Size(281, 255)
+        Me.txtLuuY.Size = New System.Drawing.Size(285, 251)
         Me.txtLuuY.TabIndex = 0
         '
         'chxAnToan
         '
         Me.chxAnToan.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.chxAnToan.Location = New System.Drawing.Point(3, 1)
-        Me.chxAnToan.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.chxAnToan.Location = New System.Drawing.Point(1, 1)
+        Me.chxAnToan.Margin = New System.Windows.Forms.Padding(1)
         Me.chxAnToan.Name = "chxAnToan"
         Me.chxAnToan.Properties.Caption = "An Toàn"
-        Me.chxAnToan.Size = New System.Drawing.Size(291, 24)
+        Me.chxAnToan.Size = New System.Drawing.Size(295, 18)
         Me.chxAnToan.TabIndex = 1
         '
         'TableLayoutPanel35
@@ -3068,12 +3064,12 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel35.Controls.Add(Me.BtnTSBP, 0, 0)
         Me.TableLayoutPanel35.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel35.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel35.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel35.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel35.Name = "TableLayoutPanel35"
         Me.TableLayoutPanel35.RowCount = 2
-        Me.TableLayoutPanel35.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44.0!))
+        Me.TableLayoutPanel35.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
         Me.TableLayoutPanel35.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel35.Size = New System.Drawing.Size(823, 327)
+        Me.TableLayoutPanel35.Size = New System.Drawing.Size(614, 299)
         Me.TableLayoutPanel35.TabIndex = 1
         '
         'grpThongsochinhTB
@@ -3082,11 +3078,11 @@ Partial Class frmThongtinthietbi
         Me.grpThongsochinhTB.Controls.Add(Me.grdThongSoMay)
         Me.grpThongsochinhTB.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpThongsochinhTB.ForeColor = System.Drawing.Color.Maroon
-        Me.grpThongsochinhTB.Location = New System.Drawing.Point(4, 46)
-        Me.grpThongsochinhTB.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpThongsochinhTB.Location = New System.Drawing.Point(3, 31)
+        Me.grpThongsochinhTB.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpThongsochinhTB.Name = "grpThongsochinhTB"
-        Me.grpThongsochinhTB.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpThongsochinhTB.Size = New System.Drawing.Size(815, 279)
+        Me.grpThongsochinhTB.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpThongsochinhTB.Size = New System.Drawing.Size(608, 267)
         Me.grpThongsochinhTB.TabIndex = 0
         Me.grpThongsochinhTB.TabStop = False
         Me.grpThongsochinhTB.Text = "Thông số chính thiết bị"
@@ -3094,12 +3090,12 @@ Partial Class frmThongtinthietbi
         'grdThongSoMay
         '
         Me.grdThongSoMay.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdThongSoMay.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdThongSoMay.Location = New System.Drawing.Point(4, 22)
+        Me.grdThongSoMay.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdThongSoMay.Location = New System.Drawing.Point(3, 15)
         Me.grdThongSoMay.MainView = Me.grvThongSoMay
-        Me.grdThongSoMay.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdThongSoMay.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdThongSoMay.Name = "grdThongSoMay"
-        Me.grdThongSoMay.Size = New System.Drawing.Size(807, 255)
+        Me.grdThongSoMay.Size = New System.Drawing.Size(602, 251)
         Me.grdThongSoMay.TabIndex = 4
         Me.grdThongSoMay.Tag = ""
         Me.grdThongSoMay.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvThongSoMay, Me.GridView13})
@@ -3119,10 +3115,10 @@ Partial Class frmThongtinthietbi
         '
         'BtnTSBP
         '
-        Me.BtnTSBP.Location = New System.Drawing.Point(4, 2)
-        Me.BtnTSBP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnTSBP.Location = New System.Drawing.Point(3, 1)
+        Me.BtnTSBP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnTSBP.Name = "BtnTSBP"
-        Me.BtnTSBP.Size = New System.Drawing.Size(251, 37)
+        Me.BtnTSBP.Size = New System.Drawing.Size(167, 25)
         Me.BtnTSBP.TabIndex = 92
         Me.BtnTSBP.Text = "Danh mục thông số bộ phận"
         '
@@ -3142,88 +3138,88 @@ Partial Class frmThongtinthietbi
         Me.Panel20.Controls.Add(Me.btnXoa1)
         Me.Panel20.Controls.Add(Me.btnGhi1)
         Me.Panel20.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel20.Location = New System.Drawing.Point(4, 664)
-        Me.Panel20.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel20.Location = New System.Drawing.Point(3, 603)
+        Me.Panel20.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(1126, 56)
+        Me.Panel20.Size = New System.Drawing.Size(917, 39)
         Me.Panel20.TabIndex = 2
         '
         'txtSearchTL
         '
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.txtSearchTL, DevExpress.Utils.DefaultBoolean.[Default])
         Me.txtSearchTL.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.txtSearchTL.Location = New System.Drawing.Point(315, 19)
-        Me.txtSearchTL.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.txtSearchTL.Location = New System.Drawing.Point(210, 13)
+        Me.txtSearchTL.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.txtSearchTL.Name = "txtSearchTL"
-        Me.txtSearchTL.Size = New System.Drawing.Size(220, 27)
+        Me.txtSearchTL.Size = New System.Drawing.Size(148, 21)
         Me.txtSearchTL.TabIndex = 111
         '
         'BtnXemTL
         '
         Me.BtnXemTL.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.BtnXemTL.Location = New System.Drawing.Point(0, 6)
-        Me.BtnXemTL.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXemTL.Location = New System.Drawing.Point(0, 4)
+        Me.BtnXemTL.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXemTL.Name = "BtnXemTL"
-        Me.BtnXemTL.Size = New System.Drawing.Size(156, 44)
+        Me.BtnXemTL.Size = New System.Drawing.Size(104, 30)
         Me.BtnXemTL.TabIndex = 93
         Me.BtnXemTL.Text = "Xem tài liệu"
         '
         'btnOpen
         '
         Me.btnOpen.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.btnOpen.Location = New System.Drawing.Point(157, 6)
-        Me.btnOpen.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnOpen.Location = New System.Drawing.Point(105, 4)
+        Me.btnOpen.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnOpen.Name = "btnOpen"
-        Me.btnOpen.Size = New System.Drawing.Size(156, 44)
+        Me.btnOpen.Size = New System.Drawing.Size(104, 30)
         Me.btnOpen.TabIndex = 94
         Me.btnOpen.Text = "Open"
         '
         'txtM4
         '
-        Me.txtM4.Location = New System.Drawing.Point(384, 11)
-        Me.txtM4.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtM4.Location = New System.Drawing.Point(256, 8)
+        Me.txtM4.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtM4.Name = "txtM4"
-        Me.txtM4.Size = New System.Drawing.Size(24, 26)
+        Me.txtM4.Size = New System.Drawing.Size(16, 20)
         Me.txtM4.TabIndex = 110
         Me.txtM4.Visible = False
         '
         'btnThemsua1
         '
         Me.btnThemsua1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnThemsua1.Location = New System.Drawing.Point(651, 6)
-        Me.btnThemsua1.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnThemsua1.Location = New System.Drawing.Point(601, 4)
+        Me.btnThemsua1.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnThemsua1.Name = "btnThemsua1"
-        Me.btnThemsua1.Size = New System.Drawing.Size(156, 44)
+        Me.btnThemsua1.Size = New System.Drawing.Size(104, 30)
         Me.btnThemsua1.TabIndex = 80
         Me.btnThemsua1.Text = "&Thêm/Sửa"
         '
         'btnThoat1
         '
         Me.btnThoat1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnThoat1.Location = New System.Drawing.Point(966, 6)
-        Me.btnThoat1.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnThoat1.Location = New System.Drawing.Point(811, 4)
+        Me.btnThoat1.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnThoat1.Name = "btnThoat1"
-        Me.btnThoat1.Size = New System.Drawing.Size(156, 44)
+        Me.btnThoat1.Size = New System.Drawing.Size(104, 30)
         Me.btnThoat1.TabIndex = 82
         Me.btnThoat1.Text = "T&hoát"
         '
         'btnKhongghi1
         '
         Me.btnKhongghi1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnKhongghi1.Location = New System.Drawing.Point(966, 6)
-        Me.btnKhongghi1.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnKhongghi1.Location = New System.Drawing.Point(811, 4)
+        Me.btnKhongghi1.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnKhongghi1.Name = "btnKhongghi1"
-        Me.btnKhongghi1.Size = New System.Drawing.Size(156, 44)
+        Me.btnKhongghi1.Size = New System.Drawing.Size(104, 30)
         Me.btnKhongghi1.TabIndex = 85
         Me.btnKhongghi1.Text = "&Không"
         '
         'BtnXoaTSCTB
         '
         Me.BtnXoaTSCTB.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXoaTSCTB.Location = New System.Drawing.Point(616, 6)
-        Me.BtnXoaTSCTB.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoaTSCTB.Location = New System.Drawing.Point(577, 4)
+        Me.BtnXoaTSCTB.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoaTSCTB.Name = "BtnXoaTSCTB"
-        Me.BtnXoaTSCTB.Size = New System.Drawing.Size(172, 44)
+        Me.BtnXoaTSCTB.Size = New System.Drawing.Size(115, 30)
         Me.BtnXoaTSCTB.TabIndex = 89
         Me.BtnXoaTSCTB.Text = "Xóa thông số chính TB"
         Me.BtnXoaTSCTB.Visible = False
@@ -3231,10 +3227,10 @@ Partial Class frmThongtinthietbi
         'BtnTroVe
         '
         Me.BtnTroVe.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnTroVe.Location = New System.Drawing.Point(966, 6)
-        Me.BtnTroVe.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnTroVe.Location = New System.Drawing.Point(811, 4)
+        Me.BtnTroVe.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnTroVe.Name = "BtnTroVe"
-        Me.BtnTroVe.Size = New System.Drawing.Size(156, 44)
+        Me.BtnTroVe.Size = New System.Drawing.Size(104, 30)
         Me.BtnTroVe.TabIndex = 91
         Me.BtnTroVe.Text = "Trở về"
         Me.BtnTroVe.Visible = False
@@ -3242,10 +3238,10 @@ Partial Class frmThongtinthietbi
         'BtnXoaDMTL
         '
         Me.BtnXoaDMTL.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXoaDMTL.Location = New System.Drawing.Point(792, 6)
-        Me.BtnXoaDMTL.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXoaDMTL.Location = New System.Drawing.Point(695, 4)
+        Me.BtnXoaDMTL.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXoaDMTL.Name = "BtnXoaDMTL"
-        Me.BtnXoaDMTL.Size = New System.Drawing.Size(172, 44)
+        Me.BtnXoaDMTL.Size = New System.Drawing.Size(115, 30)
         Me.BtnXoaDMTL.TabIndex = 90
         Me.BtnXoaDMTL.Text = "Xóa Danh muc tài liệu"
         Me.BtnXoaDMTL.Visible = False
@@ -3253,29 +3249,29 @@ Partial Class frmThongtinthietbi
         'btnXoa1
         '
         Me.btnXoa1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnXoa1.Location = New System.Drawing.Point(807, 6)
-        Me.btnXoa1.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnXoa1.Location = New System.Drawing.Point(705, 4)
+        Me.btnXoa1.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnXoa1.Name = "btnXoa1"
-        Me.btnXoa1.Size = New System.Drawing.Size(156, 44)
+        Me.btnXoa1.Size = New System.Drawing.Size(104, 30)
         Me.btnXoa1.TabIndex = 81
         Me.btnXoa1.Text = "&Xóa"
         '
         'btnGhi1
         '
         Me.btnGhi1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnGhi1.Location = New System.Drawing.Point(807, 6)
-        Me.btnGhi1.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnGhi1.Location = New System.Drawing.Point(705, 4)
+        Me.btnGhi1.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnGhi1.Name = "btnGhi1"
-        Me.btnGhi1.Size = New System.Drawing.Size(156, 44)
+        Me.btnGhi1.Size = New System.Drawing.Size(104, 30)
         Me.btnGhi1.TabIndex = 84
         Me.btnGhi1.Text = "&Ghi"
         '
         'tabLichsuTB
         '
         Me.tabLichsuTB.Controls.Add(Me.TableLayoutPanel4)
-        Me.tabLichsuTB.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.tabLichsuTB.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.tabLichsuTB.Name = "tabLichsuTB"
-        Me.tabLichsuTB.Size = New System.Drawing.Size(1134, 722)
+        Me.tabLichsuTB.Size = New System.Drawing.Size(923, 643)
         Me.tabLichsuTB.Text = "Lịch sử thiết bị"
         '
         'TableLayoutPanel4
@@ -3287,12 +3283,12 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel4.Controls.Add(Me.SplitContainerControl8, 0, 1)
         Me.TableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel4.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel4.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel4.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
         Me.TableLayoutPanel4.RowCount = 2
-        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 46.0!))
+        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31.0!))
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel4.Size = New System.Drawing.Size(1134, 722)
+        Me.TableLayoutPanel4.Size = New System.Drawing.Size(923, 643)
         Me.TableLayoutPanel4.TabIndex = 96
         '
         'Panel12
@@ -3307,17 +3303,17 @@ Partial Class frmThongtinthietbi
         Me.Panel12.Controls.Add(Me.lblBoPhanTT)
         Me.Panel12.Controls.Add(Me.lblMayTT)
         Me.Panel12.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel12.Location = New System.Drawing.Point(4, 2)
-        Me.Panel12.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel12.Location = New System.Drawing.Point(3, 1)
+        Me.Panel12.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(1126, 42)
+        Me.Panel12.Size = New System.Drawing.Size(917, 29)
         Me.Panel12.TabIndex = 4
         '
         'dtpDenNgay1
         '
         Me.dtpDenNgay1.EditValue = Nothing
-        Me.dtpDenNgay1.Location = New System.Drawing.Point(564, 5)
-        Me.dtpDenNgay1.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.dtpDenNgay1.Location = New System.Drawing.Point(376, 3)
+        Me.dtpDenNgay1.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.dtpDenNgay1.Name = "dtpDenNgay1"
         Me.dtpDenNgay1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.dtpDenNgay1.Properties.DisplayFormat.FormatString = "dd/MM/yyyy"
@@ -3327,17 +3323,16 @@ Partial Class frmThongtinthietbi
         Me.dtpDenNgay1.Properties.Mask.EditMask = "dd/MM/yyyy"
         Me.dtpDenNgay1.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.DateTimeAdvancingCaret
         Me.dtpDenNgay1.Properties.VistaTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(), New DevExpress.XtraEditors.Controls.EditorButton()})
-        Me.dtpDenNgay1.Size = New System.Drawing.Size(244, 26)
+        Me.dtpDenNgay1.Size = New System.Drawing.Size(163, 20)
         Me.dtpDenNgay1.TabIndex = 94
         '
         'lblTuNgay1
         '
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.lblTuNgay1, DevExpress.Utils.DefaultBoolean.[Default])
         Me.lblTuNgay1.AutoSize = True
-        Me.lblTuNgay1.Location = New System.Drawing.Point(10, 11)
-        Me.lblTuNgay1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblTuNgay1.Location = New System.Drawing.Point(7, 8)
         Me.lblTuNgay1.Name = "lblTuNgay1"
-        Me.lblTuNgay1.Size = New System.Drawing.Size(68, 19)
+        Me.lblTuNgay1.Size = New System.Drawing.Size(47, 13)
         Me.lblTuNgay1.TabIndex = 92
         Me.lblTuNgay1.Text = "Từ ngày"
         '
@@ -3345,18 +3340,17 @@ Partial Class frmThongtinthietbi
         '
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.lblDenNgay1, DevExpress.Utils.DefaultBoolean.[Default])
         Me.lblDenNgay1.AutoSize = True
-        Me.lblDenNgay1.Location = New System.Drawing.Point(388, 11)
-        Me.lblDenNgay1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblDenNgay1.Location = New System.Drawing.Point(259, 8)
         Me.lblDenNgay1.Name = "lblDenNgay1"
-        Me.lblDenNgay1.Size = New System.Drawing.Size(76, 19)
+        Me.lblDenNgay1.Size = New System.Drawing.Size(54, 13)
         Me.lblDenNgay1.TabIndex = 93
         Me.lblDenNgay1.Text = "Đến ngày"
         '
         'dtpTuNgay1
         '
         Me.dtpTuNgay1.EditValue = Nothing
-        Me.dtpTuNgay1.Location = New System.Drawing.Point(181, 5)
-        Me.dtpTuNgay1.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.dtpTuNgay1.Location = New System.Drawing.Point(121, 3)
+        Me.dtpTuNgay1.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.dtpTuNgay1.Name = "dtpTuNgay1"
         Me.dtpTuNgay1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.dtpTuNgay1.Properties.DisplayFormat.FormatString = "dd/MM/yyyy"
@@ -3366,7 +3360,7 @@ Partial Class frmThongtinthietbi
         Me.dtpTuNgay1.Properties.Mask.EditMask = "dd/MM/yyyy"
         Me.dtpTuNgay1.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.DateTimeAdvancingCaret
         Me.dtpTuNgay1.Properties.VistaTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(), New DevExpress.XtraEditors.Controls.EditorButton()})
-        Me.dtpTuNgay1.Size = New System.Drawing.Size(198, 26)
+        Me.dtpTuNgay1.Size = New System.Drawing.Size(132, 20)
         Me.dtpTuNgay1.TabIndex = 91
         '
         'txtMayTT
@@ -3376,8 +3370,8 @@ Partial Class frmThongtinthietbi
         Me.txtMayTT.ErrorProviderControl = Me.ErrorProvider
         Me.txtMayTT.FieldName = ""
         Me.txtMayTT.IsNull = True
-        Me.txtMayTT.Location = New System.Drawing.Point(181, 5)
-        Me.txtMayTT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtMayTT.Location = New System.Drawing.Point(121, 3)
+        Me.txtMayTT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtMayTT.MaxLength = 0
         Me.txtMayTT.Multiline = False
         Me.txtMayTT.Name = "txtMayTT"
@@ -3388,7 +3382,7 @@ Partial Class frmThongtinthietbi
         Me.txtMayTT.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near
         Me.txtMayTT.Properties.ReadOnly = True
         Me.txtMayTT.ReadOnly = True
-        Me.txtMayTT.Size = New System.Drawing.Size(198, 26)
+        Me.txtMayTT.Size = New System.Drawing.Size(132, 20)
         Me.txtMayTT.TabIndex = 86
         Me.txtMayTT.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.txtMayTT.TextTypeMode = Commons.TypeMode.None
@@ -3401,8 +3395,8 @@ Partial Class frmThongtinthietbi
         Me.txtBoPhanTT.ErrorProviderControl = Me.ErrorProvider
         Me.txtBoPhanTT.FieldName = ""
         Me.txtBoPhanTT.IsNull = True
-        Me.txtBoPhanTT.Location = New System.Drawing.Point(564, 5)
-        Me.txtBoPhanTT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtBoPhanTT.Location = New System.Drawing.Point(376, 3)
+        Me.txtBoPhanTT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtBoPhanTT.MaxLength = 0
         Me.txtBoPhanTT.Multiline = False
         Me.txtBoPhanTT.Name = "txtBoPhanTT"
@@ -3413,7 +3407,7 @@ Partial Class frmThongtinthietbi
         Me.txtBoPhanTT.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near
         Me.txtBoPhanTT.Properties.ReadOnly = True
         Me.txtBoPhanTT.ReadOnly = True
-        Me.txtBoPhanTT.Size = New System.Drawing.Size(244, 26)
+        Me.txtBoPhanTT.Size = New System.Drawing.Size(163, 20)
         Me.txtBoPhanTT.TabIndex = 87
         Me.txtBoPhanTT.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.txtBoPhanTT.TextTypeMode = Commons.TypeMode.None
@@ -3423,10 +3417,9 @@ Partial Class frmThongtinthietbi
         '
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.lblBoPhanTT, DevExpress.Utils.DefaultBoolean.[Default])
         Me.lblBoPhanTT.AutoSize = True
-        Me.lblBoPhanTT.Location = New System.Drawing.Point(388, 11)
-        Me.lblBoPhanTT.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblBoPhanTT.Location = New System.Drawing.Point(259, 8)
         Me.lblBoPhanTT.Name = "lblBoPhanTT"
-        Me.lblBoPhanTT.Size = New System.Drawing.Size(129, 19)
+        Me.lblBoPhanTT.Size = New System.Drawing.Size(90, 13)
         Me.lblBoPhanTT.TabIndex = 85
         Me.lblBoPhanTT.Text = "Bộ phận thay thế"
         Me.lblBoPhanTT.Visible = False
@@ -3435,10 +3428,9 @@ Partial Class frmThongtinthietbi
         '
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.lblMayTT, DevExpress.Utils.DefaultBoolean.[Default])
         Me.lblMayTT.AutoSize = True
-        Me.lblMayTT.Location = New System.Drawing.Point(10, 11)
-        Me.lblMayTT.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblMayTT.Location = New System.Drawing.Point(7, 8)
         Me.lblMayTT.Name = "lblMayTT"
-        Me.lblMayTT.Size = New System.Drawing.Size(99, 19)
+        Me.lblMayTT.Size = New System.Drawing.Size(71, 13)
         Me.lblMayTT.TabIndex = 84
         Me.lblMayTT.Text = "Máy thay thế"
         Me.lblMayTT.Visible = False
@@ -3448,14 +3440,14 @@ Partial Class frmThongtinthietbi
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.SplitContainerControl8, DevExpress.Utils.DefaultBoolean.[Default])
         Me.SplitContainerControl8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.SplitContainerControl8.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.None
-        Me.SplitContainerControl8.Location = New System.Drawing.Point(4, 48)
-        Me.SplitContainerControl8.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.SplitContainerControl8.Location = New System.Drawing.Point(3, 32)
+        Me.SplitContainerControl8.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.SplitContainerControl8.Name = "SplitContainerControl8"
         Me.SplitContainerControl8.Panel1.Controls.Add(Me.TableLayoutPanel5)
         Me.SplitContainerControl8.Panel1.Text = "Panel1"
         Me.SplitContainerControl8.Panel2.Controls.Add(Me.SplitContainerControl9)
         Me.SplitContainerControl8.Panel2.Text = "Panel2"
-        Me.SplitContainerControl8.Size = New System.Drawing.Size(1126, 672)
+        Me.SplitContainerControl8.Size = New System.Drawing.Size(917, 610)
         Me.SplitContainerControl8.SplitterPosition = 285
         Me.SplitContainerControl8.TabIndex = 98
         Me.SplitContainerControl8.Text = "SplitContainerControl8"
@@ -3469,25 +3461,25 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel5.Controls.Add(Me.grpThietBi, 0, 0)
         Me.TableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel5.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel5.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel5.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
         Me.TableLayoutPanel5.RowCount = 2
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38.0!))
-        Me.TableLayoutPanel5.Size = New System.Drawing.Size(285, 672)
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26.0!))
+        Me.TableLayoutPanel5.Size = New System.Drawing.Size(285, 610)
         Me.TableLayoutPanel5.TabIndex = 3
         '
         'txtTimKiemHistory
         '
         Me.txtTimKiemHistory.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtTimKiemHistory.Location = New System.Drawing.Point(4, 636)
-        Me.txtTimKiemHistory.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtTimKiemHistory.Location = New System.Drawing.Point(3, 585)
+        Me.txtTimKiemHistory.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtTimKiemHistory.Name = "txtTimKiemHistory"
         Me.txtTimKiemHistory.Properties.Appearance.BackColor = System.Drawing.Color.White
         Me.txtTimKiemHistory.Properties.Appearance.Options.UseBackColor = True
         Me.txtTimKiemHistory.Properties.Appearance.Options.UseTextOptions = True
         Me.txtTimKiemHistory.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near
-        Me.txtTimKiemHistory.Size = New System.Drawing.Size(277, 26)
+        Me.txtTimKiemHistory.Size = New System.Drawing.Size(279, 20)
         Me.txtTimKiemHistory.TabIndex = 4
         '
         'grpThietBi
@@ -3496,11 +3488,11 @@ Partial Class frmThongtinthietbi
         Me.grpThietBi.Controls.Add(Me.tlHistory)
         Me.grpThietBi.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpThietBi.ForeColor = System.Drawing.Color.Maroon
-        Me.grpThietBi.Location = New System.Drawing.Point(4, 2)
-        Me.grpThietBi.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpThietBi.Location = New System.Drawing.Point(3, 1)
+        Me.grpThietBi.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpThietBi.Name = "grpThietBi"
-        Me.grpThietBi.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpThietBi.Size = New System.Drawing.Size(277, 630)
+        Me.grpThietBi.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpThietBi.Size = New System.Drawing.Size(279, 582)
         Me.grpThietBi.TabIndex = 2
         Me.grpThietBi.TabStop = False
         Me.grpThietBi.Text = "Cấu thúc thiết bị"
@@ -3517,8 +3509,8 @@ Partial Class frmThongtinthietbi
         Me.tlHistory.Appearance.HideSelectionRow.Options.UseBackColor = True
         Me.tlHistory.Appearance.HideSelectionRow.Options.UseForeColor = True
         Me.tlHistory.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.tlHistory.Location = New System.Drawing.Point(4, 22)
-        Me.tlHistory.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.tlHistory.Location = New System.Drawing.Point(3, 15)
+        Me.tlHistory.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.tlHistory.Name = "tlHistory"
         Me.tlHistory.OptionsBehavior.DragNodes = True
         Me.tlHistory.OptionsBehavior.Editable = False
@@ -3536,7 +3528,7 @@ Partial Class frmThongtinthietbi
         Me.tlHistory.OptionsView.ShowHorzLines = False
         Me.tlHistory.OptionsView.ShowPreview = True
         Me.tlHistory.RootValue = -1
-        Me.tlHistory.Size = New System.Drawing.Size(269, 606)
+        Me.tlHistory.Size = New System.Drawing.Size(273, 566)
         Me.tlHistory.TabIndex = 46
         '
         'SplitContainerControl9
@@ -3546,13 +3538,13 @@ Partial Class frmThongtinthietbi
         Me.SplitContainerControl9.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.None
         Me.SplitContainerControl9.Horizontal = False
         Me.SplitContainerControl9.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainerControl9.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.SplitContainerControl9.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.SplitContainerControl9.Name = "SplitContainerControl9"
         Me.SplitContainerControl9.Panel1.Controls.Add(Me.grpLichsuthietbi)
         Me.SplitContainerControl9.Panel1.Text = "Panel1"
         Me.SplitContainerControl9.Panel2.Controls.Add(Me.TableLayoutPanel34)
         Me.SplitContainerControl9.Panel2.Text = "Panel2"
-        Me.SplitContainerControl9.Size = New System.Drawing.Size(835, 672)
+        Me.SplitContainerControl9.Size = New System.Drawing.Size(626, 610)
         Me.SplitContainerControl9.SplitterPosition = 295
         Me.SplitContainerControl9.TabIndex = 99
         Me.SplitContainerControl9.Text = "SplitContainerControl9"
@@ -3564,10 +3556,10 @@ Partial Class frmThongtinthietbi
         Me.grpLichsuthietbi.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpLichsuthietbi.ForeColor = System.Drawing.Color.Maroon
         Me.grpLichsuthietbi.Location = New System.Drawing.Point(0, 0)
-        Me.grpLichsuthietbi.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpLichsuthietbi.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpLichsuthietbi.Name = "grpLichsuthietbi"
-        Me.grpLichsuthietbi.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpLichsuthietbi.Size = New System.Drawing.Size(835, 291)
+        Me.grpLichsuthietbi.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpLichsuthietbi.Size = New System.Drawing.Size(626, 295)
         Me.grpLichsuthietbi.TabIndex = 3
         Me.grpLichsuthietbi.TabStop = False
         Me.grpLichsuthietbi.Text = "Lịch sử thiết bị"
@@ -3575,12 +3567,12 @@ Partial Class frmThongtinthietbi
         'grdLichSuMay
         '
         Me.grdLichSuMay.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdLichSuMay.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdLichSuMay.Location = New System.Drawing.Point(4, 22)
+        Me.grdLichSuMay.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdLichSuMay.Location = New System.Drawing.Point(3, 15)
         Me.grdLichSuMay.MainView = Me.grvLichSuMay
-        Me.grdLichSuMay.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdLichSuMay.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdLichSuMay.Name = "grdLichSuMay"
-        Me.grdLichSuMay.Size = New System.Drawing.Size(827, 267)
+        Me.grdLichSuMay.Size = New System.Drawing.Size(620, 279)
         Me.grdLichSuMay.TabIndex = 3
         Me.grdLichSuMay.Tag = ""
         Me.grdLichSuMay.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvLichSuMay, Me.GridView11})
@@ -3607,12 +3599,12 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel34.Controls.Add(Me.Panel2, 0, 1)
         Me.TableLayoutPanel34.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel34.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel34.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel34.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel34.Name = "TableLayoutPanel34"
         Me.TableLayoutPanel34.RowCount = 2
         Me.TableLayoutPanel34.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel34.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52.0!))
-        Me.TableLayoutPanel34.Size = New System.Drawing.Size(835, 375)
+        Me.TableLayoutPanel34.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
+        Me.TableLayoutPanel34.Size = New System.Drawing.Size(626, 309)
         Me.TableLayoutPanel34.TabIndex = 0
         '
         'grdPhuTungThayThe
@@ -3621,11 +3613,11 @@ Partial Class frmThongtinthietbi
         Me.grdPhuTungThayThe.Controls.Add(Me.grdLichSuPTTThe)
         Me.grdPhuTungThayThe.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grdPhuTungThayThe.ForeColor = System.Drawing.Color.Maroon
-        Me.grdPhuTungThayThe.Location = New System.Drawing.Point(4, 2)
-        Me.grdPhuTungThayThe.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdPhuTungThayThe.Location = New System.Drawing.Point(3, 1)
+        Me.grdPhuTungThayThe.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdPhuTungThayThe.Name = "grdPhuTungThayThe"
-        Me.grdPhuTungThayThe.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdPhuTungThayThe.Size = New System.Drawing.Size(827, 319)
+        Me.grdPhuTungThayThe.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdPhuTungThayThe.Size = New System.Drawing.Size(620, 271)
         Me.grdPhuTungThayThe.TabIndex = 4
         Me.grdPhuTungThayThe.TabStop = False
         Me.grdPhuTungThayThe.Text = "Danh sách phụ tùng thay thế"
@@ -3633,12 +3625,12 @@ Partial Class frmThongtinthietbi
         'grdLichSuPTTThe
         '
         Me.grdLichSuPTTThe.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdLichSuPTTThe.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdLichSuPTTThe.Location = New System.Drawing.Point(4, 22)
+        Me.grdLichSuPTTThe.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdLichSuPTTThe.Location = New System.Drawing.Point(3, 15)
         Me.grdLichSuPTTThe.MainView = Me.grvLichSuPTTThe
-        Me.grdLichSuPTTThe.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdLichSuPTTThe.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdLichSuPTTThe.Name = "grdLichSuPTTThe"
-        Me.grdLichSuPTTThe.Size = New System.Drawing.Size(819, 295)
+        Me.grdLichSuPTTThe.Size = New System.Drawing.Size(614, 255)
         Me.grdLichSuPTTThe.TabIndex = 4
         Me.grdLichSuPTTThe.Tag = ""
         Me.grdLichSuPTTThe.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvLichSuPTTThe, Me.GridView12})
@@ -3665,67 +3657,67 @@ Partial Class frmThongtinthietbi
         Me.Panel2.Controls.Add(Me.BtnXemPBT)
         Me.Panel2.Controls.Add(Me.BtnThoat6)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(4, 325)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel2.Location = New System.Drawing.Point(3, 274)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(827, 48)
+        Me.Panel2.Size = New System.Drawing.Size(620, 34)
         Me.Panel2.TabIndex = 97
         '
         'txtM5
         '
-        Me.txtM5.Location = New System.Drawing.Point(8, 5)
-        Me.txtM5.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtM5.Location = New System.Drawing.Point(5, 3)
+        Me.txtM5.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtM5.Name = "txtM5"
-        Me.txtM5.Size = New System.Drawing.Size(94, 26)
+        Me.txtM5.Size = New System.Drawing.Size(63, 20)
         Me.txtM5.TabIndex = 111
         Me.txtM5.Visible = False
         '
         'BtnKhoiTaoLS
         '
         Me.BtnKhoiTaoLS.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnKhoiTaoLS.Location = New System.Drawing.Point(198, 4)
-        Me.BtnKhoiTaoLS.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnKhoiTaoLS.Location = New System.Drawing.Point(201, 4)
+        Me.BtnKhoiTaoLS.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnKhoiTaoLS.Name = "BtnKhoiTaoLS"
-        Me.BtnKhoiTaoLS.Size = New System.Drawing.Size(156, 44)
+        Me.BtnKhoiTaoLS.Size = New System.Drawing.Size(104, 30)
         Me.BtnKhoiTaoLS.TabIndex = 88
         Me.BtnKhoiTaoLS.Text = "Khởi tạo lịch sử"
         '
         'btLichSuCauTrucTB
         '
         Me.btLichSuCauTrucTB.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btLichSuCauTrucTB.Location = New System.Drawing.Point(356, 4)
-        Me.btLichSuCauTrucTB.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btLichSuCauTrucTB.Location = New System.Drawing.Point(306, 4)
+        Me.btLichSuCauTrucTB.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btLichSuCauTrucTB.Name = "btLichSuCauTrucTB"
-        Me.btLichSuCauTrucTB.Size = New System.Drawing.Size(156, 44)
+        Me.btLichSuCauTrucTB.Size = New System.Drawing.Size(104, 30)
         Me.btLichSuCauTrucTB.TabIndex = 97
         Me.btLichSuCauTrucTB.Text = "In lịch sử"
         '
         'BtnXemPBT
         '
         Me.BtnXemPBT.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnXemPBT.Location = New System.Drawing.Point(513, 4)
-        Me.BtnXemPBT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnXemPBT.Location = New System.Drawing.Point(411, 4)
+        Me.BtnXemPBT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnXemPBT.Name = "BtnXemPBT"
-        Me.BtnXemPBT.Size = New System.Drawing.Size(156, 44)
+        Me.BtnXemPBT.Size = New System.Drawing.Size(104, 30)
         Me.BtnXemPBT.TabIndex = 95
         Me.BtnXemPBT.Text = "Xem PBT"
         '
         'BtnThoat6
         '
         Me.BtnThoat6.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnThoat6.Location = New System.Drawing.Point(672, 4)
-        Me.BtnThoat6.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnThoat6.Location = New System.Drawing.Point(517, 4)
+        Me.BtnThoat6.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.BtnThoat6.Name = "BtnThoat6"
-        Me.BtnThoat6.Size = New System.Drawing.Size(156, 44)
+        Me.BtnThoat6.Size = New System.Drawing.Size(104, 30)
         Me.BtnThoat6.TabIndex = 83
         Me.BtnThoat6.Text = "T&hoát"
         '
         'tabHechuyengia
         '
         Me.tabHechuyengia.Controls.Add(Me.TableLayoutPanel29)
-        Me.tabHechuyengia.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.tabHechuyengia.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.tabHechuyengia.Name = "tabHechuyengia"
-        Me.tabHechuyengia.Size = New System.Drawing.Size(1134, 722)
+        Me.tabHechuyengia.Size = New System.Drawing.Size(923, 643)
         Me.tabHechuyengia.Text = "Hệ chuyên gia"
         '
         'TableLayoutPanel29
@@ -3737,12 +3729,12 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel29.Controls.Add(Me.Panel16, 0, 0)
         Me.TableLayoutPanel29.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel29.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel29.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel29.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel29.Name = "TableLayoutPanel29"
         Me.TableLayoutPanel29.RowCount = 2
-        Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 46.0!))
+        Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31.0!))
         Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel29.Size = New System.Drawing.Size(1134, 722)
+        Me.TableLayoutPanel29.Size = New System.Drawing.Size(923, 643)
         Me.TableLayoutPanel29.TabIndex = 96
         '
         'SplitContainerControl7
@@ -3750,14 +3742,14 @@ Partial Class frmThongtinthietbi
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.SplitContainerControl7, DevExpress.Utils.DefaultBoolean.[Default])
         Me.SplitContainerControl7.Dock = System.Windows.Forms.DockStyle.Fill
         Me.SplitContainerControl7.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.None
-        Me.SplitContainerControl7.Location = New System.Drawing.Point(4, 48)
-        Me.SplitContainerControl7.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.SplitContainerControl7.Location = New System.Drawing.Point(3, 32)
+        Me.SplitContainerControl7.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.SplitContainerControl7.Name = "SplitContainerControl7"
         Me.SplitContainerControl7.Panel1.Controls.Add(Me.TableLayoutPanel21)
         Me.SplitContainerControl7.Panel1.Text = "Panel1"
         Me.SplitContainerControl7.Panel2.Controls.Add(Me.SplitContainerControl5)
         Me.SplitContainerControl7.Panel2.Text = "Panel2"
-        Me.SplitContainerControl7.Size = New System.Drawing.Size(1126, 672)
+        Me.SplitContainerControl7.Size = New System.Drawing.Size(917, 610)
         Me.SplitContainerControl7.SplitterPosition = 244
         Me.SplitContainerControl7.TabIndex = 1
         Me.SplitContainerControl7.Text = "SplitContainerControl7"
@@ -3771,21 +3763,21 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel21.Controls.Add(Me.gbCTTB, 0, 0)
         Me.TableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel21.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel21.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel21.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel21.Name = "TableLayoutPanel21"
         Me.TableLayoutPanel21.RowCount = 2
         Me.TableLayoutPanel21.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel21.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
-        Me.TableLayoutPanel21.Size = New System.Drawing.Size(244, 672)
+        Me.TableLayoutPanel21.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel21.Size = New System.Drawing.Size(244, 610)
         Me.TableLayoutPanel21.TabIndex = 3
         '
         'txtSearchLS
         '
         Me.txtSearchLS.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtSearchLS.Location = New System.Drawing.Point(4, 637)
-        Me.txtSearchLS.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtSearchLS.Location = New System.Drawing.Point(3, 586)
+        Me.txtSearchLS.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtSearchLS.Name = "txtSearchLS"
-        Me.txtSearchLS.Size = New System.Drawing.Size(236, 26)
+        Me.txtSearchLS.Size = New System.Drawing.Size(238, 20)
         Me.txtSearchLS.TabIndex = 111
         '
         'gbCTTB
@@ -3794,11 +3786,11 @@ Partial Class frmThongtinthietbi
         Me.gbCTTB.Controls.Add(Me.tlClass)
         Me.gbCTTB.Dock = System.Windows.Forms.DockStyle.Fill
         Me.gbCTTB.ForeColor = System.Drawing.Color.Maroon
-        Me.gbCTTB.Location = New System.Drawing.Point(4, 2)
-        Me.gbCTTB.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.gbCTTB.Location = New System.Drawing.Point(3, 1)
+        Me.gbCTTB.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.gbCTTB.Name = "gbCTTB"
-        Me.gbCTTB.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.gbCTTB.Size = New System.Drawing.Size(236, 631)
+        Me.gbCTTB.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.gbCTTB.Size = New System.Drawing.Size(238, 583)
         Me.gbCTTB.TabIndex = 2
         Me.gbCTTB.TabStop = False
         Me.gbCTTB.Text = "Cấu thúc thiết bị"
@@ -3815,8 +3807,8 @@ Partial Class frmThongtinthietbi
         Me.tlClass.Appearance.HideSelectionRow.Options.UseBackColor = True
         Me.tlClass.Appearance.HideSelectionRow.Options.UseForeColor = True
         Me.tlClass.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.tlClass.Location = New System.Drawing.Point(4, 22)
-        Me.tlClass.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.tlClass.Location = New System.Drawing.Point(3, 15)
+        Me.tlClass.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.tlClass.Name = "tlClass"
         Me.tlClass.OptionsBehavior.DragNodes = True
         Me.tlClass.OptionsBehavior.Editable = False
@@ -3834,7 +3826,7 @@ Partial Class frmThongtinthietbi
         Me.tlClass.OptionsView.ShowHorzLines = False
         Me.tlClass.OptionsView.ShowPreview = True
         Me.tlClass.RootValue = -1
-        Me.tlClass.Size = New System.Drawing.Size(228, 607)
+        Me.tlClass.Size = New System.Drawing.Size(232, 567)
         Me.tlClass.TabIndex = 47
         '
         'SplitContainerControl5
@@ -3844,13 +3836,13 @@ Partial Class frmThongtinthietbi
         Me.SplitContainerControl5.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.None
         Me.SplitContainerControl5.Horizontal = False
         Me.SplitContainerControl5.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainerControl5.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.SplitContainerControl5.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.SplitContainerControl5.Name = "SplitContainerControl5"
         Me.SplitContainerControl5.Panel1.Controls.Add(Me.gbHuHong)
         Me.SplitContainerControl5.Panel1.Text = "Panel1"
         Me.SplitContainerControl5.Panel2.Controls.Add(Me.SplitContainerControl6)
         Me.SplitContainerControl5.Panel2.Text = "Panel2"
-        Me.SplitContainerControl5.Size = New System.Drawing.Size(876, 672)
+        Me.SplitContainerControl5.Size = New System.Drawing.Size(667, 610)
         Me.SplitContainerControl5.SplitterPosition = 178
         Me.SplitContainerControl5.TabIndex = 1
         Me.SplitContainerControl5.Text = "SplitContainerControl5"
@@ -3862,10 +3854,10 @@ Partial Class frmThongtinthietbi
         Me.gbHuHong.Dock = System.Windows.Forms.DockStyle.Fill
         Me.gbHuHong.ForeColor = System.Drawing.Color.Maroon
         Me.gbHuHong.Location = New System.Drawing.Point(0, 0)
-        Me.gbHuHong.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.gbHuHong.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.gbHuHong.Name = "gbHuHong"
-        Me.gbHuHong.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.gbHuHong.Size = New System.Drawing.Size(876, 176)
+        Me.gbHuHong.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.gbHuHong.Size = New System.Drawing.Size(667, 178)
         Me.gbHuHong.TabIndex = 3
         Me.gbHuHong.TabStop = False
         Me.gbHuHong.Text = "Lịch sử thiết bị"
@@ -3873,12 +3865,12 @@ Partial Class frmThongtinthietbi
         'grdHuHong
         '
         Me.grdHuHong.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdHuHong.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdHuHong.Location = New System.Drawing.Point(4, 22)
+        Me.grdHuHong.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdHuHong.Location = New System.Drawing.Point(3, 15)
         Me.grdHuHong.MainView = Me.grvHuHong
-        Me.grdHuHong.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdHuHong.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdHuHong.Name = "grdHuHong"
-        Me.grdHuHong.Size = New System.Drawing.Size(868, 152)
+        Me.grdHuHong.Size = New System.Drawing.Size(661, 162)
         Me.grdHuHong.TabIndex = 4
         Me.grdHuHong.Tag = ""
         Me.grdHuHong.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvHuHong, Me.GridView14})
@@ -3903,13 +3895,13 @@ Partial Class frmThongtinthietbi
         Me.SplitContainerControl6.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.None
         Me.SplitContainerControl6.Horizontal = False
         Me.SplitContainerControl6.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainerControl6.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.SplitContainerControl6.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.SplitContainerControl6.Name = "SplitContainerControl6"
         Me.SplitContainerControl6.Panel1.Controls.Add(Me.gbNguyenNhan)
         Me.SplitContainerControl6.Panel1.Text = "Panel1"
         Me.SplitContainerControl6.Panel2.Controls.Add(Me.TableLayoutPanel33)
         Me.SplitContainerControl6.Panel2.Text = "Panel2"
-        Me.SplitContainerControl6.Size = New System.Drawing.Size(876, 490)
+        Me.SplitContainerControl6.Size = New System.Drawing.Size(667, 426)
         Me.SplitContainerControl6.SplitterPosition = 174
         Me.SplitContainerControl6.TabIndex = 2
         Me.SplitContainerControl6.Text = "SplitContainerControl6"
@@ -3921,10 +3913,10 @@ Partial Class frmThongtinthietbi
         Me.gbNguyenNhan.Dock = System.Windows.Forms.DockStyle.Fill
         Me.gbNguyenNhan.ForeColor = System.Drawing.Color.Maroon
         Me.gbNguyenNhan.Location = New System.Drawing.Point(0, 0)
-        Me.gbNguyenNhan.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.gbNguyenNhan.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.gbNguyenNhan.Name = "gbNguyenNhan"
-        Me.gbNguyenNhan.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.gbNguyenNhan.Size = New System.Drawing.Size(876, 190)
+        Me.gbNguyenNhan.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.gbNguyenNhan.Size = New System.Drawing.Size(667, 175)
         Me.gbNguyenNhan.TabIndex = 98
         Me.gbNguyenNhan.TabStop = False
         Me.gbNguyenNhan.Text = "Danh sách phụ tùng thay thế"
@@ -3932,12 +3924,12 @@ Partial Class frmThongtinthietbi
         'grdNguyenNhan
         '
         Me.grdNguyenNhan.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdNguyenNhan.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdNguyenNhan.Location = New System.Drawing.Point(4, 22)
+        Me.grdNguyenNhan.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdNguyenNhan.Location = New System.Drawing.Point(3, 15)
         Me.grdNguyenNhan.MainView = Me.grvNguyenNhan
-        Me.grdNguyenNhan.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdNguyenNhan.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdNguyenNhan.Name = "grdNguyenNhan"
-        Me.grdNguyenNhan.Size = New System.Drawing.Size(868, 166)
+        Me.grdNguyenNhan.Size = New System.Drawing.Size(661, 159)
         Me.grdNguyenNhan.TabIndex = 5
         Me.grdNguyenNhan.Tag = ""
         Me.grdNguyenNhan.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvNguyenNhan, Me.GridView17})
@@ -3964,12 +3956,12 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel33.Controls.Add(Me.gbPP, 0, 0)
         Me.TableLayoutPanel33.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel33.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel33.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel33.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel33.Name = "TableLayoutPanel33"
         Me.TableLayoutPanel33.RowCount = 2
         Me.TableLayoutPanel33.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel33.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 57.0!))
-        Me.TableLayoutPanel33.Size = New System.Drawing.Size(876, 294)
+        Me.TableLayoutPanel33.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39.0!))
+        Me.TableLayoutPanel33.Size = New System.Drawing.Size(667, 245)
         Me.TableLayoutPanel33.TabIndex = 5
         '
         'Panel18
@@ -3979,38 +3971,38 @@ Partial Class frmThongtinthietbi
         Me.Panel18.Controls.Add(Me.btnKhoiTao)
         Me.Panel18.Controls.Add(Me.btnThoat7)
         Me.Panel18.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel18.Location = New System.Drawing.Point(4, 239)
-        Me.Panel18.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel18.Location = New System.Drawing.Point(3, 207)
+        Me.Panel18.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(868, 53)
+        Me.Panel18.Size = New System.Drawing.Size(661, 37)
         Me.Panel18.TabIndex = 96
         '
         'txtM6
         '
-        Me.txtM6.Location = New System.Drawing.Point(28, 12)
-        Me.txtM6.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtM6.Location = New System.Drawing.Point(19, 8)
+        Me.txtM6.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtM6.Name = "txtM6"
-        Me.txtM6.Size = New System.Drawing.Size(94, 26)
+        Me.txtM6.Size = New System.Drawing.Size(63, 20)
         Me.txtM6.TabIndex = 111
         Me.txtM6.Visible = False
         '
         'btnKhoiTao
         '
         Me.btnKhoiTao.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnKhoiTao.Location = New System.Drawing.Point(554, 9)
-        Me.btnKhoiTao.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnKhoiTao.Location = New System.Drawing.Point(452, 7)
+        Me.btnKhoiTao.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnKhoiTao.Name = "btnKhoiTao"
-        Me.btnKhoiTao.Size = New System.Drawing.Size(156, 44)
+        Me.btnKhoiTao.Size = New System.Drawing.Size(104, 30)
         Me.btnKhoiTao.TabIndex = 88
         Me.btnKhoiTao.Text = "Khởi tạo lịch sử"
         '
         'btnThoat7
         '
         Me.btnThoat7.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnThoat7.Location = New System.Drawing.Point(714, 9)
-        Me.btnThoat7.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnThoat7.Location = New System.Drawing.Point(559, 7)
+        Me.btnThoat7.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnThoat7.Name = "btnThoat7"
-        Me.btnThoat7.Size = New System.Drawing.Size(156, 44)
+        Me.btnThoat7.Size = New System.Drawing.Size(104, 30)
         Me.btnThoat7.TabIndex = 83
         Me.btnThoat7.Text = "T&hoát"
         '
@@ -4020,11 +4012,11 @@ Partial Class frmThongtinthietbi
         Me.gbPP.Controls.Add(Me.grdPP)
         Me.gbPP.Dock = System.Windows.Forms.DockStyle.Fill
         Me.gbPP.ForeColor = System.Drawing.Color.Maroon
-        Me.gbPP.Location = New System.Drawing.Point(4, 2)
-        Me.gbPP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.gbPP.Location = New System.Drawing.Point(3, 1)
+        Me.gbPP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.gbPP.Name = "gbPP"
-        Me.gbPP.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.gbPP.Size = New System.Drawing.Size(868, 233)
+        Me.gbPP.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.gbPP.Size = New System.Drawing.Size(661, 204)
         Me.gbPP.TabIndex = 4
         Me.gbPP.TabStop = False
         Me.gbPP.Text = "Danh sách phụ tùng thay thế"
@@ -4032,12 +4024,12 @@ Partial Class frmThongtinthietbi
         'grdPP
         '
         Me.grdPP.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdPP.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdPP.Location = New System.Drawing.Point(4, 22)
+        Me.grdPP.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdPP.Location = New System.Drawing.Point(3, 15)
         Me.grdPP.MainView = Me.grvPP
-        Me.grdPP.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdPP.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdPP.Name = "grdPP"
-        Me.grdPP.Size = New System.Drawing.Size(860, 209)
+        Me.grdPP.Size = New System.Drawing.Size(655, 188)
         Me.grdPP.TabIndex = 5
         Me.grdPP.Tag = ""
         Me.grdPP.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvPP, Me.GridView19})
@@ -4063,28 +4055,27 @@ Partial Class frmThongtinthietbi
         Me.Panel16.Controls.Add(Me.lblDenNgay7)
         Me.Panel16.Controls.Add(Me.txtTu_Ngay7)
         Me.Panel16.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel16.Location = New System.Drawing.Point(4, 2)
-        Me.Panel16.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel16.Location = New System.Drawing.Point(3, 1)
+        Me.Panel16.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(1126, 42)
+        Me.Panel16.Size = New System.Drawing.Size(917, 29)
         Me.Panel16.TabIndex = 96
         '
         'lblTuNgay7
         '
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.lblTuNgay7, DevExpress.Utils.DefaultBoolean.[Default])
         Me.lblTuNgay7.AutoSize = True
-        Me.lblTuNgay7.Location = New System.Drawing.Point(4, 11)
-        Me.lblTuNgay7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblTuNgay7.Location = New System.Drawing.Point(3, 8)
         Me.lblTuNgay7.Name = "lblTuNgay7"
-        Me.lblTuNgay7.Size = New System.Drawing.Size(68, 19)
+        Me.lblTuNgay7.Size = New System.Drawing.Size(47, 13)
         Me.lblTuNgay7.TabIndex = 92
         Me.lblTuNgay7.Text = "Từ ngày"
         '
         'txtDen_Ngay7
         '
         Me.txtDen_Ngay7.EditValue = Nothing
-        Me.txtDen_Ngay7.Location = New System.Drawing.Point(558, 5)
-        Me.txtDen_Ngay7.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtDen_Ngay7.Location = New System.Drawing.Point(372, 3)
+        Me.txtDen_Ngay7.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtDen_Ngay7.Name = "txtDen_Ngay7"
         Me.txtDen_Ngay7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.txtDen_Ngay7.Properties.DisplayFormat.FormatString = "dd/MM/yyyy"
@@ -4094,25 +4085,24 @@ Partial Class frmThongtinthietbi
         Me.txtDen_Ngay7.Properties.Mask.EditMask = "dd/MM/yyyy"
         Me.txtDen_Ngay7.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.DateTimeAdvancingCaret
         Me.txtDen_Ngay7.Properties.VistaTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(), New DevExpress.XtraEditors.Controls.EditorButton()})
-        Me.txtDen_Ngay7.Size = New System.Drawing.Size(206, 26)
+        Me.txtDen_Ngay7.Size = New System.Drawing.Size(137, 20)
         Me.txtDen_Ngay7.TabIndex = 94
         '
         'lblDenNgay7
         '
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.lblDenNgay7, DevExpress.Utils.DefaultBoolean.[Default])
         Me.lblDenNgay7.AutoSize = True
-        Me.lblDenNgay7.Location = New System.Drawing.Point(382, 8)
-        Me.lblDenNgay7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblDenNgay7.Location = New System.Drawing.Point(255, 5)
         Me.lblDenNgay7.Name = "lblDenNgay7"
-        Me.lblDenNgay7.Size = New System.Drawing.Size(76, 19)
+        Me.lblDenNgay7.Size = New System.Drawing.Size(54, 13)
         Me.lblDenNgay7.TabIndex = 93
         Me.lblDenNgay7.Text = "Đến ngày"
         '
         'txtTu_Ngay7
         '
         Me.txtTu_Ngay7.EditValue = Nothing
-        Me.txtTu_Ngay7.Location = New System.Drawing.Point(175, 2)
-        Me.txtTu_Ngay7.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtTu_Ngay7.Location = New System.Drawing.Point(117, 1)
+        Me.txtTu_Ngay7.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtTu_Ngay7.Name = "txtTu_Ngay7"
         Me.txtTu_Ngay7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.txtTu_Ngay7.Properties.DisplayFormat.FormatString = "dd/MM/yyyy"
@@ -4122,15 +4112,15 @@ Partial Class frmThongtinthietbi
         Me.txtTu_Ngay7.Properties.Mask.EditMask = "dd/MM/yyyy"
         Me.txtTu_Ngay7.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.DateTimeAdvancingCaret
         Me.txtTu_Ngay7.Properties.VistaTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(), New DevExpress.XtraEditors.Controls.EditorButton()})
-        Me.txtTu_Ngay7.Size = New System.Drawing.Size(198, 26)
+        Me.txtTu_Ngay7.Size = New System.Drawing.Size(132, 20)
         Me.txtTu_Ngay7.TabIndex = 91
         '
         'tabBaocao
         '
         Me.tabBaocao.Controls.Add(Me.TableLayoutPanel3)
-        Me.tabBaocao.Margin = New System.Windows.Forms.Padding(5, 2, 5, 2)
+        Me.tabBaocao.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.tabBaocao.Name = "tabBaocao"
-        Me.tabBaocao.Size = New System.Drawing.Size(1134, 722)
+        Me.tabBaocao.Size = New System.Drawing.Size(923, 643)
         Me.tabBaocao.Text = "Báo cáo"
         '
         'TableLayoutPanel3
@@ -4142,12 +4132,12 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel3.Controls.Add(Me.Panel19, 0, 1)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel3.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel3.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel3.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 2
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(1134, 722)
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(923, 643)
         Me.TableLayoutPanel3.TabIndex = 6
         '
         'grpBaoCaoThietBi
@@ -4157,11 +4147,11 @@ Partial Class frmThongtinthietbi
         Me.grpBaoCaoThietBi.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grpBaoCaoThietBi.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grpBaoCaoThietBi.ForeColor = System.Drawing.Color.Maroon
-        Me.grpBaoCaoThietBi.Location = New System.Drawing.Point(4, 2)
-        Me.grpBaoCaoThietBi.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grpBaoCaoThietBi.Location = New System.Drawing.Point(3, 1)
+        Me.grpBaoCaoThietBi.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grpBaoCaoThietBi.Name = "grpBaoCaoThietBi"
-        Me.grpBaoCaoThietBi.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grpBaoCaoThietBi.Size = New System.Drawing.Size(1126, 666)
+        Me.grpBaoCaoThietBi.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grpBaoCaoThietBi.Size = New System.Drawing.Size(917, 605)
         Me.grpBaoCaoThietBi.TabIndex = 2
         Me.grpBaoCaoThietBi.TabStop = False
         Me.grpBaoCaoThietBi.Text = "Báo cáo về thiết bị"
@@ -4169,12 +4159,12 @@ Partial Class frmThongtinthietbi
         'grdReport
         '
         Me.grdReport.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdReport.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdReport.Location = New System.Drawing.Point(4, 24)
+        Me.grdReport.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdReport.Location = New System.Drawing.Point(3, 16)
         Me.grdReport.MainView = Me.grvReport
-        Me.grdReport.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdReport.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdReport.Name = "grdReport"
-        Me.grdReport.Size = New System.Drawing.Size(1118, 640)
+        Me.grdReport.Size = New System.Drawing.Size(911, 588)
         Me.grdReport.TabIndex = 70
         Me.grdReport.Tag = ""
         Me.grdReport.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvReport, Me.GridView9})
@@ -4198,20 +4188,20 @@ Partial Class frmThongtinthietbi
         Me.Panel19.Controls.Add(Me.btnThoat_)
         Me.Panel19.Controls.Add(Me.btnThuchien)
         Me.Panel19.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel19.Location = New System.Drawing.Point(4, 672)
-        Me.Panel19.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Panel19.Location = New System.Drawing.Point(3, 608)
+        Me.Panel19.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(1126, 48)
+        Me.Panel19.Size = New System.Drawing.Size(917, 34)
         Me.Panel19.TabIndex = 6
         '
         'btnThoat_
         '
         Me.btnThoat_.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnThoat_.Location = New System.Drawing.Point(969, 0)
-        Me.btnThoat_.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnThoat_.Location = New System.Drawing.Point(813, 0)
+        Me.btnThoat_.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnThoat_.Name = "btnThoat_"
-        Me.btnThoat_.Size = New System.Drawing.Size(156, 48)
+        Me.btnThoat_.Size = New System.Drawing.Size(104, 34)
         Me.btnThoat_.TabIndex = 5
         Me.btnThoat_.Text = "Thoát"
         '
@@ -4219,10 +4209,10 @@ Partial Class frmThongtinthietbi
         '
         Me.btnThuchien.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnThuchien.Location = New System.Drawing.Point(813, 0)
-        Me.btnThuchien.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnThuchien.Location = New System.Drawing.Point(709, 0)
+        Me.btnThuchien.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.btnThuchien.Name = "btnThuchien"
-        Me.btnThuchien.Size = New System.Drawing.Size(156, 48)
+        Me.btnThuchien.Size = New System.Drawing.Size(104, 34)
         Me.btnThuchien.TabIndex = 4
         Me.btnThuchien.Text = "Thực hiện"
         '
@@ -4230,30 +4220,30 @@ Partial Class frmThongtinthietbi
         '
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.TlbTT, DevExpress.Utils.DefaultBoolean.[Default])
         Me.TlbTT.ColumnCount = 10
-        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
-        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
-        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
         Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.36797!))
         Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 74.63203!))
-        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 44.0!))
-        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 134.0!))
-        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 53.0!))
-        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 53.0!))
-        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 271.0!))
+        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 29.0!))
+        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 89.0!))
+        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35.0!))
+        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35.0!))
+        Me.TlbTT.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 186.0!))
         Me.TlbTT.Controls.Add(Me.SplitContainerControl2, 0, 3)
         Me.TlbTT.Controls.Add(Me.TableLayoutPanel31, 1, 1)
         Me.TlbTT.Controls.Add(Me.btnVideo, 7, 1)
         Me.TlbTT.Controls.Add(Me.btnHelp, 8, 1)
         Me.TlbTT.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TlbTT.Location = New System.Drawing.Point(0, 0)
-        Me.TlbTT.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TlbTT.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TlbTT.Name = "TlbTT"
         Me.TlbTT.RowCount = 4
-        Me.TlbTT.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 12.0!))
-        Me.TlbTT.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 43.0!))
-        Me.TlbTT.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 12.0!))
+        Me.TlbTT.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8.0!))
+        Me.TlbTT.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29.0!))
+        Me.TlbTT.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8.0!))
         Me.TlbTT.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TlbTT.Size = New System.Drawing.Size(1902, 1050)
+        Me.TlbTT.Size = New System.Drawing.Size(1268, 718)
         Me.TlbTT.TabIndex = 99
         '
         'SplitContainerControl2
@@ -4262,14 +4252,14 @@ Partial Class frmThongtinthietbi
         Me.SplitContainerControl2.AutoSize = True
         Me.TlbTT.SetColumnSpan(Me.SplitContainerControl2, 10)
         Me.SplitContainerControl2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SplitContainerControl2.Location = New System.Drawing.Point(4, 69)
-        Me.SplitContainerControl2.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.SplitContainerControl2.Location = New System.Drawing.Point(3, 46)
+        Me.SplitContainerControl2.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.SplitContainerControl2.Name = "SplitContainerControl2"
         Me.SplitContainerControl2.Panel1.Controls.Add(Me.TableLayoutPanel1)
         Me.SplitContainerControl2.Panel1.Text = "Panel1"
         Me.SplitContainerControl2.Panel2.Controls.Add(Me.Tabthietbi)
         Me.SplitContainerControl2.Panel2.Text = "Panel2"
-        Me.SplitContainerControl2.Size = New System.Drawing.Size(1894, 979)
+        Me.SplitContainerControl2.Size = New System.Drawing.Size(1262, 671)
         Me.SplitContainerControl2.SplitterPosition = 326
         Me.SplitContainerControl2.TabIndex = 106
         Me.SplitContainerControl2.Text = "SplitContainerControl2"
@@ -4279,20 +4269,20 @@ Partial Class frmThongtinthietbi
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.TableLayoutPanel1, DevExpress.Utils.DefaultBoolean.[Default])
         Me.TableLayoutPanel1.ColumnCount = 2
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 180.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 120.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.GrpDanhsachTB, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.optHienTrang, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.txtTimMay, 0, 2)
         Me.TableLayoutPanel1.Controls.Add(Me.lblTongSo, 1, 2)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 3
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 49.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(326, 979)
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(326, 671)
         Me.TableLayoutPanel1.TabIndex = 90
         '
         'GrpDanhsachTB
@@ -4302,11 +4292,11 @@ Partial Class frmThongtinthietbi
         Me.GrpDanhsachTB.Controls.Add(Me.grdMay)
         Me.GrpDanhsachTB.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GrpDanhsachTB.ForeColor = System.Drawing.Color.Maroon
-        Me.GrpDanhsachTB.Location = New System.Drawing.Point(4, 51)
-        Me.GrpDanhsachTB.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.GrpDanhsachTB.Location = New System.Drawing.Point(3, 35)
+        Me.GrpDanhsachTB.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.GrpDanhsachTB.Name = "GrpDanhsachTB"
-        Me.GrpDanhsachTB.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GrpDanhsachTB.Size = New System.Drawing.Size(318, 888)
+        Me.GrpDanhsachTB.Padding = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.GrpDanhsachTB.Size = New System.Drawing.Size(320, 609)
         Me.GrpDanhsachTB.TabIndex = 99
         Me.GrpDanhsachTB.TabStop = False
         Me.GrpDanhsachTB.Text = "Danh sách TB"
@@ -4314,12 +4304,12 @@ Partial Class frmThongtinthietbi
         'grdMay
         '
         Me.grdMay.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdMay.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.grdMay.Location = New System.Drawing.Point(4, 22)
+        Me.grdMay.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.grdMay.Location = New System.Drawing.Point(3, 15)
         Me.grdMay.MainView = Me.grvMay
-        Me.grdMay.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.grdMay.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.grdMay.Name = "grdMay"
-        Me.grdMay.Size = New System.Drawing.Size(310, 864)
+        Me.grdMay.Size = New System.Drawing.Size(314, 593)
         Me.grdMay.TabIndex = 2
         Me.grdMay.Tag = ""
         Me.grdMay.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvMay, Me.GridView2})
@@ -4342,23 +4332,23 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel1.SetColumnSpan(Me.optHienTrang, 2)
         Me.optHienTrang.Dock = System.Windows.Forms.DockStyle.Fill
         Me.optHienTrang.EditValue = "optDSD"
-        Me.optHienTrang.Location = New System.Drawing.Point(4, 2)
-        Me.optHienTrang.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.optHienTrang.Location = New System.Drawing.Point(3, 1)
+        Me.optHienTrang.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.optHienTrang.Name = "optHienTrang"
         Me.optHienTrang.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(227, Byte), Integer), CType(CType(239, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.optHienTrang.Properties.Appearance.Options.UseBackColor = True
         Me.optHienTrang.Properties.ExportMode = DevExpress.XtraEditors.Repository.ExportMode.DisplayText
         Me.optHienTrang.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem("optDSD", "optDSD"), New DevExpress.XtraEditors.Controls.RadioGroupItem("optKSD", "optKSD"), New DevExpress.XtraEditors.Controls.RadioGroupItem("optCoVanDe", "optCoVanDe")})
-        Me.optHienTrang.Size = New System.Drawing.Size(318, 45)
+        Me.optHienTrang.Size = New System.Drawing.Size(320, 32)
         Me.optHienTrang.TabIndex = 23
         '
         'txtTimMay
         '
         Me.txtTimMay.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtTimMay.Location = New System.Drawing.Point(4, 943)
-        Me.txtTimMay.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.txtTimMay.Location = New System.Drawing.Point(3, 646)
+        Me.txtTimMay.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.txtTimMay.Name = "txtTimMay"
-        Me.txtTimMay.Size = New System.Drawing.Size(138, 26)
+        Me.txtTimMay.Size = New System.Drawing.Size(200, 20)
         Me.txtTimMay.TabIndex = 3
         '
         'lblTongSo
@@ -4366,10 +4356,9 @@ Partial Class frmThongtinthietbi
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.lblTongSo, DevExpress.Utils.DefaultBoolean.[Default])
         Me.lblTongSo.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblTongSo.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.lblTongSo.Location = New System.Drawing.Point(150, 941)
-        Me.lblTongSo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblTongSo.Location = New System.Drawing.Point(209, 645)
         Me.lblTongSo.Name = "lblTongSo"
-        Me.lblTongSo.Size = New System.Drawing.Size(172, 38)
+        Me.lblTongSo.Size = New System.Drawing.Size(114, 26)
         Me.lblTongSo.TabIndex = 100
         Me.lblTongSo.Text = "sdafasdfaiushf"
         Me.lblTongSo.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -4379,13 +4368,13 @@ Partial Class frmThongtinthietbi
         Me.DefaultToolTipController1.SetAllowHtmlText(Me.TableLayoutPanel31, DevExpress.Utils.DefaultBoolean.[Default])
         Me.TableLayoutPanel31.ColumnCount = 8
         Me.TlbTT.SetColumnSpan(Me.TableLayoutPanel31, 6)
-        Me.TableLayoutPanel31.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 139.0!))
+        Me.TableLayoutPanel31.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 93.0!))
         Me.TableLayoutPanel31.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel31.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 139.0!))
+        Me.TableLayoutPanel31.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 93.0!))
         Me.TableLayoutPanel31.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel31.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 139.0!))
+        Me.TableLayoutPanel31.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 93.0!))
         Me.TableLayoutPanel31.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel31.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 139.0!))
+        Me.TableLayoutPanel31.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 93.0!))
         Me.TableLayoutPanel31.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel31.Controls.Add(Me.CboNhomthietbi, 7, 0)
         Me.TableLayoutPanel31.Controls.Add(Me.LblNhomthietbi3, 6, 0)
@@ -4396,12 +4385,12 @@ Partial Class frmThongtinthietbi
         Me.TableLayoutPanel31.Controls.Add(Me.LblHT, 2, 0)
         Me.TableLayoutPanel31.Controls.Add(Me.cboLine, 3, 0)
         Me.TableLayoutPanel31.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel31.Location = New System.Drawing.Point(34, 14)
-        Me.TableLayoutPanel31.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.TableLayoutPanel31.Location = New System.Drawing.Point(23, 9)
+        Me.TableLayoutPanel31.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.TableLayoutPanel31.Name = "TableLayoutPanel31"
         Me.TableLayoutPanel31.RowCount = 1
         Me.TableLayoutPanel31.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel31.Size = New System.Drawing.Size(1486, 39)
+        Me.TableLayoutPanel31.Size = New System.Drawing.Size(985, 27)
         Me.TableLayoutPanel31.TabIndex = 104
         '
         'ContextMenuStrip1
@@ -4421,14 +4410,14 @@ Partial Class frmThongtinthietbi
         'frmThongtinthietbi
         '
         Me.DefaultToolTipController1.SetAllowHtmlText(Me, DevExpress.Utils.DefaultBoolean.[Default])
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1902, 1050)
+        Me.ClientSize = New System.Drawing.Size(1268, 718)
         Me.Controls.Add(Me.TlbTT)
         Me.DoubleBuffered = True
         Me.LookAndFeel.SkinName = "Blue"
         Me.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Name = "frmThongtinthietbi"
         Me.Text = " "
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

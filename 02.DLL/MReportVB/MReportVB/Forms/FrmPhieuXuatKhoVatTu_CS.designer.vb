@@ -415,8 +415,8 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.Panel4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel4.Controls.Add(Me.btnSUA)
-        Me.Panel4.Controls.Add(Me.txtSLe)
         Me.Panel4.Controls.Add(Me.BtnTHEM)
+        Me.Panel4.Controls.Add(Me.txtSLe)
         Me.Panel4.Controls.Add(Me.btnXOA)
         Me.Panel4.Controls.Add(Me.btnTHOAT_CT)
         Me.Panel4.Controls.Add(Me.btnKHONG_GHI)
@@ -940,7 +940,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100.0!))
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.0806!))
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.0806!))
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 46.0!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 54.0!))
         Me.TableLayoutPanel2.Controls.Add(Me.dtpNGAY_CHUNG_TU, 2, 2)
         Me.TableLayoutPanel2.Controls.Add(Me.Label1, 3, 2)
         Me.TableLayoutPanel2.Controls.Add(Me.NONNbtnTimPBT, 5, 3)
@@ -1029,7 +1029,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         'NONNbtnTimPBT
         '
         Me.NONNbtnTimPBT.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.NONNbtnTimPBT.Location = New System.Drawing.Point(434, 85)
+        Me.NONNbtnTimPBT.Location = New System.Drawing.Point(432, 85)
         Me.NONNbtnTimPBT.Name = "NONNbtnTimPBT"
         Me.NONNbtnTimPBT.Size = New System.Drawing.Size(37, 20)
         Me.NONNbtnTimPBT.TabIndex = 18
@@ -1040,10 +1040,10 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.txtGIO_NHAP.BackColor = System.Drawing.Color.White
         Me.txtGIO_NHAP.BorderColor = System.Drawing.Color.FromArgb(CType(CType(171, Byte), Integer), CType(CType(193, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.txtGIO_NHAP.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtGIO_NHAP.Location = New System.Drawing.Point(920, 3)
+        Me.txtGIO_NHAP.Location = New System.Drawing.Point(916, 3)
         Me.txtGIO_NHAP.Mask = "90:00"
         Me.txtGIO_NHAP.Name = "txtGIO_NHAP"
-        Me.txtGIO_NHAP.Size = New System.Drawing.Size(148, 21)
+        Me.txtGIO_NHAP.Size = New System.Drawing.Size(147, 21)
         Me.txtGIO_NHAP.TabIndex = 3
         Me.txtGIO_NHAP.ValidatingType = GetType(Date)
         '
@@ -1066,7 +1066,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.lblNOI_NHAN.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblNOI_NHAN.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblNOI_NHAN.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lblNOI_NHAN.Location = New System.Drawing.Point(820, 27)
+        Me.lblNOI_NHAN.Location = New System.Drawing.Point(816, 27)
         Me.lblNOI_NHAN.Name = "lblNOI_NHAN"
         Me.lblNOI_NHAN.Size = New System.Drawing.Size(94, 27)
         Me.lblNOI_NHAN.TabIndex = 16
@@ -1079,7 +1079,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.lblTHOI_GIAN_XUAT.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblTHOI_GIAN_XUAT.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTHOI_GIAN_XUAT.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lblTHOI_GIAN_XUAT.Location = New System.Drawing.Point(820, 0)
+        Me.lblTHOI_GIAN_XUAT.Location = New System.Drawing.Point(816, 0)
         Me.lblTHOI_GIAN_XUAT.Name = "lblTHOI_GIAN_XUAT"
         Me.lblTHOI_GIAN_XUAT.Size = New System.Drawing.Size(94, 27)
         Me.lblTHOI_GIAN_XUAT.TabIndex = 9
@@ -1091,9 +1091,9 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.TableLayoutPanel2.SetColumnSpan(Me.dtpNGAY_NHAP, 2)
         Me.dtpNGAY_NHAP.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dtpNGAY_NHAP.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtpNGAY_NHAP.Location = New System.Drawing.Point(1074, 3)
+        Me.dtpNGAY_NHAP.Location = New System.Drawing.Point(1069, 3)
         Me.dtpNGAY_NHAP.Name = "dtpNGAY_NHAP"
-        Me.dtpNGAY_NHAP.Size = New System.Drawing.Size(197, 21)
+        Me.dtpNGAY_NHAP.Size = New System.Drawing.Size(202, 21)
         Me.dtpNGAY_NHAP.TabIndex = 4
         Me.dtpNGAY_NHAP.Value = New Date(2006, 11, 8, 0, 0, 0, 0)
         '
@@ -1111,13 +1111,13 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         'txtSO_CHUNG_TU
         '
         Me.txtSO_CHUNG_TU.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtSO_CHUNG_TU.Location = New System.Drawing.Point(563, 57)
+        Me.txtSO_CHUNG_TU.Location = New System.Drawing.Point(561, 57)
         Me.txtSO_CHUNG_TU.Name = "txtSO_CHUNG_TU"
         Me.txtSO_CHUNG_TU.Properties.Appearance.BackColor = System.Drawing.Color.White
         Me.txtSO_CHUNG_TU.Properties.Appearance.Options.UseBackColor = True
         Me.txtSO_CHUNG_TU.Properties.Appearance.Options.UseTextOptions = True
         Me.txtSO_CHUNG_TU.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near
-        Me.txtSO_CHUNG_TU.Size = New System.Drawing.Size(251, 20)
+        Me.txtSO_CHUNG_TU.Size = New System.Drawing.Size(249, 20)
         Me.txtSO_CHUNG_TU.TabIndex = 10
         '
         'lblKho
@@ -1188,7 +1188,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.cboKHO.Name = "cboKHO"
         Me.cboKHO.Param = ""
         Me.cboKHO.Param2 = ""
-        Me.cboKHO.Size = New System.Drawing.Size(368, 21)
+        Me.cboKHO.Size = New System.Drawing.Size(366, 21)
         Me.cboKHO.StoreName = "QL_LISTKHO"
         Me.cboKHO.TabIndex = 5
         Me.cboKHO.Table = Nothing
@@ -1201,7 +1201,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.lblSoCTu.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblSoCTu.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSoCTu.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lblSoCTu.Location = New System.Drawing.Point(477, 54)
+        Me.lblSoCTu.Location = New System.Drawing.Point(475, 54)
         Me.lblSoCTu.Name = "lblSoCTu"
         Me.lblSoCTu.Size = New System.Drawing.Size(80, 28)
         Me.lblSoCTu.TabIndex = 12
@@ -1226,7 +1226,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.lbaCostCenter.AutoSize = True
         Me.lbaCostCenter.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lbaCostCenter.ForeColor = System.Drawing.Color.Black
-        Me.lbaCostCenter.Location = New System.Drawing.Point(477, 82)
+        Me.lbaCostCenter.Location = New System.Drawing.Point(475, 82)
         Me.lbaCostCenter.Name = "lbaCostCenter"
         Me.lbaCostCenter.Size = New System.Drawing.Size(80, 26)
         Me.lbaCostCenter.TabIndex = 23
@@ -1250,12 +1250,12 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.cbxCostCenter.IsNull = True
         Me.cbxCostCenter.ItemAll = " < ALL > "
         Me.cbxCostCenter.ItemNew = "...New"
-        Me.cbxCostCenter.Location = New System.Drawing.Point(563, 85)
+        Me.cbxCostCenter.Location = New System.Drawing.Point(561, 85)
         Me.cbxCostCenter.MethodName = ""
         Me.cbxCostCenter.Name = "cbxCostCenter"
         Me.cbxCostCenter.Param = ""
         Me.cbxCostCenter.Param2 = ""
-        Me.cbxCostCenter.Size = New System.Drawing.Size(251, 21)
+        Me.cbxCostCenter.Size = New System.Drawing.Size(249, 21)
         Me.cbxCostCenter.StoreName = ""
         Me.cbxCostCenter.TabIndex = 13
         Me.cbxCostCenter.Table = Nothing
@@ -1268,7 +1268,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.lblLydoxuat.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblLydoxuat.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblLydoxuat.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lblLydoxuat.Location = New System.Drawing.Point(820, 82)
+        Me.lblLydoxuat.Location = New System.Drawing.Point(816, 82)
         Me.lblLydoxuat.Name = "lblLydoxuat"
         Me.lblLydoxuat.Size = New System.Drawing.Size(94, 26)
         Me.lblLydoxuat.TabIndex = 20
@@ -1279,11 +1279,11 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         '
         Me.TableLayoutPanel2.SetColumnSpan(Me.txtLydoxuat, 3)
         Me.txtLydoxuat.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtLydoxuat.Location = New System.Drawing.Point(920, 85)
+        Me.txtLydoxuat.Location = New System.Drawing.Point(916, 85)
         Me.txtLydoxuat.Name = "txtLydoxuat"
         Me.txtLydoxuat.Properties.Appearance.BackColor = System.Drawing.Color.White
         Me.txtLydoxuat.Properties.Appearance.Options.UseBackColor = True
-        Me.txtLydoxuat.Size = New System.Drawing.Size(351, 20)
+        Me.txtLydoxuat.Size = New System.Drawing.Size(355, 20)
         Me.txtLydoxuat.TabIndex = 14
         '
         'cboPhieuBaoTri
@@ -1312,7 +1312,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.cboPhieuBaoTri.Name = "cboPhieuBaoTri"
         Me.cboPhieuBaoTri.Param = ""
         Me.cboPhieuBaoTri.Param2 = ""
-        Me.cboPhieuBaoTri.Size = New System.Drawing.Size(325, 21)
+        Me.cboPhieuBaoTri.Size = New System.Drawing.Size(323, 21)
         Me.cboPhieuBaoTri.StoreName = "QL_LIST_PHIEU_BAO_TRI"
         Me.cboPhieuBaoTri.TabIndex = 12
         Me.cboPhieuBaoTri.Table = Nothing
@@ -1340,20 +1340,20 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.txtGHI_CHU.Name = "txtGHI_CHU"
         Me.txtGHI_CHU.Properties.Appearance.BackColor = System.Drawing.Color.White
         Me.txtGHI_CHU.Properties.Appearance.Options.UseBackColor = True
-        Me.txtGHI_CHU.Size = New System.Drawing.Size(711, 20)
+        Me.txtGHI_CHU.Size = New System.Drawing.Size(707, 20)
         Me.txtGHI_CHU.TabIndex = 17
         '
         'txtTKho
         '
         Me.TableLayoutPanel2.SetColumnSpan(Me.txtTKho, 3)
         Me.txtTKho.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtTKho.Location = New System.Drawing.Point(920, 111)
+        Me.txtTKho.Location = New System.Drawing.Point(916, 111)
         Me.txtTKho.Name = "txtTKho"
         Me.txtTKho.Properties.Appearance.BackColor = System.Drawing.SystemColors.Window
         Me.txtTKho.Properties.Appearance.Options.UseBackColor = True
         Me.txtTKho.Properties.Appearance.Options.UseTextOptions = True
         Me.txtTKho.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near
-        Me.txtTKho.Size = New System.Drawing.Size(351, 20)
+        Me.txtTKho.Size = New System.Drawing.Size(355, 20)
         Me.txtTKho.TabIndex = 16
         '
         'lblThuKho
@@ -1362,7 +1362,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.lblThuKho.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblThuKho.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblThuKho.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lblThuKho.Location = New System.Drawing.Point(820, 108)
+        Me.lblThuKho.Location = New System.Drawing.Point(816, 108)
         Me.lblThuKho.Name = "lblThuKho"
         Me.lblThuKho.Size = New System.Drawing.Size(94, 27)
         Me.lblThuKho.TabIndex = 27
@@ -1372,13 +1372,13 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         'txtNLap
         '
         Me.txtNLap.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtNLap.Location = New System.Drawing.Point(563, 111)
+        Me.txtNLap.Location = New System.Drawing.Point(561, 111)
         Me.txtNLap.Name = "txtNLap"
         Me.txtNLap.Properties.Appearance.BackColor = System.Drawing.Color.White
         Me.txtNLap.Properties.Appearance.Options.UseBackColor = True
         Me.txtNLap.Properties.Appearance.Options.UseTextOptions = True
         Me.txtNLap.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near
-        Me.txtNLap.Size = New System.Drawing.Size(251, 20)
+        Me.txtNLap.Size = New System.Drawing.Size(249, 20)
         Me.txtNLap.TabIndex = 15
         '
         'lblNguoiLap
@@ -1387,7 +1387,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.lblNguoiLap.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblNguoiLap.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblNguoiLap.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lblNguoiLap.Location = New System.Drawing.Point(477, 108)
+        Me.lblNguoiLap.Location = New System.Drawing.Point(475, 108)
         Me.lblNguoiLap.Name = "lblNguoiLap"
         Me.lblNguoiLap.Size = New System.Drawing.Size(80, 27)
         Me.lblNguoiLap.TabIndex = 26
@@ -1433,7 +1433,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.cboMay.Name = "cboMay"
         Me.cboMay.Param = ""
         Me.cboMay.Param2 = ""
-        Me.cboMay.Size = New System.Drawing.Size(325, 21)
+        Me.cboMay.Size = New System.Drawing.Size(323, 21)
         Me.cboMay.StoreName = "GetMAY_PQ"
         Me.cboMay.TabIndex = 12
         Me.cboMay.Table = Nothing
@@ -1443,7 +1443,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         'NONNbtnTimMay
         '
         Me.NONNbtnTimMay.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.NONNbtnTimMay.Location = New System.Drawing.Point(434, 111)
+        Me.NONNbtnTimMay.Location = New System.Drawing.Point(432, 111)
         Me.NONNbtnTimMay.Name = "NONNbtnTimMay"
         Me.NONNbtnTimMay.Size = New System.Drawing.Size(37, 21)
         Me.NONNbtnTimMay.TabIndex = 18
@@ -1455,7 +1455,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.lblLDXuatKT.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblLDXuatKT.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblLDXuatKT.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lblLDXuatKT.Location = New System.Drawing.Point(820, 135)
+        Me.lblLDXuatKT.Location = New System.Drawing.Point(816, 135)
         Me.lblLDXuatKT.Name = "lblLDXuatKT"
         Me.lblLDXuatKT.Size = New System.Drawing.Size(94, 27)
         Me.lblLDXuatKT.TabIndex = 16
@@ -1482,12 +1482,12 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.cboLDXKT.IsNull = True
         Me.cboLDXKT.ItemAll = " < ALL > "
         Me.cboLDXKT.ItemNew = "...New"
-        Me.cboLDXKT.Location = New System.Drawing.Point(920, 138)
+        Me.cboLDXKT.Location = New System.Drawing.Point(916, 138)
         Me.cboLDXKT.MethodName = ""
         Me.cboLDXKT.Name = "cboLDXKT"
         Me.cboLDXKT.Param = ""
         Me.cboLDXKT.Param2 = ""
-        Me.cboLDXKT.Size = New System.Drawing.Size(351, 21)
+        Me.cboLDXKT.Size = New System.Drawing.Size(355, 21)
         Me.cboLDXKT.StoreName = "QL_DANG_XUAT"
         Me.cboLDXKT.TabIndex = 6
         Me.cboLDXKT.Table = Nothing
@@ -1518,7 +1518,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.txtSO_PHIEU_XUAT.Properties.Appearance.Options.UseTextOptions = True
         Me.txtSO_PHIEU_XUAT.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near
         Me.txtSO_PHIEU_XUAT.Properties.LookAndFeel.SkinName = "Blue"
-        Me.txtSO_PHIEU_XUAT.Size = New System.Drawing.Size(170, 20)
+        Me.txtSO_PHIEU_XUAT.Size = New System.Drawing.Size(168, 20)
         Me.txtSO_PHIEU_XUAT.TabIndex = 2
         '
         'lblDANG_XUAT
@@ -1527,7 +1527,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.lblDANG_XUAT.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblDANG_XUAT.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDANG_XUAT.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lblDANG_XUAT.Location = New System.Drawing.Point(477, 0)
+        Me.lblDANG_XUAT.Location = New System.Drawing.Point(475, 0)
         Me.lblDANG_XUAT.Name = "lblDANG_XUAT"
         Me.lblDANG_XUAT.Size = New System.Drawing.Size(80, 27)
         Me.lblDANG_XUAT.TabIndex = 14
@@ -1553,12 +1553,12 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.cboDANG_XUAT.IsNull = True
         Me.cboDANG_XUAT.ItemAll = " < ALL > "
         Me.cboDANG_XUAT.ItemNew = "...New"
-        Me.cboDANG_XUAT.Location = New System.Drawing.Point(563, 3)
+        Me.cboDANG_XUAT.Location = New System.Drawing.Point(561, 3)
         Me.cboDANG_XUAT.MethodName = ""
         Me.cboDANG_XUAT.Name = "cboDANG_XUAT"
         Me.cboDANG_XUAT.Param = ""
         Me.cboDANG_XUAT.Param2 = ""
-        Me.cboDANG_XUAT.Size = New System.Drawing.Size(251, 21)
+        Me.cboDANG_XUAT.Size = New System.Drawing.Size(249, 21)
         Me.cboDANG_XUAT.StoreName = "QL_DANG_XUAT"
         Me.cboDANG_XUAT.TabIndex = 6
         Me.cboDANG_XUAT.Table = Nothing
@@ -1571,7 +1571,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.lblCanCu.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblCanCu.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCanCu.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lblCanCu.Location = New System.Drawing.Point(477, 27)
+        Me.lblCanCu.Location = New System.Drawing.Point(475, 27)
         Me.lblCanCu.Name = "lblCanCu"
         Me.lblCanCu.Size = New System.Drawing.Size(80, 27)
         Me.lblCanCu.TabIndex = 25
@@ -1581,13 +1581,13 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         'txtCCu
         '
         Me.txtCCu.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtCCu.Location = New System.Drawing.Point(563, 30)
+        Me.txtCCu.Location = New System.Drawing.Point(561, 30)
         Me.txtCCu.Name = "txtCCu"
         Me.txtCCu.Properties.Appearance.BackColor = System.Drawing.Color.White
         Me.txtCCu.Properties.Appearance.Options.UseBackColor = True
         Me.txtCCu.Properties.Appearance.Options.UseTextOptions = True
         Me.txtCCu.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near
-        Me.txtCCu.Size = New System.Drawing.Size(251, 20)
+        Me.txtCCu.Size = New System.Drawing.Size(249, 20)
         Me.txtCCu.TabIndex = 11
         '
         'lblDVNhan
@@ -1596,7 +1596,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.lblDVNhan.Dock = System.Windows.Forms.DockStyle.Fill
         Me.lblDVNhan.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDVNhan.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lblDVNhan.Location = New System.Drawing.Point(820, 54)
+        Me.lblDVNhan.Location = New System.Drawing.Point(816, 54)
         Me.lblDVNhan.Name = "lblDVNhan"
         Me.lblDVNhan.Size = New System.Drawing.Size(94, 28)
         Me.lblDVNhan.TabIndex = 16
@@ -1607,28 +1607,28 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         '
         Me.TableLayoutPanel2.SetColumnSpan(Me.cboDVNhan, 3)
         Me.cboDVNhan.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.cboDVNhan.Location = New System.Drawing.Point(920, 57)
+        Me.cboDVNhan.Location = New System.Drawing.Point(916, 57)
         Me.cboDVNhan.Name = "cboDVNhan"
         Me.cboDVNhan.Properties.Appearance.BackColor = System.Drawing.Color.White
         Me.cboDVNhan.Properties.Appearance.Options.UseBackColor = True
         Me.cboDVNhan.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo), New DevExpress.XtraEditors.Controls.EditorButton()})
         Me.cboDVNhan.Properties.NullText = ""
         Me.cboDVNhan.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cboDVNhan.Size = New System.Drawing.Size(351, 20)
+        Me.cboDVNhan.Size = New System.Drawing.Size(355, 20)
         Me.cboDVNhan.TabIndex = 7
         '
         'cboNguoiNhan
         '
         Me.TableLayoutPanel2.SetColumnSpan(Me.cboNguoiNhan, 3)
         Me.cboNguoiNhan.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.cboNguoiNhan.Location = New System.Drawing.Point(920, 30)
+        Me.cboNguoiNhan.Location = New System.Drawing.Point(916, 30)
         Me.cboNguoiNhan.Name = "cboNguoiNhan"
         Me.cboNguoiNhan.Properties.Appearance.BackColor = System.Drawing.Color.White
         Me.cboNguoiNhan.Properties.Appearance.Options.UseBackColor = True
         Me.cboNguoiNhan.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo), New DevExpress.XtraEditors.Controls.EditorButton()})
         Me.cboNguoiNhan.Properties.NullText = ""
         Me.cboNguoiNhan.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cboNguoiNhan.Size = New System.Drawing.Size(351, 20)
+        Me.cboNguoiNhan.Size = New System.Drawing.Size(355, 20)
         Me.cboNguoiNhan.TabIndex = 7
         '
         'cboKHO_CHINH
@@ -1649,7 +1649,7 @@ Partial Class FrmPhieuXuatKhoVatTu_CS
         Me.cboKHO_CHINH.ParentFieldName = Nothing
         Me.cboKHO_CHINH.ReadOnly = False
         Me.cboKHO_CHINH.SelectedIndex = 0
-        Me.cboKHO_CHINH.Size = New System.Drawing.Size(170, 20)
+        Me.cboKHO_CHINH.Size = New System.Drawing.Size(168, 20)
         Me.cboKHO_CHINH.TabIndex = 110
         Me.cboKHO_CHINH.TextValue = Nothing
         '

@@ -98,10 +98,6 @@
       <HintPath>bin\Debug\DLL\CMMSClientLib.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Commons, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Commons.dll</HintPath>
-    </Reference>
     <Reference Include="ControlInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\ControlInfo.dll</HintPath>
@@ -406,6 +402,12 @@
       <DependentUpon>frmChonCopyLoaiBaoTriCon.vb</DependentUpon>
     </Compile>
     <Compile Include="Forms\Choices\frmChonCopyLoaiBaoTriCon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Choices\FrmChonVatTuXuat.designer.vb">
+      <DependentUpon>FrmChonVatTuXuat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Choices\FrmChonVatTuXuat.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Choices\frmNhapTaiChe.designer.vb">
@@ -1173,6 +1175,9 @@
     <EmbeddedResource Include="Forms\Choices\frmChonCopyLoaiBaoTriCon.resx">
       <DependentUpon>frmChonCopyLoaiBaoTriCon.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Choices\FrmChonVatTuXuat.resx">
+      <DependentUpon>FrmChonVatTuXuat.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Choices\frmNhapTaiChe.resx">
       <DependentUpon>frmNhapTaiChe.vb</DependentUpon>
     </EmbeddedResource>
@@ -1702,6 +1707,12 @@
     <None Include="app.config" />
     <None Include="My Project\app.manifest" />
     <None Include="Resources\newGroupPostIconStrip.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\02.DLL\Commons\Commons\Commons.vbproj">
+      <Project>{1aebd723-74c5-4cb4-bf99-456e840683ea}</Project>
+      <Name>Commons</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

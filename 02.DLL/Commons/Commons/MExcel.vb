@@ -314,9 +314,7 @@ Public Class MExcel
                         " CASE WHEN " & Commons.Modules.TypeLanguage & "=0 THEN DIA_CHI_VIET  ELSE DIA_CHI_ANH  END AS DIA_CHI,Phone," &
                         " Fax,EMAIL FROM THONG_TIN_CHUNG "
             End If
-            dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.ConnectionString,
-                        System.Data.CommandType.Text, sSql))
-
+            dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.ConnectionString, System.Data.CommandType.Text, sSql))
             If dtTmp.Rows.Count = 0 And Commons.Modules.sPrivate.ToUpper() = "GREENFEED" Then
                 sSql = " SELECT CASE WHEN " & Commons.Modules.TypeLanguage & "=0 " &
                         " THEN TEN_CTY_TIENG_VIET ELSE TEN_CTY_TIENG_ANH END AS TEN_CTY,LOGO, " &

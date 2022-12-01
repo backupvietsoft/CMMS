@@ -364,7 +364,7 @@ Public Class frmThongsoGSTT
                 LockData(True)
                 flagGhi = False
                 Commons.Modules.SQLString = "0Load"
-                'optThongSo.SelectedIndex = If(chkDinhtinh.Checked = True, 0, 1)
+                optThongSo.SelectedIndex = If(chkDinhtinh.Checked = True, 1, 2)
                 Commons.Modules.SQLString = ""
                 optThongSo_SelectedIndexChanged(Nothing, Nothing)
                 For i As Integer = 0 To grvThongSo.RowCount - 1

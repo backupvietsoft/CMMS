@@ -15,11 +15,11 @@ namespace Update
         /// The main entry point for the application.
         /// </summary>
         /// 
-        public static string URL_UPDATE = "https://www.dropbox.com/s/heiatccd90wfsxl/Update.zip?dl=0";
-        public static string URL_VERSION = "https://www.dropbox.com/s/07r4m2vs4u51r14/VerCMMS.txt?dl=0";
-        public static int UpdateType = 1;
+        public static string URL_UPDATE = "https://www.dropbox.com/s/dczzc802ht7c8nz/Update.zip?dl=0";
+        public static string URL_VERSION = "https://www.dropbox.com/s/d43u0654cr26tdx/Version.txt?dl=0";
+        public static int UpdateType = 2;
         public static string URL_LAN = @"\\192.168.2.5\Public\TruongCongHuong\Update";//@"\\192.168.2.22\Update";
-        public static string sProcess = @"CMMS";
+        public static string sProcess = @"VS_HRM";
 
         [STAThread]
         static void Main(string[] args)
@@ -82,7 +82,7 @@ namespace Update
                 }
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {}
 
         }
@@ -91,7 +91,7 @@ namespace Update
             try
             {
                 using (var client = new WebClient())
-                using (var stream = client.OpenRead("https://www.dropbox.com/home"))
+                using (var stream = client.OpenRead("https://www.google.com/?hl=vi"))
                 {
                     return true;
                 }

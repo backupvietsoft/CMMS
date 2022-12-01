@@ -582,7 +582,7 @@ Public Class FrmChonVatTuXuat
                 Dim lstDHX_VTCT_Reulst As New List(Of CHI_TIET_VAT_TU_XUAT_Info)
                 Dim lstDHX_VTCT As List(Of CHI_TIET_VAT_TU_XUAT_Info) = CType(Me.hasDataCTXuatVT.Item(Me.lstDonHangXuatVT.Item(i).MS_PT), List(Of CHI_TIET_VAT_TU_XUAT_Info))
                 For j As Integer = 0 To lstDHX_VTCT.Count - 1
-                    If lstDHX_VTCT.Item(j).SL_XUAT IsNot Nothing And lstDHX_VTCT.Item(j).SL_XUAT <> "" Then
+                    If lstDHX_VTCT.Item(j).SL_XUAT <> 0 And lstDHX_VTCT.Item(j).SL_XUAT <> "" Then
                         SL_XUAT_CT += Double.Parse(lstDHX_VTCT.Item(j).SL_XUAT)
                         lstDHX_VTCT_Reulst.Add(lstDHX_VTCT.Item(j))
                     End If
@@ -614,7 +614,7 @@ Public Class FrmChonVatTuXuat
                     Dim lstDHX_VTCT_Reulst As New List(Of CHI_TIET_VAT_TU_XUAT_Info)
                     Dim lstDHX_VTCT As List(Of CHI_TIET_VAT_TU_XUAT_Info) = CType(Me.hasDataCTXuatVT.Item(Me.lstDonHangXuatVT.Item(i).MS_PT), List(Of CHI_TIET_VAT_TU_XUAT_Info))
                     For j As Integer = 0 To lstDHX_VTCT.Count - 1
-                        If lstDHX_VTCT.Item(j).SL_XUAT IsNot Nothing And lstDHX_VTCT.Item(j).SL_XUAT <> "" Then
+                        If lstDHX_VTCT.Item(j).SL_XUAT <> 0 And lstDHX_VTCT.Item(j).SL_XUAT <> "" Then
                             SL_XUAT_CT += Double.Parse(lstDHX_VTCT.Item(j).SL_XUAT)
                             lstDHX_VTCT_Reulst.Add(lstDHX_VTCT.Item(j))
                         End If

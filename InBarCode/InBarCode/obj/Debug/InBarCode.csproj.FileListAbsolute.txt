@@ -1,0 +1,434 @@
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\InBarCode.exe.config
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\InBarCode.exe
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\InBarCode.pdb
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.BonusSkins.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Data.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v19.1.UI.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGrid.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraLayout.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraReports.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraBars.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraRichEdit.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraCharts.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Xpo.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.DataAccess.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Charts.v19.1.Core.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGauges.v19.1.Core.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.PivotGrid.v19.1.Core.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.CodeParser.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Office.v19.1.Core.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Images.v19.1.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Data.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v19.1.UI.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGrid.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraLayout.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraReports.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraBars.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraRichEdit.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraCharts.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Xpo.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.DataAccess.v19.1.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGauges.v19.1.Core.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.PivotGrid.v19.1.Core.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Office.v19.1.Core.xml
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.Utils.v19.1.UI.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.Utils.v19.1.UI.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Utils.v19.1.UI.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Utils.v19.1.UI.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraReports.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraReports.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraReports.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraReports.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraCharts.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraCharts.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraCharts.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraCharts.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.Xpo.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.Xpo.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Xpo.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Xpo.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.DataAccess.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.DataAccess.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.DataAccess.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.DataAccess.v19.1.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraGauges.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraGauges.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraGauges.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraGauges.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.PivotGrid.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.PivotGrid.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.PivotGrid.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.PivotGrid.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
+D:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.FormMain.resources
+D:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.Properties.Resources.resources
+D:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.XtraReport1.resources
+D:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.csproj.GenerateResource.cache
+D:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.exe.licenses
+D:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.exe
+D:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.pdb
+D:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.csprojResolveAssemblyReference.cache
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\InBarCode.exe.config
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\InBarCode.exe
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\InBarCode.pdb
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.CodeParser.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Data.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraReports.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraBars.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.DataAccess.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Xpo.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Office.v20.1.Core.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Images.v20.1.dll
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Data.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraReports.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraBars.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.DataAccess.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Xpo.v20.1.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+H:\InBarCode\InBarCode\InBarCode\bin\Debug\DevExpress.Office.v20.1.Core.xml
+H:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.csprojAssemblyReference.cache
+H:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.FormMain.resources
+H:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.Properties.Resources.resources
+H:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.csproj.GenerateResource.cache
+H:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.exe.licenses
+H:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.csproj.CoreCompileInputs.cache
+H:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.csproj.CopyComplete
+H:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.exe
+H:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.pdb
+H:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.rptVTPT.resources
+H:\InBarCode\InBarCode\InBarCode\obj\Debug\InBarCode.rptThietBi.resources
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\InBarCode.exe.config
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\InBarCode.exe
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\InBarCode.pdb
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.CodeParser.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Data.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraReports.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraBars.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.DataAccess.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Xpo.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Office.v20.1.Core.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Images.v20.1.dll
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Data.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraReports.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraBars.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.DataAccess.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Xpo.v20.1.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\bin\Debug\DevExpress.Office.v20.1.Core.xml
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\obj\Debug\InBarCode.csprojAssemblyReference.cache
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\obj\Debug\InBarCode.FormMain.resources
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\obj\Debug\InBarCode.Properties.Resources.resources
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\obj\Debug\InBarCode.rptThietBi.resources
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\obj\Debug\InBarCode.rptVTPT.resources
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\obj\Debug\InBarCode.csproj.GenerateResource.cache
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\obj\Debug\InBarCode.exe.licenses
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\obj\Debug\InBarCode.csproj.CoreCompileInputs.cache
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\obj\Debug\InBarCode.csproj.CopyComplete
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\obj\Debug\InBarCode.exe
+G:\Làm Shisaido\Ecomaint\InBarCode\InBarCode\obj\Debug\InBarCode.pdb
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\InBarCode.exe.config
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\InBarCode.exe
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\InBarCode.pdb
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Data.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Images.v20.1.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Data.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\obj\Debug\InBarCode.csproj.AssemblyReference.cache
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\obj\Debug\InBarCode.FormMain.resources
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\obj\Debug\InBarCode.Properties.Resources.resources
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\obj\Debug\InBarCode.rptThietBi.resources
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\obj\Debug\InBarCode.rptVTPT.resources
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\obj\Debug\InBarCode.csproj.GenerateResource.cache
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\obj\Debug\InBarCode.exe.licenses
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\obj\Debug\InBarCode.csproj.CoreCompileInputs.cache
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\obj\Debug\InBarCode.csproj.CopyComplete
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\obj\Debug\InBarCode.exe
+D:\01.SourceCode\01.CMMS\InBarCode\InBarCode\obj\Debug\InBarCode.pdb

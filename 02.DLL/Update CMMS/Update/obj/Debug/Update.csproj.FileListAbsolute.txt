@@ -9,3 +9,14 @@ D:\A9\01.Code\02.DLL\Update CMMS\Update\obj\Debug\Update.csproj.CoreCompileInput
 D:\A9\01.Code\02.DLL\Update CMMS\Update\obj\Debug\Update.csproj.CopyComplete
 D:\A9\01.Code\02.DLL\Update CMMS\Update\obj\Debug\Update.exe
 D:\A9\01.Code\02.DLL\Update CMMS\Update\obj\Debug\Update.pdb
+D:\01.SourceCode\01.CMMS\02.DLL\Update CMMS\Update\bin\Debug\Update.exe
+D:\01.SourceCode\01.CMMS\02.DLL\Update CMMS\Update\bin\Debug\Update.pdb
+D:\01.SourceCode\01.CMMS\02.DLL\Update CMMS\Update\obj\Debug\Update.csproj.AssemblyReference.cache
+D:\01.SourceCode\01.CMMS\02.DLL\Update CMMS\Update\obj\Debug\Update.FRM_INTERNET.resources
+D:\01.SourceCode\01.CMMS\02.DLL\Update CMMS\Update\obj\Debug\Update.FRM_SHAREFOLDER.resources
+D:\01.SourceCode\01.CMMS\02.DLL\Update CMMS\Update\obj\Debug\Update.Properties.Resources.resources
+D:\01.SourceCode\01.CMMS\02.DLL\Update CMMS\Update\obj\Debug\Update.csproj.GenerateResource.cache
+D:\01.SourceCode\01.CMMS\02.DLL\Update CMMS\Update\obj\Debug\Update.csproj.CoreCompileInputs.cache
+D:\01.SourceCode\01.CMMS\02.DLL\Update CMMS\Update\obj\Debug\Update.csproj.CopyComplete
+D:\01.SourceCode\01.CMMS\02.DLL\Update CMMS\Update\obj\Debug\Update.exe
+D:\01.SourceCode\01.CMMS\02.DLL\Update CMMS\Update\obj\Debug\Update.pdb

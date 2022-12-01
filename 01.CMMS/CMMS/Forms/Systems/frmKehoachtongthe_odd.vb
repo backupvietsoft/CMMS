@@ -3925,21 +3925,31 @@ KetThuc:
     End Sub
 
     Private Sub BtnChonTatCa_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnChonTatCa.Click
-        Dim i As Integer
-        While i < gvBTDK.RowCount
-            gvBTDK.GetDataRow(i)("chkChon") = True
-            i = i + 1
-        End While
-        lblChon.Text = Chon & ": " & gvBTDK.RowCount.ToString()
+        Try
+            Dim i As Integer
+            While i < gvBTDK.RowCount
+                gvBTDK.GetDataRow(i)("chkChon") = True
+                i = i + 1
+            End While
+            lblChon.Text = Chon & ": " & gvBTDK.RowCount.ToString()
+        Catch ex As Exception
+
+        End Try
     End Sub
 
     Private Sub BtnBoChonTatCa_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnBoChonTatCa.Click
-        Dim i As Integer
+        Try
+
+            Dim i As Integer
         While i < gvBTDK.RowCount
             gvBTDK.GetDataRow(i)("chkChon") = False
             i = i + 1
         End While
-        lblChon.Text = Chon & ": 0"
+            lblChon.Text = Chon & ": 0"
+
+        Catch ex As Exception
+
+        End Try
 
     End Sub
     Private Sub gvKHTT_FocusedRowChanged(ByVal sender As System.Object, ByVal e As DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs) Handles gvKHTT.FocusedRowChanged

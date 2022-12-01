@@ -6,12 +6,11 @@ Public Class Program
         Commons.Modules.UserName = "trungnv"
         Commons.Modules.UserName = "admin"
         Commons.Modules.TypeLanguage = 0
-        Commons.IConnections.Server = ".\sql2016"
-        Commons.IConnections.Server = "."
+        Commons.IConnections.Server = "192.168.2.127\SQL2019"
         'Commons.IConnections.Server = "192.168.2.27\SQL2017"
         Commons.IConnections.Database = "CMMS_TN"
         'Commons.IConnections.Database = "CMMS_TN_NEW"
-        Commons.IConnections.Database = "CMMS_REMINGTON"
+        Commons.IConnections.Database = "CMMS_NUTIFOOD"
         'Commons.IConnections.Database = "CMMS_TN"
         Commons.IConnections.Password = "123"
         Commons.IConnections.Username = "sa"
@@ -24,8 +23,7 @@ Public Class Program
         Commons.Modules.iSoLeDG = 2
         Commons.Modules.iSoLeTT = 3
         Commons.Modules.ModuleName = "ECOMAINT"
-        Commons.Modules.sPrivate = "VINHHOAN"
-        Commons.Modules.sPrivate = "TRUNGNGUYEN"
+        Commons.Modules.sPrivate = "NUTIFOOD"
         Commons.Modules.sSoLeSL = Commons.Modules.ObjSystems.sDinhDangSoLe(Commons.Modules.iSoLeSL)
         Commons.Modules.sSoLeDG = Commons.Modules.ObjSystems.sDinhDangSoLe(Commons.Modules.iSoLeDG)
         Commons.Modules.sSoLeTT = Commons.Modules.ObjSystems.sDinhDangSoLe(Commons.Modules.iSoLeTT)
@@ -50,9 +48,6 @@ Public Class Program
         Application.EnableVisualStyles()
         Application.SetCompatibleTextRenderingDefault(False)
         Commons.Modules.ObjSystems.KhoMoi = False
-
-        Commons.IConnections.Server = ".\sql2016"
-
         Dim myThread As Thread
         Try
             myThread = New Thread(AddressOf MRunForm)
@@ -68,7 +63,7 @@ Public Class Program
         'Application.Run(New XtraForm1())
         'Application.Run(New frmPhieuBaoTriBHNT())
         'Application.Run(New frmTinhGiaLai())
-        'Application.Run(New FrmPhieuXuatKhoVatTu_CS())
+        Application.Run(New FrmPhieuXuatKhoVatTu_CS())
 
 
 

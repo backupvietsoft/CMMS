@@ -12,8 +12,6 @@ namespace Vietsoft.Reminder
         [STAThread]
         static void Main()
         {
-            
-
             Commons.Modules.ModuleName = "ECOMAIN";
             Commons.Modules.UserName = "admin";
             //Commons.IConnections.Server = ".";
@@ -21,12 +19,12 @@ namespace Vietsoft.Reminder
             //Commons.IConnections.Server = "10.39.244.220";
             //Commons.IConnections.Database = "CMMS_PILMICO";
             //Commons.IConnections.Database = "CMMS_SUMIRUBBER";
-            Commons.IConnections.Server = "192.168.2.8";
+            Commons.IConnections.Server = "27.74.240.29,1434";
             //Commons.IConnections.Server = ".\\sql2016";
             //Commons.IConnections.Server = ".";
             Commons.Modules.sPrivate = "VIFON";
             Commons.IConnections.Database = "CMMS_TN";
-            Commons.IConnections.Database = "CMMS_CEN";
+            Commons.IConnections.Database = "CMMS_NAKY";
             //Commons.IConnections.Database = "CMMS_VS";
             Commons.IConnections.Password = "123";
             Commons.IConnections.Password = "codaikadaiku";

@@ -2569,8 +2569,8 @@ Public Class frmMain
             Catch ex As Exception
             End Try
 
-            Dim frm As New VS.Support.frmSupport(Convert.ToInt16(Commons.Modules.TypeLanguage), Commons.Modules.UserName, Commons.Modules.sTenNhanVienMD, sTenCty, sMail, sDThoai, sDThoai, iCus, iConID, Commons.Modules.sMailFrom, Commons.Modules.sMailFromPass, Commons.Modules.sMailFromSmtp, iMailPort)
-            frm.ShowDialog()
+            'Dim frm As New VS.Support.frmSupport(Convert.ToInt16(Commons.Modules.TypeLanguage), Commons.Modules.UserName, Commons.Modules.sTenNhanVienMD, sTenCty, sMail, sDThoai, sDThoai, iCus, iConID, Commons.Modules.sMailFrom, Commons.Modules.sMailFromPass, Commons.Modules.sMailFromSmtp, iMailPort)
+            'frm.ShowDialog()
             Return True
         Catch ex As Exception
             MessageBox.Show(ex.Message)
@@ -2604,8 +2604,8 @@ Public Class frmMain
             End Try
 
 
-            Dim frm As New VS.Support.frmVSReply(Convert.ToInt16(Commons.Modules.TypeLanguage), Commons.Modules.UserName, Commons.Modules.sTenNhanVienMD, sTenCty, sMail, sDThoai, sDThoai, iCus, Commons.Modules.sMailFrom, Commons.Modules.sMailFromPass, Commons.Modules.sMailFromSmtp, iMailPort)
-            frm.ShowDialog()
+            'Dim frm As New VS.Support.frmVSReply(Convert.ToInt16(Commons.Modules.TypeLanguage), Commons.Modules.UserName, Commons.Modules.sTenNhanVienMD, sTenCty, sMail, sDThoai, sDThoai, iCus, Commons.Modules.sMailFrom, Commons.Modules.sMailFromPass, Commons.Modules.sMailFromSmtp, iMailPort)
+            'frm.ShowDialog()
             Return True
         Catch ex As Exception
             MessageBox.Show(ex.Message)
@@ -2626,8 +2626,8 @@ Public Class frmMain
                 iCus = dt.Rows(0)("CustomerID").ToString()
             Catch
             End Try
-            Dim frm As New VS.Support.frmELearning(iCus)
-            frm.ShowDialog()
+            'Dim frm As New VS.Support.frmELearning(iCus)
+            'frm.ShowDialog()
             Return True
         Catch ex As Exception
             Return False

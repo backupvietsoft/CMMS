@@ -1,0 +1,9 @@
+﻿UPDATE dbo.DS_REPORT
+SET TEN_REPORT_VIET = N'Lịch sử di chuyển các thiết bị'
+WHERE REPORT_NAME ='rptDANH_SACH_NOI_LAP_DAT_THIET_BI'
+--SELECT * FROM dbo.LANGUAGES WHERE FORM ='frmReminder_new' AND VIETNAM LIKE N'@%'
+UPDATE  dbo.LIC_REPORT SET TYPE_LIC =N'̤' WHERE REPORT_NAME IN (N'ΨΤά͚Ύ͔΢ΆΊΔ͈Ά΢ͬΨΖͬΨ΢ΠΒͬήΆΠ',N'ήΊ͈Ά΢͊Ά΢ͬ΢ΠΒ͔΢Τ͈ͤͬ')
+UPDATE dbo.MENU SET MENU_TEXT = N'4.3. Yêu cầu bảo trì' WHERE MENU_ID ='mnuYeucauNSD'
+--SELECT TEN_CTY_TIENG_VIET,LOGO, DIA_CHI_VIET,Phone, Fax,EMAIL FROM THONG_TIN_CHUNG 
+
+

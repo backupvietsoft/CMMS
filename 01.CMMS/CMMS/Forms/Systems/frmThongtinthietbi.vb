@@ -1069,7 +1069,18 @@ Public Class frmThongtinthietbi
         dtTmp = New DataTable()
         dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.ConnectionString, "GetNhaXuongTreeList", 1, Commons.Modules.UserName, Commons.Modules.TypeLanguage))
         Commons.Modules.ObjSystems.MLoadCboTreeList(CboNLD, dtTmp, "MS_CHA", "MS_N_XUONG", "TEN_N_XUONG")
-        CboNLD.SelectedIndex = 1
+        Try
+            Dim n As Integer = Convert.ToInt32(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT COUNT(*) FROM dbo.MAY"))
+            If (n < 300) Then
+                CboNLD.SelectedIndex = 0
+            Else
+                CboNLD.SelectedIndex = 1
+            End If
+
+        Catch ex As Exception
+            CboNLD.SelectedIndex = 1
+        End Try
+
         loadCboHeThong()
     End Sub
 
@@ -2210,7 +2221,6 @@ TT:
         Try
 
         Catch ex As Exception
-
         End Try
 
         Try
@@ -6219,7 +6229,7 @@ TT:
             ucDMTBi.grvChung.Columns("TEN_GIA_TRI").Group()
             ucDMTBi.grvChung.ExpandAllGroups()
         End If
-        InVB(rptname, 1)
+        InVB(rptname, 2)
 
 
 
@@ -11127,10 +11137,9 @@ KET_THUC:
             Dim excelWorkbook As Excel.Workbook = excelWorkbooks.Open(sPath, 0, False, 5, "", "",
              False, Excel.XlPlatform.xlWindows, "", True, False, 0, True)
             Dim excelWorkSheet As Excel.Worksheet = DirectCast(excelWorkbook.Sheets(1), Excel.Worksheet)
-
-            Dong = Commons.Modules.MExcel.TaoTTChung(excelWorkSheet, 1, 3 + GroupBy, 1, TCot)
+            Dong = Commons.Modules.MExcel.TaoTTChung(excelWorkSheet, 1, 3 + GroupBy, 1, IIf(TCot < 7, 7, TCot))
             Commons.Modules.MExcel.TaoLogo(excelWorkSheet, 0, 0 + GroupBy, 110, 45, Application.StartupPath)
-            Commons.Modules.MExcel.DinhDang(excelWorkSheet, Commons.Modules.ObjLanguages.GetLanguage(Commons.Modules.ModuleName, "rptDANH_SACH_BP_CP_THIET_BI", "NGAY_IN", Commons.Modules.TypeLanguage) + DateTime.Now.ToString("dd/MM/yyyy"), 1, TCot + 1, "@", 10, False, True, 1, TCot + 1)
+            'Commons.Modules.MExcel.DinhDang(excelWorkSheet, Commons.Modules.ObjLanguages.GetLanguage(Commons.Modules.ModuleName, "rptDANH_SACH_BP_CP_THIET_BI", "NGAY_IN", Commons.Modules.TypeLanguage) + DateTime.Now.ToString("dd/MM/yyyy"), 1, TCot + 1, "@", 10, False, True, 1, TCot + 1)
             Commons.Modules.MExcel.ThemDong(excelWorkSheet, Microsoft.Office.Interop.Excel.XlInsertShiftDirection.xlShiftDown, 5, Dong)
             If rptname = "rptLICH_BAO_TRI_DINH_KI" Then
                 Commons.Modules.MExcel.ThemDong(excelWorkSheet, Microsoft.Office.Interop.Excel.XlInsertShiftDirection.xlShiftDown, 1, Dong)
@@ -11139,6 +11148,7 @@ KET_THUC:
             ElseIf rptname = "rptTHONG_TIN_CHUNG_VA_THONG_SO_TB" Then
                 Commons.Modules.MExcel.ThemDong(excelWorkSheet, Microsoft.Office.Interop.Excel.XlInsertShiftDirection.xlShiftDown, 20, Dong)
             End If
+
 
             Dim SCot As Integer
             SCot = 7
@@ -11540,7 +11550,7 @@ KET_THUC:
                  TDong + Dong, 3)
                 Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 20, "@", True, Dong + 1, 4,
                  TDong + Dong, 4)
-                Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 30, "@", True, Dong + 1, 5, TDong + Dong, 5)
+                Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 55, "@", True, Dong + 1, 5, TDong + Dong, 5)
                 Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 10, "@", True, Dong + 1, 6,
                  TDong + Dong, 6)
                 Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 10, "@", True, Dong + 1, 7,
@@ -11638,7 +11648,7 @@ KET_THUC:
                  TDong + Dong, 3)
                 Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 20, "@", True, Dong + 1, 4,
                  TDong + Dong, 4)
-                Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 30, "@", True, Dong + 1, 5, TDong + Dong, 5)
+                Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 55, "@", True, Dong + 1, 5, TDong + Dong, 5)
                 Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 10, "@", True, Dong + 1, 6,
                  TDong + Dong, 6)
                 Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 10, "@", True, Dong + 1, 7,
@@ -11686,7 +11696,7 @@ KET_THUC:
                 Next
             ElseIf rptname = "rptTHONG_TIN_CHUNG_VA_THONG_SO_TB" Then
                 Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 5, "@", True, Dong + 1, 1, TDong + Dong, 1)
-                Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 30, "@", True, Dong + 1, 2, TDong + Dong, 2)
+                Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 55, "@", True, Dong + 1, 2, TDong + Dong, 2)
                 Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 10, "@", True, Dong + 1, 3, TDong + Dong, 3)
                 Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 20, "@", True, Dong + 1, 4, TDong + Dong, 4)
                 Commons.Modules.MExcel.ColumnWidth(excelWorkSheet, 20, "@", True, Dong + 1, 5, TDong + Dong, 5)
