@@ -1,11 +1,20 @@
 ﻿using Microsoft.VisualBasic;
+using Newtonsoft.Json;
 using System;
+using System.Configuration;
 using System.Management;
+using System.Security.Cryptography;
+using System.Text;
+using System.Web.Http.Results;
+using System.Web.Mvc;
 
 namespace ApiHardWare
 {
     public static class Commons
     {
+
+        static string SecurityKey = "vietsoft.com.vn";
+        static string chuoi = "_13579_";
         public static String GetProcessorId()
         {
             //ManagementClass mc = new ManagementClass("win32_processor");
@@ -31,6 +40,119 @@ namespace ApiHardWare
                 sTam += Strings.ChrW((Strings.AscW(Strings.Mid(str, i, 1)) / 2) - 354).ToString();
             return sTam;
         }
+
+
+        #region MaHoa
+        //public static JsonResult Encrypt(string sValue, bool agree = true)
+        //{
+        //    try
+        //    {
+        //        string JSONresult;
+        //        string s = DBUtils.Encrypt(sValue.Replace(' ', '+'), true);
+        //        JSONresult = JsonConvert.SerializeObject(s);
+        //        return new JsonResult(JSONresult);
+        //    }
+        //    catch
+        //    {
+        //        return null;
+        //    }
+        //}
+        //[HttpGet] // @iLoai = 2,spSupport_VS, getCustomerContract
+        //public JsonResult Decrypt(string sValue, bool agree = true)
+        //{
+        //    try
+        //    {
+        //        string JSONresult;
+        //        string s = DBUtils.Decrypt(sValue, true);
+        //        JSONresult = JsonConvert.SerializeObject(s);
+        //        return new JsonResult(JSONresult);
+        //    }
+        //    catch
+        //    {
+        //        return null;
+        //    }
+        //}
+
+
+        #endregion
+
+
+        public static string Decrypt(string cipherString, bool useHashing)
+        {
+            try
+            {
+                byte[] keyArray;
+                byte[] toEncryptArray = Convert.FromBase64String(cipherString);
+
+                System.Configuration.AppSettingsReader settingsReader = new AppSettingsReader();
+                //Get your key from config file to open the lock!
+                string key = SecurityKey;//(string)settingsReader.GetValue("SecurityKey", typeof(String));
+
+                if (useHashing)
+                {
+                    MD5CryptoServiceProvider hashmd5 = new MD5CryptoServiceProvider();
+                    keyArray = hashmd5.ComputeHash(UTF8Encoding.UTF8.GetBytes(key));
+                    hashmd5.Clear();
+                }
+                else
+                    keyArray = UTF8Encoding.UTF8.GetBytes(key);
+
+                TripleDESCryptoServiceProvider tdes = new TripleDESCryptoServiceProvider();
+                tdes.Key = keyArray;
+                tdes.Mode = CipherMode.ECB;
+                tdes.Padding = System.Security.Cryptography.PaddingMode.PKCS7;
+
+                ICryptoTransform cTransform = tdes.CreateDecryptor();
+                byte[] resultArray = cTransform.TransformFinalBlock(Convert.FromBase64String(cipherString), 0, Convert.FromBase64String(cipherString).Length);
+                tdes.Clear();
+                return UTF8Encoding.UTF8.GetString(resultArray).Split(new string[] { chuoi }, StringSplitOptions.None)[1];
+            }
+            catch (Exception ex)
+            {
+                byte[] byteData = Encoding.Unicode.GetBytes("");
+                //return UTF8Encoding.UTF8.GetString(byteData).Split(new string[] { chuoi }, StringSplitOptions.None)[1];
+                return Convert.ToBase64String(byteData);
+            }
+        }
+
+
+        public static string Encrypt(string toEncrypt, bool useHashing)
+        {
+            try
+            {
+                byte[] keyArray;
+                byte[] toEncryptArray = UTF8Encoding.UTF8.GetBytes(chuoi + toEncrypt + chuoi);
+
+                System.Configuration.AppSettingsReader settingsReader = new AppSettingsReader();
+                // Get the key from config file
+                string key = SecurityKey; /*(string)settingsReader.GetValue("SecurityKey", typeof(String));*/
+                //System.Windows.Forms.MessageBox.Show(key);
+                if (useHashing)
+                {
+                    MD5CryptoServiceProvider hashmd5 = new MD5CryptoServiceProvider();
+                    keyArray = hashmd5.ComputeHash(UTF8Encoding.UTF8.GetBytes(key));
+                    hashmd5.Clear();
+                }
+                else
+                    keyArray = UTF8Encoding.UTF8.GetBytes(key);
+
+                TripleDESCryptoServiceProvider tdes = new TripleDESCryptoServiceProvider();
+                tdes.Key = keyArray;
+                tdes.Mode = CipherMode.ECB;
+                tdes.Padding = System.Security.Cryptography.PaddingMode.PKCS7;
+
+                ICryptoTransform cTransform = tdes.CreateEncryptor();
+                byte[] resultArray = cTransform.TransformFinalBlock(toEncryptArray, 0, toEncryptArray.Length);
+                tdes.Clear();
+                return Convert.ToBase64String(resultArray, 0, resultArray.Length);
+            }
+            catch
+            {
+                byte[] byteData = Encoding.Unicode.GetBytes("");
+                return Convert.ToBase64String(byteData);
+            }
+        }
+
     }
 
 

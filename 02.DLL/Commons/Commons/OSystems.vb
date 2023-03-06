@@ -2262,7 +2262,7 @@ Public Class OSystems
         End Try
     End Function
 
-    Private Sub Grv_ShowGridMenu(ByVal sender As Object, ByVal e As DevExpress.XtraGrid.Views.Grid.GridMenuEventArgs, ByVal grv As DevExpress.XtraGrid.Views.Grid.GridView, ByVal fName As String)
+    Private Sub Grv_ShowGridMenu(ByVal sender As Object, ByVal e As DevExpress.XtraGrid.Views.Grid.GridMenuItemClickEventArgs, ByVal grv As DevExpress.XtraGrid.Views.Grid.GridView, ByVal fName As String)
         If e.MenuType <> DevExpress.XtraGrid.Views.Grid.GridMenuType.Column Then Return
         Try
             Dim headerMenu As DevExpress.XtraGrid.Menu.GridViewMenu = CType(e.Menu, DevExpress.XtraGrid.Menu.GridViewMenu)
@@ -2273,7 +2273,7 @@ Public Class OSystems
             'headerMenu.Items.Add(menuItem)
             Dim menuSave As DevExpress.Utils.Menu.DXMenuItem = New DevExpress.Utils.Menu.DXMenuItem("Save Grid")
             menuSave.BeginGroup = True
-            menuSave.Tag = e.Menu
+            menuSave.Tag = e.MenuType
             AddHandler menuSave.Click, Sub(ByVal a As Object, ByVal b As EventArgs) MyMenuItemSave(sender, e, grv, fName)
             headerMenu.Items.Add(menuSave)
         Catch

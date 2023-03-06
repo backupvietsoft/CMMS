@@ -46,3 +46,32 @@ E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Su
 E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Release\Vs.Support.exe
 E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Release\Vs.Support.pdb
 E:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Release\Vs.Support.csprojAssemblyReference.cache
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\bin\Release\Vs.Support.dll.config
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\bin\Release\Vs.Support.dll
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\bin\Release\Vs.Support.pdb
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\bin\Release\Interop.Excel.dll
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\bin\Release\Microsoft.ApplicationBlocks.Data.dll
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\bin\Release\Newtonsoft.Json.dll
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\bin\Release\Newtonsoft.Json.xml
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.csproj.AssemblyReference.cache
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmELearning.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmMain.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmSupport.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmVSReply.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.Properties.Resources.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmLogin.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmCustomer.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmCustomerContract.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmCustomerContract_View.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmContractVSStaff.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmCustomer_View.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmReportContract.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmReport_NV.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmThemNguoiDung.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.frmViewVStaff.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.TEST.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.csproj.GenerateResource.cache
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.csproj.CoreCompileInputs.cache
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.csproj.CopyComplete
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.dll
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Release\Vs.Support.pdb

@@ -11,7 +11,7 @@
     <AssemblyName>Commons</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OptionExplicit>On</OptionExplicit>
     <OptionCompare>Binary</OptionCompare>
     <OptionStrict>Off</OptionStrict>
@@ -66,28 +66,29 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CMMS, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\CMMS.exe</HintPath>
-    </Reference>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Data.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Utils.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraBars.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Pdf.v22.1.Core, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v22.1.Core, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v22.1.Core, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v22.1.Export, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v22.1.Core, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Drawing.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\CMMS\00 CMMS Kho Moi V9\bin\Debug\DevExpress.XtraBars.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraGrid.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraNavBar.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.XtraEditors.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraNavBar.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraTreeList.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.XtraTreeList.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\MVControl\MVControl\bin\Debug\DevExpress.XtraTreeList.v9.2.dll</HintPath>
     </Reference>
     <Reference Include="EPPlus">
       <HintPath>..\..\..\..\01.SVN\DLL\Commons\Commons\bin\Debug\EPPlus.dll</HintPath>
@@ -591,18 +592,6 @@
       <DependentUpon>frmrptDailyReport.vb</DependentUpon>
     </Compile>
     <Compile Include="Controls\frmrptDailyReport.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\frmrptDanhSachConHanBaoHanh.Designer.vb">
-      <DependentUpon>frmrptDanhSachConHanBaoHanh.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\frmrptDanhSachConHanBaoHanh.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\frmrptDanhSachHetHanBaoHanh.Designer.vb">
-      <DependentUpon>frmrptDanhSachHetHanBaoHanh.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\frmrptDanhSachHetHanBaoHanh.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Controls\frmrptDanhSachNoiLapDatVaBPCPCuaThietBi.Designer.vb">
@@ -1145,6 +1134,7 @@
     <Compile Include="My Project\Application1.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="OGroups.vb" />
     <Compile Include="OLanguages.vb" />
@@ -1259,12 +1249,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\frmrptDailyReport.resx">
       <DependentUpon>frmrptDailyReport.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Controls\frmrptDanhSachConHanBaoHanh.resx">
-      <DependentUpon>frmrptDanhSachConHanBaoHanh.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Controls\frmrptDanhSachHetHanBaoHanh.resx">
-      <DependentUpon>frmrptDanhSachHetHanBaoHanh.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\frmrptDanhSachNoiLapDatVaBPCPCuaThietBi.resx">
       <DependentUpon>frmrptDanhSachNoiLapDatVaBPCPCuaThietBi.vb</DependentUpon>

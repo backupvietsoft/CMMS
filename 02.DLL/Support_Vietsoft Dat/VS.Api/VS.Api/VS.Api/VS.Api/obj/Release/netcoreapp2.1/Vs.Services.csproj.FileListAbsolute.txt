@@ -1,0 +1,17 @@
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\bin\Release\netcoreapp2.1\Vs.Services.deps.json
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\bin\Release\netcoreapp2.1\Vs.Services.runtimeconfig.json
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\bin\Release\netcoreapp2.1\Vs.Services.runtimeconfig.dev.json
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\bin\Release\netcoreapp2.1\Vs.Services.dll
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\bin\Release\netcoreapp2.1\Vs.Services.pdb
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\bin\Release\netcoreapp2.1\Microsoft.ApplicationBlocks.Data.dll
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\obj\Release\netcoreapp2.1\Vs.Services.csprojAssemblyReference.cache
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\obj\Release\netcoreapp2.1\Vs.Services.csproj.CoreCompileInputs.cache
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\obj\Release\netcoreapp2.1\Vs.Services.RazorAssemblyInfo.cache
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\obj\Release\netcoreapp2.1\Vs.Services.RazorAssemblyInfo.cs
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\obj\Release\netcoreapp2.1\Vs.Services.AssemblyInfoInputs.cache
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\obj\Release\netcoreapp2.1\Vs.Services.AssemblyInfo.cs
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\obj\Release\netcoreapp2.1\Vs.Services.RazorTargetAssemblyInfo.cache
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\obj\Release\netcoreapp2.1\Vs.Services.csproj.CopyComplete
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\obj\Release\netcoreapp2.1\Vs.Services.dll
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\obj\Release\netcoreapp2.1\Vs.Services.pdb
+D:\01.Vs.Support\Vs.Services\Vs.Services\Vs.Services\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs

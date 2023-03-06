@@ -13,7 +13,8 @@ Public Class clsRegistry
     End Enum
 
     ' Auslesen des entspr. Registry-Keys
-    Private Function GetRegKey(ByVal lngRoot As ERegistryPossibleRoots) As RegistryKey
+    <Obsolete>
+    Private Function GetRegKey(lngRoot As ERegistryPossibleRoots) As RegistryKey
         On Error GoTo myErr
         GetRegKey = Nothing
         Select Case lngRoot

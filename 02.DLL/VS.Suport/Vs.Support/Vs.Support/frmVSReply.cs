@@ -365,17 +365,20 @@ namespace Vs.Support
         }
         private void loadNNDgv()
         {
-            dgvReply.Columns["ShortName"].HeaderText = Program.GetNN(dtNN, "lblShortName", this.Name);
-            dgvReply.Columns["RequestName"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblRequestName", this.Name);
-            dgvReply.Columns["RequestContent"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblRequestContent", this.Name);
-            dgvReply.Columns["RequesTime"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblRequesTime", this.Name);
-            dgvReply.Columns["RequestUser"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblRequestUser", this.Name);
-            dgvReply.Columns["SentTime"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblSentTime", this.Name);
-            dgvReply.Columns["FullName"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblFullName", this.Name);
-            dgvReply.Columns["ReplyContent"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblReplyContent", this.Name);
-            dgvReply.Columns["ReplyTime"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblReplyTime", this.Name);
-            dgvReply.Columns["RatingScore"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblRatingScore", this.Name);
-            dgvReply.Columns["btnTiepTuc"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblTiepTuc", this.Name);
+            try
+            {
+                dgvReply.Columns["ShortName"].HeaderText = Program.GetNN(dtNN, "lblShortName", this.Name);
+                dgvReply.Columns["RequestName"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblRequestName", this.Name);
+                dgvReply.Columns["RequestContent"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblRequestContent", this.Name);
+                dgvReply.Columns["RequesTime"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblRequesTime", this.Name);
+                dgvReply.Columns["RequestUser"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblRequestUser", this.Name);
+                dgvReply.Columns["SentTime"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblSentTime", this.Name);
+                dgvReply.Columns["FullName"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblFullName", this.Name);
+                dgvReply.Columns["ReplyContent"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblReplyContent", this.Name);
+                dgvReply.Columns["ReplyTime"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblReplyTime", this.Name);
+                dgvReply.Columns["RatingScore"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblRatingScore", this.Name);
+                dgvReply.Columns["btnTiepTuc"].HeaderText = Program.GetNN(dtNN, "frmVSReply", "lblTiepTuc", this.Name);
+            } catch{ }
         }
         private void Alignment()
         {

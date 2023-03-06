@@ -75,3 +75,14 @@ D:\01.Code\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Remin
 D:\01.Code\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.csproj.CoreCompileInputs.cache
 D:\01.Code\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.dll
 D:\01.Code\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.pdb
+D:\01.CMMS\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.csproj.AssemblyReference.cache
+D:\01.CMMS\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.ucGSTTBTDK.resources
+D:\01.CMMS\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.Form1.resources
+D:\01.CMMS\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.frmReminder_new.resources
+D:\01.CMMS\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.frmReport.resources
+D:\01.CMMS\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.Properties.Resources.resources
+D:\01.CMMS\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.csproj.GenerateResource.cache
+D:\01.CMMS\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.dll.licenses
+D:\01.CMMS\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.csproj.CoreCompileInputs.cache
+D:\01.CMMS\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.dll
+D:\01.CMMS\02.DLL\Vietsoft.Reminder\Vietsoft.Reminder\obj\Release\Vietsoft.Reminder.pdb

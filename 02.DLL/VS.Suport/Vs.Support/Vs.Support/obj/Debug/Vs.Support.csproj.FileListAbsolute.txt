@@ -157,3 +157,30 @@ F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Su
 F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.exe.config
 F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\bin\Debug\Vs.Support.exe
 F:\08022022\VS_Support (1)\VS_Support\Support_Vietsoft\Vs.Support_Vietsoft\Vs.Support\obj\Debug\Vs.Support.exe
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\bin\Debug\Vs.Support.pdb
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\bin\Debug\Newtonsoft.Json.dll
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\bin\Debug\Newtonsoft.Json.xml
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csproj.AssemblyReference.cache
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmELearning.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmMain.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmSupport.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmVSReply.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.Properties.Resources.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmLogin.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmCustomer.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmCustomerContract.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmCustomerContract_View.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmContractVSStaff.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmCustomer_View.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmReportContract.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmReport_NV.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmThemNguoiDung.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.frmViewVStaff.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.TEST.resources
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csproj.GenerateResource.cache
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csproj.CoreCompileInputs.cache
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.csproj.CopyComplete
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.pdb
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\bin\Debug\Vs.Support.exe.config
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\bin\Debug\Vs.Support.exe
+D:\01.CMMS\02.DLL\VS.Suport\Vs.Support\Vs.Support\obj\Debug\Vs.Support.exe

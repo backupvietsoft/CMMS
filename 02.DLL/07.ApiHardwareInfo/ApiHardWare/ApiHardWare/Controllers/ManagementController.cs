@@ -20,6 +20,14 @@ namespace ApiHardWare.Controllers
             return Commons.GetProcessorId();
         }
 
-      
+        public string Decrypt(string sValue, bool agree = true)
+        {
+            return Commons.Decrypt(sValue, agree);
+        }
+        public string Encrypt(string sValue, bool agree = true)
+        {
+            return Commons.Encrypt(sValue, agree);
+        }
+
     }
 }
