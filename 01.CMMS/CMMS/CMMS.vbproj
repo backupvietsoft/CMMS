@@ -242,10 +242,6 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
       <HintPath>bin\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
     </Reference>
-    <Reference Include="MReportVB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\PC01\Desktop\DLL Vinaone\MReportVB.dll</HintPath>
-    </Reference>
     <Reference Include="MVControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\02.DLL\MVControl\MVControl\bin\Debug\MVControl.dll</HintPath>
@@ -330,10 +326,6 @@
     <Reference Include="UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\UI.dll</HintPath>
-    </Reference>
-    <Reference Include="VietShape, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\VietShape.dll</HintPath>
     </Reference>
     <Reference Include="Vietsoft, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -1712,6 +1704,14 @@
     <ProjectReference Include="..\..\02.DLL\Commons\Commons\Commons.vbproj">
       <Project>{1aebd723-74c5-4cb4-bf99-456e840683ea}</Project>
       <Name>Commons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\02.DLL\MReportVB\MReportVB\MReportVB.vbproj">
+      <Project>{4379259c-56b5-48a1-b1d3-68fdc53a8dad}</Project>
+      <Name>MReportVB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\02.DLL\VietShape\VietShape.csproj">
+      <Project>{75e711ea-37bf-47f9-8fbb-d82d56ce13ed}</Project>
+      <Name>VietShape</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />

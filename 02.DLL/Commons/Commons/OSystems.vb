@@ -2256,6 +2256,7 @@ Public Class OSystems
             If MBestFitColumns Then grv.BestFitColumns()
             If MloadNNgu Then MLoadNNXtraGrid(grv, fName)
             grv.OptionsBehavior.FocusLeaveOnTab = True
+            grv.OptionsSelection.MultiSelect = True
             Return True
         Catch ex As Exception
             Return False

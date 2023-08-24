@@ -324,6 +324,7 @@
       <DependentUpon>frmThoigianngungmay.cs</DependentUpon>
       <BoundTo>c33b20a3-d0cc-4b40-8a7b-f69be1e834a5</BoundTo>
     </Compile>
+    <Compile Include="fpt.cs" />
     <Compile Include="frmAddControlVis.cs">
       <SubType>Form</SubType>
       <id>5e90dd49-2616-42ac-a777-806bd7dbf98e</id>

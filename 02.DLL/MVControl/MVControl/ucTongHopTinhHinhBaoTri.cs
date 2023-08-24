@@ -257,6 +257,20 @@ namespace MVControl
                 Commons.Modules.MExcel.MText(ws1, "", lblLMay.Text + " : " + cboLMay.Text, iDong, 2, true);
                 Commons.Modules.MExcel.MText(ws1, "", lblNhomMay.Text + " : " + cboNMay.Text, iDong, 5, true);
 
+                iDong++;
+               string stmp = "";
+                if (chkTT.GetItemChecked(0))
+                    stmp = stmp + " - " + chkTT.GetItemText(0);
+                if (chkTT.GetItemChecked(1))
+                    stmp = stmp + " - " + chkTT.GetItemText(1);
+                if (chkTT.GetItemChecked(2))
+                    stmp = stmp + " - " + chkTT.GetItemText(2);
+                if (chkTT.GetItemChecked(3))
+                    stmp = stmp + " - " + chkTT.GetItemText(3);
+                
+                stmp = label2.Text + " : " + stmp.Substring(3, stmp.Length - 3);
+                Commons.Modules.MExcel.MText(ws1, "", stmp, iDong, 2, true);
+
                 #endregion
 
                 List<string> sCotNgay = new List<string>() { };

@@ -81,9 +81,10 @@ Partial Class frmrptBieuDoKPI
         '
         Me.lbaNhaXuong.AutoSize = True
         Me.lbaNhaXuong.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbaNhaXuong.Location = New System.Drawing.Point(113, 108)
+        Me.lbaNhaXuong.Location = New System.Drawing.Point(169, 160)
+        Me.lbaNhaXuong.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbaNhaXuong.Name = "lbaNhaXuong"
-        Me.lbaNhaXuong.Size = New System.Drawing.Size(104, 25)
+        Me.lbaNhaXuong.Size = New System.Drawing.Size(157, 37)
         Me.lbaNhaXuong.TabIndex = 1
         Me.lbaNhaXuong.Text = "Địa điểm"
         Me.lbaNhaXuong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -92,23 +93,24 @@ Partial Class frmrptBieuDoKPI
         '
         Me.TableLayoutPanel1.SetColumnSpan(Me.mtxtDenNgay, 2)
         Me.mtxtDenNgay.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.mtxtDenNgay.Location = New System.Drawing.Point(470, 11)
+        Me.mtxtDenNgay.Location = New System.Drawing.Point(704, 16)
+        Me.mtxtDenNgay.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mtxtDenNgay.Mask = "00/0000"
         Me.mtxtDenNgay.Name = "mtxtDenNgay"
-        Me.mtxtDenNgay.Size = New System.Drawing.Size(131, 21)
+        Me.mtxtDenNgay.Size = New System.Drawing.Size(197, 27)
         Me.mtxtDenNgay.TabIndex = 8
         '
         'TableLayoutPanel1
         '
         Me.TableLayoutPanel1.ColumnCount = 8
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 165.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 165.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 165.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 165.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 111.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 165.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 166.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.lbaNhaXuong, 1, 5)
         Me.TableLayoutPanel1.Controls.Add(Me.cboNhaXuong, 2, 5)
         Me.TableLayoutPanel1.Controls.Add(Me.mtxtTuNgay, 2, 1)
@@ -125,18 +127,19 @@ Partial Class frmrptBieuDoKPI
         Me.TableLayoutPanel1.Controls.Add(Me.btnThucHien, 6, 7)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 9
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 12.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 4.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(715, 543)
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 53.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 6.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1072, 794)
         Me.TableLayoutPanel1.TabIndex = 1
         '
         'cboNhaXuong
@@ -157,12 +160,13 @@ Partial Class frmrptBieuDoKPI
         Me.cboNhaXuong.IsNull = True
         Me.cboNhaXuong.ItemAll = " < ALL > "
         Me.cboNhaXuong.ItemNew = "...New"
-        Me.cboNhaXuong.Location = New System.Drawing.Point(223, 111)
+        Me.cboNhaXuong.Location = New System.Drawing.Point(334, 164)
+        Me.cboNhaXuong.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboNhaXuong.MethodName = ""
         Me.cboNhaXuong.Name = "cboNhaXuong"
         Me.cboNhaXuong.Param = ""
         Me.cboNhaXuong.Param2 = ""
-        Me.cboNhaXuong.Size = New System.Drawing.Size(378, 21)
+        Me.cboNhaXuong.Size = New System.Drawing.Size(567, 27)
         Me.cboNhaXuong.StoreName = ""
         Me.cboNhaXuong.TabIndex = 3
         Me.cboNhaXuong.Table = Nothing
@@ -177,19 +181,21 @@ Partial Class frmrptBieuDoKPI
         '
         Me.TableLayoutPanel1.SetColumnSpan(Me.mtxtTuNgay, 2)
         Me.mtxtTuNgay.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.mtxtTuNgay.Location = New System.Drawing.Point(223, 11)
+        Me.mtxtTuNgay.Location = New System.Drawing.Point(334, 16)
+        Me.mtxtTuNgay.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mtxtTuNgay.Mask = "00/0000"
         Me.mtxtTuNgay.Name = "mtxtTuNgay"
-        Me.mtxtTuNgay.Size = New System.Drawing.Size(131, 21)
+        Me.mtxtTuNgay.Size = New System.Drawing.Size(197, 27)
         Me.mtxtTuNgay.TabIndex = 6
         '
         'lbaDenNgay
         '
         Me.lbaDenNgay.AutoSize = True
         Me.lbaDenNgay.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbaDenNgay.Location = New System.Drawing.Point(360, 8)
+        Me.lbaDenNgay.Location = New System.Drawing.Point(539, 12)
+        Me.lbaDenNgay.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbaDenNgay.Name = "lbaDenNgay"
-        Me.lbaDenNgay.Size = New System.Drawing.Size(104, 25)
+        Me.lbaDenNgay.Size = New System.Drawing.Size(157, 37)
         Me.lbaDenNgay.TabIndex = 7
         Me.lbaDenNgay.Text = "Đến tháng"
         Me.lbaDenNgay.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -198,9 +204,10 @@ Partial Class frmrptBieuDoKPI
         '
         Me.lbaTuThang.AutoSize = True
         Me.lbaTuThang.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbaTuThang.Location = New System.Drawing.Point(113, 8)
+        Me.lbaTuThang.Location = New System.Drawing.Point(169, 12)
+        Me.lbaTuThang.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbaTuThang.Name = "lbaTuThang"
-        Me.lbaTuThang.Size = New System.Drawing.Size(104, 25)
+        Me.lbaTuThang.Size = New System.Drawing.Size(157, 37)
         Me.lbaTuThang.TabIndex = 9
         Me.lbaTuThang.Text = "Từ tháng"
         Me.lbaTuThang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -224,12 +231,13 @@ Partial Class frmrptBieuDoKPI
         Me.cmbCity.IsNull = True
         Me.cmbCity.ItemAll = " < ALL > "
         Me.cmbCity.ItemNew = "...New"
-        Me.cmbCity.Location = New System.Drawing.Point(223, 36)
+        Me.cmbCity.Location = New System.Drawing.Point(334, 53)
+        Me.cmbCity.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbCity.MethodName = ""
         Me.cmbCity.Name = "cmbCity"
         Me.cmbCity.Param = ""
         Me.cmbCity.Param2 = ""
-        Me.cmbCity.Size = New System.Drawing.Size(378, 21)
+        Me.cmbCity.Size = New System.Drawing.Size(567, 27)
         Me.cmbCity.StoreName = ""
         Me.cmbCity.TabIndex = 11
         Me.cmbCity.Table = Nothing
@@ -255,12 +263,13 @@ Partial Class frmrptBieuDoKPI
         Me.cmbDistrict.IsNull = True
         Me.cmbDistrict.ItemAll = " < ALL > "
         Me.cmbDistrict.ItemNew = "...New"
-        Me.cmbDistrict.Location = New System.Drawing.Point(223, 61)
+        Me.cmbDistrict.Location = New System.Drawing.Point(334, 90)
+        Me.cmbDistrict.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbDistrict.MethodName = ""
         Me.cmbDistrict.Name = "cmbDistrict"
         Me.cmbDistrict.Param = ""
         Me.cmbDistrict.Param2 = ""
-        Me.cmbDistrict.Size = New System.Drawing.Size(378, 21)
+        Me.cmbDistrict.Size = New System.Drawing.Size(567, 27)
         Me.cmbDistrict.StoreName = ""
         Me.cmbDistrict.TabIndex = 12
         Me.cmbDistrict.Table = Nothing
@@ -286,12 +295,13 @@ Partial Class frmrptBieuDoKPI
         Me.cmbStreet.IsNull = True
         Me.cmbStreet.ItemAll = " < ALL > "
         Me.cmbStreet.ItemNew = "...New"
-        Me.cmbStreet.Location = New System.Drawing.Point(223, 86)
+        Me.cmbStreet.Location = New System.Drawing.Point(334, 127)
+        Me.cmbStreet.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbStreet.MethodName = ""
         Me.cmbStreet.Name = "cmbStreet"
         Me.cmbStreet.Param = ""
         Me.cmbStreet.Param2 = ""
-        Me.cmbStreet.Size = New System.Drawing.Size(378, 21)
+        Me.cmbStreet.Size = New System.Drawing.Size(567, 27)
         Me.cmbStreet.StoreName = ""
         Me.cmbStreet.TabIndex = 13
         Me.cmbStreet.Table = Nothing
@@ -302,9 +312,10 @@ Partial Class frmrptBieuDoKPI
         '
         Me.lblCity.AutoSize = True
         Me.lblCity.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lblCity.Location = New System.Drawing.Point(113, 33)
+        Me.lblCity.Location = New System.Drawing.Point(169, 49)
+        Me.lblCity.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCity.Name = "lblCity"
-        Me.lblCity.Size = New System.Drawing.Size(104, 25)
+        Me.lblCity.Size = New System.Drawing.Size(157, 37)
         Me.lblCity.TabIndex = 14
         Me.lblCity.Text = "Tỉnh"
         Me.lblCity.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -313,9 +324,10 @@ Partial Class frmrptBieuDoKPI
         '
         Me.lblDistrict.AutoSize = True
         Me.lblDistrict.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lblDistrict.Location = New System.Drawing.Point(113, 58)
+        Me.lblDistrict.Location = New System.Drawing.Point(169, 86)
+        Me.lblDistrict.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblDistrict.Name = "lblDistrict"
-        Me.lblDistrict.Size = New System.Drawing.Size(104, 25)
+        Me.lblDistrict.Size = New System.Drawing.Size(157, 37)
         Me.lblDistrict.TabIndex = 15
         Me.lblDistrict.Text = "Huyện"
         Me.lblDistrict.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -324,9 +336,10 @@ Partial Class frmrptBieuDoKPI
         '
         Me.lblStreet.AutoSize = True
         Me.lblStreet.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lblStreet.Location = New System.Drawing.Point(113, 83)
+        Me.lblStreet.Location = New System.Drawing.Point(169, 123)
+        Me.lblStreet.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblStreet.Name = "lblStreet"
-        Me.lblStreet.Size = New System.Drawing.Size(104, 25)
+        Me.lblStreet.Size = New System.Drawing.Size(157, 37)
         Me.lblStreet.TabIndex = 16
         Me.lblStreet.Text = "Đường"
         Me.lblStreet.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -334,22 +347,24 @@ Partial Class frmrptBieuDoKPI
         'btnThoat
         '
         Me.btnThoat.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnThoat.Location = New System.Drawing.Point(607, 506)
+        Me.btnThoat.Location = New System.Drawing.Point(909, 739)
         Me.btnThoat.LookAndFeel.SkinName = "Blue"
         Me.btnThoat.LookAndFeel.UseDefaultLookAndFeel = False
+        Me.btnThoat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnThoat.Name = "btnThoat"
-        Me.btnThoat.Size = New System.Drawing.Size(105, 30)
+        Me.btnThoat.Size = New System.Drawing.Size(159, 45)
         Me.btnThoat.TabIndex = 17
         Me.btnThoat.Text = "Thoát"
         '
         'btnThucHien
         '
         Me.btnThucHien.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnThucHien.Location = New System.Drawing.Point(497, 506)
+        Me.btnThucHien.Location = New System.Drawing.Point(744, 739)
         Me.btnThucHien.LookAndFeel.SkinName = "Blue"
         Me.btnThucHien.LookAndFeel.UseDefaultLookAndFeel = False
+        Me.btnThucHien.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnThucHien.Name = "btnThucHien"
-        Me.btnThucHien.Size = New System.Drawing.Size(104, 30)
+        Me.btnThucHien.Size = New System.Drawing.Size(157, 45)
         Me.btnThucHien.TabIndex = 10
         Me.btnThucHien.Text = "Thực hiện"
         '
@@ -371,13 +386,14 @@ Partial Class frmrptBieuDoKPI
         '
         'frmrptBieuDoKPI
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.LookAndFeel.SkinName = "Blue"
         Me.LookAndFeel.UseDefaultLookAndFeel = False
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmrptBieuDoKPI"
-        Me.Size = New System.Drawing.Size(715, 543)
+        Me.Size = New System.Drawing.Size(1072, 794)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()

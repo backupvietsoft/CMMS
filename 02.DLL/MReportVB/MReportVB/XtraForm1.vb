@@ -6,13 +6,13 @@ Public Class XtraForm1
     Private Sub XtraForm1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
 
-        Dim myUc As New ucThongSoKhongDat
-        myUc.Location = New Point(0, 0)
-        myUc.Dock = DockStyle.Fill
-        'myUc.LoadDataTSGSTT()
-        'myUc.dtTBi = dt
-        'myUc.ShowMAY()
-        Me.Controls.Add(myUc)
+        'Dim myUc As New frmp
+        'myUc.Location = New Point(0, 0)
+        'myUc.Dock = DockStyle.Fill
+        ''myUc.LoadDataTSGSTT()
+        ''myUc.dtTBi = dt
+        ''myUc.ShowMAY()
+        'Me.Controls.Add(myUc)
         'Commons.Modules.ObjSystems.ThayDoiNN(Me)
 
     End Sub

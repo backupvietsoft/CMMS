@@ -6,13 +6,12 @@ Public Class Program
         Commons.Modules.UserName = "trungnv"
         Commons.Modules.UserName = "admin"
         Commons.Modules.TypeLanguage = 0
-        Commons.IConnections.Server = "192.168.2.127\SQL2019"
+        Commons.IConnections.Server = "27.74.240.29,1433"
         'Commons.IConnections.Server = "192.168.2.27\SQL2017"
-        Commons.IConnections.Database = "CMMS_TN"
+        Commons.IConnections.Database = "CMMS_DEV"
         'Commons.IConnections.Database = "CMMS_TN_NEW"
-        Commons.IConnections.Database = "CMMS_NUTIFOOD"
         'Commons.IConnections.Database = "CMMS_TN"
-        Commons.IConnections.Password = "123"
+        Commons.IConnections.Password = "codaikadaiku"
         Commons.IConnections.Username = "sa"
         'Commons.IConnections.Server = "."
         'Commons.IConnections.Database = "CMMS_GREENFEED"
@@ -23,7 +22,7 @@ Public Class Program
         Commons.Modules.iSoLeDG = 2
         Commons.Modules.iSoLeTT = 3
         Commons.Modules.ModuleName = "ECOMAINT"
-        Commons.Modules.sPrivate = "NUTIFOOD"
+        Commons.Modules.sPrivate = " "
         Commons.Modules.sSoLeSL = Commons.Modules.ObjSystems.sDinhDangSoLe(Commons.Modules.iSoLeSL)
         Commons.Modules.sSoLeDG = Commons.Modules.ObjSystems.sDinhDangSoLe(Commons.Modules.iSoLeDG)
         Commons.Modules.sSoLeTT = Commons.Modules.ObjSystems.sDinhDangSoLe(Commons.Modules.iSoLeTT)
@@ -75,10 +74,10 @@ Public Class Program
         'Dim frm As New frmThongTinThietBi
         'frm.ShowDialog()
 
-        Dim frm As MReportVB.frmPhieuBaoTriBHNT = New MReportVB.frmPhieuBaoTriBHNT()
-        Commons.Modules.SQLString = "0LOAD"
-        frm.dTNgay = "01/11/2021"
-        frm.dDNgay = "30/11/2021"
-        frm.ShowDialog()
+        'Dim frm As MReportVB.frmPhieuBaoTriBHNT = New MReportVB.frmPhieuBaoTriBHNT()
+        'Commons.Modules.SQLString = "0LOAD"
+        'frm.dTNgay = "01/11/2021"
+        'frm.dDNgay = "30/11/2021"
+        'frm.ShowDialog()
     End Sub
 End Class

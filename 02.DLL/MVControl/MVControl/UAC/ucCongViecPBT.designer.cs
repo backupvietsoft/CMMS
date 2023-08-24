@@ -36,16 +36,16 @@
             this.BtnTrove = new DevExpress.XtraEditors.SimpleButton();
             this.btnKhongGhi = new DevExpress.XtraEditors.SimpleButton();
             this.BtnXemtailieu = new DevExpress.XtraEditors.SimpleButton();
-            this.btnThem = new DevExpress.XtraEditors.SimpleButton();
             this.btnXoa = new DevExpress.XtraEditors.SimpleButton();
             this.btnXemTonKhoPBT = new DevExpress.XtraEditors.SimpleButton();
             this.btnChonVTPT = new DevExpress.XtraEditors.SimpleButton();
             this.btnThoat = new DevExpress.XtraEditors.SimpleButton();
             this.btnGhi = new DevExpress.XtraEditors.SimpleButton();
-            this.btnChonCongViec = new DevExpress.XtraEditors.SimpleButton();
             this.btnXoaCongViecChinh = new DevExpress.XtraEditors.SimpleButton();
             this.btnXoaVatTuPT = new DevExpress.XtraEditors.SimpleButton();
             this.btnXoaViTriPT = new DevExpress.XtraEditors.SimpleButton();
+            this.btnThem = new DevExpress.XtraEditors.SimpleButton();
+            this.btnChonCongViec = new DevExpress.XtraEditors.SimpleButton();
             this.splitContainerControl2 = new DevExpress.XtraEditors.SplitContainerControl();
             this.grpDanhSachCongViecChinh = new DevExpress.XtraEditors.GroupControl();
             this.grdCongviec = new DevExpress.XtraGrid.GridControl();
@@ -94,24 +94,23 @@
             this.tableLayoutPanel1.Controls.Add(this.splitContainerControl2, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1221, 641);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 61F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1832, 937);
             this.tableLayoutPanel1.TabIndex = 14;
             // 
             // Panel8
             // 
-            this.Panel8.Controls.Add(this.btnChonCongViec);
             this.Panel8.Controls.Add(this.btnSynDNXK);
             this.Panel8.Controls.Add(this.btnTraKho);
             this.Panel8.Controls.Add(this.btnBackLog);
             this.Panel8.Controls.Add(this.BtnTrove);
             this.Panel8.Controls.Add(this.btnKhongGhi);
             this.Panel8.Controls.Add(this.BtnXemtailieu);
-            this.Panel8.Controls.Add(this.btnThem);
             this.Panel8.Controls.Add(this.btnXoa);
             this.Panel8.Controls.Add(this.btnXemTonKhoPBT);
             this.Panel8.Controls.Add(this.btnChonVTPT);
@@ -120,20 +119,24 @@
             this.Panel8.Controls.Add(this.btnXoaCongViecChinh);
             this.Panel8.Controls.Add(this.btnXoaVatTuPT);
             this.Panel8.Controls.Add(this.btnXoaViTriPT);
+            this.Panel8.Controls.Add(this.btnThem);
+            this.Panel8.Controls.Add(this.btnChonCongViec);
             this.Panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel8.Location = new System.Drawing.Point(3, 602);
+            this.Panel8.Location = new System.Drawing.Point(4, 880);
+            this.Panel8.Margin = new System.Windows.Forms.Padding(4);
             this.Panel8.Name = "Panel8";
-            this.Panel8.Size = new System.Drawing.Size(1215, 36);
+            this.Panel8.Size = new System.Drawing.Size(1824, 53);
             this.Panel8.TabIndex = 40;
             // 
             // btnSynDNXK
             // 
             this.btnSynDNXK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnSynDNXK.Location = new System.Drawing.Point(133, 4);
+            this.btnSynDNXK.Location = new System.Drawing.Point(200, 6);
             this.btnSynDNXK.LookAndFeel.SkinName = "Blue";
             this.btnSynDNXK.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnSynDNXK.Margin = new System.Windows.Forms.Padding(4);
             this.btnSynDNXK.Name = "btnSynDNXK";
-            this.btnSynDNXK.Size = new System.Drawing.Size(129, 30);
+            this.btnSynDNXK.Size = new System.Drawing.Size(194, 44);
             this.btnSynDNXK.TabIndex = 31;
             this.btnSynDNXK.Text = "btnSynDNXK";
             this.btnSynDNXK.Visible = false;
@@ -142,11 +145,12 @@
             // btnTraKho
             // 
             this.btnTraKho.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnTraKho.Location = new System.Drawing.Point(263, 4);
+            this.btnTraKho.Location = new System.Drawing.Point(394, 6);
             this.btnTraKho.LookAndFeel.SkinName = "Blue";
             this.btnTraKho.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnTraKho.Margin = new System.Windows.Forms.Padding(4);
             this.btnTraKho.Name = "btnTraKho";
-            this.btnTraKho.Size = new System.Drawing.Size(129, 30);
+            this.btnTraKho.Size = new System.Drawing.Size(194, 44);
             this.btnTraKho.TabIndex = 31;
             this.btnTraKho.Text = "btnTraKho";
             this.btnTraKho.Visible = false;
@@ -155,22 +159,24 @@
             // btnBackLog
             // 
             this.btnBackLog.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnBackLog.Location = new System.Drawing.Point(3, 4);
+            this.btnBackLog.Location = new System.Drawing.Point(4, 6);
             this.btnBackLog.LookAndFeel.SkinName = "Blue";
             this.btnBackLog.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnBackLog.Margin = new System.Windows.Forms.Padding(4);
             this.btnBackLog.Name = "btnBackLog";
-            this.btnBackLog.Size = new System.Drawing.Size(129, 30);
+            this.btnBackLog.Size = new System.Drawing.Size(194, 44);
             this.btnBackLog.TabIndex = 30;
             this.btnBackLog.Text = "Backlog";
             // 
             // BtnTrove
             // 
             this.BtnTrove.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnTrove.Location = new System.Drawing.Point(1108, 4);
+            this.BtnTrove.Location = new System.Drawing.Point(1664, 6);
             this.BtnTrove.LookAndFeel.SkinName = "Blue";
             this.BtnTrove.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.BtnTrove.Margin = new System.Windows.Forms.Padding(4);
             this.BtnTrove.Name = "BtnTrove";
-            this.BtnTrove.Size = new System.Drawing.Size(105, 30);
+            this.BtnTrove.Size = new System.Drawing.Size(158, 44);
             this.BtnTrove.TabIndex = 29;
             this.BtnTrove.Text = "Trở về";
             this.BtnTrove.Visible = false;
@@ -179,11 +185,12 @@
             // btnKhongGhi
             // 
             this.btnKhongGhi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnKhongGhi.Location = new System.Drawing.Point(1118, 4);
+            this.btnKhongGhi.Location = new System.Drawing.Point(1679, 6);
             this.btnKhongGhi.LookAndFeel.SkinName = "Blue";
             this.btnKhongGhi.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnKhongGhi.Margin = new System.Windows.Forms.Padding(4);
             this.btnKhongGhi.Name = "btnKhongGhi";
-            this.btnKhongGhi.Size = new System.Drawing.Size(95, 30);
+            this.btnKhongGhi.Size = new System.Drawing.Size(142, 44);
             this.btnKhongGhi.TabIndex = 20;
             this.btnKhongGhi.Text = "&Không ghi";
             this.btnKhongGhi.Visible = false;
@@ -192,35 +199,25 @@
             // BtnXemtailieu
             // 
             this.BtnXemtailieu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnXemtailieu.Location = new System.Drawing.Point(178, 4);
+            this.BtnXemtailieu.Location = new System.Drawing.Point(269, 6);
             this.BtnXemtailieu.LookAndFeel.SkinName = "Blue";
             this.BtnXemtailieu.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.BtnXemtailieu.Margin = new System.Windows.Forms.Padding(4);
             this.BtnXemtailieu.Name = "BtnXemtailieu";
-            this.BtnXemtailieu.Size = new System.Drawing.Size(129, 30);
+            this.BtnXemtailieu.Size = new System.Drawing.Size(194, 44);
             this.BtnXemtailieu.TabIndex = 20;
             this.BtnXemtailieu.Text = "Mở tài liệu ";
             this.BtnXemtailieu.Visible = false;
             // 
-            // btnThem
-            // 
-            this.btnThem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnThem.Location = new System.Drawing.Point(926, 4);
-            this.btnThem.LookAndFeel.SkinName = "Blue";
-            this.btnThem.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(95, 30);
-            this.btnThem.TabIndex = 20;
-            this.btnThem.Text = "&Thêm/Sửa";
-            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
-            // 
             // btnXoa
             // 
             this.btnXoa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnXoa.Location = new System.Drawing.Point(1022, 4);
+            this.btnXoa.Location = new System.Drawing.Point(1535, 6);
             this.btnXoa.LookAndFeel.SkinName = "Blue";
             this.btnXoa.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(95, 30);
+            this.btnXoa.Size = new System.Drawing.Size(142, 44);
             this.btnXoa.TabIndex = 28;
             this.btnXoa.Text = "&Xóa";
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
@@ -228,11 +225,12 @@
             // btnXemTonKhoPBT
             // 
             this.btnXemTonKhoPBT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnXemTonKhoPBT.Location = new System.Drawing.Point(830, 4);
+            this.btnXemTonKhoPBT.Location = new System.Drawing.Point(1247, 6);
             this.btnXemTonKhoPBT.LookAndFeel.SkinName = "Blue";
             this.btnXemTonKhoPBT.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnXemTonKhoPBT.Margin = new System.Windows.Forms.Padding(4);
             this.btnXemTonKhoPBT.Name = "btnXemTonKhoPBT";
-            this.btnXemTonKhoPBT.Size = new System.Drawing.Size(95, 30);
+            this.btnXemTonKhoPBT.Size = new System.Drawing.Size(142, 44);
             this.btnXemTonKhoPBT.TabIndex = 20;
             this.btnXemTonKhoPBT.Text = "btnXemTonKhoPBT";
             this.btnXemTonKhoPBT.Visible = false;
@@ -241,22 +239,24 @@
             // btnChonVTPT
             // 
             this.btnChonVTPT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnChonVTPT.Location = new System.Drawing.Point(926, 4);
+            this.btnChonVTPT.Location = new System.Drawing.Point(1391, 6);
             this.btnChonVTPT.LookAndFeel.SkinName = "Blue";
             this.btnChonVTPT.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnChonVTPT.Margin = new System.Windows.Forms.Padding(4);
             this.btnChonVTPT.Name = "btnChonVTPT";
-            this.btnChonVTPT.Size = new System.Drawing.Size(95, 30);
+            this.btnChonVTPT.Size = new System.Drawing.Size(142, 44);
             this.btnChonVTPT.TabIndex = 20;
             this.btnChonVTPT.Text = "Chọn VT - PT";
             // 
             // btnThoat
             // 
             this.btnThoat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnThoat.Location = new System.Drawing.Point(1118, 4);
+            this.btnThoat.Location = new System.Drawing.Point(1679, 6);
             this.btnThoat.LookAndFeel.SkinName = "Blue";
             this.btnThoat.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(95, 30);
+            this.btnThoat.Size = new System.Drawing.Size(142, 44);
             this.btnThoat.TabIndex = 20;
             this.btnThoat.Text = "T&hoát ";
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
@@ -264,35 +264,26 @@
             // btnGhi
             // 
             this.btnGhi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnGhi.Location = new System.Drawing.Point(1022, 4);
+            this.btnGhi.Location = new System.Drawing.Point(1535, 6);
             this.btnGhi.LookAndFeel.SkinName = "Blue";
             this.btnGhi.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnGhi.Margin = new System.Windows.Forms.Padding(4);
             this.btnGhi.Name = "btnGhi";
-            this.btnGhi.Size = new System.Drawing.Size(95, 30);
+            this.btnGhi.Size = new System.Drawing.Size(142, 44);
             this.btnGhi.TabIndex = 20;
             this.btnGhi.Text = "&Ghi";
             this.btnGhi.Visible = false;
             this.btnGhi.Click += new System.EventHandler(this.btnGhi_Click);
             // 
-            // btnChonCongViec
-            // 
-            this.btnChonCongViec.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnChonCongViec.Location = new System.Drawing.Point(830, 4);
-            this.btnChonCongViec.LookAndFeel.SkinName = "Blue";
-            this.btnChonCongViec.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.btnChonCongViec.Name = "btnChonCongViec";
-            this.btnChonCongViec.Size = new System.Drawing.Size(95, 30);
-            this.btnChonCongViec.TabIndex = 20;
-            this.btnChonCongViec.Text = "Chọn CV ";
-            // 
             // btnXoaCongViecChinh
             // 
             this.btnXoaCongViecChinh.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnXoaCongViecChinh.Location = new System.Drawing.Point(745, 4);
+            this.btnXoaCongViecChinh.Location = new System.Drawing.Point(1120, 6);
             this.btnXoaCongViecChinh.LookAndFeel.SkinName = "Blue";
             this.btnXoaCongViecChinh.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnXoaCongViecChinh.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoaCongViecChinh.Name = "btnXoaCongViecChinh";
-            this.btnXoaCongViecChinh.Size = new System.Drawing.Size(120, 30);
+            this.btnXoaCongViecChinh.Size = new System.Drawing.Size(180, 44);
             this.btnXoaCongViecChinh.TabIndex = 20;
             this.btnXoaCongViecChinh.Text = "Xoá CV chính";
             this.btnXoaCongViecChinh.Visible = false;
@@ -301,11 +292,12 @@
             // btnXoaVatTuPT
             // 
             this.btnXoaVatTuPT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnXoaVatTuPT.Location = new System.Drawing.Point(866, 4);
+            this.btnXoaVatTuPT.Location = new System.Drawing.Point(1301, 6);
             this.btnXoaVatTuPT.LookAndFeel.SkinName = "Blue";
             this.btnXoaVatTuPT.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnXoaVatTuPT.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoaVatTuPT.Name = "btnXoaVatTuPT";
-            this.btnXoaVatTuPT.Size = new System.Drawing.Size(120, 30);
+            this.btnXoaVatTuPT.Size = new System.Drawing.Size(180, 44);
             this.btnXoaVatTuPT.TabIndex = 20;
             this.btnXoaVatTuPT.Text = "Xoá vật tư PT";
             this.btnXoaVatTuPT.Visible = false;
@@ -314,15 +306,41 @@
             // btnXoaViTriPT
             // 
             this.btnXoaViTriPT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnXoaViTriPT.Location = new System.Drawing.Point(987, 4);
+            this.btnXoaViTriPT.Location = new System.Drawing.Point(1482, 6);
             this.btnXoaViTriPT.LookAndFeel.SkinName = "Blue";
             this.btnXoaViTriPT.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnXoaViTriPT.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoaViTriPT.Name = "btnXoaViTriPT";
-            this.btnXoaViTriPT.Size = new System.Drawing.Size(120, 30);
+            this.btnXoaViTriPT.Size = new System.Drawing.Size(180, 44);
             this.btnXoaViTriPT.TabIndex = 20;
             this.btnXoaViTriPT.Text = "Xoá vị trí PT";
             this.btnXoaViTriPT.Visible = false;
             this.btnXoaViTriPT.Click += new System.EventHandler(this.btnXoaViTriPT_Click);
+            // 
+            // btnThem
+            // 
+            this.btnThem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnThem.Location = new System.Drawing.Point(1391, 6);
+            this.btnThem.LookAndFeel.SkinName = "Blue";
+            this.btnThem.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(142, 44);
+            this.btnThem.TabIndex = 20;
+            this.btnThem.Text = "&Thêm/Sửa";
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
+            // btnChonCongViec
+            // 
+            this.btnChonCongViec.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnChonCongViec.Location = new System.Drawing.Point(1247, 6);
+            this.btnChonCongViec.LookAndFeel.SkinName = "Blue";
+            this.btnChonCongViec.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnChonCongViec.Margin = new System.Windows.Forms.Padding(4);
+            this.btnChonCongViec.Name = "btnChonCongViec";
+            this.btnChonCongViec.Size = new System.Drawing.Size(142, 44);
+            this.btnChonCongViec.TabIndex = 20;
+            this.btnChonCongViec.Text = "Chọn CV ";
             // 
             // splitContainerControl2
             // 
@@ -330,13 +348,14 @@
             this.splitContainerControl2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.splitContainerControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl2.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.Panel2;
-            this.splitContainerControl2.Location = new System.Drawing.Point(3, 3);
+            this.splitContainerControl2.Location = new System.Drawing.Point(4, 4);
             this.splitContainerControl2.LookAndFeel.SkinName = "Blue";
             this.splitContainerControl2.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.splitContainerControl2.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainerControl2.Name = "splitContainerControl2";
             this.splitContainerControl2.Panel1.Controls.Add(this.grpDanhSachCongViecChinh);
             this.splitContainerControl2.Panel2.Controls.Add(this.splitContainerControl1);
-            this.splitContainerControl2.Size = new System.Drawing.Size(1215, 593);
+            this.splitContainerControl2.Size = new System.Drawing.Size(1824, 868);
             this.splitContainerControl2.SplitterPosition = 469;
             this.splitContainerControl2.TabIndex = 39;
             // 
@@ -347,20 +366,23 @@
             this.grpDanhSachCongViecChinh.Location = new System.Drawing.Point(0, 0);
             this.grpDanhSachCongViecChinh.LookAndFeel.SkinName = "Blue";
             this.grpDanhSachCongViecChinh.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.grpDanhSachCongViecChinh.Margin = new System.Windows.Forms.Padding(4);
             this.grpDanhSachCongViecChinh.Name = "grpDanhSachCongViecChinh";
-            this.grpDanhSachCongViecChinh.Size = new System.Drawing.Size(740, 593);
+            this.grpDanhSachCongViecChinh.Size = new System.Drawing.Size(1349, 868);
             this.grpDanhSachCongViecChinh.TabIndex = 37;
             this.grpDanhSachCongViecChinh.Text = "grpDanhSachCongViecChinh";
             // 
             // grdCongviec
             // 
             this.grdCongviec.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grdCongviec.Location = new System.Drawing.Point(2, 22);
+            this.grdCongviec.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
+            this.grdCongviec.Location = new System.Drawing.Point(2, 28);
             this.grdCongviec.LookAndFeel.SkinName = "Blue";
             this.grdCongviec.LookAndFeel.UseDefaultLookAndFeel = false;
             this.grdCongviec.MainView = this.grvCongViec;
+            this.grdCongviec.Margin = new System.Windows.Forms.Padding(4);
             this.grdCongviec.Name = "grdCongviec";
-            this.grdCongviec.Size = new System.Drawing.Size(736, 569);
+            this.grdCongviec.Size = new System.Drawing.Size(1345, 838);
             this.grdCongviec.TabIndex = 1;
             this.grdCongviec.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.grvCongViec});
@@ -386,11 +408,12 @@
             this.splitContainerControl1.Location = new System.Drawing.Point(0, 0);
             this.splitContainerControl1.LookAndFeel.SkinName = "Blue";
             this.splitContainerControl1.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.splitContainerControl1.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.grpDanhSachVatTuPhuTung_2);
             this.splitContainerControl1.Panel2.Controls.Add(this.grpViTriPhuTung);
-            this.splitContainerControl1.Size = new System.Drawing.Size(469, 593);
-            this.splitContainerControl1.SplitterPosition = 153;
+            this.splitContainerControl1.Size = new System.Drawing.Size(469, 868);
+            this.splitContainerControl1.SplitterPosition = 305;
             this.splitContainerControl1.TabIndex = 89;
             // 
             // grpDanhSachVatTuPhuTung_2
@@ -400,20 +423,23 @@
             this.grpDanhSachVatTuPhuTung_2.Location = new System.Drawing.Point(0, 0);
             this.grpDanhSachVatTuPhuTung_2.LookAndFeel.SkinName = "Blue";
             this.grpDanhSachVatTuPhuTung_2.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.grpDanhSachVatTuPhuTung_2.Margin = new System.Windows.Forms.Padding(4);
             this.grpDanhSachVatTuPhuTung_2.Name = "grpDanhSachVatTuPhuTung_2";
-            this.grpDanhSachVatTuPhuTung_2.Size = new System.Drawing.Size(469, 434);
+            this.grpDanhSachVatTuPhuTung_2.Size = new System.Drawing.Size(469, 557);
             this.grpDanhSachVatTuPhuTung_2.TabIndex = 38;
             this.grpDanhSachVatTuPhuTung_2.Text = "grpDanhSachVatTuPhuTung_2";
             // 
             // grdPhuTung
             // 
             this.grdPhuTung.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grdPhuTung.Location = new System.Drawing.Point(2, 22);
+            this.grdPhuTung.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
+            this.grdPhuTung.Location = new System.Drawing.Point(2, 28);
             this.grdPhuTung.LookAndFeel.SkinName = "Blue";
             this.grdPhuTung.LookAndFeel.UseDefaultLookAndFeel = false;
             this.grdPhuTung.MainView = this.grvPhuTung;
+            this.grdPhuTung.Margin = new System.Windows.Forms.Padding(4);
             this.grdPhuTung.Name = "grdPhuTung";
-            this.grdPhuTung.Size = new System.Drawing.Size(465, 410);
+            this.grdPhuTung.Size = new System.Drawing.Size(465, 527);
             this.grdPhuTung.TabIndex = 1;
             this.grdPhuTung.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.grvPhuTung});
@@ -531,20 +557,23 @@
             this.grpViTriPhuTung.Location = new System.Drawing.Point(0, 0);
             this.grpViTriPhuTung.LookAndFeel.SkinName = "Blue";
             this.grpViTriPhuTung.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.grpViTriPhuTung.Margin = new System.Windows.Forms.Padding(4);
             this.grpViTriPhuTung.Name = "grpViTriPhuTung";
-            this.grpViTriPhuTung.Size = new System.Drawing.Size(469, 153);
+            this.grpViTriPhuTung.Size = new System.Drawing.Size(469, 305);
             this.grpViTriPhuTung.TabIndex = 38;
             this.grpViTriPhuTung.Text = "grpViTriPhuTung";
             // 
             // grdViTri
             // 
             this.grdViTri.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grdViTri.Location = new System.Drawing.Point(2, 22);
+            this.grdViTri.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
+            this.grdViTri.Location = new System.Drawing.Point(2, 28);
             this.grdViTri.LookAndFeel.SkinName = "Blue";
             this.grdViTri.LookAndFeel.UseDefaultLookAndFeel = false;
             this.grdViTri.MainView = this.grvViTri;
+            this.grdViTri.Margin = new System.Windows.Forms.Padding(4);
             this.grdViTri.Name = "grdViTri";
-            this.grdViTri.Size = new System.Drawing.Size(465, 129);
+            this.grdViTri.Size = new System.Drawing.Size(465, 275);
             this.grdViTri.TabIndex = 1;
             this.grdViTri.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.grvViTri});
@@ -561,13 +590,14 @@
             // 
             // ucCongViecPBT
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tableLayoutPanel1);
             this.LookAndFeel.SkinName = "Blue";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ucCongViecPBT";
-            this.Size = new System.Drawing.Size(1221, 641);
+            this.Size = new System.Drawing.Size(1832, 937);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.Panel8.ResumeLayout(false);

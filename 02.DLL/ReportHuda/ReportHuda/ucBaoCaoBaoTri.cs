@@ -289,7 +289,7 @@ namespace ReportHuda
                 dtTmp = ((DataTable)grdMay.DataSource).Copy();
                 if (optBCao.SelectedIndex != 3)
                 {
-                    dtTmp.DefaultView.RowFilter = "CHON = TRUE ";
+                    dtTmp.DefaultView.RowFilter = "CHON = TRUE";
                     if (dtTmp.DefaultView.ToTable().Rows.Count == 0 && int.Parse(cboLBTri.EditValue.ToString()) != -2)
                     {
                         MessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(Commons.Modules.ModuleName, sBC, "msgChuaChonMay", Commons.Modules.TypeLanguage));
@@ -322,7 +322,6 @@ namespace ReportHuda
 
                 DataTable dtn = dtTmp.Clone();
                 //dtn.ImportRow(dtTmp.Rows[0]);
-
                 //Commons.Modules.ObjSystems.MLoadXtraGrid(grdTmp, grvTmp, dtn, false, true, true, true, true, sBC);
                 grdTmp.DataSource = dtn;
                 Commons.Modules.ObjSystems.MLoadNNXtraGrid(grvTmp, sBC);

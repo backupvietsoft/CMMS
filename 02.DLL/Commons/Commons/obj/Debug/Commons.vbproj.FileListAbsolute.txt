@@ -674,6 +674,7 @@ D:\01.SourceCode\01.CMMS\02.DLL\Commons\Commons\bin\Debug\DevExpress.XtraCharts.
 D:\01.SourceCode\01.CMMS\02.DLL\Commons\Commons\bin\Debug\DevExpress.XtraCharts.v9.2.xml
 D:\01.SourceCode\01.CMMS\02.DLL\Commons\Commons\bin\Debug\DevExpress.XtraVerticalGrid.v9.2.xml
 D:\01.SourceCode\01.CMMS\02.DLL\Commons\Commons\bin\Debug\DevExpress.XtraLayout.v9.2.xml
+D:\01.SourceCode\01.CMMS\02.DLL\Commons\Commons\obj\Debug\Commons.vbproj.AssemblyReference.cache
 D:\01.SourceCode\01.CMMS\02.DLL\Commons\Commons\obj\Debug\Commons.frmrptBaoTriDinhKyThang.resources
 D:\01.SourceCode\01.CMMS\02.DLL\Commons\Commons\obj\Debug\Commons.frmrptBaoTriDinhKyThangCS.resources
 D:\01.SourceCode\01.CMMS\02.DLL\Commons\Commons\obj\Debug\Commons.frmrptBieuDohieuSuatLine.resources
@@ -798,4 +799,3 @@ D:\01.SourceCode\01.CMMS\02.DLL\Commons\Commons\obj\Debug\Commons.vbproj.CopyCom
 D:\01.SourceCode\01.CMMS\02.DLL\Commons\Commons\obj\Debug\Commons.dll
 D:\01.SourceCode\01.CMMS\02.DLL\Commons\Commons\obj\Debug\Commons.xml
 D:\01.SourceCode\01.CMMS\02.DLL\Commons\Commons\obj\Debug\Commons.pdb
-D:\01.SourceCode\01.CMMS\02.DLL\Commons\Commons\obj\Debug\Commons.vbproj.AssemblyReference.cache

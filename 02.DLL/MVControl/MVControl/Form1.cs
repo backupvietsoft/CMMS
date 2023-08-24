@@ -48,16 +48,23 @@ namespace MVControl
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            System.Data.DataTable dt = new System.Data.DataTable();
-            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.ConnectionString, "GetHeThongTreeListAll", 0, Commons.Modules.UserName, Commons.Modules.TypeLanguage));
-            cbo.KeyFieldName = "MS_HE_THONG";
-            cbo.ParentFieldName = "MS_CHA";
-            cbo.ColumnDisplayName = "TEN_HE_THONG";
+            //System.Data.DataTable dt = new System.Data.DataTable();
+            //dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.ConnectionString, "GetHeThongTreeListAll", 0, Commons.Modules.UserName, Commons.Modules.TypeLanguage));
+            //cbo.KeyFieldName = "MS_HE_THONG";
+            //cbo.ParentFieldName = "MS_CHA";
+            //cbo.ColumnDisplayName = "TEN_HE_THONG";
 
-            cbo.DataSource = dt;
-            cbo.DataBind();
+            //cbo.DataSource = dt;
+            //cbo.DataBind();
             
-            cbo.SetValue("21");
+            //cbo.SetValue("21");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog();
+            ftp ft = new ftp(@"ftp://192.168.1.27/", "Administrator", "123");
+            ft.upload("ETC/test.txt", openFileDialog1.FileName);
         }
     }
 }

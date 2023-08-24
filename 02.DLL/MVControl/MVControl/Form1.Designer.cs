@@ -32,7 +32,8 @@ namespace MVControl
         private void InitializeComponent()
         {
             this.cboDateTime = new DevExpress.XtraEditors.LookUpEdit();
-            this.ucComboboxTreeList1 = new MVControl.ucComboboxTreeList();
+            this.button1 = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.cboDateTime.Properties)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,33 +48,29 @@ namespace MVControl
             this.cboDateTime.Size = new System.Drawing.Size(288, 20);
             this.cboDateTime.TabIndex = 0;
             // 
-            // ucComboboxTreeList1
+            // button1
             // 
-            this.ucComboboxTreeList1.ColumnDisplayName = null;
-            this.ucComboboxTreeList1.DataSource = null;
-            this.ucComboboxTreeList1.EditValue = null;
-            this.ucComboboxTreeList1.KeyFieldName = null;
-            this.ucComboboxTreeList1.Location = new System.Drawing.Point(146, 107);
-            this.ucComboboxTreeList1.LookAndFeel.SkinName = "Blue";
-            this.ucComboboxTreeList1.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.ucComboboxTreeList1.MaximumSize = new System.Drawing.Size(1000, 20);
-            this.ucComboboxTreeList1.MinimumSize = new System.Drawing.Size(10, 20);
-            this.ucComboboxTreeList1.Name = "ucComboboxTreeList1";
-            this.ucComboboxTreeList1.ParentFieldName = null;
-            this.ucComboboxTreeList1.ReadOnly = false;
-            this.ucComboboxTreeList1.SelectedIndex = 0;
-            this.ucComboboxTreeList1.Size = new System.Drawing.Size(320, 20);
-            this.ucComboboxTreeList1.TabIndex = 0;
-            this.ucComboboxTreeList1.TextValue = null;
+            this.button1.Location = new System.Drawing.Point(525, 681);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(176, 80);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // Form1
             // 
             this.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
             this.Appearance.Options.UseBackColor = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 616);
-            this.Controls.Add(this.ucComboboxTreeList1);
+            this.ClientSize = new System.Drawing.Size(1476, 900);
+            this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "frmCapNhatNgayHoangThanh";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -85,6 +82,7 @@ namespace MVControl
 
         #endregion
 
-        private ucComboboxTreeList ucComboboxTreeList1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

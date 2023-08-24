@@ -16,6 +16,7 @@ namespace ReportHuda
         {
             Commons.Modules.ModuleName = "ECOMAIN";
             Commons.Modules.UserName = "admin";
+            Commons.Modules.UserName = "binh_1078";
             //Commons.Modules.UserName = "ngannv";
             Commons.Modules.TypeLanguage = 0;
             Commons.Modules.sPrivate = "TRUNGNGUYEN";
@@ -24,19 +25,19 @@ namespace ReportHuda
             //Commons.IConnections.Server = @"10.39.244.219\sql2008";
             //Commons.IConnections.Server = @".";
 
-
-            Commons.IConnections.Database = "CMMS_TN";
+            Commons.Modules.sExcelTemp = "0";
+            Commons.IConnections.Database = "CMMS_BARIA";
             Commons.IConnections.Server = ".\\sql2017";
 
-            Commons.IConnections.Server = ".\\SQL2016";
-            Commons.IConnections.Password = "123";
+            Commons.IConnections.Server = "27.74.240.29,1435";
+            Commons.IConnections.Server = "27.74.240.29";
+            Commons.IConnections.Password = "codaikadaiku";
             Commons.IConnections.Username = "sa";
 
-            Commons.IConnections.Database = "CMMS_REMINGTON";
             //Commons.IConnections.Database = "CMMS_GREENFEED";
             //Commons.IConnections.Database = "CMMS_VF";
-            Commons.Modules.sMailFrom = "ecomaint.cmms@gmail.com";
-            Commons.Modules.sMailFromPass = "Namviet@2017";
+            Commons.Modules.sMailFrom = "bamboo271196@gmail.com";
+            Commons.Modules.sMailFromPass = "esupavujyhakbxrd";
             Commons.Modules.sMailFromSmtp = "smtp.gmail.com";
             Commons.Modules.sMailFromPort = "587";
 
@@ -68,7 +69,9 @@ namespace ReportHuda
         {
             try
             {
-                Application.Run(new Form1());
+                //Application.Run(new Form1());
+                Application.Run(new frmPhatSinhDichVu());
+                //Application.Run(new frmPhanQuyenDVPS());
                 //Application.Run(new frmTaoKHTT());
                 //Application.Run(new frmChonVTINTPBT());
                 // Application.Run(new frmPhatSinhDichVu());
@@ -97,7 +100,7 @@ namespace ReportHuda
                 //frm.sPBT = "WO-201810000001";
                 //frm.ShowDialog();
 
-               
+
                 //Application.Run(new General.frmFactoryStatistical());
                 //Application.Run(new General.frmMaterialStatistical());
 

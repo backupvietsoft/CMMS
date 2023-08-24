@@ -3,5 +3,13 @@
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
     <ReferencePath>C:\Program Files\Business Objects\Common\2.8\managed\</ReferencePath>
+    <PublishUrlHistory />
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
   </PropertyGroup>
 </Project>

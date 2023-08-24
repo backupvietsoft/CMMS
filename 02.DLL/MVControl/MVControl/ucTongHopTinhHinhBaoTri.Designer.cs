@@ -35,9 +35,7 @@
             this.lblLMay = new System.Windows.Forms.Label();
             this.cboLMay = new DevExpress.XtraEditors.LookUpEdit();
             this.lblDDiem = new System.Windows.Forms.Label();
-            this.cboDDiem = new MVControl.ucComboboxTreeList();
             this.lblDChuyen = new System.Windows.Forms.Label();
-            this.cboDChuyen = new MVControl.ucComboboxTreeList();
             this.datDNgay = new DevExpress.XtraEditors.DateEdit();
             this.lblDNgay = new System.Windows.Forms.Label();
             this.datTNgay = new DevExpress.XtraEditors.DateEdit();
@@ -48,6 +46,8 @@
             this.chkTT = new DevExpress.XtraEditors.CheckedListBoxControl();
             this.label2 = new System.Windows.Forms.Label();
             this.prbIN = new DevExpress.XtraEditors.MarqueeProgressBarControl();
+            this.cboDDiem = new MVControl.ucComboboxTreeList();
+            this.cboDChuyen = new MVControl.ucComboboxTreeList();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cboLMay.Properties)).BeginInit();
@@ -89,39 +89,41 @@
             this.tableLayoutPanel1.Controls.Add(this.prbIN, 0, 8);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 10;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 15F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(900, 600);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 12F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 61F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1350, 877);
             this.tableLayoutPanel1.TabIndex = 6;
             // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 5;
             this.tableLayoutPanel1.SetColumnSpan(this.tableLayoutPanel3, 6);
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 165F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 165F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 165F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 165F));
             this.tableLayoutPanel3.Controls.Add(this.btnThoat, 4, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnExecute, 3, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 561);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 820);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(894, 36);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1342, 53);
             this.tableLayoutPanel3.TabIndex = 20;
             // 
             // btnThoat
@@ -129,11 +131,12 @@
             this.btnThoat.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.Appearance.Options.UseFont = true;
             this.btnThoat.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnThoat.Location = new System.Drawing.Point(787, 3);
+            this.btnThoat.Location = new System.Drawing.Point(1181, 4);
             this.btnThoat.LookAndFeel.SkinName = "Blue";
             this.btnThoat.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(104, 30);
+            this.btnThoat.Size = new System.Drawing.Size(157, 45);
             this.btnThoat.TabIndex = 11;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
@@ -143,11 +146,12 @@
             this.btnExecute.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExecute.Appearance.Options.UseFont = true;
             this.btnExecute.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnExecute.Location = new System.Drawing.Point(677, 3);
+            this.btnExecute.Location = new System.Drawing.Point(1016, 4);
             this.btnExecute.LookAndFeel.SkinName = "Blue";
             this.btnExecute.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.btnExecute.Margin = new System.Windows.Forms.Padding(4);
             this.btnExecute.Name = "btnExecute";
-            this.btnExecute.Size = new System.Drawing.Size(104, 30);
+            this.btnExecute.Size = new System.Drawing.Size(157, 45);
             this.btnExecute.TabIndex = 10;
             this.btnExecute.Text = "Thực hiện";
             this.btnExecute.Click += new System.EventHandler(this.btnExecute_Click);
@@ -155,9 +159,10 @@
             // lblLMay
             // 
             this.lblLMay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblLMay.Location = new System.Drawing.Point(138, 94);
+            this.lblLMay.Location = new System.Drawing.Point(206, 138);
+            this.lblLMay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLMay.Name = "lblLMay";
-            this.lblLMay.Size = new System.Drawing.Size(102, 25);
+            this.lblLMay.Size = new System.Drawing.Size(154, 37);
             this.lblLMay.TabIndex = 9;
             this.lblLMay.Text = "lblLMay";
             this.lblLMay.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -165,7 +170,8 @@
             // cboLMay
             // 
             this.cboLMay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cboLMay.Location = new System.Drawing.Point(246, 97);
+            this.cboLMay.Location = new System.Drawing.Point(368, 142);
+            this.cboLMay.Margin = new System.Windows.Forms.Padding(4);
             this.cboLMay.Name = "cboLMay";
             this.cboLMay.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit;
             this.cboLMay.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -173,71 +179,38 @@
             this.cboLMay.Properties.LookAndFeel.SkinName = "Blue";
             this.cboLMay.Properties.LookAndFeel.UseDefaultLookAndFeel = false;
             this.cboLMay.Properties.SearchMode = DevExpress.XtraEditors.Controls.SearchMode.AutoComplete;
-            this.cboLMay.Size = new System.Drawing.Size(201, 20);
+            this.cboLMay.Size = new System.Drawing.Size(302, 26);
             this.cboLMay.TabIndex = 6;
             this.cboLMay.EditValueChanged += new System.EventHandler(this.cboLMay_EditValueChanged);
             // 
             // lblDDiem
             // 
             this.lblDDiem.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblDDiem.Location = new System.Drawing.Point(138, 69);
+            this.lblDDiem.Location = new System.Drawing.Point(206, 101);
+            this.lblDDiem.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDDiem.Name = "lblDDiem";
-            this.lblDDiem.Size = new System.Drawing.Size(102, 25);
+            this.lblDDiem.Size = new System.Drawing.Size(154, 37);
             this.lblDDiem.TabIndex = 9;
             this.lblDDiem.Text = "lblDDiem";
             this.lblDDiem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // cboDDiem
-            // 
-            this.cboDDiem.ColumnDisplayName = null;
-            this.cboDDiem.DataSource = null;
-            this.cboDDiem.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cboDDiem.EditValue = null;
-            this.cboDDiem.KeyFieldName = null;
-            this.cboDDiem.Location = new System.Drawing.Point(246, 72);
-            this.cboDDiem.MaximumSize = new System.Drawing.Size(1000, 20);
-            this.cboDDiem.MinimumSize = new System.Drawing.Size(10, 20);
-            this.cboDDiem.Name = "cboDDiem";
-            this.cboDDiem.ParentFieldName = null;
-            this.cboDDiem.ReadOnly = false;
-            this.cboDDiem.SelectedIndex = 0;
-            this.cboDDiem.Size = new System.Drawing.Size(201, 20);
-            this.cboDDiem.TabIndex = 3;
-            this.cboDDiem.TextValue = null;
-            // 
             // lblDChuyen
             // 
             this.lblDChuyen.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblDChuyen.Location = new System.Drawing.Point(453, 69);
+            this.lblDChuyen.Location = new System.Drawing.Point(678, 101);
+            this.lblDChuyen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDChuyen.Name = "lblDChuyen";
-            this.lblDChuyen.Size = new System.Drawing.Size(102, 25);
+            this.lblDChuyen.Size = new System.Drawing.Size(154, 37);
             this.lblDChuyen.TabIndex = 9;
             this.lblDChuyen.Text = "lblDChuyen";
             this.lblDChuyen.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // cboDChuyen
-            // 
-            this.cboDChuyen.ColumnDisplayName = null;
-            this.cboDChuyen.DataSource = null;
-            this.cboDChuyen.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cboDChuyen.EditValue = null;
-            this.cboDChuyen.KeyFieldName = null;
-            this.cboDChuyen.Location = new System.Drawing.Point(561, 72);
-            this.cboDChuyen.MaximumSize = new System.Drawing.Size(1000, 20);
-            this.cboDChuyen.MinimumSize = new System.Drawing.Size(10, 20);
-            this.cboDChuyen.Name = "cboDChuyen";
-            this.cboDChuyen.ParentFieldName = null;
-            this.cboDChuyen.ReadOnly = false;
-            this.cboDChuyen.SelectedIndex = 0;
-            this.cboDChuyen.Size = new System.Drawing.Size(201, 20);
-            this.cboDChuyen.TabIndex = 4;
-            this.cboDChuyen.TextValue = null;
             // 
             // datDNgay
             // 
             this.datDNgay.Dock = System.Windows.Forms.DockStyle.Fill;
             this.datDNgay.EditValue = null;
-            this.datDNgay.Location = new System.Drawing.Point(561, 47);
+            this.datDNgay.Location = new System.Drawing.Point(840, 68);
+            this.datDNgay.Margin = new System.Windows.Forms.Padding(4);
             this.datDNgay.Name = "datDNgay";
             this.datDNgay.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -251,15 +224,16 @@
             this.datDNgay.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.DateTimeAdvancingCaret;
             this.datDNgay.Properties.VistaTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.datDNgay.Size = new System.Drawing.Size(201, 20);
+            this.datDNgay.Size = new System.Drawing.Size(302, 26);
             this.datDNgay.TabIndex = 21;
             // 
             // lblDNgay
             // 
             this.lblDNgay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblDNgay.Location = new System.Drawing.Point(453, 44);
+            this.lblDNgay.Location = new System.Drawing.Point(678, 64);
+            this.lblDNgay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDNgay.Name = "lblDNgay";
-            this.lblDNgay.Size = new System.Drawing.Size(102, 25);
+            this.lblDNgay.Size = new System.Drawing.Size(154, 37);
             this.lblDNgay.TabIndex = 9;
             this.lblDNgay.Text = "lblDNgay";
             this.lblDNgay.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -268,7 +242,8 @@
             // 
             this.datTNgay.Dock = System.Windows.Forms.DockStyle.Fill;
             this.datTNgay.EditValue = null;
-            this.datTNgay.Location = new System.Drawing.Point(246, 47);
+            this.datTNgay.Location = new System.Drawing.Point(368, 68);
+            this.datTNgay.Margin = new System.Windows.Forms.Padding(4);
             this.datTNgay.Name = "datTNgay";
             this.datTNgay.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -282,15 +257,16 @@
             this.datTNgay.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.DateTimeAdvancingCaret;
             this.datTNgay.Properties.VistaTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.datTNgay.Size = new System.Drawing.Size(201, 20);
+            this.datTNgay.Size = new System.Drawing.Size(302, 26);
             this.datTNgay.TabIndex = 21;
             // 
             // lblTNgay
             // 
             this.lblTNgay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTNgay.Location = new System.Drawing.Point(138, 44);
+            this.lblTNgay.Location = new System.Drawing.Point(206, 64);
+            this.lblTNgay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTNgay.Name = "lblTNgay";
-            this.lblTNgay.Size = new System.Drawing.Size(102, 25);
+            this.lblTNgay.Size = new System.Drawing.Size(154, 37);
             this.lblTNgay.TabIndex = 9;
             this.lblTNgay.Text = "lblTNgay";
             this.lblTNgay.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -299,7 +275,8 @@
             // 
             this.tableLayoutPanel1.SetColumnSpan(this.optNgay, 4);
             this.optNgay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.optNgay.Location = new System.Drawing.Point(138, 18);
+            this.optNgay.Location = new System.Drawing.Point(206, 26);
+            this.optNgay.Margin = new System.Windows.Forms.Padding(4);
             this.optNgay.Name = "optNgay";
             this.optNgay.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.optNgay.Properties.Appearance.Options.UseBackColor = true;
@@ -309,15 +286,16 @@
             new DevExpress.XtraEditors.Controls.RadioGroupItem("optDenNgay", "optDenNgay")});
             this.optNgay.Properties.LookAndFeel.SkinName = "Blue";
             this.optNgay.Properties.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.optNgay.Size = new System.Drawing.Size(624, 23);
+            this.optNgay.Size = new System.Drawing.Size(936, 34);
             this.optNgay.TabIndex = 23;
             // 
             // lblNhomMay
             // 
             this.lblNhomMay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblNhomMay.Location = new System.Drawing.Point(453, 94);
+            this.lblNhomMay.Location = new System.Drawing.Point(678, 138);
+            this.lblNhomMay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNhomMay.Name = "lblNhomMay";
-            this.lblNhomMay.Size = new System.Drawing.Size(102, 25);
+            this.lblNhomMay.Size = new System.Drawing.Size(154, 37);
             this.lblNhomMay.TabIndex = 9;
             this.lblNhomMay.Text = "lblNhomMay";
             this.lblNhomMay.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -325,7 +303,8 @@
             // cboNMay
             // 
             this.cboNMay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cboNMay.Location = new System.Drawing.Point(561, 97);
+            this.cboNMay.Location = new System.Drawing.Point(840, 142);
+            this.cboNMay.Margin = new System.Windows.Forms.Padding(4);
             this.cboNMay.Name = "cboNMay";
             this.cboNMay.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit;
             this.cboNMay.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -333,7 +312,7 @@
             this.cboNMay.Properties.LookAndFeel.SkinName = "Blue";
             this.cboNMay.Properties.LookAndFeel.UseDefaultLookAndFeel = false;
             this.cboNMay.Properties.SearchMode = DevExpress.XtraEditors.Controls.SearchMode.AutoComplete;
-            this.cboNMay.Size = new System.Drawing.Size(201, 20);
+            this.cboNMay.Size = new System.Drawing.Size(302, 26);
             this.cboNMay.TabIndex = 6;
             // 
             // chkTT
@@ -349,20 +328,22 @@
             new DevExpress.XtraEditors.Controls.CheckedListBoxItem(null, "chkDungHan", System.Windows.Forms.CheckState.Checked),
             new DevExpress.XtraEditors.Controls.CheckedListBoxItem(null, "chkTruochan", System.Windows.Forms.CheckState.Checked),
             new DevExpress.XtraEditors.Controls.CheckedListBoxItem(null, "chkChuaLam", System.Windows.Forms.CheckState.Checked)});
-            this.chkTT.Location = new System.Drawing.Point(246, 122);
+            this.chkTT.Location = new System.Drawing.Point(368, 179);
             this.chkTT.LookAndFeel.SkinName = "Blue";
             this.chkTT.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.chkTT.Margin = new System.Windows.Forms.Padding(4);
             this.chkTT.MultiColumn = true;
             this.chkTT.Name = "chkTT";
-            this.chkTT.Size = new System.Drawing.Size(516, 19);
+            this.chkTT.Size = new System.Drawing.Size(774, 29);
             this.chkTT.TabIndex = 24;
             // 
             // label2
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(138, 119);
+            this.label2.Location = new System.Drawing.Point(206, 175);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 25);
+            this.label2.Size = new System.Drawing.Size(154, 37);
             this.label2.TabIndex = 9;
             this.label2.Text = "lblNhomMay";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -372,7 +353,8 @@
             this.tableLayoutPanel1.SetColumnSpan(this.prbIN, 6);
             this.prbIN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.prbIN.EditValue = "";
-            this.prbIN.Location = new System.Drawing.Point(3, 539);
+            this.prbIN.Location = new System.Drawing.Point(4, 788);
+            this.prbIN.Margin = new System.Windows.Forms.Padding(4);
             this.prbIN.Name = "prbIN";
             this.prbIN.Properties.AllowFocused = false;
             this.prbIN.Properties.LookAndFeel.SkinName = "Blue";
@@ -381,18 +363,57 @@
             this.prbIN.Properties.NullText = "Exporting excel, please wait..\";";
             this.prbIN.Properties.ProgressViewStyle = DevExpress.XtraEditors.Controls.ProgressViewStyle.Solid;
             this.prbIN.Properties.Stopped = true;
-            this.prbIN.Size = new System.Drawing.Size(894, 16);
+            this.prbIN.Size = new System.Drawing.Size(1342, 24);
             this.prbIN.TabIndex = 25;
+            // 
+            // cboDDiem
+            // 
+            this.cboDDiem.ColumnDisplayName = null;
+            this.cboDDiem.DataSource = null;
+            this.cboDDiem.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cboDDiem.EditValue = null;
+            this.cboDDiem.KeyFieldName = null;
+            this.cboDDiem.Location = new System.Drawing.Point(370, 107);
+            this.cboDDiem.Margin = new System.Windows.Forms.Padding(6);
+            this.cboDDiem.MaximumSize = new System.Drawing.Size(1500, 29);
+            this.cboDDiem.MinimumSize = new System.Drawing.Size(15, 29);
+            this.cboDDiem.Name = "cboDDiem";
+            this.cboDDiem.ParentFieldName = null;
+            this.cboDDiem.ReadOnly = false;
+            this.cboDDiem.SelectedIndex = 0;
+            this.cboDDiem.Size = new System.Drawing.Size(298, 29);
+            this.cboDDiem.TabIndex = 3;
+            this.cboDDiem.TextValue = null;
+            // 
+            // cboDChuyen
+            // 
+            this.cboDChuyen.ColumnDisplayName = null;
+            this.cboDChuyen.DataSource = null;
+            this.cboDChuyen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cboDChuyen.EditValue = null;
+            this.cboDChuyen.KeyFieldName = null;
+            this.cboDChuyen.Location = new System.Drawing.Point(842, 107);
+            this.cboDChuyen.Margin = new System.Windows.Forms.Padding(6);
+            this.cboDChuyen.MaximumSize = new System.Drawing.Size(1500, 29);
+            this.cboDChuyen.MinimumSize = new System.Drawing.Size(15, 29);
+            this.cboDChuyen.Name = "cboDChuyen";
+            this.cboDChuyen.ParentFieldName = null;
+            this.cboDChuyen.ReadOnly = false;
+            this.cboDChuyen.SelectedIndex = 0;
+            this.cboDChuyen.Size = new System.Drawing.Size(298, 29);
+            this.cboDChuyen.TabIndex = 4;
+            this.cboDChuyen.TextValue = null;
             // 
             // ucTongHopTinhHinhBaoTri
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tableLayoutPanel1);
             this.LookAndFeel.SkinName = "Blue";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ucTongHopTinhHinhBaoTri";
-            this.Size = new System.Drawing.Size(900, 600);
+            this.Size = new System.Drawing.Size(1350, 877);
             this.Load += new System.EventHandler(this.ucTongHopTinhHinhBaoTri_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);

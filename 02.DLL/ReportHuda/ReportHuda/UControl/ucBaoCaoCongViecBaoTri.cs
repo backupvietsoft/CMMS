@@ -353,7 +353,7 @@ namespace ReportHuda
                     dtTmp = new DataTable();
                     dtTmp.Load(cmd.ExecuteReader());
                 }
-                catch 
+                catch(Exception ex)
                 {}
 
                 if (dtTmp.Rows.Count == 0)
@@ -467,6 +467,9 @@ namespace ReportHuda
                 Dong++;
                 stmp = lblDDiem.Text + " : " + cboDDiem.TextValue;
                 Commons.Modules.MExcel.DinhDang(xlWorkSheet, stmp, Dong, 2, "@", 10, true, true, Dong, 4);
+
+                Commons.Modules.MExcel.DinhDang(xlWorkSheet, lblLMay.Text + " : " + cboLMay.Text, Dong, 5, "@", 10, true, true, Dong, 8);
+
                 #region prb
                 prbIN.PerformStep();
                 prbIN.Update();
@@ -476,6 +479,9 @@ namespace ReportHuda
                 stmp = lblDChuyen.Text + " : " + cboDChuyen.TextValue;
                 Commons.Modules.MExcel.DinhDang(xlWorkSheet, stmp, Dong, 2, "@", 10, true, true, Dong, 4);
 
+                Commons.Modules.MExcel.DinhDang(xlWorkSheet, lblDonVi.Text + " : " + cboDonVi.Text, Dong, 5, "@", 10, true, true, Dong, 8);
+
+
                 #region prb
                 prbIN.PerformStep();
                 prbIN.Update();
@@ -484,7 +490,7 @@ namespace ReportHuda
                 Dong++;
                 stmp = lblLBaoTri.Text + " : " + cboLBTri.Text;
                 Commons.Modules.MExcel.DinhDang(xlWorkSheet, stmp, Dong, 2, "@", 10, true, true, Dong, 4);
-
+                Commons.Modules.MExcel.DinhDang(xlWorkSheet, lblPhongBan.Text + " : " + cboPhongBan.Text, Dong, 5, "@", 10, true, true, Dong, 8);
                 Dong++;
  
                 #region prb
@@ -1671,6 +1677,9 @@ namespace ReportHuda
                     stmp = lblLoaiBCao.Text + " : " + optBCao.Properties.Items[optBCao.SelectedIndex].Description.ToString();
                     Commons.Modules.MExcel.DinhDang(xlWorkSheet, stmp, 12, 2, "@", 10, true, true, 12, 4);
 
+                    stmp = lblTuyChon.Text + " : " + optTuychon.Properties.Items[optBCao.SelectedIndex].Description.ToString();
+                    Commons.Modules.MExcel.DinhDang(xlWorkSheet, stmp, 12, 5, "@", 10, true, true, 12, 8);
+
                     //them logo sheet1
                     //Commons.Modules.MExcel.ThemDong(xlWSheet2, Microsoft.Office.Interop.Excel.XlInsertShiftDirection.xlShiftDown, 6, 1);
                     Dong = Commons.Modules.MExcel.TaoTTChung(xlWSheet2, 1, 3, 1, 15);
@@ -1717,8 +1726,6 @@ namespace ReportHuda
             sPath = "";
             sPath = Commons.Modules.MExcel.SaveFiles("Excel file (*.xlsx)|*.xlsx");
             if (sPath == "") return;
-
-
             Excel.Application xlApp = new Excel.Application();
             xlApp.DisplayAlerts = false;
             System.Globalization.CultureInfo oldCI = System.Threading.Thread.CurrentThread.CurrentCulture;
@@ -1791,6 +1798,7 @@ namespace ReportHuda
                 Dong++;
                 stmp = lblDDiem.Text + " : " + cboDDiem.TextValue;
                 Commons.Modules.MExcel.DinhDang(xlWorkSheet, stmp, Dong, 2, "@", 10, true, true, Dong, 4);
+                Commons.Modules.MExcel.DinhDang(xlWorkSheet, lblLMay.Text + " : " + cboLMay.Text, Dong, 5, "@", 10, true, true, Dong, 8);
                 #region prb
                 prbIN.PerformStep();
                 prbIN.Update();
@@ -1799,6 +1807,7 @@ namespace ReportHuda
                 Dong++;
                 stmp = lblDChuyen.Text + " : " + cboDChuyen.TextValue;
                 Commons.Modules.MExcel.DinhDang(xlWorkSheet, stmp, Dong, 2, "@", 10, true, true, Dong, 4);
+                Commons.Modules.MExcel.DinhDang(xlWorkSheet, lblDonVi.Text + " : " + cboDonVi.Text, Dong, 5, "@", 10, true, true, Dong, 8);
 
                 #region prb
                 prbIN.PerformStep();
@@ -1808,6 +1817,7 @@ namespace ReportHuda
                 Dong++;
                 stmp = lblLBaoTri.Text + " : " + cboLBTri.Text;
                 Commons.Modules.MExcel.DinhDang(xlWorkSheet, stmp, Dong, 2, "@", 10, true, true, Dong, 4);
+                Commons.Modules.MExcel.DinhDang(xlWorkSheet, lblPhongBan.Text + " : " + cboPhongBan.Text, Dong, 5, "@", 10, true, true, Dong, 8);
 
                 Dong++;
 
@@ -2031,8 +2041,6 @@ namespace ReportHuda
                 Excel.Worksheet xlWSheet2 = (Excel.Worksheet)xlWorkBook.Sheets[1];
                 xlWSheet2.Name= "BCTongHop";
                 xlWSheet2.Activate();
-
-
                 int iDongTH = 2;
                 int iCotTH = 2;
                 #region prb
@@ -2998,6 +3006,10 @@ namespace ReportHuda
                     Commons.Modules.MExcel.ThemDong(xlWorkSheet, Microsoft.Office.Interop.Excel.XlInsertShiftDirection.xlShiftDown, 1, 12);
                     stmp = lblLoaiBCao.Text + " : " + optBCao.Properties.Items[optBCao.SelectedIndex].Description.ToString();
                     Commons.Modules.MExcel.DinhDang(xlWorkSheet, stmp, 12, 2, "@", 10, true, true, 12, 4);
+
+                    stmp = lblTuyChon.Text + " : " + optTuychon.Properties.Items[optBCao.SelectedIndex].Description.ToString();
+                    Commons.Modules.MExcel.DinhDang(xlWorkSheet, stmp, 12, 5, "@", 10, true, true, 12, 8);
+
 
                     //them logo sheet1
                     //Commons.Modules.MExcel.ThemDong(xlWSheet2, Microsoft.Office.Interop.Excel.XlInsertShiftDirection.xlShiftDown, 6, 1);

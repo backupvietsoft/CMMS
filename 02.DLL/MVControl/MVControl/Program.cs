@@ -19,8 +19,8 @@ namespace MVControl
             //Commons.IConnections.Server = @"10.39.244.220\sql2008";
             Commons.IConnections.Database = "CMMS_REMINGTON";
             //Commons.IConnections.Database = "CMMS_VH";
-            Commons.IConnections.Password = "123";
-            Commons.IConnections.Username = "sa";
+            Commons.IConnections.Server = "27.74.240.29,1433";
+            Commons.IConnections.Password = "codaikadaiku";
             Commons.Modules.sMailFrom = "ecomaint.cmms@gmail.com";
             Commons.Modules.sMailFromPass = "Namviet@2017";
             Commons.Modules.sMailFromSmtp = "smtp.gmail.com";
@@ -33,10 +33,10 @@ namespace MVControl
             //Commons.IConnections.Password = "Vifon@123";
             //Commons.IConnections.Server = "172.23.234.23";
             //Commons.IConnections.Password = "Pil@2018";
-            //Commons.IConnections.Username = "sa";
+            Commons.IConnections.Username = "sa";
             //Commons.IConnections.Database = "CMMS_demo";
             //Commons.IConnections.Server = ".";
-            Commons.IConnections.Server = ".\\sql2017";
+            //Commons.IConnections.Server = ".\\sql2017";
             //Commons.IConnections.Server = "10.39.244.200";
 
             Vietsoft.Information.UserID = Commons.Modules.UserName;
@@ -73,8 +73,8 @@ namespace MVControl
         {
             try
             {
-                Application.Run(new frmTGNM());
-                //Application.Run(new XtraForm1());
+                //Application.Run(new frmTGNM());
+                Application.Run(new Form1());
                 //Application.Run(new frmThoigianngungmayNEW());
                 //Application.Run(new frmBaoCaoChiPhi());
                 //Application.Run(new frmQuanlynhanvien());

@@ -767,3 +767,10 @@ D:\01.SourceCode\01.CMMS\01.CMMS\CMMS\obj\Debug\CMMS.exe
 D:\01.SourceCode\01.CMMS\01.CMMS\CMMS\obj\Debug\CMMS.xml
 D:\01.SourceCode\01.CMMS\01.CMMS\CMMS\obj\Debug\CMMS.pdb
 D:\01.SourceCode\01.CMMS\01.CMMS\CMMS\obj\Debug\FrmChonVatTuXuat.resources
+D:\01.SourceCode\01.CMMS\01.CMMS\CMMS\bin\Debug\ReportMain.exe.config
+D:\01.SourceCode\01.CMMS\01.CMMS\CMMS\bin\Debug\VietShape.dll
+D:\01.SourceCode\01.CMMS\01.CMMS\CMMS\bin\Debug\VietShape.pdb
+D:\01.SourceCode\01.CMMS\01.CMMS\CMMS\bin\Debug\VietShape.dll.config
+D:\01.SourceCode\01.CMMS\01.CMMS\CMMS\bin\Debug\MReportVB.pdb
+D:\01.SourceCode\01.CMMS\01.CMMS\CMMS\bin\Debug\MReportVB.xml
+D:\01.SourceCode\01.CMMS\01.CMMS\CMMS\bin\Debug\MReportVB.dll
