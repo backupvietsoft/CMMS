@@ -108,54 +108,15 @@
     </xs:element>
   </xs:schema>
   <THE_KHO>
-    <TON_DAU>9</TON_DAU>
+    <TON_DAU>0</TON_DAU>
     <SL_XUAT>0</SL_XUAT>
     <SL_NHAP>0</SL_NHAP>
     <SL_CHUYEN_DI>0</SL_CHUYEN_DI>
     <SL_CHUYEN_DEN>0</SL_CHUYEN_DEN>
     <SL_CHENH_LECH>0</SL_CHENH_LECH>
-    <TON_CUOI_KY>9</TON_CUOI_KY>
+    <TON_CUOI_KY>0</TON_CUOI_KY>
     <MS_DANG_NHAP>-1</MS_DANG_NHAP>
     <LOAI>3</LOAI>
-  </THE_KHO>
-  <THE_KHO>
-    <TON_DAU>0</TON_DAU>
-    <NGAY>2023-03-28T00:00:00+07:00</NGAY>
-    <CHUNG_TU>Nhập khácPN-2303-0001</CHUNG_TU>
-    <SL_XUAT>0</SL_XUAT>
-    <SL_NHAP>10</SL_NHAP>
-    <SL_CHUYEN_DI>0</SL_CHUYEN_DI>
-    <SL_CHUYEN_DEN>0</SL_CHUYEN_DEN>
-    <SL_CHENH_LECH>0</SL_CHENH_LECH>
-    <TON_CUOI_KY>19</TON_CUOI_KY>
-    <MS_DANG_NHAP>2</MS_DANG_NHAP>
-    <LOAI>1</LOAI>
-  </THE_KHO>
-  <THE_KHO>
-    <TON_DAU>0</TON_DAU>
-    <NGAY>2023-03-31T15:36:52+07:00</NGAY>
-    <CHUNG_TU>KhácPX-2303-0002</CHUNG_TU>
-    <SL_XUAT>3</SL_XUAT>
-    <SL_NHAP>0</SL_NHAP>
-    <SL_CHUYEN_DI>0</SL_CHUYEN_DI>
-    <SL_CHUYEN_DEN>0</SL_CHUYEN_DEN>
-    <SL_CHENH_LECH>0</SL_CHENH_LECH>
-    <TON_CUOI_KY>16</TON_CUOI_KY>
-    <MS_DANG_NHAP>3</MS_DANG_NHAP>
-    <LOAI>2</LOAI>
-  </THE_KHO>
-  <THE_KHO>
-    <TON_DAU>0</TON_DAU>
-    <NGAY>2023-04-01T16:47:06+07:00</NGAY>
-    <CHUNG_TU>Xuất cho bộ phận chịu phíPX-2304-0001</CHUNG_TU>
-    <SL_XUAT>1</SL_XUAT>
-    <SL_NHAP>0</SL_NHAP>
-    <SL_CHUYEN_DI>0</SL_CHUYEN_DI>
-    <SL_CHUYEN_DEN>0</SL_CHUYEN_DEN>
-    <SL_CHENH_LECH>0</SL_CHENH_LECH>
-    <TON_CUOI_KY>15</TON_CUOI_KY>
-    <MS_DANG_NHAP>4</MS_DANG_NHAP>
-    <LOAI>2</LOAI>
   </THE_KHO>
   <Table1>
     <TIEU_DE>THẺ KHO</TIEU_DE>
@@ -171,8 +132,8 @@
     <DAU_KY>Đầu kỳ</DAU_KY>
     <CUOI_KY>Tồn kho </CUOI_KY>
     <TONG>Tổng</TONG>
-    <KHO_PT>Kho : Kho VTPT Bến Lức - Phụ tùng : AIC-AC-001(Máy lạnh)</KHO_PT>
-    <DK_LOC>Từ ngày : 03/03/2023 Đến ngày : 03/04/2023</DK_LOC>
+    <KHO_PT>Kho : Kho Cảng - Phụ tùng : DIE-PM-005(Khuôn ép viên 4.0x65/65-TPM520-205)</KHO_PT>
+    <DK_LOC>Từ ngày : 03/08/2023 Đến ngày : 03/09/2023</DK_LOC>
   </Table1>
   <rptTitlereport>
     <THONG_TIN_CTY>Công ty TNHH phần mềm Nam Việt
@@ -183,12 +144,12 @@ Telephone: 084 28 3 8 110  Fax: 084 28 3 8 110</THONG_TIN_CTY>
     <LE_TREN_LOGO>120</LE_TREN_LOGO>
     <WIDTH>1800</WIDTH>
     <HEIGHT>500</HEIGHT>
-    <NGAY_IN>Ngày in : : 03/04/2023</NGAY_IN>
+    <NGAY_IN>Ngày in : : 03/09/2023</NGAY_IN>
     <PAGE>Trang: </PAGE>
     <OFPAGE>/</OFPAGE>
     <TTC_CAO>700</TTC_CAO>
     <TTC_RONG>7000</TTC_RONG>
     <USER_LOG>User : admin</USER_LOG>
-    <NGAY_HT>Ngày : 03/04/2023</NGAY_HT>
+    <NGAY_HT>Ngày : 03/09/2023</NGAY_HT>
   </rptTitlereport>
 </NewDataSet>

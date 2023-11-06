@@ -25,13 +25,14 @@ namespace ReportHuda
             //Commons.IConnections.Server = @"10.39.244.219\sql2008";
             //Commons.IConnections.Server = @".";
 
-            Commons.Modules.sExcelTemp = "0";
-            Commons.IConnections.Database = "CMMS_BARIA";
+            //Commons.Modules.sExcelTemp = "0";
+            Commons.IConnections.Database = "CMMS_BARIA_NEW";
             Commons.IConnections.Server = ".\\sql2017";
 
             Commons.IConnections.Server = "27.74.240.29,1435";
             Commons.IConnections.Server = "27.74.240.29";
-            Commons.IConnections.Password = "codaikadaiku";
+            Commons.IConnections.Server = ".";
+            Commons.IConnections.Password = "123";
             Commons.IConnections.Username = "sa";
 
             //Commons.IConnections.Database = "CMMS_GREENFEED";
@@ -69,8 +70,8 @@ namespace ReportHuda
         {
             try
             {
-                //Application.Run(new Form1());
-                Application.Run(new frmPhatSinhDichVu());
+                Application.Run(new Form1());
+                //Application.Run(new frmPhatSinhDichVu());
                 //Application.Run(new frmPhanQuyenDVPS());
                 //Application.Run(new frmTaoKHTT());
                 //Application.Run(new frmChonVTINTPBT());

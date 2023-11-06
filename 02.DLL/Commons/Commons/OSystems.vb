@@ -13,6 +13,7 @@ Imports System.IO
 Imports System.Net.Sockets
 Imports System.ComponentModel
 Imports System.Reflection
+Imports System.Net
 
 Public Class HardDrive
     Private _model As String = ""
@@ -1112,6 +1113,9 @@ Public Class OSystems
         End If
         Return SERVER_FOLDER_PATH
     End Function
+
+
+
     Function LaySTTChoTaiLieu(ByVal strQuery As String) As Integer
         Dim TBTmp As New DataTable()
         TBTmp = SqlHelper.ExecuteDataset(IConnections.ConnectionString, CommandType.Text, strQuery).Tables(0)
@@ -2415,19 +2419,19 @@ Public Class OSystems
 #Region "exportt file word"
 
     Sub WordReplace(ByVal doc As Microsoft.Office.Interop.Word.Document, ByVal sFindText As String, ByVal sReplaceText As String)
-    Dim missing As Object = System.Type.Missing
-    For Each tmpRange As Microsoft.Office.Interop.Word.Range In doc.StoryRanges
-        tmpRange.Find.Text = sFindText
-        tmpRange.Find.Replacement.Text = sReplaceText
-        tmpRange.Find.Replacement.ParagraphFormat.Alignment = Microsoft.Office.Interop.Word.WdParagraphAlignment.wdAlignParagraphJustify
-        tmpRange.Find.Wrap = Microsoft.Office.Interop.Word.WdFindWrap.wdFindContinue
-        Dim replaceAll As Object = Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll
-        tmpRange.Find.Execute(missing, missing, missing, missing, missing, missing, missing, missing, missing, missing, replaceAll, missing, missing, missing, missing)
-        Exit For
-    Next
-End Sub
+        Dim missing As Object = System.Type.Missing
+        For Each tmpRange As Microsoft.Office.Interop.Word.Range In doc.StoryRanges
+            tmpRange.Find.Text = sFindText
+            tmpRange.Find.Replacement.Text = sReplaceText
+            tmpRange.Find.Replacement.ParagraphFormat.Alignment = Microsoft.Office.Interop.Word.WdParagraphAlignment.wdAlignParagraphJustify
+            tmpRange.Find.Wrap = Microsoft.Office.Interop.Word.WdFindWrap.wdFindContinue
+            Dim replaceAll As Object = Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll
+            tmpRange.Find.Execute(missing, missing, missing, missing, missing, missing, missing, missing, missing, missing, replaceAll, missing, missing, missing, missing)
+            Exit For
+        Next
+    End Sub
 
-    #End Region
+#End Region
 
 
 #Region "MLoadXtraTreeList"
@@ -4397,41 +4401,7 @@ End Sub
         panel.RowCount -= 1
     End Sub
 
-    Public Function MEncryptMD5(ByVal sEncrypt As String, ByVal sKey As String) As String
-        Try
-            Dim keyArr As Byte()
-            Dim EnCryptArr As Byte() = UTF8Encoding.UTF8.GetBytes(sEncrypt)
-            Dim MD5Hash As New Security.Cryptography.MD5CryptoServiceProvider()
-            keyArr = MD5Hash.ComputeHash(UTF8Encoding.UTF8.GetBytes(sKey))
-            Dim tripDes As New Security.Cryptography.TripleDESCryptoServiceProvider()
-            tripDes.Key = keyArr
-            tripDes.Mode = Security.Cryptography.CipherMode.ECB
-            tripDes.Padding = Security.Cryptography.PaddingMode.PKCS7
-            Dim transform As Security.Cryptography.ICryptoTransform = tripDes.CreateEncryptor()
-            Dim arrResult As Byte() = transform.TransformFinalBlock(EnCryptArr, 0, EnCryptArr.Length)
-            Return Convert.ToBase64String(arrResult, 0, arrResult.Length)
-        Catch ex As Exception
-        End Try
-        Return ""
-    End Function
 
-    Public Function MDecryptMD5(ByVal sDecrypt As String, ByVal sKey As String) As String
-        Try
-            Dim keyArr As Byte()
-            Dim DeCryptArr As Byte() = Convert.FromBase64String(sDecrypt)
-            Dim MD5Hash As New Security.Cryptography.MD5CryptoServiceProvider()
-            keyArr = MD5Hash.ComputeHash(UTF8Encoding.UTF8.GetBytes(sKey))
-            Dim tripDes As New Security.Cryptography.TripleDESCryptoServiceProvider()
-            tripDes.Key = keyArr
-            tripDes.Mode = Security.Cryptography.CipherMode.ECB
-            tripDes.Padding = Security.Cryptography.PaddingMode.PKCS7
-            Dim transform As Security.Cryptography.ICryptoTransform = tripDes.CreateDecryptor()
-            Dim arrResult As Byte() = transform.TransformFinalBlock(DeCryptArr, 0, DeCryptArr.Length)
-            Return UTF8Encoding.UTF8.GetString(arrResult)
-        Catch ex As Exception
-        End Try
-        Return ""
-    End Function
 
 
     Public Function MImageToByteArray(ByVal imageIn As System.Drawing.Image) As Byte()
@@ -5371,9 +5341,49 @@ Public Class XtraInputBox
     End Function
 
 
+    'lưu file ftp
+
+    Private Function Loginftp() As NetworkCredential
+        Dim ftpServer As String = ""
+        Dim username As String = ""
+        Dim password As String = ""
+        Dim port As Integer = ""
+
+        Return New NetworkCredential(username, password)
+    End Function
 
 
+    Public Sub UploadFileftp(ByVal localFilePath As String, ByVal remoteDirectory As String, ByVal remoteFileName As String)
+        Using ftpClient = New FtpClient(ftpServer, credentials, port)
+            ftpClient.Connect()
+            ftpClient.UploadFile(localFilePath, Path.Combine(remoteDirectory, remoteFileName))
+            ftpClient.Disconnect()
+        End Using
+    End Sub
+    Public Function DownloadFileAsBytes(ByVal remoteFilePath As String) As Byte()
+        Dim resulst As Byte() = Nothing
 
+        If ftpServer <> "" Then
+
+            Using ftpClient = New FtpClient(ftpServer, credentials, port)
+                ftpClient.Connect()
+
+                Try
+                    Dim localFilePath As String = Path.GetTempFileName()
+                    ftpClient.DownloadFile(localFilePath, remoteFilePath)
+                    resulst = File.ReadAllBytes(localFilePath)
+                    File.Delete(localFilePath)
+                Catch ex As Exception
+                    Console.WriteLine("Error: " & ex.Message)
+                    resulst = Nothing
+                Finally
+                    ftpClient.Disconnect()
+                End Try
+            End Using
+        End If
+
+        Return resulst
+    End Function
 
 
 End Class

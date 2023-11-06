@@ -155,8 +155,47 @@
     <TEN_PT>Máy lạnh</TEN_PT>
     <QUY_CACH />
     <MS_PT_NCC />
-    <SO_LUONG>15.000</SO_LUONG>
-    <GIA_TRI>81320000</GIA_TRI>
+    <SO_LUONG>10.000</SO_LUONG>
+    <GIA_TRI>54000000</GIA_TRI>
+    <ID>1</ID>
+    <TTT>0</TTT>
+    <TTD>0</TTD>
+  </Table2>
+  <Table2>
+    <MS_KHO>17</MS_KHO>
+    <TEN_KHO>Kho VTPT Bến Lức</TEN_KHO>
+    <MS_PT>AIC-PU-001</MS_PT>
+    <TEN_PT>Bơm nước xả</TEN_PT>
+    <QUY_CACH>1.8W</QUY_CACH>
+    <MS_PT_NCC />
+    <SO_LUONG>1.000</SO_LUONG>
+    <GIA_TRI>4840000</GIA_TRI>
+    <ID>1</ID>
+    <TTT>0</TTT>
+    <TTD>0</TTD>
+  </Table2>
+  <Table2>
+    <MS_KHO>17</MS_KHO>
+    <TEN_KHO>Kho VTPT Bến Lức</TEN_KHO>
+    <MS_PT>BAF-BF-002</MS_PT>
+    <TEN_PT>Túi lọc 668x1890mm</TEN_PT>
+    <QUY_CACH>Ф 678x1920mm</QUY_CACH>
+    <MS_PT_NCC />
+    <SO_LUONG>6.000</SO_LUONG>
+    <GIA_TRI>1452000</GIA_TRI>
+    <ID>1</ID>
+    <TTT>40</TTT>
+    <TTD>80</TTD>
+  </Table2>
+  <Table2>
+    <MS_KHO>17</MS_KHO>
+    <TEN_KHO>Kho VTPT Bến Lức</TEN_KHO>
+    <MS_PT>BAF-BF-004</MS_PT>
+    <TEN_PT>Túi lọc 500x1600mm</TEN_PT>
+    <QUY_CACH>Ф 500x1600mm</QUY_CACH>
+    <MS_PT_NCC />
+    <SO_LUONG>2.000</SO_LUONG>
+    <GIA_TRI>400000</GIA_TRI>
     <ID>1</ID>
     <TTT>0</TTT>
     <TTD>0</TTD>
@@ -169,7 +208,7 @@
     <QUY_CACH>Ф220x3550mm</QUY_CACH>
     <MS_PT_NCC />
     <SO_LUONG>1.000</SO_LUONG>
-    <GIA_TRI>1300000</GIA_TRI>
+    <GIA_TRI>1200000</GIA_TRI>
     <ID>1</ID>
     <TTT>0</TTT>
     <TTD>0</TTD>
@@ -220,8 +259,8 @@
     <TEN_PT>Túi lọc 160x2000</TEN_PT>
     <QUY_CACH>160x2000mm (túi trụ, miệng đàn hồi)</QUY_CACH>
     <MS_PT_NCC />
-    <SO_LUONG>15.000</SO_LUONG>
-    <GIA_TRI>1782000</GIA_TRI>
+    <SO_LUONG>12.000</SO_LUONG>
+    <GIA_TRI>1425600</GIA_TRI>
     <ID>1</ID>
     <TTT>26</TTT>
     <TTD>52</TTD>
@@ -233,11 +272,24 @@
     <TEN_PT>Túi lọc 160x2500</TEN_PT>
     <QUY_CACH>160x2500 mm (túi trụ, miệng đàn hồi)</QUY_CACH>
     <MS_PT_NCC />
-    <SO_LUONG>24.000</SO_LUONG>
-    <GIA_TRI>2851200</GIA_TRI>
+    <SO_LUONG>12.000</SO_LUONG>
+    <GIA_TRI>1425600</GIA_TRI>
     <ID>1</ID>
     <TTT>26</TTT>
     <TTD>52</TTD>
+  </Table2>
+  <Table2>
+    <MS_KHO>17</MS_KHO>
+    <TEN_KHO>Kho VTPT Bến Lức</TEN_KHO>
+    <MS_PT>BEA-AS-001</MS_PT>
+    <TEN_PT>Ống lót SKF H 2310</TEN_PT>
+    <QUY_CACH>H2310</QUY_CACH>
+    <MS_PT_NCC>H2310</MS_PT_NCC>
+    <SO_LUONG>3.000</SO_LUONG>
+    <GIA_TRI>335500</GIA_TRI>
+    <ID>1</ID>
+    <TTT>1</TTT>
+    <TTD>3</TTD>
   </Table2>
   <Table2>
     <MS_KHO>17</MS_KHO>
@@ -268,19 +320,6 @@
   <Table2>
     <MS_KHO>17</MS_KHO>
     <TEN_KHO>Kho VTPT Bến Lức</TEN_KHO>
-    <MS_PT>BEA-AS-007</MS_PT>
-    <TEN_PT>Ống lót H 2309</TEN_PT>
-    <QUY_CACH>H 2309</QUY_CACH>
-    <MS_PT_NCC>H 2309</MS_PT_NCC>
-    <SO_LUONG>1.000</SO_LUONG>
-    <GIA_TRI>79200</GIA_TRI>
-    <ID>1</ID>
-    <TTT>1</TTT>
-    <TTD>3</TTD>
-  </Table2>
-  <Table2>
-    <MS_KHO>17</MS_KHO>
-    <TEN_KHO>Kho VTPT Bến Lức</TEN_KHO>
     <MS_PT>BEA-AS-009</MS_PT>
     <TEN_PT>Ống lót H 316</TEN_PT>
     <QUY_CACH>H 316</QUY_CACH>
@@ -298,8 +337,8 @@
     <TEN_PT>Ống lót H 318</TEN_PT>
     <QUY_CACH>H 318</QUY_CACH>
     <MS_PT_NCC>H 318</MS_PT_NCC>
-    <SO_LUONG>4.000</SO_LUONG>
-    <GIA_TRI>1322200</GIA_TRI>
+    <SO_LUONG>7.000</SO_LUONG>
+    <GIA_TRI>2252800</GIA_TRI>
     <ID>1</ID>
     <TTT>1</TTT>
     <TTD>3</TTD>
@@ -415,8 +454,8 @@
     <TEN_PT>Ống lót H 311</TEN_PT>
     <QUY_CACH>H311</QUY_CACH>
     <MS_PT_NCC>H311</MS_PT_NCC>
-    <SO_LUONG>2.000</SO_LUONG>
-    <GIA_TRI>793100</GIA_TRI>
+    <SO_LUONG>4.000</SO_LUONG>
+    <GIA_TRI>1586200</GIA_TRI>
     <ID>1</ID>
     <TTT>1</TTT>
     <TTD>3</TTD>
@@ -1448,19 +1487,6 @@
   <Table2>
     <MS_KHO>17</MS_KHO>
     <TEN_KHO>Kho VTPT Bến Lức</TEN_KHO>
-    <MS_PT>BEA-BE-115</MS_PT>
-    <TEN_PT>Bạc đạn UCF 210</TEN_PT>
-    <QUY_CACH>UCF 210</QUY_CACH>
-    <MS_PT_NCC>UCF 210</MS_PT_NCC>
-    <SO_LUONG>1.000</SO_LUONG>
-    <GIA_TRI>400400</GIA_TRI>
-    <ID>1</ID>
-    <TTT>1</TTT>
-    <TTD>4</TTD>
-  </Table2>
-  <Table2>
-    <MS_KHO>17</MS_KHO>
-    <TEN_KHO>Kho VTPT Bến Lức</TEN_KHO>
     <MS_PT>BEA-BE-116</MS_PT>
     <TEN_PT>Bạc đạn UCF 212</TEN_PT>
     <QUY_CACH>UCF 212</QUY_CACH>
@@ -1782,6 +1808,19 @@
     <ID>1</ID>
     <TTT>1</TTT>
     <TTD>4</TTD>
+  </Table2>
+  <Table2>
+    <MS_KHO>17</MS_KHO>
+    <TEN_KHO>Kho VTPT Bến Lức</TEN_KHO>
+    <MS_PT>BEA-BE-158</MS_PT>
+    <TEN_PT>Bạc đạn 30210</TEN_PT>
+    <QUY_CACH>30210J2/Q</QUY_CACH>
+    <MS_PT_NCC />
+    <SO_LUONG>1.000</SO_LUONG>
+    <GIA_TRI>240000</GIA_TRI>
+    <ID>1</ID>
+    <TTT>0</TTT>
+    <TTD>0</TTD>
   </Table2>
   <Table2>
     <MS_KHO>17</MS_KHO>
@@ -3682,6 +3721,19 @@
     <MS_PT_NCC />
     <SO_LUONG>1.000</SO_LUONG>
     <GIA_TRI>10120000</GIA_TRI>
+    <ID>1</ID>
+    <TTT>0</TTT>
+    <TTD>0</TTD>
+  </Table2>
+  <Table2>
+    <MS_KHO>17</MS_KHO>
+    <TEN_KHO>Kho VTPT Bến Lức</TEN_KHO>
+    <MS_PT>CAB-1C-008</MS_PT>
+    <TEN_PT>Dây cáp điện 2.5mm2</TEN_PT>
+    <QUY_CACH>CV-2.5mm2</QUY_CACH>
+    <MS_PT_NCC />
+    <SO_LUONG>49.000</SO_LUONG>
+    <GIA_TRI>292530</GIA_TRI>
     <ID>1</ID>
     <TTT>0</TTT>
     <TTD>0</TTD>
@@ -12005,6 +12057,19 @@
   <Table2>
     <MS_KHO>17</MS_KHO>
     <TEN_KHO>Kho VTPT Bến Lức</TEN_KHO>
+    <MS_PT>PIP-AC-021</MS_PT>
+    <TEN_PT>Nối ren(răng)ngoài</TEN_PT>
+    <QUY_CACH />
+    <MS_PT_NCC />
+    <SO_LUONG>1.000</SO_LUONG>
+    <GIA_TRI>11000</GIA_TRI>
+    <ID>1</ID>
+    <TTT>0</TTT>
+    <TTD>0</TTD>
+  </Table2>
+  <Table2>
+    <MS_KHO>17</MS_KHO>
+    <TEN_KHO>Kho VTPT Bến Lức</TEN_KHO>
     <MS_PT>PIP-AI-001</MS_PT>
     <TEN_PT>Đầu nối ống khí nén 10x13</TEN_PT>
     <QUY_CACH>10x13</QUY_CACH>
@@ -13419,7 +13484,7 @@
     <QUY_CACH>6001808</QUY_CACH>
     <MS_PT_NCC>6001808</MS_PT_NCC>
     <SO_LUONG>7.000</SO_LUONG>
-    <GIA_TRI>843032.88</GIA_TRI>
+    <GIA_TRI>843032.87999999989</GIA_TRI>
     <ID>1</ID>
     <TTT>2</TTT>
     <TTD>5</TTD>
@@ -15472,8 +15537,8 @@
     <TEN_PT>Khuôn ép viên 2.5x55/30-TPM520-205</TEN_PT>
     <QUY_CACH>Khuon ep vien 2.5x55/30-TPM520-205</QUY_CACH>
     <MS_PT_NCC />
-    <SO_LUONG>2.000</SO_LUONG>
-    <GIA_TRI>5780</GIA_TRI>
+    <SO_LUONG>1.000</SO_LUONG>
+    <GIA_TRI>2890</GIA_TRI>
     <ID>1</ID>
     <TTT>0</TTT>
     <TTD>0</TTD>
@@ -15485,7 +15550,7 @@
     <TEN_PT>Đe máy nghiền 3000-1000</TEN_PT>
     <QUY_CACH>nhu ban ve</QUY_CACH>
     <MS_PT_NCC />
-    <SO_LUONG>2.000</SO_LUONG>
+    <SO_LUONG>1.000</SO_LUONG>
     <GIA_TRI>0</GIA_TRI>
     <ID>1</ID>
     <TTT>0</TTT>
@@ -15578,6 +15643,19 @@
     <MS_PT_NCC />
     <SO_LUONG>30.000</SO_LUONG>
     <GIA_TRI>35640000</GIA_TRI>
+    <ID>1</ID>
+    <TTT>0</TTT>
+    <TTD>0</TTD>
+  </Table2>
+  <Table2>
+    <MS_KHO>22</MS_KHO>
+    <TEN_KHO>Kho Đi Đường Hưng Yên</TEN_KHO>
+    <MS_PT>HAM-BE-005</MS_PT>
+    <TEN_PT>Đe máy nghiền 3000-1000</TEN_PT>
+    <QUY_CACH>nhu ban ve</QUY_CACH>
+    <MS_PT_NCC />
+    <SO_LUONG>1.000</SO_LUONG>
+    <GIA_TRI>0</GIA_TRI>
     <ID>1</ID>
     <TTT>0</TTT>
     <TTD>0</TTD>
@@ -41883,7 +41961,7 @@
   <Table2>
     <MS_KHO>31</MS_KHO>
     <TEN_KHO>Kho VTPT Hà Nam</TEN_KHO>
-    <MS_PT>COS-to-111</MS_PT>
+    <MS_PT>COS-TO-111</MS_PT>
     <TEN_PT>Cây lục giác (hệ mét) 14</TEN_PT>
     <QUY_CACH>14li</QUY_CACH>
     <MS_PT_NCC />
@@ -41896,7 +41974,7 @@
   <Table2>
     <MS_KHO>31</MS_KHO>
     <TEN_KHO>Kho VTPT Hà Nam</TEN_KHO>
-    <MS_PT>COS-to-112</MS_PT>
+    <MS_PT>COS-TO-112</MS_PT>
     <TEN_PT>Cây lục giác (hệ mét) 17</TEN_PT>
     <QUY_CACH>17li</QUY_CACH>
     <MS_PT_NCC />
@@ -46611,6 +46689,19 @@
   <Table2>
     <MS_KHO>36</MS_KHO>
     <TEN_KHO>Kho dao cắt</TEN_KHO>
+    <MS_PT>BEA-BE-075</MS_PT>
+    <TEN_PT>Bạc đạn SKF 6213-2RS1/C3</TEN_PT>
+    <QUY_CACH>6213-2RS1/C3</QUY_CACH>
+    <MS_PT_NCC>6213-2RS1/C3</MS_PT_NCC>
+    <SO_LUONG>1.000</SO_LUONG>
+    <GIA_TRI>12553130</GIA_TRI>
+    <ID>1</ID>
+    <TTT>0</TTT>
+    <TTD>0</TTD>
+  </Table2>
+  <Table2>
+    <MS_KHO>36</MS_KHO>
+    <TEN_KHO>Kho dao cắt</TEN_KHO>
     <MS_PT>CN-DC-0001</MS_PT>
     <TEN_PT>Dao cắt máy MC1 và MC3</TEN_PT>
     <QUY_CACH />
@@ -46624,25 +46715,12 @@
   <Table2>
     <MS_KHO>36</MS_KHO>
     <TEN_KHO>Kho dao cắt</TEN_KHO>
-    <MS_PT>COS-TO-013</MS_PT>
-    <TEN_PT>Kính hàn</TEN_PT>
-    <QUY_CACH>Kính mặt nạ hàn</QUY_CACH>
+    <MS_PT>DIE-PM-019</MS_PT>
+    <TEN_PT>Khuôn ép viên 2.5x55/30-TPM520-205</TEN_PT>
+    <QUY_CACH>Khuon ep vien 2.5x55/30-TPM520-205</QUY_CACH>
     <MS_PT_NCC />
-    <SO_LUONG>2.000</SO_LUONG>
-    <GIA_TRI>7000</GIA_TRI>
-    <ID>1</ID>
-    <TTT>0</TTT>
-    <TTD>0</TTD>
-  </Table2>
-  <Table2>
-    <MS_KHO>36</MS_KHO>
-    <TEN_KHO>Kho dao cắt</TEN_KHO>
-    <MS_PT>COS-WR-001</MS_PT>
-    <TEN_PT>Que hàn 3.2-kobe</TEN_PT>
-    <QUY_CACH />
-    <MS_PT_NCC />
-    <SO_LUONG>10.000</SO_LUONG>
-    <GIA_TRI>242000</GIA_TRI>
+    <SO_LUONG>1.000</SO_LUONG>
+    <GIA_TRI>2890</GIA_TRI>
     <ID>1</ID>
     <TTT>0</TTT>
     <TTD>0</TTD>
@@ -46656,12 +46734,12 @@ Telephone: 084 28 3 8 110  Fax: 084 28 3 8 110</THONG_TIN_CTY>
     <LE_TREN_LOGO>120</LE_TREN_LOGO>
     <WIDTH>1800</WIDTH>
     <HEIGHT>500</HEIGHT>
-    <NGAY_IN>Ngày in: : 03/04/2023</NGAY_IN>
+    <NGAY_IN>Ngày in: : 03/09/2023</NGAY_IN>
     <PAGE>Trang: </PAGE>
     <OFPAGE>/</OFPAGE>
     <TTC_CAO>700</TTC_CAO>
     <TTC_RONG>7000</TTC_RONG>
     <USER_LOG>User : admin</USER_LOG>
-    <NGAY_HT>K? phân b? : 03/04/2023</NGAY_HT>
+    <NGAY_HT>K? phân b? : 03/09/2023</NGAY_HT>
   </rptTitlereport>
 </NewDataSet>

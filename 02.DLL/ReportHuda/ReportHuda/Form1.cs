@@ -27,7 +27,7 @@ namespace ReportHuda
             //NMN_TD.UCKeHoachBT_Thang myUc = new NMN_TD.UCKeHoachBT_Thang();
             //UControl.ucBaoCaoYCNSD myUc = new UControl.ucBaoCaoYCNSD();
             //ucMaintainMonth myUc = new ucMaintainMonth();
-            ucDienBienKPI myUc = new ucDienBienKPI();
+            ucDanhSachPBT myUc = new ucDanhSachPBT();
 
 
             myUc.Location = new Point(0, 0);

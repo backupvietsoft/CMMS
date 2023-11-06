@@ -14,20 +14,21 @@ namespace ReportMain
         static void Main()
         {
             Commons.Modules.ModuleName = "ECOMAIN";
-            Commons.Modules.UserName = "administrator";
+            Commons.Modules.UserName = "admin";
             //Commons.Modules.UserName = "007635";
             Commons.Modules.PermisString = "Full access";
             //Commons.Modules.UserName = "svi1310278";
             Commons.Modules.TypeLanguage = 0;
             //Commons.IConnections.Server = "10.39.244.220";
             // Commons.IConnections.Server = "10.39.244.219";
-            Commons.IConnections.Server = "27.74.240.29,1434";
+            Commons.IConnections.Server = "27.74.240.29";
             //Commons.IConnections.Database = "CMMS_PILMICO";
             //Commons.IConnections.Database = "CMMS_GREENFEED";
-            Commons.IConnections.Database = "CMMS_DEMO";
+            Commons.IConnections.Database = "CMMS_BARIA";
             //Commons.IConnections.Database = "CMMS_REMINGTON";
             Commons.IConnections.Password = "codaikadaiku";
             Commons.IConnections.Username = "sa";
+            Commons.Modules.sPrivate = "BARIA";
             //   Commons.IConnections.Password = "Veco@2015";
             //Commons.IConnections.Server = "172.16.5.50";
             //Commons.IConnections.Password = "Pil@2018";
@@ -55,7 +56,7 @@ namespace ReportMain
             //Commons.Modules.sPrivate = @"VINHHOAN";
             //Commons.Modules.sPrivate = @"VECO";
             //Commons.Modules.sPrivate = "VINHHOANG";
-            Commons.Modules.sPrivate = "VIETSOFT";
+            //Commons.Modules.sPrivate = "VIETSOFT";
 
 
             Commons.Modules.iReport = 1;
@@ -85,9 +86,8 @@ namespace ReportMain
             try
             {
 
-                //Application.Run(new XtraForm1());
+                Application.Run(new XtraForm1());
                 //Application.Run(new frmPhieuTamXuatTaiNhap());
-                Application.Run(new frmYeuCauCuaNSD());
                 //frmThemCongViec frm = new frmThemCongViec();
                 //frm.sMsMay = "HAM-0006";
                 //frm.sMsBoPhan = "01.01.02";

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
@@ -7,6 +7,9 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using Microsoft.ApplicationBlocks.Data;
+using DevExpress.XtraGrid;
+using DevExpress.XtraGrid.Columns;
+using DevExpress.Data;
 
 namespace ReportMain
 {
@@ -21,7 +24,7 @@ namespace ReportMain
         {
             try
             {
-            
+
                 Commons.Modules.ObjSystems.MLoadCboTreeList(ref cboDDiem, Commons.Modules.ObjSystems.MLoadDataNhaXuongTree(1), "MS_CHA", "MS_N_XUONG", "TEN_N_XUONG");
 
             }
@@ -58,7 +61,7 @@ namespace ReportMain
             catch { }
 
         }
-       
+
 
         private void LoadMay()
         {
@@ -75,16 +78,16 @@ namespace ReportMain
                 if (cboLMay.EditValue.ToString() != "-1") sLmay = cboLMay.EditValue.ToString();
 
                 dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.ConnectionString, "GetMayBCChiPhi", datTNgay.DateTime, datDNgay.DateTime,
-                    iHThong, sDChuyen, iBPhan, sLmay,"-1", Commons.Modules.UserName,1 ));
+                    iHThong, sDChuyen, iBPhan, sLmay, "-1", Commons.Modules.UserName, 1));
                 Commons.Modules.ObjSystems.MLoadLookUpEditNoRemove(cboThietBi, dtTmp, "MS_MAY", "TEN_MAY", "ucBaoCaoChiPhiChiTiet");
             }
-             catch { }
+            catch { }
         }
 
         private void cboLMay_EditValueChanged(object sender, EventArgs e)
         {
             LoadMay();
-        }        
+        }
         private void ucBaoCaoChiPhiChiTiet_Load(object sender, EventArgs e)
         {
             datTNgay.DateTime = DateTime.Parse("01/" + DateTime.Now.Month.ToString() + "/" + DateTime.Now.Year.ToString());
@@ -93,6 +96,7 @@ namespace ReportMain
             LoadDChuyen();
             LoadBPChiuPhi();
             LoadLoaiMay();
+            grdChung.Visible = false;
         }
 
         private void btnTimMay_Click(object sender, EventArgs e)
@@ -109,7 +113,7 @@ namespace ReportMain
             sLoaiMay = cboLMay.EditValue.ToString();
             if (frm.ShowDialog() == DialogResult.Cancel) return;
             string sMsMay;
-            
+
             sMsMay = frm.MsMay;
             sLoaiMay = frm.LoaiMay;
             if (sMsMay == "") return;
@@ -166,27 +170,39 @@ namespace ReportMain
                     "KhongCoDuLieuIn", Commons.Modules.TypeLanguage), this.Name);
                 return;
             }
-            dtTmp.Columns["STT"].ReadOnly = false;
-            for (int i = 0; i <= dtTmp.Rows.Count - 1; i++)
+            if(grdChung.DataSource == null)
             {
-                dtTmp.Rows[i][0] = (i + 1).ToString();
-            }
-            //grvChung.OptionsView.AllowCellMerge = true;
-            Commons.Modules.ObjSystems.MLoadXtraGrid(grdChung, grvChung, dtTmp, true, false, true, true, true, "ucBaoCaoChiPhiChiTiet");
-            InDuLieu();
+                dtTmp.Columns["STT"].ReadOnly = false;
+                Commons.Modules.ObjSystems.MLoadXtraGrid(grdChung, grvChung, dtTmp, false, true, true, true, true, "ucBaoCaoChiPhiChiTiet");
+                int n = grvChung.RowCount;
+                grvChung.Columns["TEN_NHOM_MAY"].Group();
+
+                GridColumn col = grvChung.Columns["TONG"]; // Thay "TenCotCanTinhTong" bằng tên cột cần tính tổng
+                GridGroupSummaryItem summaryItem = new GridGroupSummaryItem()
+                {
+                    FieldName = col.FieldName,
+                    SummaryType = SummaryItemType.Sum,
+                    DisplayFormat = "!{0}", // Định dạng hiển thị tổng
+                };
+                grvChung.GroupSummary.Add(summaryItem);
+            }   
+            else
+            {
+                grdChung.DataSource = dtTmp;
+            }    
+            InDuLieu(dtTmp);
         }
-        private void InDuLieu()
+        private void InDuLieu(DataTable dt)
         {
             string sPath = "";
             sPath = Commons.Modules.MExcel.SaveFiles("Excel file (*.xls)|*.xls");
             if (sPath == "") return;
             this.Cursor = Cursors.WaitCursor;
             Excel.Application xlApp = new Excel.Application();
-
             try
             {
-                int TCot = grvChung.Columns.Count;
-                int TDong = grvChung.RowCount;
+                int TCot = grvChung.Columns.Count - 1;
+                int TDong = grvChung.RowCount + dt.Rows.Count;
                 int Dong = 1;
                 prbIN.Visible = true;
                 prbIN.Position = 0;
@@ -209,7 +225,7 @@ namespace ReportMain
                 prbIN.PerformStep();
                 prbIN.Update();
                 #endregion
-                Dong = Commons.Modules.MExcel.TaoTTChung(xlWorkSheet, 1, 4, 1, TCot);
+                Dong = Commons.Modules.MExcel.TaoTTChung(xlWorkSheet, 1, 4, 1, TCot);   
                 Commons.Modules.MExcel.TaoLogo(xlWorkSheet, 0, 0, 110, 45, Application.StartupPath);
                 Commons.Modules.MExcel.ThemDong(xlWorkSheet, Excel.XlInsertShiftDirection.xlShiftDown, 7, Dong);
 
@@ -220,7 +236,7 @@ namespace ReportMain
                 Dong++;
 
                 Commons.Modules.MExcel.DinhDang(xlWorkSheet, Commons.Modules.ObjLanguages.GetLanguage(Commons.Modules.ModuleName,
-                    "ucBaoCaoChiPhiChiTiet", "TieuDe", Commons.Modules.TypeLanguage), Dong, 1, "@", 16, true,
+                    "ucBaoCaoChiPhiChiTiet", "TieuDe", Commons.Modules.TypeLanguage), Dong, 2, "@", 16, true,
                     Excel.XlHAlign.xlHAlignCenter, Excel.XlVAlign.xlVAlignCenter, true, Dong, TCot);
 
                 #region prb
@@ -234,7 +250,7 @@ namespace ReportMain
                 Commons.Modules.MExcel.DinhDang(xlWorkSheet, stmp, Dong, 1, "@", 10, true,
                     Excel.XlHAlign.xlHAlignCenter, Excel.XlVAlign.xlVAlignCenter, true, Dong, TCot);
 
-                 
+
                 Dong++;
                 stmp = lblDDiem.Text + " : " + cboDDiem.TextValue;
                 Commons.Modules.MExcel.DinhDang(xlWorkSheet, stmp, Dong, 2, "@", 10, true, true, Dong, 4);
@@ -272,22 +288,43 @@ namespace ReportMain
                 prbIN.Update();
                 #endregion
 
-                Commons.Modules.MExcel.DinhDang(xlWorkSheet, Commons.Modules.ObjLanguages.GetLanguage(Commons.Modules.ModuleName,
-                    "ucKeHoachBatTriNamNutifood", "TongCong", Commons.Modules.TypeLanguage), Dong + TDong + 1, 1, "@", 10, true,
-                    Excel.XlHAlign.xlHAlignRight, Excel.XlVAlign.xlVAlignCenter, true, Dong + TDong + 1, 11);
-                      
-                for (int i = 12; i <= TCot; i++)
+                int n = 13;
+                string schuoi;
+                string sDiemSum ="";
+                title = Commons.Modules.MExcel.GetRange(xlWorkSheet, 12, 2, 12, 2);
+                title.Value2 = "STT";
+                for (int i = 0; i < TDong; i++)
                 {
-                    title = Commons.Modules.MExcel.GetRange(xlWorkSheet, Dong + TDong + 1, i, Dong + TDong + 1, i);
-                    title.Value2 = "=SUM(" + Commons.Modules.MExcel.TimDiemExcel(Dong + 1, i) + ":" +
-                        Commons.Modules.MExcel.TimDiemExcel(Dong + TDong, i) + ")";
-                    title.NumberFormat = "#,##0";
-                    title.Font.Bold = true;
-                    title.HorizontalAlignment = Excel.XlHAlign.xlHAlignRight;
-                    title.VerticalAlignment = Excel.XlVAlign.xlVAlignCenter;
+                    title = Commons.Modules.MExcel.GetRange(xlWorkSheet, n + i, 2, n + i, 2);
+                    if (title.Value != null && title.Value.ToString() == "1")
+                    {
+                        //thì trên một dòng bỏ mer
+                        title = Commons.Modules.MExcel.GetRange(xlWorkSheet, n + i - 1, 1, n + i - 1, TCot);
+                        title.WrapText = false;
+                        title.UnMerge();
+                        title = Commons.Modules.MExcel.GetRange(xlWorkSheet, n + i - 1, 1, n + i - 1, 1);
+                        schuoi = title.Value.ToString();
+
+                        title = Commons.Modules.MExcel.GetRange(xlWorkSheet, n + i - 1, 2, n + i - 1, 2);
+                        title.Value2 = schuoi.Split('!')[0];
+                        title = Commons.Modules.MExcel.GetRange(xlWorkSheet, n + i - 1, 2, n + i - 1, 5);
+                        title.Merge();
+
+
+                        title = Commons.Modules.MExcel.GetRange(xlWorkSheet, n + i - 1, TCot + 1, n + i - 1, TCot + 1);
+                        title.Value2 = schuoi.Split('!')[1];
+                        title.HorizontalAlignment = Excel.XlHAlign.xlHAlignRight;
+                        title.VerticalAlignment = Excel.XlVAlign.xlVAlignCenter;
+
+                        sDiemSum += Commons.Modules.MExcel.TimDiemExcel(n + i - 1,TCot) +",";
+
+                    }
                 }
 
-                title = Commons.Modules.MExcel.GetRange(xlWorkSheet, Dong, 1, Dong + TDong+1, TCot);
+                Excel.Range columnToDelete = xlWorkSheet.Range["A:A"]; // Thay thế "A:A" bằng địa chỉ của cột bạn muốn xóa
+                columnToDelete.Delete();
+
+                title = Commons.Modules.MExcel.GetRange(xlWorkSheet, Dong, 1, Dong + TDong + 1, TCot);
                 title.Borders.LineStyle = 1;
                 title.Borders.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.FromArgb(0, 0, 0));
 
@@ -314,12 +351,36 @@ namespace ReportMain
                 title = Commons.Modules.MExcel.GetRange(xlWorkSheet, 5, 1, 5, 1);
                 title.RowHeight = 9;
 
-                                
+
                 #region prb
                 prbIN.PerformStep();
                 prbIN.Update();
                 #endregion
 
+                Commons.Modules.MExcel.DinhDang(xlWorkSheet, Commons.Modules.ObjLanguages.GetLanguage(Commons.Modules.ModuleName,
+                    "ucKeHoachBatTriNamNutifood", "TongCong", Commons.Modules.TypeLanguage), Dong + TDong + 1, 1, "@", 10, true,
+                    Excel.XlHAlign.xlHAlignRight, Excel.XlVAlign.xlVAlignCenter, true, Dong + TDong + 1, 11);
+                for (int i = 12; i <= TCot; i++)
+                {
+                    title = Commons.Modules.MExcel.GetRange(xlWorkSheet, Dong + TDong + 1, i, Dong + TDong + 1, i);
+
+                    if(TCot != i)
+                    {
+                        title.Value2 = "=SUM(" + Commons.Modules.MExcel.TimDiemExcel(Dong + 1, i) + ":" +
+                        Commons.Modules.MExcel.TimDiemExcel(Dong + TDong, i) + ")";
+                    }    
+                    else
+                    {
+                        //title.Value2 = "=SUM(" + sDiemSum.Substring(0,sDiemSum.Length - 1) + ")";
+                        //XtraMessageBox.Show(sDiemSum.Substring(0, sDiemSum.Length - 1));
+                        title.Value2 = "=SUM(" + Commons.Modules.MExcel.TimDiemExcel(Dong + 1, i) + ":" +
+      Commons.Modules.MExcel.TimDiemExcel(Dong + TDong, i) + ")/2";
+                    }
+                    title.NumberFormat = "#,##0";
+                    title.Font.Bold = true;
+                    title.HorizontalAlignment = Excel.XlHAlign.xlHAlignRight;
+                    title.VerticalAlignment = Excel.XlVAlign.xlVAlignCenter;
+                }
 
                 //oldCultureInfo.DateTimeFormat.ShortDatePattern
                 Commons.Modules.MExcel.ColumnWidth(xlWorkSheet, 4, "##", true, Dong + 1, 1, TDong + Dong, 1);
@@ -353,7 +414,7 @@ namespace ReportMain
                 xlApp.Quit();
                 Commons.Modules.ObjSystems.MReleaseObject(xlApp);
 
-                XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(Commons.Modules.ModuleName,
+                XtraMessageBox.Show(ex.Message.ToString() + Commons.Modules.ObjLanguages.GetLanguage(Commons.Modules.ModuleName,
                     "ucBaoCaoChiPhiChiTiet", "InKhongThanhCong", Commons.Modules.TypeLanguage) + "\n" +
                     ex.Message, this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }

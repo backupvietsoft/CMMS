@@ -15,11 +15,11 @@ namespace Update
         /// The main entry point for the application.
         /// </summary>
         /// 
-        public static string URL_UPDATE = "https://www.dropbox.com/s/dczzc802ht7c8nz/Update.zip?dl=0";
-        public static string URL_VERSION = "https://www.dropbox.com/s/d43u0654cr26tdx/Version.txt?dl=0";
+        public static string URL_UPDATE = "https://dl.dropboxusercontent.com/scl/fi/lx59e10eq0p2x9jf8vyq4/Update.zip?rlkey=928bex4e5omugh6tv4svh0ama&dl=0";
+        public static string URL_VERSION = "https://dl.dropboxusercontent.com/scl/fi/xrpqx61l6afd0cl1efwtj/Version.txt?rlkey=lekngywek9nvfz7xx8sdlb0z1&dl=0";
         public static int UpdateType = 2;
         public static string URL_LAN = @"\\192.168.2.5\Public\TruongCongHuong\Update";//@"\\192.168.2.22\Update";
-        public static string sProcess = @"VS_HRM";
+        public static string sProcess = @"CMMS";
 
         [STAThread]
         static void Main(string[] args)
